@@ -1,0 +1,22 @@
+0 Version 0 reconstruction checkpoint — book 1 pages 11-12, steps 1-4
+0 Work in progress. Not the completed version 0.
+0 Coordinates: X along plinth, Y downward, Z across plinth. Units LDU.
+0 Reference colors and part IDs require inventory cross-check before acceptance.
+0 STEP 1 / book 1 page 11
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 3035.dat
+1 322 -40 -8 -30 1 0 0 0 1 0 0 0 1 3710.dat
+1 322 -40 -8 30 1 0 0 0 1 0 0 0 1 3710.dat
+0 STEP
+0 STEP 2 / book 1 page 11
+1 15 80 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat
+1 15 80 -8 30 1 0 0 0 1 0 0 0 1 3460.dat
+1 26 -40 -8 -10 1 0 0 0 1 0 0 0 1 34103.dat
+1 26 -40 -8 10 1 0 0 0 1 0 0 0 1 34103.dat
+0 STEP
+0 STEP 3 / book 1 page 12
+1 72 160 0 0 1 0 0 0 1 0 0 0 1 3035.dat
+0 STEP
+0 STEP 4 / book 1 page 12
+1 34 130 -8 -30 1 0 0 0 1 0 0 0 1 6141.dat
+1 34 130 -8 30 1 0 0 0 1 0 0 0 1 6141.dat
+0 STEP

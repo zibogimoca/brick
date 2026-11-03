@@ -116,6 +116,15 @@
       "method": "다음 시도에서는 같은 시점의 참고 도해를 기준으로 두개골 입체감과 개구부, 갈비뼈의 곡률과 길이, 골반·다리·꼬리 비례를 부위별로 비교한다. 부족한 부위는 설명서의 해당 조립 단계를 추가로 확인하고 구조를 검토한다.",
       "verification_level": "user_feedback_and_proposed_process",
       "limitations": "개선 방법은 아직 검증되지 않았고 실제 조립·가동·하중을 증명하지 않는다."
+    },
+    {
+      "id": "staggered-technic-seams",
+      "category": "structural_reference",
+      "application_conditions": "긴 테크닉 브릭 두 줄을 병렬 연결하는 프레임",
+      "evidence": "설명서 1권 13–14쪽 7단계의 1×8 두 개·1×16 세 개·핀 여덟 개 배치 도해",
+      "lesson": "나란한 두 줄의 끝 이음매를 같은 위치에 모으지 않고 엇갈리게 배치하고 핀으로 횡방향 연결하는 구성을 관찰했다. 긴 프레임 설계 시 검토할 원리다.",
+      "verification_level": "instruction_diagram_observation",
+      "limitations": "실물 강도·핀 위치·전체 프레임 배치 검증은 아직 수행하지 않았다."
     }
   ]
 }
