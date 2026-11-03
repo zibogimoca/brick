@@ -34,7 +34,7 @@ for part in dictionary['parts']:
  if part['gobricks_id'] not in mapping:continue
  name=mapping[part['gobricks_id']];v,studs=flatten(name+'.dat')
  lo=[min(x[i] for x in v) for i in range(3)];hi=[max(x[i] for x in v) for i in range(3)]
- part['geometry']={'file':'assets/ldraw/parts/'+name+'.dat','sha256':hashlib.sha256((ROOT/'parts'/f'{name}.dat').read_bytes()).hexdigest(),'source':'LDraw official complete.zip','mapping_basis':'Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.','asset_manifest':'assets/ldraw/manifest.json'}
+ part['geometry']={'file':'assets/ldraw/parts/'+name+'.dat','sha256':hashlib.sha256((ROOT/'parts'/f'{name}.dat').read_bytes()).hexdigest(),'source':'LDraw official complete.zip','mapping_basis':'Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.','asset_manifest':'assets/policy.md#에셋-목록'}
  part['dimensions']={'units':'LDU','mm_per_ldu':0.4,'frame':'right-handed, up=-Y, original LDraw origin','bounds':{'min':lo,'max':hi},'size_mm':[round((hi[i]-lo[i])*.4,6) for i in range(3)],'basis':'Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement.'}
  connectors=list(studs)
  for idx,c in enumerate(connectors):c['id']='stud-'+str(idx)
@@ -51,6 +51,6 @@ for part in dictionary['parts']:
  part['geometry_verification']='reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified'
  # Save only top stud and selected connection information, not an exhaustive automatic connection inventory.
  part['connection_inventory_scope']='Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility.'
-dictionary['geometry_enrichment']={'reference_parts_prepared':len(mapping),'reference_assets':'assets/ldraw/manifest.json','physical_tests':False,'remaining_parts_geometry_pending':len(dictionary['parts'])-len(mapping)}
+dictionary['geometry_enrichment']={'reference_parts_prepared':len(mapping),'reference_assets':'assets/policy.md#에셋-목록','physical_tests':False,'remaining_parts_geometry_pending':len(dictionary['parts'])-len(mapping)}
 p.write_text(json.dumps(dictionary,ensure_ascii=False,indent=2)+'\n')
 print('Enriched',len(mapping),'reference parts with resolved geometry and selected connection annotations.')

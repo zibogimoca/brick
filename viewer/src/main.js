@@ -49,9 +49,10 @@ async function open(buffer, name, revision) {
       if (library) { const url = new URL(library); if (!['https:', 'http:'].includes(url.protocol)) throw new Error(); loader.setPartsLibraryPath(url.href.replace(/\/?$/, '/')); }
       else {
         loader.setPartsLibraryPath(new URL('./parts-library/', location.href).href);
-        const manifestResponse = await fetch('./parts-library/manifest.json');
+        const manifestResponse = await fetch('./parts-library/policy.md');
         if (!manifestResponse.ok) throw new Error('Parts manifest missing');
-        const manifest = await manifestResponse.json();
+        const policy = await manifestResponse.text();
+        const manifest = JSON.parse(policy.split('<!-- asset-manifest:start -->\n```json\n')[1].split('\n```\n<!-- asset-manifest:end -->')[0]);
         for (const path of Object.keys(manifest.files)) {
           if (path.endsWith('.dat')) loader.fileMap[path.replace(/^(parts|p)\//, '')] = path;
         }

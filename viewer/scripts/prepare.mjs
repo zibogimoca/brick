@@ -4,6 +4,7 @@ const root = new URL('../../', import.meta.url);
 const publicRoot = new URL('../public/', import.meta.url);
 await rm(new URL('parts-library/', publicRoot), { recursive: true, force: true });
 await cp(new URL('assets/ldraw/', root), new URL('parts-library/', publicRoot), { recursive: true });
+await cp(new URL('assets/policy.md', root), new URL('parts-library/policy.md', publicRoot));
 await rm(new URL('models/', publicRoot), { recursive: true, force: true });
 await mkdir(new URL('models/', publicRoot), { recursive: true });
 const entries = [];

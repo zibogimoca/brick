@@ -3,7 +3,7 @@ import hashlib,json,math
 from pathlib import Path
 from collections import Counter
 from decimal import Decimal
-root=Path('assets/ldraw');manifest=json.loads((root/'manifest.json').read_text())
+root=Path('assets/ldraw');manifest=json.loads(Path('assets/policy.md').read_text().split('<!-- asset-manifest:start -->\n```json\n',1)[1].split('\n```\n<!-- asset-manifest:end -->',1)[0])
 for rel,entry in manifest['files'].items():
  data=(root/rel).read_bytes();assert hashlib.sha256(data).hexdigest()==entry['sha256'],rel
  assert len(data)==entry['bytes'],rel

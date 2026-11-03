@@ -30,5 +30,7 @@ with zipfile.ZipFile(args.archive) as z:
   for f in (ROOT/folder).rglob('*.dat'):
    if f.relative_to(ROOT).as_posix() not in done:f.unlink()
  manifest={'source':source,'archive_sha256':hashlib.sha256(args.archive.read_bytes()).hexdigest(),'verification':'HTTPS source, ZIP member CRCs and retained per-file SHA-256; archive SHA is an observation, not a separately published signature.','parts':TOP,'files':done}
- (ROOT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+ policy=ROOT.parent/'policy.md';text=policy.read_text();start='<!-- asset-manifest:start -->\n```json\n';end='\n```\n<!-- asset-manifest:end -->'
+ before,rest=text.split(start,1);_,after=rest.split(end,1)
+ policy.write_text(before+start+json.dumps(manifest,ensure_ascii=False,indent=2)+end+after)
 print('Extracted and verified',len(done),'files for',len(TOP),'parts')
