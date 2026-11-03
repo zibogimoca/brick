@@ -1,0 +1,82 @@
+{
+  "schema_version": 3,
+  "purpose": "다른 모델에도 재사용할 설계 경험. 개별 모델의 진행·개선 기록은 models/<모델명>.md에서 관리한다.",
+  "retention_rule": "다음 설계에 유용한 적용 조건·근거·한계만 남긴다. 미검증 해법을 성공 사례로 승격하지 않는다.",
+  "examples": [
+    {
+      "id": "joint8-chain",
+      "purpose": "Place a manufacturer-listed ball/socket reference pair at a common center.",
+      "reference_gobricks_ids": [
+        "851",
+        "904"
+      ],
+      "a": {
+        "part": "14418.dat",
+        "socket_center": [
+          30,
+          4,
+          0
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "b": {
+        "part": "14419.dat",
+        "ball_center": [
+          -30,
+          4,
+          0
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "translation": [
+          60,
+          0,
+          0
+        ]
+      },
+      "units": "LDU",
+      "evidence": [
+        "assets/parts/14418.dat",
+        "assets/parts/14419.dat"
+      ],
+      "validation": "Reference centers coincide; physical fit and strength untested.",
+      "category": "connection",
+      "verification_level": "reference_geometry_only",
+      "application_conditions": "해당 LDraw 볼·소켓 중심 배치에 한정. 허용 가동각·간섭·고브릭스 실물 호환성·하중은 미검증."
+    },
+    {
+      "id": "connectivity-does-not-prove-model-quality",
+      "category": "design_review",
+      "problem": "부품 연결과 격자 검사 통과를 모델 품질의 충분한 기준으로 취급함.",
+      "evidence": "models/tyrannosaurus.md: 초기 모델에 대한 사용자 외형·가동성 평가 및 기존 검사 한계.",
+      "application_conditions": "공룡 골격 등 외형·가동성과 지지 구조를 함께 평가하는 모델.",
+      "lesson": "연결 검사와 별개로 기준 제품과 같은 시점의 실루엣·골격 특징·가동 자세·지지 조건을 비교해야 한다.",
+      "verification_level": "user_feedback_and_process_lesson",
+      "limitations": "비교 절차의 필요성을 기록한 것이며, 개선 모델의 성공이나 실물 안정성은 아직 확인되지 않았다."
+    }
+  ]
+}
