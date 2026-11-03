@@ -1,6 +1,37 @@
 {
   "schema_version": 1,
-  "status": "not_populated",
-  "description": "Searchable GoBricks part data. No verified part records have been imported into this new dictionary.",
-  "parts": []
+  "status": "blocked_network_policy",
+  "description": "Searchable GoBricks part dictionary. No part records collected yet.",
+  "parts": [],
+  "collection": {
+    "scope": "GoBricks publicly listed sale parts; shape identifiers distinct from color variants",
+    "sources": [
+      {
+        "url": "https://www.gobricks.cn/",
+        "role": "manufacturer",
+        "result": "proxy_connect_403"
+      },
+      {
+        "url": "https://gobricks.cn/",
+        "role": "manufacturer",
+        "result": "proxy_connect_403"
+      }
+    ],
+    "expected_part_count": null,
+    "collected_part_count": 0,
+    "complete": false,
+    "blocker": "Official source access is denied by the cloud network policy. Required domain additions have been saved to the environment draft; runtime access is not yet confirmed.",
+    "next_step": "Retry official source access after the network settings are applied; discover catalog pagination and collect identifiers before enriching geometry."
+  },
+  "record_fields": {
+    "gobricks_id": "Manufacturer part identifier; never inferred solely from a LEGO/LDraw number",
+    "name": "Source part name",
+    "category": "Source category",
+    "color_variants": "Source-listed color identifiers, separate from geometry variants",
+    "geometry": "LDraw or equivalent geometry reference and verified identifier mapping; null until confirmed",
+    "dimensions": "Dimensions with explicit units and coordinate convention; null until confirmed",
+    "connectors": "Connection types, local positions and axes with evidence; null until confirmed",
+    "sources": "Source URLs and observation dates",
+    "verification": "Separate sale listing, geometry mapping and connection verification states"
+  }
 }
