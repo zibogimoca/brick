@@ -77,6 +77,26 @@
       "lesson": "연결 검사와 별개로 기준 제품과 같은 시점의 실루엣·골격 특징·가동 자세·지지 조건을 비교해야 한다.",
       "verification_level": "user_feedback_and_process_lesson",
       "limitations": "비교 절차의 필요성을 기록한 것이며, 개선 모델의 성공이나 실물 안정성은 아직 확인되지 않았다."
+    },
+    {
+      "id": "confirm-part-axis-before-placement",
+      "category": "geometry",
+      "problem": "긴 플레이트의 길이 축을 Z로 추정해 두개골과 꼬리 방향을 잘못 배치함.",
+      "application_conditions": "새 부품의 LDraw 좌표 방향을 설계에 적용할 때.",
+      "method": "사전의 실제 형상 경계와 연결 위치를 확인한 뒤 회전행렬을 정하고 정면·측면 렌더로 대조한다.",
+      "evidence": "models/tyrannosaurus.md; 60479의 긴 축은 X(-120..120), Z는 -10..10.",
+      "verification_level": "reference_geometry_and_render",
+      "limitations": "축 확인은 실제 부품 간 연결·간섭·하중 검증을 대신하지 않는다."
+    },
+    {
+      "id": "laminated-tapered-bone-panels",
+      "category": "geometry_and_assembly_review",
+      "problem": "비스듬한 두개골 테두리를 겹쳐 외형을 채우면 부품 몸체가 관통할 수 있다.",
+      "application_conditions": "구멍과 두께 변화가 필요한 평판 조립 골격.",
+      "method": "구멍을 제외한 점유 영역을 전역 스터드·플레이트 층으로 나누고, 폭이 바뀌는 구간에서도 같은 층의 브리징 부품을 공유한다. 매 수정 후 명목 몸체 간섭 검사와 정면·측면 렌더를 함께 확인한다.",
+      "evidence": "models/tyrannosaurus.md; tools/validate_model.py --check-body-overlaps",
+      "verification_level": "nominal_rectangular_body_check_and_render",
+      "limitations": "직육면체 몸체 겹침 제거만 확인. 전체 결합 그래프·곡선 부품 간섭·핀 고정·실물 강도는 별도 검증이 필요하다."
     }
   ]
 }

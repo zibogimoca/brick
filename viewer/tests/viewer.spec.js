@@ -35,3 +35,25 @@ test('opens local MPD without uploading and works at mobile size', async ({ page
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
   expect(posts).toEqual([]); await expect(page.locator('canvas')).toBeVisible();
 });
+
+test('pose controls transform the model canvas and reset; support is independently visible', async ({ page }) => {
+  await load(page);
+  await expect(page.locator('#pose-panel')).toBeVisible();
+  await expect(page.locator('#joint option')).toHaveCount(18);
+  await page.selectOption('#joint', 'jaw');
+  const canvas = page.locator('canvas');
+  await page.waitForTimeout(500);
+  const before = await canvas.screenshot();
+  await page.locator('#joint-axes input').evaluate(input => { input.value = '12'; input.dispatchEvent(new Event('input', { bubbles: true })); });
+  await page.waitForTimeout(250);
+  const after = await canvas.screenshot();
+  expect(Buffer.compare(before, after)).not.toBe(0);
+  await page.click('#pose-reset');
+  await expect(page.locator('#joint-axes input')).toHaveValue('0');
+  await page.click('#support-toggle');
+  await expect(page.locator('#support-toggle')).toHaveText('지지대 보기');
+  await page.click('#support-toggle');
+  await expect(page.locator('#support-toggle')).toHaveText('지지대 숨기기');
+  await page.click('#side-view'); await page.click('#front-view');
+  await expect(page.locator('#status')).toContainText('모델을 불러왔습니다');
+});

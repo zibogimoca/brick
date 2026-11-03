@@ -25699,10 +25699,38 @@
         "11090",
         "44873"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/11090.dat",
+        "sha256": "eacba769220f3b71ab2c78435e75a647b0aa9bab85121aeb2850da8a79bb8506",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -7.447946754,
+            -4.0298,
+            -6.25
+          ],
+          "max": [
+            7.447946754,
+            30.0,
+            6.25
+          ]
+        },
+        "size_mm": [
+          5.958357,
+          13.61192,
+          5.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-1058-010",
@@ -26471,7 +26499,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/1058.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-1058-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "1059",
@@ -115006,10 +115035,38 @@
         "53451",
         "88513"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/53451.dat",
+        "sha256": "a348c550de42f76b6d4bde092ed36f03f6f6e7cd380531f338e1d14c61d44718",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -5.0,
+            -9.365572591,
+            -8.0
+          ],
+          "max": [
+            5.0,
+            5.0,
+            26.065572591
+          ]
+        },
+        "size_mm": [
+          4.0,
+          5.746229,
+          13.626229
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-1462-010",
@@ -115778,7 +115835,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/1462.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-1462-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "1463",
@@ -138752,10 +138810,38 @@
         "35341",
         "67130"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/22385.dat",
+        "sha256": "701fc9453e531e40d2aa22f8df71a3c4f25d328bb087a45b17d233351e53b6e8",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            0.0,
+            -30.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            30.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          3.2,
+          24.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-1580-010",
@@ -139394,7 +139480,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/152/1580.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-1580-152"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "1581",
@@ -140540,10 +140627,38 @@
         "87747",
         "93788"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/87747.dat",
+        "sha256": "036ae69e008723e62f04c58ea4795178ba3f03ee75bd7a3878b6aba6b2db4794",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -7.5,
+            -39.89,
+            -10.0
+          ],
+          "max": [
+            7.5,
+            10.0,
+            19.99
+          ]
+        },
+        "size_mm": [
+          6.0,
+          19.956,
+          11.996
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-1583-010",
@@ -140987,7 +141102,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/140/1583.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-1583-140"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "1584",
@@ -173906,10 +174022,38 @@
         "2780",
         "61332"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/2780.dat",
+        "sha256": "37b6506c54382e67f05824a68a887db6dd820b384d6dec7d1376d5dcc40ff4a3",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -7.801,
+            -8.0005308
+          ],
+          "max": [
+            20.0,
+            7.801,
+            8.0005308
+          ]
+        },
+        "size_mm": [
+          16.0,
+          6.2408,
+          6.400425
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-2139-010",
@@ -174483,7 +174627,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/092/2139.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-2139-092"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "2140",
@@ -236311,10 +236456,84 @@
       "ldraw_candidates": [
         "43723"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/43723.dat",
+        "sha256": "0db0dd4fb98af6fbabc78bcb131e6173749091fa828b3337403d2c5f80c142fa",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -30.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            30.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          24.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -20.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
+          "id": "stud-2"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-546-010",
@@ -237083,7 +237302,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/546.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-546-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "547",
@@ -237097,10 +237317,84 @@
       "ldraw_candidates": [
         "43722"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/43722.dat",
+        "sha256": "b6fe6e28d77d9630aced329f18ff6c1ea2ad4d4362df31d7c63bed6b5687a606",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -30.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            30.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          24.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -20.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            20.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
+          "id": "stud-2"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-547-010",
@@ -237856,7 +238150,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/547.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-547-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "548",
@@ -237872,10 +238167,99 @@
         "63333",
         "41770b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/41770.dat",
+        "sha256": "81f55bafdbdc380217567562cefee539c65068b4315c4ff8a9f7405957e52dca",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -40.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            40.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-3"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-548-010",
@@ -238644,7 +239028,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/548.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-548-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "549",
@@ -238660,10 +239045,99 @@
         "63330",
         "41769b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/41769.dat",
+        "sha256": "c1710818d4e6828f826eda0a993cccac2a9cf44afc60a0fc7185c7089fc85848",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -40.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            40.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
+          "id": "stud-3"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-549-010",
@@ -239432,7 +239906,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/549.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-549-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "550",
@@ -259157,10 +259632,38 @@
         "3704",
         "gds90569"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32062.dat",
+        "sha256": "8b3a0b3fc364cae90a5e3350ca39c77c6852a7ad3f122a6883228a3e9887ed5e",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -19.5,
+            -6.0,
+            -6.0
+          ],
+          "max": [
+            19.5,
+            6.0,
+            6.0
+          ]
+        },
+        "size_mm": [
+          15.6,
+          4.8,
+          4.8
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-580-010",
@@ -259747,7 +260250,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/091/580.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-580-091"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "581",
@@ -260593,10 +261097,38 @@
         "32525",
         "64290"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32525.dat",
+        "sha256": "112bc92c4559d60b1d3d648f7dc0590d5be879cabb6fda25f3e8f6b84e0c2ef0",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -9.0,
+            -10.0,
+            -109.0
+          ],
+          "max": [
+            9.0,
+            10.0,
+            109.0
+          ]
+        },
+        "size_mm": [
+          7.2,
+          8.0,
+          87.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-583-010",
@@ -261118,7 +261650,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/583.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-583-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "584",
@@ -297093,10 +297626,69 @@
         "4070a",
         "35388"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/4070.dat",
+        "sha256": "d8e0e34bfa1d0e737bc9fe63a11a740e04f40d0a28dee9b4d29d84e2f72c0447",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/4070.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            10.0,
+            -6.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/parts/4070.dat -> primitives/stud2a.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-636-010",
@@ -297878,7 +298470,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/636.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-636-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "637",
@@ -297892,10 +298485,159 @@
       "ldraw_candidates": [
         "30414"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/30414.dat",
+        "sha256": "01fdc52bff7f434cb5cb0517aa778aea16192895f6683746b1b00cad774d83af",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -14.0
+          ],
+          "max": [
+            40.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          11.2,
+          9.6
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            10.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud2a.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            10.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud2a.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            10.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud2a.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            10.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud2a.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/30414.dat -> primitives/stud.dat",
+          "id": "stud-7"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-637-010",
@@ -298612,7 +299354,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/637.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-637-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "638",
@@ -317632,10 +318375,38 @@
         "32524",
         "16615"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32524.dat",
+        "sha256": "0522909e34974de353bc0ab303b734cb08bb2e87283c6f1d9527aa44e6b56af3",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -9.0,
+            -10.0,
+            -69.0
+          ],
+          "max": [
+            9.0,
+            10.0,
+            69.0
+          ]
+        },
+        "size_mm": [
+          7.2,
+          8.0,
+          55.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-665-010",
@@ -318235,7 +319006,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/665.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-665-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "666",
@@ -319408,10 +320180,38 @@
         "64871",
         "50688"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32278.dat",
+        "sha256": "f6d3455f14cdfc35b64c9374a99d1ca8f9243167d5c0452cb26cc2822036ca75",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -9.0,
+            -10.0,
+            -149.0
+          ],
+          "max": [
+            9.0,
+            10.0,
+            149.0
+          ]
+        },
+        "size_mm": [
+          7.2,
+          8.0,
+          119.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-668-010",
@@ -319907,7 +320707,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/668.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-668-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "669",
@@ -319923,10 +320724,38 @@
         "74695",
         "40147"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/60483.dat",
+        "sha256": "13556cc858e4c8048287c101fce51315316ee426c2c10c4390f742008c11695b",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -9.0,
+            -10.0,
+            -9.0
+          ],
+          "max": [
+            9.0,
+            10.0,
+            29.0
+          ]
+        },
+        "size_mm": [
+          7.2,
+          8.0,
+          15.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-669-010",
@@ -320565,7 +321394,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/669.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-669-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "670",
@@ -321002,10 +321832,38 @@
         "32140",
         "42137"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32140.dat",
+        "sha256": "fe0a4b3f1600ff46a32ccffb5ad71e62929a8e14c23f7083be07b39bbd869c8d",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -9.0,
+            -10.0,
+            -9.0
+          ],
+          "max": [
+            29.0,
+            10.0,
+            69.0
+          ]
+        },
+        "size_mm": [
+          15.2,
+          8.0,
+          31.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-671-010",
@@ -321579,7 +322437,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/671.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-671-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "672",
@@ -432584,10 +433443,38 @@
         "19385",
         "37078"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/87994.dat",
+        "sha256": "24369ddb93614186642c2a7e89f5c336f15e60149c099ae04e88a0218564b023",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -4.0,
+            0.0,
+            -4.0
+          ],
+          "max": [
+            4.0,
+            60.0,
+            4.0
+          ]
+        },
+        "size_mm": [
+          3.2,
+          24.0,
+          3.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-884-010",
@@ -433226,7 +434113,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/092/884.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-884-092"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "885",
@@ -538511,10 +539399,38 @@
         "63965a",
         "93790"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/63965.dat",
+        "sha256": "7830d7b27a93dae84458463bf4d141298874b705277cb0bc8371f8f127cef2be",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -6.0,
+            -102.5,
+            -6.0
+          ],
+          "max": [
+            6.0,
+            18.0,
+            6.0
+          ]
+        },
+        "size_mm": [
+          4.8,
+          48.2,
+          4.8
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-905-010",
@@ -539218,7 +540134,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/905.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-905-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "90500",
@@ -540854,10 +541771,38 @@
       "ldraw_candidates": [
         "40378"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/40378.dat",
+        "sha256": "e8f069d53f80dff9ea7ea4ef0066d3b310259457ef0e36fa45529c0559841267",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -41.657,
+            -20.0
+          ],
+          "max": [
+            10.0,
+            10.0,
+            125.657
+          ]
+        },
+        "size_mm": [
+          8.0,
+          20.6628,
+          58.2628
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-90504-010",
@@ -541379,7 +542324,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/90504.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-90504-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "90506",
@@ -558527,10 +559473,38 @@
         "59443",
         "6538c"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/59443.dat",
+        "sha256": "965f42396f3cb5686a5d5cdfbced874152d677270009612a94bad6a8c2df899f",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -8.5,
+            -8.724386932000002,
+            -20.0
+          ],
+          "max": [
+            8.5,
+            8.724386932000002,
+            20.0
+          ]
+        },
+        "size_mm": [
+          6.8,
+          6.97951,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-915-010",
@@ -559208,7 +560182,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/915.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-915-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "916",
@@ -559223,10 +560198,38 @@
         "32013",
         "42127"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32013.dat",
+        "sha256": "ee271e1378c1776b9014b1bc9586cfa05f24b2f23e47410d3b7f6f2d7a2646d1",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -9.0,
+            -30.000500000000002
+          ],
+          "max": [
+            10.0,
+            9.0,
+            9.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          7.2,
+          15.6002
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-916-010",
@@ -559917,7 +560920,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/916.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-916-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "917",
@@ -566487,10 +567491,38 @@
       "ldraw_candidates": [
         "11214"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/11214.dat",
+        "sha256": "5341cd98f57f8eddec043ab8e48f822b43d6203c4b7994b5e79276d2361a8c2f",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -8.0,
+            -8.0
+          ],
+          "max": [
+            29.5,
+            8.0,
+            8.0
+          ]
+        },
+        "size_mm": [
+          23.8,
+          6.4,
+          6.4
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-929-010",
@@ -566973,7 +568005,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/929.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-929-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "930",
@@ -574845,10 +575878,54 @@
       "ldraw_candidates": [
         "98100"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/98100.dat",
+        "sha256": "a81b1b0f04b83f7200f40a8896843cba7b5bb442d48ae753c27f9ff40a8b3d4b",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            24.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          11.2,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/subparts/98100s01.dat -> primitives/stud2.dat",
+          "id": "stud-0"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-946-010",
@@ -575591,7 +576668,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/946.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-946-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "947",
@@ -577225,10 +578303,69 @@
         "13791",
         "13731"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/85970.dat",
+        "sha256": "d52d6b7701dea01d5f626a3241c9b4a5fab9f6beeeec17d1fa3529402e78f258",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -8.0,
+            -180.0
+          ],
+          "max": [
+            10.0,
+            16.0133,
+            20.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          9.60532,
+          80.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/85970.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/85970.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-950-010",
@@ -577724,7 +578861,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/950.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-950-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "951",
@@ -584453,10 +585591,38 @@
         "32009",
         "41486"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32009.dat",
+        "sha256": "8e0c1bd587bfb5e57c32c6cfe7146c3592900e7532aa91e54d5fe5a57f2910d0",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -9.0,
+            -10.0,
+            -169.0
+          ],
+          "max": [
+            89.0,
+            10.0,
+            9.0
+          ]
+        },
+        "size_mm": [
+          39.2,
+          8.0,
+          71.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-968-010",
@@ -584848,7 +586014,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/968.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-968-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "969",
@@ -593788,10 +594955,38 @@
       "ldraw_candidates": [
         "44224"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/44224.dat",
+        "sha256": "98f807a035cf5fc5082e811a2c35a07eeed9f58decfb786a450a05cbe75f7573",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -10.0,
+            -30.0
+          ],
+          "max": [
+            30.0,
+            10.0,
+            89.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          8.0,
+          47.6
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-994-014",
@@ -593949,7 +595144,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/994.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-994-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "995",
@@ -593964,10 +595160,38 @@
         "44225",
         "65765"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/44225.dat",
+        "sha256": "897dc03001bb8b189f431327f502ee1d9a4e6965c42c361ea8412c41855c81b2",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -10.0,
+            -30.0
+          ],
+          "max": [
+            30.0,
+            10.0,
+            89.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          8.0,
+          47.6
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-995-010",
@@ -594138,7 +595362,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/995.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-995-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "996",
@@ -610464,10 +611689,38 @@
         "40379",
         "378"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/40379.dat",
+        "sha256": "72d5f6e52aaded00572dcf9809920622b1aa0c6f43027f6e09edf4e46ee34f04",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -8.0,
+            -65.965874086,
+            -7.5
+          ],
+          "max": [
+            8.0,
+            8.0,
+            73.965874086
+          ]
+        },
+        "size_mm": [
+          6.4,
+          29.58635,
+          32.58635
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-M2062-010",
@@ -611106,7 +612359,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/M2062.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-M2062-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "M213",
@@ -632035,9 +633289,9 @@
     }
   ],
   "geometry_enrichment": {
-    "reference_parts_prepared": 38,
+    "reference_parts_prepared": 67,
     "reference_assets": "assets/policy.md#에셋-목록",
     "physical_tests": false,
-    "remaining_parts_geometry_pending": 1784
+    "remaining_parts_geometry_pending": 1755
   }
 }
