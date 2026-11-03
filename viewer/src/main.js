@@ -11,9 +11,10 @@ const renderer = new THREE.WebGLRenderer({ antialias: true }); renderer.setPixel
 const controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = true;
 scene.add(new THREE.HemisphereLight(0xffffff, 0x657080, 3));
 const light = new THREE.DirectionalLight(0xffffff, 3); light.position.set(200, 400, 300); scene.add(light);
-let model, generation = 0;
+let model, selected, generation = 0;
 let poseJoints = [], poseGroups = new Map();
 let instanceBatches = [];
+const hidden = [];
 let viewDirection = new THREE.Vector3(-.35, .25, 1);
 function status(text) { $('status').textContent = text; }
 function fit() {
@@ -36,7 +37,7 @@ function fit() {
 }
 function dispose(object) { const materials = new Set(); object.traverse(o => { o.geometry?.dispose(); if (o.material) for (const m of [].concat(o.material)) materials.add(m); }); for (const m of materials) { for (const v of Object.values(m)) if (v?.isTexture) v.dispose(); m.dispose(); } }
 async function open(buffer, name, revision) {
-  const current = ++generation; let failed = false; status('모델을 읽는 중…'); $('load').disabled = true;
+  const current = ++generation; let failed = false; status('모델을 읽는 중…'); $('models').disabled = true;
   const manager = new THREE.LoadingManager(); manager.onError = () => { failed = true; };
   let next, metadata;
   try {
@@ -70,7 +71,7 @@ async function open(buffer, name, revision) {
     if (current !== generation) { dispose(next); return; }
     if (failed || new THREE.Box3().setFromObject(next).isEmpty()) { dispose(next); throw new Error(); }
     if (model) { scene.remove(model); dispose(model); }
-    model = next; scene.add(model); buildInstanceBatches(); configurePose(metadata);
+    model = next; scene.add(model); buildInstanceBatches(); configurePose(metadata); selected = null; hidden.length = 0; $('hide').disabled = true; $('reset').disabled = false; $('selection').textContent = '부품을 클릭하면 선택됩니다.';
     $('side-view').disabled = false; $('front-view').disabled = false;
     $('empty').hidden = true; $('fit').disabled = false; fit();
     renderer.domElement.dataset.modelLoaded = 'true';
@@ -78,18 +79,18 @@ async function open(buffer, name, revision) {
     if (metadata?.reference_geometry_bounds_cm) { const d = metadata.reference_geometry_bounds_cm; $('summary').textContent += ` · 약 ${d.length} × ${d.width} × ${d.height}cm`; }
     $('version').textContent = `${metadata?.version_label ? metadata.version_label + ' · ' : ''}${name} · ${revision}`; status(metadata?.status === 'articulated_geometry_prototype' ? '모델을 불러왔습니다 · 검토안. 연결·강도 미검증.' : '모델을 불러왔습니다. 조립 가능 여부를 검증한 결과는 아닙니다.');
   } catch (error) { console.error('Model loading failed', error); if (current === generation) status('모델을 완전히 불러오지 못했습니다. 이전 모델이 있다면 그대로 표시됩니다.'); }
-  finally { if (current === generation) $('load').disabled = !$('models').value; }
+  finally { if (current === generation) $('models').disabled = false; }
 }
-$('models').onchange = () => { $('load').disabled = !$('models').value; if ($('models').value) $('load').click(); };
 let entries = [];
 async function fetchCatalog() {
   const response = await fetch('./models/index.json?t=' + Date.now(), { cache: 'no-store' });
   if (!response.ok) throw new Error('Model index unavailable');
   return response.json();
 }
-$('load').onclick = async () => {
+$('models').onchange = async () => {
+  if ($('models').value === '') return;
   const selectedEntry = entries[Number($('models').value)]; if (!selectedEntry) return;
-  $('load').disabled = true;
+  $('models').disabled = true;
   try {
     const latest = await fetchCatalog();
     const entry = latest.find(item => item.url === selectedEntry.url); if (!entry) throw new Error('Model removed');
@@ -101,9 +102,14 @@ $('load').onclick = async () => {
     if (entry.version && entry.version !== revision) throw new Error('Model index and contents disagree');
     await open(data, entry.url, revision);
   } catch { status('최신 모델 파일을 가져오지 못했습니다. 잠시 후 다시 선택하세요.'); }
-  finally { $('load').disabled = !$('models').value; }
+  finally { $('models').disabled = false; }
 };
 $('fit').onclick = fit;
+$('hide').onclick = () => { if (!selected) return; selected.visible = false; hidden.push(selected); selected = null; $('hide').disabled = true; $('selection').textContent = '선택한 부품을 숨겼습니다.'; refreshInstanceBatches(); };
+$('reset').onclick = () => { for (const item of hidden) item.visible = true; hidden.length = 0; refreshInstanceBatches(); fit(); };
+const raycaster = new THREE.Raycaster(); let down;
+renderer.domElement.addEventListener('pointerdown', e => { down = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener('pointerup', e => { if (!model || !down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5) return; const rect = renderer.domElement.getBoundingClientRect(); raycaster.setFromCamera(new THREE.Vector2((e.clientX - rect.left) / rect.width * 2 - 1, -(e.clientY - rect.top) / rect.height * 2 + 1), camera); const hits = raycaster.intersectObject(model, true).filter(h => { for (let p = h.object; p; p = p.parent) if (!p.visible) return false; return h.object.isMesh; }); selected = hits[0]?.object?.isInstancedMesh ? hits[0].object.userData.sourceMeshes[hits[0].instanceId] : hits[0]?.object || null; while (selected?.parent && selected.parent !== model && selected.userData.type !== 'Part') selected = selected.parent; $('hide').disabled = !selected; $('selection').textContent = selected ? `선택: ${selected.userData.fileName || selected.name || '부품'}` : '부품을 클릭하면 선택됩니다.'; });
 new ResizeObserver(() => { const w = $('viewport').clientWidth, h = $('viewport').clientHeight; renderer.setSize(w, h); camera.aspect = w / h; camera.updateProjectionMatrix(); }).observe($('viewport'));
 renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
 fetchCatalog().then(data => { entries = data; entries.forEach((entry, index) => { const option = document.createElement('option'); option.value = String(index); option.textContent = entry.name; $('models').append(option); }); if (entries.length) status('모델을 선택하세요.'); }).catch(() => status('모델 목록을 가져오지 못했습니다. 페이지를 다시 열어주세요.'));

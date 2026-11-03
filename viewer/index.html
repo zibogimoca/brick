@@ -12,10 +12,7 @@
     <h1>BRICK <span>모델 뷰어</span></h1>
     <section class="control-section">
       <label for="models">모델</label>
-      <div class="model-row">
-        <select id="models"><option value="">모델 선택</option></select>
-        <button id="load" disabled title="선택 모델 보기" aria-label="선택 모델 보기">View</button>
-      </div>
+      <select id="models"><option value="">모델 선택</option></select>
     </section>
     <section class="control-section">
       <h2>시점</h2>
@@ -36,6 +33,14 @@
         <button id="support-toggle">지지대 숨기기</button>
       </div>
       <p class="hint">화면상 가동 검토 · 실물 범위 미검증</p>
+    </section>
+    <section class="control-section">
+      <h2>부품</h2>
+      <div class="buttons two">
+        <button id="hide" disabled>선택 숨기기</button>
+        <button id="reset" disabled>숨김 초기화</button>
+      </div>
+      <p id="selection" class="hint">부품을 클릭하면 선택됩니다.</p>
     </section>
     <div class="model-info">
       <output id="status" role="status">모델을 선택하세요.</output>

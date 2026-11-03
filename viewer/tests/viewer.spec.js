@@ -11,6 +11,18 @@ test('renders the actual model and switches camera views', async ({ page }) => {
   await expect(page.locator('#empty')).toBeHidden();
   await expect(page.locator('#version')).toContainText('tyrannosaurus');
   await page.click('#side-view'); await page.click('#front-view'); await page.click('#fit');
+  const box = await page.locator('canvas').boundingBox();
+  for (let y = .35; y <= .65; y += .1) {
+    for (let x = .25; x <= .75; x += .05) {
+      await page.mouse.click(box.x + box.width * x, box.y + box.height * y);
+      if (await page.locator('#hide').isEnabled()) break;
+    }
+    if (await page.locator('#hide').isEnabled()) break;
+  }
+  await expect(page.locator('#hide')).toBeEnabled();
+  await page.click('#hide');
+  await expect(page.locator('#selection')).toContainText('숨겼습니다');
+  await page.click('#reset');
   expect(errors).toEqual([]);
 });
 test('rejects a broken catalog model while preserving the previous model', async ({ page }) => {
@@ -22,18 +34,15 @@ test('rejects a broken catalog model while preserving the previous model', async
   const entries = JSON.parse(await readFile('dist/models/index.json', 'utf8'));
   await page.route('**/models/index.json?*', route => route.fulfill({ json: entries.map(entry => ({ ...entry, version: hash })) }));
   await page.route('**/models/*.mpd?*', route => route.fulfill({ body: broken, contentType: 'text/plain' }));
-  await page.click('#load');
+  await page.selectOption('#models', '');
+  await page.selectOption('#models', '0');
   await expect(page.locator('#status')).toContainText('완전히 불러오지 못했습니다', { timeout: 30000 });
   await expect(page.locator('#version')).toHaveText(revision);
 });
 test('keeps controls compact in the left sidebar and renders at mobile size', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 720 });
   await load(page);
-  await expect(page.locator('header, #file, #library, #hide, #reset, #selection')).toHaveCount(0);
-  await expect(page.locator('#load')).toHaveText('View');
-  const select = await page.locator('#models').boundingBox(), view = await page.locator('#load').boundingBox();
-  expect(Math.abs(select.y - view.y)).toBeLessThan(2);
-  expect(view.x).toBeGreaterThan(select.x);
+  await expect(page.locator('header, #file, #library, #load')).toHaveCount(0);
   expect(await page.locator('aside').evaluate(el => el.scrollHeight <= el.clientHeight + 1)).toBe(true);
   const canvas = await page.locator('canvas').boundingBox(); expect(canvas.y).toBe(0); expect(canvas.height).toBe(720);
   await page.setViewportSize({ width: 390, height: 844 });

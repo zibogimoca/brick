@@ -14,8 +14,6 @@ button{cursor:pointer;white-space:nowrap}
 button:hover:not(:disabled){background:#303d4a;border-color:#8193a6}
 button:disabled{opacity:.4;cursor:default}
 button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid #f4b266;outline-offset:2px}
-.model-row{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:5px}
-#load{font-size:12px;line-height:1;padding:5px 4px}
 .buttons{display:grid;gap:5px}
 .buttons.two{grid-template-columns:auto minmax(0,1fr)}
 .buttons.three{grid-template-columns:repeat(3,minmax(0,1fr))}
