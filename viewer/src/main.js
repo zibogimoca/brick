@@ -24,6 +24,17 @@ function fit() {
   camera.position.copy(center).add(new THREE.Vector3(1, .7, 1).normalize().multiplyScalar(distance));
   camera.near = Math.max(radius / 10000, .001); camera.far = distance * 100; camera.updateProjectionMatrix();
   controls.target.copy(center); controls.update();
+  for (let attempt = 0; attempt < 6; attempt++) {
+    camera.updateMatrixWorld();
+    let extent = 0;
+    for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z]) {
+      const point = new THREE.Vector3(x, y, z).project(camera);
+      extent = Math.max(extent, Math.abs(point.x), Math.abs(point.y));
+    }
+    if (extent <= .9) break;
+    camera.position.sub(center).multiplyScalar(extent / .9 * 1.03).add(center);
+    controls.update();
+  }
 }
 function dispose(object) { const materials = new Set(); object.traverse(o => { o.geometry?.dispose(); if (o.material) for (const m of [].concat(o.material)) materials.add(m); }); for (const m of materials) { for (const v of Object.values(m)) if (v?.isTexture) v.dispose(); m.dispose(); } }
 async function open(buffer, name, revision) {
