@@ -3,7 +3,7 @@
 입력: models/<모델>.mpd 위치 인자, docs/gobricks-dictionary.json, assets/policy.md.
 선택: --check-body-overlaps로 직육면체 몸체 겹침을 검사한다. 곡선·관절은 제외한다.
 출력: 콘솔 검사 결과만 출력한다. 파일을 생성·수정하지 않는다.
-실행: python3 tools/validate_model.py models/tyrannosaurus.mpd
+실행: python3 tools/validate_model.py models/tyrannosaurus-v1.mpd
 범위: BRICK schema_version 3; 계층 변환·회전행렬·수량·SKU·색상·중복 배치 검사.
 한계: 기계적으로 조립 가능한지, 접촉·간섭·결합력·하중·실제 가동 범위는 검증하지 않는다.
       예전 티라노 전용 격자·160개·특정부위 조건으로 새 모델을 통과시키지 않는다.

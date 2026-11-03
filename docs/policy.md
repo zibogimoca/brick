@@ -22,9 +22,11 @@
 
 ## 모델 원본
 
-개별 설계는 `models/<english-model-name>.mpd`로 관리한다. 번호보다 알아볼 수 있는 모델명을 사용한다. 예를 들어 티라노는 `tyrannosaurus.mpd`로 저장한다. 모델별 형상 원본은 한 MPD 파일로 유지하고, MPD 내부 서브모델로 구조를 나눈다. 같은 이름의 Markdown 파일(`models/tyrannosaurus.md` 등)에 기준 제품·개선 목표·유효한 실패와 개선 근거·미해결 문제·다음 검토 항목을 기록한다. MPD에는 배치·부품표 등 기계가 사용하는 모델 상태를 유지하고, 설계 판단과 개선 기록은 Markdown에서 관리해 중복을 피한다.
+개별 설계는 최종안 확정 전까지 `models/<english-model-name>-v<number>.mpd`로 버전을 나눠 관리한다. 현재 티라노 설계가 `tyrannosaurus-v1.mpd`이며 그 이전 설계는 비교 버전으로 복원하지 않는다. 이후 설계 변경은 v2, v3처럼 새 파일에 저장하고 이전 버전을 덮어쓰거나 삭제하지 않는다. 단순 문서·뷰어 수정은 모델 버전을 늘리지 않는다. 최종안은 사용자 승인 후 확정하며 이전 파일 삭제도 별도 지시를 따른다.
 
-공통 부품 형상은 모델마다 복제하지 않고 별도 형상 자산을 참조한다. 형상 자산은 검색 사전이나 정책 문서를 추가하는 것과 구분한다. 추가 원본 형식이 필요해 한 파일 원칙을 바꿔야 할 때는 먼저 사용자와 협의한다. 미리보기·렌더 등 재생성 가능한 산출물을 원본으로 취급하지 않는다.
+각 버전의 형상 원본은 MPD 한 파일로 유지하고 내부 서브모델로 구조를 나눈다. `models/<english-model-name>.md` 하나에서 기준 제품·버전별 핵심 차이·실패와 개선 근거·미해결 문제를 관리한다. MPD에는 버전 번호와 배치·부품표 등 기계가 사용하는 상태를 유지한다. 모델 버전과 파일 내용 해시는 구분하며, 뷰어 목록에서는 사람이 읽는 v1·v2를 표시하고 캐시 처리에는 내용 해시를 사용한다.
+
+공통 부품 형상은 모델마다 복제하지 않고 별도 형상 자산을 참조한다. 형상 자산은 검색 사전이나 정책 문서를 추가하는 것과 구분한다. MPD 이외의 추가 원본 형식이 필요하면 먼저 사용자와 협의한다. 미리보기·렌더 등 재생성 가능한 산출물을 원본으로 취급하지 않는다.
 
 ## 진행 원칙
 
@@ -50,7 +52,7 @@
 
 ## 현재 개발·검토 방법
 
-기존 체크아웃을 사용하며 별도 Git worktree를 만들지 않는다. `viewer`에서 `npm ci --ignore-scripts` 후 `npm run build`로 모델과 허용된 형상 자산을 포함한 정적 뷰어를 만든다. 로컬 개발은 같은 디렉터리에서 `npm run dev`로 시작한다. `models`의 MPD와 `assets`가 뷰어 배포물에 포함되며 공개 사이트 방문자는 이를 내려받을 수 있다. 사용자가 승인한 공개 저장소와 GitHub Pages를 사용한다. 모델 검증은 저장소 루트에서 `python3 tools/validate_model.py models/tyrannosaurus.mpd`, 뷰어 검증은 `viewer`에서 `npx playwright test`로 수행한다. 모델 원본은 MPD 파일에서 직접 관리하며, 일회성 티라노 생성 스크립트와 이전 스페이스 작업 기록은 보관하지 않는다.
+기존 체크아웃을 사용하며 별도 Git worktree를 만들지 않는다. `viewer`에서 `npm ci --ignore-scripts` 후 `npm run build`로 모델과 허용된 형상 자산을 포함한 정적 뷰어를 만든다. 로컬 개발은 같은 디렉터리에서 `npm run dev`로 시작한다. `models`의 MPD와 `assets`가 뷰어 배포물에 포함되며 공개 사이트 방문자는 이를 내려받을 수 있다. 사용자가 승인한 공개 저장소와 GitHub Pages를 사용한다. 모델 검증은 저장소 루트에서 `python3 tools/validate_model.py models/tyrannosaurus-v1.mpd`, 뷰어 검증은 `viewer`에서 `npx playwright test`로 수행한다. 모델 원본은 MPD 파일에서 직접 관리하며, 일회성 티라노 생성 스크립트와 이전 스페이스 작업 기록은 보관하지 않는다.
 
 ## 도구 목록과 재사용 원칙
 
@@ -62,7 +64,7 @@
 | `tools/build_gobricks_dictionary.py` | 수집 자료 검사·사전 생성 | `python3 tools/build_gobricks_dictionary.py --cache <수집 폴더>` | 부품 사전 전체, 저장 중 임시 파일 |
 | `tools/prepare_geometry.py` | 필요한 형상 추출·경로 변환 | `python3 tools/prepare_geometry.py <complete.zip 경로>` | 에셋 형상·색상과 에셋 정책 내부 목록 |
 | `tools/enrich_dictionary.py` | 치수·선택된 연결 정보 보강 | `python3 tools/enrich_dictionary.py` | 부품 사전의 형상 관련 정보 |
-| `tools/validate_model.py` | 지정 MPD·에셋·사전 검사 | `python3 tools/validate_model.py models/tyrannosaurus.mpd` | 없음; 콘솔 출력만 수행 |
+| `tools/validate_model.py` | 지정 MPD·에셋·사전 검사 | `python3 tools/validate_model.py models/tyrannosaurus-v1.mpd` | 없음; 콘솔 출력만 수행 |
 
 ### 실행 순서와 현재 한계
 

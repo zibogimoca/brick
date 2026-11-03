@@ -1,39 +1,44 @@
 import { test, expect } from '@playwright/test';
 async function load(page) {
   await page.goto('/');
-  await expect(page.locator('#models option')).toHaveCount(2);
+  await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
   await page.selectOption('#models', '0');
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
 }
-test('renders the actual full Tyrannosaurus MPD with local geometry and colors; selects and hides a part', async ({ page }) => {
+test('renders the actual model and switches camera views', async ({ page }) => {
   const errors = []; page.on('pageerror', error => errors.push(error.message));
   await load(page);
   await expect(page.locator('#empty')).toBeHidden();
   await expect(page.locator('#version')).toContainText('tyrannosaurus');
-  const canvas = page.locator('canvas'); const box = await canvas.boundingBox();
-  let selected = false;
-  for (let y = .35; y <= .65 && !selected; y += .05) for (let x = .25; x <= .75 && !selected; x += .05) {
-    await page.mouse.click(box.x + box.width * x, box.y + box.height * y);
-    selected = await page.locator('#hide').isEnabled();
-  }
-  expect(selected).toBe(true); await page.click('#hide');
-  await expect(page.locator('#selection')).toContainText('숨겼습니다');
-  await page.click('#reset'); await page.click('#fit');
+  await page.click('#side-view'); await page.click('#front-view'); await page.click('#fit');
   expect(errors).toEqual([]);
 });
-test('rejects incomplete models while preserving the previously loaded model', async ({ page }) => {
+test('rejects a broken catalog model while preserving the previous model', async ({ page }) => {
+  const { createHash } = await import('node:crypto');
+  const { readFile } = await import('node:fs/promises');
   await load(page); const revision = await page.locator('#version').textContent();
-  await page.locator('#file').setInputFiles({ name: 'missing.mpd', mimeType: 'text/plain', buffer: Buffer.from('0 FILE missing.ldr\n1 16 0 0 0 1 0 0 0 1 0 0 0 1 no-such-part.dat\n0 NOFILE\n') });
+  const broken = '0 FILE missing.ldr\n1 16 0 0 0 1 0 0 0 1 0 0 0 1 no-such-part.dat\n0 NOFILE\n';
+  const hash = createHash('sha256').update(broken).digest('hex').slice(0, 12);
+  const entries = JSON.parse(await readFile('dist/models/index.json', 'utf8'));
+  await page.route('**/models/index.json?*', route => route.fulfill({ json: entries.map(entry => ({ ...entry, version: hash })) }));
+  await page.route('**/models/*.mpd?*', route => route.fulfill({ body: broken, contentType: 'text/plain' }));
+  await page.click('#load');
   await expect(page.locator('#status')).toContainText('완전히 불러오지 못했습니다', { timeout: 30000 });
   await expect(page.locator('#version')).toHaveText(revision);
 });
-test('opens local MPD without uploading and works at mobile size', async ({ page }) => {
+test('keeps controls compact in the left sidebar and renders at mobile size', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 720 });
+  await load(page);
+  await expect(page.locator('header, #file, #library, #hide, #reset, #selection')).toHaveCount(0);
+  await expect(page.locator('#load')).toHaveText('View');
+  const select = await page.locator('#models').boundingBox(), view = await page.locator('#load').boundingBox();
+  expect(Math.abs(select.y - view.y)).toBeLessThan(2);
+  expect(view.x).toBeGreaterThan(select.x);
+  expect(await page.locator('aside').evaluate(el => el.scrollHeight <= el.clientHeight + 1)).toBe(true);
+  const canvas = await page.locator('canvas').boundingBox(); expect(canvas.y).toBe(0); expect(canvas.height).toBe(720);
   await page.setViewportSize({ width: 390, height: 844 });
-  const posts = []; page.on('request', request => { if (request.method() === 'POST') posts.push(request.url()); });
-  await page.goto('/');
-  await page.locator('#file').setInputFiles('../models/tyrannosaurus.mpd');
-  await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
-  expect(posts).toEqual([]); await expect(page.locator('canvas')).toBeVisible();
+  await expect(page.locator('canvas')).toBeVisible();
+  expect(await page.locator('#viewport').evaluate(el => el.getBoundingClientRect().left)).toBe(168);
 });
 
 test('pose controls transform the model canvas and reset; support is independently visible', async ({ page }) => {
@@ -56,4 +61,24 @@ test('pose controls transform the model canvas and reset; support is independent
   await expect(page.locator('#support-toggle')).toHaveText('지지대 숨기기');
   await page.click('#side-view'); await page.click('#front-view');
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다');
+});
+
+
+test('refreshes an old catalog before requesting a versioned model', async ({ page }) => {
+  const { readFile } = await import('node:fs/promises');
+  const current = JSON.parse(await readFile('dist/models/index.json', 'utf8'));
+  let catalogRequests = 0; const modelRequests = [];
+  await page.route('**/models/index.json?*', async route => {
+    catalogRequests++;
+    const data = current.map(entry => ({ ...entry, version: catalogRequests === 1 ? 'old-version' : entry.version }));
+    await route.fulfill({ json: data });
+  });
+  page.on('request', request => { if (request.url().includes('tyrannosaurus-v1.mpd')) modelRequests.push(request.url()); });
+  await load(page);
+  expect(catalogRequests).toBeGreaterThanOrEqual(2);
+  expect(modelRequests).toHaveLength(1);
+  expect(new URL(modelRequests[0]).searchParams.get('v')).toBe(current[0].version);
+  await expect(page.locator('#version')).toContainText(current[0].version);
+  await expect(page.locator('#models option:checked')).toHaveText(current[0].name);
+  expect(current[0].designVersion).toBe(1);
 });
