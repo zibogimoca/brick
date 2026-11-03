@@ -22,7 +22,7 @@ with zipfile.ZipFile(args.archive) as z:
   for line in text.splitlines():
    f=line.split(maxsplit=14)
    if len(f)==15 and f[0]=='1':queue.add(resolve(f[14]))
- for rel in ['CAreadme.txt','CAlicense.txt','LDConfig.ldr']:
+ for rel in ['LDConfig.ldr']:
   data=z.read(names['ldraw/'+rel.lower()]);(ROOT/rel).write_bytes(data)
   done[rel]={'source_archive':source,'archive_member':names['ldraw/'+rel.lower()],'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)}
  # Remove only stale geometry files from earlier downloads that are not in this closure.

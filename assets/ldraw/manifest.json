@@ -1547,18 +1547,6 @@
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
-    "CAreadme.txt": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/CAreadme.txt",
-      "sha256": "c67a824bdab18e646337b5b26f7f039c84b0be71273c0c878e2749e648820497",
-      "bytes": 4151
-    },
-    "CAlicense.txt": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/CAlicense.txt",
-      "sha256": "487265d3a122b2e54e460954cd2eca34ac2e545bcb1b2ac23cbda2a27e49a6c2",
-      "bytes": 12698
-    },
     "LDConfig.ldr": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/LDConfig.ldr",
