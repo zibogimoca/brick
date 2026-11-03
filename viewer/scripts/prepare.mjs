@@ -10,6 +10,6 @@ const entries = [];
 for (const name of (await readdir(new URL('models/', root))).filter(name => name.endsWith('.mpd')).sort()) {
   const data = await readFile(new URL('models/' + name, root));
   await writeFile(new URL('models/' + name, publicRoot), data);
-  entries.push({ name: name.replace('.mpd', '').replaceAll('-', ' '), url: './models/' + name, version: createHash('sha256').update(data).digest('hex').slice(0, 12) });
+  entries.push({ name: ({ tyrannosaurus: '티라노사우루스' })[name.replace('.mpd', '')] || name.replace('.mpd', '').replaceAll('-', ' '), url: './models/' + name, version: createHash('sha256').update(data).digest('hex').slice(0, 12) });
 }
 await writeFile(new URL('models/index.json', publicRoot), JSON.stringify(entries, null, 2) + '\n');

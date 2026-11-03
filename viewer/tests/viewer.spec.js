@@ -3,7 +3,6 @@ async function load(page) {
   await page.goto('/');
   await expect(page.locator('#models option')).toHaveCount(2);
   await page.selectOption('#models', '0');
-  await page.click('#load');
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
 }
 test('renders the actual full Tyrannosaurus MPD with local geometry and colors; selects and hides a part', async ({ page }) => {
@@ -20,7 +19,6 @@ test('renders the actual full Tyrannosaurus MPD with local geometry and colors; 
   expect(selected).toBe(true); await page.click('#hide');
   await expect(page.locator('#selection')).toContainText('숨겼습니다');
   await page.click('#reset'); await page.click('#fit');
-  await page.screenshot({ path: 'test-results/neck-viewer.png' });
   expect(errors).toEqual([]);
 });
 test('rejects incomplete models while preserving the previously loaded model', async ({ page }) => {

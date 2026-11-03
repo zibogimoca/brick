@@ -84,7 +84,7 @@ async function open(buffer, name, revision) {
   finally { if (current === generation) $('load').disabled = !$('models').value; }
 }
 $('file').onchange = async e => { const file = e.target.files[0]; if (!file) return; const data = await file.arrayBuffer(); const hash = await crypto.subtle.digest('SHA-256', data); const revision = [...new Uint8Array(hash)].map(x => x.toString(16).padStart(2, '0')).join('').slice(0, 12); await open(data, file.name, revision); };
-$('models').onchange = () => { $('load').disabled = !$('models').value; };
+$('models').onchange = () => { $('load').disabled = !$('models').value; if ($('models').value) $('load').click(); };
 let entries = [];
 $('load').onclick = async () => { const entry = entries[Number($('models').value)]; if (!entry) return; try { const response = await fetch(entry.url); if (!response.ok) throw new Error(); await open(await response.arrayBuffer(), entry.url, entry.version || '버전 미지정'); } catch { status('공개 모델 파일을 가져오지 못했습니다.'); } };
 $('fit').onclick = fit;
