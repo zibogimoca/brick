@@ -1,0 +1,7 @@
+viewer/node_modules/
+viewer/dist/
+viewer/test-results/
+viewer/playwright-report/
+viewer/public/parts-library/
+viewer/public/models/
+**/__pycache__/

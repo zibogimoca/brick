@@ -199199,10 +199199,69 @@
         "28554",
         "63326"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3024.dat",
+        "sha256": "e053af4f232374b0c8da2dc0f9620bedf0576ca43d7c3ceebc6676050ae61da8",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3024s01.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            0.0,
+            8,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-501-010",
@@ -200036,7 +200095,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/501.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-501-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "502",
@@ -200052,10 +200112,69 @@
         "6225",
         "28653"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3023b.dat",
+        "sha256": "42f96ca69f8a0b83a877f4e128e4143ce753d038b1074835edc5aca9a9954fc9",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-502-010",
@@ -200863,7 +200982,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/502.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-502-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "503",
@@ -200877,10 +200997,84 @@
       "ldraw_candidates": [
         "3623"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3623.dat",
+        "sha256": "08f74845fceb4b39976d8ba56c0d59970483b8956cc59eb08e9f01ca579467e2",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            30.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -20.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            20.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "id": "stud-2"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-503-010",
@@ -201688,7 +201882,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/503.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-503-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "504",
@@ -201702,10 +201897,99 @@
       "ldraw_candidates": [
         "3710"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3710.dat",
+        "sha256": "1a2d17e3e35750ccf02a54c7aee0cf7485c1c8596492746fc798d341399a3a6e",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            40.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-3"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-504-010",
@@ -202513,7 +202797,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/504.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-504-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "505",
@@ -202527,10 +202812,129 @@
       "ldraw_candidates": [
         "3666"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3666.dat",
+        "sha256": "f4fc83d8c3fc1df32c1a217dc09775a99fad1ced348cffc5167f9c6a69aa9bca",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -60.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            60.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "id": "stud-5"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-505-010",
@@ -203325,7 +203729,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/505.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-505-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "506",
@@ -203339,10 +203744,159 @@
       "ldraw_candidates": [
         "3460"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3460.dat",
+        "sha256": "a236ed5a1efb4844f2eebafc6096a90571607af30e287b307400dcdea44f438f",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "id": "stud-7"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-506-010",
@@ -204111,7 +204665,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/506.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-506-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "507",
@@ -204911,10 +205466,219 @@
       "ldraw_candidates": [
         "60479"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/60479.dat",
+        "sha256": "4cc9f46de13bd157dbbf16757bed1becee52253848fc1827d6c18477b94907b3",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -120.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            120.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          96.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            110.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -110.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "id": "stud-11"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-508-010",
@@ -205696,7 +206460,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/508.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-508-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "509",
@@ -205711,10 +206476,99 @@
         "3022",
         "94148"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3022.dat",
+        "sha256": "3cd09bfe626e751ad95eab0ea83e5f3adea81f05d34993a1c4bf432ee386fe25",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "id": "stud-3"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-509-010",
@@ -206535,7 +207389,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/509.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-509-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "510",
@@ -207375,10 +208230,279 @@
         "3020",
         "3020a"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3020.dat",
+        "sha256": "551e433cc4bcfdeeb6e390e509d52ee2e62c90d3eae625ee36928ef32291bb79",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            40.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          4.8,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            30.0,
+            8,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-1",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            8,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-2",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            8,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-3",
+          "kind": "stud_receptacle",
+          "position": [
+            -30.0,
+            8,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-4",
+          "kind": "stud_receptacle",
+          "position": [
+            30.0,
+            8,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-5",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            8,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-6",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            8,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-7",
+          "kind": "stud_receptacle",
+          "position": [
+            -30.0,
+            8,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-511-010",
@@ -208199,7 +209323,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/511.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-511-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "512",
@@ -209026,10 +210151,279 @@
         "3034",
         "3034a"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3034.dat",
+        "sha256": "035f4ac31ecad8943fd0ac6baa155c6ff38c75a4d8ef1083fb2afa48b166a845",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          4.8,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-11"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-12"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-13"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-14"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "id": "stud-15"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-513-010",
@@ -209798,7 +211192,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/513.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-513-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "514",
@@ -209812,10 +211207,339 @@
       "ldraw_candidates": [
         "3832"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3832.dat",
+        "sha256": "4928810faf064116f14126735c7a273df15c662fe1d648991c3a3c4cc79b0d49",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -100.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            100.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          80.0,
+          4.8,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-11"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-12"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-13"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-14"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-15"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-16"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-17"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-18"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "id": "stud-19"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-514-010",
@@ -210558,7 +212282,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/514.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-514-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "515",
@@ -213443,10 +215168,279 @@
       "ldraw_candidates": [
         "3031"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3031.dat",
+        "sha256": "e67436538e47cb38b8352e91c2b5b7c7c274e070912603e5e9fc0b4513962338",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -40.0
+          ],
+          "max": [
+            40.0,
+            8.0,
+            40.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          4.8,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-11"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-12"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-13"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-14"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "id": "stud-15"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-519-010",
@@ -214202,7 +216196,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/519.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-519-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "520",
@@ -214216,10 +216211,399 @@
       "ldraw_candidates": [
         "3032"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3032.dat",
+        "sha256": "35e8b828a5bf21de83ca898a49b9725e6d08d5752ad6eb57910f27086108ca1f",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -60.0,
+            -4.0,
+            -40.0
+          ],
+          "max": [
+            60.0,
+            8.0,
+            40.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          4.8,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-11"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-12"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-13"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-14"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-15"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-16"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-17"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-18"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-19"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-20"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-21"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-22"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "id": "stud-23"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-520-010",
@@ -214988,7 +217372,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/520.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-520-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "521",
@@ -221867,10 +224252,69 @@
         "30071",
         "35382"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3005.dat",
+        "sha256": "f86e5f3aed432cab8f5dffcf2e41a9f2ee8c3bd4dcad1732da9630837849a4f8",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3005s01.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            0.0,
+            24,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-531-010",
@@ -222691,7 +225135,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/531.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-531-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "532",
@@ -222707,10 +225152,69 @@
         "35743",
         "93792"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3004.dat",
+        "sha256": "e1caee3b32175393c9d6ea176a47f8869173a01d03a451e1cfe10d09167c0203",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3004s01.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3004s01.dat -> stud.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-532-010",
@@ -223531,7 +226035,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/532.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-532-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "533",
@@ -223546,10 +226051,84 @@
         "3622",
         "45505"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3622.dat",
+        "sha256": "9317bcec4fbcddbd38ed3972d25ea95d685101904f3ed86c7e769a9f356245d8",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            30.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -20.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            20.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "id": "stud-2"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-533-010",
@@ -224318,7 +226897,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/533.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-533-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "534",
@@ -224335,10 +226915,99 @@
         "3010a",
         "35256"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3010.dat",
+        "sha256": "7d1cb3082199042666045d92388b3b3ab697f969268e87a6c001f80f92a2e0b2",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            40.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "id": "stud-3"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-534-010",
@@ -225107,7 +227776,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/534.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-534-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "535",
@@ -228762,10 +231432,159 @@
         "3003a",
         "3003b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3003.dat",
+        "sha256": "aed0ccd750126a58d38b012a4e8b16c172896339547c120ef67b69e1386f490d",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            24.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          11.2,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            24,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-1",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            24,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-2",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            24,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-3",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            24,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-540-010",
@@ -229573,7 +232392,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/540.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-540-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "541",
@@ -230370,10 +233190,279 @@
         "3001d",
         "3001e"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3001.dat",
+        "sha256": "70968cb5e4baa92dc6a1939aca7526b8566a17dbea49da9b91182aa864e412c4",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            40.0,
+            24.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          11.2,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            30.0,
+            24,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-1",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            24,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-2",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            24,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-3",
+          "kind": "stud_receptacle",
+          "position": [
+            -30.0,
+            24,
+            10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-4",
+          "kind": "stud_receptacle",
+          "position": [
+            30.0,
+            24,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-5",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            24,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-6",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            24,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-7",
+          "kind": "stud_receptacle",
+          "position": [
+            -30.0,
+            24,
+            -10.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-542-010",
@@ -231155,7 +234244,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/542.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-542-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "543",
@@ -254893,10 +257983,38 @@
       "ldraw_candidates": [
         "3705"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/ldraw/parts/3705.dat",
+        "sha256": "ed90738971675e2dbd05b5a0aecaccf2da32e62b4e9085b886f084de890a853a",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -39.5,
+            -6.0,
+            -6.0
+          ],
+          "max": [
+            39.5,
+            6.0,
+            6.0
+          ]
+        },
+        "size_mm": [
+          31.6,
+          4.8,
+          4.8
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-578-010",
@@ -255444,7 +258562,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/152/578.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-578-152"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "579",
@@ -260192,10 +263311,54 @@
       "ldraw_candidates": [
         "60477"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/60477.dat",
+        "sha256": "838a96304d5ab177a8c7bd2805eacdfdbfeab71fb86802b81b3523484f4df58b",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -70.0
+          ],
+          "max": [
+            10.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          11.2,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/60477s01.dat -> stud.dat",
+          "id": "stud-0"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-587-010",
@@ -260782,7 +263945,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/587.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-587-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "588",
@@ -271585,10 +274749,54 @@
         "18860",
         "3062c"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3062b.dat",
+        "sha256": "cea4d47bad2ba17130e8fdd298f4f0b0dd4efdaf6edadd3bdd5e089e1cb60bac",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/s/3062bs01.dat -> stud2a.dat",
+          "id": "stud-0"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-605-010",
@@ -272396,7 +275604,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/605.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-605-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "606",
@@ -272414,10 +275623,54 @@
         "6188",
         "55525"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/59900.dat",
+        "sha256": "8416701912ed13937743df8dd877a2a1254925efd4adebb77950f48c3d9d5156",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/59900.dat -> stud2a.dat",
+          "id": "stud-0"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-606-010",
@@ -273225,7 +276478,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/606.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-606-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "607",
@@ -273242,10 +276496,38 @@
         "39223",
         "6116"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/ldraw/parts/3941.dat",
+        "sha256": "d0cf49833082c39c358c248fd19c7568030ffc43d7add011feae168d5ad6e693",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.000504910000004,
+            -4.0,
+            -20.000504910000004
+          ],
+          "max": [
+            20.000504910000004,
+            24.0,
+            20.000504910000004
+          ]
+        },
+        "size_mm": [
+          16.000404,
+          11.2,
+          16.000404
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-607-010",
@@ -274053,7 +277335,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/607.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-607-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "608",
@@ -274898,10 +278181,38 @@
         "4032",
         "4032b"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/ldraw/parts/4032.dat",
+        "sha256": "5fae837faef6e689f8933cf635de33f2c8d879c8dcd235a4affd518841249426",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.00052563,
+            -4.0,
+            -20.00052563
+          ],
+          "max": [
+            20.00052563,
+            8.0,
+            20.00052563
+          ]
+        },
+        "size_mm": [
+          16.000421,
+          4.8,
+          16.000421
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-609-010",
@@ -275709,7 +279020,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/609.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-609-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "610",
@@ -280021,10 +283333,54 @@
         "6141",
         "30057"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/6141.dat",
+        "sha256": "fb2cd4fad207392508bd2ca8b5469b1c351b692e111aa06b55da55d53fd44dd7",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/6141.dat -> stud.dat",
+          "id": "stud-0"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-615-010",
@@ -280845,7 +284201,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/615.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-615-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "616",
@@ -285673,10 +289030,84 @@
         "3700",
         "3700b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/3700.dat",
+        "sha256": "6cb6522c580754cf970dad0fae688bb78cb3253a7237038dad83965fe47cfec6",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3700.dat -> stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/3700.dat -> stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "id": "pin-hole",
+          "kind": "technic_pin_hole",
+          "position": [
+            0,
+            10,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "evidence": "3700.dat opposing peghole.dat instances at z=+/-10; seating/insertion not verified."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-623-010",
@@ -286406,7 +289837,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/623.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-623-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "624",
@@ -300936,10 +304368,69 @@
       "ldraw_candidates": [
         "60478"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/60478.dat",
+        "sha256": "39e307038b6a5b2f0124891de47949dc5ffb36233b5f4fa7cdf43f2d159b86bc",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            36.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          22.4,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-646-010",
@@ -301669,7 +305160,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/646.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-646-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "647",
@@ -307533,10 +311025,38 @@
         "11477",
         "17134"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/ldraw/parts/11477.dat",
+        "sha256": "fed74af9f56bcb149a7f67af4b427c261b41d24d15ed7a3466e24170377a0ba6",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -16.00006098,
+            -20.0
+          ],
+          "max": [
+            10.0,
+            0.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          6.400024,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-656-010",
@@ -308344,7 +311864,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/656.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-656-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "657",
@@ -309947,10 +313468,38 @@
         "15068",
         "78565"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/ldraw/parts/15068.dat",
+        "sha256": "511c620c73d116a9564248a4adb0f564b90f12f1428a4a9276b4bae4f9bd7e4c",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -16.00006098,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            0.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          6.400024,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-659-010",
@@ -310745,7 +314294,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/659.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-659-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "660",
@@ -383855,10 +387405,69 @@
         "2429",
         "19954"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/2429.dat",
+        "sha256": "65cfb3a695f389a76746cda89fdc2b487ff85e090b3cb03483cea463ddf44fbc",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -8.0
+          ],
+          "max": [
+            8.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          19.2,
+          4.8,
+          11.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-807-010",
@@ -384536,7 +388145,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/807.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-807-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "808",
@@ -384550,10 +388160,69 @@
       "ldraw_candidates": [
         "2430"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/2430.dat",
+        "sha256": "7a41e19061815c561d0930d76bffb0abe38b6323cb72d183b8259042812f7610",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -8.0,
+            -4.0,
+            -8.0
+          ],
+          "max": [
+            40.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          19.2,
+          4.8,
+          11.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/2430.dat -> stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/2430.dat -> stud.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-808-010",
@@ -385231,7 +388900,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/808.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-808-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "809",
@@ -399843,10 +403513,38 @@
         "35338",
         "63290"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/ldraw/parts/54200.dat",
+        "sha256": "3f0c25da3dac0600209a032c53c040b8668e617374997546d5449528eb7099c9",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -15.6,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            0.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          6.24,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-833-010",
@@ -400654,7 +404352,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/833.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-833-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "834",
@@ -409483,10 +413182,114 @@
       "ldraw_candidates": [
         "14417"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/14417.dat",
+        "sha256": "5da4fc1a13d6110876c944da429ebf2cc29d69b8942fb1dbc05ac8c65480d37c",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -28.0
+          ],
+          "max": [
+            20.0,
+            12.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          6.4,
+          15.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            8,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-1",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            8,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "ball",
+          "kind": "joint8_ball",
+          "position": [
+            0,
+            4,
+            -20
+          ],
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "evidence": "14417.dat joint8ball.dat translation."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-849-010",
@@ -410151,7 +413954,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/849.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-849-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "850",
@@ -410874,10 +414678,114 @@
         "gds851",
         "14418"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/14418.dat",
+        "sha256": "50df1a37eb8dd726ea0796c6ca6f88f3ab581f81e2682aa3aad24a3b0e881588",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            35.0,
+            11.75,
+            10.0
+          ]
+        },
+        "size_mm": [
+          22.0,
+          6.3,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            8,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-1",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            8,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "socket",
+          "kind": "joint8_socket",
+          "position": [
+            30,
+            4,
+            0
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "evidence": "assets/ldraw/parts/14418.dat type-1 joint8socket1.dat translation; source !HELP documents motion but no physical test."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-851-010",
@@ -411594,7 +415502,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/851.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-851-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "852",
@@ -427819,10 +431728,38 @@
         "30374",
         "28697"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/ldraw/parts/30374.dat",
+        "sha256": "db69ea3eecc2a6f2731aaad6ac8fb072c5ecbe136d1ea8a03de593014fe2e9c0",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -4.0,
+            0.0,
+            -4.0
+          ],
+          "max": [
+            4.0,
+            80.0,
+            4.0
+          ]
+        },
+        "size_mm": [
+          3.2,
+          32.0,
+          3.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-883-010",
@@ -428630,7 +432567,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/883.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-883-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "884",
@@ -523062,10 +527000,129 @@
       "ldraw_candidates": [
         "14419"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/14419.dat",
+        "sha256": "6bc91fe4e89dd12f56ead36d7af3cf13fcbbd9798bfbe01bfd8a71d9234d1b12",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -38.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            35.0,
+            12.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          29.2,
+          6.4,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            8,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "underside-1",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            8,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal bottom seating plane; mating semantics inferred, not physical clutch verification."
+        },
+        {
+          "id": "socket",
+          "kind": "joint8_socket",
+          "position": [
+            30,
+            4,
+            0
+          ],
+          "axis": [
+            1,
+            0,
+            0
+          ],
+          "evidence": "assets/ldraw/parts/14419.dat type-1 joint8socket1.dat translation; source !HELP documents motion but no physical test."
+        },
+        {
+          "id": "ball",
+          "kind": "joint8_ball",
+          "position": [
+            -30,
+            4,
+            0
+          ],
+          "axis": [
+            -1,
+            0,
+            0
+          ],
+          "evidence": "14419.dat sphere primitive translations and center of 8-8sphe.dat."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-904-010",
@@ -523548,7 +527605,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/904.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-904-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "90406",
@@ -552584,10 +556642,54 @@
       "ldraw_candidates": [
         "4274"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/ldraw/parts/4274.dat",
+        "sha256": "c421cee48c7c0233371144f5a256f7a4503f008318ff523b31e0b5a9d44d9704",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/ldraw/manifest.json"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -8.0,
+            -8.0
+          ],
+          "max": [
+            4.0,
+            8.0,
+            8.0
+          ]
+        },
+        "size_mm": [
+          9.6,
+          6.4,
+          6.4
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "evidence": "assets/ldraw/parts/4274.dat -> stud2a.dat",
+          "id": "stud-0"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-912-010",
@@ -553187,7 +557289,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/912.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-912-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "913",
@@ -627930,5 +632033,11 @@
         }
       ]
     }
-  ]
+  ],
+  "geometry_enrichment": {
+    "reference_parts_prepared": 38,
+    "reference_assets": "assets/ldraw/manifest.json",
+    "physical_tests": false,
+    "remaining_parts_geometry_pending": 1784
+  }
 }

@@ -1,6 +1,74 @@
 {
-  "schema_version": 1,
-  "status": "not_populated",
-  "description": "Reusable connection and structural examples. No verified examples have been imported into this new collection.",
-  "examples": []
+  "schema_version": 2,
+  "examples": [
+    {
+      "id": "joint8-chain",
+      "purpose": "Place a manufacturer-listed ball/socket reference pair at a common center.",
+      "reference_gobricks_ids": [
+        "851",
+        "904"
+      ],
+      "a": {
+        "part": "14418.dat",
+        "socket_center": [
+          30,
+          4,
+          0
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "b": {
+        "part": "14419.dat",
+        "ball_center": [
+          -30,
+          4,
+          0
+        ],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "translation": [
+          60,
+          0,
+          0
+        ]
+      },
+      "units": "LDU",
+      "evidence": [
+        "assets/ldraw/parts/14418.dat",
+        "assets/ldraw/parts/14419.dat"
+      ],
+      "validation": "Reference centers coincide; physical fit and strength untested."
+    },
+    {
+      "id": "fixed-skeletal-display",
+      "purpose": "Use a connected stud-grid frame, open rib cage and explicit stand to construct a complete fixed-pose model.",
+      "model": "models/tyrannosaurus.mpd",
+      "validation": "Nominal cell overlap and stud-plane graph checked by tools/validate_tyrannosaurus.py; no physical load or exact mesh collision test.",
+      "limitations": "This is a digital first design. A reference mesh match and a connected contact graph do not prove real assembly or stability."
+    }
+  ]
 }

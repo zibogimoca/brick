@@ -1,0 +1,34 @@
+"""Extract a small licensed LDraw dependency closure from the official complete.zip archive."""
+import argparse,hashlib,json,zipfile
+from pathlib import Path
+p=argparse.ArgumentParser(description=__doc__);p.add_argument('archive',type=Path);args=p.parse_args()
+ROOT=Path('assets/ldraw');TOP=['3001','3003','3005','3020','3024','3700','3705','4274','2429','2430','14417','14418','14419','3004','3010','3622','3023b','3022','3710','3623','3666','3460','3034','3832','3031','3032','3062b','6141','4032','3941','54200','11477','15068','59900','30374','60478','60479','60477']
+source='https://library.ldraw.org/library/updates/complete.zip'
+ROOT.mkdir(parents=True,exist_ok=True)
+with zipfile.ZipFile(args.archive) as z:
+ names={n.lower():n for n in z.namelist()};done={};queue={'parts/'+x+'.dat' for x in TOP}
+ def resolve(name):
+  name=name.replace('\\','/').lower();assert '..' not in name.split('/') and not name.startswith('/')
+  for rel in ['parts/'+name,'p/'+name,name]:
+   if 'ldraw/'+rel in names:return rel
+  raise ValueError('Missing dependency: '+name)
+ while queue:
+  rel=queue.pop()
+  if rel in done:continue
+  original=names['ldraw/'+rel];data=z.read(original) # zipfile validates member CRC on read
+  text=data.decode('utf-8-sig',errors='replace');dest=ROOT/rel;dest.parent.mkdir(parents=True,exist_ok=True)
+  dest.write_bytes(data)
+  done[rel]={'source_archive':source,'archive_member':original,'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data),'author':next((l[10:].strip() for l in text.splitlines() if l.startswith('0 Author:')),None),'license':next((l[11:].strip() for l in text.splitlines() if l.startswith('0 !LICENSE')),None)}
+  for line in text.splitlines():
+   f=line.split(maxsplit=14)
+   if len(f)==15 and f[0]=='1':queue.add(resolve(f[14]))
+ for rel in ['CAreadme.txt','CAlicense.txt','LDConfig.ldr']:
+  data=z.read(names['ldraw/'+rel.lower()]);(ROOT/rel).write_bytes(data)
+  done[rel]={'source_archive':source,'archive_member':names['ldraw/'+rel.lower()],'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)}
+ # Remove only stale geometry files from earlier downloads that are not in this closure.
+ for folder in ['parts','p']:
+  for f in (ROOT/folder).rglob('*.dat'):
+   if f.relative_to(ROOT).as_posix() not in done:f.unlink()
+ manifest={'source':source,'archive_sha256':hashlib.sha256(args.archive.read_bytes()).hexdigest(),'verification':'HTTPS source, ZIP member CRCs and retained per-file SHA-256; archive SHA is an observation, not a separately published signature.','parts':TOP,'files':done}
+ (ROOT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+print('Extracted and verified',len(done),'files for',len(TOP),'parts')

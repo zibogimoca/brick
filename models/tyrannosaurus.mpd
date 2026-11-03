@@ -1,0 +1,416 @@
+0 FILE tyrannosaurus.ldr
+0 BRICK Fossils - Tyrannosaurus
+0 Name: tyrannosaurus.mpd
+0 Author: BRICK project
+0 !BRICK_STATE {"status":"complete_first_digital_design_physical_validation_pending","model":"Tyrannosaurus skeletal display","style":"Stud-grid stylized fossil skeleton; fixed pose with explicit black display base/support. Not a replica of an official set.","requirements":["large open skull","long tapering tail","two hind legs with three toes each","two short forelimbs with two fingers each","open rib cage","display support"],"piece_count":160,"unique_sale_skus":18,"listed_retail_parts_cost_cny":"61.23","cost_scope":"Public listed unit prices at catalog observation; shipping/tax/bulk discounts excluded.","validation":{"nominal_body_grid_overlaps":0,"all_pieces_in_one_stud_contact_graph":true,"reference_asset_closure":"verified separately","exact_mesh_collision":"not_tested","clutch_and_load":"not_tested","physical_build":"not_tested"},"next":"Review the complete rendered design; refine silhouette and connections based on user feedback; physically test joints before assembly claims.","instances":[{"id":"display-base-001","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-150.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-10,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-002","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-150.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-10,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-003","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-150.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-10,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-004","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-30.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-4,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-005","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-30.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-4,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-006","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-30.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-4,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-007","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[90.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":2,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-008","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[90.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":2,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-009","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[90.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":2,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-010","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[210.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":8,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-011","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[210.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":8,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-012","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[210.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":8,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-013","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[330.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":14,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-014","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[330.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":14,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-015","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[330.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":14,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-016","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[450.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":20,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-017","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[450.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":20,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-018","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[450.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":20,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-019","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[570.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-020","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[570.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-021","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[570.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-022","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[690.0,0,10.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":32,"z":-1,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-023","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[690.0,0,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":32,"z":3,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-024","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[690.0,0,170.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":32,"z":7,"length":6,"width":4,"top":0,"bottom":-1},"top_studs":true},{"id":"display-base-025","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-90.0,-8,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-7,"z":0,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-026","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-90.0,-8,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-7,"z":4,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-027","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[-90.0,-8,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-7,"z":8,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-028","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[30.0,-8,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-1,"z":0,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-029","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[30.0,-8,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-1,"z":4,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-030","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[30.0,-8,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-1,"z":8,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-031","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[150.0,-8,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":5,"z":0,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-032","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[150.0,-8,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":5,"z":4,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-033","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[150.0,-8,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":5,"z":8,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-034","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[270.0,-8,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":11,"z":0,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-035","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[270.0,-8,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":11,"z":4,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-036","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[270.0,-8,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":11,"z":8,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-037","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[390.0,-8,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":17,"z":0,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-038","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[390.0,-8,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":17,"z":4,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-039","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[390.0,-8,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":17,"z":8,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-040","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[510.0,-8,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":23,"z":0,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-041","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[510.0,-8,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":23,"z":4,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-042","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[510.0,-8,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":23,"z":8,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-043","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[630.0,-8,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":29,"z":0,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-044","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[630.0,-8,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":29,"z":4,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"display-base-045","group":"display-base","part":"3032.dat","gobricks_id":"520","sku":"GDS-520-080","color":0,"position":[630.0,-8,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":29,"z":8,"length":6,"width":4,"top":1,"bottom":0},"top_studs":true},{"id":"left-foot-001","group":"left-foot","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[330.0,-16,0.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":0,"length":4,"width":1,"top":2,"bottom":1},"top_studs":true},{"id":"left-claws-001","group":"left-claws","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[360.0,-32,0.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":0,"length":1,"width":1,"top":4,"bottom":2},"top_studs":false},{"id":"left-foot-002","group":"left-foot","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[330.0,-16,20.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":1,"length":4,"width":1,"top":2,"bottom":1},"top_studs":true},{"id":"left-claws-002","group":"left-claws","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[360.0,-32,20.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":1,"length":1,"width":1,"top":4,"bottom":2},"top_studs":false},{"id":"left-foot-003","group":"left-foot","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[330.0,-16,40.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":2,"length":4,"width":1,"top":2,"bottom":1},"top_studs":true},{"id":"left-claws-003","group":"left-claws","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[360.0,-32,40.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":2,"length":1,"width":1,"top":4,"bottom":2},"top_studs":false},{"id":"left-foot-004","group":"left-foot","part":"3031.dat","gobricks_id":"519","sku":"GDS-519-031","color":19,"position":[270.0,-24,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":0,"length":4,"width":4,"top":3,"bottom":2},"top_studs":true},{"id":"left-shin-001","group":"left-shin","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[270.0,-48,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":13,"z":1,"length":2,"width":2,"top":6,"bottom":3},"top_studs":true},{"id":"left-shin-002","group":"left-shin","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[270.0,-72,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":13,"z":1,"length":2,"width":2,"top":9,"bottom":6},"top_studs":true},{"id":"left-knee-001","group":"left-knee","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[290.0,-80,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":13,"z":1,"length":4,"width":2,"top":10,"bottom":9},"top_studs":true},{"id":"left-thigh-001","group":"left-thigh","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[310.0,-104,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":1,"length":2,"width":2,"top":13,"bottom":10},"top_studs":true},{"id":"left-thigh-002","group":"left-thigh","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[310.0,-128,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":1,"length":2,"width":2,"top":16,"bottom":13},"top_studs":true},{"id":"left-thigh-003","group":"left-thigh","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[310.0,-152,30.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":1,"length":2,"width":2,"top":19,"bottom":16},"top_studs":true},{"id":"right-foot-001","group":"right-foot","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[330.0,-16,160.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":8,"length":4,"width":1,"top":2,"bottom":1},"top_studs":true},{"id":"right-claws-001","group":"right-claws","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[360.0,-32,160.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":8,"length":1,"width":1,"top":4,"bottom":2},"top_studs":false},{"id":"right-foot-002","group":"right-foot","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[330.0,-16,180.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":9,"length":4,"width":1,"top":2,"bottom":1},"top_studs":true},{"id":"right-claws-002","group":"right-claws","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[360.0,-32,180.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":9,"length":1,"width":1,"top":4,"bottom":2},"top_studs":false},{"id":"right-foot-003","group":"right-foot","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[330.0,-16,200.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":10,"length":4,"width":1,"top":2,"bottom":1},"top_studs":true},{"id":"right-claws-003","group":"right-claws","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[360.0,-32,200.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":10,"length":1,"width":1,"top":4,"bottom":2},"top_studs":false},{"id":"right-foot-004","group":"right-foot","part":"3031.dat","gobricks_id":"519","sku":"GDS-519-031","color":19,"position":[270.0,-24,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":8,"length":4,"width":4,"top":3,"bottom":2},"top_studs":true},{"id":"right-shin-001","group":"right-shin","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[270.0,-48,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":13,"z":9,"length":2,"width":2,"top":6,"bottom":3},"top_studs":true},{"id":"right-shin-002","group":"right-shin","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[270.0,-72,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":13,"z":9,"length":2,"width":2,"top":9,"bottom":6},"top_studs":true},{"id":"right-knee-001","group":"right-knee","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[290.0,-80,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":13,"z":9,"length":4,"width":2,"top":10,"bottom":9},"top_studs":true},{"id":"right-thigh-001","group":"right-thigh","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[310.0,-104,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":9,"length":2,"width":2,"top":13,"bottom":10},"top_studs":true},{"id":"right-thigh-002","group":"right-thigh","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[310.0,-128,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":9,"length":2,"width":2,"top":16,"bottom":13},"top_studs":true},{"id":"right-thigh-003","group":"right-thigh","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[310.0,-152,190.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":9,"length":2,"width":2,"top":19,"bottom":16},"top_studs":true},{"id":"display-support-001","group":"display-support","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-080","color":0,"position":[310.0,-32,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":2,"width":2,"top":4,"bottom":1},"top_studs":true},{"id":"display-support-002","group":"display-support","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-080","color":0,"position":[310.0,-56,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":2,"width":2,"top":7,"bottom":4},"top_studs":true},{"id":"display-support-003","group":"display-support","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-080","color":0,"position":[310.0,-80,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":2,"width":2,"top":10,"bottom":7},"top_studs":true},{"id":"display-support-004","group":"display-support","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-080","color":0,"position":[310.0,-104,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":2,"width":2,"top":13,"bottom":10},"top_studs":true},{"id":"display-support-005","group":"display-support","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-080","color":0,"position":[310.0,-128,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":2,"width":2,"top":16,"bottom":13},"top_studs":true},{"id":"display-support-006","group":"display-support","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-080","color":0,"position":[310.0,-152,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":2,"width":2,"top":19,"bottom":16},"top_studs":true},{"id":"pelvis-001","group":"pelvis","part":"3832.dat","gobricks_id":"514","sku":"GDS-514-031","color":19,"position":[310.0,-160,110.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":15,"z":1,"length":2,"width":10,"top":20,"bottom":19},"top_studs":true},{"id":"torso-frame-001","group":"torso-frame","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[290.0,-168,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":11,"z":4,"length":8,"width":2,"top":21,"bottom":20},"top_studs":true},{"id":"torso-frame-002","group":"torso-frame","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[410.0,-168,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":19,"z":4,"length":4,"width":2,"top":21,"bottom":20},"top_studs":true},{"id":"torso-frame-003","group":"torso-frame","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[290.0,-168,130.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":11,"z":6,"length":8,"width":2,"top":21,"bottom":20},"top_studs":true},{"id":"torso-frame-004","group":"torso-frame","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[410.0,-168,130.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":19,"z":6,"length":4,"width":2,"top":21,"bottom":20},"top_studs":true},{"id":"ribs-001","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[240.0,-192,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":4,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-002","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[240.0,-216,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":4,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-003","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[240.0,-240,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":4,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-004","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[240.0,-192,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":7,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-005","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[240.0,-216,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":7,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-006","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[240.0,-240,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":7,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-007","group":"ribs","part":"3010.dat","gobricks_id":"534","sku":"GDS-534-031","color":19,"position":[240.0,-264,110.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":12,"z":4,"length":1,"width":4,"top":33,"bottom":30},"top_studs":true},{"id":"ribs-008","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[300.0,-192,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-009","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[300.0,-216,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-010","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[300.0,-240,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-011","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[300.0,-192,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":7,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-012","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[300.0,-216,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":7,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-013","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[300.0,-240,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":7,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-014","group":"ribs","part":"3010.dat","gobricks_id":"534","sku":"GDS-534-031","color":19,"position":[300.0,-264,110.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":15,"z":4,"length":1,"width":4,"top":33,"bottom":30},"top_studs":true},{"id":"ribs-015","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-192,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":4,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-016","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-216,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":4,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-017","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-240,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":4,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-018","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-192,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":7,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-019","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-216,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":7,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-020","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-240,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":7,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-021","group":"ribs","part":"3010.dat","gobricks_id":"534","sku":"GDS-534-031","color":19,"position":[360.0,-264,110.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":18,"z":4,"length":1,"width":4,"top":33,"bottom":30},"top_studs":true},{"id":"ribs-022","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[420.0,-192,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":4,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-023","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[420.0,-216,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":4,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-024","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[420.0,-240,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":4,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-025","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[420.0,-192,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":7,"length":1,"width":1,"top":24,"bottom":21},"top_studs":true},{"id":"ribs-026","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[420.0,-216,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":7,"length":1,"width":1,"top":27,"bottom":24},"top_studs":true},{"id":"ribs-027","group":"ribs","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[420.0,-240,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":7,"length":1,"width":1,"top":30,"bottom":27},"top_studs":true},{"id":"ribs-028","group":"ribs","part":"3010.dat","gobricks_id":"534","sku":"GDS-534-031","color":19,"position":[420.0,-264,110.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":21,"z":4,"length":1,"width":4,"top":33,"bottom":30},"top_studs":true},{"id":"spine-001","group":"spine","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[290.0,-272,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":11,"z":5,"length":8,"width":2,"top":34,"bottom":33},"top_studs":true},{"id":"spine-002","group":"spine","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[410.0,-272,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":19,"z":5,"length":4,"width":2,"top":34,"bottom":33},"top_studs":true},{"id":"spine-003","group":"spine","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[370.0,-280,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":17,"z":5,"length":4,"width":2,"top":35,"bottom":34},"top_studs":true},{"id":"spinal-processes-001","group":"spinal-processes","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-031","color":19,"position":[240.0,-288,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":4,"length":1,"width":1,"top":36,"bottom":33},"top_studs":false},{"id":"spinal-processes-002","group":"spinal-processes","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-031","color":19,"position":[240.0,-288,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":12,"z":7,"length":1,"width":1,"top":36,"bottom":33},"top_studs":false},{"id":"spinal-processes-003","group":"spinal-processes","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-031","color":19,"position":[300.0,-288,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":4,"length":1,"width":1,"top":36,"bottom":33},"top_studs":false},{"id":"spinal-processes-004","group":"spinal-processes","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-031","color":19,"position":[300.0,-288,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":15,"z":7,"length":1,"width":1,"top":36,"bottom":33},"top_studs":false},{"id":"tail-001","group":"tail","part":"3832.dat","gobricks_id":"514","sku":"GDS-514-031","color":19,"position":[150.0,-176,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":3,"z":5,"length":10,"width":2,"top":22,"bottom":21},"top_studs":true},{"id":"tail-002","group":"tail","part":"3022.dat","gobricks_id":"509","sku":"GDS-509-031","color":19,"position":[70.0,-184,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":3,"z":5,"length":2,"width":2,"top":23,"bottom":22},"top_studs":true},{"id":"tail-003","group":"tail","part":"3022.dat","gobricks_id":"509","sku":"GDS-509-031","color":19,"position":[110.0,-184,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":5,"z":5,"length":2,"width":2,"top":23,"bottom":22},"top_studs":true},{"id":"tail-004","group":"tail","part":"3022.dat","gobricks_id":"509","sku":"GDS-509-031","color":19,"position":[150.0,-184,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":7,"z":5,"length":2,"width":2,"top":23,"bottom":22},"top_studs":true},{"id":"tail-005","group":"tail","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[190.0,-200,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":9,"z":5,"length":2,"width":2,"top":25,"bottom":22},"top_studs":true},{"id":"tail-006","group":"tail","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[230.0,-200,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":11,"z":5,"length":2,"width":2,"top":25,"bottom":22},"top_studs":true},{"id":"tail-007","group":"tail","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[-10.0,-168,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-4,"z":5,"length":8,"width":2,"top":21,"bottom":20},"top_studs":true},{"id":"tail-008","group":"tail","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[-110.0,-160,100.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-7,"z":5,"length":4,"width":1,"top":20,"bottom":19},"top_studs":true},{"id":"tail-009","group":"tail","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-031","color":19,"position":[-150.0,-152,100.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":-8,"z":5,"length":2,"width":1,"top":19,"bottom":18},"top_studs":true},{"id":"left-arm-001","group":"left-arm","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-031","color":19,"position":[360.0,-272,70.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":18,"z":3,"length":1,"width":2,"top":34,"bottom":33},"top_studs":true},{"id":"left-arm-002","group":"left-arm","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-296,60.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":3,"length":1,"width":1,"top":37,"bottom":34},"top_studs":true},{"id":"left-arm-003","group":"left-arm","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[390.0,-304,60.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":3,"length":4,"width":1,"top":38,"bottom":37},"top_studs":true},{"id":"left-hand-001","group":"left-hand","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-031","color":19,"position":[420.0,-312,70.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":21,"z":3,"length":1,"width":2,"top":39,"bottom":38},"top_studs":true},{"id":"left-fingers-001","group":"left-fingers","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[420.0,-328,60.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":3,"length":1,"width":1,"top":41,"bottom":39},"top_studs":false},{"id":"left-fingers-002","group":"left-fingers","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[420.0,-328,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":4,"length":1,"width":1,"top":41,"bottom":39},"top_studs":false},{"id":"right-arm-001","group":"right-arm","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-031","color":19,"position":[360.0,-272,150.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":18,"z":7,"length":1,"width":2,"top":34,"bottom":33},"top_studs":true},{"id":"right-arm-002","group":"right-arm","part":"3062b.dat","gobricks_id":"605","sku":"GDS-605-031","color":19,"position":[360.0,-296,160.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":8,"length":1,"width":1,"top":37,"bottom":34},"top_studs":true},{"id":"right-arm-003","group":"right-arm","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[390.0,-304,160.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":18,"z":8,"length":4,"width":1,"top":38,"bottom":37},"top_studs":true},{"id":"right-hand-001","group":"right-hand","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-031","color":19,"position":[420.0,-312,170.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":21,"z":8,"length":1,"width":2,"top":39,"bottom":38},"top_studs":true},{"id":"right-fingers-001","group":"right-fingers","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[420.0,-328,160.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":8,"length":1,"width":1,"top":41,"bottom":39},"top_studs":false},{"id":"right-fingers-002","group":"right-fingers","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-090","color":15,"position":[420.0,-328,180.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":21,"z":9,"length":1,"width":1,"top":41,"bottom":39},"top_studs":false},{"id":"neck-001","group":"neck","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[410.0,-304,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":20,"z":5,"length":2,"width":2,"top":38,"bottom":35},"top_studs":true},{"id":"neck-002","group":"neck","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[430.0,-312,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":20,"z":5,"length":4,"width":2,"top":39,"bottom":38},"top_studs":true},{"id":"neck-003","group":"neck","part":"3003.dat","gobricks_id":"540","sku":"GDS-540-031","color":19,"position":[450.0,-336,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":22,"z":5,"length":2,"width":2,"top":42,"bottom":39},"top_studs":true},{"id":"lower-jaw-001","group":"lower-jaw","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[510.0,-344,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":22,"z":4,"length":8,"width":2,"top":43,"bottom":42},"top_studs":true},{"id":"lower-jaw-002","group":"lower-jaw","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[510.0,-344,130.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":22,"z":6,"length":8,"width":2,"top":43,"bottom":42},"top_studs":true},{"id":"lower-jaw-003","group":"lower-jaw","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[550.0,-352,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":4,"length":4,"width":1,"top":44,"bottom":43},"top_studs":true},{"id":"teeth-001","group":"teeth","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-090","color":15,"position":[520.0,-376,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":4,"length":1,"width":1,"top":47,"bottom":44},"top_studs":false},{"id":"teeth-002","group":"teeth","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-090","color":15,"position":[540.0,-376,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":27,"z":4,"length":1,"width":1,"top":47,"bottom":44},"top_studs":false},{"id":"teeth-003","group":"teeth","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-090","color":15,"position":[580.0,-376,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":29,"z":4,"length":1,"width":1,"top":47,"bottom":44},"top_studs":false},{"id":"lower-jaw-004","group":"lower-jaw","part":"3710.dat","gobricks_id":"504","sku":"GDS-504-031","color":19,"position":[550.0,-352,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":7,"length":4,"width":1,"top":44,"bottom":43},"top_studs":true},{"id":"teeth-004","group":"teeth","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-090","color":15,"position":[520.0,-376,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":7,"length":1,"width":1,"top":47,"bottom":44},"top_studs":false},{"id":"teeth-005","group":"teeth","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-090","color":15,"position":[540.0,-376,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":27,"z":7,"length":1,"width":1,"top":47,"bottom":44},"top_studs":false},{"id":"teeth-006","group":"teeth","part":"59900.dat","gobricks_id":"606","sku":"GDS-606-090","color":15,"position":[580.0,-376,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":29,"z":7,"length":1,"width":1,"top":47,"bottom":44},"top_studs":false},{"id":"skull-001","group":"skull","part":"3001.dat","gobricks_id":"542","sku":"GDS-542-031","color":19,"position":[450.0,-368,110.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":22,"z":4,"length":2,"width":4,"top":46,"bottom":43},"top_studs":true},{"id":"skull-002","group":"skull","part":"3001.dat","gobricks_id":"542","sku":"GDS-542-031","color":19,"position":[450.0,-392,110.0],"matrix":[0,0,1,0,1,0,-1,0,0],"grid":{"x":22,"z":4,"length":2,"width":4,"top":49,"bottom":46},"top_studs":true},{"id":"skull-003","group":"skull","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[510.0,-400,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":22,"z":4,"length":8,"width":2,"top":50,"bottom":49},"top_studs":true},{"id":"skull-004","group":"skull","part":"3034.dat","gobricks_id":"513","sku":"GDS-513-031","color":19,"position":[510.0,-400,130.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":22,"z":6,"length":8,"width":2,"top":50,"bottom":49},"top_studs":true},{"id":"skull-005","group":"skull","part":"3031.dat","gobricks_id":"519","sku":"GDS-519-031","color":19,"position":[470.0,-408,110.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":22,"z":4,"length":4,"width":4,"top":51,"bottom":50},"top_studs":true},{"id":"snout-001","group":"snout","part":"15068.dat","gobricks_id":"659","sku":"GDS-659-031","color":19,"position":[530.0,-416,90.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":4,"length":2,"width":2,"top":52,"bottom":50},"top_studs":false},{"id":"snout-002","group":"snout","part":"15068.dat","gobricks_id":"659","sku":"GDS-659-031","color":19,"position":[530.0,-416,130.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":26,"z":6,"length":2,"width":2,"top":52,"bottom":50},"top_studs":false},{"id":"nostrils-001","group":"nostrils","part":"6141.dat","gobricks_id":"615","sku":"GDS-615-080","color":0,"position":[560.0,-408,80.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":28,"z":4,"length":1,"width":1,"top":51,"bottom":50},"top_studs":true},{"id":"nostrils-002","group":"nostrils","part":"6141.dat","gobricks_id":"615","sku":"GDS-615-080","color":0,"position":[560.0,-408,140.0],"matrix":[1,0,0,0,1,0,0,0,1],"grid":{"x":28,"z":7,"length":1,"width":1,"top":51,"bottom":50},"top_studs":true}],"contacts":[{"a":"display-base-001","b":"display-base-025","studs":9},{"a":"display-base-002","b":"display-base-025","studs":3},{"a":"display-base-002","b":"display-base-026","studs":9},{"a":"display-base-003","b":"display-base-026","studs":3},{"a":"display-base-003","b":"display-base-027","studs":9},{"a":"display-base-004","b":"display-base-025","studs":9},{"a":"display-base-004","b":"display-base-028","studs":9},{"a":"display-base-005","b":"display-base-025","studs":3},{"a":"display-base-005","b":"display-base-026","studs":9},{"a":"display-base-005","b":"display-base-028","studs":3},{"a":"display-base-005","b":"display-base-029","studs":9},{"a":"display-base-006","b":"display-base-026","studs":3},{"a":"display-base-006","b":"display-base-027","studs":9},{"a":"display-base-006","b":"display-base-029","studs":3},{"a":"display-base-006","b":"display-base-030","studs":9},{"a":"display-base-007","b":"display-base-028","studs":9},{"a":"display-base-007","b":"display-base-031","studs":9},{"a":"display-base-008","b":"display-base-028","studs":3},{"a":"display-base-008","b":"display-base-029","studs":9},{"a":"display-base-008","b":"display-base-031","studs":3},{"a":"display-base-008","b":"display-base-032","studs":9},{"a":"display-base-009","b":"display-base-029","studs":3},{"a":"display-base-009","b":"display-base-030","studs":9},{"a":"display-base-009","b":"display-base-032","studs":3},{"a":"display-base-009","b":"display-base-033","studs":9},{"a":"display-base-010","b":"display-base-031","studs":9},{"a":"display-base-010","b":"display-base-034","studs":9},{"a":"display-base-011","b":"display-base-031","studs":3},{"a":"display-base-011","b":"display-base-032","studs":9},{"a":"display-base-011","b":"display-base-034","studs":3},{"a":"display-base-011","b":"display-base-035","studs":9},{"a":"display-base-012","b":"display-base-032","studs":3},{"a":"display-base-012","b":"display-base-033","studs":9},{"a":"display-base-012","b":"display-base-035","studs":3},{"a":"display-base-012","b":"display-base-036","studs":9},{"a":"display-base-013","b":"display-base-034","studs":9},{"a":"display-base-013","b":"display-base-037","studs":9},{"a":"display-base-014","b":"display-base-034","studs":3},{"a":"display-base-014","b":"display-base-035","studs":9},{"a":"display-base-014","b":"display-base-037","studs":3},{"a":"display-base-014","b":"display-base-038","studs":9},{"a":"display-base-015","b":"display-base-035","studs":3},{"a":"display-base-015","b":"display-base-036","studs":9},{"a":"display-base-015","b":"display-base-038","studs":3},{"a":"display-base-015","b":"display-base-039","studs":9},{"a":"display-base-016","b":"display-base-037","studs":9},{"a":"display-base-016","b":"display-base-040","studs":9},{"a":"display-base-017","b":"display-base-037","studs":3},{"a":"display-base-017","b":"display-base-038","studs":9},{"a":"display-base-017","b":"display-base-040","studs":3},{"a":"display-base-017","b":"display-base-041","studs":9},{"a":"display-base-018","b":"display-base-038","studs":3},{"a":"display-base-018","b":"display-base-039","studs":9},{"a":"display-base-018","b":"display-base-041","studs":3},{"a":"display-base-018","b":"display-base-042","studs":9},{"a":"display-base-019","b":"display-base-040","studs":9},{"a":"display-base-019","b":"display-base-043","studs":9},{"a":"display-base-020","b":"display-base-040","studs":3},{"a":"display-base-020","b":"display-base-041","studs":9},{"a":"display-base-020","b":"display-base-043","studs":3},{"a":"display-base-020","b":"display-base-044","studs":9},{"a":"display-base-021","b":"display-base-041","studs":3},{"a":"display-base-021","b":"display-base-042","studs":9},{"a":"display-base-021","b":"display-base-044","studs":3},{"a":"display-base-021","b":"display-base-045","studs":9},{"a":"display-base-022","b":"display-base-043","studs":9},{"a":"display-base-023","b":"display-base-043","studs":3},{"a":"display-base-023","b":"display-base-044","studs":9},{"a":"display-base-024","b":"display-base-044","studs":3},{"a":"display-base-024","b":"display-base-045","studs":9},{"a":"display-base-034","b":"left-foot-001","studs":2},{"a":"display-base-034","b":"left-foot-002","studs":2},{"a":"display-base-034","b":"left-foot-003","studs":2},{"a":"display-base-035","b":"display-support-001","studs":4},{"a":"display-base-036","b":"right-foot-001","studs":2},{"a":"display-base-036","b":"right-foot-002","studs":2},{"a":"display-base-036","b":"right-foot-003","studs":2},{"a":"display-base-037","b":"left-foot-001","studs":2},{"a":"display-base-037","b":"left-foot-002","studs":2},{"a":"display-base-037","b":"left-foot-003","studs":2},{"a":"display-base-039","b":"right-foot-001","studs":2},{"a":"display-base-039","b":"right-foot-002","studs":2},{"a":"display-base-039","b":"right-foot-003","studs":2},{"a":"left-foot-001","b":"left-claws-001","studs":1},{"a":"left-foot-001","b":"left-foot-004","studs":1},{"a":"left-foot-002","b":"left-claws-002","studs":1},{"a":"left-foot-002","b":"left-foot-004","studs":1},{"a":"left-foot-003","b":"left-claws-003","studs":1},{"a":"left-foot-003","b":"left-foot-004","studs":1},{"a":"left-foot-004","b":"left-shin-001","studs":4},{"a":"left-shin-001","b":"left-shin-002","studs":4},{"a":"left-shin-002","b":"left-knee-001","studs":4},{"a":"left-knee-001","b":"left-thigh-001","studs":4},{"a":"left-thigh-001","b":"left-thigh-002","studs":4},{"a":"left-thigh-002","b":"left-thigh-003","studs":4},{"a":"left-thigh-003","b":"pelvis-001","studs":4},{"a":"right-foot-001","b":"right-claws-001","studs":1},{"a":"right-foot-001","b":"right-foot-004","studs":1},{"a":"right-foot-002","b":"right-claws-002","studs":1},{"a":"right-foot-002","b":"right-foot-004","studs":1},{"a":"right-foot-003","b":"right-claws-003","studs":1},{"a":"right-foot-003","b":"right-foot-004","studs":1},{"a":"right-foot-004","b":"right-shin-001","studs":4},{"a":"right-shin-001","b":"right-shin-002","studs":4},{"a":"right-shin-002","b":"right-knee-001","studs":4},{"a":"right-knee-001","b":"right-thigh-001","studs":4},{"a":"right-thigh-001","b":"right-thigh-002","studs":4},{"a":"right-thigh-002","b":"right-thigh-003","studs":4},{"a":"right-thigh-003","b":"pelvis-001","studs":4},{"a":"display-support-001","b":"display-support-002","studs":4},{"a":"display-support-002","b":"display-support-003","studs":4},{"a":"display-support-003","b":"display-support-004","studs":4},{"a":"display-support-004","b":"display-support-005","studs":4},{"a":"display-support-005","b":"display-support-006","studs":4},{"a":"display-support-006","b":"pelvis-001","studs":4},{"a":"pelvis-001","b":"torso-frame-001","studs":4},{"a":"pelvis-001","b":"torso-frame-003","studs":4},{"a":"torso-frame-001","b":"ribs-001","studs":1},{"a":"torso-frame-001","b":"ribs-008","studs":1},{"a":"torso-frame-001","b":"ribs-015","studs":1},{"a":"torso-frame-001","b":"tail-001","studs":2},{"a":"torso-frame-002","b":"ribs-022","studs":1},{"a":"torso-frame-003","b":"ribs-004","studs":1},{"a":"torso-frame-003","b":"ribs-011","studs":1},{"a":"torso-frame-003","b":"ribs-018","studs":1},{"a":"torso-frame-003","b":"tail-001","studs":2},{"a":"torso-frame-004","b":"ribs-025","studs":1},{"a":"ribs-001","b":"ribs-002","studs":1},{"a":"ribs-002","b":"ribs-003","studs":1},{"a":"ribs-003","b":"ribs-007","studs":1},{"a":"ribs-004","b":"ribs-005","studs":1},{"a":"ribs-005","b":"ribs-006","studs":1},{"a":"ribs-006","b":"ribs-007","studs":1},{"a":"ribs-007","b":"spine-001","studs":2},{"a":"ribs-007","b":"spinal-processes-001","studs":1},{"a":"ribs-007","b":"spinal-processes-002","studs":1},{"a":"ribs-008","b":"ribs-009","studs":1},{"a":"ribs-009","b":"ribs-010","studs":1},{"a":"ribs-010","b":"ribs-014","studs":1},{"a":"ribs-011","b":"ribs-012","studs":1},{"a":"ribs-012","b":"ribs-013","studs":1},{"a":"ribs-013","b":"ribs-014","studs":1},{"a":"ribs-014","b":"spine-001","studs":2},{"a":"ribs-014","b":"spinal-processes-003","studs":1},{"a":"ribs-014","b":"spinal-processes-004","studs":1},{"a":"ribs-015","b":"ribs-016","studs":1},{"a":"ribs-016","b":"ribs-017","studs":1},{"a":"ribs-017","b":"ribs-021","studs":1},{"a":"ribs-018","b":"ribs-019","studs":1},{"a":"ribs-019","b":"ribs-020","studs":1},{"a":"ribs-020","b":"ribs-021","studs":1},{"a":"ribs-021","b":"spine-001","studs":2},{"a":"ribs-021","b":"left-arm-001","studs":1},{"a":"ribs-021","b":"right-arm-001","studs":1},{"a":"ribs-022","b":"ribs-023","studs":1},{"a":"ribs-023","b":"ribs-024","studs":1},{"a":"ribs-024","b":"ribs-028","studs":1},{"a":"ribs-025","b":"ribs-026","studs":1},{"a":"ribs-026","b":"ribs-027","studs":1},{"a":"ribs-027","b":"ribs-028","studs":1},{"a":"ribs-028","b":"spine-002","studs":2},{"a":"spine-001","b":"spine-003","studs":4},{"a":"spine-002","b":"spine-003","studs":4},{"a":"spine-003","b":"neck-001","studs":2},{"a":"tail-001","b":"tail-002","studs":4},{"a":"tail-001","b":"tail-003","studs":4},{"a":"tail-001","b":"tail-004","studs":4},{"a":"tail-001","b":"tail-005","studs":4},{"a":"tail-001","b":"tail-006","studs":4},{"a":"tail-007","b":"tail-001","studs":2},{"a":"tail-008","b":"tail-007","studs":1},{"a":"tail-009","b":"tail-008","studs":1},{"a":"left-arm-001","b":"left-arm-002","studs":1},{"a":"left-arm-002","b":"left-arm-003","studs":1},{"a":"left-arm-003","b":"left-hand-001","studs":1},{"a":"left-hand-001","b":"left-fingers-001","studs":1},{"a":"left-hand-001","b":"left-fingers-002","studs":1},{"a":"right-arm-001","b":"right-arm-002","studs":1},{"a":"right-arm-002","b":"right-arm-003","studs":1},{"a":"right-arm-003","b":"right-hand-001","studs":1},{"a":"right-hand-001","b":"right-fingers-001","studs":1},{"a":"right-hand-001","b":"right-fingers-002","studs":1},{"a":"neck-001","b":"neck-002","studs":4},{"a":"neck-002","b":"neck-003","studs":4},{"a":"neck-003","b":"lower-jaw-001","studs":2},{"a":"neck-003","b":"lower-jaw-002","studs":2},{"a":"lower-jaw-001","b":"lower-jaw-003","studs":4},{"a":"lower-jaw-001","b":"skull-001","studs":4},{"a":"lower-jaw-002","b":"lower-jaw-004","studs":4},{"a":"lower-jaw-002","b":"skull-001","studs":4},{"a":"lower-jaw-003","b":"teeth-001","studs":1},{"a":"lower-jaw-003","b":"teeth-002","studs":1},{"a":"lower-jaw-003","b":"teeth-003","studs":1},{"a":"lower-jaw-004","b":"teeth-004","studs":1},{"a":"lower-jaw-004","b":"teeth-005","studs":1},{"a":"lower-jaw-004","b":"teeth-006","studs":1},{"a":"skull-001","b":"skull-002","studs":8},{"a":"skull-002","b":"skull-003","studs":4},{"a":"skull-002","b":"skull-004","studs":4},{"a":"skull-003","b":"skull-005","studs":8},{"a":"skull-003","b":"snout-001","studs":4},{"a":"skull-003","b":"nostrils-001","studs":1},{"a":"skull-004","b":"skull-005","studs":8},{"a":"skull-004","b":"snout-002","studs":4},{"a":"skull-004","b":"nostrils-002","studs":1}],"bom":[{"sku":"GDS-502-031","quantity":5,"unit_price_cny":"0.10"},{"sku":"GDS-504-031","quantity":11,"unit_price_cny":"0.17"},{"sku":"GDS-509-031","quantity":3,"unit_price_cny":"0.15"},{"sku":"GDS-511-031","quantity":7,"unit_price_cny":"0.30"},{"sku":"GDS-513-031","quantity":8,"unit_price_cny":"0.57"},{"sku":"GDS-514-031","quantity":2,"unit_price_cny":"0.69"},{"sku":"GDS-519-031","quantity":3,"unit_price_cny":"0.56"},{"sku":"GDS-520-080","quantity":45,"unit_price_cny":"0.77"},{"sku":"GDS-534-031","quantity":4,"unit_price_cny":"0.36"},{"sku":"GDS-540-031","quantity":14,"unit_price_cny":"0.32"},{"sku":"GDS-540-080","quantity":6,"unit_price_cny":"0.32"},{"sku":"GDS-542-031","quantity":2,"unit_price_cny":"0.52"},{"sku":"GDS-605-031","quantity":26,"unit_price_cny":"0.10"},{"sku":"GDS-606-031","quantity":4,"unit_price_cny":"0.10"},{"sku":"GDS-606-090","quantity":6,"unit_price_cny":"0.10"},{"sku":"GDS-615-080","quantity":2,"unit_price_cny":"0.10"},{"sku":"GDS-659-031","quantity":2,"unit_price_cny":"0.18"},{"sku":"GDS-833-090","quantity":10,"unit_price_cny":"0.10"}]}
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 display-base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-foot.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-claws.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-shin.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-knee.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-thigh.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-foot.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-claws.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-shin.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-knee.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-thigh.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 display-support.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 pelvis.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 torso-frame.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 ribs.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 spine.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 spinal-processes.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 tail.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-arm.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-hand.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 left-fingers.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-arm.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-hand.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 right-fingers.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 lower-jaw.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 teeth.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 skull.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 snout.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 nostrils.ldr
+0 FILE display-base.ldr
+0 display-base
+0 !BRICK_INSTANCE display-base-001 GDS-520-080
+1 0 -150.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-002 GDS-520-080
+1 0 -150.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-003 GDS-520-080
+1 0 -150.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-004 GDS-520-080
+1 0 -30.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-005 GDS-520-080
+1 0 -30.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-006 GDS-520-080
+1 0 -30.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-007 GDS-520-080
+1 0 90.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-008 GDS-520-080
+1 0 90.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-009 GDS-520-080
+1 0 90.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-010 GDS-520-080
+1 0 210.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-011 GDS-520-080
+1 0 210.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-012 GDS-520-080
+1 0 210.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-013 GDS-520-080
+1 0 330.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-014 GDS-520-080
+1 0 330.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-015 GDS-520-080
+1 0 330.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-016 GDS-520-080
+1 0 450.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-017 GDS-520-080
+1 0 450.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-018 GDS-520-080
+1 0 450.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-019 GDS-520-080
+1 0 570.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-020 GDS-520-080
+1 0 570.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-021 GDS-520-080
+1 0 570.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-022 GDS-520-080
+1 0 690.0 0 10.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-023 GDS-520-080
+1 0 690.0 0 90.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-024 GDS-520-080
+1 0 690.0 0 170.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-025 GDS-520-080
+1 0 -90.0 -8 30.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-026 GDS-520-080
+1 0 -90.0 -8 110.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-027 GDS-520-080
+1 0 -90.0 -8 190.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-028 GDS-520-080
+1 0 30.0 -8 30.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-029 GDS-520-080
+1 0 30.0 -8 110.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-030 GDS-520-080
+1 0 30.0 -8 190.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-031 GDS-520-080
+1 0 150.0 -8 30.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-032 GDS-520-080
+1 0 150.0 -8 110.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-033 GDS-520-080
+1 0 150.0 -8 190.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-034 GDS-520-080
+1 0 270.0 -8 30.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-035 GDS-520-080
+1 0 270.0 -8 110.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-036 GDS-520-080
+1 0 270.0 -8 190.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-037 GDS-520-080
+1 0 390.0 -8 30.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-038 GDS-520-080
+1 0 390.0 -8 110.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-039 GDS-520-080
+1 0 390.0 -8 190.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-040 GDS-520-080
+1 0 510.0 -8 30.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-041 GDS-520-080
+1 0 510.0 -8 110.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-042 GDS-520-080
+1 0 510.0 -8 190.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-043 GDS-520-080
+1 0 630.0 -8 30.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-044 GDS-520-080
+1 0 630.0 -8 110.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE display-base-045 GDS-520-080
+1 0 630.0 -8 190.0 1 0 0 0 1 0 0 0 1 3032.dat
+0 FILE left-foot.ldr
+0 left-foot
+0 !BRICK_INSTANCE left-foot-001 GDS-504-031
+1 19 330.0 -16 0.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE left-foot-002 GDS-504-031
+1 19 330.0 -16 20.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE left-foot-003 GDS-504-031
+1 19 330.0 -16 40.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE left-foot-004 GDS-519-031
+1 19 270.0 -24 30.0 1 0 0 0 1 0 0 0 1 3031.dat
+0 FILE left-claws.ldr
+0 left-claws
+0 !BRICK_INSTANCE left-claws-001 GDS-833-090
+1 15 360.0 -32 0.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE left-claws-002 GDS-833-090
+1 15 360.0 -32 20.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE left-claws-003 GDS-833-090
+1 15 360.0 -32 40.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 FILE left-shin.ldr
+0 left-shin
+0 !BRICK_INSTANCE left-shin-001 GDS-540-031
+1 19 270.0 -48 30.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE left-shin-002 GDS-540-031
+1 19 270.0 -72 30.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 FILE left-knee.ldr
+0 left-knee
+0 !BRICK_INSTANCE left-knee-001 GDS-511-031
+1 19 290.0 -80 30.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 FILE left-thigh.ldr
+0 left-thigh
+0 !BRICK_INSTANCE left-thigh-001 GDS-540-031
+1 19 310.0 -104 30.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE left-thigh-002 GDS-540-031
+1 19 310.0 -128 30.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE left-thigh-003 GDS-540-031
+1 19 310.0 -152 30.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 FILE right-foot.ldr
+0 right-foot
+0 !BRICK_INSTANCE right-foot-001 GDS-504-031
+1 19 330.0 -16 160.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE right-foot-002 GDS-504-031
+1 19 330.0 -16 180.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE right-foot-003 GDS-504-031
+1 19 330.0 -16 200.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE right-foot-004 GDS-519-031
+1 19 270.0 -24 190.0 1 0 0 0 1 0 0 0 1 3031.dat
+0 FILE right-claws.ldr
+0 right-claws
+0 !BRICK_INSTANCE right-claws-001 GDS-833-090
+1 15 360.0 -32 160.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE right-claws-002 GDS-833-090
+1 15 360.0 -32 180.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE right-claws-003 GDS-833-090
+1 15 360.0 -32 200.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 FILE right-shin.ldr
+0 right-shin
+0 !BRICK_INSTANCE right-shin-001 GDS-540-031
+1 19 270.0 -48 190.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE right-shin-002 GDS-540-031
+1 19 270.0 -72 190.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 FILE right-knee.ldr
+0 right-knee
+0 !BRICK_INSTANCE right-knee-001 GDS-511-031
+1 19 290.0 -80 190.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 FILE right-thigh.ldr
+0 right-thigh
+0 !BRICK_INSTANCE right-thigh-001 GDS-540-031
+1 19 310.0 -104 190.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE right-thigh-002 GDS-540-031
+1 19 310.0 -128 190.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE right-thigh-003 GDS-540-031
+1 19 310.0 -152 190.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 FILE display-support.ldr
+0 display-support
+0 !BRICK_INSTANCE display-support-001 GDS-540-080
+1 0 310.0 -32 90.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE display-support-002 GDS-540-080
+1 0 310.0 -56 90.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE display-support-003 GDS-540-080
+1 0 310.0 -80 90.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE display-support-004 GDS-540-080
+1 0 310.0 -104 90.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE display-support-005 GDS-540-080
+1 0 310.0 -128 90.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE display-support-006 GDS-540-080
+1 0 310.0 -152 90.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 FILE pelvis.ldr
+0 pelvis
+0 !BRICK_INSTANCE pelvis-001 GDS-514-031
+1 19 310.0 -160 110.0 0 0 1 0 1 0 -1 0 0 3832.dat
+0 FILE torso-frame.ldr
+0 torso-frame
+0 !BRICK_INSTANCE torso-frame-001 GDS-513-031
+1 19 290.0 -168 90.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE torso-frame-002 GDS-511-031
+1 19 410.0 -168 90.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE torso-frame-003 GDS-513-031
+1 19 290.0 -168 130.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE torso-frame-004 GDS-511-031
+1 19 410.0 -168 130.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 FILE ribs.ldr
+0 ribs
+0 !BRICK_INSTANCE ribs-001 GDS-605-031
+1 19 240.0 -192 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-002 GDS-605-031
+1 19 240.0 -216 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-003 GDS-605-031
+1 19 240.0 -240 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-004 GDS-605-031
+1 19 240.0 -192 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-005 GDS-605-031
+1 19 240.0 -216 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-006 GDS-605-031
+1 19 240.0 -240 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-007 GDS-534-031
+1 19 240.0 -264 110.0 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE ribs-008 GDS-605-031
+1 19 300.0 -192 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-009 GDS-605-031
+1 19 300.0 -216 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-010 GDS-605-031
+1 19 300.0 -240 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-011 GDS-605-031
+1 19 300.0 -192 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-012 GDS-605-031
+1 19 300.0 -216 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-013 GDS-605-031
+1 19 300.0 -240 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-014 GDS-534-031
+1 19 300.0 -264 110.0 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE ribs-015 GDS-605-031
+1 19 360.0 -192 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-016 GDS-605-031
+1 19 360.0 -216 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-017 GDS-605-031
+1 19 360.0 -240 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-018 GDS-605-031
+1 19 360.0 -192 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-019 GDS-605-031
+1 19 360.0 -216 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-020 GDS-605-031
+1 19 360.0 -240 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-021 GDS-534-031
+1 19 360.0 -264 110.0 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE ribs-022 GDS-605-031
+1 19 420.0 -192 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-023 GDS-605-031
+1 19 420.0 -216 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-024 GDS-605-031
+1 19 420.0 -240 80.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-025 GDS-605-031
+1 19 420.0 -192 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-026 GDS-605-031
+1 19 420.0 -216 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-027 GDS-605-031
+1 19 420.0 -240 140.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE ribs-028 GDS-534-031
+1 19 420.0 -264 110.0 0 0 1 0 1 0 -1 0 0 3010.dat
+0 FILE spine.ldr
+0 spine
+0 !BRICK_INSTANCE spine-001 GDS-513-031
+1 19 290.0 -272 110.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE spine-002 GDS-511-031
+1 19 410.0 -272 110.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE spine-003 GDS-511-031
+1 19 370.0 -280 110.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 FILE spinal-processes.ldr
+0 spinal-processes
+0 !BRICK_INSTANCE spinal-processes-001 GDS-606-031
+1 19 240.0 -288 80.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE spinal-processes-002 GDS-606-031
+1 19 240.0 -288 140.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE spinal-processes-003 GDS-606-031
+1 19 300.0 -288 80.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE spinal-processes-004 GDS-606-031
+1 19 300.0 -288 140.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 FILE tail.ldr
+0 tail
+0 !BRICK_INSTANCE tail-001 GDS-514-031
+1 19 150.0 -176 110.0 1 0 0 0 1 0 0 0 1 3832.dat
+0 !BRICK_INSTANCE tail-002 GDS-509-031
+1 19 70.0 -184 110.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE tail-003 GDS-509-031
+1 19 110.0 -184 110.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE tail-004 GDS-509-031
+1 19 150.0 -184 110.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE tail-005 GDS-540-031
+1 19 190.0 -200 110.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE tail-006 GDS-540-031
+1 19 230.0 -200 110.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE tail-007 GDS-513-031
+1 19 -10.0 -168 110.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE tail-008 GDS-504-031
+1 19 -110.0 -160 100.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE tail-009 GDS-502-031
+1 19 -150.0 -152 100.0 1 0 0 0 1 0 0 0 1 3023b.dat
+0 FILE left-arm.ldr
+0 left-arm
+0 !BRICK_INSTANCE left-arm-001 GDS-502-031
+1 19 360.0 -272 70.0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE left-arm-002 GDS-605-031
+1 19 360.0 -296 60.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE left-arm-003 GDS-504-031
+1 19 390.0 -304 60.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 FILE left-hand.ldr
+0 left-hand
+0 !BRICK_INSTANCE left-hand-001 GDS-502-031
+1 19 420.0 -312 70.0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 FILE left-fingers.ldr
+0 left-fingers
+0 !BRICK_INSTANCE left-fingers-001 GDS-833-090
+1 15 420.0 -328 60.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE left-fingers-002 GDS-833-090
+1 15 420.0 -328 80.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 FILE right-arm.ldr
+0 right-arm
+0 !BRICK_INSTANCE right-arm-001 GDS-502-031
+1 19 360.0 -272 150.0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE right-arm-002 GDS-605-031
+1 19 360.0 -296 160.0 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE right-arm-003 GDS-504-031
+1 19 390.0 -304 160.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 FILE right-hand.ldr
+0 right-hand
+0 !BRICK_INSTANCE right-hand-001 GDS-502-031
+1 19 420.0 -312 170.0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 FILE right-fingers.ldr
+0 right-fingers
+0 !BRICK_INSTANCE right-fingers-001 GDS-833-090
+1 15 420.0 -328 160.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE right-fingers-002 GDS-833-090
+1 15 420.0 -328 180.0 1 0 0 0 1 0 0 0 1 54200.dat
+0 FILE neck.ldr
+0 neck
+0 !BRICK_INSTANCE neck-001 GDS-540-031
+1 19 410.0 -304 110.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE neck-002 GDS-511-031
+1 19 430.0 -312 110.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE neck-003 GDS-540-031
+1 19 450.0 -336 110.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 FILE lower-jaw.ldr
+0 lower-jaw
+0 !BRICK_INSTANCE lower-jaw-001 GDS-513-031
+1 19 510.0 -344 90.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE lower-jaw-002 GDS-513-031
+1 19 510.0 -344 130.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE lower-jaw-003 GDS-504-031
+1 19 550.0 -352 80.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE lower-jaw-004 GDS-504-031
+1 19 550.0 -352 140.0 1 0 0 0 1 0 0 0 1 3710.dat
+0 FILE teeth.ldr
+0 teeth
+0 !BRICK_INSTANCE teeth-001 GDS-606-090
+1 15 520.0 -376 80.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE teeth-002 GDS-606-090
+1 15 540.0 -376 80.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE teeth-003 GDS-606-090
+1 15 580.0 -376 80.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE teeth-004 GDS-606-090
+1 15 520.0 -376 140.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE teeth-005 GDS-606-090
+1 15 540.0 -376 140.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE teeth-006 GDS-606-090
+1 15 580.0 -376 140.0 1 0 0 0 1 0 0 0 1 59900.dat
+0 FILE skull.ldr
+0 skull
+0 !BRICK_INSTANCE skull-001 GDS-542-031
+1 19 450.0 -368 110.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE skull-002 GDS-542-031
+1 19 450.0 -392 110.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE skull-003 GDS-513-031
+1 19 510.0 -400 90.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE skull-004 GDS-513-031
+1 19 510.0 -400 130.0 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE skull-005 GDS-519-031
+1 19 470.0 -408 110.0 1 0 0 0 1 0 0 0 1 3031.dat
+0 FILE snout.ldr
+0 snout
+0 !BRICK_INSTANCE snout-001 GDS-659-031
+1 19 530.0 -416 90.0 1 0 0 0 1 0 0 0 1 15068.dat
+0 !BRICK_INSTANCE snout-002 GDS-659-031
+1 19 530.0 -416 130.0 1 0 0 0 1 0 0 0 1 15068.dat
+0 FILE nostrils.ldr
+0 nostrils
+0 !BRICK_INSTANCE nostrils-001 GDS-615-080
+1 0 560.0 -408 80.0 1 0 0 0 1 0 0 0 1 6141.dat
+0 !BRICK_INSTANCE nostrils-002 GDS-615-080
+1 0 560.0 -408 140.0 1 0 0 0 1 0 0 0 1 6141.dat
+0 NOFILE
