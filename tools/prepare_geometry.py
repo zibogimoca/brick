@@ -14,6 +14,10 @@ ROOT=Path('assets');TOP=['3001','3003','3005','3020','3024','3700','3705','4274'
 TOP += ['40378', '40379', '59443', '32013', '32062', '11214', '53451', '87747', '85970', '98100', '44224', '44225', '2780', '32524', '32525', '32278', '32140', '32009', '60483', '22385', '41770', '41769', '43722', '43723', '11090', '87994', '63965', '30414', '4070']
 TOP += ['3035','34103','35480','99207','3701','3702','3703','3673']
 TOP += ['3033','32324','32064a','3068b']
+# 버전 0의 승인된 형상 후보를 기존 모델의 형상과 함께 보존한다.
+progress = Path('models/tyrannosaurus-v0-progress.json')
+if progress.is_file():
+ TOP = sorted(set(TOP) | set(json.loads(progress.read_text()).get('reference_inventory', {}).get('requested_geometry_parts', [])))
 source='https://library.ldraw.org/library/updates/complete.zip'
 def local_path(name):
  return name.replace('parts/s/', 'parts/subparts/').replace('p/48/', 'primitives/high-resolution/').replace('p/', 'primitives/', 1) if name.startswith('p/') else name.replace('parts/s/', 'parts/subparts/')
