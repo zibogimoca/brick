@@ -199200,8 +199200,8 @@
         "63326"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3024.dat",
-        "sha256": "e053af4f232374b0c8da2dc0f9620bedf0576ca43d7c3ceebc6676050ae61da8",
+        "file": "assets/parts/3024.dat",
+        "sha256": "d4cc3b719604f0014493d43134752e38dd596c9080fd87cc90c1f27e4363b666",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -199242,7 +199242,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3024s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3024s01.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -200113,8 +200113,8 @@
         "28653"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3023b.dat",
-        "sha256": "42f96ca69f8a0b83a877f4e128e4143ce753d038b1074835edc5aca9a9954fc9",
+        "file": "assets/parts/3023b.dat",
+        "sha256": "49a404493d624d3a06cb51d8c5083c639336f9ead1ff062e00dfda0844f3f4bb",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -200155,7 +200155,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -200170,7 +200170,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
           "id": "stud-1"
         }
       ],
@@ -200998,8 +200998,8 @@
         "3623"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3623.dat",
-        "sha256": "08f74845fceb4b39976d8ba56c0d59970483b8956cc59eb08e9f01ca579467e2",
+        "file": "assets/parts/3623.dat",
+        "sha256": "0a7731850fe984b2220d70064a78d50a71ff4e2e085e40f01aae369bf829befb",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -201040,7 +201040,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -201055,7 +201055,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -201070,7 +201070,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
           "id": "stud-2"
         }
       ],
@@ -201898,8 +201898,8 @@
         "3710"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3710.dat",
-        "sha256": "1a2d17e3e35750ccf02a54c7aee0cf7485c1c8596492746fc798d341399a3a6e",
+        "file": "assets/parts/3710.dat",
+        "sha256": "a2237801ee1d26feef0ec5010b89d42550ae5359e9dc4dc042cafff7e13a19a8",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -201940,7 +201940,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -201955,7 +201955,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -201970,7 +201970,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -201985,7 +201985,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-3"
         }
       ],
@@ -202813,8 +202813,8 @@
         "3666"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3666.dat",
-        "sha256": "f4fc83d8c3fc1df32c1a217dc09775a99fad1ced348cffc5167f9c6a69aa9bca",
+        "file": "assets/parts/3666.dat",
+        "sha256": "41733d38924168ca7565cf80e9d5faa790df940564c50e57ea001c517cd1e9ce",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -202855,7 +202855,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x6.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -202870,7 +202870,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x6.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -202885,7 +202885,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x6.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -202900,7 +202900,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x6.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -202915,7 +202915,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x6.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -202930,7 +202930,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x6.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x6.dat -> primitives/stud.dat",
           "id": "stud-5"
         }
       ],
@@ -203745,8 +203745,8 @@
         "3460"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3460.dat",
-        "sha256": "a236ed5a1efb4844f2eebafc6096a90571607af30e287b307400dcdea44f438f",
+        "file": "assets/parts/3460.dat",
+        "sha256": "09c4faf59667f890c9ce1b154793d3d494880bfe0e302e4dc1e2b2f7bc1fde87",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -203787,7 +203787,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -203802,7 +203802,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -203817,7 +203817,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -203832,7 +203832,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -203847,7 +203847,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -203862,7 +203862,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -203877,7 +203877,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -203892,7 +203892,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x8.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x8.dat -> primitives/stud.dat",
           "id": "stud-7"
         }
       ],
@@ -205467,8 +205467,8 @@
         "60479"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/60479.dat",
-        "sha256": "4cc9f46de13bd157dbbf16757bed1becee52253848fc1827d6c18477b94907b3",
+        "file": "assets/parts/60479.dat",
+        "sha256": "b7f9aa40e95ee3b7da07b0cd78b9bbe83467bb61dc2db895ebed951bc9556d04",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -205509,7 +205509,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -205524,7 +205524,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -205539,7 +205539,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -205554,7 +205554,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -205569,7 +205569,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -205584,7 +205584,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -205599,7 +205599,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -205614,7 +205614,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-7"
         },
         {
@@ -205629,7 +205629,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-8"
         },
         {
@@ -205644,7 +205644,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-9"
         },
         {
@@ -205659,7 +205659,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-10"
         },
         {
@@ -205674,7 +205674,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/60479.dat -> stud.dat",
+          "evidence": "assets/parts/60479.dat -> primitives/stud.dat",
           "id": "stud-11"
         }
       ],
@@ -206477,8 +206477,8 @@
         "94148"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3022.dat",
-        "sha256": "3cd09bfe626e751ad95eab0ea83e5f3adea81f05d34993a1c4bf432ee386fe25",
+        "file": "assets/parts/3022.dat",
+        "sha256": "3219e4c463fc35c9bebfd6e4e446975cbc7f6fc217f31c71f78d8e87f6166e0d",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -206519,7 +206519,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "evidence": "assets/parts/3022.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -206534,7 +206534,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "evidence": "assets/parts/3022.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -206549,7 +206549,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "evidence": "assets/parts/3022.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -206564,7 +206564,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3022.dat -> stud.dat",
+          "evidence": "assets/parts/3022.dat -> primitives/stud.dat",
           "id": "stud-3"
         }
       ],
@@ -208231,8 +208231,8 @@
         "3020a"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3020.dat",
-        "sha256": "551e433cc4bcfdeeb6e390e509d52ee2e62c90d3eae625ee36928ef32291bb79",
+        "file": "assets/parts/3020.dat",
+        "sha256": "5455ab5298a3844f8831512fb1acf440a0bf279aed51e8e86fb6874bd64e8942",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -208273,7 +208273,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -208288,7 +208288,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -208303,7 +208303,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -208318,7 +208318,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -208333,7 +208333,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -208348,7 +208348,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -208363,7 +208363,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -208378,7 +208378,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3020.dat -> stud.dat",
+          "evidence": "assets/parts/3020.dat -> primitives/stud.dat",
           "id": "stud-7"
         },
         {
@@ -210152,8 +210152,8 @@
         "3034a"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3034.dat",
-        "sha256": "035f4ac31ecad8943fd0ac6baa155c6ff38c75a4d8ef1083fb2afa48b166a845",
+        "file": "assets/parts/3034.dat",
+        "sha256": "309ca4390852fb66806f17006390ff80d7f650995838fe4d1a87e7e59e6bc3f2",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -210194,7 +210194,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -210209,7 +210209,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -210224,7 +210224,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -210239,7 +210239,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -210254,7 +210254,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -210269,7 +210269,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -210284,7 +210284,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -210299,7 +210299,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-7"
         },
         {
@@ -210314,7 +210314,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-8"
         },
         {
@@ -210329,7 +210329,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-9"
         },
         {
@@ -210344,7 +210344,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-10"
         },
         {
@@ -210359,7 +210359,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-11"
         },
         {
@@ -210374,7 +210374,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-12"
         },
         {
@@ -210389,7 +210389,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-13"
         },
         {
@@ -210404,7 +210404,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-14"
         },
         {
@@ -210419,7 +210419,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3034.dat -> stud.dat",
+          "evidence": "assets/parts/3034.dat -> primitives/stud.dat",
           "id": "stud-15"
         }
       ],
@@ -211208,8 +211208,8 @@
         "3832"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3832.dat",
-        "sha256": "4928810faf064116f14126735c7a273df15c662fe1d648991c3a3c4cc79b0d49",
+        "file": "assets/parts/3832.dat",
+        "sha256": "1dd22c2e1af48c4771fc2b09e5722be02983bf236a81c30584d011e9dab5391e",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -211250,7 +211250,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -211265,7 +211265,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -211280,7 +211280,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -211295,7 +211295,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -211310,7 +211310,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -211325,7 +211325,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -211340,7 +211340,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -211355,7 +211355,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-7"
         },
         {
@@ -211370,7 +211370,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-8"
         },
         {
@@ -211385,7 +211385,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-9"
         },
         {
@@ -211400,7 +211400,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-10"
         },
         {
@@ -211415,7 +211415,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-11"
         },
         {
@@ -211430,7 +211430,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-12"
         },
         {
@@ -211445,7 +211445,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-13"
         },
         {
@@ -211460,7 +211460,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-14"
         },
         {
@@ -211475,7 +211475,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-15"
         },
         {
@@ -211490,7 +211490,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-16"
         },
         {
@@ -211505,7 +211505,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-17"
         },
         {
@@ -211520,7 +211520,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-18"
         },
         {
@@ -211535,7 +211535,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3832.dat -> stud.dat",
+          "evidence": "assets/parts/3832.dat -> primitives/stud.dat",
           "id": "stud-19"
         }
       ],
@@ -215169,8 +215169,8 @@
         "3031"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3031.dat",
-        "sha256": "e67436538e47cb38b8352e91c2b5b7c7c274e070912603e5e9fc0b4513962338",
+        "file": "assets/parts/3031.dat",
+        "sha256": "27ed5db0bcda4d06108d90a9eb8c0f06f674d7a8a3946e362a6fa281e9ff4038",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -215211,7 +215211,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -215226,7 +215226,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -215241,7 +215241,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -215256,7 +215256,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -215271,7 +215271,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -215286,7 +215286,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -215301,7 +215301,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -215316,7 +215316,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-7"
         },
         {
@@ -215331,7 +215331,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-8"
         },
         {
@@ -215346,7 +215346,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-9"
         },
         {
@@ -215361,7 +215361,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-10"
         },
         {
@@ -215376,7 +215376,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-11"
         },
         {
@@ -215391,7 +215391,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-12"
         },
         {
@@ -215406,7 +215406,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-13"
         },
         {
@@ -215421,7 +215421,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-14"
         },
         {
@@ -215436,7 +215436,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3031.dat -> stud.dat",
+          "evidence": "assets/parts/3031.dat -> primitives/stud.dat",
           "id": "stud-15"
         }
       ],
@@ -216212,8 +216212,8 @@
         "3032"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3032.dat",
-        "sha256": "35e8b828a5bf21de83ca898a49b9725e6d08d5752ad6eb57910f27086108ca1f",
+        "file": "assets/parts/3032.dat",
+        "sha256": "96a528a44b11e86fcb8fc64efd1caa74ed8de63d01e13728d573a03c1c43f441",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -216254,7 +216254,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -216269,7 +216269,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -216284,7 +216284,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -216299,7 +216299,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -216314,7 +216314,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -216329,7 +216329,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -216344,7 +216344,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -216359,7 +216359,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-7"
         },
         {
@@ -216374,7 +216374,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-8"
         },
         {
@@ -216389,7 +216389,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-9"
         },
         {
@@ -216404,7 +216404,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-10"
         },
         {
@@ -216419,7 +216419,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-11"
         },
         {
@@ -216434,7 +216434,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-12"
         },
         {
@@ -216449,7 +216449,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-13"
         },
         {
@@ -216464,7 +216464,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-14"
         },
         {
@@ -216479,7 +216479,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-15"
         },
         {
@@ -216494,7 +216494,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-16"
         },
         {
@@ -216509,7 +216509,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-17"
         },
         {
@@ -216524,7 +216524,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-18"
         },
         {
@@ -216539,7 +216539,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-19"
         },
         {
@@ -216554,7 +216554,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-20"
         },
         {
@@ -216569,7 +216569,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-21"
         },
         {
@@ -216584,7 +216584,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-22"
         },
         {
@@ -216599,7 +216599,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3032.dat -> stud.dat",
+          "evidence": "assets/parts/3032.dat -> primitives/stud.dat",
           "id": "stud-23"
         }
       ],
@@ -224253,8 +224253,8 @@
         "35382"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3005.dat",
-        "sha256": "f86e5f3aed432cab8f5dffcf2e41a9f2ee8c3bd4dcad1732da9630837849a4f8",
+        "file": "assets/parts/3005.dat",
+        "sha256": "daa9cc12d8dcafc6c2a6c3b1225d650b9e812d600a8093ceb93fdeb397f23d3a",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -224295,7 +224295,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3005s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3005s01.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -225153,8 +225153,8 @@
         "93792"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3004.dat",
-        "sha256": "e1caee3b32175393c9d6ea176a47f8869173a01d03a451e1cfe10d09167c0203",
+        "file": "assets/parts/3004.dat",
+        "sha256": "7d58554752f508189d68319e0674df3e710b9d539084ad6d01ea47fee56c2b0f",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -225195,7 +225195,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3004s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3004s01.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -225210,7 +225210,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3004s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3004s01.dat -> primitives/stud.dat",
           "id": "stud-1"
         }
       ],
@@ -226052,8 +226052,8 @@
         "45505"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3622.dat",
-        "sha256": "9317bcec4fbcddbd38ed3972d25ea95d685101904f3ed86c7e769a9f356245d8",
+        "file": "assets/parts/3622.dat",
+        "sha256": "632f618f151974f69ff1b82527a6a00654e8401a343a9199adeae4236709f55a",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -226094,7 +226094,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -226109,7 +226109,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -226124,7 +226124,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x3.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x3.dat -> primitives/stud.dat",
           "id": "stud-2"
         }
       ],
@@ -226916,8 +226916,8 @@
         "35256"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3010.dat",
-        "sha256": "7d1cb3082199042666045d92388b3b3ab697f969268e87a6c001f80f92a2e0b2",
+        "file": "assets/parts/3010.dat",
+        "sha256": "8818f8e82090579f5fdafa2a32e24323757da87f7849c34838ad24d97f54fe71",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -226958,7 +226958,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -226973,7 +226973,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -226988,7 +226988,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -227003,7 +227003,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x4.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x4.dat -> primitives/stud.dat",
           "id": "stud-3"
         }
       ],
@@ -231433,8 +231433,8 @@
         "3003b"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3003.dat",
-        "sha256": "aed0ccd750126a58d38b012a4e8b16c172896339547c120ef67b69e1386f490d",
+        "file": "assets/parts/3003.dat",
+        "sha256": "650c0d27aeed01b2c0101ba5b58b724c7984f352f9f8426240c325ee3ae0d80b",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -231475,7 +231475,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-2x2.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -231490,7 +231490,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-2x2.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -231505,7 +231505,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-2x2.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -231520,7 +231520,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-2x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-2x2.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -233191,8 +233191,8 @@
         "3001e"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3001.dat",
-        "sha256": "70968cb5e4baa92dc6a1939aca7526b8566a17dbea49da9b91182aa864e412c4",
+        "file": "assets/parts/3001.dat",
+        "sha256": "9ca83b162c399148e81c210e51a149f74a8f04d39952d029d4d40cde24705318",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -233233,7 +233233,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -233248,7 +233248,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-1"
         },
         {
@@ -233263,7 +233263,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-2"
         },
         {
@@ -233278,7 +233278,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-3"
         },
         {
@@ -233293,7 +233293,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-4"
         },
         {
@@ -233308,7 +233308,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-5"
         },
         {
@@ -233323,7 +233323,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-6"
         },
         {
@@ -233338,7 +233338,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3001s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/3001s01.dat -> primitives/stud.dat",
           "id": "stud-7"
         },
         {
@@ -257984,8 +257984,8 @@
         "3705"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3705.dat",
-        "sha256": "ed90738971675e2dbd05b5a0aecaccf2da32e62b4e9085b886f084de890a853a",
+        "file": "assets/parts/3705.dat",
+        "sha256": "1a87b2bcb8acaf683f1728a6c0de8ea53c9f8f05dfbf57375da48e6b58450ca6",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -263312,8 +263312,8 @@
         "60477"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/60477.dat",
-        "sha256": "838a96304d5ab177a8c7bd2805eacdfdbfeab71fb86802b81b3523484f4df58b",
+        "file": "assets/parts/60477.dat",
+        "sha256": "423d429378bf26745b7b58fed7fc8325083cf31bd1b15780df9a7e702d10886b",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -263354,7 +263354,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/60477s01.dat -> stud.dat",
+          "evidence": "assets/parts/subparts/60477s01.dat -> primitives/stud.dat",
           "id": "stud-0"
         }
       ],
@@ -274750,8 +274750,8 @@
         "3062c"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3062b.dat",
-        "sha256": "cea4d47bad2ba17130e8fdd298f4f0b0dd4efdaf6edadd3bdd5e089e1cb60bac",
+        "file": "assets/parts/3062b.dat",
+        "sha256": "f6da186437af015e1ddec4eb19ace02e1b88f52a73a03de16aca979cfee023f9",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -274792,7 +274792,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/s/3062bs01.dat -> stud2a.dat",
+          "evidence": "assets/parts/subparts/3062bs01.dat -> primitives/stud2a.dat",
           "id": "stud-0"
         }
       ],
@@ -275624,8 +275624,8 @@
         "55525"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/59900.dat",
-        "sha256": "8416701912ed13937743df8dd877a2a1254925efd4adebb77950f48c3d9d5156",
+        "file": "assets/parts/59900.dat",
+        "sha256": "b67f0ee45b5e3b5403e6df250b0dedc02564154255b97bae1abac3207b2575e0",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -275666,7 +275666,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/59900.dat -> stud2a.dat",
+          "evidence": "assets/parts/59900.dat -> primitives/stud2a.dat",
           "id": "stud-0"
         }
       ],
@@ -276497,8 +276497,8 @@
         "6116"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3941.dat",
-        "sha256": "d0cf49833082c39c358c248fd19c7568030ffc43d7add011feae168d5ad6e693",
+        "file": "assets/parts/3941.dat",
+        "sha256": "e081b0cf6fe1a947bde2ebe7b3036e9b8d8e6a293deec45747bf8e880b41f26d",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -278182,8 +278182,8 @@
         "4032b"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/4032.dat",
-        "sha256": "5fae837faef6e689f8933cf635de33f2c8d879c8dcd235a4affd518841249426",
+        "file": "assets/parts/4032.dat",
+        "sha256": "70eb10bd03de47c82257145168d7db19c27a61ba0c6f4ea7c9bd755e576e0dba",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -283334,8 +283334,8 @@
         "30057"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/6141.dat",
-        "sha256": "fb2cd4fad207392508bd2ca8b5469b1c351b692e111aa06b55da55d53fd44dd7",
+        "file": "assets/parts/6141.dat",
+        "sha256": "e478866dd21d44746c7a6e05798bd83ff528dfc8633b5cc94162f4c810b894c9",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -283376,7 +283376,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/6141.dat -> stud.dat",
+          "evidence": "assets/parts/6141.dat -> primitives/stud.dat",
           "id": "stud-0"
         }
       ],
@@ -289031,8 +289031,8 @@
         "3700b"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/3700.dat",
-        "sha256": "6cb6522c580754cf970dad0fae688bb78cb3253a7237038dad83965fe47cfec6",
+        "file": "assets/parts/3700.dat",
+        "sha256": "db2f75922c8017d53518defc9e84bd07b84b9767da1ddf39faeec3b6671718f0",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -289073,7 +289073,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3700.dat -> stud2.dat",
+          "evidence": "assets/parts/3700.dat -> primitives/stud2.dat",
           "id": "stud-0"
         },
         {
@@ -289088,7 +289088,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/3700.dat -> stud2.dat",
+          "evidence": "assets/parts/3700.dat -> primitives/stud2.dat",
           "id": "stud-1"
         },
         {
@@ -304369,8 +304369,8 @@
         "60478"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/60478.dat",
-        "sha256": "39e307038b6a5b2f0124891de47949dc5ffb36233b5f4fa7cdf43f2d159b86bc",
+        "file": "assets/parts/60478.dat",
+        "sha256": "075bf82b7f1a1bbee7964264526a4e8ac16fb192a153902af7c3f68172b473e9",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -304411,7 +304411,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -304426,7 +304426,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
           "id": "stud-1"
         }
       ],
@@ -311026,8 +311026,8 @@
         "17134"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/11477.dat",
-        "sha256": "fed74af9f56bcb149a7f67af4b427c261b41d24d15ed7a3466e24170377a0ba6",
+        "file": "assets/parts/11477.dat",
+        "sha256": "d48210fbcaa6d4ff63bd08843e4e05aac6f89cd77215ae06b06db9c2da36e571",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -313469,8 +313469,8 @@
         "78565"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/15068.dat",
-        "sha256": "511c620c73d116a9564248a4adb0f564b90f12f1428a4a9276b4bae4f9bd7e4c",
+        "file": "assets/parts/15068.dat",
+        "sha256": "2651709faadf2ae018d55c3003120f51bc5d354a5c753b37b687e05267dc0fd3",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -387406,8 +387406,8 @@
         "19954"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/2429.dat",
-        "sha256": "65cfb3a695f389a76746cda89fdc2b487ff85e090b3cb03483cea463ddf44fbc",
+        "file": "assets/parts/2429.dat",
+        "sha256": "cea93d87fa4156da1221053d4e311d6b75b59760c081ac31141da1707adf28df",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -387448,7 +387448,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -387463,7 +387463,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug-1x2.dat -> stud.dat",
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
           "id": "stud-1"
         }
       ],
@@ -388161,8 +388161,8 @@
         "2430"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/2430.dat",
-        "sha256": "7a41e19061815c561d0930d76bffb0abe38b6323cb72d183b8259042812f7610",
+        "file": "assets/parts/2430.dat",
+        "sha256": "c37f760a8b47afd6bcf8b87baf3094bb48419037edb0d65591c3e755b1916ba7",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -388203,7 +388203,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/2430.dat -> stud.dat",
+          "evidence": "assets/parts/2430.dat -> primitives/stud.dat",
           "id": "stud-0"
         },
         {
@@ -388218,7 +388218,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/2430.dat -> stud.dat",
+          "evidence": "assets/parts/2430.dat -> primitives/stud.dat",
           "id": "stud-1"
         }
       ],
@@ -403514,8 +403514,8 @@
         "63290"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/54200.dat",
-        "sha256": "3f0c25da3dac0600209a032c53c040b8668e617374997546d5449528eb7099c9",
+        "file": "assets/parts/54200.dat",
+        "sha256": "0cc302d68a07074ca5e26886637280843ad41cde51e4ba7e798857c7cabbb641",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -413183,8 +413183,8 @@
         "14417"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/14417.dat",
-        "sha256": "5da4fc1a13d6110876c944da429ebf2cc29d69b8942fb1dbc05ac8c65480d37c",
+        "file": "assets/parts/14417.dat",
+        "sha256": "f7bd9c4b6bb871edeca765ad537d441de025f425d2898671071e8b65b3ec3733",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -413225,7 +413225,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
           "id": "stud-0"
         },
         {
@@ -413240,7 +413240,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
           "id": "stud-1"
         },
         {
@@ -414679,8 +414679,8 @@
         "14418"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/14418.dat",
-        "sha256": "50df1a37eb8dd726ea0796c6ca6f88f3ab581f81e2682aa3aad24a3b0e881588",
+        "file": "assets/parts/14418.dat",
+        "sha256": "d6c941abbd8a4d4aa5bb2188566e33d45fba295cdf5a212ed358c6faec2d50bf",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -414721,7 +414721,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
           "id": "stud-0"
         },
         {
@@ -414736,7 +414736,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
           "id": "stud-1"
         },
         {
@@ -414782,7 +414782,7 @@
             0,
             0
           ],
-          "evidence": "assets/ldraw/parts/14418.dat type-1 joint8socket1.dat translation; source !HELP documents motion but no physical test."
+          "evidence": "assets/parts/14418.dat type-1 joint8socket1.dat translation; source !HELP documents motion but no physical test."
         }
       ],
       "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
@@ -431729,8 +431729,8 @@
         "28697"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/30374.dat",
-        "sha256": "db69ea3eecc2a6f2731aaad6ac8fb072c5ecbe136d1ea8a03de593014fe2e9c0",
+        "file": "assets/parts/30374.dat",
+        "sha256": "42934717f0a6ba9654b884ce735de87eafa69f137a5e230de577b56730ba3d5c",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -527001,8 +527001,8 @@
         "14419"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/14419.dat",
-        "sha256": "6bc91fe4e89dd12f56ead36d7af3cf13fcbbd9798bfbe01bfd8a71d9234d1b12",
+        "file": "assets/parts/14419.dat",
+        "sha256": "ca59c5899c292a86ac0049a3b8de90d81c28463c2fc5704e38b98f707704df61",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -527043,7 +527043,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
           "id": "stud-0"
         },
         {
@@ -527058,7 +527058,7 @@
             -1.0,
             0.0
           ],
-          "evidence": "assets/ldraw/p/stug2-1x2.dat -> stud2.dat",
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
           "id": "stud-1"
         },
         {
@@ -527104,7 +527104,7 @@
             0,
             0
           ],
-          "evidence": "assets/ldraw/parts/14419.dat type-1 joint8socket1.dat translation; source !HELP documents motion but no physical test."
+          "evidence": "assets/parts/14419.dat type-1 joint8socket1.dat translation; source !HELP documents motion but no physical test."
         },
         {
           "id": "ball",
@@ -556643,8 +556643,8 @@
         "4274"
       ],
       "geometry": {
-        "file": "assets/ldraw/parts/4274.dat",
-        "sha256": "c421cee48c7c0233371144f5a256f7a4503f008318ff523b31e0b5a9d44d9704",
+        "file": "assets/parts/4274.dat",
+        "sha256": "34c32c4d2ff8bd6ccb94ed85a3d69c1c5dbeb61c3cedfea317f1b4be847332ba",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
@@ -556685,7 +556685,7 @@
             0.0,
             0.0
           ],
-          "evidence": "assets/ldraw/parts/4274.dat -> stud2a.dat",
+          "evidence": "assets/parts/4274.dat -> primitives/stud2a.dat",
           "id": "stud-0"
         }
       ],

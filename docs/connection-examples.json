@@ -58,8 +58,8 @@
       },
       "units": "LDU",
       "evidence": [
-        "assets/ldraw/parts/14418.dat",
-        "assets/ldraw/parts/14419.dat"
+        "assets/parts/14418.dat",
+        "assets/parts/14419.dat"
       ],
       "validation": "Reference centers coincide; physical fit and strength untested."
     },

@@ -54,12 +54,12 @@ async function open(buffer, name, revision) {
         const policy = await manifestResponse.text();
         const manifest = JSON.parse(policy.split('<!-- asset-manifest:start -->\n```json\n')[1].split('\n```\n<!-- asset-manifest:end -->')[0]);
         for (const path of Object.keys(manifest.files)) {
-          if (path.endsWith('.dat')) loader.fileMap[path.replace(/^(parts|p)\//, '')] = path;
+          if (path.endsWith('.dat')) loader.fileMap[path.replace(/^(parts|primitives)\//, '')] = path;
         }
         manager.setURLModifier(url => {
           if (!url.startsWith(loader.partsLibraryPath)) return url;
           let relative = url.slice(loader.partsLibraryPath.length).toLowerCase();
-          while (!manifest.files[relative] && /^(parts|p)\//.test(relative)) relative = relative.replace(/^(parts|p)\//, '');
+          while (!manifest.files[relative] && /^(parts|primitives)\//.test(relative)) relative = relative.replace(/^(parts|primitives)\//, '');
           return manifest.files[relative] ? loader.partsLibraryPath + relative : url;
         });
       }

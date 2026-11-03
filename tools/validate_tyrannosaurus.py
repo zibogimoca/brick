@@ -3,14 +3,14 @@ import hashlib,json,math
 from pathlib import Path
 from collections import Counter
 from decimal import Decimal
-root=Path('assets/ldraw');manifest=json.loads(Path('assets/policy.md').read_text().split('<!-- asset-manifest:start -->\n```json\n',1)[1].split('\n```\n<!-- asset-manifest:end -->',1)[0])
+root=Path('assets');manifest=json.loads(Path('assets/policy.md').read_text().split('<!-- asset-manifest:start -->\n```json\n',1)[1].split('\n```\n<!-- asset-manifest:end -->',1)[0])
 for rel,entry in manifest['files'].items():
  data=(root/rel).read_bytes();assert hashlib.sha256(data).hexdigest()==entry['sha256'],rel
  assert len(data)==entry['bytes'],rel
  for line in data.decode('utf-8-sig').splitlines():
   f=line.split(maxsplit=14)
   if len(f)==15 and f[0]=='1':
-   name=f[14].replace('\\','/').lower();assert any((root/p/name).is_file() for p in ['parts','p','']),name
+   name=f[14].replace('\\','/').lower();assert any((root/p/name).is_file() for p in ['','parts','primitives']),name
 text=Path('models/tyrannosaurus.mpd').read_text();state=json.loads(next(l.split(' ',2)[2] for l in text.splitlines() if l.startswith('0 !BRICK_STATE ')))
 items={i['id']:i for i in state['instances']};exported={};current=None
 for line in text.splitlines():

@@ -2,7 +2,7 @@ name: Deploy BRICK viewer
 on:
   push:
     branches: [main]
-    paths: ['viewer/**', 'assets/ldraw/**', 'models/**', '.github/workflows/viewer-pages.yml']
+    paths: ['viewer/**', 'assets/**', 'models/**', '.github/workflows/viewer-pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
