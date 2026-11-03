@@ -125,6 +125,15 @@
       "lesson": "나란한 두 줄의 끝 이음매를 같은 위치에 모으지 않고 엇갈리게 배치하고 핀으로 횡방향 연결하는 구성을 관찰했다. 긴 프레임 설계 시 검토할 원리다.",
       "verification_level": "instruction_diagram_observation",
       "limitations": "실물 강도·핀 위치·전체 프레임 배치 검증은 아직 수행하지 않았다."
+    },
+    {
+      "id": "assembly-inset-before-silhouette-placement",
+      "category": "instruction_reconstruction",
+      "problem": "완성 도해만 보고 축 구멍 브릭 두 개를 열린 블록의 반대쪽에 놓았다.",
+      "method": "확대 조립 순서와 삽입 화살표를 함께 보고 같은 쪽에 차례로 끼우는 배치로 수정했다. 반복 부품은 최종 실루엣만으로 좌우를 추정하지 않는다.",
+      "evidence": "1권 21쪽 13단계 확대 그림; models/tyrannosaurus-v0-reconstruction.ldr",
+      "verification_level": "diagram_observation_and_partial_render_review",
+      "limitations": "축 노출 길이·구멍 중심·스터드 정합 및 전역 배치는 미검증."
     }
   ]
 }

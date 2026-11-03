@@ -14,6 +14,6 @@ for (const name of (await readdir(new URL('models/', root))).filter(name => name
   const match = stem.match(/^(.*)-v(\d+)$/);
   const modelName = match ? match[1] : stem;
   const title = ({ tyrannosaurus: '티라노사우루스', triceratops: '트리케라톱스' })[modelName] || modelName.replaceAll('-', ' ');
-  entries.push({ name: title + (match ? ' · v' + match[2] : '') + (match?.[2] === '0' ? ' · LEGO 외형 근사' : ''), designVersion: match ? Number(match[2]) : null, url: './models/' + name, version: createHash('sha256').update(data).digest('hex').slice(0, 12) });
+  entries.push({ name: title + (match ? ' · 버전 ' + match[2] : ''), designVersion: match ? Number(match[2]) : null, url: './models/' + name, version: createHash('sha256').update(data).digest('hex').slice(0, 12) });
 }
 await writeFile(new URL('models/index.json', publicRoot), JSON.stringify(entries, null, 2) + '\n');

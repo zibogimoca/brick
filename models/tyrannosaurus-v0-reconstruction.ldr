@@ -1,3 +1,4 @@
+0 FILE reconstruction-main.ldr
 0 Version 0 reconstruction checkpoint — book 1 pages 11-12, steps 1-10
 0 Work in progress. Not the completed version 0.
 0 Coordinates: X along plinth, Y downward, Z across plinth. Units LDU.
@@ -72,3 +73,32 @@
 1 72 200 -40 30 1 0 0 0 1 0 0 0 1 3023b.dat
 1 72 440 -40 30 1 0 0 0 1 0 0 0 1 3023b.dat
 0 STEP
+0 Instruction step 11 / book 1 page 19; provisional frame-relative placement
+1 26 680 -8 -10 1 0 0 0 1 0 0 0 1 34103.dat
+1 26 680 -8 10 1 0 0 0 1 0 0 0 1 34103.dat
+0 STEP
+0 Instruction step 12 / book 1 page 20; bracket orientation requires comparison
+1 72 710 -8 -20 0 0 -1 0 1 0 1 0 0 99207.dat
+1 72 710 -8 20 0 0 -1 0 1 0 1 0 0 99207.dat
+0 STEP
+0 NOFILE
+0 FILE cross-base-step13.ldr
+0 Book 1 pages 21-22, step 13. Independent local assembly; global placement unresolved.
+1 72 0 0 0 0 0 -1 0 1 0 1 0 0 3033.dat
+1 14 0 -8 -40 1 0 0 0 1 0 0 0 1 3068b.dat
+1 71 0 -24 -40 1 0 0 0 1 0 0 0 1 32324.dat
+1 14 0 -24 10 1 0 0 0 1 0 0 0 1 32064a.dat
+1 14 0 -24 30 1 0 0 0 1 0 0 0 1 32064a.dat
+1 0 0 -14 0 0 0 -1 0 1 0 1 0 0 3705.dat
+1 71 0 -32 -40 1 0 0 0 1 0 0 0 1 3031.dat
+0 STEP
+0 NOFILE
+0 FILE cross-base-step15.ldr
+0 Book 1 pages 24-25, step 15. Independent local assembly; global placement unresolved.
+1 72 0 0 0 0 0 -1 0 1 0 1 0 0 3033.dat
+1 2 0 -8 -40 1 0 0 0 1 0 0 0 1 3068b.dat
+1 71 0 -24 -40 1 0 0 0 1 0 0 0 1 32324.dat
+1 330 -50 -24 -40 0 0 -1 0 1 0 1 0 0 3622.dat
+1 71 50 -24 -40 0 0 -1 0 1 0 1 0 0 3622.dat
+0 STEP
+0 NOFILE

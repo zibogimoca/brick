@@ -105471,10 +105471,69 @@
       "ldraw_candidates": [
         "35480"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/35480.dat",
+        "sha256": "b18736591153dd2fc2ed6dd1a0af45f87eb9852d65450147fb7a04ece7227957",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/35480.dat -> primitives/stud2a.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/35480.dat -> primitives/stud2a.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-1403-010",
@@ -106282,7 +106341,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/1403.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-1403-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "1404",
@@ -126667,10 +126727,69 @@
       "ldraw_candidates": [
         "34103"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/34103.dat",
+        "sha256": "99d0056be1058000ab7b14f23cffd9f1cb88a26608999282fe5e5512022496ba",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            30.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-1504-010",
@@ -127439,7 +127558,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/1504.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-1504-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "1505",
@@ -217533,10 +217653,519 @@
         "3035",
         "3035a"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3035.dat",
+        "sha256": "1a18d0c8247f3d8efac6e28637ccfc6ea9ccdc149e05ff9c0bbbbdded48454f3",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -40.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            40.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          4.8,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-11"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-12"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-13"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-14"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-15"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-16"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-17"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-18"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-19"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-20"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-21"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-22"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-23"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-24"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-25"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-26"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-27"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-28"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-29"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-30"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3035.dat -> primitives/stud.dat",
+          "id": "stud-31"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-521-010",
@@ -218253,7 +218882,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/521.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-521-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "522",
@@ -220445,10 +221075,939 @@
       "ldraw_candidates": [
         "3033"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3033.dat",
+        "sha256": "deb5c376be8532e5599b3dbe93947d8c23231979d5c110cb931e63516a50d95a",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -100.0,
+            -4.0,
+            -60.0
+          ],
+          "max": [
+            100.0,
+            8.0,
+            60.0
+          ]
+        },
+        "size_mm": [
+          80.0,
+          4.8,
+          48.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-11"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-12"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-13"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-14"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-15"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-16"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-17"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-18"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-19"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-20"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-21"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-22"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-23"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-24"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-25"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-26"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-27"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-28"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-29"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-30"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-31"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-32"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-33"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-34"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-35"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-36"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-37"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-38"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-39"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-40"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-41"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-42"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-43"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-44"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-45"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-46"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-47"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-48"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-49"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-50"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-51"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-52"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-53"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-54"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-55"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-56"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-57"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-58"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            -50.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3033.dat -> primitives/stud.dat",
+          "id": "stud-59"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-525-010",
@@ -221178,7 +222737,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/525.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-525-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "526",
@@ -246607,10 +248167,38 @@
         "3068a",
         "63327"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3068b.dat",
+        "sha256": "bcaf3d8d9a0d7c5e66e97d4ccff2d849290595d4a9a2488b8ccf52d93819e74e",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            0.0,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          3.2,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-561-010",
@@ -247418,7 +249006,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/561.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-561-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "561-DE1611",
@@ -291106,10 +292695,99 @@
       "ldraw_candidates": [
         "3701"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3701.dat",
+        "sha256": "269d270e585210f001097471e7599a2650e4b8a98d0dbc1fd62d897a684ee7c0",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            40.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3701.dat -> primitives/stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3701.dat -> primitives/stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3701.dat -> primitives/stud2.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3701.dat -> primitives/stud2.dat",
+          "id": "stud-3"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-625-010",
@@ -291735,7 +293413,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/625.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-625-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "626",
@@ -292353,10 +294032,159 @@
       "ldraw_candidates": [
         "3702"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3702.dat",
+        "sha256": "d7e3d68a0d6524842a5ff1c2f353ded803f386ffa6d8b4c3585d77da7fe2a338",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            80.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3702.dat -> primitives/stud2.dat",
+          "id": "stud-7"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-627-010",
@@ -292839,7 +294667,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/627.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-627-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "628",
@@ -293645,10 +295474,279 @@
       "ldraw_candidates": [
         "3703"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3703.dat",
+        "sha256": "ec8fdfd0e3ce8f0ee604bbc71e0ca60d2d2aad45081f5796e90bf858ceda15ec",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -160.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            160.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          128.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            110.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            130.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            150.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-11"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -90.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-12"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -110.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-13"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -130.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-14"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -150.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/3703.dat -> primitives/stud2.dat",
+          "id": "stud-15"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-630-010",
@@ -294027,7 +296125,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/630.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-630-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "631",
@@ -295305,10 +297404,69 @@
         "31493",
         "32064c"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/32064a.dat",
+        "sha256": "b4948bb85b7dccfd50379b3044b1344635400323a9fd18d8bde95928810ec7a8",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-1"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-633-010",
@@ -296012,7 +298170,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/633.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-633-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "634",
@@ -302070,10 +304229,129 @@
         "99207",
         "gds642"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/99207.dat",
+        "sha256": "84d0a4a88a0bc2598539e50d2437877d2fc0ff4c26e36ec619f293a07cc7f88c",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -32.0,
+            -18.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          16.0,
+          11.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-2x1.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-2x1.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            -2.0,
+            -14.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            -2.0,
+            -14.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            -22.0,
+            -14.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            -22.0,
+            -14.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "evidence": "assets/primitives/stug2-1x2.dat -> primitives/stud2.dat",
+          "id": "stud-5"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-642-010",
@@ -302803,7 +305081,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/642.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-642-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "643",
@@ -436957,10 +439236,38 @@
       "ldraw_candidates": [
         "3673"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3673.dat",
+        "sha256": "6543932900701de8f9082d34cd3b35c60542fabac2b5a450d521d66f6951d429",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -8.0,
+            -8.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            8.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          6.4,
+          6.4
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-892-010",
@@ -437430,7 +439737,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/892.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-892-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "893",
@@ -586746,10 +589054,219 @@
       "ldraw_candidates": [
         "32324"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/32324.dat",
+        "sha256": "c44c95a54fbfec515c3e21ec053575bcde07b01330ce298aaa15293113751cdc",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -40.0
+          ],
+          "max": [
+            40.0,
+            24.0,
+            40.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          11.2,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-3x1.dat -> primitives/stud2.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-3x1.dat -> primitives/stud2.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-3x1.dat -> primitives/stud2.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x3.dat -> primitives/stud2.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x3.dat -> primitives/stud2.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x3.dat -> primitives/stud2.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x3.dat -> primitives/stud2.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x3.dat -> primitives/stud2.dat",
+          "id": "stud-7"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-1x3.dat -> primitives/stud2.dat",
+          "id": "stud-8"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-3x1.dat -> primitives/stud2.dat",
+          "id": "stud-9"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-3x1.dat -> primitives/stud2.dat",
+          "id": "stud-10"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            -30.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug2-3x1.dat -> primitives/stud2.dat",
+          "id": "stud-11"
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-971-010",
@@ -587141,7 +589658,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/971.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-971-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Selected obvious stud/underside and named joint primitives only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "972",
@@ -633289,9 +635807,9 @@
     }
   ],
   "geometry_enrichment": {
-    "reference_parts_prepared": 67,
+    "reference_parts_prepared": 79,
     "reference_assets": "assets/policy.md#에셋-목록",
     "physical_tests": false,
-    "remaining_parts_geometry_pending": 1755
+    "remaining_parts_geometry_pending": 1743
   }
 }

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 async function load(page) {
   await page.goto('/');
   await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
-  await page.selectOption('#models', { label: '티라노사우루스 · v1' });
+  await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
 }
 test('renders the actual model and switches camera views', async ({ page }) => {
@@ -35,7 +35,7 @@ test('rejects a broken catalog model while preserving the previous model', async
   await page.route('**/models/index.json?*', route => route.fulfill({ json: entries.map(entry => ({ ...entry, version: hash })) }));
   await page.route('**/models/*.mpd?*', route => route.fulfill({ body: broken, contentType: 'text/plain' }));
   await page.selectOption('#models', '');
-  await page.selectOption('#models', { label: '티라노사우루스 · v1' });
+  await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
   await expect(page.locator('#status')).toContainText('완전히 불러오지 못했습니다', { timeout: 30000 });
   await expect(page.locator('#version')).toHaveText(revision);
 });
@@ -94,13 +94,13 @@ test('refreshes an old catalog before requesting a versioned model', async ({ pa
 
 test('loads v0 as an explicitly approximate LEGO reference and can return to v1', async ({ page }) => {
   await load(page);
-  await page.selectOption('#models', { label: '티라노사우루스 · v0 · LEGO 외형 근사' });
-  await expect(page.locator('#status')).toContainText('LEGO 76968 외형 근사', { timeout: 30000 });
+  await page.selectOption('#models', { label: '티라노사우루스 · 버전 0' });
+  await expect(page.locator('#status')).toContainText('버전 0 · 재구성 진행 전 초안', { timeout: 30000 });
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
   await expect(page.locator('#joint option')).toHaveCount(3);
   await page.click('#support-toggle');
   await expect(page.locator('#support-toggle')).toHaveText('지지대 보기');
-  await page.selectOption('#models', { label: '티라노사우루스 · v1' });
+  await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
   await expect(page.locator('#joint option')).toHaveCount(18);
 });
