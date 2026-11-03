@@ -76,8 +76,9 @@ async function open(buffer, name, revision) {
     $('empty').hidden = true; $('fit').disabled = false; fit();
     renderer.domElement.dataset.modelLoaded = 'true';
     $('summary').textContent = metadata?.piece_count ? `${metadata.piece_count}개 부품 · 공개 판매가 기준 ${metadata.listed_retail_parts_cost_cny || '미확인'} CNY` : '';
+    if (metadata?.status === 'reference_visual_approximation') $('summary').textContent = `${metadata.piece_count}개 대체 부품으로 외형 근사 · 공식 제품은 3,145개. 내부 구조·부품 구성은 다릅니다.`;
     if (metadata?.reference_geometry_bounds_cm) { const d = metadata.reference_geometry_bounds_cm; $('summary').textContent += ` · 약 ${d.length} × ${d.width} × ${d.height}cm`; }
-    $('version').textContent = `${metadata?.version_label ? metadata.version_label + ' · ' : ''}${name} · ${revision}`; status(metadata?.status === 'articulated_geometry_prototype' ? '모델을 불러왔습니다 · 검토안. 연결·강도 미검증.' : '모델을 불러왔습니다. 조립 가능 여부를 검증한 결과는 아닙니다.');
+    $('version').textContent = `${metadata?.version_label ? metadata.version_label + ' · ' : ''}${name} · ${revision}`; status(metadata?.status === 'reference_visual_approximation' ? 'LEGO 76968 외형 근사 · 공식 원본·조립 검증 아님.' : metadata?.status === 'articulated_geometry_prototype' ? '모델을 불러왔습니다 · 검토안. 연결·강도 미검증.' : '모델을 불러왔습니다. 조립 가능 여부를 검증한 결과는 아닙니다.');
   } catch (error) { console.error('Model loading failed', error); if (current === generation) status('모델을 완전히 불러오지 못했습니다. 이전 모델이 있다면 그대로 표시됩니다.'); }
   finally { if (current === generation) $('models').disabled = false; }
 }

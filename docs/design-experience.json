@@ -97,6 +97,16 @@
       "evidence": "models/tyrannosaurus.md; tools/validate_model.py --check-body-overlaps",
       "verification_level": "nominal_rectangular_body_check_and_render",
       "limitations": "직육면체 몸체 겹침 제거만 확인. 전체 결합 그래프·곡선 부품 간섭·핀 고정·실물 강도는 별도 검증이 필요하다."
+    },
+    {
+      "id": "reference-reconstruction-scope",
+      "category": "reference_review",
+      "problem": "근사 비교 모델을 공식 설계의 정확한 복원처럼 취급하면 외형·부품 수·가동성 비교를 오판할 수 있다.",
+      "application_conditions": "공식 3D 원본 없이 설명서와 완성 도해로 비교 모델을 만드는 경우.",
+      "method": "완성 도해로 실루엣과 부위별 비례를 먼저 잡고, 불명확한 부위만 중간 조립 페이지를 확인한다. 확인한 페이지·추정 구조·생략 항목을 모델 기록에 남기고 공식 부품 수와 근사 모델 수를 구분한다.",
+      "evidence": "사용자와 합의한 LEGO 76968 v0 작업 범위; models/tyrannosaurus.md",
+      "verification_level": "agreed_review_method",
+      "limitations": "근사 모델은 실제 제품의 구조·가동 범위·강도를 증명하지 않는다."
     }
   ]
 }
