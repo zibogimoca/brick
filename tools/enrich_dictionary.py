@@ -1,4 +1,12 @@
-"""Prepare reference geometry annotations and a small articulated neck study, not a finished dinosaur."""
+"""
+기능: 확보한 형상에서 외곽 치수와 일부 연결 위치를 계산해 부품 사전에 반영한다.
+입력: assets의 형상, docs/gobricks-dictionary.json, 코드의 부품 대응 mapping.
+출력: docs/gobricks-dictionary.json의 형상 참조·해시·치수·선택된 연결 정보.
+실행: python3 tools/enrich_dictionary.py
+주의: 현재 대응표에 등록된 38종을 처리한다. 다른 부품에는 대응과 연결 규칙 검토가 필요하다.
+한계: 일부 연결은 추정이며 실물 공차·결합력·하중을 검증하지 않는다.
+      모델을 생성하는 도구가 아니다.
+"""
 import hashlib,json,math
 from pathlib import Path
 ROOT=Path('assets')

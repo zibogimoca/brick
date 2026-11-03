@@ -1,4 +1,12 @@
-"""Build and validate the single shared dictionary from official catalog page responses."""
+"""
+기능: 수집한 판매 목록의 페이지 수·SKU 중복·누락·가격을 검사하고 부품 사전을 생성한다.
+입력: --cache <수집 폴더>; 선택 사항 --output <사전 경로>.
+출력: 기본 docs/gobricks-dictionary.json 및 저장 중 사용하는 같은 위치의 .tmp 파일.
+실행: python3 tools/build_gobricks_dictionary.py --cache <수집 폴더>
+주의: 사전 전체를 다시 작성하므로 기존 형상·연결 보강 정보가 초기화된다.
+      기존 보강 정보를 검토하고 복원 계획을 세운 뒤 실행해야 한다.
+한계: 묶음 할인을 추정하지 않으며 실제 형상·결합을 검증하지 않는다.
+"""
 import argparse,hashlib,json,math
 from pathlib import Path
 from datetime import datetime,timezone

@@ -1,4 +1,12 @@
-"""Extract a small licensed LDraw dependency closure from the official complete.zip archive."""
+"""
+기능: 공식 LDraw ZIP에서 지정 부품과 참조 조각을 추출하고 읽기 쉬운 경로로 변환한다.
+입력: archive 위치 인자(이미 확보한 complete.zip); 코드의 TOP 부품 목록.
+출력: assets/parts, assets/primitives, assets/LDConfig.ldr와 assets/policy.md 내부 목록.
+실행: python3 tools/prepare_geometry.py <complete.zip 경로>
+주의: TOP에 없는 기존 형상은 정리될 수 있다. 모든 모델의 필요 부품을 확인하고
+      새 형상 파일 생성 범위를 먼저 보고한다. 별도 manifest 파일은 만들지 않는다.
+한계: 형상 출처와 무결성을 기록하며, 고브릭스 실물과의 일치를 보장하지 않는다.
+"""
 import argparse,hashlib,json,zipfile
 from pathlib import Path
 p=argparse.ArgumentParser(description=__doc__);p.add_argument('archive',type=Path);args=p.parse_args()

@@ -1,4 +1,13 @@
-"""Validate exported MPD records, licensed reference assets and nominal stud-grid connectivity."""
+"""
+기능: 현재 티라노 MPD의 기록 일치·부품 수·격자 배치·연결·판매가와 에셋 무결성을 검사한다.
+입력: models/tyrannosaurus.mpd, docs/gobricks-dictionary.json, assets/policy.md와 형상 파일.
+출력: 콘솔의 검사 결과. 파일을 생성하거나 수정하지 않는다.
+실행: python3 tools/validate_tyrannosaurus.py
+주의: 현재 160개 부품 및 티라노 부위 목록이 고정된 전용 구현이다.
+      다른 모델용으로 복사하지 않는다. 기존 검사를 공통화하고 모델별 조건을
+      모델 작업파일에서 읽도록 개선한 뒤 재사용해야 한다.
+한계: 격자상 몸체·접촉 검사이며 정밀 메시 간섭, 실물 조립·결합력·하중 검사는 아니다.
+"""
 import hashlib,json,math
 from pathlib import Path
 from collections import Counter
