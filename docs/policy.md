@@ -36,4 +36,4 @@
 
 ## 현재 개발·검토 방법
 
-기존 체크아웃을 사용하며 별도 Git worktree를 만들지 않는다. `viewer`에서 `npm ci --ignore-scripts` 후 `npm run build`로 모델과 허용된 형상 자산을 포함한 정적 뷰어를 만든다. 로컬 개발은 같은 디렉터리에서 `npm run dev`로 시작한다. `models`의 MPD와 `assets/ldraw`가 뷰어 배포물에 포함되며 공개 사이트 방문자는 이를 내려받을 수 있다. 저장소는 비공개로 유지한다. 모델 검증은 저장소 루트에서 `python3 tools/validate_tyrannosaurus.py`, 뷰어 검증은 `viewer`에서 `npx playwright test`로 수행한다. 생성 스크립트는 모델 파일을 덮어쓰므로 사용자 수정 후 자동 재실행하지 않는다.
+기존 체크아웃을 사용하며 별도 Git worktree를 만들지 않는다. `viewer`에서 `npm ci --ignore-scripts` 후 `npm run build`로 모델과 허용된 형상 자산을 포함한 정적 뷰어를 만든다. 로컬 개발은 같은 디렉터리에서 `npm run dev`로 시작한다. `models`의 MPD와 `assets/ldraw`가 뷰어 배포물에 포함되며 공개 사이트 방문자는 이를 내려받을 수 있다. 저장소는 비공개로 유지한다. 모델 검증은 저장소 루트에서 `python3 tools/validate_tyrannosaurus.py`, 뷰어 검증은 `viewer`에서 `npx playwright test`로 수행한다. 모델 원본은 MPD 파일에서 직접 관리하며, 일회성 티라노 생성 스크립트와 이전 스페이스 작업 기록은 보관하지 않는다.
