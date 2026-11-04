@@ -1389,5 +1389,11 @@
     "423–424dewclaw belongs72132foot/shin side; no dependency on403hip tile.",
     "Toe2736ball center is12LDUbehindaxleorigin; actualtoe ballcenter(0,2,52)."
   ],
-  "reserved_toes_removed": "Three reserveddisplayreferences removed after firstleg425attachment; sixactualtoes countedonce."
+  "reserved_toes_removed": "Three reserveddisplayreferences removed after firstleg425attachment; sixactualtoes countedonce.",
+  "root_review_409": {
+    "translation_z": "135.764501988→121.6223663643",
+    "mechanical_basis": "67329twoendstuds matched79846outerwingunderside; offset14.1421356LDU removed",
+    "residual_ldu": 7.157779e-05,
+    "physical_fit": "not tested"
+  }
 }

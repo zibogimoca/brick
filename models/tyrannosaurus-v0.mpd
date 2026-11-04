@@ -1,6 +1,6 @@
 0 FILE tyrannosaurus-v0.ldr
-0 Integrated body checkpoint; instruction reconstruction under review.
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":2488,"body_draft_piece_count":2488,"layout":"integrated_instruction_model","layout_note":"본체 연결 배치 · 받침대 제작 중","unresolved":"머리·목·몸통·골반·다리·갈비뼈·앞팔·꼬리 연결 반영. 관절 자세·정밀 간섭·실물 결합은 검증 중","support_note":"원래 받침대는 별도 제작 중. 현재 본체의 실물 자립·하중 검증 전","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr"}
+0 Corrected common forelimb and left knee checkpoint.
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":2488,"body_draft_piece_count":2488,"layout":"integrated_instruction_model","layout_note":"본체 연결 배치 · 받침대 제작 중","unresolved":"468·469 중앙 앞다리 연결·앞을 향한 손·왼쪽 무릎 연결 위치 수정 반영. 관절 자세·정밀 간섭 검증 중","support_note":"원래 받침대는 별도 제작 중. 현재 본체의 실물 자립·하중 검증 전","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr"}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 0 NOFILE
 0 FILE body-spine-start.ldr
@@ -573,7 +573,7 @@
 0 Hip ball-centre aligned; pose angle requires final instruction comparison.
 1 16 -374.4602625 552.0965555 90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 1 book2-leg-core.ldr
 0 Hip ball-centre aligned; pose angle requires final instruction comparison.
-1 16 -194.4017885 548.6452461 -251.4213557 0.3420201433 0 -0.9396926208 0.9396926208 0 0.3420201433 0 -1 0 book2-second-leg-upper-core.ldr
+1 16 -197.8219899 539.2483199 -261.4213557 0.3420201433 0 -0.9396926208 0.9396926208 0 0.3420201433 0 -1 0 book2-second-leg-upper-core.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
 1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
@@ -622,9 +622,7 @@
 0 Step514longpin stop restsfrontstacktopY-104; axis-Y.
 1 71 70 -74 0 0 1 0 -1 0 0 0 0 1 77765.dat
 0 Shoulder ball centre aligned; articulation pose pending full silhouette/clearance check.
-1 16 -795.1536635 294.317943 322.7161739 -0.9241498587 0.1701973247 0.3420232584 -0.2701361126 0.3419302644 -0.9000612062 -0.2701361126 -0.92418427 -0.2700183619 body-mounted-arm-positive.ldr
 0 Shoulder ball centre aligned; articulation pose pending full silhouette/clearance check.
-1 16 -838.5974879 381.6227025 -347.016649 -0.9241498587 0.1701973247 -0.3420232584 -0.2701361126 0.3419302644 0.9000612062 0.2701361126 0.92418427 -0.2700183619 body-mounted-arm-negative.ldr
 1 16 -790 -88 0 -1 0 0 0 1 0 0 0 -1 front-dorsal-low-step455.ldr
 1 16 -750 -88 0 -1 0 0 0 1 0 0 0 -1 front-dorsal-middle-step455.ldr
 1 16 -710 -88 0 -1 0 0 0 1 0 0 0 -1 front-dorsal-high-step455.ldr
@@ -633,6 +631,7 @@
 0 Step220: unusedupper44728row native(X±10,Y-6,Z-14) mapsbody(50,16,Z±10),102plateunderside.
 0 Step219 articulatedbladesrotated-120deg aboutmatchinghingeaxes; displayposeclearancereviewpending.
 1 16 56 30 0 0 1 0 0 0 1 1 0 0 rear-chevron-carrier-step214.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-common-forelimb-assembly.ldr
 0 NOFILE
 0 FILE neck-transition-step126.ldr
 0 Book 1 pages130-131, step126: local subassembly. Mounted on body by matching side bracket grid; physical stability not tested.
@@ -2021,7 +2020,7 @@
 0 STEP
 0 Instruction step 409 / book 2 page 82
 0 Two yellow side studs align outer pair of the79846wing; other contact/clearance review pending.
-1 16 -52 -435.362481734 135.764501988 -1 0 0 0 0.707106781 0.707106781 0 0.707106781 -0.707106781 book2-second-leg-angle-core.ldr
+1 16 -52 -435.362481734 121.6223663643 -1 0 0 0 0.707106781 0.707106781 0 0.707106781 -0.707106781 book2-second-leg-angle-core.ldr
 0 STEP
 0 Instruction step 412 / book 2 page 84
 1 0 44 -260 0 0 -1 0 -0.70710678 0 0.70710678 -0.70710678 0 -0.70710678 79846.dat
@@ -3759,7 +3758,7 @@
 1 16 -48 30 0 0 1 0 0 0 1 1 0 0 book3-tail-stub-fin.ldr
 0 NOFILE
 0 FILE shoulder-oval-step457.ldr
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 3766.dat
+1 19 -20 0 0 1 0 0 0 1 0 0 0 1 3766.dat
 1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 22385.dat
 0 Instruction step458 / book2page127
 1 28 20 -8 40 -1 0 0 0 1 0 0 0 -1 51739.dat
@@ -3799,15 +3798,8 @@
 1 71 10 0 -90 0 0 1 0 1 0 -1 0 0 14418.dat
 1 19 10 0 -100 -1 0 0 0 1 0 0 0 -1 13547.dat
 0 NOFILE
-0 FILE body-mounted-arm-positive.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 shoulder-oval-step457.ldr
-1 16 20 4 102 1 0 0 0 1 0 0 0 1 arm-ball-rod-step463.ldr
-1 16 -20 12 82 1 0 0 0 1 0 0 0 1 arm-ball-rod-step463.ldr
-1 16 30 0 114 -1 0 0 0 1 0 0 0 -1 hand-step464.ldr
-1 16 10 0 254 1 0 0 0 1 0 0 0 1 upper-arm-step466.ldr
-0 NOFILE
 0 FILE shoulder-oval-step462.ldr
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 3766.dat
+1 19 -20 0 0 1 0 0 0 1 0 0 0 1 3766.dat
 1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 22385.dat
 1 28 -20 -8 40 -1 0 0 0 1 0 0 0 -1 51739.dat
 1 71 -20 0 50 -1 0 0 0 1 0 0 0 -1 14704.dat
@@ -3837,13 +3829,6 @@
 1 19 0 -16 -30 1 0 0 0 1 0 0 0 1 41770.dat
 1 71 -10 0 -90 0 0 1 0 1 0 -1 0 0 14418.dat
 1 19 -10 0 -100 -1 0 0 0 1 0 0 0 -1 13547.dat
-0 NOFILE
-0 FILE body-mounted-arm-negative.ldr
-1 16 -10 0 -100 -1 0 0 0 1 0 0 0 -1 shoulder-oval-step462.ldr
-1 16 10 4 -202 -1 0 0 0 1 0 0 0 -1 arm-ball-rod-step463.ldr
-1 16 -30 12 -182 -1 0 0 0 1 0 0 0 -1 arm-ball-rod-step463.ldr
-1 16 20 0 -214 1 0 0 0 1 0 0 0 1 hand-step465.ldr
-1 16 0 0 -354 -1 0 0 0 1 0 0 0 -1 upper-arm-step467.ldr
 0 NOFILE
 0 FILE front-dorsal-low-step455.ldr
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
@@ -3888,4 +3873,17 @@
 0 Instruction step218 / book1 page213. Hinge centers aligned; final bend in219 not yet set.
 1 16 0 2.267949192 2.320508076 0 0 1 -0.5 0.8660254038 0 -0.8660254038 -0.5 0 rear-chevron-arm-step218.ldr
 1 16 0 38.26794919 -9.679491924 0 0 1 -0.5 0.8660254038 0 -0.8660254038 -0.5 0 rear-chevron-arm-step218.ldr
+0 NOFILE
+0 FILE body-common-forelimb-assembly.ldr
+0 Commonlinkedcentre; forwardposefrom468/469; clip/barandballpositionsconstrained.
+1 16 -812.646353 142.3259018 41.5192839 -0.9984290058 -0.03962019864 0.03962019864 0 -0.7071067812 -0.7071067812 0.05603142227 -0.7059959206 0.7059959206 shoulder-oval-step457.ldr
+1 16 -807.4164868 142.3259018 -43.76054079 0.9984290058 0.03962019864 -0.03962019864 0 -0.7071067812 -0.7071067812 -0.05603142227 0.7059959206 -0.7059959206 shoulder-oval-step462.ldr
+1 16 -726.4642685 52.2758599 231.8440251 -0.3101381158 0.6507518324 0.6930630576 -0.9494782257 -0.1752008191 -0.2603762124 -0.04801508193 -0.7388008701 0.6722111471 upper-arm-step466.ldr
+1 16 -820.0651046 81.66270992 118.4894881 0.9468852622 0.08378236842 0.3104654811 0 0.9654629689 -0.2605403148 -0.3215716097 0.2467017843 0.9141826565 arm-ball-rod-step463.ldr
+1 16 -791.1722053 98.48528137 99.22650044 1 0 0 0 1 0 0 0 1 arm-ball-rod-step463.ldr
+1 16 -791.1722053 86.48528137 181.2265004 0 0 1 0 1 0 -1 0 0 hand-step464.ldr
+1 16 -726.4642685 52.2758599 -231.8440251 0.3101381159 0.6507518324 0.6930630575 0.9494782257 -0.1752008191 -0.2603762124 -0.04801508194 0.73880087 -0.6722111472 upper-arm-step467.ldr
+1 16 -820.0651046 81.66270992 -118.4894881 -0.9468852621 0.08378236853 0.3104654815 0 0.9654629689 -0.2605403147 -0.3215716102 -0.2467017842 -0.9141826564 arm-ball-rod-step463.ldr
+1 16 -788.9534742 98.48528137 -103.7090142 -1 0 0 0 1 0 0 0 -1 arm-ball-rod-step463.ldr
+1 16 -788.9534742 86.48528137 -185.7090142 0 0 1 0 1 0 -1 0 0 hand-step465.ldr
 0 NOFILE

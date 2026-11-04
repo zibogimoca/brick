@@ -635894,6 +635894,24 @@
       "source": "official LDraw complete.zip",
       "verification": "official reference mesh; physical fit not tested",
       "gobricks_status": "not_verified"
+    },
+    "3046": {
+      "geometry": "assets/parts/3046.dat",
+      "source": "official LDraw complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "official mesh; stand reference, physicalfitnotverified"
+    },
+    "32607": {
+      "geometry": "assets/parts/32607.dat",
+      "source": "official LDraw complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "official mesh; stand reference, physicalfitnotverified"
+    },
+    "49656": {
+      "geometry": "assets/parts/49656.dat",
+      "source": "official LDraw complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "official mesh; stand reference, physicalfitnotverified"
     }
   }
 }

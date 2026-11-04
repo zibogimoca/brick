@@ -222,7 +222,7 @@
 0 STEP
 0 Instruction step 409 / book 2 page 82
 0 Two yellow side studs align outer pair of the79846wing; other contact/clearance review pending.
-1 16 -52 -435.362481734 135.764501988 -1 0 0 0 0.707106781 0.707106781 0 0.707106781 -0.707106781 book2-second-leg-angle-core.ldr
+1 16 -52 -435.362481734 121.6223663643 -1 0 0 0 0.707106781 0.707106781 0 0.707106781 -0.707106781 book2-second-leg-angle-core.ldr
 0 STEP
 0 Instruction step 412 / book 2 page 84
 1 0 44 -260 0 0 -1 0 -0.70710678 0 0.70710678 -0.70710678 0 -0.70710678 79846.dat

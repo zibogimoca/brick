@@ -16426,38 +16426,16 @@
     "added_connector": "77765@71 at(70,-74,0),axis-Y",
     "verification": "holecentres/layergapchecked; compositeinterferenceunderreview"
   },
-  "root_arm_integration": [
-    {
-      "root": "body-mounted-arm-positive.ldr",
-      "socket_original": [
-        10,
-        4,
-        274
-      ],
-      "target_ball": [
-        -710.0,
-        46.3675323732,
-        242.33304453280002
-      ],
-      "residual": 2.929642751054232e-14,
-      "pose": "provisionaljointangles; exactcentre fit"
-    },
-    {
-      "root": "body-mounted-arm-negative.ldr",
-      "socket_original": [
-        0,
-        4,
-        -374
-      ],
-      "target_ball": [
-        -710.0,
-        46.3675323732,
-        -242.33304453280002
-      ],
-      "residual": 2.929642751054232e-14,
-      "pose": "provisionaljointangles; exactcentre fit"
-    }
-  ],
+  "root_arm_integration": {
+    "layout": "body-common-forelimb-assembly.ldr",
+    "basis": "463common63868/48336clip/bar,468/469foldandforwardhands; replacementsforindependentrigidarmposes",
+    "central_pose_reference": [
+      -830,
+      90,
+      0
+    ],
+    "joint_pose_verification": "kinematiccentreschecked; finalROMandphysicalclearanceuntested"
+  },
   "root_integration_remaining": [
     "Finaljointpose/clearance/gearengagementreview",
     "Originalstandinprogress"
@@ -16469,5 +16447,27 @@
     "remaining_support_pair": "44728unusedstudrowcarrier(X±10,-6,-14)→body(50,16,±10); upperrownotcoveredby21699781",
     "hinge_pose_degrees": -120,
     "verification": "supportpairandhingecentrescomputed; finalcompositeposepending"
+  },
+  "forelimb_user_correction": {
+    "common_centre": true,
+    "central_hinge_degrees": 90,
+    "original_centre_axis": [
+      -10.0,
+      10.0,
+      -50.0
+    ],
+    "hands": "bothfingerpairspointtowardhead",
+    "max_link_length_residual": 2.842170943040401e-14,
+    "verification": "geometrycandidate; compositevisual/clearancereviewpending",
+    "common_centre_reference": [
+      -830,
+      90,
+      0
+    ]
+  },
+  "left_knee_correction": {
+    "409": "T.Z135.764501988→121.6223663643",
+    "constraint": "two67329side-studcentres to79846outerwingundersidepair; previous14.142LDUZoffset",
+    "hip_reanchored": true
   }
 }
