@@ -16349,7 +16349,8 @@
     "layout": "integrated_instruction_model",
     "assembly_verified": false,
     "stand_draft_piece_count": 351,
-    "publication_status": "incomplete_review_checkpoint"
+    "publication_status": "incomplete_review_checkpoint",
+    "pose": "vertical discs,45degree upper arms, asymmetric stride"
   },
   "integration_note": "Root integrated213pubis47parts and481/493pelviccovers62parts; connectoraxes/bodypinrotations corrected; composite render pending.",
   "root_leg_integration": "RightlegfullassemblyanditsZ-reflection; priorindependentsecondmountdiscarded.",
@@ -16407,11 +16408,11 @@
   },
   "root_arm_integration": {
     "layout": "body-common-forelimb-assembly.ldr",
-    "basis": "463common63868/48336clip/bar,468/469foldandforwardhands; replacementsforindependentrigidarmposes",
+    "basis": "User corrected body-side edge rotates down; vertical disc planes and45degree forward/down upper arms.",
     "central_pose_reference": [
-      -806.9762535710273,
-      160.0220374846982,
-      0.0
+      -835.23361907,
+      131.3675323732,
+      0
     ],
     "joint_pose_verification": "kinematiccentreschecked; finalROMandphysicalclearanceuntested"
   },
@@ -16429,7 +16430,7 @@
   },
   "forelimb_user_correction": {
     "common_centre": true,
-    "central_hinge_degrees": 40,
+    "central_hinge_degrees": 0,
     "original_centre_axis": [
       -10.0,
       10.0,
@@ -16437,22 +16438,32 @@
     ],
     "hands": "Whole upper-arm/elbow/centre pose adjusted forward/down; claws retain forward direction.",
     "max_link_length_residual": 2.842170943040401e-14,
-    "verification": "Link-centre constraints computed; composite visual and physical clearance review pending.",
+    "verification": "Disc planes vertical, upper-arm sagittal projection45degrees; rods64LDU; whole-mesh clearance and physical ROM unverified.",
     "common_centre_reference": [
-      -806.9762535710273,
-      160.0220374846982,
-      0.0
+      -835.23361907,
+      131.3675323732,
+      0
     ],
     "oval3766": "NativefootprintX[-60,60]/Z[-40,40]; correctrotationRy90, centredat0. Previous I/translation-20incorrect.",
     "talons": "Rotated180aboutinsertedbaraxis, curvefacesdownwhilefingerspointforward.",
     "rod_joint_max_residual": 5.439379132036632e-08,
     "hands_forward_shift": 40,
-    "whole_arm_pitch_degrees": -20,
     "pending_user_pose_guidance": {
-      "disc_plane": "Lower the body-side edges until disc faces are vertical relative to ground. User corrected previous upward-edge direction; do not use it.",
-      "upper_arm": "At ribcage attachment, upper arm should incline forward at approximately45degrees to ground rather than remain vertical.",
-      "status": "User requests apply only after stand is ready, then publish arm pose and stand together. No new arm edits before that point."
-    }
+      "status": "applied; composite verification in progress"
+    },
+    "disc_normals_world": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "disc_plane_to_ground_degrees": 90,
+    "posterior_edge_direction": "downward",
+    "upper_arm_forward_down_degrees": 45,
+    "upper_arm_projection": [
+      85,
+      85
+    ],
+    "rod_length_max_residual": 2.842170943040401e-14
   },
   "left_knee_correction": {
     "409": "T.Z135.764501988→121.6223663643",
@@ -16463,7 +16474,7 @@
     "method": "Reflect complete right-leg geometry acrossbodyZ0, including hip transform. Replacesindependentlymisorientedsecondleg.",
     "right_mount": "1 16 -374.4602625 552.0965555 90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 1 book2-leg-core.ldr",
     "left_mount": "1 16 -374.4602625 552.0965555 -90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 -1 book2-leg-core.ldr",
-    "status": "geometrymirror; chiralphysicalpart/BOMmappingnotcertified",
+    "status": "Mirrored right-leg baseline; left thigh square connection reindexed and hip pose changed for asymmetric walking.",
     "hip_target": [
       -280,
       -14,
@@ -16491,5 +16502,214 @@
     "complete": false,
     "review_stand_piece_count": 351,
     "publication_status": "incomplete_review_checkpoint"
-  }
+  },
+  "walking_pose_revision": {
+    "status": "Applied, packaged and visually reviewed; physical locking and whole-stand collision review remain.",
+    "left_thigh_reindex": "90degree index about existing four-stud square underside. Stud coordinate set preserved; full mesh clearance under review.",
+    "hip_hardware": "17114 native ballsX+/-40 rotatedRy90 to bodyZ+/-40; square stud footprint unchanged.",
+    "physical_validation": false,
+    "foot_contact_plane_y": 616,
+    "foot_world_transforms": [
+      {
+        "side": 1,
+        "submodel": "book2-leg-core-posed.ldr",
+        "translation": [
+          -10.910886124200772,
+          479.5427167875587,
+          166.0741324170341
+        ],
+        "rotation": [
+          [
+            -0.29721239746608163,
+            0.9544542577316462,
+            0.026112462357967117
+          ],
+          [
+            -0.9429967791405827,
+            -0.2891360435771513,
+            -0.16479509347986848
+          ],
+          [
+            -0.14973932457090522,
+            -0.07360311272279144,
+            0.9859821075833807
+          ]
+        ],
+        "hip_centre": [
+          -280.0,
+          -14.0,
+          40.0
+        ],
+        "foot_peg_centre": [
+          21.999999999999964,
+          603.8671143372974,
+          185.9818632875885
+        ],
+        "rigid_bottom_y": 616.0000000000193
+      },
+      {
+        "side": -1,
+        "submodel": "book2-leg-core-left-stride-posed.ldr",
+        "translation": [
+          -362.52030773978225,
+          523.64497060923,
+          -152.30524621088597
+        ],
+        "rotation": [
+          [
+            0.7990162100100351,
+            0.6012641598188749,
+            -0.007382835397185707
+          ],
+          [
+            -0.5979304288479764,
+            0.7931664499632639,
+            -0.11561221782470973
+          ],
+          [
+            0.06365766567252196,
+            -0.09679045805230746,
+            -0.9932669876881793
+          ]
+        ],
+        "hip_centre": [
+          -280.0,
+          -14.0,
+          -40.0
+        ],
+        "foot_peg_centre": [
+          -470.0,
+          596.6169276596873,
+          -160.0
+        ],
+        "rigid_bottom_y": null,
+        "heel_note": "Slight heel lift in walking pose; three toes contactY616.",
+        "axial_twist_degrees": 0
+      }
+    ],
+    "toe_contacts": [
+      {
+        "side": 1,
+        "toe": 0,
+        "pitch_degrees": -2.5738660603412438,
+        "sole_y": 615.9999999999931,
+        "socket_residual": 0.0
+      },
+      {
+        "side": 1,
+        "toe": 1,
+        "pitch_degrees": 1.0522990043857137,
+        "sole_y": 616.0000000000224,
+        "socket_residual": 0.0
+      },
+      {
+        "side": 1,
+        "toe": 2,
+        "pitch_degrees": -7.067128396860789,
+        "sole_y": 616.0000000000173,
+        "socket_residual": 1.4210854715202004e-14
+      },
+      {
+        "side": -1,
+        "toe": 0,
+        "pitch_degrees": -18.24468712244125,
+        "sole_y": 615.9999999999928,
+        "socket_residual": 7.105427357601002e-15
+      },
+      {
+        "side": -1,
+        "toe": 1,
+        "pitch_degrees": -32.32976391921694,
+        "sole_y": 615.9999999999935,
+        "socket_residual": 1.432144669219779e-14
+      },
+      {
+        "side": -1,
+        "toe": 2,
+        "pitch_degrees": -21.0065821504133,
+        "sole_y": 615.9999999999993,
+        "socket_residual": 0.0
+      }
+    ],
+    "note": "Hip-centred rigid transforms and toe socket pivots. No length scaling. Full stand surface, peg lock alignment and whole-mesh clearance unverified.",
+    "stride_foot_peg_x_difference": 492
+  },
+  "current_walking_mounts": [
+    {
+      "side": 1,
+      "submodel": "book2-leg-core-posed.ldr",
+      "translation": [
+        -10.910886124200772,
+        479.5427167875587,
+        166.0741324170341
+      ],
+      "rotation": [
+        [
+          -0.29721239746608163,
+          0.9544542577316462,
+          0.026112462357967117
+        ],
+        [
+          -0.9429967791405827,
+          -0.2891360435771513,
+          -0.16479509347986848
+        ],
+        [
+          -0.14973932457090522,
+          -0.07360311272279144,
+          0.9859821075833807
+        ]
+      ],
+      "hip_centre": [
+        -280.0,
+        -14.0,
+        40.0
+      ],
+      "foot_peg_centre": [
+        21.999999999999964,
+        603.8671143372974,
+        185.9818632875885
+      ],
+      "rigid_bottom_y": 616.0000000000193
+    },
+    {
+      "side": -1,
+      "submodel": "book2-leg-core-left-stride-posed.ldr",
+      "translation": [
+        -362.52030773978225,
+        523.64497060923,
+        -152.30524621088597
+      ],
+      "rotation": [
+        [
+          0.7990162100100351,
+          0.6012641598188749,
+          -0.007382835397185707
+        ],
+        [
+          -0.5979304288479764,
+          0.7931664499632639,
+          -0.11561221782470973
+        ],
+        [
+          0.06365766567252196,
+          -0.09679045805230746,
+          -0.9932669876881793
+        ]
+      ],
+      "hip_centre": [
+        -280.0,
+        -14.0,
+        -40.0
+      ],
+      "foot_peg_centre": [
+        -470.0,
+        596.6169276596873,
+        -160.0
+      ],
+      "rigid_bottom_y": null,
+      "heel_note": "Slight heel lift in walking pose; three toes contactY616.",
+      "axial_twist_degrees": 0
+    }
+  ]
 }

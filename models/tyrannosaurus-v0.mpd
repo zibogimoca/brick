@@ -1,6 +1,6 @@
 0 FILE tyrannosaurus-v0.ldr
-0 Incomplete body plus stand checkpoint; user review only.
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":2847,"body_draft_piece_count":2496,"layout":"integrated_instruction_model","layout_note":"본체 연결 배치 · 받침대 기초·기둥 포함 검토본(미완성)","unresolved":"받침대37단계 일부·38–41·48–50 및 주변 장착, 발 위치 조정이 남아 있습니다. 원판을 몸 안쪽 아래 방향으로 세우고 상완을 전방45도로 조정하는 추가 팔 수정도 아직 미반영입니다","support_note":"기둥·발판의 배치 검토용입니다. 축 삽입 깊이·간섭·실물 하중은 미검증입니다","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","stand_draft_piece_count":351,"source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr"}
+0 Corrected disc and upper-arm pose; asymmetric walking stance on partial stand.
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":2847,"body_draft_piece_count":2496,"layout":"integrated_instruction_model","layout_note":"본체·받침대 검토본 · 원판 수직/상완45도·걷는 자세 적용","unresolved":"원판을 안쪽 아래 방향으로 세우고 앞팔 전체를 전방으로 조정했습니다. 좌우 다리를 앞뒤로 벌리고 발가락을 발판 높이에 맞췄습니다. 받침대 장식·정밀 간섭·발 고정축 검증은 남아 있습니다","support_note":"발판 높이 기준 접점 계산을 수행한 검토 자세입니다. 실물 가동 범위·하중·전체 간섭은 미검증입니다","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","stand_draft_piece_count":351,"source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr"}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -572,9 +572,9 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 pubis213-body-mounted-pubis-step213.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-arms-and-pelvic-covers-overlay.ldr
 0 Hip ball-centre aligned; pose angle requires final instruction comparison.
-1 16 -374.4602625 552.0965555 90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 1 book2-leg-core.ldr
+1 16 -10.9108861242 479.542716788 166.074132417 -0.297212397466 0.954454257732 0.026112462358 -0.942996779141 -0.289136043577 -0.16479509348 -0.149739324571 -0.0736031127228 0.985982107583 book2-leg-core-posed.ldr
 0 Hip ball-centre aligned; pose angle requires final instruction comparison.
-1 16 -374.4602625 552.0965555 -90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 -1 book2-leg-core.ldr
+1 16 -362.52030774 523.644970609 -152.305246211 0.79901621001 0.601264159819 -0.00738283539719 -0.597930428848 0.793166449963 -0.115612217825 0.0636576656725 -0.0967904580523 -0.993266987688 book2-leg-core-left-stride-posed.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
 1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
@@ -1316,7 +1316,7 @@
 1 19 110 -32 70 -1 0 0 0 1 0 0 0 -1 27263.dat
 1 19 -150 -32 10 1 0 0 0 1 0 0 0 1 27263.dat
 0 NOFILE
-0 FILE book2-leg-core.ldr
+0 FILE book2-leg-core-posed.ldr
 0 Book 2 local reconstruction; unfinished. X along upper leg, Y down, Z across leg.
 0 Local placement requires diagram/render comparison; not ready for integrated publication.
 0 STEP
@@ -1439,9 +1439,9 @@
 1 19 -60 -30 -42 0 1 0 1 0 0 0 0 -1 87747.dat
 0 STEP
 0 Instruction step 425 / book2 pages97–98. First-legthree toes, exactball/socket centers;20degree splay isdisplaypose.
-1 16 -68 -98.86401628 -45.78504745 0 -1 0 0.34202014 0 0.93969262 -0.93969262 0 0.34202014 book2-shared-toe-step425.ldr
-1 16 -70 -138 0 0 -1 0 0 0 1 -1 0 0 book2-shared-toe-step425.ldr
-1 16 -68 -98.86401628 45.78504745 0 -1 0 -0.34202014 0 0.93969262 -0.93969262 0 -0.34202014 book2-shared-toe-step425.ldr
+1 16 -53.5697469733 -97.8830972112 -40.0522112024 0.0846732289754 -0.956498874207 -0.279177986121 0.27043690665 -0.247606210561 0.930352107545 -0.959006946699 -0.154275948001 0.237706979392 book2-shared-toe-step425.ldr
+1 16 -53.7722575028 -134.733899293 -0.869748879358 0.149739324571 -0.937379420592 -0.314480454923 0.0736031127228 -0.306615880291 0.9489832895 -0.985982107583 -0.165246857172 0.0230815883404 book2-shared-toe-step425.ldr
+1 16 -60.7015734313 -100.477340949 36.5777223695 0.208261093154 -0.967769839523 -0.141593978647 -0.126447490417 -0.170194179706 0.977264024387 -0.969865119099 -0.185621870761 -0.157816893423 book2-shared-toe-step425.ldr
 0 NOFILE
 0 FILE book2-leg-upper-skin.ldr
 0 STEP
@@ -1803,6 +1803,239 @@
 1 19 0 32 -40 -1 0 0 0 1 0 0 0 -1 24201.dat
 1 28 0 22 -62 1 0 0 0 0 -1 0 1 0 85861.dat
 1 19 0 22 -66 -1 0 0 0 0 1 0 1 0 87747.dat
+0 NOFILE
+0 FILE book2-leg-core-left-stride-posed.ldr
+0 Book 2 local reconstruction; unfinished. X along upper leg, Y down, Z across leg.
+0 Local placement requires diagram/render comparison; not ready for integrated publication.
+0 STEP
+0 Instruction step 226 / book 2 page 3
+1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 2 90 -40 0 0 0 -1 0 1 0 1 0 0 67329.dat
+0 STEP
+0 Instruction step 227 / book 2 page 3
+1 71 10 -8 0 1 0 0 0 1 0 0 0 1 3021.dat
+1 71 60 -40 -10 1 0 0 0 1 0 0 0 1 22885.dat
+1 71 60 -40 10 -1 0 0 0 1 0 0 0 -1 22885.dat
+0 STEP
+0 Instruction step 228 / book 2 page 4
+1 71 -70 -32 0 0 0 -1 0 1 0 1 0 0 11215.dat
+1 322 -100 -24 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 4 -110 -16 -10 -1 0 0 0 1 0 0 0 -1 3172.dat
+1 4 -110 -16 10 -1 0 0 0 1 0 0 0 -1 3172.dat
+1 28 -100 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat
+1 28 -100 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat
+1 72 -110 0 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 Instruction step 229 / book 2 page 5
+1 71 -30 -16 0 1 0 0 0 1 0 0 0 1 3021.dat
+1 322 20 -16 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 Instruction step 230 / book 2 page 5
+1 15 0 -40 -10 1 0 0 0 1 0 0 0 1 30414.dat
+1 2 -50 -40 -10 1 0 0 0 1 0 0 0 1 87087.dat
+1 15 0 -40 10 -1 0 0 0 1 0 0 0 -1 30414.dat
+1 2 -50 -40 10 -1 0 0 0 1 0 0 0 -1 87087.dat
+0 STEP
+0 Instruction step 231 / book 2 page 5
+1 0 -100 -40 -10 1 0 0 0 1 0 0 0 1 99781.dat
+1 0 -100 -40 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 84 -70 -40 -10 1 0 0 0 1 0 0 0 1 79389.dat
+1 84 -70 -40 10 -1 0 0 0 1 0 0 0 -1 79389.dat
+0 STEP
+0 Instruction step 232 / book 2 page 5
+1 0 -100 -20 -32 -1 0 0 0 0 1 0 1 0 3022.dat
+1 0 -100 -20 32 1 0 0 0 0 1 0 -1 0 3022.dat
+1 0 -110 -20 -40 0 0 1 1 0 0 0 1 0 1748.dat
+1 0 -110 -20 40 0 0 1 -1 0 0 0 -1 0 1748.dat
+0 STEP
+0 Instruction step 233 / book 2 page 6
+1 71 -70 -20 -32 0 0 -1 -1 0 0 0 1 0 14418.dat
+1 71 -70 -20 32 0 0 1 -1 0 0 0 -1 0 14418.dat
+1 19 -70 -30 -40 -1 0 0 0 0 1 0 1 0 3070b.dat
+1 19 -70 -30 40 1 0 0 0 0 1 0 -1 0 3070b.dat
+0 STEP
+0 Instruction step 234 / book 2 page 6
+1 19 -90 -10 -40 1 0 0 0 0 -1 0 1 0 27263.dat
+1 19 -90 -10 40 0 0 1 -1 0 0 0 -1 0 27263.dat
+0 STEP
+0 Instruction step 235 / book 2 page 6
+1 19 0 -30 -36 -1 0 0 0 0 1 0 1 0 72132.dat
+1 19 0 -30 36 1 0 0 0 0 1 0 -1 0 72132.dat
+1 19 -50 -20 -36 0 0 -1 -1 0 0 0 1 0 99563.dat
+1 19 -50 -20 36 0 0 1 -1 0 0 0 -1 0 99563.dat
+0 STEP
+0 Instruction step 242 / book 2 page 8. Skin mounted on core's Y=-40 top stud plane.
+1 16 0 -48 0 1 0 0 0 1 0 0 0 1 book2-leg-upper-skin.ldr
+0 STEP
+0 Instruction step 243 / book 2 page 9
+1 19 -20 -48 -30 1 0 0 0 1 0 0 0 1 3023b.dat
+1 19 -30 -56 -30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 0 -64 -30 0 0 -1 0 1 0 1 0 0 11153.dat
+1 19 -20 -48 30 1 0 0 0 1 0 0 0 1 3023b.dat
+1 19 -30 -56 30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 0 -64 30 0 0 -1 0 1 0 1 0 0 11153.dat
+0 STEP
+0 Instruction step 244 / book 2 page 9
+1 0 116 -20 -10 0 -1 0 1 0 0 0 0 1 4304.dat
+0 STEP
+0 Instruction step 245 / book 2 page 10
+1 0 140 -20 -36 -1 0 0 0 0 1 0 1 0 79846.dat
+1 28 120 -20 -44 0 0 -1 -1 0 0 0 1 0 26601.dat
+1 28 154.142136 -5.857864 -44 -0.707107 0 -0.707107 -0.707107 0 0.707107 0 1 0 26601.dat
+0 STEP
+0 Instruction step 246 / book 2 page 10
+1 28 80 -20 -36 0 0 1 1 0 0 0 1 0 26601.dat
+0 STEP
+0 Instruction step 247 / book 2 page 10
+1 19 100 -20 -36 0 0 1 1 0 0 0 1 0 15068.dat
+0 STEP
+0 Instruction step 279 / book 2 page 20. Green side stud grid joins the second wing of79846.
+1 16 154.142136 22.426407 0 0 -0.70710678 0.70710678 0 0.70710678 0.70710678 -1 0 0 book2-lower-leg-core-left-stride.ldr
+0 STEP
+0 Instruction step 283 / book 2 page 21
+1 0 140 -20 36 0.70710678 0 -0.70710678 0.70710678 0 0.70710678 0 -1 0 79846.dat
+1 28 120 -20 44 1 0 0 0 0 1 0 -1 0 26601.dat
+1 28 154.14214 -5.857864 44 0.707107 0 0.707107 -0.707107 0 0.707107 0 -1 0 26601.dat
+0 STEP
+0 Instruction step 284 / book 2 page 22
+1 28 80 -20 36 -1 0 0 0 0 -1 0 -1 0 26601.dat
+0 STEP
+0 Instruction step 285 / book 2 page 22
+1 19 100 -20 36 0 0 1 -1 0 0 0 -1 0 15068.dat
+0 STEP
+0 Instruction step 286 / book 2 page 23
+1 19 124 -20 -10 0 -1 0 1 0 0 0 0 1 3023b.dat
+1 19 116 -20 -10 0 -1 0 0 0 1 -1 0 0 93273.dat
+0 STEP
+0 Instruction step 287 / book 2 page 23
+1 28 80 8 0 0 0 1 0 1 0 -1 0 0 3020.dat
+1 19 80 0 -30 1 0 0 0 1 0 0 0 1 99563.dat
+1 19 80 0 30 1 0 0 0 1 0 0 0 1 99563.dat
+1 28 90 16 0 0 0 -1 0 1 0 1 0 0 32803.dat
+1 19 70 16 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 Instruction step 319 / book 2 page 46. Foot/shin72132steppedface; grey base rim excluded.
+1 19 -20 -20 28 -1 0 0 0 0 -1 0 -1 0 15068.dat
+0 STEP
+0 Instruction step 322 / book 2 page 49. Raised72132row; 26047pearlgoldhandle, not48336.
+1 28 20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat
+1 297 -10 -30 -44 0 0 1 1 0 0 0 1 0 26047.dat
+0 STEP
+0 Instruction step 323 / book 2 page 50. Roundtile bridges35480and26047;87747claw clips onto barholder11090.
+1 19 0 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat
+1 19 -30 -30 -42 0 -1 0 0 0 1 -1 0 0 11090.dat
+1 19 -60 -30 -42 0 1 0 1 0 0 0 0 -1 87747.dat
+0 STEP
+0 Instruction step 425 / book2 pages97–98. First-legthree toes, exactball/socket centers;20degree splay isdisplaypose.
+1 16 -117.726969127 -69.0453665466 -36.2103858255 -0.174239717311 -0.322926915522 0.930246595341 0.0121687023499 0.943919113194 0.329952466927 0.984628073739 -0.068810718494 0.160538597931 book2-shared-toe-step425.ldr
+1 16 -120.431423718 -92.2032284614 -17.997698557 -0.333098277356 -0.115348101048 0.935809998454 -0.114691174924 0.990075947215 0.0812130109046 0.935890737222 0.0802772341967 0.343022001703 book2-shared-toe-step425.ldr
+1 16 -111.747176445 -64.3405950818 0.440599003213 -0.477398844298 -0.327379829829 0.815421848177 -0.236538497504 0.941625445863 0.239564310578 0.846250484586 0.0785109337941 0.526968832677 book2-shared-toe-step425.ldr
+0 NOFILE
+0 FILE book2-lower-leg-core-left-stride.ldr
+0 Lower leg mounted to upper leg at step 279; body mounting pending.
+0 STEP
+0 Instruction step 248 / book 2 page 11
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 2 10 -40 0 0 0 -1 0 1 0 1 0 0 67329.dat
+0 STEP
+0 Instruction step 249 / book 2 page 11
+1 0 -10 -40 0 0 0 1 0 1 0 -1 0 0 67329.dat
+1 322 0 -48 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 Instruction step 250 / book 2 page 11
+1 72 0 -72 0 1 0 0 0 1 0 0 0 1 3941.dat
+1 322 0 -80 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 Instruction step 251 / book 2 page 11
+1 2 10 -120 0 0 0 -1 0 1 0 1 0 0 67329.dat
+1 0 -10 -120 0 0 0 1 0 1 0 -1 0 0 67329.dat
+1 322 0 -128 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 Instruction step 252 / book 2 page 11
+1 72 0 -152 0 1 0 0 0 1 0 0 0 1 3941.dat
+1 322 0 -160 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 Instruction step 253 / book 2 page 12
+1 2 10 -200 0 0 0 -1 0 1 0 1 0 0 67329.dat
+1 0 -10 -200 0 0 0 1 0 1 0 -1 0 0 67329.dat
+0 STEP
+0 Instruction step 254 / book 2 page 12
+1 0 0 -216 -10 1 0 0 0 1 0 0 0 1 4304.dat
+1 322 0 -216 10 1 0 0 0 1 0 0 0 1 35480.dat
+0 STEP
+0 Instruction step 255 / book 2 page 12
+1 0 0 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
+1 322 0 8 10 1 0 0 0 1 0 0 0 1 35480.dat
+0 STEP
+0 Instruction step 262 / book 2 page 15
+1 16 0 -100 -28 0 0 -1 -1 0 0 0 1 0 book2-lower-leg-skin.ldr
+0 STEP
+0 Instruction step 263 / book 2 page 15
+1 0 0 -240 -10 1 0 0 0 1 0 0 0 1 11211.dat
+1 0 0 -240 10 -1 0 0 0 1 0 0 0 -1 11211.dat
+0 STEP
+0 Instruction step 264 / book 2 page 15
+1 0 10 -280 0 0 0 -1 0 1 0 1 0 0 67329.dat
+0 STEP
+0 Instruction step 277 / book 2 page 19
+1 16 0 -100 28 0 0 1 -1 0 0 0 -1 0 book2-lower-leg-opposite-skin.ldr
+0 STEP
+0 Instruction step 280 / book 2 page 20
+1 19 28 -120 0 0 -1 0 1 0 0 0 0 1 3034.dat
+0 STEP
+0 Instruction step 281 / book 2 page 20
+1 28 36 -80 0 0 -1 0 1 0 0 0 0 1 3020.dat
+0 STEP
+0 Instruction step 282 / book 2 page 21
+1 19 36 -60 0 0 -1 0 0 0 -1 1 0 0 15068.dat
+1 19 36 -100 0 0 -1 0 0 0 -1 1 0 0 15068.dat
+0 STEP
+0 Instruction step 283 / book 2 page 21
+1 19 -28 -120 0 0 1 0 1 0 0 0 0 -1 3034.dat
+0 STEP
+0 Instruction step 284 / book 2 page 22
+1 28 -36 -80 0 0 1 0 1 0 0 0 0 -1 3020.dat
+0 STEP
+0 Instruction step 285 / book 2 page 22
+1 19 -36 -60 0 0 1 0 0 0 -1 -1 0 0 15068.dat
+1 19 -36 -100 0 0 1 0 0 0 -1 -1 0 0 15068.dat
+0 STEP
+0 Instruction step 306 / book 2 page 33. Green bottom 2x2 holes mate to black 67329 side grid at X=20, Y=-270/-250, Z=+/-10.
+1 16 28 -460 -60 0 -1 0 0 0 1 -1 0 0 book2-leg-angle-core.ldr
+0 STEP
+0 Instruction step 307 / book 2 page 34
+1 0 0 -260 -28 0 0 1 1 0 0 0 1 0 2639.dat
+0 STEP
+0 Instruction step 308 / book 2 page 35. Corner plate support grid checked; wedge handedness remains under review.
+1 28 20 -260 -36 1 0 0 0 0 -1 0 1 0 3020.dat
+1 19 0 -260 -44 0 0 1 1 0 0 0 1 0 24299.dat
+1 19 -10 -260 -52 0 0 1 1 0 0 0 1 0 22385.dat
+1 19 40 -260 -36 0 0 -1 -1 0 0 0 1 0 15068.dat
+0 STEP
+0 Instruction step 309 / book 2 page 36
+1 19 0 -220 -36 1 0 0 0 0 -1 0 1 0 24307.dat
+1 19 0 -220 -44 1 0 0 0 0 -1 0 1 0 24307.dat
+0 STEP
+0 Instruction step 310 / book 2 page 37. Wing and slope close the knee corner, awaiting matching-view comparison.
+1 28 0 -230 -52 1 0 0 0 0 -1 0 1 0 43722.dat
+1 19 0 -230 -76 1 0 0 0 0 -1 0 1 0 3298.dat
+0 STEP
+0 Instruction step 311 / book 2 page 38. Opposite knee face, paired handed wedges.
+1 0 0 -260 28 1 0 0 0 0 1 0 -1 0 2639.dat
+0 STEP
+0 Instruction step 312 / book 2 page 39. Opposite knee face, paired handed wedges.
+1 28 20 -260 36 -1 0 0 0 0 -1 0 -1 0 3020.dat
+1 19 0 -260 44 0 0 1 -1 0 0 0 -1 0 24307.dat
+1 19 -10 -260 52 0 0 1 -1 0 0 0 -1 0 22385.dat
+1 19 40 -260 36 0 0 -1 1 0 0 0 -1 0 15068.dat
+0 STEP
+0 Instruction step 313 / book 2 page 40. Opposite knee face, paired handed wedges.
+1 19 0 -220 36 -1 0 0 0 0 -1 0 -1 0 24299.dat
+1 19 0 -220 44 -1 0 0 0 0 -1 0 -1 0 24299.dat
+0 STEP
+0 Instruction step 314 / book 2 page 41. Opposite knee face, paired handed wedges.
+1 28 0 -230 52 -1 0 0 0 0 -1 0 -1 0 43723.dat
+1 19 0 -230 76 -1 0 0 0 0 -1 0 -1 0 3298.dat
 0 NOFILE
 0 FILE first-rib-step426.ldr
 0 Instruction step 426; local connection frames derived from DAT connector axes.
@@ -3327,17 +3560,17 @@
 1 28 0 -24 0 0 0 1 0 1 0 -1 0 0 61678.dat
 0 NOFILE
 0 FILE body-common-forelimb-assembly.ldr
-0 Step469: articulated forward/down forelimb pose; link lengths preserved; physical clearance unverified.
-1 16 -781.3594803 180.17621092 49.70450038 -0.93880284699 -0.33537668278 -0.078560137047 0.34169629215 -0.8779328702 -0.33537668279 0.043506992753 -0.34169629215 0.93880284699 shoulder-oval-step457.ldr
-1 16 -776.09287354 178.25932282 -51.44478009 0.93880284699 -0.30741092691 -0.15539541984 -0.34169629215 -0.88811157292 -0.30741092691 -0.043506992753 0.34169629215 -0.93880284699 shoulder-oval-step462.ldr
-1 16 -723.37029257 59.981277742 235.12879484 -0.70286449348 0.39934748367 0.58864513172 -0.71031686979 -0.35002414638 -0.61068243911 -0.037834485637 -0.84735157062 0.52968279891 upper-arm-step466.ldr
-1 16 -803.20760847 142.39097131 141.36158109 0.88356794343 0.45325255534 0.11777015932 -0.32159243136 0.77007107862 -0.55097081771 -0.34042032466 0.44894616042 0.82617271052 arm-ball-rod-step463.ldr
-1 16 -789.32980282 152.87865936 116.65413936 0.73354731699 0.34202014333 -0.58730788799 -0.26698938881 0.93969262079 0.21376258958 0.625 0 0.7806247498 arm-ball-rod-step463.ldr
-1 16 -841.59329136 159.13088025 180.66536885 0.58730788799 0.34202014333 0.73354731699 -0.21376258958 0.93969262079 -0.26698938881 -0.7806247498 0 0.625 hand-step464.ldr
-1 16 -723.37029257 59.981277742 -235.12879484 0.70286449348 0.39934748367 0.58864513172 0.71031686979 -0.35002414638 -0.61068243911 -0.037834485637 0.84735157062 -0.52968279891 upper-arm-step467.ldr
-1 16 -803.20760847 142.39097131 -141.36158109 -0.88356794343 0.45325255534 0.11777015932 0.32159243136 0.77007107862 -0.55097081771 -0.34042032466 -0.44894616042 -0.82617271052 arm-ball-rod-step463.ldr
-1 16 -787.56937113 152.23791462 -120.13469878 -0.73354731699 0.34202014333 -0.58730788799 0.26698938881 0.93969262079 0.21376258958 0.625 0 -0.7806247498 arm-ball-rod-step463.ldr
-1 16 -839.83285966 158.49013552 -184.14592827 -0.58730788799 0.34202014333 0.73354731699 0.21376258958 0.93969262079 -0.26698938881 -0.7806247498 0 -0.625 hand-step465.ldr
+0 User pose: body-side disc edge DOWN, faces vertical; both upper arms45degrees forward/down. Link centres constrained. Physical ROM/clearance unverified.
+1 16 -839.233619067 148.436055705 49.3321954839 0 1 0 -0.999133073092 0 0.0416305447122 0.0416305447122 0 0.999133073092 shoulder-oval-step457.ldr
+1 16 -839.233619067 154.264331965 -50.9974172724 0 1 0 0.999133073092 0 -0.0416305447122 -0.0416305447122 0 -0.999133073092 shoulder-oval-step462.ldr
+1 16 -722.533762857 60.9164661179 235.460394714 -0.748457018726 0.365032506723 0.55368164152 -0.662162602482 -0.365032506723 -0.654440185892 -0.0367801440259 -0.856447627162 0.514922016362 upper-arm-step466.ldr
+1 16 -815.116809533 131.367532373 144.990141148 0.777688114175 0 0.628650297917 0 1 0 -0.628650297917 0 0.777688114175 arm-ball-rod-step463.ldr
+1 16 -849.733619067 180.500244403 118.89517168 0.672391544868 0.231311142759 -0.703125 0 0.949917759598 0.3125 0.74019565683 -0.210122357771 0.638716669874 arm-ball-rod-step463.ldr
+1 16 -910.16560278 194.726231287 173.791406903 0.703125 0.231311142759 0.672391544868 -0.3125 0.949917759598 0 -0.638716669874 -0.210122357771 0.74019565683 hand-step464.ldr
+1 16 -722.533762857 60.9164661179 -235.460394714 0.748457018726 0.365032506723 0.55368164152 0.662162602482 -0.365032506723 -0.654440185892 -0.0367801440259 0.856447627162 -0.514922016362 upper-arm-step467.ldr
+1 16 -815.116809533 131.367532373 -144.990141148 -0.777688114175 0 0.628650297917 0 1 0 -0.628650297917 0 -0.777688114175 arm-ball-rod-step463.ldr
+1 16 -849.733619067 182.165466191 -122.225615257 -0.672391544868 0.231311142759 -0.703125 0 0.949917759598 0.3125 0.74019565683 0.210122357771 -0.638716669874 arm-ball-rod-step463.ldr
+1 16 -910.16560278 196.391453076 -177.12185048 -0.703125 0.231311142759 0.672391544868 0.3125 0.949917759598 0 -0.638716669874 0.210122357771 -0.74019565683 hand-step465.ldr
 0 NOFILE
 0 FILE shoulder-oval-step457.ldr
 1 19 0 0 0 0 0 1 0 1 0 -1 0 0 3766.dat
