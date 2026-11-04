@@ -1504,19 +1504,19 @@
     {
       "book": 1,
       "page": 117,
-      "status": "blocked_exact_part_geometry",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         113,
         117
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "113단계 2752 형상 미확보. 구형 3747b로 대체하지 않음."
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 118,
-      "status": "reference_viewed_not_assembled",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         4,
         114,
@@ -1524,124 +1524,146 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "114단계 도해만 확인; 113단계 미해결로 순차 조립 미진행."
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 119,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         115,
         119
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 120,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         116,
         120
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 121,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         117,
         121
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 122,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         118,
         122
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 123,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         119,
         123
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 124,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         120,
         124
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 125,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         121,
         125
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 126,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         122,
         6,
         126
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 127,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         123,
         127
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 128,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         124,
         128
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 129,
-      "status": "not_reviewed",
+      "status": "parts_identified_placement_implemented",
       "number_candidates": [
         4,
         125,
         129
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "부품 종류·색상·수량 확인 후 조립 그림 기준 배치. 2752 외형 구현 포함. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 130,
-      "status": "not_reviewed",
+      "status": "subassembly_reference_reviewed",
       "number_candidates": [
         1,
         2,
@@ -1655,18 +1677,22 @@
         9,
         130
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "126단계 소조립체 부품·소단계 검토. 아직 조립 완료 아님."
     },
     {
       "book": 1,
       "page": 131,
-      "status": "not_reviewed",
+      "status": "subassembly_reference_reviewed",
       "number_candidates": [
         10,
         11,
         131
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "126단계 소조립체 부품·소단계 검토. 아직 조립 완료 아님."
     },
     {
       "book": 1,
@@ -8128,16 +8154,17 @@
         "entry_in_text_order": 87,
         "design_id": "2752",
         "color": null,
-        "geometry_file": null,
+        "geometry_file": "models/tyrannosaurus-v0-reconstruction.ldr#2752-diagram-shape.dat",
         "gobricks_status": "not_mapped",
-        "verification": "PDF text pair extracted; individual image/design/color verification pending",
+        "verification": "117쪽의 부품 종류·공칭 외형·조립 방향 대조. 내부 몰드 형상과 실물 결합 검증을 뜻하지 않음.",
         "reference_part_num": "2752",
         "reference_color_id": "19",
         "reference_name": "Brick Sloped Inverted 33° 3 x 2, Connections between Studs, Round Bottom Pin",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": null,
-        "geometry_mapping_status": "requires_alias_search_or_new_geometry",
-        "implementation_scope": "included"
+        "geometry_mapping_status": "diagram_identified_original_part",
+        "implementation_scope": "included",
+        "geometry_asset_status": "diagram_exterior_implemented"
       },
       {
         "element_id": "4543858",
@@ -15309,29 +15336,19 @@
   "scope_decision": "미니피겨·명판·장식 생략 가능. 받침판은 빨간 대체 허용. 공룡 본체 뼈대·관절·연결 부품 생략·임의 대체 금지; 미해결 시 확인/질문.",
   "sequential_reconstruction": {
     "book": 1,
-    "page": 117,
-    "step": 113,
-    "status": "blocked_exact_part_geometry",
-    "reason": "2752(element 6533361) 형상 없음. 원본 ZIP에는 3747a/b 구형만 존재. 최신 LDraw 경로 조회는 HTTP 403으로 확인 불가; 시험한 GitHub 경로는 404.",
-    "body_draft_piece_count": 35,
-    "verification": "99–112단계 배치 초안; 102–105 층·격자 계산 및 112단계 핀/구멍 축·판 착지 높이 대조. Chromium 기본/옆 시점 렌더와 로딩 오류 없음 확인. 정밀 메시 간섭·실물 검증 미수행.",
-    "last_placed_step": 112,
-    "published_body_piece_count": 12
+    "page": 130,
+    "step": 126,
+    "status": "subassembly_identification_complete_placement_pending",
+    "last_placed_step": 125,
+    "body_draft_piece_count": 152,
+    "reason": "126단계 부품 종류·색상·수량 확인. 소단계 1–11 배치가 다음 작업.",
+    "verification": "본체152개와 전체235개 참조 그래프 검사 통과. 113–121단계 본체 렌더 확인, 125단계까지 포함한 버전0 뷰어 로딩·모델 전환 포함6개 검사 통과. 도해 배치와 실제 실물 검증은 구분.",
+    "corrections": [
+      "101단계 3020은 진회색72. 밝은 회색71 3020은 전체 목록1개이며 100단계에 사용.",
+      "118단계 3021 두 개는 나란한 배치로 수정."
+    ]
   },
-  "active_question": {
-    "book": 1,
-    "page": 117,
-    "step": 113,
-    "part": "2752",
-    "element_id": "6533361",
-    "question": "2752 부품의 밑면·옆면 사진 또는 정확한 3D 형상이 필요합니다. 구형 3747b와 다른 밑면 연결부를 설명서만으로 확정하지 못했습니다.",
-    "attempts": [
-      "보관 중 원본 전체 ZIP의 2752/3747 파일 검색",
-      "설명서 117쪽 확대 도해 및 전체 부품표 대조",
-      "최신 공식·미공식 LDraw HTTP 403, 시험한 GitHub 경로 HTTP 404"
-    ],
-    "substitution_allowed": false
-  },
+  "active_question": null,
   "mount13_study": {
     "status": "candidate_rejected_pending_further_diagram_review",
     "changes": "12단계 부품표·확대 그림은 검정 99207 위꺾임 브래킷이다. 44728로 바꾼 수정은 잘못이었다.",
@@ -15366,5 +15383,289 @@
       "reason": "받침판 접합 분석 미완료; 넓은 이중 판으로 대체",
       "physical_stability": "not_tested"
     }
-  ]
+  ],
+  "assembly_steps": [
+    {
+      "step": 99,
+      "parts": {
+        "3832.dat@28": 1,
+        "14704.dat@71": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 100,
+      "parts": {
+        "3021.dat@72": 1,
+        "3020.dat@71": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 101,
+      "parts": {
+        "39789.dat@272": 1,
+        "3020.dat@72": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 102,
+      "parts": {
+        "3021.dat@72": 1,
+        "14704.dat@71": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 103,
+      "parts": {
+        "3832.dat@28": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 104,
+      "parts": {
+        "2445.dat@0": 1,
+        "2456.dat@14": 1,
+        "3003.dat@0": 2,
+        "17114.dat@72": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 105,
+      "parts": {
+        "4282.dat@0": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 106,
+      "parts": {
+        "87552.dat@71": 2,
+        "87580.dat@71": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "excluded_decoration": "운전대 또는 개구리·좌석. 구조용 패널과 판은 유지."
+    },
+    {
+      "step": 107,
+      "parts": {},
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "excluded_decoration": "운전대 또는 개구리·좌석. 구조용 패널과 판은 유지."
+    },
+    {
+      "step": 108,
+      "parts": {
+        "3021.dat@0": 2,
+        "2445.dat@0": 1,
+        "3176.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 109,
+      "parts": {
+        "2445.dat@0": 1,
+        "3460.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 110,
+      "parts": {
+        "2456.dat@14": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 111,
+      "parts": {
+        "2445.dat@0": 1,
+        "2456.dat@14": 1,
+        "4032a.dat@4": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 112,
+      "parts": {
+        "30000.dat@15": 1,
+        "73109.dat@71": 2,
+        "3023b.dat@322": 2,
+        "3021.dat@0": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 113,
+      "parts": {
+        "2445.dat@0": 1,
+        "2752-diagram-shape.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "part_representation": "2752 원래 부품을 설명서상 종류·공칭 외형·방향에 따라 구현. 몰드 내부를 정밀 복제했다는 주장은 하지 않음."
+    },
+    {
+      "step": 114,
+      "parts": {
+        "73230.dat@84": 18,
+        "3705.dat@0": 9
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 115,
+      "parts": {
+        "30136.dat@15": 9
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 116,
+      "parts": {
+        "4282.dat@0": 2,
+        "3023b.dat@322": 1,
+        "3460.dat@28": 2,
+        "3176.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 117,
+      "parts": {
+        "5090.dat@0": 4,
+        "99207.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 118,
+      "parts": {
+        "3020.dat@72": 1,
+        "3020.dat@14": 1,
+        "3021.dat@0": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 119,
+      "parts": {
+        "5090.dat@0": 8,
+        "99207.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 120,
+      "parts": {
+        "3020.dat@72": 3,
+        "3022.dat@19": 1,
+        "4032a.dat@4": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 121,
+      "parts": {
+        "3023b.dat@19": 1,
+        "3832.dat@28": 2,
+        "2445.dat@19": 1,
+        "2445.dat@0": 1,
+        "3022.dat@19": 1,
+        "14704.dat@71": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 122,
+      "parts": {
+        "3023b.dat@322": 1,
+        "93274.dat@0": 2,
+        "79389.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 123,
+      "parts": {
+        "93274.dat@0": 4,
+        "79389.dat@19": 2,
+        "3023b.dat@322": 1,
+        "3022.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 124,
+      "parts": {
+        "93274.dat@0": 2,
+        "79389.dat@19": 2,
+        "3023b.dat@322": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 125,
+      "parts": {
+        "79389.dat@19": 18,
+        "73230.dat@84": 2,
+        "3705.dat@0": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    }
+  ],
+  "pending_subassembly": {
+    "step": 126,
+    "book": 1,
+    "pages": [
+      130,
+      131
+    ],
+    "phase_1": "identified",
+    "phase_2": "pending",
+    "parts": {
+      "3023b.dat": 3,
+      "85984.dat": 1,
+      "99781.dat": 2,
+      "3021.dat": 2,
+      "3022.dat": 1,
+      "99780.dat": 1,
+      "99207.dat": 4,
+      "93274.dat": 2,
+      "2752-diagram-shape.dat": 1,
+      "79389.dat": 2,
+      "79180.dat": 2,
+      "6141.dat": 2
+    }
+  }
 }
