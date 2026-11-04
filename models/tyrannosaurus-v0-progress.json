@@ -16407,9 +16407,9 @@
     "layout": "body-common-forelimb-assembly.ldr",
     "basis": "463common63868/48336clip/bar,468/469foldandforwardhands; replacementsforindependentrigidarmposes",
     "central_pose_reference": [
-      -830,
-      90,
-      0
+      -806.9762535710273,
+      160.0220374846982,
+      0.0
     ],
     "joint_pose_verification": "kinematiccentreschecked; finalROMandphysicalclearanceuntested"
   },
@@ -16427,24 +16427,25 @@
   },
   "forelimb_user_correction": {
     "common_centre": true,
-    "central_hinge_degrees": 90,
+    "central_hinge_degrees": 40,
     "original_centre_axis": [
       -10.0,
       10.0,
       -50.0
     ],
-    "hands": "bothfingerpairspointtowardhead",
+    "hands": "Whole upper-arm/elbow/centre pose adjusted forward/down; claws retain forward direction.",
     "max_link_length_residual": 2.842170943040401e-14,
-    "verification": "geometrycandidate; compositevisual/clearancereviewpending",
+    "verification": "Link-centre constraints computed; composite visual and physical clearance review pending.",
     "common_centre_reference": [
-      -830,
-      90,
-      0
+      -806.9762535710273,
+      160.0220374846982,
+      0.0
     ],
     "oval3766": "NativefootprintX[-60,60]/Z[-40,40]; correctrotationRy90, centredat0. Previous I/translation-20incorrect.",
     "talons": "Rotated180aboutinsertedbaraxis, curvefacesdownwhilefingerspointforward.",
     "rod_joint_max_residual": 5.439379132036632e-08,
-    "hands_forward_shift": 40
+    "hands_forward_shift": 40,
+    "whole_arm_pitch_degrees": -20
   },
   "left_knee_correction": {
     "409": "T.Z135.764501988→121.6223663643",
