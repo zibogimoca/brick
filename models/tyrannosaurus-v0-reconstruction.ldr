@@ -77,8 +77,11 @@
 1 26 680 -8 10 1 0 0 0 1 0 0 0 1 41740.dat
 0 STEP
 0 Instruction step 12 / book 1 page 20; bracket orientation requires comparison
-1 72 710 -16 -20 0 0 -1 0 1 0 1 0 0 44728.dat
-1 72 710 -16 20 0 0 -1 0 1 0 1 0 0 44728.dat
+1 0 660 -16 10 -1 0 0 0 1 0 0 0 -1 99207.dat
+1 0 700 -16 10 -1 0 0 0 1 0 0 0 -1 99207.dat
+0 STEP
+0 Instruction step 13 / user-approved red substitute support
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 substitute-support-red.ldr
 0 STEP
 0 NOFILE
 0 FILE cross-base-step13.ldr
@@ -100,4 +103,59 @@
 1 330 -50 -24 -40 0 0 -1 0 1 0 1 0 0 3622.dat
 1 71 50 -24 -40 0 0 -1 0 1 0 1 0 0 3622.dat
 0 STEP
+0 NOFILE
+0 FILE substitute-support-red.ldr
+0 USER APPROVED SUBSTITUTE: unresolved original cross-base mounting.
+0 Wide two-layer red plate raft. Physical stability not tested.
+1 4 0 8 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 0 8 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 200 8 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 200 8 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 400 8 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 400 8 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 600 8 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 600 8 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 800 8 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 800 8 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 0 16 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 0 16 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 200 16 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 200 16 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 400 16 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 400 16 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 600 16 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 600 16 60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 800 16 -60 1 0 0 0 1 0 0 0 1 3033.dat
+1 4 800 16 60 1 0 0 0 1 0 0 0 1 3033.dat
+0 NOFILE
+0 FILE body-spine-start.ldr
+0 BODY: book 1 pages 109-110, steps 99-103. Local assembly, not yet globally mounted.
+0 Instruction step 99
+1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 71 90 -8 0 0 0 -1 0 1 0 1 0 0 14704.dat
+0 STEP
+0 Instruction step 100
+1 72 50 -8 0 1 0 0 0 1 0 0 0 1 3021.dat
+1 71 60 -16 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 STEP
+0 Instruction step 101
+1 272 -60 -24 0 1 0 0 0 1 0 0 0 1 39789.dat
+1 71 60 -24 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 STEP
+0 Instruction step 102
+0 UNRESOLVED step102: original dark-gray 3021 placement must be confirmed. No substitute accepted.
+0 STEP
+0 Instruction step 103
+1 28 0 16 0 1 0 0 0 1 0 0 0 1 3832.dat
+0 STEP
+0 Instruction step 104 / book 1 page 111
+1 0 -220 0 0 1 0 0 0 1 0 0 0 1 2445.dat
+1 14 -160 -24 0 1 0 0 0 1 0 0 0 1 2456.dat
+1 0 -320 -24 0 1 0 0 0 1 0 0 0 1 3003.dat
+1 0 -240 -24 0 1 0 0 0 1 0 0 0 1 3003.dat
+1 72 -280 -24 0 0 0 1 0 1 0 -1 0 0 17114.dat
+0 UNRESOLVED: original coupling to preceding body segment must be confirmed.
+0 STEP
+0 Instruction steps105-106 unresolved; unapproved red body placeholders removed.
+0 No body bone, joint or connector may be omitted as completed.
 0 NOFILE
