@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 284종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 285종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -107,6 +107,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "2450",
     "2456",
     "2462",
+    "24866",
     "25269",
     "26047",
     "2639",
@@ -8204,6 +8205,20 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "license": "CC BY 4.0",
       "modification": "Outer curve and connector positions retained from40378; base pin inner bore changed to nominal8LDU square. Internal dimensions inferred, not manufacturer measurements. Flattened geometry.",
       "verification": "derived_reference_mesh; catalog identifies same nominal7.84/6.47mm dimensions and square-vs-round base pin bore; physical fit untested"
+    },
+    "parts/subparts/24866s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/24866s01.dat",
+      "sha256": "d6bcd3355e0533f1b976dd029377d7f3b5876f6c0985a1216a7957cf21fa44ea",
+      "bytes": 15965,
+      "modification": "Normalized dependency paths; original geometry/author/license headers retained."
+    },
+    "parts/24866.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/24866.dat",
+      "sha256": "6bbb06c4363ab2e0adf461323d06fb04640e487ed2d0d106065b6441a1f99434",
+      "bytes": 6876,
+      "modification": "Normalized dependency paths; original geometry/author/license headers retained."
     }
   }
 }

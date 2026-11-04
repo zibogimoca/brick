@@ -8,8 +8,6 @@
 1 16 220 0 140 1 0 0 0 1 0 0 0 1 rear-rib-tip-step456.ldr
 1 16 320 0 140 1 0 0 0 1 0 0 0 1 rear-rib-tip-step456.ldr
 1 16 650 0 100 1 0 0 0 1 0 0 0 1 paired-arms-step465.ldr
-1 16 200 0 400 1 0 0 0 1 0 0 0 1 pelvic-cover-step480.ldr
-1 16 700 0 400 1 0 0 0 1 0 0 0 1 pelvic-cover-step492.ldr
 0 NOFILE
 0 FILE shoulder-strap-step453.ldr
 1 84 0 0 0 1 0 0 0 1 0 0 0 1 3738.dat
@@ -140,7 +138,6 @@
 1 71 -10 0 -90 0 0 1 0 1 0 -1 0 0 14418.dat
 1 19 -10 0 -100 -1 0 0 0 1 0 0 0 -1 13547.dat
 0 NOFILE
-
 0 FILE pelvic-cover-step480.ldr
 0 PDF2 pelvic cover; independent assembly. Render/grid review pending.
 0 STEP

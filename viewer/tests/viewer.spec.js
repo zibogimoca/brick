@@ -92,14 +92,14 @@ test('refreshes an old catalog before requesting a versioned model', async ({ pa
   expect(current.some(e => e.designVersion === 0)).toBe(true);
 });
 
-test('loads current v0 workbench with no invented articulation and can return to v1', async ({ page }) => {
+test('loads integrated v0 with no invented articulation and can return to v1', async ({ page }) => {
   test.setTimeout(60000);
   await load(page);
   await page.selectOption('#models', { label: '티라노사우루스 · 버전 0' });
-  await expect(page.locator('#status')).toContainText('버전 0 · 작업 중', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('버전 0 · 본체 연결본', { timeout: 30000 });
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
-  await expect(page.locator('#summary')).toContainText('원래 조립 위치 아님');
-  await expect(page.locator('#summary')).toContainText('본체 초안 2466개');
+  await expect(page.locator('#summary')).toContainText('본체 연결 배치');
+  await expect(page.locator('#summary')).toContainText('본체 초안 2488개');
   await expect(page.locator('#pose-panel')).toBeHidden();
   await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });

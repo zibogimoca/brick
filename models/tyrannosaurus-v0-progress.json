@@ -15418,7 +15418,7 @@
     "step": 202,
     "status": "sequential_assembly_in_progress",
     "last_placed_step": 201,
-    "body_draft_piece_count": 739,
+    "body_draft_piece_count": 2488,
     "reason": "200–201골반 링8개 배치 수정 및 중앙덮개2개 통합.202이후 골반 하부 조립 통합 검토 중.",
     "verification": "골반 링 돌기 좌표 및 본체 통합 Chromium 렌더 확인. 정밀 간섭·실물 검증 아님.",
     "corrections": [
@@ -16344,12 +16344,130 @@
     "integration": "independent subassemblies; final attachment transforms pending"
   },
   "published_checkpoint": {
-    "body_draft_piece_count": 2466,
-    "piece_count": 2549,
-    "integrated_body_piece_count": 739,
-    "assembly_verified": false,
-    "layout": "separated_workbench_not_assembly_positions",
-    "note": "Dorsal/neckhorns integrated; jawattachedtoskull; finalbodylimbconnectionsremaining."
+    "body_draft_piece_count": 2488,
+    "piece_count": 2488,
+    "layout": "integrated_instruction_model",
+    "assembly_verified": false
   },
-  "integration_note": "Root directly integrated221–225 overlay and reviewed prerequisitecoordinatecorrections;202–213and214–220remainpending."
+  "integration_note": "Root integrated213pubis47parts and481/493pelviccovers62parts; connectoraxes/bodypinrotations corrected; composite render pending.",
+  "root_leg_integration": [
+    {
+      "source": "book2",
+      "line": "1 16 -374.4602625 552.0965555 90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 1 book2-leg-core.ldr",
+      "target_ball_centre": [
+        -280,
+        -14,
+        40
+      ],
+      "residual": 0.0,
+      "pose_status": "provisional_diagram_comparison_pending"
+    },
+    {
+      "source": "book2-second-leg",
+      "line": "1 16 -194.4017885 548.6452461 -251.4213557 0.3420201433 0 -0.9396926208 0.9396926208 0 0.3420201433 0 -1 0 book2-second-leg-upper-core.ldr",
+      "target_ball_centre": [
+        -280,
+        -14,
+        -40
+      ],
+      "residual": 0.0,
+      "pose_status": "provisional_diagram_comparison_pending"
+    }
+  ],
+  "root_rib_integration": {
+    "placements": [
+      "1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr",
+      "1 16 -490 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step427.ldr",
+      "1 16 -530 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step427.ldr",
+      "1 16 -570 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step428.ldr",
+      "1 16 -610 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step429.ldr",
+      "1 16 -650 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step430.ldr",
+      "1 16 -710 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 rib-pair-step441.ldr",
+      "1 16 -770 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 single-rib-step451.ldr",
+      "1 16 -810 -52.96100594 -105.432772 0 0 1 0.9238795325 0.3826834324 0 -0.3826834324 0.9238795325 0 single-rib-step452.ldr",
+      "1 16 -450 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 first-rib-step426.ldr",
+      "1 16 -490 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 first-rib-step427.ldr",
+      "1 16 -530 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 first-rib-step427.ldr",
+      "1 16 -570 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 first-rib-step428.ldr",
+      "1 16 -610 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 first-rib-step429.ldr",
+      "1 16 -650 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 first-rib-step430.ldr",
+      "1 16 -710 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 rib-pair-step431.ldr",
+      "1 16 -770 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 single-rib-step451.ldr",
+      "1 16 -810 -52.96100594 105.432772 0 0 -1 0.9238795325 0.3826834324 0 0.3826834324 -0.9238795325 0 single-rib-step452.ldr"
+    ],
+    "method": "Connectorouterarmaxis and20LDUaxleinsertion; rear-to-front426/427/428/429/430/431pair/451/452 matchedinstructionplacementpages100–119",
+    "verification": "connectorframescomputed; compositevisualcomparisonpending"
+  },
+  "shoulder_connector_review": {
+    "constraint": "453/454graypinpair80LDU; ribblockcentre110 givesfarhole120 versus32184centre40",
+    "correction": "434/444blackcrossblock/blackaxle/tanaxlejoiner+10X; matchingouterbranch+10X",
+    "insertion_note": "3Laxle end inserts10LDU into offset59443 ratherthan20; requiredby80LDUstrapspacing; compositeclearanceunderreview",
+    "strap_mount": "Platebottom at riblocalY-10 matchesblockfront; twoaxiscentresaligned, insertiondepthreviewpending"
+  },
+  "root_head_integration": {
+    "step": 709,
+    "head_mount": "translation(-1041.9,-24,0),I",
+    "mating_centre": [
+      -1030,
+      -98,
+      0
+    ],
+    "basis": "69789actualtransversecrossholeatnativeX0/Y0/Z-10;69787capcentressamebodyX/Y;5LaxlespanZ±50",
+    "verification": "nativegeometryinspected; compositepose/gearmeshreviewpending"
+  },
+  "root_tail_integration": {
+    "steps": [
+      513,
+      514
+    ],
+    "transform": "T(200,-56,0),I",
+    "hinge_axis": "worldY atX70,Z0",
+    "plate_layer_match": "middlefrontgaplocalY-16..-8 mapsworldY-72..-64, body1693176occupiesthatgap",
+    "added_connector": "77765@71 at(70,-74,0),axis-Y",
+    "verification": "holecentres/layergapchecked; compositeinterferenceunderreview"
+  },
+  "root_arm_integration": [
+    {
+      "root": "body-mounted-arm-positive.ldr",
+      "socket_original": [
+        10,
+        4,
+        274
+      ],
+      "target_ball": [
+        -710.0,
+        46.3675323732,
+        242.33304453280002
+      ],
+      "residual": 2.929642751054232e-14,
+      "pose": "provisionaljointangles; exactcentre fit"
+    },
+    {
+      "root": "body-mounted-arm-negative.ldr",
+      "socket_original": [
+        0,
+        4,
+        -374
+      ],
+      "target_ball": [
+        -710.0,
+        46.3675323732,
+        -242.33304453280002
+      ],
+      "residual": 2.929642751054232e-14,
+      "pose": "provisionaljointangles; exactcentre fit"
+    }
+  ],
+  "root_integration_remaining": [
+    "Finaljointpose/clearance/gearengagementreview",
+    "Originalstandinprogress"
+  ],
+  "step455_correction": "54200nativebottomY0, notY16: low/middle/highY0/-8/-24 toseatarch/plate/bricktops. Correctedoldairgaps.",
+  "root_rear_chevron_integration": {
+    "step": 220,
+    "mount": "T(56,30,0);columnsX→bodyZ,Y→bodyX,Z→bodyY",
+    "remaining_support_pair": "44728unusedstudrowcarrier(X±10,-6,-14)→body(50,16,±10); upperrownotcoveredby21699781",
+    "hinge_pose_degrees": -120,
+    "verification": "supportpairandhingecentrescomputed; finalcompositeposepending"
+  }
 }

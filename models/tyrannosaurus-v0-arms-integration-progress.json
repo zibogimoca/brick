@@ -1,0 +1,81 @@
+{
+  "scope": "PDF2 body integration468/469/481/493",
+  "status": "in_progress",
+  "mounted_steps": [
+    481,
+    493
+  ],
+  "remaining_steps": [
+    468,
+    469
+  ],
+  "additional_physical_parts": 0,
+  "mounted_existing_parts": 62,
+  "assembly_verified": false,
+  "required_body_part_replacements": [
+    {
+      "old": "1 71 -290 -96 46 1 0 0 0 0 1 0 -1 0 3673.dat",
+      "new": "1 71 -290 -96 46 0 -1 0 1 0 0 0 0 1 3673.dat"
+    },
+    {
+      "old": "1 0 -290 -128 46 1 0 0 0 1 0 0 0 1 3484.dat",
+      "new": "1 0 -290 -128 46 0 0 1 0 1 0 -1 0 0 3484.dat"
+    },
+    {
+      "old": "1 71 -270 -96 46 1 0 0 0 0 1 0 -1 0 3673.dat",
+      "new": "1 71 -270 -96 46 0 -1 0 1 0 0 0 0 1 3673.dat"
+    },
+    {
+      "old": "1 0 -270 -128 46 1 0 0 0 1 0 0 0 1 3484.dat",
+      "new": "1 0 -270 -128 46 0 0 1 0 1 0 -1 0 0 3484.dat"
+    },
+    {
+      "old": "1 71 -270 -96 -46 -1 -0 -0 0 0 1 -0 1 -0 3673.dat",
+      "new": "1 71 -270 -96 -46 0 -1 0 1 0 0 0 0 1 3673.dat"
+    },
+    {
+      "old": "1 0 -270 -128 -46 -1 -0 -0 0 1 0 -0 -0 -1 3484.dat",
+      "new": "1 0 -270 -128 -46 0 0 1 0 1 0 -1 0 0 3484.dat"
+    },
+    {
+      "old": "1 71 -290 -96 -46 -1 -0 -0 0 0 1 -0 1 -0 3673.dat",
+      "new": "1 71 -290 -96 -46 0 -1 0 1 0 0 0 0 1 3673.dat"
+    },
+    {
+      "old": "1 0 -290 -128 -46 -1 -0 -0 0 1 0 -0 -0 -1 3484.dat",
+      "new": "1 0 -290 -128 -46 0 0 1 0 1 0 -1 0 0 3484.dat"
+    }
+  ],
+  "pelvic_mounts": {
+    "positiveZ": {
+      "transform": "1 16 -280 -158 48 1 0 0 0 0 1 0 -1 0 pelvic-cover-step480.ldr",
+      "bar_centre": [
+        -280,
+        -128,
+        46
+      ],
+      "bar_axis": [
+        1,
+        0,
+        0
+      ]
+    },
+    "negativeZ": {
+      "transform": "1 16 -280 -158 -48 -1 0 0 0 0 1 0 1 0 pelvic-cover-step492.ldr",
+      "bar_centre": [
+        -280,
+        -128,
+        -46
+      ],
+      "bar_axis": [
+        -1,
+        0,
+        0
+      ]
+    }
+  },
+  "notes": [
+    "11458nativehole(10,-6,0),axisZ;166/168bodytransformmakesworldYhole at(-290/-270,-86,\u00b146).3673pincentreY-96 mustaxisY.3484shaft+Yfromclipcentre-128 insertsupperhalf ofpin;3484nativeclipaxisZ mustrotateRy90toX.",
+    "Covers shown vertical about X hinge; reference pose tilt and mechanical clearance review pending."
+  ]
+}

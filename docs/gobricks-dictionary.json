@@ -635888,6 +635888,12 @@
           ]
         }
       ]
+    },
+    "24866": {
+      "geometry": "assets/parts/24866.dat",
+      "source": "official LDraw complete.zip",
+      "verification": "official reference mesh; physical fit not tested",
+      "gobricks_status": "not_verified"
     }
   }
 }
