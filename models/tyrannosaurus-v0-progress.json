@@ -21,74 +21,94 @@
     {
       "book": 1,
       "page": 1,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "표지",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 2,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "포장·분류 안내",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 3,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "앱 안내",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 4,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "제품 배경",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 5,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "제품·장식 사진",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 6,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "설계 배경",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 7,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "설계자 소개",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 8,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "화석·생물학적 참고",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 9,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "이동·가동 주의사항",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
       "page": 10,
-      "status": "not_reviewed",
+      "status": "reviewed_non_assembly",
       "number_candidates": [
         10
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "role": "브릭 분리 도구 안내",
+      "reason": "조립 배치 단계 없음. 이미지와 텍스트 확인."
     },
     {
       "book": 1,
@@ -15085,5 +15105,20 @@
       "provenance": "existing LDraw source meshes extracted; not newly authored",
       "body_only_scope_verified": false
     }
+  },
+  "scope_decision": "사용자 확인: 구조용 받침대 포함. 미니피겨·명판·하단 장식 제외.",
+  "sequential_reconstruction": {
+    "book": 1,
+    "page": 11,
+    "steps": [
+      1,
+      2
+    ],
+    "status": "part_identity_corrected_geometry_comparison_pending",
+    "corrections": [
+      "step1 3035 Black element303526",
+      "step2 Magenta41740 element6249090 replaces incorrect34103"
+    ],
+    "next": "1–2단계 스터드 중심과 겹침 확인 후 12쪽 3–6단계 진행"
   }
 }
