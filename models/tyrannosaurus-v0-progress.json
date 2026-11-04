@@ -16345,9 +16345,11 @@
   },
   "published_checkpoint": {
     "body_draft_piece_count": 2496,
-    "piece_count": 2496,
+    "piece_count": 2847,
     "layout": "integrated_instruction_model",
-    "assembly_verified": false
+    "assembly_verified": false,
+    "stand_draft_piece_count": 351,
+    "publication_status": "incomplete_review_checkpoint"
   },
   "integration_note": "Root integrated213pubis47parts and481/493pelviccovers62parts; connectoraxes/bodypinrotations corrected; composite render pending.",
   "root_leg_integration": "RightlegfullassemblyanditsZ-reflection; priorindependentsecondmountdiscarded.",
@@ -16469,7 +16471,6 @@
     ]
   },
   "stand_work_checkpoint": {
-    "published": false,
     "root_workfile": "tyrannosaurus-v0-display-stand.ldr",
     "integrated_stand_core_pieces": 307,
     "body_post_axis_candidate_x": [
@@ -16485,6 +16486,10 @@
     ],
     "remaining": "37 cap plates;38–41/48–50; post rock mounting; exact foot-floor matching; accepted user arm pose after stand readiness.",
     "limitation": "Combined core screen check does not certify seating depth, strength, or finished stand.",
-    "final_publication": "Publish completed stand together with user-corrected disc-downward vertical pose and forward45degree upper arms."
+    "final_publication": "Publish completed stand together with user-corrected disc-downward vertical pose and forward45degree upper arms.",
+    "publication_scope": "Body plus stand core and already mounted partial foot rocks. Unmounted loose modules excluded. Incomplete checkpoint; final user arm pose not applied.",
+    "complete": false,
+    "review_stand_piece_count": 351,
+    "publication_status": "incomplete_review_checkpoint"
   }
 }

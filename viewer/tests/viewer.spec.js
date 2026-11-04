@@ -96,10 +96,11 @@ test('loads integrated v0 with no invented articulation and can return to v1', a
   test.setTimeout(60000);
   await load(page);
   await page.selectOption('#models', { label: '티라노사우루스 · 버전 0' });
-  await expect(page.locator('#status')).toContainText('버전 0 · 본체 연결본', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 30000 });
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
   await expect(page.locator('#summary')).toContainText('본체 연결 배치');
   await expect(page.locator('#summary')).toContainText('본체 초안 2496개');
+  await expect(page.locator('#summary')).toContainText('받침대 기초·기둥 포함 검토본(미완성)');
   await expect(page.locator('#pose-panel')).toBeHidden();
   await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
