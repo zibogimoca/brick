@@ -218,6 +218,37 @@
 0 STEP
 0 Instruction step 307 / book 2 page 34
 1 0 0 -260 -28 0 0 1 1 0 0 0 1 0 2639.dat
+0 STEP
+0 Instruction step 308 / book 2 page 35. Corner plate support grid checked; wedge handedness remains under review.
+1 28 20 -260 -36 1 0 0 0 0 -1 0 1 0 3020.dat
+1 19 0 -260 -44 0 0 1 1 0 0 0 1 0 24299.dat
+1 19 -10 -260 -52 0 0 1 1 0 0 0 1 0 22385.dat
+1 19 40 -260 -36 0 0 -1 -1 0 0 0 1 0 15068.dat
+0 STEP
+0 Instruction step 309 / book 2 page 36
+1 19 0 -220 -36 1 0 0 0 0 -1 0 1 0 24307.dat
+1 19 0 -220 -44 1 0 0 0 0 -1 0 1 0 24307.dat
+0 STEP
+0 Instruction step 310 / book 2 page 37. Wing and slope close the knee corner, awaiting matching-view comparison.
+1 28 0 -230 -52 1 0 0 0 0 -1 0 1 0 43722.dat
+1 19 0 -230 -76 1 0 0 0 0 -1 0 1 0 3298.dat
+0 STEP
+0 Instruction step 311 / book 2 page 38. Opposite knee face, paired handed wedges.
+1 0 0 -260 28 1 0 0 0 0 1 0 -1 0 2639.dat
+0 STEP
+0 Instruction step 312 / book 2 page 39. Opposite knee face, paired handed wedges.
+1 28 20 -260 36 -1 0 0 0 0 -1 0 -1 0 3020.dat
+1 19 0 -260 44 0 0 1 -1 0 0 0 -1 0 24307.dat
+1 19 -10 -260 52 0 0 1 -1 0 0 0 -1 0 22385.dat
+1 19 40 -260 36 0 0 -1 1 0 0 0 -1 0 15068.dat
+0 STEP
+0 Instruction step 313 / book 2 page 40. Opposite knee face, paired handed wedges.
+1 19 0 -220 36 -1 0 0 0 0 -1 0 -1 0 24299.dat
+1 19 0 -220 44 -1 0 0 0 0 -1 0 -1 0 24299.dat
+0 STEP
+0 Instruction step 314 / book 2 page 41. Opposite knee face, paired handed wedges.
+1 28 0 -230 52 -1 0 0 0 0 -1 0 -1 0 43723.dat
+1 19 0 -230 76 -1 0 0 0 0 -1 0 -1 0 3298.dat
 0 NOFILE
 
 0 FILE book2-lower-leg-skin.ldr
@@ -433,4 +464,16 @@
 1 28 -60 0 170 -1 0 0 0 1 0 0 0 -1 32803.dat
 1 28 -70 0 150 0 0 1 0 1 0 -1 0 0 36840.dat
 1 28 -50 0 150 0 0 -1 0 1 0 1 0 0 36840.dat
+0 STEP
+0 Instruction step 319 / book 2 page 46. Tan ankle cover; grey base rim excluded from this body model.
+1 19 0 -20 -32 0 0 -1 -1 0 0 0 1 0 15068.dat
+0 STEP
+0 Instruction step 322 / book 2 page 49. Adjacent 1x2 plates occupy the two free center columns of side3795.
+1 28 -10 -20 40 0 0 -1 1 0 0 0 -1 0 35480.dat
+1 19 10 -20 40 0 0 -1 1 0 0 0 -1 0 48336.dat
+0 STEP
+0 Instruction step 323 / book 2 page 50. Rear claw hinge bar axisY; tube axisX. Final claw pose remains adjustable.
+1 19 0 -20 48 1 0 0 0 0 1 0 -1 0 14769.dat
+1 19 30 -20 38 0 1 0 0 0 1 1 0 0 11090.dat
+1 19 60 -20 38 0 0 1 -1 0 0 0 -1 0 40379.dat
 0 NOFILE

@@ -635854,6 +635854,40 @@
       "source": "https://library.ldraw.org/library/updates/complete.zip#ldraw/parts/3069b.dat",
       "gobricks_status": "not_verified",
       "verification": "official mesh; physical fit not tested"
+    },
+    "51274": {
+      "geometry": "assets/parts/51274.dat",
+      "source": "Derived40378mesh; https://brickset.com/parts/design-51274",
+      "gobricks_status": "not_verified",
+      "verification": "derived_reference_mesh; externalcurve/connectorlocationsretained; squarepinborewidth/depthinferred; notmanufacturerCAD; physicalfituntested",
+      "connections": [
+        {
+          "type": "technic_pin",
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "type": "bar_receiver",
+          "origin": [
+            0,
+            -36,
+            120
+          ],
+          "axis": [
+            0,
+            -0.70710678,
+            0.70710678
+          ]
+        }
+      ]
     }
   }
 }

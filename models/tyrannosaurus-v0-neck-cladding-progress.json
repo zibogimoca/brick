@@ -1,0 +1,40 @@
+{
+  "book": 1,
+  "scope": "174–185 neck cladding",
+  "status": "diagram_placed_render_checked",
+  "last_placed_step": 185,
+  "physical_piece_count": 61,
+  "coordinate_system": "body-global, near side Z-negative; far side reflected",
+  "evidence": [
+    "175 PDF side stud lattice: X columns -850 through-930, rowsY-126 through14; wall faceZ±24; firstplatefaceZ±32.",
+    "176 squareplate11212 confirmed3x3/ninestuds inBOM andassembly, replaces erroneous3031 identification.",
+    "176–179 staggered cladding layersZ32/40/48 and clip staircase fromPDF.",
+    "185 four jumper columnsX-890/-870/-850/-830 use support topY-136/-112/-104/-80. Front high columnX-910 of73562 stays exposed; PDFp189 shows its two studs.",
+    "Chromium full-body/side/close-neck render passes without load error.",
+    "1742752 stud pairX-850,Z±10 atY24 connects below11999207; inverse-slope bottomY48, opposite longitudinal orientation to113 slope.",
+    "175–179 plate support grid checked against existingwall: firstlayerZ32 attacheswallZ24; secondlayerZ40; clips/tilesZ48."
+  ],
+  "pending": [
+    "Whole-model mesh interference and physical clutch/strength not validated."
+  ],
+  "parts_by_step": {
+    "174": 1,
+    "175": 4,
+    "176": 5,
+    "177": 2,
+    "178": 9,
+    "179": 6,
+    "180": 4,
+    "181": 5,
+    "182": 2,
+    "183": 9,
+    "184": 6,
+    "185": 8
+  },
+  "assembly_verified": false,
+  "render_checks": [
+    "/tmp/brick-instructions/neck-overlay185.png",
+    "/tmp/brick-instructions/neck-overlay185-side.png",
+    "/tmp/brick-instructions/neck-overlay185-close.png"
+  ]
+}

@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 283종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 284종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -248,6 +248,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "5090",
     "50923",
     "50950",
+    "51274",
     "51739",
     "52501",
     "53451",
@@ -8194,6 +8195,15 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Santeri Piippo",
       "license": "CC BY 4.0",
       "modification": "Inlined identity-transformed 3069bs01 subpart; primitive paths normalized."
+    },
+    "parts/51274.dat": {
+      "source": "Derived from official40378.dat; https://brickset.com/parts/design-51274; https://brickset.com/parts/design-40378",
+      "sha256": "4c05e7799fbb72a4811791031bdbf4d02f058651989b5301fefa3c3288d75cec",
+      "bytes": 143709,
+      "author": "BRICK reconstruction derived from Bernd Broich and LDraw contributors; full attribution in asset header",
+      "license": "CC BY 4.0",
+      "modification": "Outer curve and connector positions retained from40378; base pin inner bore changed to nominal8LDU square. Internal dimensions inferred, not manufacturer measurements. Flattened geometry.",
+      "verification": "derived_reference_mesh; catalog identifies same nominal7.84/6.47mm dimensions and square-vs-round base pin bore; physical fit untested"
     }
   }
 }

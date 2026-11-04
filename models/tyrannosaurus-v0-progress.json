@@ -8148,16 +8148,17 @@
         "entry_in_text_order": 83,
         "design_id": "51274",
         "color": null,
-        "geometry_file": null,
+        "geometry_file": "assets/parts/51274.dat",
         "gobricks_status": "not_mapped",
-        "verification": "PDF text pair extracted; individual image/design/color verification pending",
+        "verification": "Catalog and manufacturerphoto identify51274; referencegeometryderived; physicalfitnotverified",
         "reference_part_num": "51274",
         "reference_color_id": "19",
         "reference_name": "Animal Body Part / Plant, Tail / Neck / Branch / Trunk, Middle Section with Pin, Square Pin Hole",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": null,
-        "geometry_mapping_status": "requires_alias_search_or_new_geometry",
-        "implementation_scope": "included"
+        "geometry_mapping_status": "derived_reference_mesh",
+        "implementation_scope": "included",
+        "geometry_asset_status": "outercurve_from40378; squarebasepinbore_nominal_inferred"
       },
       {
         "element_id": "6525546",
@@ -15413,13 +15414,13 @@
   "scope_decision": "미니피겨·명판·장식 생략 가능. 받침판은 빨간 대체 허용. 공룡 본체 뼈대·관절·연결 부품 생략·임의 대체 금지; 미해결 시 확인/질문.",
   "sequential_reconstruction": {
     "book": 1,
-    "page": 178,
-    "step": 174,
+    "page": 192,
+    "step": 187,
     "status": "sequential_assembly_in_progress",
-    "last_placed_step": 173,
-    "body_draft_piece_count": 509,
-    "reason": "173단계까지 입력. 126/151 연결 좌표 수정 후 간섭 재검토와 174 이후 목 덮개 연결이 남아 있다. 독립 권별 조립 병행.",
-    "verification": "173단계까지 브라우저 로딩/렌더 확인. 렌더 성공은 모든 접속의 검증 완료를 의미하지 않는다.",
+    "last_placed_step": 186,
+    "body_draft_piece_count": 590,
+    "reason": "186단계 목 상부 덮개를(-960,-152,0)에 통합. 187 이후 목 곡면·뿔 부착 검토 중.",
+    "verification": "174–185도해의 돌기 격자·층 높이 대조 및 Chromium 렌더 확인. 전체 정밀 간섭·실물 결합 검증 아님.",
     "corrections": [
       "101단계 3020은 진회색72. 밝은 회색71 3020은 전체 목록1개이며 100단계에 사용.",
       "118단계 3021 두 개는 나란한 배치로 수정."
@@ -16206,7 +16207,7 @@
         "2752.dat@19": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
@@ -16218,20 +16219,21 @@
         "30503.dat@19": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
       "step": 176,
       "parts": {
         "30503.dat@19": 2,
-        "3031.dat@19": 1,
         "26601.dat@28": 1,
-        "25269.dat@84": 1
+        "25269.dat@84": 1,
+        "11212.dat@19": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
-      "note": "BOM identification only; not included in placed piece count."
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
+      "note": "BOM identification only; not included in placed piece count.",
+      "identification_note": "1권180쪽 및 반대쪽 조립: 정사각 판은 돌기9개의3×3판11212이며 4×4판3031이 아니다."
     },
     {
       "step": 177,
@@ -16240,7 +16242,7 @@
         "30503.dat@19": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
@@ -16250,7 +16252,7 @@
         "44861.dat@84": 8
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
@@ -16260,7 +16262,7 @@
         "63864.dat@84": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
@@ -16272,20 +16274,21 @@
         "30503.dat@19": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
       "step": 181,
       "parts": {
         "30503.dat@19": 2,
-        "3031.dat@19": 1,
         "26601.dat@28": 1,
-        "25269.dat@84": 1
+        "25269.dat@84": 1,
+        "11212.dat@19": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
-      "note": "BOM identification only; not included in placed piece count."
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
+      "note": "BOM identification only; not included in placed piece count.",
+      "identification_note": "1권180쪽 및 반대쪽 조립: 정사각 판은 돌기9개의3×3판11212이며 4×4판3031이 아니다."
     },
     {
       "step": 182,
@@ -16294,7 +16297,7 @@
         "30503.dat@19": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
@@ -16304,7 +16307,7 @@
         "44861.dat@84": 8
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
@@ -16314,7 +16317,7 @@
         "63864.dat@84": 1
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     },
     {
@@ -16324,7 +16327,7 @@
         "15573.dat@19": 4
       },
       "identification": "diagram_and_inventory_matched",
-      "placement": "pending_neck_attachment_correction",
+      "placement": "placed_body_overlay_diagram_grid_and_render_checked",
       "note": "BOM identification only; not included in placed piece count."
     }
   ],

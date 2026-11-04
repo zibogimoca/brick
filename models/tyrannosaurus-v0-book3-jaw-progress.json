@@ -13,22 +13,42 @@
   "status": "in_progress",
   "placed_steps": [
     659,
-    674
+    702
   ],
-  "physical_parts": 35,
+  "physical_parts": 100,
   "verified_complete": false,
   "pending": [
-    "675–689 mirrored counterpart placement after page comparison",
-    "691–697 ball-joint bridge",
-    "698–699 folded articulation placement",
-    "700–702 teeth",
-    "render and connection checks"
+    "final skull attachment703 onward belongs to book3 integration",
+    "precise mesh clearance review remains separate from diagram/axis checks"
   ],
   "corrections": [
     "659 tan plate identified as 78329 1x5",
     "660 brown plate identified as Technic 3738",
     "663 wings mounted beside 3738 at same top plane",
-    "666–668 stepped underside contact levels accounted for"
+    "666–668 stepped underside contact levels accounted for",
+    "675–689 counterpart checked across pages81–84, correct handed wings swapped; physical rotations determinant+1. 690 flat layout attached at mirrored chin hinge position. Render review pending.",
+    "670/686 actual clips63868, not locking hinge44301b; clip centerX30,Y2. Chin center correctedX−210; right offset−420.",
+    "674 native11477 bottom origin and36841 top confirmed; no arbitrary height offset.",
+    "691–696 bridge uses50923 ball joints,98989 crossblocks,6632 thin beams,32073 gray5L axles,24316 brown3L stop axle.",
+    "697 identified11214 dark-gray2Lpin+1Laxle; its1Laxle mates4032a central cross hole. Socket/bar/ball frames analytically aligned.",
+    "698–699 folded jaw uses84.056688° rotation, not guessed90°. Bridge upright orientation corrected againstpage88.",
+    "701–702 tooth tips curve rearward toward jaw joint, as shown onpage89."
   ],
-  "assets_missing": []
+  "assets_missing": [],
+  "fold_geometry": {
+    "angle_degrees": 84.05668803788255,
+    "constraint": "270*cos(theta)-8*sin(theta)=20; jaw ball centers80LDU apart",
+    "socket_attachment": "11214 axleinto4032a, pinthrough67695roundhole",
+    "verified": "analytical center/axis alignment, not physical fit"
+  },
+  "verification": {
+    "physical_piece_count": 100,
+    "missing_geometry": [],
+    "all_reference_rotations": "proper orthonormal determinant+1 within1e-6",
+    "browser": "Chromium loaded without page errors; folded shape and bridge compared to pages88–89",
+    "limits": [
+      "No physical clutch/strength validation",
+      "Final skull attachment703 onward not included"
+    ]
+  }
 }
