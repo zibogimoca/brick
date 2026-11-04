@@ -1,0 +1,280 @@
+{
+  "book": 1,
+  "pages": [
+    192,
+    219
+  ],
+  "steps": [
+    187,
+    225
+  ],
+  "status": "independent_subassemblies_in_progress",
+  "source": "/tmp/brick-instructions/1.pdf",
+  "model": "models/tyrannosaurus-v0-book1-remainder.ldr",
+  "root": "book1-remainder-workbench.ldr",
+  "physical_parts_in_workbench": 171,
+  "scope_note": "Workbenches separated; only hip ring overlay uses body frame. No claim of final attachment or full reconstruction.",
+  "assemblies": [
+    {
+      "name": "pelvic-spur-step195.ldr",
+      "part_count": 13,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "pelvic-blade-step198.ldr",
+      "part_count": 6,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "pelvic-lower-bar-step202.ldr",
+      "part_count": 8,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "body-hip-ring-overlay-step200.ldr",
+      "part_count": 8,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "pelvic-panel-step207.ldr",
+      "part_count": 16,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "pelvic-end-cap-step212.ldr",
+      "part_count": 4,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "rear-chevron-arm-step218.ldr",
+      "part_count": 3,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "rear-chevron-carrier-step214.ldr",
+      "part_count": 12,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "dorsal-short-step221.ldr",
+      "part_count": 2,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "dorsal-middle-step222.ldr",
+      "part_count": 3,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "dorsal-tall-step223.ldr",
+      "part_count": 4,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "dorsal-center-cap-step223.ldr",
+      "part_count": 2,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "neck-horn-pair-step188.ldr",
+      "part_count": 2,
+      "status": "local_placement_under_review"
+    },
+    {
+      "name": "body-lower-flank-overlay-step191.ldr",
+      "part_count": 22,
+      "status": "local_placement_under_review"
+    }
+  ],
+  "step_status": {
+    "195": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-spur-step195.ldr"
+    },
+    "196": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-spur-step195.ldr"
+    },
+    "197": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-spur-step195.ldr"
+    },
+    "198": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-spur-step195.ldr"
+    },
+    "202": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-lower-bar-step202.ldr"
+    },
+    "203": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-lower-bar-step202.ldr"
+    },
+    "204": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-lower-bar-step202.ldr"
+    },
+    "205": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-lower-bar-step202.ldr"
+    },
+    "206": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-lower-bar-step202.ldr"
+    },
+    "207": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-panel-step207.ldr"
+    },
+    "212": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "pelvic-end-cap-step212.ldr"
+    },
+    "218": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "rear-chevron-carrier-step214.ldr"
+    },
+    "200": {
+      "status": "partial_overlay",
+      "placed": "5649 x4",
+      "pending": "center-bottom15068 and spur clearance"
+    },
+    "201": {
+      "status": "partial_overlay",
+      "placed": "5649 x4",
+      "pending": "center-bottom15068 and spur clearance"
+    },
+    "187": {
+      "status": "parts_identified_placement_waits_neck_frame",
+      "parts": {
+        "11477_tan": 7,
+        "28192_dark_tan": 1
+      }
+    },
+    "189": {
+      "status": "parts_identified_placement_waits_neck_frame",
+      "parts": {
+        "11477_tan": 7,
+        "28192_dark_tan": 1
+      }
+    },
+    "188": {
+      "status": "inset_assembled_body_attachment_pending",
+      "assembly": "neck-horn-pair-step188.ldr"
+    },
+    "190": {
+      "status": "inset_assembled_body_attachment_pending",
+      "assembly": "neck-horn-pair-step188.ldr"
+    },
+    "191": {
+      "status": "body_overlay_stud_positions_matched_render_pending",
+      "assembly": "body-lower-flank-overlay-step191.ldr"
+    },
+    "192": {
+      "status": "body_overlay_stud_positions_matched_render_pending",
+      "assembly": "body-lower-flank-overlay-step191.ldr"
+    },
+    "193": {
+      "status": "parts_identified_body_support_axes_review",
+      "parts": {
+        "3705_red": 1,
+        "32073_yellow": 1
+      }
+    },
+    "194": {
+      "status": "attachment_or_pose_not_yet_implemented"
+    },
+    "199": {
+      "status": "attachment_or_pose_not_yet_implemented"
+    },
+    "213": {
+      "status": "attachment_or_pose_not_yet_implemented"
+    },
+    "219": {
+      "status": "attachment_or_pose_not_yet_implemented"
+    },
+    "220": {
+      "status": "attachment_or_pose_not_yet_implemented"
+    },
+    "221": {
+      "status": "inset_assembled_body_attachment_pending",
+      "assembly": "dorsal-short-step221.ldr"
+    },
+    "208": {
+      "status": "diagram_review_in_progress"
+    },
+    "209": {
+      "status": "diagram_review_in_progress"
+    },
+    "210": {
+      "status": "diagram_review_in_progress"
+    },
+    "211": {
+      "status": "diagram_review_in_progress"
+    },
+    "214": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "rear-chevron-carrier-step214.ldr"
+    },
+    "215": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "rear-chevron-carrier-step214.ldr"
+    },
+    "216": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "rear-chevron-carrier-step214.ldr"
+    },
+    "217": {
+      "status": "local_parts_placed_review_pending",
+      "assembly": "rear-chevron-carrier-step214.ldr"
+    },
+    "222": {
+      "status": "inset_assembled_body_attachment_pending",
+      "assembly": "dorsal-middle-step222.ldr"
+    },
+    "223": {
+      "status": "inset_assembled_body_attachment_pending",
+      "assembly": "dorsal-tall-step223.ldr"
+    },
+    "224": {
+      "status": "inset_assembled_body_attachment_pending",
+      "assembly": "neck-horn-pair-step188.ldr"
+    },
+    "225": {
+      "status": "inset_assembled_body_attachment_pending",
+      "assembly": "neck-horn-pair-step188.ldr"
+    }
+  },
+  "unresolved": [
+    "195-198: final hinged blade angle and base clipping clearance need rendering comparison.",
+    "202-206: stepped bottom connections of13547/70681 require section-level confirmation.",
+    "207: 41682 side-stud connection derived geometrically; narrow tile overhang still needs visual confirmation.",
+    "207/209: duplicate panels not yet attached to lower bar; 208/210/211 unfinished.",
+    "214-217 hinge carrier mounting under review.",
+    "187-190/222-225 depend on unresolved parent neck frame; not skipped or marked done."
+  ],
+  "checks": {
+    "references_and_rigid_rotations": true,
+    "physical_fit": false
+  },
+  "validation": {
+    "local_references": "passed",
+    "rotation_matrices": "orthonormal_determinant_positive_one",
+    "counts": "recursive_physical_parts_not_lines",
+    "rendered_subassemblies": [
+      "pelvic-spur-step195.ldr",
+      "pelvic-lower-bar-step202.ldr",
+      "pelvic-panel-step207.ldr"
+    ],
+    "render_limitation": "rear-chevron render timed out on missing3069b; geometry now supplied but public rebuild and render pending"
+  },
+  "remaining": [
+    "187–190 neck covers depend on final neck frame; BOM identified, not placed.",
+    "199 body placement of spur; 200–201 missing two central 15068 covers.",
+    "207–213 paired pelvic panels need complete joint placement and lower-bar attachment; 208 uses dark-tan15672.",
+    "216 side stud row and219 bend angle need confirmation before220 body attachment.",
+    "221–223 inset units complete, body top-spacer coordinates not yet applied.",
+    "188/190/224/225 horn pairs assembled; body neck-frame placements pending."
+  ]
+}

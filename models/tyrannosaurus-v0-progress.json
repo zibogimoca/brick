@@ -1663,7 +1663,7 @@
     {
       "book": 1,
       "page": 130,
-      "status": "subassembly_reference_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         1,
         2,
@@ -1679,12 +1679,12 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "126단계 소조립체 부품·소단계 검토. 아직 조립 완료 아님."
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 131,
-      "status": "subassembly_reference_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         10,
         11,
@@ -1692,112 +1692,132 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "126단계 소조립체 부품·소단계 검토. 아직 조립 완료 아님."
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 132,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         127,
         132
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 133,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         128,
         133
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 134,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         129,
         134
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 135,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         130,
         135
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 136,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         131,
         136
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 137,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         132,
         137
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 138,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         133,
         138
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 139,
-      "status": "not_reviewed",
+      "status": "non_assembly_page",
       "number_candidates": [
         7,
         139
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "봉지7 안내"
     },
     {
       "book": 1,
       "page": 140,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         134,
         140
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 141,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         135,
         141
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 142,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         136,
         1,
@@ -1806,12 +1826,14 @@
         4,
         142
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 143,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         137,
         1,
@@ -1820,63 +1842,73 @@
         4,
         143
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 144,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         144
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 145,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         138,
         145
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 146,
-      "status": "not_reviewed",
+      "status": "identified_placement_implemented",
       "number_candidates": [
         139,
         1,
         2,
         146
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "해당 페이지 순서대로 부품 식별·배치 구현. 실물 검증 아님."
     },
     {
       "book": 1,
       "page": 147,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         140,
         147
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 148,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         141,
         148
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 149,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         142,
         143,
@@ -1884,12 +1916,13 @@
         145,
         149
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 150,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         146,
         147,
@@ -1899,12 +1932,13 @@
         3,
         150
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 151,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         150,
         149,
@@ -1913,82 +1947,90 @@
         3,
         151
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 152,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         151,
         152
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 153,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         152,
         153
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 154,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         153,
         154
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 155,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         154,
         155
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 156,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         155,
         156
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 157,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         156,
         157
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 158,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         8,
         158
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 159,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         157,
         1,
@@ -1996,22 +2038,24 @@
         3,
         159
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 160,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         158,
         160
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 161,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         159,
         1,
@@ -2019,12 +2063,13 @@
         3,
         161
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 162,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         160,
         1,
@@ -2032,22 +2077,24 @@
         3,
         162
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 163,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         161,
         163
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 164,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         162,
         1,
@@ -2055,12 +2102,13 @@
         3,
         164
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 165,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         163,
         1,
@@ -2069,41 +2117,45 @@
         4,
         165
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 166,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         166
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 167,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         164,
         167
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 168,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         165,
         168
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 169,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         166,
         1,
@@ -2112,22 +2164,24 @@
         2,
         169
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 170,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         167,
         170
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 171,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         168,
         1,
@@ -2136,12 +2190,13 @@
         2,
         171
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 172,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         169,
         1,
@@ -2151,49 +2206,54 @@
         5,
         172
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 173,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         170,
         173
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 174,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         171,
         1,
         2,
         174
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 175,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         172,
         175
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
       "page": 176,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         173,
         176
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "reason": "부품표 및 도해를 대조해 배치. 연결 및 간섭 검토 진행 중; 최종 검증 완료 아님."
     },
     {
       "book": 1,
@@ -6419,6 +6479,18 @@
       ],
       "reason": "턱의 앞선 바닥층 배치와 쐐기·경사·구멍 브릭 ID, 회전 전후 좌표 기준이 불명확함.",
       "resume_condition": "이전 조립 페이지와 부품표 대조."
+    },
+    {
+      "book": 1,
+      "pages": [
+        130,
+        131,
+        132,
+        152,
+        158
+      ],
+      "reason": "126 앞쪽 브래킷과151 관절 지지부의 일부 바닥이 겹치고156 검정 벽과8 LDU 간섭. 단계별 부품 위치 재검토 중.",
+      "resume_condition": "126/151 하부 연결을 재결정한 뒤174 이후 목 덮개 결합."
     }
   ],
   "reference_inventory": {
@@ -8095,7 +8167,7 @@
         "entry_in_text_order": 84,
         "design_id": "69787",
         "color": null,
-        "geometry_file": null,
+        "geometry_file": "assets/parts/69787.dat",
         "gobricks_status": "not_mapped",
         "verification": "PDF text pair extracted; individual image/design/color verification pending",
         "reference_part_num": "69787",
@@ -8103,8 +8175,9 @@
         "reference_name": "Clutch Joint Click Gear",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": null,
-        "geometry_mapping_status": "requires_alias_search_or_new_geometry",
-        "implementation_scope": "included"
+        "geometry_mapping_status": "matching_number_existing_mesh",
+        "implementation_scope": "included",
+        "geometry_asset_status": "registered; original mesh triangles preserved; no physical validation"
       },
       {
         "element_id": "6170776",
@@ -8154,7 +8227,7 @@
         "entry_in_text_order": 87,
         "design_id": "2752",
         "color": null,
-        "geometry_file": "models/tyrannosaurus-v0-reconstruction.ldr#2752-diagram-shape.dat",
+        "geometry_file": "assets/parts/2752.dat",
         "gobricks_status": "not_mapped",
         "verification": "117쪽의 부품 종류·공칭 외형·조립 방향 대조. 내부 몰드 형상과 실물 결합 검증을 뜻하지 않음.",
         "reference_part_num": "2752",
@@ -8162,9 +8235,9 @@
         "reference_name": "Brick Sloped Inverted 33° 3 x 2, Connections between Studs, Round Bottom Pin",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": null,
-        "geometry_mapping_status": "diagram_identified_original_part",
+        "geometry_mapping_status": "diagram_identity_matched",
         "implementation_scope": "included",
-        "geometry_asset_status": "diagram_exterior_implemented"
+        "geometry_asset_status": "existing_mesh; placement_review_pending"
       },
       {
         "element_id": "4543858",
@@ -8774,7 +8847,7 @@
         "entry_in_text_order": 4,
         "design_id": "61406",
         "color": null,
-        "geometry_file": null,
+        "geometry_file": "assets/parts/61406.dat",
         "gobricks_status": "not_mapped",
         "verification": "PDF text pair extracted; individual image/design/color verification pending",
         "reference_part_num": "61406pat0007",
@@ -8782,8 +8855,9 @@
         "reference_name": "Plate Special 1 x 2 with Angular Extension and Flexible Tan Tip",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": "ldraw/parts/61406.dat",
-        "geometry_mapping_status": "design_number_only_print_or_variant_not_verified",
-        "implementation_scope": "included"
+        "geometry_mapping_status": "set_specific_61406p09",
+        "implementation_scope": "included",
+        "geometry_asset_status": "official_mesh_dependency_complete"
       },
       {
         "element_id": "4114001",
@@ -11593,7 +11667,7 @@
         "entry_in_text_order": 39,
         "design_id": "69789",
         "color": null,
-        "geometry_file": null,
+        "geometry_file": "assets/parts/69789.dat",
         "gobricks_status": "not_mapped",
         "verification": "PDF text pair extracted; individual image/design/color verification pending",
         "reference_part_num": "69789",
@@ -11601,8 +11675,9 @@
         "reference_name": "Clutch Joint Pin",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": null,
-        "geometry_mapping_status": "requires_alias_search_or_new_geometry",
-        "implementation_scope": "included"
+        "geometry_mapping_status": "matching_number_existing_mesh",
+        "implementation_scope": "included",
+        "geometry_asset_status": "registered; original mesh triangles preserved; no physical validation"
       },
       {
         "element_id": "4211718",
@@ -11632,7 +11707,7 @@
         "entry_in_text_order": 41,
         "design_id": "69790",
         "color": null,
-        "geometry_file": null,
+        "geometry_file": "assets/parts/69790.dat",
         "gobricks_status": "not_mapped",
         "verification": "PDF text pair extracted; individual image/design/color verification pending",
         "reference_part_num": "69790",
@@ -11640,8 +11715,9 @@
         "reference_name": "Clutch Joint Gear",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": null,
-        "geometry_mapping_status": "requires_alias_search_or_new_geometry",
-        "implementation_scope": "included"
+        "geometry_mapping_status": "matching_number_existing_mesh",
+        "implementation_scope": "included",
+        "geometry_asset_status": "registered; original mesh triangles preserved; no physical validation"
       },
       {
         "element_id": "6347992",
@@ -13071,7 +13147,7 @@
         "entry_in_text_order": 1,
         "design_id": "69788",
         "color": null,
-        "geometry_file": null,
+        "geometry_file": "assets/parts/69788.dat",
         "gobricks_status": "not_mapped",
         "verification": "PDF text pair extracted; individual image/design/color verification pending",
         "reference_part_num": "69788",
@@ -13079,8 +13155,9 @@
         "reference_name": "Clutch Joint Click Ring",
         "mapping_source": "https://cdn.rebrickable.com/media/downloads/elements.csv.gz",
         "geometry_archive_candidate": null,
-        "geometry_mapping_status": "requires_alias_search_or_new_geometry",
-        "implementation_scope": "included"
+        "geometry_mapping_status": "matching_number_existing_mesh",
+        "implementation_scope": "included",
+        "geometry_asset_status": "registered; original mesh triangles preserved; no physical validation"
       },
       {
         "element_id": "6028811",
@@ -15336,13 +15413,13 @@
   "scope_decision": "미니피겨·명판·장식 생략 가능. 받침판은 빨간 대체 허용. 공룡 본체 뼈대·관절·연결 부품 생략·임의 대체 금지; 미해결 시 확인/질문.",
   "sequential_reconstruction": {
     "book": 1,
-    "page": 130,
-    "step": 126,
-    "status": "subassembly_identification_complete_placement_pending",
-    "last_placed_step": 125,
-    "body_draft_piece_count": 175,
-    "reason": "126단계 소조립체 23개 로컬 배치. 본체 결합 위치는 다음 검토. 게시본에서는 분리 표시.",
-    "verification": "125단계 본체152개와 126단계 소조립체23개. 실물 결합·최종 본체 장착 미검증.",
+    "page": 178,
+    "step": 174,
+    "status": "sequential_assembly_in_progress",
+    "last_placed_step": 173,
+    "body_draft_piece_count": 509,
+    "reason": "173단계까지 입력. 126/151 연결 좌표 수정 후 간섭 재검토와 174 이후 목 덮개 연결이 남아 있다. 독립 권별 조립 병행.",
+    "verification": "173단계까지 브라우저 로딩/렌더 확인. 렌더 성공은 모든 접속의 검증 완료를 의미하지 않는다.",
     "corrections": [
       "101단계 3020은 진회색72. 밝은 회색71 3020은 전체 목록1개이며 100단계에 사용.",
       "118단계 3021 두 개는 나란한 배치로 수정."
@@ -15642,31 +15719,631 @@
       },
       "identification": "diagram_and_inventory_matched",
       "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 126,
+      "parts": {
+        "3021.dat@0": 2,
+        "3023b.dat@322": 3,
+        "79180.dat@0": 2,
+        "2752-diagram-shape.dat@19": 1,
+        "3022.dat@19": 1,
+        "93274.dat@0": 2,
+        "99781.dat@0": 2,
+        "99780.dat@19": 1,
+        "85984.dat@28": 1,
+        "99207.dat@19": 4,
+        "79389.dat@19": 2,
+        "6141.dat@71": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 127,
+      "parts": {
+        "73831.dat@84": 1,
+        "6141.dat@71": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 128,
+      "parts": {
+        "73831.dat@84": 4,
+        "6141.dat@71": 5
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 129,
+      "parts": {
+        "93273.dat@28": 9
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 130,
+      "parts": {
+        "73831.dat@84": 1,
+        "6141.dat@71": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 131,
+      "parts": {
+        "73831.dat@84": 4,
+        "6141.dat@71": 5
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 132,
+      "parts": {
+        "93273.dat@28": 9
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 133,
+      "parts": {
+        "32192.dat@28": 18
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 134,
+      "parts": {
+        "32016.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 135,
+      "parts": {
+        "2456.dat@0": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 136,
+      "parts": {
+        "3020.dat@28": 2,
+        "32802.dat@19": 2,
+        "99780.dat@72": 4,
+        "3023b.dat@322": 2,
+        "54200.dat@28": 4
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 137,
+      "parts": {
+        "2445.dat@0": 1,
+        "3020.dat@28": 3,
+        "3023b.dat@322": 2,
+        "28802.dat@70": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 138,
+      "parts": {
+        "44728.dat@71": 4,
+        "36841.dat@70": 4
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 139,
+      "parts": {
+        "52501.dat@19": 10,
+        "6141.dat@19": 20,
+        "11477.dat@28": 20
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review"
+    },
+    {
+      "step": 140,
+      "parts": {
+        "65509.dat@19": 5,
+        "15672.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 141,
+      "parts": {
+        "4477.dat@19": 2,
+        "35480.dat@28": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 142,
+      "parts": {
+        "99207.dat@28": 1,
+        "3023b.dat@322": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 143,
+      "parts": {
+        "99207.dat@28": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 144,
+      "parts": {
+        "32064a.dat@14": 1,
+        "43093.dat@1": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 145,
+      "parts": {
+        "85943.dat@0": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 146,
+      "parts": {
+        "4032a.dat@4": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 147,
+      "parts": {
+        "79180.dat@0": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 148,
+      "parts": {
+        "32064a.dat@14": 2,
+        "24316.dat@70": 1,
+        "85943.dat@0": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 149,
+      "parts": {
+        "61332.dat@0": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 150,
+      "parts": {
+        "69788.dat@71": 1,
+        "69787.dat@19": 2,
+        "32002.dat@19": 1,
+        "6632.dat@4": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 151,
+      "parts": {
+        "neck-joint-step142.ldr@16": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 152,
+      "parts": {
+        "3176.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 153,
+      "parts": {
+        "3623.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 154,
+      "parts": {
+        "4032a.dat@4": 1,
+        "79389.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 155,
+      "parts": {
+        "3623.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 156,
+      "parts": {
+        "73562.dat@19": 1,
+        "93274.dat@0": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 157,
+      "parts": {
+        "flank-panel-step157.ldr@16": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 158,
+      "parts": {
+        "35044.dat@19": 2,
+        "26601.dat@28": 2,
+        "3710.dat@28": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 159,
+      "parts": {
+        "flank-front-panel-step159.ldr@16": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 160,
+      "parts": {
+        "flank-panel-step160.ldr@16": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 161,
+      "parts": {
+        "35044.dat@19": 2,
+        "26601.dat@28": 2,
+        "3710.dat@28": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 162,
+      "parts": {
+        "flank-front-panel-step162.ldr@16": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 163,
+      "parts": {
+        "hip-cap-step163.ldr@16": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 164,
+      "parts": {
+        "3660.dat@19": 12
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 165,
+      "parts": {
+        "35044.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 166,
+      "parts": {
+        "11458.dat@19": 2,
+        "3673.dat@71": 2,
+        "3484.dat@0": 2,
+        "6141.dat@71": 2,
+        "2450.dat@19": 2,
+        "3298.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 167,
+      "parts": {
+        "35044.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 168,
+      "parts": {
+        "11458.dat@19": 2,
+        "3673.dat@71": 2,
+        "3484.dat@0": 2,
+        "6141.dat@71": 2,
+        "2450.dat@19": 2,
+        "3298.dat@19": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 169,
+      "parts": {
+        "3176.dat@19": 1,
+        "15573.dat@19": 2,
+        "32802.dat@19": 1,
+        "3024.dat@28": 2,
+        "54200.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 170,
+      "parts": {
+        "15573.dat@19": 4,
+        "3024.dat@28": 4
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 171,
+      "parts": {
+        "32802.dat@19": 4,
+        "15573.dat@19": 4,
+        "54200.dat@28": 8
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 172,
+      "parts": {
+        "3460.dat@19": 1,
+        "15573.dat@19": 9,
+        "3024.dat@28": 2,
+        "3004.dat@28": 1,
+        "3039.dat@28": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 173,
+      "parts": {
+        "15573.dat@19": 5,
+        "3024.dat@28": 2
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "implemented_for_render_review",
+      "note": "Includes subassembly reference when this step mounts an earlier assembly; do not sum this ledger as an inventory."
+    },
+    {
+      "step": 174,
+      "parts": {
+        "2752.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 175,
+      "parts": {
+        "3666.dat@28": 1,
+        "3623.dat@28": 1,
+        "2450.dat@28": 1,
+        "30503.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 176,
+      "parts": {
+        "30503.dat@19": 2,
+        "3031.dat@19": 1,
+        "26601.dat@28": 1,
+        "25269.dat@84": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 177,
+      "parts": {
+        "3710.dat@19": 1,
+        "30503.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 178,
+      "parts": {
+        "15672.dat@19": 1,
+        "44861.dat@84": 8
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 179,
+      "parts": {
+        "25269.dat@84": 5,
+        "63864.dat@84": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 180,
+      "parts": {
+        "3666.dat@28": 1,
+        "3623.dat@28": 1,
+        "2450.dat@28": 1,
+        "30503.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 181,
+      "parts": {
+        "30503.dat@19": 2,
+        "3031.dat@19": 1,
+        "26601.dat@28": 1,
+        "25269.dat@84": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 182,
+      "parts": {
+        "3710.dat@19": 1,
+        "30503.dat@19": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 183,
+      "parts": {
+        "15672.dat@19": 1,
+        "44861.dat@84": 8
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 184,
+      "parts": {
+        "25269.dat@84": 5,
+        "63864.dat@84": 1
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
+    },
+    {
+      "step": 185,
+      "parts": {
+        "54200.dat@19": 4,
+        "15573.dat@19": 4
+      },
+      "identification": "diagram_and_inventory_matched",
+      "placement": "pending_neck_attachment_correction",
+      "note": "BOM identification only; not included in placed piece count."
     }
   ],
   "pending_subassembly": {
     "step": 126,
-    "book": 1,
-    "pages": [
-      130,
-      131
-    ],
     "phase_1": "identified",
-    "phase_2": "local_placement_implemented_global_mount_pending",
-    "parts": {
-      "3023b.dat": 3,
-      "85984.dat": 1,
-      "99781.dat": 2,
-      "3021.dat": 2,
-      "3022.dat": 1,
-      "99780.dat": 1,
-      "99207.dat": 4,
-      "93274.dat": 2,
-      "2752-diagram-shape.dat": 1,
-      "79389.dat": 2,
-      "79180.dat": 2,
-      "6141.dat": 2
-    },
-    "publication": "Separated workbench placement; not final assembly coordinates"
+    "phase_2": "attachment_under_review",
+    "verification": "126/151/156 간 8 LDU 높이 및 바닥 중첩 미해결. 2752 원본 형상으로 치환."
+  },
+  "parallel_work": {
+    "book2": "models/tyrannosaurus-v0-book2-progress.json",
+    "book3": "models/tyrannosaurus-v0-book3-progress.json",
+    "book1_remainder": "models/tyrannosaurus-v0-book1-remainder-progress.json",
+    "integration": "independent subassemblies; final attachment transforms pending"
+  },
+  "published_checkpoint": {
+    "body_draft_piece_count": 1603,
+    "piece_count": 1686,
+    "layout": "separated_workbench_not_assembly_positions",
+    "assembly_verified": false
   }
 }

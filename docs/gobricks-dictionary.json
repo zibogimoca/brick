@@ -635811,5 +635811,49 @@
     "reference_assets": "assets/policy.md#에셋-목록",
     "physical_tests": false,
     "remaining_parts_geometry_pending": 1743
+  },
+  "reference_only_parts": {
+    "69787": {
+      "geometry": "assets/parts/69787.dat",
+      "source": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69787.dat",
+      "gobricks_status": "not_verified",
+      "verification": "existing mesh; instruction identity review; physical fit not tested"
+    },
+    "69788": {
+      "geometry": "assets/parts/69788.dat",
+      "source": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69788.dat",
+      "gobricks_status": "not_verified",
+      "verification": "existing mesh; instruction identity review; physical fit not tested"
+    },
+    "69789": {
+      "geometry": "assets/parts/69789.dat",
+      "source": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69789.dat",
+      "gobricks_status": "not_verified",
+      "verification": "existing mesh; instruction identity review; physical fit not tested"
+    },
+    "69790": {
+      "geometry": "assets/parts/69790.dat",
+      "source": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69790.dat",
+      "gobricks_status": "not_verified",
+      "verification": "existing mesh; instruction identity review; physical fit not tested"
+    },
+    "2752": {
+      "geometry": "assets/parts/2752.dat",
+      "source": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/2752.dat",
+      "gobricks_status": "not_verified",
+      "verification": "existing mesh; instruction identity review; physical fit not tested"
+    },
+    "61406": {
+      "geometry": "assets/parts/61406.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip#ldraw/parts/61406p09.dat",
+      "gobricks_status": "not_verified",
+      "verification": "official set-specific tan-tip mesh; physical fit not tested"
+    },
+    "3069b": {
+      "geometry": "assets/parts/3069b.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip#ldraw/parts/3069b.dat",
+      "gobricks_status": "not_verified",
+      "verification": "official mesh; physical fit not tested"
+    }
   }
 }

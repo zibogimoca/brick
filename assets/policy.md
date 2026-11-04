@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 선택한 상위 부품은 67종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 283종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -27,13 +27,15 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
 
 ## 출처와 라이선스
 
-현재 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 직접 제작한 형상으로 표시하지 않는다. 개별 저자는 원본 형상 헤더와 이 문서 하단의 에셋 목록에 기록되어 있다.
+기본 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 직접 제작한 형상으로 표시하지 않는다. 개별 저자는 원본 형상 헤더와 이 문서 하단의 에셋 목록에 기록되어 있다.
 
 현재 형상에는 **CC BY 4.0** 또는 **CC BY 2.0과 CC BY 4.0** 병기 자료가 포함된다. 파일별 고지는 아래 목록에 보존한다. [이용 조건 요약](https://creativecommons.org/licenses/by/4.0/)과 [라이선스 전문](https://creativecommons.org/licenses/by/4.0/legalcode)을 기준으로, 공유할 때 저자·출처와 라이선스 링크를 제공하고 변경했다면 그 사실을 표시한다. 저자가 이 프로젝트를 보증하는 것처럼 표현하지 않는다. 색상 설정 등 다른 자료의 조건을 이 확인 결과로 일괄 단정하지 않고 원본 고지를 따른다.
 
 별도 `CAreadme.txt`와 `CAlicense.txt`는 사용자 요청으로 삭제했다. 원본 형상 안의 저자·라이선스 헤더는 보존되어 있으며, 그 안에 남은 `CAreadme.txt` 표기는 원본의 참조다. 파일 삭제가 원래 이용 조건을 없애지는 않는다. 이용 안내는 이 문서에 통합한다.
 
 공개 저장소나 공개 뷰어에 포함한 자료는 다른 사람이 받을 수 있으므로, 혼자 볼 목적이어도 공개 상태라면 공유 조건을 고려해야 한다. 배포할 때는 이 안내와 개별 저자 정보를 함께 제공하고 접근 가능한지 확인한다.
+
+69787–69790은 공식 전체 아카이브에 없어 [LegoMaster 공개 저장소](https://github.com/iefierros/LegoMaster/tree/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts)에서 확보했다. 저장소 라이선스는 MIT(Copyright 2024 Lego Master)지만 개별 원본 메시의 저자·라이선스 표기는 없다. 공식 LDraw CC 조건을 이 네 파일에 적용한 것으로 표시하지 않는다. 삼각형 좌표는 유지하고 비표준 UV 꼬리만 제거했다.
 
 ## 관리 원칙
 
@@ -114,6 +116,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "26604",
     "27263",
     "2736",
+    "2752",
     "2780",
     "28192",
     "28802",
@@ -148,6 +151,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "30503",
     "3062b",
     "3068b",
+    "3069b",
     "3070b",
     "3172",
     "3176",
@@ -261,6 +265,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "60479",
     "60483",
     "61332",
+    "61406",
     "6141",
     "61485",
     "62462",
@@ -283,6 +288,10 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "68297",
     "68568",
     "69729",
+    "69787",
+    "69788",
+    "69789",
+    "69790",
     "70681",
     "72132",
     "73109",
@@ -8127,6 +8136,64 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "archive_member": "ldraw/LDConfig.ldr",
       "sha256": "d3490047460ad7a511b150006b009830fc52ecc1899b514c7380e9de644b3cfb",
       "bytes": 67580
+    },
+    "parts/69787.dat": {
+      "source_url": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69787.dat",
+      "sha256": "e6b135eacd325a067f824cec993b773aed79040f131bba2fb8365c3f34f19fbd",
+      "bytes": 251862,
+      "author": null,
+      "license": "Repository MIT (Copyright 2024 Lego Master); original individual mesh license not stated",
+      "modification": "Removed nonstandard trailing UV coordinates from triangle records; positions unchanged. Added provenance header."
+    },
+    "parts/69788.dat": {
+      "source_url": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69788.dat",
+      "sha256": "fd22bc910928cfdf885e8779f1a286c77e9657c75eb2398bfcb6b9df00e22f7b",
+      "bytes": 396542,
+      "author": null,
+      "license": "Repository MIT (Copyright 2024 Lego Master); original individual mesh license not stated",
+      "modification": "Removed nonstandard trailing UV coordinates from triangle records; positions unchanged. Added provenance header."
+    },
+    "parts/69789.dat": {
+      "source_url": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69789.dat",
+      "sha256": "f9a8b7e724610b9dc73b3fe82a07f54a0602c08888601eb9a5b3cd0a5df925ee",
+      "bytes": 219583,
+      "author": null,
+      "license": "Repository MIT (Copyright 2024 Lego Master); original individual mesh license not stated",
+      "modification": "Removed nonstandard trailing UV coordinates from triangle records; positions unchanged. Added provenance header."
+    },
+    "parts/69790.dat": {
+      "source_url": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/69790.dat",
+      "sha256": "886282dd92a99623c76a85692c7d48f9c5488443b6c6cd593cc3a2717ef6f968",
+      "bytes": 302410,
+      "author": null,
+      "license": "Repository MIT (Copyright 2024 Lego Master); original individual mesh license not stated",
+      "modification": "Removed nonstandard trailing UV coordinates from triangle records; positions unchanged. Added provenance header."
+    },
+    "parts/2752.dat": {
+      "source_url": "https://raw.githubusercontent.com/iefierros/LegoMaster/0b2eb83be4c34193521a962b3136c553d14322c3/ldraw/UnOfficial/parts/2752.dat",
+      "sha256": "c8493b833fa6aed2de09d4124ae5b47240173eba109139ccc2555c96e6aeec8b",
+      "bytes": 139891,
+      "author": null,
+      "license": "Repository MIT (Copyright 2024 Lego Master); original individual mesh license not stated",
+      "modification": "Removed nonstandard trailing UV coordinates from triangle records; positions unchanged. Added provenance header."
+    },
+    "parts/61406.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/61406p09.dat",
+      "sha256": "477f9bcbf6fded984c3dc36039bd16c5537a40c72c0d6aa2caaea8e6b62c6256",
+      "bytes": 23989,
+      "author": "Vincent Messenet [Cheenzo]; inlined shapes: Joerg Sommerer [Brickaneer]",
+      "license": "CC BY 4.0; inlined shapes CC BY 2.0 and CC BY 4.0",
+      "modification": "Inlined two identity-transformed subparts 61406s01 and 61406s02; rubber color 10019 retained; primitive paths normalized."
+    },
+    "parts/3069b.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/3069b.dat",
+      "sha256": "ddfd95b62a2234ffc483c78f6ee52c6e6eb570285634b49e25aa648f4893a523",
+      "bytes": 964,
+      "author": "Santeri Piippo",
+      "license": "CC BY 4.0",
+      "modification": "Inlined identity-transformed 3069bs01 subpart; primitive paths normalized."
     }
   }
 }

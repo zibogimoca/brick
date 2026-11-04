@@ -1,0 +1,1332 @@
+{
+  "book": 2,
+  "source": "/tmp/brick-instructions/2.pdf",
+  "page_count": 148,
+  "status": "in_progress",
+  "last_placed_step": 303,
+  "physical_piece_count": 225,
+  "steps": [
+    {
+      "step": 226,
+      "page": 3,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat",
+        "1 2 90 -40 0 0 0 -1 0 1 0 1 0 0 67329.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 227,
+      "page": 3,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 71 10 -8 0 1 0 0 0 1 0 0 0 1 3021.dat",
+        "1 71 60 -40 -10 1 0 0 0 1 0 0 0 1 22885.dat",
+        "1 71 60 -40 10 -1 0 0 0 1 0 0 0 -1 22885.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 228,
+      "page": 4,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 71 -70 -32 0 0 0 -1 0 1 0 1 0 0 11215.dat",
+        "1 322 -100 -24 0 1 0 0 0 1 0 0 0 1 3022.dat",
+        "1 4 -110 -16 -10 -1 0 0 0 1 0 0 0 -1 3172.dat",
+        "1 4 -110 -16 10 -1 0 0 0 1 0 0 0 -1 3172.dat",
+        "1 28 -100 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat",
+        "1 28 -100 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat",
+        "1 72 -110 0 0 0 0 1 0 1 0 -1 0 0 3023b.dat"
+      ],
+      "physical_parts_added": 7,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 229,
+      "page": 5,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 71 -30 -16 0 1 0 0 0 1 0 0 0 1 3021.dat",
+        "1 322 20 -16 0 1 0 0 0 1 0 0 0 1 3022.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 230,
+      "page": 5,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 15 0 -40 -10 1 0 0 0 1 0 0 0 1 30414.dat",
+        "1 2 -50 -40 -10 1 0 0 0 1 0 0 0 1 87087.dat",
+        "1 15 0 -40 10 -1 0 0 0 1 0 0 0 -1 30414.dat",
+        "1 2 -50 -40 10 -1 0 0 0 1 0 0 0 -1 87087.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 231,
+      "page": 5,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 -100 -40 -10 1 0 0 0 1 0 0 0 1 99781.dat",
+        "1 0 -100 -40 10 -1 0 0 0 1 0 0 0 -1 99781.dat",
+        "1 84 -70 -40 -10 1 0 0 0 1 0 0 0 1 79389.dat",
+        "1 84 -70 -40 10 -1 0 0 0 1 0 0 0 -1 79389.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 232,
+      "page": 5,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 -100 -20 -32 -1 0 0 0 0 1 0 1 0 3022.dat",
+        "1 0 -100 -20 32 1 0 0 0 0 1 0 -1 0 3022.dat",
+        "1 0 -110 -20 -40 0 0 1 1 0 0 0 1 0 1748.dat",
+        "1 0 -110 -20 40 0 0 1 -1 0 0 0 -1 0 1748.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 233,
+      "page": 6,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 71 -70 -20 -32 0 0 -1 -1 0 0 0 1 0 14418.dat",
+        "1 71 -70 -20 32 0 0 1 -1 0 0 0 -1 0 14418.dat",
+        "1 19 -70 -30 -40 -1 0 0 0 0 1 0 1 0 3070b.dat",
+        "1 19 -70 -30 40 1 0 0 0 0 1 0 -1 0 3070b.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 234,
+      "page": 6,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -90 -10 -40 1 0 0 0 0 -1 0 1 0 27263.dat",
+        "1 19 -90 -10 40 0 0 1 -1 0 0 0 -1 0 27263.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 235,
+      "page": 6,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 -30 -36 -1 0 0 0 0 1 0 1 0 72132.dat",
+        "1 19 0 -30 36 1 0 0 0 0 1 0 -1 0 72132.dat",
+        "1 19 -50 -20 -36 0 0 -1 -1 0 0 0 1 0 99563.dat",
+        "1 19 -50 -20 36 0 0 1 -1 0 0 0 -1 0 99563.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 236,
+      "page": 7,
+      "submodels": [
+        "book2-leg-upper-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 237,
+      "page": 7,
+      "submodels": [
+        "book2-leg-upper-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 90 -8 0 0 0 1 0 1 0 -1 0 0 11291.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 238,
+      "page": 7,
+      "submodels": [
+        "book2-leg-upper-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -60 -8 0 1 0 0 0 1 0 0 0 1 87580.dat",
+        "1 28 -20 -8 0 1 0 0 0 1 0 0 0 1 87580.dat",
+        "1 28 20 -8 0 1 0 0 0 1 0 0 0 1 87580.dat",
+        "1 28 80 0 -10 0 0 1 0 1 0 -1 0 0 11477.dat",
+        "1 28 80 0 10 0 0 1 0 1 0 -1 0 0 11477.dat"
+      ],
+      "physical_parts_added": 5,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 239,
+      "page": 7,
+      "submodels": [
+        "book2-leg-upper-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 70 0 -30 1 0 0 0 1 0 0 0 1 3623.dat",
+        "1 28 70 0 30 1 0 0 0 1 0 0 0 1 3623.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 240,
+      "page": 7,
+      "submodels": [
+        "book2-leg-upper-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -80 -8 0 0 0 -1 0 1 0 1 0 0 41682.dat",
+        "1 71 -68 -18 0 0 -1 0 0 0 1 -1 0 0 14704.dat",
+        "1 19 -60 -18 0 0 -1 0 0 0 1 -1 0 0 99563.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 241,
+      "page": 8,
+      "submodels": [
+        "book2-leg-upper-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -30 -16 0 1 0 0 0 1 0 0 0 1 3710.dat",
+        "1 28 -40 -24 0 1 0 0 0 1 0 0 0 1 3623.dat",
+        "1 19 -50 -32 0 1 0 0 0 1 0 0 0 1 99563.dat",
+        "1 19 10 -32 0 0 0 -1 0 1 0 1 0 0 11153.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 242,
+      "page": 8,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 16 0 -48 0 1 0 0 0 1 0 0 0 1 book2-leg-upper-skin.ldr"
+      ],
+      "physical_parts_added": 0,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 243,
+      "page": 9,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -20 -48 -30 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 -30 -56 -30 1 0 0 0 1 0 0 0 1 3024.dat",
+        "1 19 0 -64 -30 0 0 -1 0 1 0 1 0 0 11153.dat",
+        "1 19 -20 -48 30 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 -30 -56 30 1 0 0 0 1 0 0 0 1 3024.dat",
+        "1 19 0 -64 30 0 0 -1 0 1 0 1 0 0 11153.dat"
+      ],
+      "physical_parts_added": 6,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 244,
+      "page": 9,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 116 -20 -10 0 -1 0 1 0 0 0 0 1 4304.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 245,
+      "page": 10,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 140 -20 -36 -1 0 0 0 0 1 0 1 0 79846.dat",
+        "1 28 120 -20 -44 0 0 -1 -1 0 0 0 1 0 26601.dat",
+        "1 28 154.142136 -5.857864 -44 -0.707107 0 -0.707107 -0.707107 0 0.707107 0 1 0 26601.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 246,
+      "page": 10,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 80 -20 -36 0 0 1 1 0 0 0 1 0 26601.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 247,
+      "page": 10,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 100 -20 -36 0 0 1 1 0 0 0 1 0 15068.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 248,
+      "page": 11,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat",
+        "1 2 10 -40 0 0 0 -1 0 1 0 1 0 0 67329.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 249,
+      "page": 11,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 -10 -40 0 0 0 1 0 1 0 -1 0 0 67329.dat",
+        "1 322 0 -48 0 1 0 0 0 1 0 0 0 1 3022.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 250,
+      "page": 11,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 72 0 -72 0 1 0 0 0 1 0 0 0 1 3941.dat",
+        "1 322 0 -80 0 1 0 0 0 1 0 0 0 1 3022.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 251,
+      "page": 11,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 2 10 -120 0 0 0 -1 0 1 0 1 0 0 67329.dat",
+        "1 0 -10 -120 0 0 0 1 0 1 0 -1 0 0 67329.dat",
+        "1 322 0 -128 0 1 0 0 0 1 0 0 0 1 3022.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 252,
+      "page": 11,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 72 0 -152 0 1 0 0 0 1 0 0 0 1 3941.dat",
+        "1 322 0 -160 0 1 0 0 0 1 0 0 0 1 3022.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 253,
+      "page": 12,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 2 10 -200 0 0 0 -1 0 1 0 1 0 0 67329.dat",
+        "1 0 -10 -200 0 0 0 1 0 1 0 -1 0 0 67329.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 254,
+      "page": 12,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 0 -216 -10 1 0 0 0 1 0 0 0 1 4304.dat",
+        "1 322 0 -216 10 1 0 0 0 1 0 0 0 1 35480.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 255,
+      "page": 12,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 0 8 -10 1 0 0 0 1 0 0 0 1 32803.dat",
+        "1 322 0 8 10 1 0 0 0 1 0 0 0 1 35480.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 256,
+      "page": 13,
+      "submodels": [
+        "book2-lower-leg-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 0 0 1 0 0 0 1 0 0 0 1 2445.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 257,
+      "page": 13,
+      "submodels": [
+        "book2-lower-leg-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 110 -8 0 0 0 1 0 1 0 -1 0 0 11291.dat",
+        "1 28 110 -8 0 0 0 1 0 1 0 -1 0 0 85984.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 258,
+      "page": 13,
+      "submodels": [
+        "book2-lower-leg-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 90 0 -30 1 0 0 0 1 0 0 0 1 3623.dat",
+        "1 28 90 0 30 1 0 0 0 1 0 0 0 1 3623.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 259,
+      "page": 13,
+      "submodels": [
+        "book2-lower-leg-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 90 -24 0 0 0 1 0 1 0 -1 0 0 3298.dat",
+        "1 19 30 -8 10 -1 0 0 0 1 0 0 0 -1 27263.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 260,
+      "page": 14,
+      "submodels": [
+        "book2-lower-leg-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -90 -8 10 1 0 0 0 1 0 0 0 1 3623.dat",
+        "1 19 -100 -16 10 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 -100 -16 20 1 0 0 0 1 0 0 0 1 15068.dat",
+        "1 28 -90 -8 -10 1 0 0 0 1 0 0 0 1 3623.dat",
+        "1 19 -100 -16 -10 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 -100 -16 -20 -1 0 0 0 1 0 0 0 -1 15068.dat"
+      ],
+      "physical_parts_added": 6,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 261,
+      "page": 14,
+      "submodels": [
+        "book2-lower-leg-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -60 -16 20 0 0 -1 0 1 0 1 0 0 26601.dat",
+        "1 28 -60 -16 -20 1 0 0 0 1 0 0 0 1 26601.dat",
+        "1 19 -60 -16 0 0 0 -1 0 1 0 1 0 0 15068.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 262,
+      "page": 15,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 16 0 -100 -28 0 0 -1 -1 0 0 0 1 0 book2-lower-leg-skin.ldr"
+      ],
+      "physical_parts_added": 0,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 263,
+      "page": 15,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 0 -240 -10 1 0 0 0 1 0 0 0 1 11211.dat",
+        "1 0 0 -240 10 -1 0 0 0 1 0 0 0 -1 11211.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 264,
+      "page": 15,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 0 -230 -60 -1 0 0 0 0 1 0 1 0 67329.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 265,
+      "page": 16,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 0 0 1 0 0 0 1 0 0 0 1 2445.dat",
+        "1 28 -100 -8 20 0 0 -1 0 1 0 1 0 0 26601.dat",
+        "1 28 -100 -8 -20 1 0 0 0 1 0 0 0 1 26601.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 266,
+      "page": 16,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -110 -16 0 0 0 1 0 1 0 -1 0 0 41740.dat",
+        "1 19 -80 -8 0 0 0 1 0 1 0 -1 0 0 15068.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 267,
+      "page": 16,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -100 0 -30 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 -100 0 30 1 0 0 0 1 0 0 0 1 3023b.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 268,
+      "page": 16,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 80 -8 20 0 0 -1 0 1 0 1 0 0 26601.dat",
+        "1 28 80 -8 -20 1 0 0 0 1 0 0 0 1 26601.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 269,
+      "page": 17,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 80 -8 0 0 0 -1 0 1 0 1 0 0 15068.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 270,
+      "page": 17,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 90 0 -30 1 0 0 0 1 0 0 0 1 3024.dat",
+        "1 19 90 0 30 1 0 0 0 1 0 0 0 1 3024.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 271,
+      "page": 17,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 130 -16 0 0 0 -1 0 1 0 1 0 0 4304.dat",
+        "1 28 100 -16 0 0 0 1 0 1 0 -1 0 0 3020.dat",
+        "1 19 100 -8 -30 1 0 0 0 1 0 0 0 1 99780.dat",
+        "1 19 100 -8 30 -1 0 0 0 1 0 0 0 -1 99780.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 272,
+      "page": 18,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 110 -40 0 0 0 1 0 1 0 -1 0 0 3298.dat",
+        "1 0 130 -40 0 0 0 -1 0 1 0 1 0 0 11211.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 273,
+      "page": 18,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 100 -24 -30 0 0 1 0 1 0 -1 0 0 15672.dat",
+        "1 28 100 -24 30 0 0 1 0 1 0 -1 0 0 15672.dat",
+        "1 19 110 -32 -30 1 0 0 0 1 0 0 0 1 3024.dat",
+        "1 19 110 -32 30 1 0 0 0 1 0 0 0 1 3024.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 274,
+      "page": 18,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 110 -40 -30 0 0 -1 0 1 0 1 0 0 79389.dat",
+        "1 19 110 -40 30 0 0 -1 0 1 0 1 0 0 79389.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 275,
+      "page": 18,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 124 -20 -30 0 -1 0 0 0 1 -1 0 0 11477.dat",
+        "1 28 124 -20 30 0 -1 0 0 0 1 -1 0 0 11477.dat",
+        "1 19 132 -10 -30 0 -1 0 0 0 1 -1 0 0 3024.dat",
+        "1 19 132 -10 30 0 -1 0 0 0 1 -1 0 0 3024.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 276,
+      "page": 19,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 120 -48 20 0 0 -1 0 1 0 1 0 0 26601.dat",
+        "1 28 120 -48 -20 1 0 0 0 1 0 0 0 1 26601.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 277,
+      "page": 19,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 16 0 -100 28 0 0 1 -1 0 0 0 -1 0 book2-lower-leg-opposite-skin.ldr"
+      ],
+      "physical_parts_added": 0,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 278,
+      "page": 19,
+      "submodels": [
+        "book2-lower-leg-opposite-skin.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 148 0 0 0 -1 0 0 0 1 -1 0 0 3068b.dat",
+        "1 0 148 -30 0 0 -1 0 0 0 1 -1 0 0 1748.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 279,
+      "page": 20,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 16 154.142136 22.426407 0 0 -0.70710678 0.70710678 0 0.70710678 0.70710678 -1 0 0 book2-lower-leg-core.ldr"
+      ],
+      "physical_parts_added": 0,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 280,
+      "page": 20,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 28 -120 0 0 -1 0 1 0 0 0 0 1 3034.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 281,
+      "page": 20,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 36 -80 0 0 -1 0 1 0 0 0 0 1 3020.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 282,
+      "page": 21,
+      "submodels": [
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 36 -60 0 0 -1 0 0 0 -1 1 0 0 15068.dat",
+        "1 19 36 -100 0 0 -1 0 0 0 -1 1 0 0 15068.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 283,
+      "page": 21,
+      "submodels": [
+        "book2-leg-core.ldr",
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 140 -20 36 0.70710678 0 -0.70710678 0.70710678 0 0.70710678 0 -1 0 79846.dat",
+        "1 28 120 -20 44 1 0 0 0 0 1 0 -1 0 26601.dat",
+        "1 28 154.14214 -5.857864 44 0.707107 0 0.707107 -0.707107 0 0.707107 0 -1 0 26601.dat",
+        "1 19 -28 -120 0 0 1 0 1 0 0 0 0 -1 3034.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 284,
+      "page": 22,
+      "submodels": [
+        "book2-leg-core.ldr",
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 80 -20 36 -1 0 0 0 0 -1 0 -1 0 26601.dat",
+        "1 28 -36 -80 0 0 1 0 1 0 0 0 0 -1 3020.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 285,
+      "page": 22,
+      "submodels": [
+        "book2-leg-core.ldr",
+        "book2-lower-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 100 -20 36 0 0 1 -1 0 0 0 -1 0 15068.dat",
+        "1 19 -36 -60 0 0 1 0 0 0 -1 -1 0 0 15068.dat",
+        "1 19 -36 -100 0 0 1 0 0 0 -1 -1 0 0 15068.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 286,
+      "page": 23,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 124 -20 -10 0 -1 0 1 0 0 0 0 1 3023b.dat",
+        "1 19 116 -20 -10 0 -1 0 0 0 1 -1 0 0 93273.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 287,
+      "page": 23,
+      "submodels": [
+        "book2-leg-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 80 8 0 0 0 1 0 1 0 -1 0 0 3020.dat",
+        "1 19 80 0 -30 1 0 0 0 1 0 0 0 1 99563.dat",
+        "1 19 80 0 30 1 0 0 0 1 0 0 0 1 99563.dat",
+        "1 28 90 16 0 0 0 -1 0 1 0 1 0 0 32803.dat",
+        "1 19 70 16 0 0 0 1 0 1 0 -1 0 0 3023b.dat"
+      ],
+      "physical_parts_added": 5,
+      "verification": "PDF diagram and local renderer comparison; no physical validation"
+    },
+    {
+      "step": 288,
+      "page": 25,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 0 0 1 0 0 0 1 0 0 0 1 3034.dat",
+        "1 19 -60 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 289,
+      "page": 25,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -60 -8 60 0 0 1 0 1 0 -1 0 0 3795.dat",
+        "1 19 -20 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat",
+        "1 19 -20 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat",
+        "1 19 20 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat",
+        "1 19 20 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat",
+        "1 19 60 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat",
+        "1 19 60 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat"
+      ],
+      "physical_parts_added": 7,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 290,
+      "page": 25,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 -20 -16 0 0 0 -1 0 1 0 1 0 0 2639.dat",
+        "1 4 -60 -24 0 1 0 0 0 1 0 0 0 1 4032a.dat",
+        "1 4 -20 -24 0 1 0 0 0 1 0 0 0 1 4032a.dat",
+        "1 4 -20 -24 40 1 0 0 0 1 0 0 0 1 4032a.dat",
+        "1 0 -20 -32 0 0 0 -1 0 1 0 1 0 0 2639.dat"
+      ],
+      "physical_parts_added": 5,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 291,
+      "page": 26,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 15 -70 -32 60 0 0 1 0 1 0 -1 0 0 30414.dat",
+        "1 15 -50 -32 60 0 0 -1 0 1 0 1 0 0 30414.dat",
+        "1 0 20 -32 0 1 0 0 0 1 0 0 0 1 67696.dat"
+      ],
+      "physical_parts_added": 3,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 292,
+      "page": 26,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -60 -40 100 0 0 1 0 1 0 -1 0 0 2445.dat",
+        "1 28 -20 -40 50 -1 0 0 0 1 0 0 0 -1 99781.dat",
+        "1 28 -20 -40 -10 1 0 0 0 1 0 0 0 1 99781.dat",
+        "1 28 -20 -40 10 -1 0 0 0 1 0 0 0 -1 99781.dat",
+        "1 28 20 -40 -10 1 0 0 0 1 0 0 0 1 99781.dat",
+        "1 28 20 -40 10 -1 0 0 0 1 0 0 0 -1 99781.dat"
+      ],
+      "physical_parts_added": 6,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 293,
+      "page": 26,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 15 -70 -32 140 0 0 1 0 1 0 -1 0 0 30414.dat",
+        "1 15 -50 -32 140 0 0 -1 0 1 0 1 0 0 30414.dat",
+        "1 2 -70 -32 200 0 0 1 0 1 0 -1 0 0 67329.dat",
+        "1 2 -50 -32 200 0 0 -1 0 1 0 1 0 0 67329.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 294,
+      "page": 27,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 84 -60 8 170 1 0 0 0 1 0 0 0 1 11215.dat",
+        "1 28 -60 24 140 0 0 1 0 1 0 -1 0 0 43722.dat",
+        "1 28 -60 16 140 0 0 -1 0 1 0 1 0 0 43723.dat",
+        "1 0 -60 0 150 -1 0 0 0 1 0 0 0 -1 4304.dat",
+        "1 322 -60 -8 150 1 0 0 0 1 0 0 0 1 35480.dat"
+      ],
+      "physical_parts_added": 5,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 295,
+      "page": 27,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -60 0 60 0 0 1 0 1 0 -1 0 0 3795.dat",
+        "1 322 -60 0 130 1 0 0 0 1 0 0 0 1 35480.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 296,
+      "page": 28,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -60 -8 120 1 0 0 0 1 0 0 0 1 3022.dat",
+        "1 19 -60 0 20 1 0 0 0 1 0 0 0 1 3022.dat",
+        "1 28 -70 8 20 0 0 -1 0 1 0 1 0 0 32803.dat",
+        "1 28 -50 8 20 0 0 1 0 1 0 -1 0 0 32803.dat"
+      ],
+      "physical_parts_added": 4,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 297,
+      "page": 28,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 60 8 0 0 0 1 0 1 0 -1 0 0 3020.dat",
+        "1 19 60 0 -30 1 0 0 0 1 0 0 0 1 99563.dat",
+        "1 19 60 0 30 1 0 0 0 1 0 0 0 1 99563.dat",
+        "1 28 70 16 0 0 0 -1 0 1 0 1 0 0 32803.dat",
+        "1 19 50 16 0 0 0 1 0 1 0 -1 0 0 3023b.dat"
+      ],
+      "physical_parts_added": 5,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 298,
+      "page": 29,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 20 -20 32 1 0 0 0 0 1 0 -1 0 3795.dat",
+        "1 19 -30 -20 40 0 0 1 -1 0 0 0 -1 0 3023b.dat",
+        "1 19 -30 -20 48 0 0 1 -1 0 0 0 -1 0 3023b.dat",
+        "1 19 -30 -20 56 0 0 1 -1 0 0 0 -1 0 3023b.dat",
+        "1 19 60 -20 40 1 0 0 0 0 1 0 -1 0 3022.dat",
+        "1 19 40 -20 32 0 0 1 -1 0 0 0 -1 0 15068.dat",
+        "1 19 -20 -30 64 0 0 -1 1 0 0 0 -1 0 15672.dat",
+        "1 19 -20 -10 64 0 0 -1 1 0 0 0 -1 0 15672.dat"
+      ],
+      "physical_parts_added": 8,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 299,
+      "page": 29,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -88 -12 160 0 1 0 0 0 1 1 0 0 3795.dat",
+        "1 19 -88 -12 120 0 1 0 1 0 0 0 0 -1 15068.dat"
+      ],
+      "physical_parts_added": 2,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 300,
+      "page": 30,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 -48 0 1 0 0 0 1 0 0 0 1 3034.dat",
+        "1 28 -40 -56 -10 1 0 0 0 1 0 0 0 1 41740.dat",
+        "1 19 -60 -48 0 -1 0 0 0 1 0 0 0 -1 15068.dat",
+        "1 28 60 -56 0 0 0 1 0 1 0 -1 0 0 3020.dat",
+        "1 19 60 -48 -30 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 60 -48 30 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 60 -56 0 0 0 1 0 1 0 -1 0 0 15068.dat",
+        "1 28 70 -64 0 0 0 1 0 1 0 -1 0 0 41740.dat"
+      ],
+      "physical_parts_added": 8,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 301,
+      "page": 31,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 -20 -32 -1 0 0 0 0 1 0 1 0 3034.dat",
+        "1 19 60 -20 -40 -1 0 0 0 0 1 0 1 0 3022.dat",
+        "1 19 70 -20 -48 0 0 -1 -1 0 0 0 1 0 3023b.dat",
+        "1 19 70 -20 -56 0 0 -1 -1 0 0 0 1 0 3023b.dat",
+        "1 19 40 -20 -32 0 0 1 1 0 0 0 1 0 15068.dat",
+        "1 19 -60 -20 -32 0 0 -1 -1 0 0 0 1 0 15068.dat"
+      ],
+      "physical_parts_added": 6,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 302,
+      "page": 31,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -60 -48 210 1 0 0 0 1 0 0 0 1 11291.dat"
+      ],
+      "physical_parts_added": 1,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    },
+    {
+      "step": 303,
+      "page": 31,
+      "submodels": [
+        "book2-leg-angle-core.ldr"
+      ],
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -70 -48 60 0 0 1 0 1 0 -1 0 0 41740.dat",
+        "1 19 -60 -56 200 1 0 0 0 1 0 0 0 1 3022.dat",
+        "1 19 -60 -64 210 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 -60 -56 200 1 0 0 0 1 0 0 0 1 15068.dat",
+        "1 19 -70 -48 150 1 0 0 0 1 0 0 0 1 27263.dat"
+      ],
+      "physical_parts_added": 5,
+      "verification": "PDF diagram and stud-grid draft; latest renderer comparison pending"
+    }
+  ],
+  "coordinate_system": "LDU; X upper-leg length; Y down; Z width. Final body mount not yet determined.",
+  "unresolved": [
+    {
+      "step": 292,
+      "issue": "2445 confirmed from 12 stud rings per BOM row. L-corner orientation corrected to allow white bricks into empty 2x2 corner. Fifth bracket and latest 288\u2013303 assembly require renderer comparison."
+    },
+    {
+      "step": 304,
+      "issue": "Not implemented yet. No body instructions marked skipped."
+    }
+  ],
+  "lessons": [
+    {
+      "scope": "model",
+      "step": 228,
+      "finding": "The offset bracket overhangs the end of the 2x10 plate. The 1x2 bottom plate at X=-110,Y=0 lies outside the base footprint, not intersecting it."
+    },
+    {
+      "scope": "reusable",
+      "steps": [
+        228,
+        231,
+        232
+      ],
+      "finding": "99780 up at Y=-8 and 99781 down at Y=-40 put side-stud rows at Y=-10 and -30, exactly one stud pitch apart; check stud rows to distinguish similar brackets."
+    },
+    {
+      "scope": "model",
+      "step": 240,
+      "finding": "The central upright with blank front foot is 41682 centered bracket, not 99780. Its side row is 10 LDU above the part origin."
+    },
+    {
+      "scope": "model",
+      "steps": [
+        271,
+        272,
+        273,
+        274,
+        275
+      ],
+      "finding": "4304 has two stud levels. 3020 is supported by its lower row, while 11211 is over the higher row; side studs then align exactly 20 LDU apart."
+    },
+    {
+      "scope": "model",
+      "steps": [
+        262,
+        277,
+        279,
+        280
+      ],
+      "finding": "Lower-leg skins mount on Z sides, leaving green X+ stud face for knee and long exterior plate. Step 280 is 2x8 3034, verified by enlarged BOM stud count; do not infer plate length from perspective."
+    },
+    {
+      "scope": "reusable",
+      "steps": [
+        286,
+        287
+      ],
+      "finding": "Adjacent caps shown in one view can attach on perpendicular planes: 286 uses the end-facing 4304 raised stud row, while 287 uses the underside of the long base plate. Read the reverse-view icon and visible antistuds before assigning one shared surface normal."
+    }
+  ],
+  "render_evidence": [
+    "/tmp/brick-book2/render232.png",
+    "/tmp/brick-book2/render235.png",
+    "/tmp/brick-book2/render242.png",
+    "/tmp/brick-book2/render247.png",
+    "/tmp/brick-book2/render261.png",
+    "/tmp/brick-book2/render264.png",
+    "/tmp/brick-book2/render281.png",
+    "/tmp/brick-book2/render290.png",
+    "/tmp/brick-book2/render287.png",
+    "/tmp/brick-book2/render293-corrected.png"
+  ],
+  "physical_validation": false,
+  "integration_ready": false,
+  "display_layout": "First leg upper/lower assembly through 287; independent L-shaped section through 303 at workbench offset X450. The two sections are not yet joined."
+}

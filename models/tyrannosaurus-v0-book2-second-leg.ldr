@@ -1,0 +1,105 @@
+0 FILE book2-second-leg-workbench.ldr
+0 Independent second leg assembly; no final body mount asserted.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 book2-second-leg-upper-core.ldr
+0 NOFILE
+0 FILE book2-second-leg-upper-core.ldr
+0 X along the core, Y down, Z across its width. Base3832 top is Y0.
+0 Instruction step 324 / book 2 page 52
+1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 19 80 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat
+1 19 80 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat
+0 STEP
+0 Instruction step 325 / book 2 page 52
+1 4 90 -16 -10 1 0 0 0 1 0 0 0 1 3172.dat
+1 4 90 -16 10 1 0 0 0 1 0 0 0 1 3172.dat
+1 322 80 -24 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 Instruction step 326 / book 2 page 52
+1 71 50 -32 0 0 0 1 0 1 0 -1 0 0 11215.dat
+1 322 -20 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 Instruction step 327 / book 2 page 52
+1 28 0 -16 0 1 0 0 0 1 0 0 0 1 3020.dat
+1 322 50 -40 0 0 0 1 0 1 0 -1 0 0 35480.dat
+1 0 80 -40 -10 1 0 0 0 1 0 0 0 1 99781.dat
+1 0 80 -40 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+0 STEP
+0 Instruction step 328 / book 2 page 52
+1 15 0 -40 -10 1 0 0 0 1 0 0 0 1 30414.dat
+1 15 0 -40 10 -1 0 0 0 1 0 0 0 -1 30414.dat
+1 0 -60 -40 -10 1 0 0 0 1 0 0 0 1 22885.dat
+1 0 -60 -40 10 -1 0 0 0 1 0 0 0 -1 22885.dat
+1 14 -90 -40 0 0 0 1 0 1 0 -1 0 0 67329.dat
+0 STEP
+0 Instruction step 329 / book 2 page 53
+1 0 90 -20 -32 0 0 -1 -1 0 0 0 1 0 3023b.dat
+1 0 90 -20 32 0 0 1 -1 0 0 0 -1 0 3023b.dat
+1 71 70 -20 -32 0 0 -1 -1 0 0 0 1 0 14418.dat
+1 71 70 -20 32 0 0 1 -1 0 0 0 -1 0 14418.dat
+1 19 70 -30 -40 -1 0 0 0 0 1 0 1 0 3070b.dat
+1 19 70 -30 40 1 0 0 0 0 1 0 -1 0 3070b.dat
+0 STEP
+0 Instruction step 330 / book 2 page 53
+1 19 90 -10 -40 0 0 -1 -1 0 0 0 1 0 27263.dat
+1 19 90 -10 40 -1 0 0 0 0 -1 0 -1 0 27263.dat
+0 STEP
+0 Instruction step 331 / book 2 page 53
+1 19 0 -30 -36 -1 0 0 0 0 1 0 1 0 72132.dat
+1 19 0 -30 36 1 0 0 0 0 1 0 -1 0 72132.dat
+0 STEP
+0 Instruction step 332 / book 2 page 53
+1 19 50 -20 -36 0 0 -1 -1 0 0 0 1 0 99563.dat
+1 19 50 -20 36 0 0 1 -1 0 0 0 -1 0 99563.dat
+0 STEP
+0 Instruction step 338 / book 2 page 55
+1 16 0 -48 0 1 0 0 0 1 0 0 0 1 book2-second-leg-upper-skin.ldr
+0 STEP
+0 Instruction step 339 / book 2 page 56
+1 19 20 -48 -30 1 0 0 0 1 0 0 0 1 3023b.dat
+1 19 30 -56 -30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 0 -64 -30 0 0 1 0 1 0 -1 0 0 11153.dat
+1 19 20 -48 30 1 0 0 0 1 0 0 0 1 3023b.dat
+1 19 30 -56 30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 0 -64 30 0 0 1 0 1 0 -1 0 0 11153.dat
+0 STEP
+0 Instruction step 340 / book 2 page 56
+1 0 -116 -20 -10 0 1 0 -1 0 0 0 0 1 4304.dat
+0 STEP
+0 Instruction step 341 / book 2 page 56
+0 79846 wing exchange symmetry used to retain positive determinant on the opposite knee.
+1 0 -140 -20 -36 -0.70710678 0 0.70710678 0.70710678 0 0.70710678 0 1 0 79846.dat
+1 28 -120 -20 -44 1 0 0 0 0 -1 0 1 0 26601.dat
+1 28 -154.142136 -5.857864 -44 0.70710678 0 0.70710678 0.70710678 0 -0.70710678 0 1 0 26601.dat
+0 STEP
+0 Instruction step 342 / book 2 page 56
+1 28 -80 -20 -36 -1 0 0 0 0 1 0 1 0 26601.dat
+1 19 -100 -20 -36 0 0 -1 -1 0 0 0 1 0 15068.dat
+0 NOFILE
+
+0 FILE book2-second-leg-upper-skin.ldr
+0 Instruction step 333 / book 2 page 54
+1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 19 -90 -8 0 0 0 -1 0 1 0 1 0 0 11291.dat
+0 STEP
+0 Instruction step 334 / book 2 page 54
+1 19 -20 -8 0 1 0 0 0 1 0 0 0 1 87580.dat
+1 19 20 -8 0 1 0 0 0 1 0 0 0 1 87580.dat
+1 19 60 -8 0 1 0 0 0 1 0 0 0 1 87580.dat
+1 28 -80 0 -10 0 0 -1 0 1 0 1 0 0 11477.dat
+1 28 -80 0 10 0 0 -1 0 1 0 1 0 0 11477.dat
+0 STEP
+0 Instruction step 335 / book 2 page 54
+1 28 -70 0 -30 1 0 0 0 1 0 0 0 1 3623.dat
+1 28 -70 0 30 1 0 0 0 1 0 0 0 1 3623.dat
+0 STEP
+0 Instruction step 336 / book 2 page 54
+1 19 80 -8 0 0 0 1 0 1 0 -1 0 0 41682.dat
+1 71 68 -18 0 0 1 0 0 0 1 1 0 0 14704.dat
+1 19 60 -18 0 0 1 0 0 0 1 1 0 0 99563.dat
+0 STEP
+0 Instruction step 337 / book 2 page 55
+1 28 30 -16 0 1 0 0 0 1 0 0 0 1 3710.dat
+1 28 40 -24 0 1 0 0 0 1 0 0 0 1 3623.dat
+1 19 50 -32 0 1 0 0 0 1 0 0 0 1 99563.dat
+1 19 -10 -32 0 0 0 1 0 1 0 -1 0 0 11153.dat
+0 NOFILE

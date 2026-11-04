@@ -1,0 +1,34 @@
+{
+  "scope": {
+    "book": 3,
+    "pages": [
+      76,
+      89
+    ],
+    "steps": [
+      659,
+      702
+    ]
+  },
+  "status": "in_progress",
+  "placed_steps": [
+    659,
+    674
+  ],
+  "physical_parts": 35,
+  "verified_complete": false,
+  "pending": [
+    "675–689 mirrored counterpart placement after page comparison",
+    "691–697 ball-joint bridge",
+    "698–699 folded articulation placement",
+    "700–702 teeth",
+    "render and connection checks"
+  ],
+  "corrections": [
+    "659 tan plate identified as 78329 1x5",
+    "660 brown plate identified as Technic 3738",
+    "663 wings mounted beside 3738 at same top plane",
+    "666–668 stepped underside contact levels accounted for"
+  ],
+  "assets_missing": []
+}

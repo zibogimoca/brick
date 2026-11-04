@@ -1,0 +1,256 @@
+{
+  "book": 2,
+  "scope": "Second leg, steps324–425",
+  "status": "in_progress",
+  "last_placed_step": 342,
+  "physical_piece_count": 57,
+  "steps": [
+    {
+      "step": 324,
+      "page": 52,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat",
+        "1 19 80 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat",
+        "1 19 80 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat"
+      ],
+      "verification": "Stud planes and instruction diagram; renderer comparison pending",
+      "physical_parts_added": 3
+    },
+    {
+      "step": 325,
+      "page": 52,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 4 90 -16 -10 1 0 0 0 1 0 0 0 1 3172.dat",
+        "1 4 90 -16 10 1 0 0 0 1 0 0 0 1 3172.dat",
+        "1 322 80 -24 0 1 0 0 0 1 0 0 0 1 3022.dat"
+      ],
+      "verification": "Stud planes and instruction diagram; renderer comparison pending",
+      "physical_parts_added": 3
+    },
+    {
+      "step": 326,
+      "page": 52,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 71 50 -32 0 0 0 1 0 1 0 -1 0 0 11215.dat",
+        "1 322 -20 -8 0 1 0 0 0 1 0 0 0 1 3022.dat"
+      ],
+      "verification": "Stud planes and instruction diagram; renderer comparison pending",
+      "physical_parts_added": 2
+    },
+    {
+      "step": 327,
+      "page": 52,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 0 -16 0 1 0 0 0 1 0 0 0 1 3020.dat",
+        "1 322 50 -40 0 0 0 1 0 1 0 -1 0 0 35480.dat",
+        "1 0 80 -40 -10 1 0 0 0 1 0 0 0 1 99781.dat",
+        "1 0 80 -40 10 -1 0 0 0 1 0 0 0 -1 99781.dat"
+      ],
+      "verification": "Stud planes and instruction diagram; renderer comparison pending",
+      "physical_parts_added": 4
+    },
+    {
+      "step": 328,
+      "page": 52,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 15 0 -40 -10 1 0 0 0 1 0 0 0 1 30414.dat",
+        "1 15 0 -40 10 -1 0 0 0 1 0 0 0 -1 30414.dat",
+        "1 0 -60 -40 -10 1 0 0 0 1 0 0 0 1 22885.dat",
+        "1 0 -60 -40 10 -1 0 0 0 1 0 0 0 -1 22885.dat",
+        "1 14 -90 -40 0 0 0 1 0 1 0 -1 0 0 67329.dat"
+      ],
+      "verification": "Stud planes and instruction diagram; renderer comparison pending",
+      "physical_parts_added": 5
+    },
+    {
+      "step": 329,
+      "page": 53,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 90 -20 -32 0 0 -1 -1 0 0 0 1 0 3023b.dat",
+        "1 0 90 -20 32 0 0 1 -1 0 0 0 -1 0 3023b.dat",
+        "1 71 70 -20 -32 0 0 -1 -1 0 0 0 1 0 14418.dat",
+        "1 71 70 -20 32 0 0 1 -1 0 0 0 -1 0 14418.dat",
+        "1 19 70 -30 -40 -1 0 0 0 0 1 0 1 0 3070b.dat",
+        "1 19 70 -30 40 1 0 0 0 0 1 0 -1 0 3070b.dat"
+      ],
+      "verification": "Instruction and stud coordinate comparison; renderer pending",
+      "physical_parts_added": 6
+    },
+    {
+      "step": 330,
+      "page": 53,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 90 -10 -40 0 0 -1 -1 0 0 0 1 0 27263.dat",
+        "1 19 90 -10 40 -1 0 0 0 0 -1 0 -1 0 27263.dat"
+      ],
+      "verification": "Instruction and stud coordinate comparison; renderer pending",
+      "physical_parts_added": 2
+    },
+    {
+      "step": 331,
+      "page": 53,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 0 -30 -36 -1 0 0 0 0 1 0 1 0 72132.dat",
+        "1 19 0 -30 36 1 0 0 0 0 1 0 -1 0 72132.dat"
+      ],
+      "verification": "Instruction and stud coordinate comparison; renderer pending",
+      "physical_parts_added": 2
+    },
+    {
+      "step": 332,
+      "page": 53,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 50 -20 -36 0 0 -1 -1 0 0 0 1 0 99563.dat",
+        "1 19 50 -20 36 0 0 1 -1 0 0 0 -1 0 99563.dat"
+      ],
+      "verification": "Instruction and stud coordinate comparison; renderer pending",
+      "physical_parts_added": 2
+    },
+    {
+      "step": 333,
+      "page": 54,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat",
+        "1 19 -90 -8 0 0 0 -1 0 1 0 1 0 0 11291.dat"
+      ],
+      "verification": "PDF step-by-step and corresponding first-leg structure compared; not a blind reflection",
+      "physical_parts_added": 2
+    },
+    {
+      "step": 334,
+      "page": 54,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 -20 -8 0 1 0 0 0 1 0 0 0 1 87580.dat",
+        "1 19 20 -8 0 1 0 0 0 1 0 0 0 1 87580.dat",
+        "1 19 60 -8 0 1 0 0 0 1 0 0 0 1 87580.dat",
+        "1 28 -80 0 -10 0 0 -1 0 1 0 1 0 0 11477.dat",
+        "1 28 -80 0 10 0 0 -1 0 1 0 1 0 0 11477.dat"
+      ],
+      "verification": "PDF step-by-step and corresponding first-leg structure compared; not a blind reflection",
+      "physical_parts_added": 5
+    },
+    {
+      "step": 335,
+      "page": 54,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -70 0 -30 1 0 0 0 1 0 0 0 1 3623.dat",
+        "1 28 -70 0 30 1 0 0 0 1 0 0 0 1 3623.dat"
+      ],
+      "verification": "PDF step-by-step and corresponding first-leg structure compared; not a blind reflection",
+      "physical_parts_added": 2
+    },
+    {
+      "step": 336,
+      "page": 54,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 80 -8 0 0 0 1 0 1 0 -1 0 0 41682.dat",
+        "1 71 68 -18 0 0 1 0 0 0 1 1 0 0 14704.dat",
+        "1 19 60 -18 0 0 1 0 0 0 1 1 0 0 99563.dat"
+      ],
+      "verification": "PDF step-by-step and corresponding first-leg structure compared; not a blind reflection",
+      "physical_parts_added": 3
+    },
+    {
+      "step": 337,
+      "page": 55,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 30 -16 0 1 0 0 0 1 0 0 0 1 3710.dat",
+        "1 28 40 -24 0 1 0 0 0 1 0 0 0 1 3623.dat",
+        "1 19 50 -32 0 1 0 0 0 1 0 0 0 1 99563.dat",
+        "1 19 -10 -32 0 0 0 1 0 1 0 -1 0 0 11153.dat"
+      ],
+      "verification": "PDF step-by-step and corresponding first-leg structure compared; not a blind reflection",
+      "physical_parts_added": 4
+    },
+    {
+      "step": 338,
+      "page": 55,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [],
+      "verification": "PDF step-by-step and corresponding first-leg structure compared; not a blind reflection",
+      "physical_parts_added": 0
+    },
+    {
+      "step": 339,
+      "page": 56,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 19 20 -48 -30 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 30 -56 -30 1 0 0 0 1 0 0 0 1 3024.dat",
+        "1 19 0 -64 -30 0 0 1 0 1 0 -1 0 0 11153.dat",
+        "1 19 20 -48 30 1 0 0 0 1 0 0 0 1 3023b.dat",
+        "1 19 30 -56 30 1 0 0 0 1 0 0 0 1 3024.dat",
+        "1 19 0 -64 30 0 0 1 0 1 0 -1 0 0 11153.dat"
+      ],
+      "verification": "PDF shape and positive-determinant geometry symmetry; renderer pending",
+      "physical_parts_added": 6
+    },
+    {
+      "step": 340,
+      "page": 56,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 -116 -20 -10 0 1 0 -1 0 0 0 0 1 4304.dat"
+      ],
+      "verification": "PDF shape and positive-determinant geometry symmetry; renderer pending",
+      "physical_parts_added": 1
+    },
+    {
+      "step": 341,
+      "page": 56,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 0 -140 -20 -36 -0.70710678 0 0.70710678 0.70710678 0 0.70710678 0 1 0 79846.dat",
+        "1 28 -120 -20 -44 1 0 0 0 0 -1 0 1 0 26601.dat",
+        "1 28 -154.142136 -5.857864 -44 0.70710678 0 0.70710678 0.70710678 0 -0.70710678 0 1 0 26601.dat"
+      ],
+      "verification": "PDF shape and positive-determinant geometry symmetry; renderer pending",
+      "physical_parts_added": 3
+    },
+    {
+      "step": 342,
+      "page": 56,
+      "phase_1": "identified",
+      "phase_2": "local_placement_implemented",
+      "parts": [
+        "1 28 -80 -20 -36 -1 0 0 0 0 1 0 1 0 26601.dat",
+        "1 19 -100 -20 -36 0 0 -1 -1 0 0 0 1 0 15068.dat"
+      ],
+      "verification": "PDF shape and positive-determinant geometry symmetry; renderer pending",
+      "physical_parts_added": 2
+    }
+  ],
+  "unresolved": []
+}

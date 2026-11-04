@@ -150,9 +150,14 @@ $('front-view').onclick = () => { viewDirection.set(-1, .08, 0); fit(); };
 // Reuse identical physical part meshes while keeping original groups for posing.
 function buildInstanceBatches() {
   instanceBatches = []; const buckets = new Map();
+  model.updateMatrixWorld(true);
+  const inverse = model.matrixWorld.clone().invert(), relative = new THREE.Matrix4();
   model.traverse(object => {
     if (object.isLineSegments) { object.visible = false; return; }
     if (!object.isMesh) return;
+    // InstancedMesh does not support negative scales. Keep mirrored LDraw
+    // parts as ordinary meshes so their face winding renders correctly.
+    if (relative.multiplyMatrices(inverse, object.matrixWorld).determinant() < 0) return;
     const materials = Array.isArray(object.material) ? object.material : [object.material];
     const key = object.geometry.uuid + ':' + materials.map(m => m.uuid).join(',');
     if (!buckets.has(key)) buckets.set(key, []);

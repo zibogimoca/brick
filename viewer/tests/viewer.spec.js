@@ -93,14 +93,63 @@ test('refreshes an old catalog before requesting a versioned model', async ({ pa
 });
 
 test('loads current v0 workbench with no invented articulation and can return to v1', async ({ page }) => {
+  test.setTimeout(60000);
   await load(page);
   await page.selectOption('#models', { label: '티라노사우루스 · 버전 0' });
   await expect(page.locator('#status')).toContainText('버전 0 · 작업 중', { timeout: 30000 });
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
   await expect(page.locator('#summary')).toContainText('원래 조립 위치 아님');
-  await expect(page.locator('#summary')).toContainText('본체 초안 175개');
+  await expect(page.locator('#summary')).toContainText('본체 초안 1603개');
   await expect(page.locator('#pose-panel')).toBeHidden();
   await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
   await expect(page.locator('#joint option')).toHaveCount(18);
+});
+
+test('mirrored LDraw meshes retain the same exterior as a symmetric ordinary mesh', async ({ page }, testInfo) => {
+  const { createHash } = await import('node:crypto');
+  const cube = [
+    '0 FILE cube.dat', '0 !LDRAW_ORG Part', '0 BFC CERTIFY CCW',
+    '4 16 -20 -20 20 20 -20 20 20 20 20 -20 20 20',
+    '4 16 20 -20 -20 -20 -20 -20 -20 20 -20 20 20 -20',
+    '4 16 20 -20 20 20 -20 -20 20 20 -20 20 20 20',
+    '4 16 -20 -20 -20 -20 -20 20 -20 20 20 -20 20 -20',
+    '4 16 -20 20 20 20 20 20 20 20 -20 -20 20 -20',
+    '4 16 -20 -20 -20 20 -20 -20 20 -20 20 -20 -20 20',
+    '0 NOFILE'
+  ].join('\n');
+  let body, revision;
+  await page.route('**/models/index.json?*', route => route.fulfill({ json: [{ name: 'Mirror check', url: './models/mirror-check.mpd', version: revision }] }));
+  await page.route('**/models/mirror-check.mpd?*', route => route.fulfill({ body }));
+  const render = async scale => {
+    body = `0 FILE mirror-check.ldr\n1 19 0 0 0 ${scale} 0 0 0 1 0 0 0 1 cube.dat\n0 NOFILE\n${cube}`;
+    revision = createHash('sha256').update(body).digest('hex').slice(0, 12);
+    await page.goto('/');
+    await page.selectOption('#models', { label: 'Mirror check' });
+    await expect(page.locator('canvas')).toHaveAttribute('data-model-loaded', 'true');
+    await page.click('#side-view');
+    await page.waitForTimeout(300);
+    return page.locator('canvas').screenshot();
+  };
+  const normal = await render(1), mirrored = await render(-1);
+  const { writeFile } = await import('node:fs/promises');
+  await writeFile(testInfo.outputPath('normal.png'), normal);
+  await writeFile(testInfo.outputPath('mirrored.png'), mirrored);
+  await testInfo.attach('normal', { body: normal, contentType: 'image/png' });
+  await testInfo.attach('mirrored', { body: mirrored, contentType: 'image/png' });
+  const changedFraction = await page.evaluate(async encoded => {
+    const pixels = await Promise.all(encoded.map(async value => {
+      const image = new Image(); image.src = `data:image/png;base64,${value}`; await image.decode();
+      const canvas = document.createElement('canvas'); canvas.width = image.width; canvas.height = image.height;
+      const context = canvas.getContext('2d'); context.drawImage(image, 0, 0);
+      return context.getImageData(0, 0, canvas.width, canvas.height).data;
+    }));
+    let changed = 0;
+    for (let i = 0; i < pixels[0].length; i += 4) {
+      if ([0, 1, 2].some(c => Math.abs(pixels[0][i + c] - pixels[1][i + c]) > 3)) changed++;
+    }
+    return changed / (pixels[0].length / 4);
+  }, [normal.toString('base64'), mirrored.toString('base64')]);
+  // Ignore subpixel rasterization differences, but reject missing/reversed faces.
+  expect(changedFraction).toBeLessThan(.001);
 });
