@@ -12,8 +12,8 @@
   "source": "/tmp/brick-instructions/1.pdf",
   "model": "models/tyrannosaurus-v0-book1-remainder.ldr",
   "root": "book1-remainder-workbench.ldr",
-  "physical_parts_in_workbench": 171,
-  "scope_note": "Workbenches separated; only hip ring overlay uses body frame. No claim of final attachment or full reconstruction.",
+  "physical_parts_in_workbench": 116,
+  "scope_note": "Independent workbench; neck187–190 andlower-flank191–192 overlays now use body-global frames internally. Final shared-root integration is parent-owned.",
   "assemblies": [
     {
       "name": "pelvic-spur-step195.ldr",
@@ -84,6 +84,21 @@
       "name": "body-lower-flank-overlay-step191.ldr",
       "part_count": 22,
       "status": "local_placement_under_review"
+    },
+    {
+      "name": "neck-surface-and-horns-overlay-step187.ldr",
+      "part_count": 36,
+      "status": "diagram_placed_render_checked"
+    },
+    {
+      "name": "body-pelvic-spur-overlay-step199.ldr",
+      "part_count": 13,
+      "status": "diagram_placed_render_checked"
+    },
+    {
+      "name": "neck-rear-horns-overlay-step224.ldr",
+      "part_count": 12,
+      "status": "diagram_placed_render_checked"
     }
   ],
   "step_status": {
@@ -124,8 +139,13 @@
       "assembly": "pelvic-lower-bar-step202.ldr"
     },
     "207": {
-      "status": "local_parts_placed_review_pending",
-      "assembly": "pelvic-panel-step207.ldr"
+      "status": "BOM_and_connection_grid_corrected_render_checked",
+      "assembly": "pelvic-panel-step207.ldr",
+      "corrections": [
+        "41682 replaced with32803inversecurves",
+        "front3172/35480andpinbrickshiftedZ-20",
+        "61332nativeaxisXusesidentitybetweenholesX±10"
+      ]
     },
     "212": {
       "status": "local_parts_placed_review_pending",
@@ -146,26 +166,24 @@
       "pending": "center-bottom15068 and spur clearance"
     },
     "187": {
-      "status": "parts_identified_placement_waits_neck_frame",
-      "parts": {
-        "11477_tan": 7,
-        "28192_dark_tan": 1
-      }
+      "status": "diagram_placed_render_checked",
+      "assembly": "neck-surface-and-horns-overlay-step187.ldr",
+      "physical_parts": 8
     },
     "189": {
-      "status": "parts_identified_placement_waits_neck_frame",
-      "parts": {
-        "11477_tan": 7,
-        "28192_dark_tan": 1
-      }
+      "status": "diagram_placed_render_checked",
+      "assembly": "neck-surface-and-horns-overlay-step187.ldr",
+      "physical_parts": 8
     },
     "188": {
-      "status": "inset_assembled_body_attachment_pending",
-      "assembly": "neck-horn-pair-step188.ldr"
+      "status": "diagram_placed_render_checked",
+      "assembly": "neck-surface-and-horns-overlay-step187.ldr",
+      "physical_parts": 10
     },
     "190": {
-      "status": "inset_assembled_body_attachment_pending",
-      "assembly": "neck-horn-pair-step188.ldr"
+      "status": "diagram_placed_render_checked",
+      "assembly": "neck-surface-and-horns-overlay-step187.ldr",
+      "physical_parts": 10
     },
     "191": {
       "status": "body_overlay_stud_positions_matched_render_pending",
@@ -176,17 +194,35 @@
       "assembly": "body-lower-flank-overlay-step191.ldr"
     },
     "193": {
-      "status": "parts_identified_body_support_axes_review",
+      "status": "support_interface_depth_pending",
       "parts": {
         "3705_red": 1,
         "32073_yellow": 1
-      }
+      },
+      "reason": "Front30000 vertical boreX-780 identified; rear39789regionX-60. Existinglower3832plates coverrearaxle borepath, so insertdepth cannotbeclaimed without underside review. Thisisstandinterface, not omitted dinosaurbody anatomy."
     },
     "194": {
-      "status": "attachment_or_pose_not_yet_implemented"
+      "status": "replacement_stand_integration_pending",
+      "reason": "Instructionplacesbodyonstand. User authorizedreplacementsupportplate; existingbody remains inbody-localframe andnot claimedstandingstable."
     },
     "199": {
-      "status": "attachment_or_pose_not_yet_implemented"
+      "status": "diagram_placed_render_checked",
+      "assembly": "body-pelvic-spur-overlay-step199.ldr",
+      "mount": [
+        -260,
+        96,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "evidence": "35480raisedstudpairlocalY-24/Z-50 mapsbody(-310,72,+/-10), matching1633034bottomY72. Bladepointsrearward+X. PDFp202andChromiumside/angledviewchecked; physicalholdingstrengthnotvalidated."
     },
     "213": {
       "status": "attachment_or_pose_not_yet_implemented"
@@ -238,18 +274,21 @@
       "assembly": "dorsal-tall-step223.ldr"
     },
     "224": {
-      "status": "inset_assembled_body_attachment_pending",
-      "assembly": "neck-horn-pair-step188.ldr"
+      "status": "diagram_placed_render_checked",
+      "assembly": "neck-rear-horns-overlay-step224.ldr",
+      "physical_parts": 6,
+      "evidence": "Remaining3clipsX-890/-870/-850 matchdiagram218/219; samebar-axis/curve orientation as188/190."
     },
     "225": {
-      "status": "inset_assembled_body_attachment_pending",
-      "assembly": "neck-horn-pair-step188.ldr"
+      "status": "diagram_placed_render_checked",
+      "assembly": "neck-rear-horns-overlay-step224.ldr",
+      "physical_parts": 6,
+      "evidence": "Remaining3clipsX-890/-870/-850 matchdiagram218/219; samebar-axis/curve orientation as188/190."
     }
   },
   "unresolved": [
     "195-198: final hinged blade angle and base clipping clearance need rendering comparison.",
     "202-206: stepped bottom connections of13547/70681 require section-level confirmation.",
-    "207: 41682 side-stud connection derived geometrically; narrow tile overhang still needs visual confirmation.",
     "207/209: duplicate panels not yet attached to lower bar; 208/210/211 unfinished.",
     "214-217 hinge carrier mounting under review.",
     "187-190/222-225 depend on unresolved parent neck frame; not skipped or marked done."
@@ -276,5 +315,31 @@
     "216 side stud row and219 bend angle need confirmation before220 body attachment.",
     "221–223 inset units complete, body top-spacer coordinates not yet applied.",
     "188/190/224/225 horn pairs assembled; body neck-frame placements pending."
-  ]
+  ],
+  "neck_attachment_evidence": [
+    "187seven11477anchor nativeZ-10 atclip upperstudY;originY=studY-10,Z48;curveextendsupward andlowedge stopsbeforeCclip.",
+    "187left28192footY8onclipplaneZ48,originZ56;cutout extendsupward.",
+    "18823443nativebaraxisZ aligns CclipworldX;mouthY+30 belowclip. Horncurvesinward towardmidline, fivefrontclips only.",
+    "189/190 reflected toopposite side;224/225remaining sixindependenthornpairs preserved.",
+    "Chromium close andside render withcorrectedbody174–186 passed. Upper curvedfaces terminate beforeclip;fivefrontthroat ribs eachside mount onbar centersXaxis. Pose is straight insertion;physicalhingefriction notvalidated."
+  ],
+  "integrated_into_main": {
+    "187–190": "neck-surface-and-horns-overlay-step187.ldr,36parts",
+    "191–192": "body-lower-flank-overlay-step191.ldr,22parts",
+    "195–199": "body-pelvic-spur-overlay-step199.ldr + nestedassemblies,13parts"
+  },
+  "dorsal_mount_review": {
+    "221": {
+      "status": "mount_under_review",
+      "evidence": "PDF215closeup confirms archfoot towardbody-front(-X), requiringRy180 for78666 nativefoot+X. PDF174/175 rear-jumper/bridge lattice appears shifted relativecurrentmain170/171/172; verifyagainst169cap beforeadjustment.",
+      "candidate_prior_correction": "170/171ridgecenters +40X and1723460center-40 instead-80; not yetapplied oraccepted.",
+      "images": [
+        "/tmp/brick-instructions/dorsal-221-close.png",
+        "/tmp/brick-instructions/dorsal-tail-174.png",
+        "/tmp/brick-instructions/dorsal-tail-175.png"
+      ]
+    },
+    "222": "Independent6spinespreserved; mountsdependontopgridreview.",
+    "223": "Independent7tall+1capassembliespreserved.1414477studgridiseven20LDU while173spacerstudsareodd10LDU; verifyhalfstud/undersidesupportattransition ratherthanforcingregulararray."
+  }
 }

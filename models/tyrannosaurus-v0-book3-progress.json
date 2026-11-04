@@ -1251,7 +1251,7 @@
       "parts": {
         "2420@28": 2
       },
-      "note": ""
+      "note": "Corrected2420 to inner low4304 rows: Y−128, negativeZRy−90/positiveZRy180. Outer high rows remain clear; formerly Y−136/outer-facing caused crown support conflict."
     },
     {
       "step": 611,
@@ -1318,7 +1318,7 @@
       "parts": {
         "78444@28": 2
       },
-      "note": "Two same-handed wedges form L; front tip rests 36841 and rear corner rests 3021."
+      "note": "Front wedge corrected fromX−10/Ry+90 toX10/Ry−90 using all six stud centers and extra end stud in page54: rowX−40..60,Z−120, extraX−40,Z−140. Far wedge unchanged."
     },
     {
       "step": 617,
@@ -1332,12 +1332,300 @@
         "66956@28": 1
       },
       "note": "Brow subassembly uses 70681 stepped underside (16/24), 29119 and 66956 curved cutouts."
+    },
+    {
+      "step": 618,
+      "page": 55,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3623@19": 1,
+        "11477@19": 1
+      },
+      "note": "3623 atY−8 is flush with adjacent wedge, supported by3021 atX20,Z−100; not stacked on wedge. This distinction fixes the following arch support heights."
+    },
+    {
+      "step": 619,
+      "page": 55,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "29119@28": 1
+      },
+      "note": "Cutout cap placed on final3623 stud; reflected handedness checked against cutout direction."
+    },
+    {
+      "step": 620,
+      "page": 56,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "70681@19": 2
+      },
+      "note": "Both originsY−24; base bottomsY−8 match35480 and3623; extended bottomsY0 match26601/6141. Ends meet atZ−50."
+    },
+    {
+      "step": 621,
+      "page": 56,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "29119@28": 1,
+        "29120@28": 1
+      },
+      "note": "29119 caps upper70681 stud;29120 covers extra26601 outer stud atX−20,Z−40, not the lower70681 stud, which remains exposed."
+    },
+    {
+      "step": 622,
+      "page": 57,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3623@19": 1,
+        "11477@19": 1
+      },
+      "note": "Plate on near wedge stud row."
+    },
+    {
+      "step": 623,
+      "page": 57,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "11477@19": 1,
+        "80177@19": 1
+      },
+      "note": "80177 stepped underside matches three heights:36841Y0,78444Y−8,3623Y−16."
+    },
+    {
+      "step": 624,
+      "page": 58,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "73825@19": 1,
+        "35480@28": 1,
+        "99781@28": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 625,
+      "page": 58,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "41769@19": 1,
+        "26601@28": 1,
+        "6141@28": 2
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 626,
+      "page": 59,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3021@28": 1,
+        "3660@19": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 627,
+      "page": 59,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "30357@19": 1,
+        "36841@70": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 628,
+      "page": 60,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "78443@28": 2
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 629,
+      "page": 60,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "26601@28": 1,
+        "70681@19": 2,
+        "29120@28": 1,
+        "66956@28": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 630,
+      "page": 61,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3623@19": 1,
+        "11477@19": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 631,
+      "page": 61,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "29120@28": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 632,
+      "page": 62,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "70681@19": 2
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 633,
+      "page": 62,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "29120@28": 1,
+        "29119@28": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 634,
+      "page": 63,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3623@19": 1,
+        "11477@19": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 635,
+      "page": 63,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "11477@19": 1,
+        "80178@19": 1
+      },
+      "note": "Opposite cheek compared to pages58–63; chiral counterparts exchanged and26601/30357 mirror implemented by proper rotations."
+    },
+    {
+      "step": 636,
+      "page": 64,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "26601@28": 2
+      },
+      "note": "Corner plates rest5883031 inner row and omit rear-outside corners occupied by59011477."
+    },
+    {
+      "step": 637,
+      "page": 64,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "13548@28": 2
+      },
+      "note": "Facet top studs atX−70,Y−56,Z±30 establish60LDU front arch span."
+    },
+    {
+      "step": 638,
+      "page": 65,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3460@72": 1,
+        "33909@0": 2,
+        "4032a@19": 1
+      },
+      "note": "Gray row supported by outer73825 bracket facesY−136; black plates by6141Y−136; round plate one layer lower on6113021Y−128."
+    },
+    {
+      "step": 639,
+      "page": 66,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3024@19": 4,
+        "32952@19": 2,
+        "15571@19": 2
+      },
+      "note": "Side stud centersY−94/−74 are aligned with15571 bottom stud holders; apex faces inward."
+    },
+    {
+      "step": 640,
+      "page": 67,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3659@19": 1
+      },
+      "note": "Arch endpointsZ±30 coincide with639 top plates atY−112."
+    },
+    {
+      "step": 641,
+      "page": 68,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3034@19": 1,
+        "35480@27": 1,
+        "32803@28": 2,
+        "63868@19": 2,
+        "30503@19": 2,
+        "33909@28": 2
+      },
+      "note": "Crownroot(−40,−136,0),Ry−90. Base rests610; clips bridge baseX−50 andarchX−70; wings extend rearward and rest638grayrail, preserving lime centralgap."
+    },
+    {
+      "step": 642,
+      "page": 69,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "15672@19": 2,
+        "50950@19": 2
+      },
+      "note": "50950 is3×1, not11477. Cutout foot16 fits15672stud; full feet24 restblack33909."
+    },
+    {
+      "step": 643,
+      "page": 69,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "15573@19": 1,
+        "33909@28": 2
+      },
+      "note": "Jumper atopround4032; two new plates bridge crown rear wingedges. Render review pending."
     }
   ],
-  "last_implemented_step": 617,
-  "next_step": 618,
-  "piece_count": 577,
-  "verification": "Tail 494\u2013560 (419 parts) reference graph and Chromium render pass. Skull 561\u2013568 placement awaiting render. Final mount, hinge poses and physical fit remain unverified.",
+  "last_implemented_step": 643,
+  "next_step": 644,
+  "piece_count": 651,
+  "verification": "Through641 crown rendered after610 support correction.642–643 placed; combined render pending. Global jaw/body attachment and physical fit remain unverified.",
   "connections": [
     {
       "name": "tail_middle_rear_ball_stack",
@@ -1502,7 +1790,22 @@
     51,
     52,
     53,
-    54
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
   ],
   "unresolved": [
     {

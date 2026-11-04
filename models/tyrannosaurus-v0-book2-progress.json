@@ -1420,7 +1420,7 @@
       "phase_1": "assembly_connection_identified",
       "phase_2": "body_integration_pending",
       "physical_parts_added": 0,
-      "connection": "Leg3172holes common axis through local(-130,-6,0), axisZ. Match body hip pin then set supported pose; no numerical angle given."
+      "connection": "Hip uses67696 socket in L-core291; original3172redpegholes are foot/base locks, not hip."
     },
     {
       "step": 316,
@@ -1428,7 +1428,7 @@
       "phase_1": "assembly_connection_identified",
       "phase_2": "body_integration_pending",
       "physical_parts_added": 0,
-      "connection": "Leg3172holes common axis through local(-130,-6,0), axisZ. Match body hip pin then set supported pose; no numerical angle given."
+      "connection": "Hip uses67696 socket in L-core291; original3172redpegholes are foot/base locks, not hip."
     },
     {
       "step": 317,
@@ -1450,15 +1450,15 @@
       "step": 319,
       "page": 46,
       "submodels": [
-        "book2-leg-angle-core.ldr"
+        "book2-leg-core.ldr"
       ],
       "phase_1": "identified",
-      "phase_2": "local_placement_implemented",
+      "phase_2": "local_placement_implemented_corrected_anatomical_submodel",
       "parts": [
-        "1 19 0 -20 -32 0 0 -1 -1 0 0 0 1 0 15068.dat"
+        "1 19 -20 -20 28 -1 0 0 0 0 -1 0 -1 0 15068.dat"
       ],
       "physical_parts_added": 1,
-      "verification": "Stud/bar grid mapped; latest silhouette and claw pose need render comparison."
+      "verification": "Foot/shin72132raised/low/sideface coordinates checked; exactdiagram silhouette andclawpose pending."
     },
     {
       "step": 320,
@@ -1480,47 +1480,47 @@
       "step": 322,
       "page": 49,
       "submodels": [
-        "book2-leg-angle-core.ldr"
+        "book2-leg-core.ldr"
       ],
       "phase_1": "identified",
-      "phase_2": "local_placement_implemented",
+      "phase_2": "local_placement_implemented_corrected_anatomical_submodel",
       "parts": [
-        "1 28 -10 -20 40 0 0 -1 1 0 0 0 -1 0 35480.dat",
-        "1 19 10 -20 40 0 0 -1 1 0 0 0 -1 0 48336.dat"
+        "1 28 -20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat",
+        "1 19 -20 -48 -30 1 0 0 0 1 0 0 0 1 48336.dat"
       ],
       "physical_parts_added": 2,
-      "verification": "Stud/bar grid mapped; latest silhouette and claw pose need render comparison."
+      "verification": "Foot/shin72132raised/low/sideface coordinates checked; exactdiagram silhouette andclawpose pending."
     },
     {
       "step": 323,
       "page": 50,
       "submodels": [
-        "book2-leg-angle-core.ldr"
+        "book2-leg-core.ldr"
       ],
       "phase_1": "identified",
-      "phase_2": "local_placement_implemented",
+      "phase_2": "local_placement_implemented_corrected_anatomical_submodel",
       "parts": [
-        "1 19 0 -20 48 1 0 0 0 0 1 0 -1 0 14769.dat",
-        "1 19 30 -20 38 0 1 0 0 0 1 1 0 0 11090.dat",
-        "1 19 60 -20 38 0 0 1 -1 0 0 0 -1 0 40379.dat"
+        "1 19 -20 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat",
+        "1 19 -20 -46 -50 0 0 1 -1 0 0 0 -1 0 11090.dat",
+        "1 19 -20 -46 -80 0 1 0 1 0 0 0 0 -1 40379.dat"
       ],
       "physical_parts_added": 3,
-      "verification": "Stud/bar grid mapped; latest silhouette and claw pose need render comparison."
+      "verification": "Foot/shin72132raised/low/sideface coordinates checked; exactdiagram silhouette andclawpose pending."
     }
   ],
   "coordinate_system": "LDU; X upper-leg length; Y down; Z width. Final body mount not yet determined.",
   "unresolved": [
     {
       "step": 314,
-      "issue": "308–314kneehandedwing silhouette comparison pending;306–307grid independently confirmed."
+      "issue": "Detailedkneecladdingsilhouettecomparisonpending."
     },
     {
       "step": 315,
-      "issue": "Final body hip connection/leg pose belongs to integration."
+      "issue": "Hip67696socketcenter L-core(60,-22,0); alignbody17114ball duringintegration. Openingaxisneedsmeshconfirmation."
     },
     {
       "step": 323,
-      "issue": "319/322/323studandclipconnections mapped; latest ankle/claw render comparison pending."
+      "issue": "Correctedfoot/shinmount319/322/323 uses72132steppedfrontandperpendicularsideface. Exactclawpose/silhouettecomparisonpending."
     }
   ],
   "lessons": [
@@ -1580,6 +1580,18 @@
         308
       ],
       "finding": "L-section green67329 end faces at localZ220 transform to lower-legZ-20, with stud gridX30/50,Y-270/-250. They align with lower-leg side studsX-10/10 on the sameZ-20 plane. Thus3072639 topZ-28 is correct: do not change306 roll merely because a different camera makes the cover appear behind the knee."
+    },
+    {
+      "scope": "model",
+      "steps": [
+        226,
+        291,
+        315,
+        319,
+        322,
+        323
+      ],
+      "finding": "Initial226core isfoot/shin;L-section29167696 ishipsocket. Namesupper/lower arelegacyincorrectanatomiclabels. Deriveanatomyfromactualjointandfinalassemblydiagram,notexistingname."
     }
   ],
   "render_evidence": [
@@ -1597,11 +1609,11 @@
     "/tmp/brick-book2/render310.png",
     "/tmp/brick-book2/render310side.png",
     "/tmp/brick-book2/render310front.png",
-    "/tmp/brick-book2/render323.png"
+    "/tmp/brick-book2/render323-corrected-foot.png"
   ],
   "physical_validation": false,
   "integration_ready": false,
-  "display_layout": "Local leg and rearclaw through323;315–316bodymount deferred to integration, base items excluded, detailed render review pending.",
+  "display_layout": "Local leg through323. Initial226core is foot/shin;291L-core contains hip socket. Global bodymount and exactsilhouette/clawpose review pending.",
   "verification_checks": {
     "recursive_parts": 257,
     "missing_geometry": [],

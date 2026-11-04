@@ -1,0 +1,140 @@
+0 FILE book2-arms-workbench.ldr
+0 Independent shoulder/arm assemblies; final body mounting pending.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 shoulder-strap-step453.ldr
+1 16 0 0 100 1 0 0 0 1 0 0 0 1 shoulder-strap-step454.ldr
+1 16 200 0 0 1 0 0 0 1 0 0 0 1 front-dorsal-low-step455.ldr
+1 16 260 0 0 1 0 0 0 1 0 0 0 1 front-dorsal-middle-step455.ldr
+1 16 320 0 0 1 0 0 0 1 0 0 0 1 front-dorsal-high-step455.ldr
+1 16 220 0 140 1 0 0 0 1 0 0 0 1 rear-rib-tip-step456.ldr
+1 16 320 0 140 1 0 0 0 1 0 0 0 1 rear-rib-tip-step456.ldr
+1 16 650 0 100 1 0 0 0 1 0 0 0 1 paired-arms-step465.ldr
+0 NOFILE
+0 FILE shoulder-strap-step453.ldr
+1 84 0 0 0 1 0 0 0 1 0 0 0 1 3738.dat
+1 19 60 -8 0 1 0 0 0 1 0 0 0 1 15535.dat
+1 19 -20 -8 0 1 0 0 0 1 0 0 0 1 15535.dat
+1 19 20 -8 0 1 0 0 0 1 0 0 0 1 26601.dat
+1 72 -70 -8 0 0 0 1 0 1 0 -1 0 0 14417.dat
+1 19 -60 0 0 0 0 -1 0 1 0 1 0 0 15068.dat
+1 71 60 12 0 0 -1 0 1 0 0 0 0 1 3673.dat
+1 71 -20 12 0 0 -1 0 1 0 0 0 0 1 3673.dat
+0 NOFILE
+0 FILE shoulder-strap-step454.ldr
+1 84 0 0 0 1 0 0 0 1 0 0 0 1 3738.dat
+1 19 60 -8 0 1 0 0 0 1 0 0 0 1 15535.dat
+1 19 -20 -8 0 1 0 0 0 1 0 0 0 1 15535.dat
+1 19 20 -8 0 0 0 -1 0 1 0 1 0 0 26601.dat
+1 72 -70 -8 0 0 0 1 0 1 0 -1 0 0 14417.dat
+1 19 -60 0 0 0 0 -1 0 1 0 1 0 0 15068.dat
+1 71 60 12 0 0 -1 0 1 0 0 0 0 1 3673.dat
+1 71 -20 12 0 0 -1 0 1 0 0 0 0 1 3673.dat
+0 NOFILE
+0 FILE front-dorsal-low-step455.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
+1 19 0 -16 0 1 0 0 0 1 0 0 0 1 54200.dat
+0 NOFILE
+0 FILE front-dorsal-middle-step455.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
+1 19 0 -24 0 1 0 0 0 1 0 0 0 1 54200.dat
+1 19 0 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
+0 NOFILE
+0 FILE front-dorsal-high-step455.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
+1 19 0 -40 0 1 0 0 0 1 0 0 0 1 54200.dat
+1 19 0 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 NOFILE
+0 FILE rear-rib-tip-step456.ldr
+1 0 0 28 0 0 -1 0 1 0 0 0 0 1 32062.dat
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 59900.dat
+1 19 0 -4 0 1 0 0 0 0 -1 0 1 0 40379.dat
+0 NOFILE
+0 FILE shoulder-oval-step457.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 3766.dat
+1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 22385.dat
+0 Instruction step458 / book2page127
+1 28 20 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 Instruction step459 / book2page127
+1 71 20 0 50 -1 0 0 0 1 0 0 0 -1 14704.dat
+0 Instruction step460 / book2page127
+1 71 -20 8 30 -1 0 0 0 1 0 0 0 -1 14704.dat
+1 19 20 8 20 1 0 0 0 1 0 0 0 1 2654.dat
+1 28 -10 8 -20 0 0 1 0 1 0 -1 0 0 63868.dat
+0 Instruction step461 / book2page127
+1 28 -30 8 10 1 0 0 0 1 0 0 0 1 24201.dat
+1 28 -10 8 10 1 0 0 0 1 0 0 0 1 24201.dat
+1 28 10 8 -30 0 0 -1 0 1 0 1 0 0 24201.dat
+1 28 10 8 -10 0 0 -1 0 1 0 1 0 0 24201.dat
+0 NOFILE
+0 FILE shoulder-oval-step462.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 3766.dat
+1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 22385.dat
+1 28 -20 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+1 71 -20 0 50 -1 0 0 0 1 0 0 0 -1 14704.dat
+1 71 20 8 30 -1 0 0 0 1 0 0 0 -1 14704.dat
+1 19 -20 8 20 1 0 0 0 1 0 0 0 1 2654.dat
+1 19 0 8 -30 1 0 0 0 1 0 0 0 1 48336.dat
+1 28 10 8 10 1 0 0 0 1 0 0 0 1 24201.dat
+1 28 30 8 10 1 0 0 0 1 0 0 0 1 24201.dat
+1 28 -10 8 -10 -1 0 0 0 1 0 0 0 -1 24201.dat
+1 28 10 8 -10 -1 0 0 0 1 0 0 0 -1 24201.dat
+0 NOFILE
+0 FILE arm-ball-rod-step463.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 59443.dat
+1 71 0 0 -20 0 0 -1 0 1 0 1 0 0 2736.dat
+1 71 0 0 20 0 0 1 0 1 0 -1 0 0 2736.dat
+0 NOFILE
+0 FILE hand-step464.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 48336.dat
+1 28 -10 0 10 1 0 0 0 1 0 0 0 1 29119.dat
+1 19 10 0 10 1 0 0 0 1 0 0 0 1 11477.dat
+1 71 20 8 0 1 0 0 0 1 0 0 0 1 14418.dat
+1 28 -10 8 0 0 0 1 0 1 0 -1 0 0 24201.dat
+1 19 -10 2 -20 0 0 1 -1 0 0 0 -1 0 11090.dat
+1 19 -10 2 -50 1 0 0 0 0 -1 0 1 0 87747.dat
+1 19 10 2 -20 0 0 1 -1 0 0 0 -1 0 11090.dat
+1 19 10 2 -50 1 0 0 0 0 -1 0 1 0 87747.dat
+0 NOFILE
+0 FILE hand-step465.ldr
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 48336.dat
+1 28 10 0 10 1 0 0 0 1 0 0 0 1 29120.dat
+1 19 -10 0 10 1 0 0 0 1 0 0 0 1 11477.dat
+1 71 -20 8 0 -1 0 0 0 1 0 0 0 -1 14418.dat
+1 28 10 8 0 0 0 -1 0 1 0 1 0 0 24201.dat
+1 19 -10 2 -20 0 0 1 -1 0 0 0 -1 0 11090.dat
+1 19 -10 2 -50 1 0 0 0 0 -1 0 1 0 87747.dat
+1 19 10 2 -20 0 0 1 -1 0 0 0 -1 0 11090.dat
+1 19 10 2 -50 1 0 0 0 0 -1 0 1 0 87747.dat
+0 NOFILE
+0 FILE paired-arms-step465.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 shoulder-oval-step457.ldr
+1 16 -10 0 -100 -1 0 0 0 1 0 0 0 -1 shoulder-oval-step462.ldr
+0 Instruction step463 /book2page129
+1 16 20 4 102 1 0 0 0 1 0 0 0 1 arm-ball-rod-step463.ldr
+1 16 -20 12 82 1 0 0 0 1 0 0 0 1 arm-ball-rod-step463.ldr
+1 16 10 4 -202 -1 0 0 0 1 0 0 0 -1 arm-ball-rod-step463.ldr
+1 16 -30 12 -182 -1 0 0 0 1 0 0 0 -1 arm-ball-rod-step463.ldr
+0 Instruction step464 /book2page130
+1 16 30 0 114 -1 0 0 0 1 0 0 0 -1 hand-step464.ldr
+0 Instruction step465 /book2page131
+1 16 20 0 -214 1 0 0 0 1 0 0 0 1 hand-step465.ldr
+0 Instruction step466 /book2page132
+1 16 10 0 254 1 0 0 0 1 0 0 0 1 upper-arm-step466.ldr
+0 Instruction step467 /book2page133
+1 16 0 0 -354 -1 0 0 0 1 0 0 0 -1 upper-arm-step467.ldr
+0 NOFILE
+0 FILE upper-arm-step466.ldr
+1 19 0 8 10 1 0 0 0 1 0 0 0 1 2654.dat
+1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 14704.dat
+1 28 0 -8 -50 1 0 0 0 1 0 0 0 1 78444.dat
+1 19 0 -16 -30 1 0 0 0 1 0 0 0 1 41769.dat
+1 71 10 0 -90 0 0 1 0 1 0 -1 0 0 14418.dat
+1 19 10 0 -100 -1 0 0 0 1 0 0 0 -1 13547.dat
+0 NOFILE
+0 FILE upper-arm-step467.ldr
+1 19 0 8 10 1 0 0 0 1 0 0 0 1 2654.dat
+1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 14704.dat
+1 28 0 -8 -50 1 0 0 0 1 0 0 0 1 78443.dat
+1 19 0 -16 -30 1 0 0 0 1 0 0 0 1 41770.dat
+1 71 -10 0 -90 0 0 1 0 1 0 -1 0 0 14418.dat
+1 19 -10 0 -100 -1 0 0 0 1 0 0 0 -1 13547.dat
+0 NOFILE

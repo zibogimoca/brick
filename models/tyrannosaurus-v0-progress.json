@@ -15414,13 +15414,13 @@
   "scope_decision": "미니피겨·명판·장식 생략 가능. 받침판은 빨간 대체 허용. 공룡 본체 뼈대·관절·연결 부품 생략·임의 대체 금지; 미해결 시 확인/질문.",
   "sequential_reconstruction": {
     "book": 1,
-    "page": 192,
-    "step": 187,
+    "page": 203,
+    "step": 200,
     "status": "sequential_assembly_in_progress",
-    "last_placed_step": 186,
-    "body_draft_piece_count": 590,
-    "reason": "186단계 목 상부 덮개를(-960,-152,0)에 통합. 187 이후 목 곡면·뿔 부착 검토 중.",
-    "verification": "174–185도해의 돌기 격자·층 높이 대조 및 Chromium 렌더 확인. 전체 정밀 간섭·실물 결합 검증 아님.",
+    "last_placed_step": 199,
+    "body_draft_piece_count": 661,
+    "reason": "195–199골반 돌기13개 통합.193–194받침 연결축 깊이는 대체 받침 검토로 분리 기록.200 이후 골반 링 검토 중.",
+    "verification": "187–190도해·돌기 격자·Chromium확인.191–192돌기 좌표 대조 후 통합, 전체렌더 재검토 중. 실물검증 아님.",
     "corrections": [
       "101단계 3020은 진회색72. 밝은 회색71 3020은 전체 목록1개이며 100단계에 사용.",
       "118단계 3021 두 개는 나란한 배치로 수정."
@@ -16344,8 +16344,8 @@
     "integration": "independent subassemblies; final attachment transforms pending"
   },
   "published_checkpoint": {
-    "body_draft_piece_count": 1603,
-    "piece_count": 1686,
+    "body_draft_piece_count": 2327,
+    "piece_count": 2410,
     "layout": "separated_workbench_not_assembly_positions",
     "assembly_verified": false
   }

@@ -679,8 +679,8 @@
 1 19 30 -120 30 0 0 1 0 1 0 -1 0 0 3623.dat
 0 STEP
 0 Instruction book 3 page 50 step 610
-1 28 -10 -136 -30 -1 0 0 0 1 0 0 0 -1 2420.dat
-1 28 -10 -136 30 0 0 -1 0 1 0 1 0 0 2420.dat
+1 28 -10 -128 -30 0 0 -1 0 1 0 1 0 0 2420.dat
+1 28 -10 -128 30 -1 0 0 0 1 0 0 0 -1 2420.dat
 0 STEP
 0 Instruction book 3 page 50 step 611
 1 19 20 -128 -30 0 0 1 0 1 0 -1 0 0 3021.dat
@@ -690,6 +690,50 @@
 0 STEP
 0 Instruction book 3 page 52 step 612
 1 16 -10 -122 -68 1 0 0 0 0 -1 0 1 0 book3-skull-cheek-left.ldr
+0 STEP
+0 Instruction book 3 page 58 step 624
+1 16 -10 -122 68 1 0 0 0 0 1 0 -1 0 book3-skull-cheek-right.ldr
+0 STEP
+0 Instruction book 3 page 64 step 636
+1 28 -60 -32 -40 1 0 0 0 1 0 0 0 1 26601.dat
+1 28 -60 -32 40 0 0 -1 0 1 0 1 0 0 26601.dat
+0 STEP
+0 Instruction book 3 page 64 step 637
+1 28 -70 -56 -30 1 0 0 0 1 0 0 0 1 13548.dat
+1 28 -70 -56 30 0 0 -1 0 1 0 1 0 0 13548.dat
+0 STEP
+0 Instruction book 3 page 65 step 638
+1 72 -10 -144 0 0 0 1 0 1 0 -1 0 0 3460.dat
+1 0 20 -144 -40 0 0 -1 0 1 0 1 0 0 33909.dat
+1 0 20 -144 40 0 0 -1 0 1 0 1 0 0 33909.dat
+1 19 20 -136 0 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+0 Instruction book 3 page 66 step 639
+1 19 -70 -64 -30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 -70 -104 -30 0 0 1 0 1 0 -1 0 0 32952.dat
+1 19 -70 -112 -30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 -104 -84 -30 0 1 0 -1 0 0 0 0 1 15571.dat
+1 19 -70 -64 30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 -70 -104 30 0 0 1 0 1 0 -1 0 0 32952.dat
+1 19 -70 -112 30 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 -104 -84 30 0 1 0 1 0 0 0 0 -1 15571.dat
+0 STEP
+0 Instruction book 3 page 67 step 640
+1 19 -70 -136 0 0 0 1 0 1 0 -1 0 0 3659.dat
+0 STEP
+0 Instruction book 3 page 68 step 641
+1 16 -40 -136 0 0 0 -1 0 1 0 1 0 0 book3-skull-crown.ldr
+0 STEP
+0 Instruction book 3 page 69 step 642
+1 19 10 -152 -20 -1 0 0 0 1 0 0 0 -1 15672.dat
+1 19 10 -168 -50 1 0 0 0 1 0 0 0 1 50950.dat
+1 19 10 -152 20 1 0 0 0 1 0 0 0 1 15672.dat
+1 19 10 -168 50 -1 0 0 0 1 0 0 0 -1 50950.dat
+0 STEP
+0 Instruction book 3 page 69 step 643
+1 19 20 -144 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 28 -20 -160 -20 0 0 1 0 1 0 -1 0 0 33909.dat
+1 28 -20 -160 20 0 0 1 0 1 0 -1 0 0 33909.dat
 0 NOFILE
 0 FILE book3-skull-side-left.ldr
 0 Skull lateral rail, local coordinates before 90-degree roll onto core.
@@ -829,10 +873,35 @@
 0 STEP
 0 Instruction book 3 page 54 step 616
 1 28 50 -8 -50 -1 0 0 0 1 0 0 0 -1 78444.dat
-1 28 -10 -8 -130 0 0 1 0 1 0 -1 0 0 78444.dat
+1 28 10 -8 -130 0 0 -1 0 1 0 1 0 0 78444.dat
 0 STEP
 0 Instruction book 3 page 54 step 617
 1 16 50 -16 -10 1 0 0 0 1 0 0 0 1 book3-skull-cheek-brow-left.ldr
+0 STEP
+0 Instruction book 3 page 55 step 618
+0 3623 is flush with 78444, not stacked atop it; last stud column rests on 3021.
+1 19 0 -8 -100 1 0 0 0 1 0 0 0 1 3623.dat
+1 19 -30 -8 -100 0 0 -1 0 1 0 1 0 0 11477.dat
+0 STEP
+0 Instruction book 3 page 55 step 619
+1 28 20 -8 -90 1 0 0 0 1 0 0 0 1 29119.dat
+0 STEP
+0 Instruction book 3 page 56 step 620
+1 19 0 -24 0 1 0 0 0 1 0 0 0 1 70681.dat
+1 19 0 -24 -100 -1 0 0 0 1 0 0 0 -1 70681.dat
+0 STEP
+0 Instruction book 3 page 56 step 621
+1 28 0 -24 -10 -1 0 0 0 1 0 0 0 -1 29119.dat
+1 28 -20 0 -50 -1 0 0 0 1 0 0 0 -1 29120.dat
+0 STEP
+0 Instruction book 3 page 57 step 622
+1 19 0 -16 -120 1 0 0 0 1 0 0 0 1 3623.dat
+1 19 30 -16 -120 0 0 1 0 1 0 -1 0 0 11477.dat
+0 STEP
+0 Instruction book 3 page 57 step 623
+1 19 0 -16 -110 1 0 0 0 1 0 0 0 1 11477.dat
+0 80177 stepped underside aligns bracketY0, wedgeY−8 and plateY−16.
+1 19 -40 -24 -130 0 0 1 0 1 0 -1 0 0 80177.dat
 0 NOFILE
 0 FILE book3-skull-cheek-brow-left.ldr
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 26601.dat
@@ -840,4 +909,77 @@
 1 28 10 8 0 1 0 0 0 1 0 0 0 1 29119.dat
 1 19 -10 -16 10 0 0 1 0 1 0 -1 0 0 70681.dat
 1 28 0 -8 0 0 0 -1 0 1 0 1 0 0 66956.dat
+0 NOFILE
+
+0 FILE book3-skull-cheek-right.ldr
+0 Opposite cheek: proper rotations and counterpart part IDs; PDF pages58–63 checked.
+0 Instruction book 3 page 58 step 624
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 73825.dat
+1 28 10 -8 0 -1 0 0 0 1 0 0 0 -1 35480.dat
+1 28 30 0 0 1 0 0 0 1 0 0 0 1 99781.dat
+0 STEP
+0 Instruction book 3 page 58 step 625
+1 19 30 0 50 1 0 0 0 1 0 0 0 1 41769.dat
+1 28 -10 0 50 -1 0 0 0 1 0 0 0 -1 26601.dat
+1 28 0 0 20 -1 0 0 0 1 0 0 0 -1 6141.dat
+1 28 0 0 80 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 STEP
+0 Instruction book 3 page 59 step 626
+1 28 40 0 110 -1 0 0 0 1 0 0 0 -1 3021.dat
+1 19 -50 16 120 -1 0 0 0 1 0 0 0 -1 3660.dat
+0 STEP
+0 Instruction book 3 page 59 step 627
+1 19 -60 8 140 0 0 1 0 1 0 -1 0 0 30357.dat
+1 70 -60 0 140 0 0 1 0 1 0 -1 0 0 36841.dat
+0 STEP
+0 Instruction book 3 page 60 step 628
+1 28 50 -8 50 1 0 0 0 1 0 0 0 1 78443.dat
+1 28 10 -8 130 0 0 -1 0 1 0 1 0 0 78443.dat
+0 STEP
+0 Instruction book 3 page 60 step 629
+1 16 50 -16 10 1 0 0 0 1 0 0 0 1 book3-skull-cheek-brow-right.ldr
+0 STEP
+0 Instruction book 3 page 61 step 630
+1 19 0 -8 100 -1 0 0 0 1 0 0 0 -1 3623.dat
+1 19 -30 -8 100 0 0 -1 0 1 0 1 0 0 11477.dat
+0 STEP
+0 Instruction book 3 page 61 step 631
+1 28 20 -8 90 -1 0 0 0 1 0 0 0 -1 29120.dat
+0 STEP
+0 Instruction book 3 page 62 step 632
+1 19 0 -24 0 -1 0 0 0 1 0 0 0 -1 70681.dat
+1 19 0 -24 100 1 0 0 0 1 0 0 0 1 70681.dat
+0 STEP
+0 Instruction book 3 page 62 step 633
+1 28 0 -24 10 1 0 0 0 1 0 0 0 1 29120.dat
+1 28 -20 0 50 1 0 0 0 1 0 0 0 1 29119.dat
+0 STEP
+0 Instruction book 3 page 63 step 634
+1 19 0 -16 120 -1 0 0 0 1 0 0 0 -1 3623.dat
+1 19 30 -16 120 0 0 1 0 1 0 -1 0 0 11477.dat
+0 STEP
+0 Instruction book 3 page 63 step 635
+1 19 0 -16 110 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 19 -40 -24 130 0 0 1 0 1 0 -1 0 0 80178.dat
+0 NOFILE
+0 FILE book3-skull-cheek-brow-right.ldr
+0 Opposite cheek: proper rotations and counterpart part IDs; PDF pages58–63 checked.
+1 28 0 0 0 0 0 -1 0 1 0 1 0 0 26601.dat
+1 19 -10 -16 10 -1 0 0 0 1 0 0 0 -1 70681.dat
+1 28 10 8 0 -1 0 0 0 1 0 0 0 -1 29120.dat
+1 19 -10 -16 -10 0 0 1 0 1 0 -1 0 0 70681.dat
+1 28 0 -8 0 0 0 -1 0 1 0 1 0 0 66956.dat
+0 NOFILE
+0 FILE book3-skull-crown.ldr
+0 Crown641 local long axisX; frontZ positive. Stud-supported layers, not a flat single plate.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 3034.dat
+1 27 0 -8 -10 1 0 0 0 1 0 0 0 1 35480.dat
+1 28 -70 8 0 0 0 1 0 1 0 -1 0 0 32803.dat
+1 28 70 8 0 0 0 -1 0 1 0 1 0 0 32803.dat
+1 19 -10 -8 20 0 0 -1 0 1 0 1 0 0 63868.dat
+1 19 10 -8 20 0 0 -1 0 1 0 1 0 0 63868.dat
+1 19 -40 -16 -20 1 0 0 0 1 0 0 0 1 30503.dat
+1 19 40 -16 -20 0 0 1 0 1 0 -1 0 0 30503.dat
+1 28 -20 -24 20 -1 0 0 0 1 0 0 0 -1 33909.dat
+1 28 20 -24 20 -1 0 0 0 1 0 0 0 -1 33909.dat
 0 NOFILE

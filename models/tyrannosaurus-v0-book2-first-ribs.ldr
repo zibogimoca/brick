@@ -1,0 +1,62 @@
+0 FILE book2-first-ribs-workbench.ldr
+0 Version 0 / book 2 steps 426–430. Independent rib subassemblies; body mounting pending.
+0 Native axes: X outward from backbone, Y downward; rows separated only for inspection.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 first-rib-step426.ldr
+1 16 0 0 170 1 0 0 0 1 0 0 0 1 first-rib-step426.ldr
+1 16 350 0 0 1 0 0 0 1 0 0 0 1 first-rib-step427.ldr
+1 16 350 0 170 1 0 0 0 1 0 0 0 1 first-rib-step427.ldr
+1 16 350 0 340 1 0 0 0 1 0 0 0 1 first-rib-step427.ldr
+1 16 350 0 510 1 0 0 0 1 0 0 0 1 first-rib-step427.ldr
+1 16 700 0 0 1 0 0 0 1 0 0 0 1 first-rib-step428.ldr
+1 16 700 0 170 1 0 0 0 1 0 0 0 1 first-rib-step428.ldr
+1 16 1050 0 0 1 0 0 0 1 0 0 0 1 first-rib-step429.ldr
+1 16 1050 0 170 1 0 0 0 1 0 0 0 1 first-rib-step429.ldr
+1 16 1400 0 0 1 0 0 0 1 0 0 0 1 first-rib-step430.ldr
+1 16 1400 0 170 1 0 0 0 1 0 0 0 1 first-rib-step430.ldr
+0 NOFILE
+0 FILE first-rib-step426.ldr
+0 Instruction step 426; local connection frames derived from DAT connector axes.
+1 19 0 0 0 0 0 -1 0 -1 0 -1 0 0 32014.dat
+1 4 0 30 0 0 -1 0 1 0 0 0 0 1 32062.dat
+0 NOFILE
+0 FILE first-rib-step427.ldr
+0 Instruction step 427; local connection frames derived from DAT connector axes.
+1 19 0 0 0 0 0 -1 0 -1 0 -1 0 0 32014.dat
+1 4 0 30 0 0 -1 0 1 0 0 0 0 1 32062.dat
+1 1 30 0 0 -1 0 0 0 1 0 0 0 -1 43093.dat
+1 19 50 0 0 1 0 0 0 1 0 0 0 1 62462.dat
+1 0 70 0 0 1 0 0 0 1 0 0 0 1 61332.dat
+1 19 114 0 0 0 -1 0 1 0 0 0 0 1 59900.dat
+1 19 114 0 0 0 0 1 0 -1 0 1 0 0 40379.dat
+0 NOFILE
+0 FILE first-rib-step428.ldr
+0 Instruction step 428; local connection frames derived from DAT connector axes.
+1 19 0 0 0 0 0 -1 0 -1 0 -1 0 0 32014.dat
+1 4 0 30 0 0 -1 0 1 0 0 0 0 1 32062.dat
+1 1 30 0 0 -1 0 0 0 1 0 0 0 -1 43093.dat
+1 19 50 0 0 1 0 0 0 1 0 0 0 1 62462.dat
+1 19 70 0 0 0 0 1 0 -1 0 1 0 0 51274.dat
+1 19 190 36 0 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
+0 NOFILE
+0 FILE first-rib-step429.ldr
+0 Instruction step 429; local connection frames derived from DAT connector axes.
+1 19 0 0 0 0 0 -1 0 -1 0 -1 0 0 32014.dat
+1 4 0 30 0 0 -1 0 1 0 0 0 0 1 32062.dat
+1 1 30 0 0 -1 0 0 0 1 0 0 0 -1 43093.dat
+1 19 50 0 0 1 0 0 0 1 0 0 0 1 62462.dat
+1 19 70 0 0 0 0 1 0 -1 0 1 0 0 51274.dat
+1 19 190 36 0 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
+1 19 212.62742 58.627417 0 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
+0 NOFILE
+0 FILE first-rib-step430.ldr
+0 Instruction step 430; local connection frames derived from DAT connector axes.
+1 19 0 0 0 0 0 -1 0 -1 0 -1 0 0 32014.dat
+1 4 0 30 0 0 -1 0 1 0 0 0 0 1 32062.dat
+1 1 30 0 0 -1 0 0 0 1 0 0 0 -1 43093.dat
+1 19 50 0 0 1 0 0 0 1 0 0 0 1 62462.dat
+1 0 70 0 0 1 0 0 0 1 0 0 0 1 61332.dat
+1 19 90 0 0 1 0 0 0 1 0 0 0 1 62462.dat
+1 19 110 0 0 0 0 1 0 -1 0 1 0 0 51274.dat
+1 19 230 36 0 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
+1 19 252.62742 58.627417 0 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
+0 NOFILE

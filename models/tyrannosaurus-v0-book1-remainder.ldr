@@ -1,6 +1,5 @@
 0 FILE book1-remainder-workbench.ldr
 0 Book1 independent assemblies, steps187-225; not a final body assembly.
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 pelvic-spur-step195.ldr
 1 16 180 0 0 1 0 0 0 1 0 0 0 1 pelvic-lower-bar-step202.ldr
 1 16 680 16 0 1 0 0 0 1 0 0 0 1 body-hip-ring-overlay-step200.ldr
 1 16 300 0 0 1 0 0 0 1 0 0 0 1 pelvic-panel-step207.ldr
@@ -24,49 +23,7 @@
 1 16 300 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
 1 16 360 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
 1 16 480 0 400 1 0 0 0 1 0 0 0 1 dorsal-center-cap-step223.ldr
-1 16 0 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 80 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 160 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 240 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 320 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 400 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 480 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 560 0 550 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 0 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 80 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 160 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 240 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 320 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 400 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 480 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 560 0 670 1 0 0 0 1 0 0 0 1 neck-horn-pair-step188.ldr
-1 16 1100 0 0 1 0 0 0 1 0 0 0 1 body-lower-flank-overlay-step191.ldr
-0 NOFILE
-0 FILE pelvic-spur-step195.ldr
-0 Instruction step195 / book1 page201
-1 84 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat
-1 28 0 -8 10 -1 0 0 0 1 0 0 0 -1 60470b.dat
-0 STEP
-0 Instruction step196 / book1 page201
-1 28 -10 -16 -10 1 0 0 0 1 0 0 0 1 13547.dat
-1 28 10 -16 -10 1 0 0 0 1 0 0 0 1 13547.dat
-0 STEP
-0 Instruction step197 / book1 page201
-1 28 0 -24 -50 1 0 0 0 1 0 0 0 1 35480.dat
-1 28 -10 -16 -20 0 0 1 0 1 0 -1 0 0 60470b.dat
-1 28 10 -16 -20 0 0 -1 0 1 0 1 0 0 60470b.dat
-0 STEP
-0 Instruction step198 / book1 page201. Hinge insertion centers matched; angle review pending.
-1 16 0 -16 10 1 0 0 0 -1 0 0 0 -1 pelvic-blade-step198.ldr
-0 NOFILE
-0 FILE pelvic-blade-step198.ldr
-0 Instruction step198 / book1 page201 inset
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 61406.dat
-1 28 0 -8 0 1 0 0 0 1 0 0 0 1 60470b.dat
-1 19 0 -8 -20 0 -1 0 1 0 0 0 0 1 78258.dat
-1 19 -10 -8 0 1 0 0 0 1 0 0 0 1 54200.dat
-1 19 10 -8 0 1 0 0 0 1 0 0 0 1 54200.dat
-1 19 0 8 0 1 0 0 0 1 0 0 0 1 48336.dat
+1 16 1100 0 950 1 0 0 0 1 0 0 0 1 neck-rear-horns-overlay-step224.ldr
 0 NOFILE
 
 0 FILE pelvic-lower-bar-step202.ldr
@@ -119,15 +76,15 @@
 1 19 0 -8 -40 0 0 1 0 1 0 -1 0 0 87079.dat
 1 19 0 0 0 -1 0 0 0 1 0 0 0 -1 15068.dat
 0 Inset6: long axis of pin plate and round plate is Z, not X.
-1 71 -10 8 -30 0 0 1 0 1 0 -1 0 0 3172.dat
-1 28 10 8 -20 0 0 1 0 1 0 -1 0 0 35480.dat
+1 71 -10 8 -50 0 0 1 0 1 0 -1 0 0 3172.dat
+1 28 10 8 -40 0 0 1 0 1 0 -1 0 0 35480.dat
 1 19 0 8 40 1 0 0 0 1 0 0 0 1 5066.dat
-0 Inset7: side studs attach under the back plates; base plates stand perpendicular.
-1 28 0 20 -20 1 0 0 0 0 1 0 -1 0 41682.dat
-1 28 0 20 20 1 0 0 0 0 1 0 -1 0 41682.dat
-0 Inset8: pin axes match at Y18 Z-50.
-1 0 0 18 -50 0 0 1 0 1 0 -1 0 0 61332.dat
-1 19 10 8 -50 0 0 1 0 1 0 -1 0 0 6541.dat
+0 Inset7: inverse curved32803pair; low rows atZ-10/+10,Y8 underwings, highrowsZ-30/+30,Y16 underplates.
+1 28 0 8 -10 -1 0 0 0 1 0 0 0 -1 32803.dat
+1 28 0 8 10 1 0 0 0 1 0 0 0 1 32803.dat
+0 Inset8: 3172/6541 holes axisX at(-10/10,18,-70);61332 nativeaxisX usesidentity.
+1 0 0 18 -70 1 0 0 0 1 0 0 0 1 61332.dat
+1 19 10 28 -70 0 0 1 0 -1 0 1 0 0 6541.dat
 0 NOFILE
 
 0 FILE pelvic-end-cap-step212.ldr
@@ -195,33 +152,22 @@
 1 19 0 -30 0 1 0 0 0 0 -1 0 1 0 40379.dat
 0 NOFILE
 
-0 FILE body-lower-flank-overlay-step191.ldr
-0 Instructions191/192. Body coordinates; 5090/99207 side studs at Y-6/+14 and Z+/-24.
-0 50950 bottomY24, two connection centers localZ-20/0. Curved tip points down.
-0 Instruction step191
-1 19 -830 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -790 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -750 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -710 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -670 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -630 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -590 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -550 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -510 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -470 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
-1 19 -430 14 -48 -1 0 0 0 0 1 0 1 0 50950.dat
+0 FILE neck-rear-horns-overlay-step224.ldr
+0 Body-global remainingthreefront-neckclips on eachside; axis/curve conventions sameas188/190.
+0 Instruction step224 / book1 page218
+1 19 -890 -66 54 0 0 1 0 -1 0 1 0 0 23443.dat
+1 19 -890 -36 54 -1 0 0 0 0 1 0 1 0 40379.dat
+1 19 -870 -46 54 0 0 1 0 -1 0 1 0 0 23443.dat
+1 19 -870 -16 54 -1 0 0 0 0 1 0 1 0 40379.dat
+1 19 -850 -26 54 0 0 1 0 -1 0 1 0 0 23443.dat
+1 19 -850 4 54 -1 0 0 0 0 1 0 1 0 40379.dat
 0 STEP
-0 Instruction step192
-1 19 -830 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -790 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -750 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -710 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -670 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -630 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -590 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -550 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -510 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -470 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
-1 19 -430 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
+0 Instruction step225 / book1 page219
+1 19 -890 -66 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
+1 19 -890 -36 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
+1 19 -870 -46 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
+1 19 -870 -16 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
+1 19 -850 -26 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
+1 19 -850 4 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
 0 STEP
 0 NOFILE
