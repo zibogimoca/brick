@@ -100,7 +100,7 @@ test('loads integrated v0 with no invented articulation and can return to v1', a
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
   await expect(page.locator('#summary')).toContainText('본체·받침대 검토본');
   await expect(page.locator('#summary')).toContainText('본체 초안 2496개');
-  await expect(page.locator('#summary')).toContainText('원판 수직/상완45도·걷는 자세 적용');
+  await expect(page.locator('#summary')).toContainText('어깨띠 전방 기울기·원판 접힘 수정');
   await expect(page.locator('#pose-panel')).toBeHidden();
   await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });

@@ -1,5 +1,5 @@
 0 FILE stand-foot-rocks-steps33-53.ldr
-0 Stand feet and rocks for instruction steps 33–53. Placement candidates depend on the base frame review.
+0 Stand feet and rocks for instruction steps 33–53: all99 physical parts placed; connection and reference checks documented in companion progress JSON.
 0 Instruction step 33 / book1 page44. Centralfootbrick supports and bridgeplate; visual comparisonpending.
 1 71 330 -24 -210 1 0 0 0 1 0 0 0 1 2357.dat
 1 71 330 -24 -110 0 0 1 0 1 0 -1 0 0 2357.dat
@@ -23,6 +23,41 @@
 1 71 340 -32 -120 0 0 1 0 1 0 -1 0 0 15068.dat
 1 71 340 -32 -200 0 0 1 0 1 0 -1 0 0 15068.dat
 0 STEP
+0 Instruction step37 remaining plates / book1 page48. Paired cap plates bridge gray bricks and green axle-brick top studs without covering the green corner bricks.
+1 72 430 -32 -220 1 0 0 0 1 0 0 0 1 3021.dat
+1 72 430 -32 -100 1 0 0 0 1 0 0 0 1 3021.dat
+1 72 430 -32 -50 -1 0 0 0 1 0 0 0 -1 2420.dat
+1 72 330 -32 -50 0 0 1 0 1 0 -1 0 0 2420.dat
+0 STEP
+0 Instruction step38 / book1 page49. Paired triangular roof rests on step37 corner plates and the central bridge; outside trim preserves green foot mounts.
+1 72 350 -40 -90 0 0 1 0 1 0 -1 0 0 2450.dat
+1 72 410 -40 -90 1 0 0 0 1 0 0 0 1 2450.dat
+1 288 430 -40 -230 1 0 0 0 1 0 0 0 1 24866.dat
+1 288 430 -40 -90 1 0 0 0 1 0 0 0 1 24866.dat
+1 330 440 -24 -230 0 0 1 0 1 0 -1 0 0 11477.dat
+1 330 330 -16 -120 1 0 0 0 1 0 0 0 1 11477.dat
+0 STEP
+0 Instruction step39 / book1 page50. Roof surface candidates with separate front chamfered tile and slope strip.
+1 72 370 -64 -70 -1 0 0 0 1 0 0 0 -1 43711.dat
+1 72 380 -48 -90 0 0 1 0 1 0 -1 0 0 15672.dat
+1 72 380 -48 -110 1 0 0 0 1 0 0 0 1 96910.dat
+0 STEP
+0 Instruction step40 / book1 page51. Corner rock and two exposed plant mounts.
+1 71 410 -64 -70 0 0 -1 0 1 0 1 0 0 13548.dat
+1 288 350 -48 -90 -1 0 0 0 1 0 0 0 -1 32607.dat
+1 288 410 -48 -90 1 0 0 0 1 0 0 0 1 32607.dat
+0 STEP
+0 Instruction step41 / book1 page52. Caps use native curved-slope rear mounting plane Y-8.
+1 330 410 -64 -70 0 0 -1 0 1 0 1 0 0 54200.dat
+1 330 370 -56 -80 1 0 0 0 1 0 0 0 1 11477.dat
+1 330 390 -40 -100 1 0 0 0 1 0 0 0 1 11477.dat
+0 STEP
+0 Instruction step42 / book1 page53. Opposite-end wedge mates deck Y-40; mirrored finish of step29.
+1 16 570 -64 -10 0 0 1 0 1 0 -1 0 0 high-end-trim-step42.ldr
+0 STEP
+0 Instruction step43 / book1 page54. Main plate underside Z40 mates high-side SNOT grid: yellow630/-62, gray610/-42 and lower wall610/630/-22. Wing sits beside the3020 at the same plate level and connects the overhanging wedge underside.
+1 16 620 -32 48 -1 0 0 0 0 -1 0 -1 0 high-foot-panel-step43.ldr
+0 STEP
 0 Instruction step 44 / book1 pages55–56. Independent nine-part side module; base attachment candidate.
 1 16 800 0 160 0 0 -1 0 1 0 1 0 0 high-foot-side-step44.ldr
 0 STEP
@@ -41,6 +76,42 @@
 1 71 620 -8 160 0 0 -1 0 1 0 1 0 0 15068.dat
 1 72 600 -16 200 -1 0 0 0 1 0 0 0 -1 22385.dat
 1 288 630 -16 170 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
+0 Instruction step48 / book1 page60. Curved bridge finishes; cap plate grid candidate still under comparison.
+1 71 660 -32 120 0 0 1 0 1 0 -1 0 0 15068.dat
+1 71 660 -32 200 0 0 1 0 1 0 -1 0 0 15068.dat
+1 72 750 -32 220 1 0 0 0 1 0 0 0 1 3021.dat
+0 STEP
+0 Instruction step48 remaining pieces / book1 page60. Olive roof substrate and down-facing bracket; candidate grid awaiting combined render.
+1 330 730 -32 70 1 0 0 0 1 0 0 0 1 77844.dat
+1 330 750 -32 110 0 0 1 0 1 0 -1 0 0 3623.dat
+1 71 740 -40 70 1 0 0 0 1 0 0 0 1 99207.dat
+0 STEP
+0 Instruction step49 / book1 page61. Roof bearing plates and outside trim; candidate grid.
+1 72 750 -40 100 1 0 0 0 1 0 0 0 1 3021.dat
+1 330 640 -40 70 1 0 0 0 1 0 0 0 1 3023.dat
+1 330 640 -40 90 1 0 0 0 1 0 0 0 1 3023.dat
+1 330 650 -24 100 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 330 760 -24 230 0 0 -1 0 1 0 1 0 0 11477.dat
+1 288 730 -40 230 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
+0 Instruction step50 / book1 page62. Six-stud roof with second curved lip.
+1 71 680 -48 80 1 0 0 0 1 0 0 0 1 3795.dat
+1 330 670 -24 100 -1 0 0 0 1 0 0 0 -1 11477.dat
+0 STEP
+0 Instruction step51 / book1 page63. Rock assembly bottom Y24 mates roof Y-48.
+1 16 660 -72 70 -1 0 0 0 1 0 0 0 -1 high-foot-rock-step51.ldr
+0 STEP
+0 Instruction step52 / book1 page64. Amber stack lower olive plate bottom mates roof.
+1 16 720 -56 70 1 0 0 0 1 0 0 0 1 high-foot-amber-step52.ldr
+0 STEP
+0 Instruction step53 / book1 page65. Geodes use the exposed roof and right-side cap studs; curved caps use the lower3021row and adjoining olive plate level.
+1 16 630 -48 70 -1 0 0 0 1 0 0 0 -1 amber-geode-step53.ldr
+1 16 750 -40 90 -1 0 0 0 1 0 0 0 -1 amber-geode-step53.ldr
+1 330 750 -32 120 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 330 770 -32 120 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 330 750 -40 70 1 0 0 0 1 0 0 0 1 54200.dat
+1 288 730 -96 70 1 0 0 0 1 0 0 0 1 24866.dat
 0 STEP
 0 NOFILE
 0 FILE central-foot-opposite-step34.ldr
@@ -64,13 +135,13 @@
 1 14 50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
 0 NOFILE
 0 FILE high-foot-panel-step43.ldr
-0 Step43 local six-part rock panel. Native stud plane Y0; final side-bracket attachment pending.
+0 Step43 six-part side rock panel. The2450 plate sits beside3020 atY0 and supports the43711 overhang; global mount is in the root model.
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 3020.dat
 1 71 10 -24 30 1 0 0 0 1 0 0 0 1 60477.dat
 1 72 -10 -24 30 1 0 0 0 1 0 0 0 1 43711.dat
-1 72 -30 8 10 1 0 0 0 1 0 0 0 1 2450.dat
+1 72 -50 0 10 1 0 0 0 1 0 0 0 1 2450.dat
 1 72 0 -32 30 1 0 0 0 1 0 0 0 1 96910.dat
-1 288 -50 0 30 1 0 0 0 1 0 0 0 1 24866.dat
+1 288 -70 -8 30 1 0 0 0 1 0 0 0 1 24866.dat
 0 NOFILE
 0 FILE high-foot-opposite-step46.ldr
 0 Step46 mirror of step34 with an extra olive plate below the end slope.
@@ -82,7 +153,7 @@
 1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 15068.dat
 0 NOFILE
 0 FILE high-foot-amber-step52.ldr
-0 Step52 independent four-part stack. Mount to step50 roof remains pending.
+0 Step52 four-part amber stack. The lower plate bottom isY8; global mount is in the root model.
 1 330 0 0 0 1 0 0 0 1 0 0 0 1 3023.dat
 1 71 10 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
 1 57 -10 -24 0 1 0 0 0 1 0 0 0 1 3005.dat

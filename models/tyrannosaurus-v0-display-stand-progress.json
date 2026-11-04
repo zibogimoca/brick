@@ -1,5 +1,5 @@
 {
-  "scope": "Original display stand base1–32 plus integrated column cores54–98. Foot rocks33–53 and post rock surfaces remain partial. Only minifigures and printed plaque excluded; decorative fossil image omitted with user authorization.",
+  "scope": "Original stand1–98 with only minifigs and printed plaque excluded.",
   "excluded": [
     {
       "element": "6558851",
@@ -23,8 +23,8 @@
     }
   ],
   "source": "76968_1.pdf steps1–98, subsequent support locks in book2 and final plaque attachments in book3",
-  "status": "All base steps1–32 represented, but foundation part/coordinate review is unresolved; not accepted for integration.",
-  "last_reviewed_step": null,
+  "status": "All assigned stage parts placed and integrated; unresolved connector/foot contact prevents completion claim.",
+  "last_reviewed_step": 98,
   "steps": [
     {
       "step": 1,
@@ -566,5 +566,12 @@
       ],
       "verification": "Combined body and307piece stand core rendered successfully. Main post axes align; underside insertion depth and foot-floor contact still require review."
     }
-  }
+  },
+  "foundation_11_12_review": {
+    "status": "unresolved_contact_grid",
+    "retained": "Original pink11Y−8 /99207Y−16 /rightcolumnY−8 retained; alternativeheightcandidate rejected due blue3710 overlap.",
+    "unresolved": "73back3795 upper72 andlower12 studrows have4LDU phase difference.",
+    "unchanged": "Columnaxisgap720 andcross13/44 anchors retained. Roof17 bottom−24 seats innerTechnicrail top−24; outer30414 top−32 is not its support layer."
+  },
+  "physical_part_count": 512
 }

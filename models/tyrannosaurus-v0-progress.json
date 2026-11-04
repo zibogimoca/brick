@@ -16341,16 +16341,24 @@
     "book2": "models/tyrannosaurus-v0-book2-progress.json",
     "book3": "models/tyrannosaurus-v0-book3-progress.json",
     "book1_remainder": "models/tyrannosaurus-v0-book1-remainder-progress.json",
-    "integration": "independent subassemblies; final attachment transforms pending"
+    "integration": "Main agent integrated body and stand; module agents finished assigned stand stage-part placement."
   },
   "published_checkpoint": {
+    "schema_version": 4,
+    "status": "instruction_reconstruction_in_progress",
+    "version_label": "버전 0",
+    "piece_count": 3010,
     "body_draft_piece_count": 2496,
-    "piece_count": 2847,
+    "stand_draft_piece_count": 514,
     "layout": "integrated_instruction_model",
+    "layout_note": "본체·받침대 검토본 · 어깨띠 전방 기울기·원판 접힘 수정",
+    "unresolved": "받침대1–98단계 부품 배치를 반영했습니다. 12/72 브래킷의4LDU 접점 차이와 발 고정축 정렬은 아직 미해결입니다.",
+    "support_note": "마감 부품 일부의 접촉·전수 간섭·실물 결합·하중은 미검증입니다.",
     "assembly_verified": false,
-    "stand_draft_piece_count": 351,
-    "publication_status": "incomplete_review_checkpoint",
-    "pose": "vertical discs,45degree upper arms, asymmetric stride"
+    "joints": [],
+    "source_workfile": "tyrannosaurus-v0-reconstruction.ldr",
+    "source_stand_workfile": "tyrannosaurus-v0-display-stand.ldr",
+    "publication_status": "review_build_ready_for_deploy"
   },
   "integration_note": "Root integrated213pubis47parts and481/493pelviccovers62parts; connectoraxes/bodypinrotations corrected; composite render pending.",
   "root_leg_integration": "RightlegfullassemblyanditsZ-reflection; priorindependentsecondmountdiscarded.",
@@ -16417,8 +16425,9 @@
     "joint_pose_verification": "kinematiccentreschecked; finalROMandphysicalclearanceuntested"
   },
   "root_integration_remaining": [
-    "Finaljointpose/clearance/gearengagementreview",
-    "Originalstandinprogress"
+    "Stand12/72contact grid",
+    "Foot locking and platform contact",
+    "Final joint clearance and gear engagement"
   ],
   "step455_correction": "54200nativebottomY0, notY16: low/middle/highY0/-8/-24 toseatarch/plate/bricktops. Correctedoldairgaps.",
   "root_rear_chevron_integration": {
@@ -16429,41 +16438,65 @@
     "verification": "supportpairandhingecentrescomputed; finalcompositeposepending"
   },
   "forelimb_user_correction": {
-    "common_centre": true,
-    "central_hinge_degrees": 0,
-    "original_centre_axis": [
-      -10.0,
-      10.0,
-      -50.0
-    ],
-    "hands": "Whole upper-arm/elbow/centre pose adjusted forward/down; claws retain forward direction.",
-    "max_link_length_residual": 2.842170943040401e-14,
-    "verification": "Disc planes vertical, upper-arm sagittal projection45degrees; rods64LDU; whole-mesh clearance and physical ROM unverified.",
-    "common_centre_reference": [
-      -835.23361907,
-      131.3675323732,
+    "status": "rendered_local_geometry_review",
+    "central_hinge_degrees": 90,
+    "hinge_axis_world": [
+      0,
+      -1,
       0
     ],
-    "oval3766": "NativefootprintX[-60,60]/Z[-40,40]; correctrotationRy90, centredat0. Previous I/translation-20incorrect.",
-    "talons": "Rotated180aboutinsertedbaraxis, curvefacesdownwhilefingerspointforward.",
-    "rod_joint_max_residual": 5.439379132036632e-08,
-    "hands_forward_shift": 40,
-    "pending_user_pose_guidance": {
-      "status": "applied; composite verification in progress"
-    },
-    "disc_normals_world": [
-      1.0,
-      0.0,
-      0.0
+    "shoulder_strap_forward_down_projection_degrees": 50.7684795164,
+    "shoulder_pins_spacing": 80,
+    "sternum_midpoint": [
+      -855,
+      140,
+      0
     ],
-    "disc_plane_to_ground_degrees": 90,
-    "posterior_edge_direction": "downward",
-    "upper_arm_forward_down_degrees": 45,
-    "upper_arm_projection": [
-      85,
-      85
+    "links": [
+      {
+        "side": 1,
+        "shoulder": [
+          -785.0,
+          32.15738054771672,
+          228.1228926605167
+        ],
+        "elbow": [
+          -860.6188299130839,
+          115.33978810641823,
+          144.08433225331925
+        ],
+        "rod_socket": [
+          -855.0,
+          135.0,
+          83.43860018001261
+        ],
+        "upper_length": 140.35668847618203,
+        "rod_length": 63.99999999999995
+      },
+      {
+        "side": -1,
+        "shoulder": [
+          -785.0,
+          32.15738054771672,
+          -228.1228926605167
+        ],
+        "elbow": [
+          -855.4241136822076,
+          116.3916691982974,
+          -140.6870371571469
+        ],
+        "rod_socket": [
+          -855.0,
+          145.0,
+          -83.43860018001263
+        ],
+        "upper_length": 140.356688476182,
+        "rod_length": 63.99999999999997
+      }
     ],
-    "rod_length_max_residual": 2.842170943040401e-14
+    "verification": "Rigid source parts, pin spacing and64LDU rods constrained. Visual review/whole mesh clearance pending.",
+    "shoulder_joint_max_residual": 4.557910553323827e-10,
+    "visual_review": "Body side and enlarged forelimb renders loaded with no page errors; full mesh collision and physical articulation remain unverified."
   },
   "left_knee_correction": {
     "409": "T.Z135.764501988→121.6223663643",
@@ -16483,25 +16516,19 @@
   },
   "stand_work_checkpoint": {
     "root_workfile": "tyrannosaurus-v0-display-stand.ldr",
-    "integrated_stand_core_pieces": 307,
-    "body_post_axis_candidate_x": [
+    "stage_scope": "1–98 stage parts placed in actual assembly coordinates; no workbench roots",
+    "review_stand_piece_count": 514,
+    "body_post_axis_x": [
       -780,
       -60
     ],
-    "combined_core_rendered": true,
-    "local_modules_added": [
-      73,
-      87,
-      93,
-      94
-    ],
-    "remaining": "37 cap plates;38–41/48–50; post rock mounting; exact foot-floor matching; accepted user arm pose after stand readiness.",
-    "limitation": "Combined core screen check does not certify seating depth, strength, or finished stand.",
-    "final_publication": "Publish completed stand together with user-corrected disc-downward vertical pose and forward45degree upper arms.",
-    "publication_scope": "Body plus stand core and already mounted partial foot rocks. Unmounted loose modules excluded. Incomplete checkpoint; final user arm pose not applied.",
+    "publication_scope": "Body with complete stage-part placement, shoulder strap and folded sternum correction",
     "complete": false,
-    "review_stand_piece_count": 351,
-    "publication_status": "incomplete_review_checkpoint"
+    "remaining": [
+      "12/72 bracket4LDUcontact mismatch",
+      "Foot locking axles318/419 alignment",
+      "Ornament contact audit and whole-mesh/physical strength checks"
+    ]
   },
   "walking_pose_revision": {
     "status": "Applied, packaged and visually reviewed; physical locking and whole-stand collision review remain.",

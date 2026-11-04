@@ -1,6 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 Corrected disc and upper-arm pose; asymmetric walking stance on partial stand.
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":2847,"body_draft_piece_count":2496,"layout":"integrated_instruction_model","layout_note":"본체·받침대 검토본 · 원판 수직/상완45도·걷는 자세 적용","unresolved":"원판을 안쪽 아래 방향으로 세우고 앞팔 전체를 전방으로 조정했습니다. 좌우 다리를 앞뒤로 벌리고 발가락을 발판 높이에 맞췄습니다. 받침대 장식·정밀 간섭·발 고정축 검증은 남아 있습니다","support_note":"발판 높이 기준 접점 계산을 수행한 검토 자세입니다. 실물 가동 범위·하중·전체 간섭은 미검증입니다","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","stand_draft_piece_count":351,"source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr"}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3010,"body_draft_piece_count":2496,"stand_draft_piece_count":514,"layout":"integrated_instruction_model","layout_note":"본체·받침대 검토본 · 어깨띠 전방 기울기·원판 접힘 수정","unresolved":"받침대1–98단계 부품 배치를 반영했습니다. 12/72 브래킷의4LDU 접점 차이와 발 고정축 정렬은 아직 미해결입니다.","support_note":"마감 부품 일부의 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr"}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -611,8 +610,8 @@
 1 16 -770 -72.42640687 92.42640687 0 0 -1 0.7071067812 0.7071067812 0 0.7071067812 -0.7071067812 0 single-rib-step451.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
 1 16 -810 -52.96100594 105.432772 0 0 -1 0.9238795325 0.3826834324 0 0.3826834324 -0.9238795325 0 single-rib-step452.ldr
-1 16 -710 -14.44365081 175.8650071 0 0 1 -0.7071067812 0.7071067812 0 -0.7071067812 -0.7071067812 0 shoulder-strap-step453.ldr
-1 16 -710 -14.44365081 -175.8650071 0 0 -1 -0.7071067812 0.7071067812 0 0.7071067812 0.7071067812 0 shoulder-strap-step454.ldr
+1 16 -740 -20.1277115412 170.180946322 0.5 0 0.866025403784 -0.612372435707 0.7071067812 0.3535533906 -0.612372435707 -0.7071067812 0.3535533906 shoulder-strap-step453.ldr
+1 16 -740 -20.1277115412 -170.180946322 0.5 0 -0.866025403784 -0.612372435707 0.7071067812 -0.3535533906 0.612372435707 0.7071067812 0.3535533906 shoulder-strap-step454.ldr
 0 Step709:69789transverseaxlehole native(0,0,-10) becomes head(11.9,-74,0); matchedbodycapaxis(-1030,-98,0).
 1 16 -1041.9 -24 0 1 0 0 0 1 0 0 0 1 book3-head-assembly.ldr
 0 Step7095Laxle and12Tbevel; gearbaseflushoutercapZ-40.
@@ -2099,29 +2098,29 @@
 1 4 0 30 -20 0 -1 0 1 0 0 0 0 1 32062.dat
 0 STEP
 0 Instruction step 444 / book 2 page 112
-1 0 110 0 20 -1 0 0 0 0 -1 0 -1 0 32291.dat
-1 0 110 0 20 -1 0 0 0 1 0 0 0 -1 18651.dat
-1 19 80 0 20 0 0 1 0 1 0 -1 0 0 59443.dat
+1 0 109.282032303 0 -20 -1 0 0 0 0 -1 0 -1 0 32291.dat
+1 0 109.282032303 0 -20 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 19 60 0 -20 0 0 1 0 1 0 -1 0 0 59443.dat
 0 STEP
 0 Instruction step 445 / book 2 page 113
-1 19 70 0 -20 1 0 0 0 1 0 0 0 1 62462.dat
-1 0 90 0 -20 1 0 0 0 1 0 0 0 1 61332.dat
+1 19 70 0 20 1 0 0 0 1 0 0 0 1 62462.dat
+1 0 90 0 20 1 0 0 0 1 0 0 0 1 61332.dat
 0 STEP
 0 Instruction step 446 / book 2 page 113
-1 19 110 0 -20 1 0 0 0 1 0 0 0 1 62462.dat
-1 19 140 0 20 1 0 0 0 1 0 0 0 1 62462.dat
+1 19 110 0 20 1 0 0 0 1 0 0 0 1 62462.dat
+1 19 129.282032303 0 -20 1 0 0 0 1 0 0 0 1 62462.dat
 0 STEP
 0 Instruction step 447 / book 2 page 113
-1 19 160 0 20 0 0 1 0 -1 0 1 0 0 51274.dat
-1 19 130 0 -20 0 0 1 0 -1 0 1 0 0 51274.dat
+1 19 149.282032303 0 -20 0 0 1 0 -1 0 1 0 0 51274.dat
+1 19 130 0 20 0 0 1 0 -1 0 1 0 0 51274.dat
 0 STEP
 0 Instruction step 448 / book 2 page 114
-1 19 280 36 20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
-1 19 250 36 -20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
+1 19 269.282032303 36 -20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
+1 19 250 36 20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
 0 STEP
 0 Instruction step 449 / book 2 page 114
-1 19 302.62742 58.627417 20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
-1 19 272.62742 58.627417 -20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
+1 19 291.909452303 58.627417 -20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
+1 19 272.62742 58.627417 20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
 0 STEP
 0 NOFILE
 0 FILE single-rib-step451.ldr
@@ -2163,29 +2162,29 @@
 1 4 0 30 20 0 -1 0 1 0 0 0 0 1 32062.dat
 0 STEP
 0 Instruction step 434 / book 2 page 108
-1 0 110 0 -20 1 0 0 0 0 -1 0 1 0 32291.dat
-1 0 110 0 -20 -1 0 0 0 1 0 0 0 -1 18651.dat
-1 19 80 0 -20 0 0 1 0 1 0 -1 0 0 59443.dat
+1 0 109.282032303 0 20 1 0 0 0 0 -1 0 1 0 32291.dat
+1 0 109.282032303 0 20 -1 0 0 0 1 0 0 0 -1 18651.dat
+1 19 60 0 20 0 0 1 0 1 0 -1 0 0 59443.dat
 0 STEP
 0 Instruction step 435 / book 2 page 109
-1 19 70 0 20 1 0 0 0 1 0 0 0 1 62462.dat
-1 0 90 0 20 1 0 0 0 1 0 0 0 1 61332.dat
+1 19 70 0 -20 1 0 0 0 1 0 0 0 1 62462.dat
+1 0 90 0 -20 1 0 0 0 1 0 0 0 1 61332.dat
 0 STEP
 0 Instruction step 436 / book 2 page 109
-1 19 110 0 20 1 0 0 0 1 0 0 0 1 62462.dat
-1 19 140 0 -20 1 0 0 0 1 0 0 0 1 62462.dat
+1 19 110 0 -20 1 0 0 0 1 0 0 0 1 62462.dat
+1 19 129.282032303 0 20 1 0 0 0 1 0 0 0 1 62462.dat
 0 STEP
 0 Instruction step 437 / book 2 page 109
-1 19 160 0 -20 0 0 1 0 -1 0 1 0 0 51274.dat
-1 19 130 0 20 0 0 1 0 -1 0 1 0 0 51274.dat
+1 19 149.282032303 0 20 0 0 1 0 -1 0 1 0 0 51274.dat
+1 19 130 0 -20 0 0 1 0 -1 0 1 0 0 51274.dat
 0 STEP
 0 Instruction step 438 / book 2 page 110
-1 19 280 36 -20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
-1 19 250 36 20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
+1 19 269.282032303 36 20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
+1 19 250 36 -20 0 -0.70710678 0.70710678 0 -0.70710678 -0.70710678 1 0 0 37762.dat
 0 STEP
 0 Instruction step 439 / book 2 page 110
-1 19 302.62742 58.627417 -20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
-1 19 272.62742 58.627417 20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
+1 19 291.909452303 58.627417 20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
+1 19 272.62742 58.627417 -20 0 0.70710678 0.70710678 0 -0.70710678 0.70710678 1 0 0 40379.dat
 0 STEP
 0 NOFILE
 0 FILE shoulder-strap-step453.ldr
@@ -3560,17 +3559,17 @@
 1 28 0 -24 0 0 0 1 0 1 0 -1 0 0 61678.dat
 0 NOFILE
 0 FILE body-common-forelimb-assembly.ldr
-0 User pose: body-side disc edge DOWN, faces vertical; both upper arms45degrees forward/down. Link centres constrained. Physical ROM/clearance unverified.
-1 16 -839.233619067 148.436055705 49.3321954839 0 1 0 -0.999133073092 0 0.0416305447122 0.0416305447122 0 0.999133073092 shoulder-oval-step457.ldr
-1 16 -839.233619067 154.264331965 -50.9974172724 0 1 0 0.999133073092 0 -0.0416305447122 -0.0416305447122 0 -0.999133073092 shoulder-oval-step462.ldr
-1 16 -722.533762857 60.9164661179 235.460394714 -0.748457018726 0.365032506723 0.55368164152 -0.662162602482 -0.365032506723 -0.654440185892 -0.0367801440259 -0.856447627162 0.514922016362 upper-arm-step466.ldr
-1 16 -815.116809533 131.367532373 144.990141148 0.777688114175 0 0.628650297917 0 1 0 -0.628650297917 0 0.777688114175 arm-ball-rod-step463.ldr
-1 16 -849.733619067 180.500244403 118.89517168 0.672391544868 0.231311142759 -0.703125 0 0.949917759598 0.3125 0.74019565683 -0.210122357771 0.638716669874 arm-ball-rod-step463.ldr
-1 16 -910.16560278 194.726231287 173.791406903 0.703125 0.231311142759 0.672391544868 -0.3125 0.949917759598 0 -0.638716669874 -0.210122357771 0.74019565683 hand-step464.ldr
-1 16 -722.533762857 60.9164661179 -235.460394714 0.748457018726 0.365032506723 0.55368164152 0.662162602482 -0.365032506723 -0.654440185892 -0.0367801440259 0.856447627162 -0.514922016362 upper-arm-step467.ldr
-1 16 -815.116809533 131.367532373 -144.990141148 -0.777688114175 0 0.628650297917 0 1 0 -0.628650297917 0 -0.777688114175 arm-ball-rod-step463.ldr
-1 16 -849.733619067 182.165466191 -122.225615257 -0.672391544868 0.231311142759 -0.703125 0 0.949917759598 0.3125 0.74019565683 0.210122357771 -0.638716669874 arm-ball-rod-step463.ldr
-1 16 -910.16560278 196.391453076 -177.12185048 -0.703125 0.231311142759 0.672391544868 0.3125 0.949917759598 0 -0.638716669874 0.210122357771 -0.74019565683 hand-step465.ldr
+0 Folded sternum: vertical hinge axis,90degree V fold. Shoulder straps pin-constrained, forward/down ~51degrees.
+1 16 -912.982756057 155 42.4264068712 0 0.707106781187 0.707106781187 -1 0 0 0 -0.707106781187 0.707106781187 shoulder-oval-step457.ldr
+1 16 -912.982756057 165 -42.4264068712 8.65956056235e-17 0.707106781187 0.707106781187 1 0 -1.22464679915e-16 -8.65956056235e-17 0.707106781187 -0.707106781187 shoulder-oval-step462.ldr
+1 16 -796.39830212 46.6551991427 219.411293223 -0.765504805259 0.422297606424 0.485455584718 -0.640248407849 -0.424994233141 -0.639892083123 -0.0639090711214 -0.800652629675 0.595710497829 upper-arm-step466.ldr
+1 16 -857.809414957 125.169894053 113.761466217 0.852933401368 -0.514584092469 0.0877942173919 -0.514584092469 -0.800522965014 0.307190810837 -0.0877942173919 -0.307190810837 -0.947589563645 arm-ball-rod-step463.ldr
+1 16 -891.642135624 185 89.7353979923 0.698309796493 0.134084534892 -0.703125 0.134084534892 0.940406873381 0.3125 0.703125 -0.3125 0.638716669874 arm-ball-rod-step463.ldr
+1 16 -952.074119337 199.225986885 144.631633215 0.703125 0.231311142759 0.672391544868 -0.3125 0.949917759598 -2.77555756156e-17 -0.638716669874 -0.210122357771 0.74019565683 hand-step464.ldr
+1 16 -795.69927999 46.8557767716 -218.87721496 0.779696455908 0.43813610031 0.447336779451 0.620479720958 -0.44463170382 -0.64599347043 -0.0841329455317 0.781242219522 -0.618532328915 upper-arm-step467.ldr
+1 16 -855.212056841 130.695834599 -112.062818669 0.999976820266 -0.00156357486185 0.00662677628449 -0.00156357486185 0.894530007502 0.447005168777 -0.00662677628449 -0.447005168777 0.894506827768 arm-ball-rod-step463.ldr
+1 16 -891.642135624 195 -89.7353979923 -0.368412889276 0.608183506345 -0.703125 0.608183506345 0.729696219402 0.3125 0.703125 -0.3125 -0.638716669874 arm-ball-rod-step463.ldr
+1 16 -952.074119337 209.225986885 -144.631633215 -0.703125 0.231311142759 0.672391544868 0.3125 0.949917759598 -2.77555756156e-17 -0.638716669874 0.210122357771 -0.74019565683 hand-step465.ldr
 0 NOFILE
 0 FILE shoulder-oval-step457.ldr
 1 19 0 0 0 0 0 1 0 1 0 -1 0 0 3766.dat
@@ -3578,7 +3577,7 @@
 0 Instruction step458 / book2page127
 1 28 20 -8 40 -1 0 0 0 1 0 0 0 -1 51739.dat
 0 Instruction step459 / book2page127
-1 71 20 0 50 -1 0 0 0 1 0 0 0 -1 14704.dat
+1 71 20 8 50 -1 0 0 0 1 0 0 0 -1 14704.dat
 0 Instruction step460 / book2page127
 1 71 -20 8 30 -1 0 0 0 1 0 0 0 -1 14704.dat
 1 19 20 8 20 1 0 0 0 1 0 0 0 1 2654.dat
@@ -3593,7 +3592,7 @@
 1 19 0 0 0 0 0 1 0 1 0 -1 0 0 3766.dat
 1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 22385.dat
 1 28 -20 -8 40 -1 0 0 0 1 0 0 0 -1 51739.dat
-1 71 -20 0 50 -1 0 0 0 1 0 0 0 -1 14704.dat
+1 71 -20 8 50 -1 0 0 0 1 0 0 0 -1 14704.dat
 1 71 20 8 30 -1 0 0 0 1 0 0 0 -1 14704.dat
 1 19 -20 8 20 1 0 0 0 1 0 0 0 1 2654.dat
 1 19 0 8 -30 1 0 0 0 1 0 0 0 1 48336.dat
@@ -3646,16 +3645,16 @@
 1 19 10 2 -50 -1 0 0 0 0 1 0 1 0 87747.dat
 0 NOFILE
 0 FILE body-display-stand-review.ldr
-0 Partial stand checkpoint: final decorative modules, arm pose and feet remain unfinished.
+0 Stand stage parts included;12/72studgrid and foot locking unfinished.
 1 16 -738 624 0 1 0 0 0 1 0 0 0 1 stand-review-display-stand.ldr
 1 16 -738 624 0 1 0 0 0 1 0 0 0 1 stand-foot-review-stand-foot-rocks-steps33-53.ldr
-0 Step193 coupling axle placements are candidates; insertion depths remain under review.
+0 Instruction193 coupling axles; physical insertion clearance unverified.
 1 4 -780 36 0 0 -1 0 1 0 0 0 0 1 3705.dat
 1 14 -60 62 0 0 -1 0 1 0 0 0 0 1 32073.dat
 0 NOFILE
 0 FILE stand-review-display-stand.ldr
 0 Version 0 original display stand reconstruction. Full base authorized; only minifigs and printed plaque omitted.
-0 Work in progress. Not the completed version 0.
+0 All stand1–98 stage parts represented;12/72 contact and footlocks remain unresolved.
 0 Coordinates: X along plinth, Y downward, Z across plinth. Units LDU.
 0 Reference colors and part IDs require inventory cross-check before acceptance.
 0 STEP 1 / book 1 page 11
@@ -3874,10 +3873,61 @@
 1 16 480 0 -160 0 0 -1 0 1 0 1 0 0 stand-review-central-foot-side-step32.ldr
 0 STEP
 0 Core columns: native73230 hole axes align standX-42/678. Mating height under review against book1pages199-200.
-1 16 -28 -8 0 0 1 0 -1 0 0 0 0 1 stand-review-stand-column-step54.ldr
+0 Book1 columns and surrounding detailing54–98; actual stand coordinates, no workbench display roots. Physical fit issues explicitly recorded in progress JSON.
+1 16 -28 -8 0 0 1 0 -1 0 0 0 0 1 stand-review-stand-low-column-step54.ldr
 1 16 692 -8 0 0 1 0 -1 0 0 0 0 1 stand-review-stand-column-step54.ldr
 1 16 692 -8 0 0 1 0 -1 0 0 0 0 1 stand-review-stand-first-post-trim-step69.ldr
-1 16 -28 -8 0 0 1 0 -1 0 0 0 0 1 stand-review-stand-second-post-trim-step83.ldr
+1 16 680 -120 0 1 0 0 0 1 0 0 0 1 stand-review-stand-top-rock-ring-step76.ldr
+1 16 -52 -8 0 0 -1 0 -1 0 0 0 0 -1 stand-review-stand-second-post-trim-step83.ldr
+1 16 -40 -120 0 -1 0 0 0 1 0 0 0 -1 stand-review-stand-top-rock-ring-step94.ldr
+0 Step73 end panel uses upper72 stud grid; lower12 4LDU mismatch logged. Step79 horizontal backing meets lowerSNOT rowY-22 and wing meets87087(710,-62,-40).
+1 16 732 -52 20 0 -1 0 -1 0 0 0 0 -1 stand-review-stand-side-wedge-step73.ldr
+1 16 660 -12 -48 1 0 0 0 0 -1 0 1 0 stand-review-stand-rock-panel-step79.ldr
+0 Step91/95 horizontal backing mates lowerSNOT rowY-22; wing mates upper87087(-70,-62,+/-40).
+1 16 -20 -12 -48 1 0 0 0 0 -1 0 1 0 stand-review-stand-rock-panel-step91.ldr
+1 16 -20 -12 48 -1 0 0 0 0 -1 0 -1 0 stand-review-stand-rock-panel-step79.ldr
+0 Step87 blank fossil tile, original41740 pair contacts endframe fourcornergrid.
+1 16 -92 -32 0 0 1 0 0 0 1 1 0 0 stand-review-stand-fossil-tile-step87.ldr
+0 Step93 outer end panel: upper86 side stud planeX-84.
+1 16 -92 -52 0 0 1 0 -1 0 0 0 0 1 stand-review-stand-side-wedge-step93.ldr
+0 Step75 remaining end strip; brick bottoms meet72 side studplaneX724.
+1 16 724 -52 -30 0 -1 0 -1 0 0 0 0 -1 stand-review-stand-rock-core-step75.ldr
+0 Step74 foot-side rock attaches first-foot48 bracket candidate; cross-check when foot48 finalized.
+1 16 750 -30 32 0 0 1 1 0 0 0 1 0 stand-review-stand-corner-rock-step74.ldr
+0 Steps77/78 upper front ornaments; final multi-foot clearance needs review.
+1 288 650 -120 10 1 0 0 0 1 0 0 0 1 32607.dat
+1 71 640 -120 -10 0 0 1 0 1 0 -1 0 0 28192.dat
+1 16 610 -88 -10 0 0 1 0 1 0 -1 0 0 stand-review-stand-orange-geode.dat
+1 16 650 -144 10 -1 0 0 0 1 0 0 0 -1 stand-review-stand-corner-rock-step78.ldr
+0 Step80 side triangle; faces mate side SNOT planeZ-40.
+1 16 650 -12 -64 0 0 -1 -1 0 0 0 1 0 stand-review-stand-side-rock-pair-step80.ldr
+0 Step81 shield overlay mates79 three-by-three white stud field atZ-72.
+1 16 700 -32 -80 -1 0 0 0 0 1 0 1 0 stand-review-stand-small-rock-face-step81.ldr
+0 Step82 black side tiles.
+1 0 120 -12 -48 1 0 0 0 0 -1 0 1 0 87079.dat
+1 0 220 -12 -48 1 0 0 0 0 -1 0 1 0 69729.dat
+1 0 540 -12 -48 1 0 0 0 0 -1 0 1 0 87079.dat
+1 0 610 -12 -48 1 0 0 0 0 -1 0 1 0 26603.dat
+0 Step88 four separate SNOT-mounted stones and connecting olive plate.
+1 71 20 -12 -64 1 0 0 0 0 -1 0 1 0 3001.dat
+1 71 50 -102 -64 0 0 1 1 0 0 0 1 0 43708.dat
+1 72 80 -102 -64 1 0 0 0 0 -1 0 1 0 30363.dat
+1 330 60 -102 -72 1 0 0 0 0 -1 0 1 0 3023b.dat
+0 Step89 bottom wedge and three-stud edging.
+1 71 30 -12 -72 0 0 1 1 0 0 0 1 0 43722.dat
+1 330 -10 -22 -72 0 0 1 1 0 0 0 1 0 3623.dat
+0 Step90 side curve, cap and flower.
+1 71 50 -32 -80 -1 0 0 0 0 1 0 1 0 28192.dat
+1 330 20 -2 -64 0 0 1 1 0 0 0 1 0 11477.dat
+1 288 50 -102 -80 1 0 0 0 0 -1 0 1 0 24866.dat
+0 Step92 shield overlay.
+1 16 -60 -32 -80 -1 0 0 0 0 1 0 1 0 stand-review-stand-small-rock-face-step81.ldr
+0 Step96 opposite face triangle.
+1 16 -10 -12 64 0 0 1 -1 0 0 0 -1 0 stand-review-stand-side-rock-pair-step80.ldr
+0 Step97 opposite shield and two black tiles.
+1 16 -60 -32 80 1 0 0 0 0 1 0 -1 0 stand-review-stand-small-rock-face-step81.ldr
+1 0 120 -12 48 1 0 0 0 0 1 0 -1 0 87079.dat
+1 0 560 -12 48 1 0 0 0 0 1 0 -1 0 87079.dat
 0 NOFILE
 0 FILE stand-review-cross-base-step13.ldr
 0 Book 1 pages21–22 step13. Four-stud frame flush to short end of ten-stud base.
@@ -3889,6 +3939,7 @@
 1 0 20 -14 -60 1 0 0 0 1 0 0 0 1 3705.dat
 1 71 -20 -32 -60 1 0 0 0 1 0 0 0 1 3031.dat
 0 STEP
+
 0 NOFILE
 0 FILE stand-review-cross-base-step15.ldr
 0 Book1 pages24–25. Adjacent base plate at Y=0; frame is flush within its own plate; later roof plates bridge to the beam.
@@ -3897,6 +3948,7 @@
 1 71 0 -24 -60 1 0 0 0 1 0 0 0 1 32324.dat
 1 330 -50 -24 -70 0 0 -1 0 1 0 1 0 0 3622.dat
 1 71 50 -24 -70 0 0 -1 0 1 0 1 0 0 3622.dat
+
 0 NOFILE
 0 FILE stand-review-central-foot-side-step32.ldr
 0 Local68297long axisX, frontstraightedgeZ40. Final bricks overhangone row tojoin adjacentbaseplate.
@@ -3909,6 +3961,96 @@
 1 72 70 -24 40 0 0 1 0 1 0 -1 0 0 3700.dat
 1 2 -50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
 1 2 50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
+
+
+0 NOFILE
+0 FILE stand-review-stand-low-column-step54.ldr
+0 Same pole orientation as high column; independent68 brackets rotate180 on symmetric67 collar to face innerbeam.
+0 Local X is long axis; foot X0, upper axle opening X600; original stud-up -Y; no stand-base assembly included.
+0 STEP
+0 Instruction step 54
+1 0 480 0 0 1 0 0 0 1 0 0 0 1 60479.dat
+1 71 570 -24 0 0 0 1 0 1 0 -1 0 0 73230.dat
+1 71 590 -24 0 0 0 1 0 1 0 -1 0 0 73230.dat
+0 STEP
+0 Instruction step 55
+1 0 420 -24 0 1 0 0 0 1 0 0 0 1 32018.dat
+0 STEP
+0 Instruction step 56
+1 0 240 0 0 1 0 0 0 1 0 0 0 1 60479.dat
+0 STEP
+0 Instruction step 57
+1 0 140 -24 0 1 0 0 0 1 0 0 0 1 32018.dat
+0 STEP
+0 Instruction step 58
+1 322 40 -32 0 1 0 0 0 1 0 0 0 1 2431.dat
+1 0 140 -32 0 1 0 0 0 1 0 0 0 1 6636.dat
+1 0 280 -32 0 1 0 0 0 1 0 0 0 1 4162.dat
+1 0 440 -32 0 1 0 0 0 1 0 0 0 1 4162.dat
+1 0 560 -32 0 1 0 0 0 1 0 0 0 1 2431.dat
+0 STEP
+0 Instruction step 59
+1 4 120 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 160 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 220 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 260 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 320 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 380 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 420 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 480 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+1 4 520 -14 10 0 0 -1 0 1 0 1 0 0 4274.dat
+0 STEP
+0 Instruction step 60
+1 0 140 -14 18 1 0 0 0 0 1 0 -1 0 6636.dat
+1 0 280 -14 18 1 0 0 0 0 1 0 -1 0 4162.dat
+1 0 400 -14 18 1 0 0 0 0 1 0 -1 0 2431.dat
+1 0 520 -14 18 1 0 0 0 0 1 0 -1 0 4162.dat
+0 STEP
+0 Instruction step 61
+1 72 100 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 140 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 180 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 240 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 300 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 340 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 400 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 460 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 500 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+1 72 540 -14 -10 0 0 1 0 1 0 -1 0 0 4274.dat
+0 STEP
+0 Instruction step 62
+1 0 160 -14 -18 1 0 0 0 0 -1 0 1 0 4162.dat
+1 0 320 -14 -18 1 0 0 0 0 -1 0 1 0 4162.dat
+1 0 460 -14 -18 1 0 0 0 0 -1 0 1 0 6636.dat
+1 0 560 -14 -18 1 0 0 0 0 -1 0 1 0 2431.dat
+0 STEP
+0 Instruction step 63
+1 4 20 -14 0 0 0 1 0 1 0 -1 0 0 32062.dat
+1 4 60 -14 0 0 0 1 0 1 0 -1 0 0 32062.dat
+1 15 20 -14 -15 0 0 1 1 0 0 0 1 0 6632.dat
+1 15 20 -14 15 0 0 1 1 0 0 0 1 0 6632.dat
+0 STEP
+0 Instruction step 64
+1 71 100 0 0 1 0 0 0 1 0 0 0 1 87580.dat
+0 STEP
+0 Instruction step 65
+1 2 40 18 0 0 -1 0 0 0 1 -1 0 0 22885.dat
+1 2 80 18 0 0 -1 0 0 0 1 -1 0 0 22885.dat
+1 27 10 0 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 27 30 0 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 27 50 0 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 27 70 0 0 0 0 1 0 1 0 -1 0 0 15573.dat
+0 STEP
+0 Instruction step 67
+1 72 88 -12 0 0 -1 0 1 0 0 0 0 1 64799.dat
+0 STEP
+0 Instruction step 68
+1 71 96 38 20 0 -1 0 -0 -0 -1 1 -0 -0 73562.dat
+1 71 96 38 -20 0 -1 0 -0 -0 -1 1 -0 -0 73562.dat
+0 STEP
+0 Instruction step 98
+1 0 590 8 0 0 0 -1 0 1 0 1 0 0 24201.dat
+1 0 570 8 0 1 0 0 0 1 0 0 0 1 3024.dat
 0 NOFILE
 0 FILE stand-review-stand-column-step54.ldr
 0 Local X is long axis; foot X0, upper axle opening X600; original stud-up -Y; no stand-base assembly included.
@@ -3996,6 +4138,7 @@
 0 Instruction step 98
 1 0 590 8 0 0 0 -1 0 1 0 1 0 0 24201.dat
 1 0 570 8 0 1 0 0 0 1 0 0 0 1 3024.dat
+
 0 NOFILE
 0 FILE stand-review-stand-first-post-trim-step69.ldr
 0 Instruction inset, independent local assembly; final plinth attachment pending base coordinate integration.
@@ -4020,6 +4163,28 @@
 1 71 104 18 20 0 -1 0 0 0 -1 1 0 0 44728.dat
 1 330 104 -22 -30 0 -1 0 1 0 0 0 0 1 3623.dat
 1 330 104 -22 30 0 -1 0 1 0 0 0 0 1 3623.dat
+
+0 NOFILE
+0 FILE stand-review-stand-top-rock-ring-step76.ldr
+0 Instruction76 complete local collar candidate; cornerorientation/contact requires rendered review.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 64799.dat
+1 72 20 -8 -30 0 0 1 0 1 0 -1 0 0 15672.dat
+1 288 10 -16 -30 1 0 0 0 1 0 0 0 1 24866.dat
+1 16 30 0 -10 0 0 -1 0 1 0 1 0 0 stand-review-stand-orange-geode.dat
+1 71 20 -24 20 0 0 1 0 1 0 -1 0 0 87620.dat
+1 16 -10 0 30 -1 0 0 0 1 0 0 0 -1 stand-review-stand-orange-geode.dat
+1 72 -30 -8 0 -1 0 0 0 1 0 0 0 -1 15672.dat
+1 288 -30 -8 30 1 0 0 0 1 0 0 0 1 32607.dat
+1 288 -30 -16 10 1 0 0 0 1 0 0 0 1 24866.dat
+1 330 -30 -8 20 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 330 10 -24 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 330 30 -24 10 0 0 -1 0 1 0 1 0 0 54200.dat
+0 NOFILE
+0 FILE stand-review-stand-orange-geode.dat
+0 Physical49656 orange-crystal color assembly; official geometry retained. Counts as one physical piece.
+1 57 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s01.dat
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s02.dat
+
 0 NOFILE
 0 FILE stand-review-stand-second-post-trim-step83.ldr
 0 Second post trim, collar attachment planes match first post;84middlecurve/geode side selection requires render comparison.
@@ -4046,14 +4211,113 @@
 1 71 104 18 20 0 -1 0 0 0 -1 1 0 0 44728.dat
 1 330 104 -22 -30 0 -1 0 1 0 0 0 0 1 3623.dat
 1 330 104 -22 30 0 -1 0 1 0 0 0 0 1 3623.dat
+
 0 NOFILE
-0 FILE stand-review-stand-orange-geode.dat
-0 Physical49656 orange-crystal color assembly; official geometry retained. Counts as one physical piece.
-1 57 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s01.dat
-1 72 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s02.dat
+0 FILE stand-review-stand-top-rock-ring-step94.ldr
+0 Book1page103 step94: 13physicalpart collar candidate; no final world mount. Corner/curved-cap clearance requires rendered comparison.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 64799.dat
+1 288 -30 -8 -30 1 0 0 0 1 0 0 0 1 32607.dat
+1 71 -30 -24 30 1 0 0 0 1 0 0 0 1 13548.dat
+1 330 -30 -24 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 330 -30 -8 -20 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 72 20 -8 -30 0 0 1 0 1 0 -1 0 0 15672.dat
+1 330 30 -8 -30 1 0 0 0 1 0 0 0 1 54200.dat
+1 288 -30 -16 -30 1 0 0 0 1 0 0 0 1 24866.dat
+1 16 -10 0 -30 1 0 0 0 1 0 0 0 1 stand-review-stand-orange-geode.dat
+1 16 30 0 -10 0 0 -1 0 1 0 1 0 0 stand-review-stand-orange-geode.dat
+1 71 20 -24 20 0 0 1 0 1 0 -1 0 0 87620.dat
+1 330 10 -24 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 330 30 -24 10 0 0 -1 0 1 0 1 0 0 54200.dat
+
+0 NOFILE
+0 FILE stand-review-stand-side-wedge-step73.ldr
+0 Book1page80: 7part independent module candidate. Red41747 substitutes5711 smooth-inner-wall variant. Local stud chain checked; final face orientation/mount pending.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 3795.dat
+1 4 -40 -24 10 0 0 -1 0 1 0 1 0 0 41747.dat
+1 71 -40 -16 30 1 0 0 0 1 0 0 0 1 30136.dat
+1 71 -10 -16 30 0 0 -1 0 1 0 1 0 0 60477.dat
+1 330 -30 -24 30 1 0 0 0 1 0 0 0 1 3623.dat
+1 330 -40 -32 20 1 0 0 0 1 0 0 0 1 26601.dat
+1 288 -10 -32 30 1 0 0 0 1 0 0 0 1 24866.dat
+
+0 NOFILE
+0 FILE stand-review-stand-rock-panel-step79.ldr
+0 Instruction79/95: backingbrick atY-24, oliveplateY-8 bridges backingplate and adjacentwing atY0; facebottomY0. Six-part silhouette and mating faces reviewed against79/95; final stand mount pending.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 3795.dat
+1 71 30 -24 0 1 0 0 0 1 0 0 0 1 3002.dat
+1 330 -10 -8 20 0 0 1 0 1 0 -1 0 0 3023b.dat
+1 72 0 0 50 0 0 -1 0 1 0 1 0 0 54384.dat
+1 71 -20 -24 50 -1 0 0 0 1 0 0 0 -1 64225.dat
+1 71 30 -24 50 0 0 -1 0 1 0 1 0 0 42862.dat
+
+0 NOFILE
+0 FILE stand-review-stand-rock-panel-step91.ldr
+0 Instruction91: mirrored verified six-part79/95 module; world mount pending.
+1 72 -0 0 0 1 -0 -0 -0 1 0 -0 0 1 3795.dat
+1 71 -30 -24 0 1 -0 -0 -0 1 0 -0 0 1 3002.dat
+1 330 10 -8 20 0 -0 -1 -0 1 0 1 0 0 3023b.dat
+1 72 -0 0 50 0 -0 1 -0 1 0 -1 0 0 54383.dat
+1 71 20 -24 50 -1 -0 -0 -0 1 0 -0 0 -1 64225.dat
+1 71 -30 -24 50 0 -0 1 -0 1 0 -1 0 0 48165.dat
+
+0 NOFILE
+0 FILE stand-review-stand-fossil-tile-step87.ldr
+0 Book1page95: blank1751 tile replaces printed surface only, user authorized omission of decorative face. 41740 end studs are atX+/-30 and fit tile underside; outerface mounted atX-84 grid.
+1 72 0 0 -30 1 0 0 0 1 0 0 0 1 41740.dat
+1 72 0 0 30 1 0 0 0 1 0 0 0 1 41740.dat
+1 72 0 -8 0 1 0 0 0 1 0 0 0 1 1751.dat
+
+0 NOFILE
+0 FILE stand-review-stand-side-wedge-step93.ldr
+0 Book1page101: 9part independent module candidate. 41747 red reference substitute for5711. Decorative pattern not reproduced; module mounting/curved cap contact under review.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 3032.dat
+1 71 -40 -24 30 1 0 0 0 1 0 0 0 1 30136.dat
+1 71 -10 -24 30 0 0 -1 0 1 0 1 0 0 60477.dat
+1 4 -40 -24 10 0 0 -1 0 1 0 1 0 0 41747.dat
+1 72 -40 -32 10 1 0 0 0 1 0 0 0 1 22385.dat
+1 330 -30 -8 -30 1 0 0 0 1 0 0 0 1 3623.dat
+1 330 -40 -16 -30 1 0 0 0 1 0 0 0 1 3023b.dat
+1 330 -30 -24 -30 0 0 -1 0 1 0 1 0 0 70681.dat
+1 288 -50 -24 -30 1 0 0 0 1 0 0 0 1 24866.dat
+
+0 NOFILE
+0 FILE stand-review-stand-rock-core-step75.ldr
+0 Instruction inset, independent local assembly; final plinth attachment pending base coordinate integration.
+1 71 -40 -24 0 1 0 0 0 1 0 0 0 1 30136.dat
+1 71 -10 -24 0 0 0 -1 0 1 0 1 0 0 60477.dat
+1 330 -30 -32 0 1 0 0 0 1 0 0 0 1 3623.dat
+1 330 -40 -24 0 0 0 -1 0 1 0 1 0 0 11477.dat
+1 288 -10 -40 0 1 0 0 0 1 0 0 0 1 24866.dat
+
+0 NOFILE
+0 FILE stand-review-stand-corner-rock-step74.ldr
+0 Step74 independent two-part rock; final mounting pending.
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 43710.dat
+1 330 0 0 0 1 0 0 0 1 0 0 0 1 54200.dat
+
+0 NOFILE
+0 FILE stand-review-stand-corner-rock-step78.ldr
+0 Instruction inset, independent local assembly; final plinth attachment pending base coordinate integration.
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 13548.dat
+1 330 0 8 -10 1 0 0 0 1 0 0 0 1 11477.dat
+
+0 NOFILE
+0 FILE stand-review-stand-side-rock-pair-step80.ldr
+0 Instruction inset, independent local assembly; final plinth attachment pending base coordinate integration.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 30363.dat
+1 71 30 0 0 1 0 0 0 1 0 0 0 1 43708.dat
+1 330 10 -8 0 1 0 0 0 1 0 0 0 1 3623.dat
+
+0 NOFILE
+0 FILE stand-review-stand-small-rock-face-step81.ldr
+0 Instruction inset, independent local assembly; final plinth attachment pending base coordinate integration.
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 90194.dat
+1 72 0 -8 10 1 0 0 0 1 0 0 0 1 22385.dat
+1 330 0 0 30 1 0 0 0 1 0 0 0 1 3023b.dat
+
 0 NOFILE
 0 FILE stand-foot-review-stand-foot-rocks-steps33-53.ldr
-0 Stand feet and rocks for instruction steps 33–53. Placement candidates depend on the base frame review.
+0 Stand feet and rocks for instruction steps 33–53: all99 physical parts placed; connection and reference checks documented in companion progress JSON.
 0 Instruction step 33 / book1 page44. Centralfootbrick supports and bridgeplate; visual comparisonpending.
 1 71 330 -24 -210 1 0 0 0 1 0 0 0 1 2357.dat
 1 71 330 -24 -110 0 0 1 0 1 0 -1 0 0 2357.dat
@@ -4077,6 +4341,41 @@
 1 71 340 -32 -120 0 0 1 0 1 0 -1 0 0 15068.dat
 1 71 340 -32 -200 0 0 1 0 1 0 -1 0 0 15068.dat
 0 STEP
+0 Instruction step37 remaining plates / book1 page48. Paired cap plates bridge gray bricks and green axle-brick top studs without covering the green corner bricks.
+1 72 430 -32 -220 1 0 0 0 1 0 0 0 1 3021.dat
+1 72 430 -32 -100 1 0 0 0 1 0 0 0 1 3021.dat
+1 72 430 -32 -50 -1 0 0 0 1 0 0 0 -1 2420.dat
+1 72 330 -32 -50 0 0 1 0 1 0 -1 0 0 2420.dat
+0 STEP
+0 Instruction step38 / book1 page49. Paired triangular roof rests on step37 corner plates and the central bridge; outside trim preserves green foot mounts.
+1 72 350 -40 -90 0 0 1 0 1 0 -1 0 0 2450.dat
+1 72 410 -40 -90 1 0 0 0 1 0 0 0 1 2450.dat
+1 288 430 -40 -230 1 0 0 0 1 0 0 0 1 24866.dat
+1 288 430 -40 -90 1 0 0 0 1 0 0 0 1 24866.dat
+1 330 440 -24 -230 0 0 1 0 1 0 -1 0 0 11477.dat
+1 330 330 -16 -120 1 0 0 0 1 0 0 0 1 11477.dat
+0 STEP
+0 Instruction step39 / book1 page50. Roof surface candidates with separate front chamfered tile and slope strip.
+1 72 370 -64 -70 -1 0 0 0 1 0 0 0 -1 43711.dat
+1 72 380 -48 -90 0 0 1 0 1 0 -1 0 0 15672.dat
+1 72 380 -48 -110 1 0 0 0 1 0 0 0 1 96910.dat
+0 STEP
+0 Instruction step40 / book1 page51. Corner rock and two exposed plant mounts.
+1 71 410 -64 -70 0 0 -1 0 1 0 1 0 0 13548.dat
+1 288 350 -48 -90 -1 0 0 0 1 0 0 0 -1 32607.dat
+1 288 410 -48 -90 1 0 0 0 1 0 0 0 1 32607.dat
+0 STEP
+0 Instruction step41 / book1 page52. Caps use native curved-slope rear mounting plane Y-8.
+1 330 410 -64 -70 0 0 -1 0 1 0 1 0 0 54200.dat
+1 330 370 -56 -80 1 0 0 0 1 0 0 0 1 11477.dat
+1 330 390 -40 -100 1 0 0 0 1 0 0 0 1 11477.dat
+0 STEP
+0 Instruction step42 / book1 page53. Opposite-end wedge mates deck Y-40; mirrored finish of step29.
+1 16 570 -64 -10 0 0 1 0 1 0 -1 0 0 stand-foot-review-high-end-trim-step42.ldr
+0 STEP
+0 Instruction step43 / book1 page54. Main plate underside Z40 mates high-side SNOT grid: yellow630/-62, gray610/-42 and lower wall610/630/-22. Wing sits beside the3020 at the same plate level and connects the overhanging wedge underside.
+1 16 620 -32 48 -1 0 0 0 0 -1 0 -1 0 stand-foot-review-high-foot-panel-step43.ldr
+0 STEP
 0 Instruction step 44 / book1 pages55–56. Independent nine-part side module; base attachment candidate.
 1 16 800 0 160 0 0 -1 0 1 0 1 0 0 stand-foot-review-high-foot-side-step44.ldr
 0 STEP
@@ -4096,6 +4395,42 @@
 1 72 600 -16 200 -1 0 0 0 1 0 0 0 -1 22385.dat
 1 288 630 -16 170 1 0 0 0 1 0 0 0 1 24866.dat
 0 STEP
+0 Instruction step48 / book1 page60. Curved bridge finishes; cap plate grid candidate still under comparison.
+1 71 660 -32 120 0 0 1 0 1 0 -1 0 0 15068.dat
+1 71 660 -32 200 0 0 1 0 1 0 -1 0 0 15068.dat
+1 72 750 -32 220 1 0 0 0 1 0 0 0 1 3021.dat
+0 STEP
+0 Instruction step48 remaining pieces / book1 page60. Olive roof substrate and down-facing bracket; candidate grid awaiting combined render.
+1 330 730 -32 70 1 0 0 0 1 0 0 0 1 77844.dat
+1 330 750 -32 110 0 0 1 0 1 0 -1 0 0 3623.dat
+1 71 740 -40 70 1 0 0 0 1 0 0 0 1 99207.dat
+0 STEP
+0 Instruction step49 / book1 page61. Roof bearing plates and outside trim; candidate grid.
+1 72 750 -40 100 1 0 0 0 1 0 0 0 1 3021.dat
+1 330 640 -40 70 1 0 0 0 1 0 0 0 1 3023.dat
+1 330 640 -40 90 1 0 0 0 1 0 0 0 1 3023.dat
+1 330 650 -24 100 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 330 760 -24 230 0 0 -1 0 1 0 1 0 0 11477.dat
+1 288 730 -40 230 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
+0 Instruction step50 / book1 page62. Six-stud roof with second curved lip.
+1 71 680 -48 80 1 0 0 0 1 0 0 0 1 3795.dat
+1 330 670 -24 100 -1 0 0 0 1 0 0 0 -1 11477.dat
+0 STEP
+0 Instruction step51 / book1 page63. Rock assembly bottom Y24 mates roof Y-48.
+1 16 660 -72 70 -1 0 0 0 1 0 0 0 -1 stand-foot-review-high-foot-rock-step51.ldr
+0 STEP
+0 Instruction step52 / book1 page64. Amber stack lower olive plate bottom mates roof.
+1 16 720 -56 70 1 0 0 0 1 0 0 0 1 stand-foot-review-high-foot-amber-step52.ldr
+0 STEP
+0 Instruction step53 / book1 page65. Geodes use the exposed roof and right-side cap studs; curved caps use the lower3021row and adjoining olive plate level.
+1 16 630 -48 70 -1 0 0 0 1 0 0 0 -1 stand-foot-review-amber-geode-step53.ldr
+1 16 750 -40 90 -1 0 0 0 1 0 0 0 -1 stand-foot-review-amber-geode-step53.ldr
+1 330 750 -32 120 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 330 770 -32 120 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 330 750 -40 70 1 0 0 0 1 0 0 0 1 54200.dat
+1 288 730 -96 70 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
 0 NOFILE
 0 FILE stand-foot-review-central-foot-opposite-step34.ldr
 0 Opposite foot local assembly; rotate Y +90 degrees when mounting to the base.
@@ -4104,6 +4439,20 @@
 1 288 -70 -16 30 1 0 0 0 1 0 0 0 1 24866.dat
 1 71 20 -8 0 1 0 0 0 1 0 0 0 1 32059.dat
 1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 15068.dat
+0 NOFILE
+0 FILE stand-foot-review-high-end-trim-step42.ldr
+0 Step42 independent two-part wedge and curved cap. Native11477 socket(0,-8,10) mates wedge stud(0,0,0).
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 43711.dat
+1 330 0 8 -10 1 0 0 0 1 0 0 0 1 11477.dat
+0 NOFILE
+0 FILE stand-foot-review-high-foot-panel-step43.ldr
+0 Step43 six-part side rock panel. The2450 plate sits beside3020 atY0 and supports the43711 overhang; global mount is in the root model.
+1 71 0 0 0 0 0 1 0 1 0 -1 0 0 3020.dat
+1 71 10 -24 30 1 0 0 0 1 0 0 0 1 60477.dat
+1 72 -10 -24 30 1 0 0 0 1 0 0 0 1 43711.dat
+1 72 -50 0 10 1 0 0 0 1 0 0 0 1 2450.dat
+1 72 0 -32 30 1 0 0 0 1 0 0 0 1 96910.dat
+1 288 -70 -8 30 1 0 0 0 1 0 0 0 1 24866.dat
 0 NOFILE
 0 FILE stand-foot-review-high-foot-side-step44.ldr
 0 Local 68297 long axis is X; straight edge is Z40. Bricks overhang one row to connect the adjacent base plate.
@@ -4125,4 +4474,26 @@
 1 288 70 -24 30 1 0 0 0 1 0 0 0 1 24866.dat
 1 71 -20 -8 0 1 0 0 0 1 0 0 0 1 32059.dat
 1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 15068.dat
+0 NOFILE
+0 FILE stand-foot-review-high-foot-rock-step51.ldr
+0 Step51 seven-part independent rock panel. Upper bracket99780 identified by raised front flange; lower olive plate levels base atY24.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 3298.dat
+1 71 0 -8 0 1 0 0 0 1 0 0 0 1 99780.dat
+1 330 -10 -16 0 1 0 0 0 1 0 0 0 1 3623.dat
+1 330 -30 16 -20 0 0 1 0 1 0 -1 0 0 3623.dat
+1 71 -30 -8 0 1 0 0 0 1 0 0 0 1 3040b.dat
+1 288 -10 -10 -22 -1 0 0 0 0 1 0 1 0 32607.dat
+1 330 20 -10 -6 0 0 -1 -1 0 0 0 1 0 11477.dat
+0 NOFILE
+0 FILE stand-foot-review-high-foot-amber-step52.ldr
+0 Step52 four-part amber stack. The lower plate bottom isY8; global mount is in the root model.
+1 330 0 0 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 71 10 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 57 -10 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+1 72 0 -32 0 0 0 1 0 1 0 -1 0 0 15672.dat
+0 NOFILE
+0 FILE stand-foot-review-amber-geode-step53.ldr
+0 Step53 one physical geode. Existing official split mesh: translucent-orange crystal interior and dark-bluish-gray matrix. No new asset files.
+1 57 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s01.dat
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s02.dat
 0 NOFILE

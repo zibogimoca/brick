@@ -3,14 +3,13 @@
   "last_placed_step": 98,
   "per_column_parts": 54,
   "columns": 2,
-  "status": "54–65/67–68/98 independent columns complete; actual66mount reopened pending base1–17 review; surrounding modules partial",
+  "status": "All54–98 assigned stage parts placed in actual stand coordinates; structural/ornament contact exceptions remain. Not100percent physical validation.",
   "pending": [
-    "Base1–17 coordinate review reopened:66 column worldroots and79 upper/lower bracket alignment are provisional; do not shift geometry yet.",
-    "70 center15672 lateral position",
-    "74–82/87–97 surrounding rocks finalworldmounts",
-    "76 and83–86 composite silhouette review",
-    "Real structural stability not validated",
-    "73/93 newly authored local candidates require rendered comparison and final stand mounting."
+    "Base12/upper72 vertical grid has4LDU mismatch; original heights retained as instructed. Base17 foundation8LDUgap belongs base review.",
+    "77/78 multi-foot ornament contacts and88–90 local overlap need close review; stage parts present, not declared physically verified.",
+    "74 matched foot48 bracket candidate; final independent foot module integration review needed.",
+    "79/91/95 corrected horizontal6x2 backing orientation: baseplate sideSNOT rowY-22, wing upper sideSNOT rowY-62. Individual contact occupancy still needs final audit.",
+    "Structural strength and manufacturing tolerances untested."
   ],
   "evidence": [
     "54 two73230 axes rotated along column; vertical axle access after world mount",
@@ -99,8 +98,8 @@
     "parts": 6,
     "status": "mirror_of79; world_mount_pending"
   },
-  "mount_review": "79 vertical6x2 backing connects upper72/lower12 brackets; base12X shift under discussion withbaseagent, do not force mismatchedplanes",
-  "confirmed_column_world_roots_status": "Previously agreed candidate; reopened because base1–17 foundation X positions are under independent review. Do not publish as verified world mounts.",
+  "mount_review": "Final79/91/95 backing runs horizontally along base:3795 uses lower sideSNOT rowY-22, adjacentwing meets upperrowY-62. Previous vertical-panelY-52 interpretation superseded.",
+  "confirmed_column_world_roots_status": "Original base datum restored at parent request. High692,-8 andlow-28,-8;12/72 mismatch recorded, no speculative height correction.",
   "new_independent_modules": {
     "73": {
       "parts": 7,
@@ -121,5 +120,79 @@
       "part_basis": "64799,13548,30136,15672,11477,54200x4,24866,32607,49656x2"
     }
   },
-  "printing_policy": "User explicitly authorized omitting decorative dinosaur/fossil printing. Preserve tile geometry. No need for red color solely due to missing print."
+  "printing_policy": "User explicitly authorized omitting decorative dinosaur/fossil printing. Preserve tile geometry. No need for red color solely due to missing print.",
+  "physical_parts_in_root": 243,
+  "placed_steps": [
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98
+  ],
+  "workbench_roots_removed": true,
+  "column_world_roots": [
+    [
+      -28,
+      -8,
+      0
+    ],
+    [
+      692,
+      -8,
+      0
+    ]
+  ],
+  "low_column_note": "Pole sameorientation as high; standalone68 brackets rotated around collar and83–86 trim reversed to outer-end orientation. Pole axes678/-42 retain720 spacing.",
+  "substitutions": [
+    "73/93:5711 replaced by red41747 legacy exterior; internal-wall variant not identical.",
+    "87: user-authorized blank1751 instead of printed fossil face."
+  ],
+  "completed_review": [
+    "No workbench display-only references remain.",
+    "All direct geometry references resolve.",
+    "Fixed87 identity34103→41740 from inventory and4x4 tile corner-grid.",
+    "Fixed74 identity43708→43710,78 identity43708→13548,94 identity30136→87620.",
+    "11477 rear mating face nativeY-8,Z+10 applied; prior16LDUfloating error corrected."
+  ],
+  "last_validation": "243 physical parts; direct references resolve; final composite browser render completed, no runtime error. Detailed fit exceptions remain listed."
 }
