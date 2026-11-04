@@ -1,0 +1,110 @@
+0 FILE stand-foot-rocks-steps33-53.ldr
+0 Stand feet and rocks for instruction steps 33–53. Placement candidates depend on the base frame review.
+0 Instruction step 33 / book1 page44. Centralfootbrick supports and bridgeplate; visual comparisonpending.
+1 71 330 -24 -210 1 0 0 0 1 0 0 0 1 2357.dat
+1 71 330 -24 -110 0 0 1 0 1 0 -1 0 0 2357.dat
+1 71 370 -24 -170 1 0 0 0 1 0 0 0 1 60477.dat
+1 70 410 -24 -160 0 0 -1 0 1 0 1 0 0 85943.dat
+1 71 340 -32 -160 0 0 1 0 1 0 -1 0 0 3795.dat
+1 72 350 -40 -160 0 0 1 0 1 0 -1 0 0 3666.dat
+0 STEP
+0 Independent step34 / book1 page45. Opposite side rock plates; local study, mounting comparison pending.
+1 16 280 0 -160 0 0 1 0 1 0 -1 0 0 central-foot-opposite-step34.ldr
+0 STEP
+0 Instruction step 35 / book1 page46. Opposite-foot outer rock surface; grid-derived candidate.
+1 71 300 -8 -160 0 0 -1 0 1 0 1 0 0 15068.dat
+1 72 280 -16 -200 1 0 0 0 1 0 0 0 1 22385.dat
+1 288 310 -16 -170 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
+0 Instruction step 36 / book1 page47. Curved bridge rests on two plate levels Y -32/-40.
+1 71 340 -32 -160 0 0 1 0 1 0 -1 0 0 15068.dat
+0 STEP
+0 Instruction step 37 / book1 page48. Two additional bridge curves; other four plates awaiting stud-grid review.
+1 71 340 -32 -120 0 0 1 0 1 0 -1 0 0 15068.dat
+1 71 340 -32 -200 0 0 1 0 1 0 -1 0 0 15068.dat
+0 STEP
+0 Instruction step 44 / book1 pages55–56. Independent nine-part side module; base attachment candidate.
+1 16 800 0 160 0 0 -1 0 1 0 1 0 0 high-foot-side-step44.ldr
+0 STEP
+0 Instruction step45 / book1 page57. Mirrored central bridge; round-brick site is a candidate pending view comparison.
+1 71 650 -24 210 0 0 1 0 1 0 -1 0 0 2357.dat
+1 71 650 -24 110 1 0 0 0 1 0 0 0 1 2357.dat
+1 71 690 -24 170 -1 0 0 0 1 0 0 0 -1 60477.dat
+1 71 660 -32 160 0 0 1 0 1 0 -1 0 0 3795.dat
+1 72 670 -40 160 0 0 1 0 1 0 -1 0 0 3666.dat
+1 71 730 -24 170 1 0 0 0 1 0 0 0 1 3062b.dat
+0 STEP
+0 Instruction step46 / book1 page58. Opposite high-foot plate candidate.
+1 16 600 0 160 0 0 1 0 1 0 -1 0 0 high-foot-opposite-step46.ldr
+0 STEP
+0 Instruction step47 / book1 page59. Mirrored outer rock surface.
+1 71 620 -8 160 0 0 -1 0 1 0 1 0 0 15068.dat
+1 72 600 -16 200 -1 0 0 0 1 0 0 0 -1 22385.dat
+1 288 630 -16 170 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
+0 NOFILE
+0 FILE central-foot-opposite-step34.ldr
+0 Opposite foot local assembly; rotate Y +90 degrees when mounting to the base.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 68297.dat
+1 72 -70 -8 20 1 0 0 0 1 0 0 0 1 15672.dat
+1 288 -70 -16 30 1 0 0 0 1 0 0 0 1 24866.dat
+1 71 20 -8 0 1 0 0 0 1 0 0 0 1 32059.dat
+1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 15068.dat
+0 NOFILE
+0 FILE high-foot-side-step44.ldr
+0 Local 68297 long axis is X; straight edge is Z40. Bricks overhang one row to connect the adjacent base plate.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 68297.dat
+1 71 -50 -24 -10 0 0 1 0 1 0 -1 0 0 2462.dat
+1 71 50 -24 -10 1 0 0 0 1 0 0 0 1 2462.dat
+1 14 -30 -24 10 -1 0 0 0 1 0 0 0 -1 2357.dat
+1 14 30 -24 10 0 0 1 0 1 0 -1 0 0 2357.dat
+1 72 -70 -24 40 0 0 1 0 1 0 -1 0 0 3700.dat
+1 72 70 -24 40 0 0 1 0 1 0 -1 0 0 3700.dat
+1 14 -50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
+1 14 50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
+0 NOFILE
+0 FILE high-foot-panel-step43.ldr
+0 Step43 local six-part rock panel. Native stud plane Y0; final side-bracket attachment pending.
+1 71 0 0 0 0 0 1 0 1 0 -1 0 0 3020.dat
+1 71 10 -24 30 1 0 0 0 1 0 0 0 1 60477.dat
+1 72 -10 -24 30 1 0 0 0 1 0 0 0 1 43711.dat
+1 72 -30 8 10 1 0 0 0 1 0 0 0 1 2450.dat
+1 72 0 -32 30 1 0 0 0 1 0 0 0 1 96910.dat
+1 288 -50 0 30 1 0 0 0 1 0 0 0 1 24866.dat
+0 NOFILE
+0 FILE high-foot-opposite-step46.ldr
+0 Step46 mirror of step34 with an extra olive plate below the end slope.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 68297.dat
+1 330 70 -8 20 0 0 1 0 1 0 -1 0 0 3023.dat
+1 72 70 -16 20 1 0 0 0 1 0 0 0 1 15672.dat
+1 288 70 -24 30 1 0 0 0 1 0 0 0 1 24866.dat
+1 71 -20 -8 0 1 0 0 0 1 0 0 0 1 32059.dat
+1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 15068.dat
+0 NOFILE
+0 FILE high-foot-amber-step52.ldr
+0 Step52 independent four-part stack. Mount to step50 roof remains pending.
+1 330 0 0 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 71 10 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 57 -10 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+1 72 0 -32 0 0 0 1 0 1 0 -1 0 0 15672.dat
+0 NOFILE
+0 FILE high-foot-rock-step51.ldr
+0 Step51 seven-part independent rock panel. Upper bracket99780 identified by raised front flange; lower olive plate levels base atY24.
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 3298.dat
+1 71 0 -8 0 1 0 0 0 1 0 0 0 1 99780.dat
+1 330 -10 -16 0 1 0 0 0 1 0 0 0 1 3623.dat
+1 330 -30 16 -20 0 0 1 0 1 0 -1 0 0 3623.dat
+1 71 -30 -8 0 1 0 0 0 1 0 0 0 1 3040b.dat
+1 288 -10 -10 -22 -1 0 0 0 0 1 0 1 0 32607.dat
+1 330 20 -10 -6 0 0 -1 -1 0 0 0 1 0 11477.dat
+0 NOFILE
+0 FILE high-end-trim-step42.ldr
+0 Step42 independent two-part wedge and curved cap. Native11477 socket(0,-8,10) mates wedge stud(0,0,0).
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 43711.dat
+1 330 0 8 -10 1 0 0 0 1 0 0 0 1 11477.dat
+0 NOFILE
+0 FILE amber-geode-step53.ldr
+0 Step53 one physical geode. Existing official split mesh: translucent-orange crystal interior and dark-bluish-gray matrix. No new asset files.
+1 57 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s01.dat
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s02.dat
+0 NOFILE

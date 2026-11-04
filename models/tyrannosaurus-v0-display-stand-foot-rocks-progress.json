@@ -1,0 +1,102 @@
+{
+  "scope": "Book 1 stand feet and rocks, steps 33–53",
+  "status": "Independent modules saved; remaining assembly blocked on active foundation coordinate corrections.",
+  "last_placed_step": 47,
+  "verified_through_step": null,
+  "placed_steps": [
+    33,
+    34,
+    35,
+    36,
+    44,
+    45,
+    46,
+    47
+  ],
+  "partial_steps": {
+    "37": "Original2curves retained; four cap plates unresolved. Combined candidate rejected because it covered green foot attachment bricks.",
+    "43": "Six-part independent submodel authored, not yet mounted.",
+    "42": "Two-part wedge and cap authored locally; handedness/mount pending.",
+    "51": "Seven-part independent rock panel authored and rendered; corrected leaf underside and orientation. Final mount pending.",
+    "52": "Four-part independent amber stack authored and rendered; final mount pending.",
+    "53": "Existing49656splitmesh assembled into one physical ambergeode wrapper; two final instances not mounted."
+  },
+  "unbuilt_steps": [
+    38,
+    39,
+    40,
+    41,
+    48,
+    49,
+    50
+  ],
+  "corrections": [
+    "Step33 uses 60477 4x1 slope, identified in 5x BOM crop. Original30363 and interim43711 were incorrect."
+  ],
+  "unresolved": [
+    "Base agent is correcting foundation steps1–16; absolute root positions33–53 are provisional until base frames settle.",
+    "Step37 four remaining plates depend on corrected central frame.",
+    "Step43 lowerwing/side-mount offsets must be matched to final foundation side connectors.",
+    "Step53geode colors use existing splitmesh; remaining5parts and2geode mounts need final roof coordinates."
+  ],
+  "excluded": [
+    "minifigures",
+    "printed plaque6558851 only"
+  ],
+  "include_brown_28802_brackets": true,
+  "validation": {
+    "missing_direct_part_assets": [],
+    "local_rendered_modules": [
+      43,
+      51,
+      52
+    ],
+    "exact_completed_range": null,
+    "invalid_rotation_lines": []
+  },
+  "last_independent_module_step": 53,
+  "base_coordinate_dependency": {
+    "central_x_shift_applied": 0,
+    "central_y_z": "Pending base agent review",
+    "high_foot_frame": "Pending base agent review",
+    "central_x": "Original380 basis retained; proposed+20 shift was retracted as unconfirmed by base agent."
+  },
+  "bridge_grid_correction_candidate": {
+    "status": "rejected_and_reverted",
+    "reason": "Combined render showed the +80X bridge and new37/38 cap placements covering exposed green foot-support bricks. They disagree with manualp49. Original positions restored; no rejected placements retained."
+  },
+  "identified_next_bom": {
+    "39": {
+      "parts": [
+        "99563@72",
+        "15672@72",
+        "43711@72"
+      ],
+      "status": "identified, not placed"
+    },
+    "40": {
+      "parts": [
+        "13548@71",
+        "32607@288",
+        "32607@288"
+      ],
+      "status": "identified, not placed"
+    },
+    "41": {
+      "parts": [
+        "54200@330",
+        "11477@330",
+        "11477@330"
+      ],
+      "status": "identified, not placed"
+    },
+    "38": {
+      "parts": [
+        "2450@72 x2",
+        "11477@330 x2",
+        "24866@288 x2"
+      ],
+      "status": "identified; rejected placement removed, not completed"
+    }
+  }
+}

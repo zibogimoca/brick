@@ -1,0 +1,125 @@
+{
+  "scope": "Instruction book1 steps54–98; independent columns then surrounding stand detailing",
+  "last_placed_step": 98,
+  "per_column_parts": 54,
+  "columns": 2,
+  "status": "54–65/67–68/98 independent columns complete; actual66mount reopened pending base1–17 review; surrounding modules partial",
+  "pending": [
+    "Base1–17 coordinate review reopened:66 column worldroots and79 upper/lower bracket alignment are provisional; do not shift geometry yet.",
+    "70 center15672 lateral position",
+    "74–82/87–97 surrounding rocks finalworldmounts",
+    "76 and83–86 composite silhouette review",
+    "Real structural stability not validated",
+    "73/93 newly authored local candidates require rendered comparison and final stand mounting."
+  ],
+  "evidence": [
+    "54 two73230 axes rotated along column; vertical axle access after world mount",
+    "59 redhalf-pin positions read individually:120,160,220,260,320,380,420,480,520",
+    "61 opposite grayhalf-pins occupy separate holes100,140,180,240,300,340,400,460,500,540",
+    "65 green22885 stacks form80LDU foot, side studs support4lime15573 jumpers coupling column underside"
+  ],
+  "column_complete_steps": [
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    67,
+    68,
+    98
+  ],
+  "independent_complete_modules": {
+    "75": 5,
+    "78": 2,
+    "80": 3,
+    "81": 3,
+    "74": 2
+  },
+  "first_post_trim": {
+    "69": "4 parts placed on collar and lowerbracket feet",
+    "70": "5parts candidate placed;15672 lateral side choice requires diagram check",
+    "71": "2cornerplates placed",
+    "72": "2downbrackets+2olive3plates placed"
+  },
+  "top_ring76": {
+    "parts": 12,
+    "status": "native11477footcorrected; standalone_render_reviewed; worldmount_candidate",
+    "world_root": [
+      680,
+      -120,
+      0
+    ],
+    "geode": "native official shape, s01TransOrange57/s02DarkBluishGray72; physical part counts1"
+  },
+  "confirmed_column_world_roots": [
+    [
+      -28,
+      -8,
+      0
+    ],
+    [
+      692,
+      -8,
+      0
+    ]
+  ],
+  "interface66": "Column greenfoot anti-studs pair on purple41740 endstuds X-10/710,Y-8,Z±10. Collarcenter X-40/680 topY-96, bottomY-88 meets blueframe and white35480/greenfoot top.",
+  "second_post_trim83_86": {
+    "parts": 16,
+    "status": "placed_render_pending",
+    "stages": [
+      83,
+      84,
+      85,
+      86
+    ]
+  },
+  "part_identity_corrections": [
+    "Small dark-green round items are24866flowers, not6141; inventory colors cross-checked.",
+    "76olivecurved1x2 is11477, not66956; corrected shape and mount.",
+    "71cornerplates darkbluishgray72 perBOM.",
+    "11477 native rear anti-stud mating plane isY-8 atZ+10, notY+8. Steps75/76/78 corrected16LDU down;76 rearfoot rotatedonto flower and78 rearfoot alignedwith43708 sole stud."
+  ],
+  "rock_panel79": {
+    "status": "independent_six_part_assembly_render_reviewed; world_mount_pending",
+    "parts": 6,
+    "reused_by_step": 95,
+    "slope_part": "42862; mirror91 uses48165",
+    "wing_part": "54384; mirror91 uses54383",
+    "mounting": "olive3023 atY-8 bridges backing3795 rowZ10 and wing rowZ30; wingY0; both white face partsY-24 have undersideY0. Curved64225 Ry180 and42862 Ry-90 form matching border."
+  },
+  "rock_panel91": {
+    "parts": 6,
+    "status": "mirror_of79; world_mount_pending"
+  },
+  "mount_review": "79 vertical6x2 backing connects upper72/lower12 brackets; base12X shift under discussion withbaseagent, do not force mismatchedplanes",
+  "confirmed_column_world_roots_status": "Previously agreed candidate; reopened because base1–17 foundation X positions are under independent review. Do not publish as verified world mounts.",
+  "new_independent_modules": {
+    "73": {
+      "parts": 7,
+      "status": "local render loaded and visually reviewed; final mount and exact clearance pending",
+      "substitute": "41747 red: reference outer form for5711 smooth-inner-wall variant, not claimed identical."
+    },
+    "87": {
+      "parts": 3,
+      "status": "blank tile and2offsetjumpers assembled and rendered; print omitted by user; final mount pending"
+    },
+    "93": {
+      "parts": 9,
+      "status": "local render loaded; 70681 stepped foot corrected to Y-24 (rear ledge seats on stacked olive plates); final world mount pending"
+    },
+    "94": {
+      "parts": 13,
+      "status": "13physicalpart local collar rendered; comparison and clearance review pending; not world mounted",
+      "part_basis": "64799,13548,30136,15672,11477,54200x4,24866,32607,49656x2"
+    }
+  },
+  "printing_policy": "User explicitly authorized omitting decorative dinosaur/fossil printing. Preserve tile geometry. No need for red color solely due to missing print."
+}

@@ -16445,7 +16445,12 @@
     "talons": "Rotated180aboutinsertedbaraxis, curvefacesdownwhilefingerspointforward.",
     "rod_joint_max_residual": 5.439379132036632e-08,
     "hands_forward_shift": 40,
-    "whole_arm_pitch_degrees": -20
+    "whole_arm_pitch_degrees": -20,
+    "pending_user_pose_guidance": {
+      "disc_plane": "Lower the body-side edges until disc faces are vertical relative to ground. User corrected previous upward-edge direction; do not use it.",
+      "upper_arm": "At ribcage attachment, upper arm should incline forward at approximately45degrees to ground rather than remain vertical.",
+      "status": "User requests apply only after stand is ready, then publish arm pose and stand together. No new arm edits before that point."
+    }
   },
   "left_knee_correction": {
     "409": "T.Z135.764501988→121.6223663643",
@@ -16462,5 +16467,24 @@
       -14,
       -40
     ]
+  },
+  "stand_work_checkpoint": {
+    "published": false,
+    "root_workfile": "tyrannosaurus-v0-display-stand.ldr",
+    "integrated_stand_core_pieces": 307,
+    "body_post_axis_candidate_x": [
+      -780,
+      -60
+    ],
+    "combined_core_rendered": true,
+    "local_modules_added": [
+      73,
+      87,
+      93,
+      94
+    ],
+    "remaining": "37 cap plates;38–41/48–50; post rock mounting; exact foot-floor matching; accepted user arm pose after stand readiness.",
+    "limitation": "Combined core screen check does not certify seating depth, strength, or finished stand.",
+    "final_publication": "Publish completed stand together with user-corrected disc-downward vertical pose and forward45degree upper arms."
   }
 }

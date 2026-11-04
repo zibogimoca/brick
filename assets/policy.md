@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 288종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 290종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -84,6 +84,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "15712",
     "17114",
     "1748",
+    "1751",
     "1762",
     "18651",
     "18654",
@@ -222,6 +223,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "4162",
     "41682",
     "41740",
+    "41747",
     "41769",
     "41770",
     "4274",
@@ -8256,6 +8258,34 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "archive_member": "ldraw/parts/49656.dat",
       "sha256": "e540586acb23835a2b52abfde56aa1da074d70d6030aeae858cf634c1faa6983",
       "bytes": 490,
+      "modification": "Normalized references, original author/license headers retained."
+    },
+    "parts/subparts/41748s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/41748s01.dat",
+      "sha256": "aa7b5113de1547670964a9abf8d617fa1c4b77ee742f6a9929c3df7b0f7ad1e6",
+      "bytes": 36887,
+      "modification": "Normalized references, original author/license headers retained."
+    },
+    "parts/41747.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/41747.dat",
+      "sha256": "add5449e46294fab7d9b381bba418a766d7ae8b4a94c7a96169d4824f4559a9b",
+      "bytes": 1725,
+      "modification": "Normalized references, original author/license headers retained."
+    },
+    "parts/subparts/1751s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/1751s01.dat",
+      "sha256": "86c6f741ca2e9775f6a6bcd650befb77208197f1375cdc954897455dba674234",
+      "bytes": 812,
+      "modification": "Normalized references, original author/license headers retained."
+    },
+    "parts/1751.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/1751.dat",
+      "sha256": "6965a5a063fdde924c346c503a6f7840ca58c39ed5fedaa168b5884327998f77",
+      "bytes": 331,
       "modification": "Normalized references, original author/license headers retained."
     }
   }

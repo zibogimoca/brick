@@ -635912,6 +635912,18 @@
       "source": "official LDraw complete.zip",
       "gobricks_status": "not_verified",
       "verification": "official mesh; stand reference, physicalfitnotverified"
+    },
+    "41747": {
+      "geometry": "assets/parts/41747.dat",
+      "source": "official LDraw complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Reference substitute for5711: outer wedge form only; smooth inner-wall variant not reproduced."
+    },
+    "1751": {
+      "geometry": "assets/parts/1751.dat",
+      "source": "official LDraw complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official blank4x4tile shape; decorative dinosaur/fossil printing omitted with user authorization; not a geometry substitution."
     }
   }
 }
