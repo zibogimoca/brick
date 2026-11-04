@@ -1,7 +1,7 @@
 0 FILE book3-workbench.ldr
 0 Separate tail and skull review placement; not final head-body coordinates.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 book3-tail-assembly.ldr
-1 16 0 0 400 1 0 0 0 1 0 0 0 1 book3-skull-core.ldr
+1 16 0 0 400 1 0 0 0 1 0 0 0 1 book3-head-assembly.ldr
 0 NOFILE
 0 FILE book3-tail-assembly.ldr
 0 Version 0 book 3 tail sections. Middle-to-distal straight pose; book 2 mount pending.
@@ -539,6 +539,32 @@
 0 NOFILE
 
 0 FILE book3-skull-core.ldr
+0 Instruction book 3 page94 step707; front tooth wings folded90deg into longitudinal rows.
+1 16 -270 32 0 0 0 1 0 -1 0 1 0 0 book3-skull-front-teeth.ldr
+0 STEP
+0 Instruction book 3 page 92 step 705
+1 28 -120 20 -10 1 0 0 0 -1 0 0 0 -1 35480.dat
+1 19 -130 24 -10 0 -1 0 0 0 1 -1 0 0 53451.dat
+1 19 -110 24 -10 0 -1 0 0 0 1 -1 0 0 53451.dat
+1 28 -120 20 10 1 0 0 0 -1 0 0 0 -1 35480.dat
+1 19 -130 24 10 0 -1 0 0 0 1 -1 0 0 53451.dat
+1 19 -110 24 10 0 -1 0 0 0 1 -1 0 0 53451.dat
+1 28 -160 20 -10 1 0 0 0 -1 0 0 0 -1 35480.dat
+1 19 -170 24 -10 0 -1 0 0 0 1 -1 0 0 53451.dat
+1 19 -150 24 -10 0 -1 0 0 0 1 -1 0 0 53451.dat
+1 28 -160 20 10 1 0 0 0 -1 0 0 0 -1 35480.dat
+1 19 -170 24 10 0 -1 0 0 0 1 -1 0 0 53451.dat
+1 19 -150 24 10 0 -1 0 0 0 1 -1 0 0 53451.dat
+0 STEP
+0 Instruction book 3 page 93 step 706
+1 28 -200 20 -10 1 0 0 0 -1 0 0 0 -1 35480.dat
+1 19 -210 24 -10 0 0 1 0 -1 0 1 0 0 87747.dat
+1 19 -190 24 -10 0 0 1 0 -1 0 1 0 0 87747.dat
+1 28 -200 20 10 1 0 0 0 -1 0 0 0 -1 35480.dat
+1 19 -210 24 10 0 0 1 0 -1 0 1 0 0 87747.dat
+1 19 -190 24 10 0 0 1 0 -1 0 1 0 0 87747.dat
+0 Instruction book 3 page 74 step 657; hinge centers matched exactly, closing angle25deg is provisional.
+1 16 -193.92003919 -104.57506908 0 0.906307787 0.422618262 0 -0.422618262 0.906307787 0 0 0 1 book3-skull-nasal-roof.ldr
 0 Independent skull core. X points toward rear, Y down, Z across. Final head/body mount pending.
 0 STEP
 0 Instruction book 3 page 33 step 561
@@ -582,10 +608,10 @@
 1 70 -250 -40 10 -1 0 0 0 1 0 0 0 -1 26604.dat
 0 STEP
 0 Instruction book 3 page 38 step 577
-1 16 -60 -2 20 1 0 0 0 0 1 0 -1 0 book3-skull-side-left.ldr
+1 16 -60 -2 -20 1 0 0 0 0 -1 0 1 0 book3-skull-side-left.ldr
 0 STEP
 0 Instruction book 3 page 40 step 586
-1 16 -60 -2 -20 -1 0 0 0 0 1 0 1 0 book3-skull-side-right.ldr
+1 16 -60 -2 20 -1 0 0 0 0 -1 0 -1 0 book3-skull-side-right.ldr
 0 STEP
 0 Instruction book 3 page 41 step 587
 1 84 10 -24 -30 0 0 1 0 1 0 -1 0 0 73230.dat
@@ -704,8 +730,8 @@
 0 STEP
 0 Instruction book 3 page 65 step 638
 1 72 -10 -144 0 0 0 1 0 1 0 -1 0 0 3460.dat
-1 0 20 -144 -40 0 0 -1 0 1 0 1 0 0 33909.dat
-1 0 20 -144 40 0 0 -1 0 1 0 1 0 0 33909.dat
+1 0 20 -144 -40 0 0 1 0 1 0 -1 0 0 33909.dat
+1 0 20 -144 40 0 0 1 0 1 0 -1 0 0 33909.dat
 1 19 20 -136 0 1 0 0 0 1 0 0 0 1 4032a.dat
 0 STEP
 0 Instruction book 3 page 66 step 639
@@ -725,15 +751,41 @@
 1 16 -40 -136 0 0 0 -1 0 1 0 1 0 0 book3-skull-crown.ldr
 0 STEP
 0 Instruction book 3 page 69 step 642
-1 19 10 -152 -20 -1 0 0 0 1 0 0 0 -1 15672.dat
-1 19 10 -168 -50 1 0 0 0 1 0 0 0 1 50950.dat
-1 19 10 -152 20 1 0 0 0 1 0 0 0 1 15672.dat
-1 19 10 -168 50 -1 0 0 0 1 0 0 0 -1 50950.dat
+1 19 30 -152 -20 -1 0 0 0 1 0 0 0 -1 15672.dat
+1 19 30 -168 -50 1 0 0 0 1 0 0 0 1 50950.dat
+1 19 30 -152 20 1 0 0 0 1 0 0 0 1 15672.dat
+1 19 30 -168 50 -1 0 0 0 1 0 0 0 -1 50950.dat
 0 STEP
 0 Instruction book 3 page 69 step 643
 1 19 20 -144 0 0 0 1 0 1 0 -1 0 0 15573.dat
-1 28 -20 -160 -20 0 0 1 0 1 0 -1 0 0 33909.dat
-1 28 -20 -160 20 0 0 1 0 1 0 -1 0 0 33909.dat
+1 28 -20 -160 -20 1 0 0 0 1 0 0 0 1 33909.dat
+1 28 -20 -160 20 -1 0 0 0 1 0 0 0 -1 33909.dat
+0 STEP
+0 Instruction book 3 page 70 step 644
+1 19 -10 -160 -60 1 0 0 0 1 0 0 0 1 3021.dat
+1 19 -10 -160 60 1 0 0 0 1 0 0 0 1 3021.dat
+1 28 -60 -160 -60 0 0 1 0 1 0 -1 0 0 26601.dat
+1 28 -60 -160 60 -1 0 0 0 1 0 0 0 -1 26601.dat
+1 28 0 -160 -70 -1 0 0 0 1 0 0 0 -1 85984.dat
+1 28 0 -160 70 1 0 0 0 1 0 0 0 1 85984.dat
+0 STEP
+0 Instruction book 3 page 70 step 645
+1 28 -70 -160 -60 -1 0 0 0 1 0 0 0 -1 29119.dat
+1 28 -60 -160 -70 0 0 -1 0 1 0 1 0 0 29120.dat
+1 28 -70 -160 60 1 0 0 0 1 0 0 0 1 29120.dat
+1 28 -60 -160 70 0 0 -1 0 1 0 1 0 0 29119.dat
+0 STEP
+0 Instruction book 3 page 71 step 646
+1 28 -40 -168 -40 1 0 0 0 1 0 0 0 1 26601.dat
+1 28 -40 -168 40 0 0 -1 0 1 0 1 0 0 26601.dat
+1 19 -50 -168 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 19 -30 -168 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 19 -10 -168 0 0 0 1 0 1 0 -1 0 0 15573.dat
+0 STEP
+0 Instruction book 3 page 71 step 647
+1 19 -30 -176 0 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 -60 -168 0 0 0 -1 0 1 0 1 0 0 11477.dat
+1 19 0 -168 0 0 0 1 0 1 0 -1 0 0 11477.dat
 0 NOFILE
 0 FILE book3-skull-side-left.ldr
 0 Skull lateral rail, local coordinates before 90-degree roll onto core.
@@ -982,4 +1034,284 @@
 1 19 40 -16 -20 0 0 1 0 1 0 -1 0 0 30503.dat
 1 28 -20 -24 20 -1 0 0 0 1 0 0 0 -1 33909.dat
 1 28 20 -24 20 -1 0 0 0 1 0 0 0 -1 33909.dat
+0 NOFILE
+0 FILE book3-skull-nasal-roof.ldr
+0 Instruction book 3 page 75 step 658; side flaps folded90deg about bar/clip axes.
+1 16 -40 14 -32 -1 0 0 0 0 1 0 1 0 book3-nasal-flap-left.ldr
+1 16 -40 14 32 1 0 0 0 0 1 0 -1 0 book3-nasal-flap-right.ldr
+0 Independent nasal roof648–656; hinge barcenter(110,10,0),axisZ.
+0 Instruction book 3 page 72 step 648
+1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 28 -80 0 0 0 0 -1 0 1 0 1 0 0 66956.dat
+0 STEP
+0 Instruction book 3 page 72 step 649
+1 19 -40 -8 -10 1 0 0 0 1 0 0 0 1 60470b.dat
+1 19 -40 -8 10 -1 0 0 0 1 0 0 0 -1 60470b.dat
+1 19 0 -8 0 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+0 Instruction book 3 page 72 step 650
+1 19 60 -8 -20 0 0 1 0 1 0 -1 0 0 41770.dat
+1 19 60 -8 20 0 0 1 0 1 0 -1 0 0 41769.dat
+0 STEP
+0 Instruction book 3 page 72 step 651
+1 19 40 -16 0 1 0 0 0 1 0 0 0 1 3795.dat
+1 28 -50 -16 0 0 0 1 0 1 0 -1 0 0 22385.dat
+0 STEP
+0 Instruction book 3 page 73 step 652
+1 19 90 8 0 0 0 -1 0 1 0 1 0 0 48336.dat
+0 STEP
+0 Instruction book 3 page 73 step 653
+1 19 80 -16 0 0 0 -1 0 1 0 1 0 0 15068.dat
+0 STEP
+0 Instruction book 3 page 73 step 654
+1 19 60 8 0 1 0 0 0 1 0 0 0 1 2654a.dat
+0 STEP
+0 Instruction book 3 page 73 step 655
+1 19 -10 8 -10 0 0 1 0 1 0 -1 0 0 88292.dat
+1 28 -10 8 -10 0 0 1 0 1 0 -1 0 0 3665.dat
+1 19 -10 8 10 0 0 1 0 1 0 -1 0 0 88292.dat
+1 28 -10 8 10 0 0 1 0 1 0 -1 0 0 3665.dat
+0 STEP
+0 Instruction book 3 page 74 step 656
+1 28 -10 56 0 0 0 1 0 1 0 -1 0 0 35480.dat
+0 NOFILE
+0 FILE book3-nasal-flap-left.ldr
+0 Step658 side flap; local handle center(0,2,-20),axisX.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 48336.dat
+1 19 0 8 0 1 0 0 0 1 0 0 0 1 2654a.dat
+1 19 0 -8 30 -1 0 0 0 1 0 0 0 -1 41770.dat
+1 28 0 -16 10 -1 0 0 0 1 0 0 0 -1 26601.dat
+0 NOFILE
+0 FILE book3-nasal-flap-right.ldr
+0 Step658 counterpart; handle center(0,2,-20),axisX.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 48336.dat
+1 19 0 8 0 1 0 0 0 1 0 0 0 1 2654a.dat
+1 19 0 -8 30 -1 0 0 0 1 0 0 0 -1 41769.dat
+1 28 0 -16 10 0 0 -1 0 1 0 1 0 0 26601.dat
+0 NOFILE
+0 FILE book3-skull-front-teeth.ldr
+0 Step707; inner wing holes match nose4304 side studs, centerplate bridges both hinges.
+1 28 0 0 0 1 0 0 0 1 0 0 0 1 35480.dat
+1 19 -10 -4 0 -1 0 0 0 0 -1 0 -1 0 53451.dat
+1 19 10 -4 0 -1 0 0 0 0 -1 0 -1 0 53451.dat
+1 28 -10 8 20 0 0 1 0 1 0 -1 0 0 77850.dat
+1 28 10 8 20 0 0 -1 0 1 0 1 0 0 77850.dat
+1 19 -10 4 20 -1 0 0 0 0 -1 0 -1 0 53451.dat
+1 19 10 4 20 -1 0 0 0 0 -1 0 -1 0 53451.dat
+1 19 -10 4 40 1 0 0 0 1 0 0 0 1 87747.dat
+1 19 10 4 40 1 0 0 0 1 0 0 0 1 87747.dat
+0 NOFILE
+0 FILE book3-head-assembly.ldr
+0 Instruction703/708. Jaw bridge holes align587 18651 pin segmentsX40..60.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 book3-skull-core.ldr
+1 16 -249.37706 66 -210 0 0 1 0 1 0 -1 0 0 book3-jaw-workbench.ldr
+0 NOFILE
+0 FILE book3-jaw-workbench.ldr
+0 Version0 jaw through702; independent of skull, not final skull attachment.
+1 16 0 0 0 1 0 0 0 0 -1 0 1 0 book3-jaw-assembled.ldr
+0 NOFILE
+0 FILE book3-jaw-left.ldr
+0 Instruction step 659 / book3 page76
+1 28 0 0 0 0 0 1 0 1 0 -1 0 0 3020.dat
+1 19 30 -8 -30 1 0 0 0 1 0 0 0 1 78329.dat
+0 STEP
+0 Instruction step 660 / book3 page76
+1 84 0 -8 0 1 0 0 0 1 0 0 0 1 3738.dat
+0 STEP
+0 Instruction step 661 / book3 page77
+1 19 -100 0 0 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 Instruction step 662 / book3 page77
+1 28 -120 -8 0 0 0 1 0 1 0 -1 0 0 41769.dat
+1 28 -160 0 -10 0 0 1 0 1 0 -1 0 0 11477.dat
+0 STEP
+0 Instruction step 663 / book3 page77
+1 28 -40 -8 40 0 0 1 0 1 0 -1 0 0 65426.dat
+1 28 40 -8 40 0 0 -1 0 1 0 1 0 0 65429.dat
+0 STEP
+0 Instruction step 664 / book3 page77
+1 19 -80 -16 10 0 0 1 0 1 0 -1 0 0 54383.dat
+1 19 40 -16 10 0 0 -1 0 1 0 1 0 0 54384.dat
+0 STEP
+0 Instruction step 665 / book3 page78
+1 19 -20 -16 0 0 0 1 0 1 0 -1 0 0 15068.dat
+0 STEP
+0 Instruction step 666 / book3 page78. Underside view, coordinate frame retained.
+1 19 -30 0 30 0 0 1 0 1 0 -1 0 0 24201.dat
+1 19 30 0 30 0 0 -1 0 1 0 1 0 0 24201.dat
+0 STEP
+0 Instruction step 667 / book3 page78
+1 19 30 0 -30 0 0 -1 0 1 0 1 0 0 24201.dat
+1 28 40 0 0 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+0 Instruction step 668 / book3 page78
+1 19 80 0 -20 0 0 1 0 1 0 -1 0 0 26601.dat
+0 STEP
+0 Instruction step 669 / book3 page79
+1 19 80 8 -20 1 0 0 0 1 0 0 0 1 2654.dat
+0 STEP
+0 Instruction step 670 / book3 page79
+1 19 -40 8 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 19 -80 8 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 19 -120 8 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 19 -160 8 -10 -1 0 0 0 1 0 0 0 -1 63868.dat
+1 19 -160 8 10 -1 0 0 0 1 0 0 0 -1 63868.dat
+0 STEP
+0 Instruction step 671 / book3 page79
+1 19 -160 16 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 28 -160 16 -10 1 0 0 0 1 0 0 0 1 35480.dat
+1 28 -40 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
+1 28 -80 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
+1 28 -120 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
+0 STEP
+0 Instruction step 672 / book3 page79
+1 19 -160 24 0 1 0 0 0 1 0 0 0 1 2654.dat
+0 STEP
+0 Instruction step 673 / book3 page80
+1 28 20 -24 0 0 0 1 0 1 0 -1 0 0 22385.dat
+1 19 60 -16 0 0 0 -1 0 1 0 1 0 0 15068.dat
+0 STEP
+0 Instruction step 700 / book3 page88
+1 28 -30 18 32 1 0 0 0 0 1 0 -1 0 6141.dat
+1 28 -40 18 24 0 0 1 -1 0 0 0 -1 0 11477.dat
+0 STEP
+0 Instruction step 701 / book3 page89
+1 28 -80 18 32 1 0 0 0 0 1 0 -1 0 35480.dat
+1 19 -90 18 36 0 -1 0 1 0 0 0 0 1 53451.dat
+1 19 -70 18 36 0 -1 0 1 0 0 0 0 1 53451.dat
+1 28 -120 18 32 1 0 0 0 0 1 0 -1 0 35480.dat
+1 19 -130 18 36 0 -1 0 1 0 0 0 0 1 53451.dat
+1 19 -110 18 36 0 -1 0 1 0 0 0 0 1 53451.dat
+0 STEP
+0 Instruction step 702 / book3 page89
+1 28 -160 26 32 1 0 0 0 0 1 0 -1 0 35480.dat
+1 19 -170 26 36 0 0 1 -1 0 0 0 -1 0 87747.dat
+1 19 -150 26 36 0 0 1 -1 0 0 0 -1 0 87747.dat
+0 NOFILE
+0 FILE book3-jaw-chin-step674.ldr
+0 Book3 page80 step674 independent chin bridge.
+1 19 0 0 -10 1 0 0 0 1 0 0 0 1 78257.dat
+1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 36841.dat
+1 28 0 0 0 -1 0 0 0 1 0 0 0 -1 11477.dat
+1 19 0 0 10 1 0 0 0 1 0 0 0 1 78257.dat
+1 28 0 2 -24 1 0 0 0 0 -1 0 1 0 54200.dat
+0 NOFILE
+0 FILE book3-jaw-right.ldr
+0 Counterpart reviewed against book3 pages81–84, steps675–689.
+0 Proper rotations plus handed-part substitution; no reflected physical parts.
+0 Instruction step 675 / book3 page81
+1 28 0 0 0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 19 -30 -8 -30 1 0 0 0 1 0 0 0 1 78329.dat
+0 STEP
+0 Instruction step 676 / book3 page81
+1 84 0 -8 0 1 0 0 0 1 0 0 0 1 3738.dat
+0 STEP
+0 Instruction step 677 / book3 page81
+1 19 100 0 0 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 Instruction step 678 / book3 page81
+1 28 120 -8 0 0 0 -1 0 1 0 1 0 0 41770.dat
+1 28 160 0 -10 0 0 -1 0 1 0 1 0 0 11477.dat
+0 STEP
+0 Instruction step 679 / book3 page82
+1 28 40 -8 40 0 0 -1 0 1 0 1 0 0 65429.dat
+1 28 -40 -8 40 0 0 1 0 1 0 -1 0 0 65426.dat
+0 STEP
+0 Instruction step 680 / book3 page82
+1 19 80 -16 10 0 0 -1 0 1 0 1 0 0 54384.dat
+1 19 -40 -16 10 0 0 1 0 1 0 -1 0 0 54383.dat
+0 STEP
+0 Instruction step 681 / book3 page82
+1 19 20 -16 0 0 0 -1 0 1 0 1 0 0 15068.dat
+0 STEP
+0 Instruction step 682 / book3 page82
+1 19 30 0 30 0 0 -1 0 1 0 1 0 0 24201.dat
+1 19 -30 0 30 0 0 1 0 1 0 -1 0 0 24201.dat
+0 STEP
+0 Instruction step 683 / book3 page83
+1 19 -30 0 -30 0 0 1 0 1 0 -1 0 0 24201.dat
+1 28 -40 0 0 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+0 Instruction step 684 / book3 page83
+1 19 -80 0 -20 1 0 0 0 1 0 0 0 1 26601.dat
+0 STEP
+0 Instruction step 685 / book3 page83
+1 19 -80 8 -20 1 0 0 0 1 0 0 0 1 2654.dat
+0 STEP
+0 Instruction step 686 / book3 page83
+1 19 40 8 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 19 80 8 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 19 120 8 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 19 160 8 -10 1 0 0 0 1 0 0 0 1 63868.dat
+1 19 160 8 10 1 0 0 0 1 0 0 0 1 63868.dat
+0 STEP
+0 Instruction step 687 / book3 page84
+1 19 160 16 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+1 28 160 16 -10 1 0 0 0 1 0 0 0 1 35480.dat
+1 28 40 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
+1 28 80 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
+1 28 120 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
+0 STEP
+0 Instruction step 688 / book3 page84
+1 19 160 24 0 1 0 0 0 1 0 0 0 1 2654.dat
+0 STEP
+0 Instruction step 689 / book3 page84
+1 28 -20 -24 0 0 0 -1 0 1 0 1 0 0 22385.dat
+1 19 -60 -16 0 0 0 1 0 1 0 -1 0 0 15068.dat
+0 STEP
+0 Instruction step 700 / book3 page88
+1 28 30 18 32 1 0 0 0 0 1 0 -1 0 6141.dat
+1 28 40 18 24 0 0 -1 1 0 0 0 -1 0 11477.dat
+0 STEP
+0 Instruction step 701 / book3 page89
+1 28 80 18 32 1 0 0 0 0 1 0 -1 0 35480.dat
+1 19 90 18 36 0 1 0 -1 0 0 0 0 1 53451.dat
+1 19 70 18 36 0 1 0 -1 0 0 0 0 1 53451.dat
+1 28 120 18 32 1 0 0 0 0 1 0 -1 0 35480.dat
+1 19 130 18 36 0 1 0 -1 0 0 0 0 1 53451.dat
+1 19 110 18 36 0 1 0 -1 0 0 0 0 1 53451.dat
+0 STEP
+0 Instruction step 702 / book3 page89
+1 28 160 26 32 1 0 0 0 0 1 0 -1 0 35480.dat
+1 19 170 26 36 0 0 -1 1 0 0 0 -1 0 87747.dat
+1 19 150 26 36 0 0 -1 1 0 0 0 -1 0 87747.dat
+0 NOFILE
+0 FILE book3-jaw-bridge-step691.ldr
+0 Independent bridge through696; X transverse axle axis, Y downward, Z depth.
+0 Instruction step 691 / book3 page86
+1 71 0 20 0 1 0 0 0 1 0 0 0 1 32073.dat
+1 71 0 40 0 1 0 0 0 1 0 0 0 1 32073.dat
+1 72 40 40 0 0 1 0 0 0 -1 -1 0 0 50923.dat
+0 STEP
+0 Instruction step 692 / book3 page86
+1 0 20 0 0 -1 0 0 0 -1 0 0 0 1 98989.dat
+0 STEP
+0 Instruction step 693 / book3 page86
+1 0 5 0 0 0 1 0 0 0 1 1 0 0 6632.dat
+1 0 -5 0 0 0 1 0 0 0 1 1 0 0 6632.dat
+0 STEP
+0 Instruction step 694 / book3 page86
+1 0 -20 0 0 -1 0 0 0 -1 0 0 0 1 98989.dat
+0 STEP
+0 Instruction step 695 / book3 page86
+1 72 -40 40 0 0 1 0 0 0 -1 -1 0 0 50923.dat
+0 STEP
+0 Instruction step 696 / book3 page86
+1 70 0 0 0 1 0 0 0 1 0 0 0 1 24316.dat
+0 STEP
+0 Instruction step697 / book3 page87
+0 11214 pin portion enters socket round hole; axle enters4032a central cross hole.
+1 72 37.929111 60 -39.892497 0 0.99462483 -0.10354444 1 0 0 0 -0.10354444 -0.99462483 67695.dat
+1 72 35.858222 60 -59.784993 0.99462483 0 -0.10354444 0 -1 0 -0.10354444 0 -0.99462483 11214.dat
+1 72 -37.929111 60 -39.892497 0 -0.99462483 0.10354444 -1 0 0 0 -0.10354444 -0.99462483 67695.dat
+1 72 -35.858222 60 -59.784993 -0.99462483 0 0.10354444 0 1 0 -0.10354444 0 -0.99462483 11214.dat
+0 NOFILE
+0 FILE book3-jaw-assembled.ldr
+0 Instruction steps698–699 / book3 pages87–88
+0 Folded about63868/78257 bar axes; socket balls align80LDU apart.
+0 Diagram-derived geometry; physical fit not tested.
+1 16 -160.38031 197.94327 0 0.10354444 -0.99462483 0 0.99462483 0.10354444 0 0 0 1 book3-jaw-left.ldr
+1 16 -259.61969 197.94327 0 0.10354444 0.99462483 0 -0.99462483 0.10354444 0 0 0 1 book3-jaw-right.ldr
+1 16 -210 8 0 1 0 0 0 1 0 0 0 1 book3-jaw-chin-step674.ldr
+1 16 -210 299.37706 60 1 0 0 0 0 1 0 -1 0 book3-jaw-bridge-step691.ldr
 0 NOFILE

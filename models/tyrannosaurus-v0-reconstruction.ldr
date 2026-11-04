@@ -308,8 +308,8 @@
 1 0 -160 -56 10 -1 0 0 0 1 0 0 0 -1 93274.dat
 1 19 -210 -56 10 -1 0 0 0 1 0 0 0 -1 79389.dat
 1 322 -190 -56 0 0 0 1 0 1 0 -1 0 0 3023b.dat
-1 19 -100 -56 0 1 0 0 0 1 0 0 0 1 3022.dat
-1 19 -20 -56 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 19 -120 -56 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 19 -40 -56 0 1 0 0 0 1 0 0 0 1 3022.dat
 0 STEP
 0 Instruction step 124 / book 1 page 128.
 1 0 -400 -56 -10 1 0 0 0 1 0 0 0 1 93274.dat
@@ -510,8 +510,8 @@
 1 19 -830 -64 20 -1 0 0 0 1 0 0 0 -1 15672.dat
 0 STEP
 0 Instruction step 141 / book 1 page 148.
-1 19 -730 -64 0 1 0 0 0 1 0 0 0 1 4477.dat
-1 19 -530 -64 0 1 0 0 0 1 0 0 0 1 4477.dat
+1 19 -740 -64 0 1 0 0 0 1 0 0 0 1 4477.dat
+1 19 -540 -64 0 1 0 0 0 1 0 0 0 1 4477.dat
 1 28 -830 -72 0 0 0 1 0 1 0 -1 0 0 35480.dat
 0 STEP
 0 Instruction step 151 / book 1 page152. Local carrier mounted between existing side brackets.
@@ -621,14 +621,14 @@
 1 19 -350 -36 -56 1 -0 -0 0 0 -1 -0 1 -0 3298.dat
 0 STEP
 0 Instruction step169 / book1 page172. Rear spine cap; underside spacer arrangement pending final review.
-1 19 60 -72 0 0 0 -1 0 1 0 1 0 0 3176.dat
+1 19 40 -72 0 0 0 -1 0 1 0 1 0 0 3176.dat
+1 19 30 -80 0 0 0 1 0 1 0 -1 0 0 15573.dat
 1 19 50 -80 0 0 0 1 0 1 0 -1 0 0 15573.dat
-1 19 70 -80 0 0 0 1 0 1 0 -1 0 0 15573.dat
-1 19 50 -80 0 1 0 0 0 1 0 0 0 1 32802.dat
-1 28 70 -64 -10 1 0 0 0 1 0 0 0 1 3024.dat
-1 28 70 -64 10 1 0 0 0 1 0 0 0 1 3024.dat
-1 28 50 -80 -30 1 0 0 0 1 0 0 0 1 54200.dat
-1 28 50 -80 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 19 30 -80 0 1 0 0 0 1 0 0 0 1 32802.dat
+1 28 50 -64 -10 1 0 0 0 1 0 0 0 1 3024.dat
+1 28 50 -64 10 1 0 0 0 1 0 0 0 1 3024.dat
+1 28 30 -80 -30 1 0 0 0 1 0 0 0 1 54200.dat
+1 28 30 -80 30 -1 0 0 0 1 0 0 0 -1 54200.dat
 0 STEP
 0 Instruction step170 / book1 page173. Four centered spacers on rear spine.
 1 19 -130 -64 0 0 0 1 0 1 0 -1 0 0 15573.dat
@@ -641,25 +641,25 @@
 1 28 -10 -72 0 1 0 0 0 1 0 0 0 1 3024.dat
 0 STEP
 0 Instruction step171 / book1 page174. Four transverse rear spine ridges.
-1 19 -130 -96 0 1 0 0 0 1 0 0 0 1 32802.dat
-1 19 -130 -88 0 0 0 1 0 1 0 -1 0 0 15573.dat
-1 28 -130 -96 -30 1 0 0 0 1 0 0 0 1 54200.dat
-1 28 -130 -96 30 -1 0 0 0 1 0 0 0 -1 54200.dat
-1 19 -90 -96 0 1 0 0 0 1 0 0 0 1 32802.dat
-1 19 -90 -88 0 0 0 1 0 1 0 -1 0 0 15573.dat
-1 28 -90 -96 -30 1 0 0 0 1 0 0 0 1 54200.dat
-1 28 -90 -96 30 -1 0 0 0 1 0 0 0 -1 54200.dat
-1 19 -50 -96 0 1 0 0 0 1 0 0 0 1 32802.dat
-1 19 -50 -88 0 0 0 1 0 1 0 -1 0 0 15573.dat
-1 28 -50 -96 -30 1 0 0 0 1 0 0 0 1 54200.dat
-1 28 -50 -96 30 -1 0 0 0 1 0 0 0 -1 54200.dat
-1 19 -10 -96 0 1 0 0 0 1 0 0 0 1 32802.dat
-1 19 -10 -88 0 0 0 1 0 1 0 -1 0 0 15573.dat
-1 28 -10 -96 -30 1 0 0 0 1 0 0 0 1 54200.dat
-1 28 -10 -96 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 19 -110 -80 0 1 0 0 0 1 0 0 0 1 32802.dat
+1 19 -110 -72 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 28 -110 -80 -30 1 0 0 0 1 0 0 0 1 54200.dat
+1 28 -110 -80 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 19 -70 -80 0 1 0 0 0 1 0 0 0 1 32802.dat
+1 19 -70 -72 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 28 -70 -80 -30 1 0 0 0 1 0 0 0 1 54200.dat
+1 28 -70 -80 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 19 -30 -80 0 1 0 0 0 1 0 0 0 1 32802.dat
+1 19 -30 -72 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 28 -30 -80 -30 1 0 0 0 1 0 0 0 1 54200.dat
+1 28 -30 -80 30 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 19 10 -80 0 1 0 0 0 1 0 0 0 1 32802.dat
+1 19 10 -72 0 0 0 1 0 1 0 -1 0 0 15573.dat
+1 28 10 -80 -30 1 0 0 0 1 0 0 0 1 54200.dat
+1 28 10 -80 30 -1 0 0 0 1 0 0 0 -1 54200.dat
 0 STEP
 0 Instruction step172 / book1 page175. Rear ridge cap and hip spacers.
-1 19 -80 -96 0 1 0 0 0 1 0 0 0 1 3460.dat
+1 19 -60 -80 0 1 0 0 0 1 0 0 0 1 3460.dat
 1 19 -150 -72 0 0 0 1 0 1 0 -1 0 0 15573.dat
 1 28 -150 -80 0 1 0 0 0 1 0 0 0 1 3024.dat
 1 28 -150 -88 0 1 0 0 0 1 0 0 0 1 3024.dat
@@ -691,9 +691,9 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-pelvic-spur-overlay-step199.ldr
 0 Instruction steps200–201; corrected open hip ring and lower curved caps.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-hip-ring-overlay-step200.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-dorsal-overlay-step221.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-rear-horns-overlay-step224.ldr
 0 NOFILE
-
-
 0 FILE neck-transition-step126.ldr
 0 Book 1 pages130-131, step126: local subassembly. Mounted on body by matching side bracket grid; physical stability not tested.
 0 STEP
@@ -742,7 +742,6 @@
 1 71 20 -14 -32 1 0 0 0 0 -1 0 1 0 6141.dat
 1 71 20 -14 32 1 0 0 0 0 1 0 -1 0 6141.dat
 0 NOFILE
-
 0 FILE platform-step136.ldr
 0 Book1 page142 step136 local assembly.
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -753,7 +752,6 @@
 1 28 -30 -8 -30 1 0 0 0 1 0 0 0 1 54200.dat
 1 28 -30 -8 30 -1 0 0 0 1 0 0 0 -1 54200.dat
 0 NOFILE
-
 0 FILE neck-joint-step142.ldr
 0 Book 1 pages149-151, steps142-149. Independent joint carrier; clutch assembly pending.
 0 Instruction step 142
@@ -793,7 +791,6 @@
 1 19 40 -34 10 -1 0 0 0 1 0 0 0 -1 32002.dat
 1 4 35 -54 10 0 -1 0 0 0 1 -1 0 0 6632.dat
 0 NOFILE
-
 0 FILE flank-panel-step157.ldr
 0 Book1 page159 step157 inset; 3032 base plus three paired slopes.
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 3032.dat
@@ -804,7 +801,6 @@
 1 19 30 -8 -20 1 0 0 0 1 0 0 0 1 15672.dat
 1 19 30 -24 10 -1 0 0 0 1 0 0 0 -1 50950.dat
 0 NOFILE
-
 0 FILE flank-front-panel-step159.ldr
 0 Book1 page161 inset. Connection planes of curved pieces differ at each end.
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 3031.dat
@@ -831,7 +827,6 @@
 1 19 -30 -8 -20 1 0 0 0 1 0 0 0 1 15672.dat
 1 19 -30 -24 10 -1 0 0 0 1 0 0 0 -1 50950.dat
 0 NOFILE
-
 0 FILE hip-cap-step163.ldr
 0 Book1 pages165-166 step163. Independent assembly; body attachment under review.
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 3034.dat
@@ -847,7 +842,6 @@
 1 19 -70 -32 0 0 0 1 0 1 0 -1 0 0 3660.dat
 1 19 70 -32 0 0 0 -1 0 1 0 1 0 0 3660.dat
 0 NOFILE
-
 0 FILE neck-cover-step186.ldr
 0 Book 1 page 190 step 186: independent neck cover; no body mounting transform claimed.
 0 3020 top is local Y0. 4304 lower studs Y8 attach below 3020; raised side rows remain at Y0.
@@ -885,7 +879,6 @@
 1 19 30 -8 0 0 0 1 0 1 0 -1 0 0 54200.dat
 1 19 50 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 0 NOFILE
-
 0 FILE neck-cladding-overlay-step174.ldr
 0 Instruction step 174 / book1 page178
 1 19 -850 48 -10 0 0 1 0 1 0 -1 0 0 2752.dat
@@ -975,7 +968,6 @@
 1 19 -830 -88 0 0 0 1 0 1 0 -1 0 0 54200.dat
 0 STEP
 0 NOFILE
-
 0 FILE neck-surface-and-horns-overlay-step187.ldr
 0 Body-global overlay. Steps187/189 curved cover and188/190 five articulated throat ribs per side.
 0 23443 handle-axis Z maps to world X; tube opens downward.40379 bend faces body midline.
@@ -1024,7 +1016,6 @@
 1 19 -910 -56 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
 0 STEP
 0 NOFILE
-
 0 FILE body-lower-flank-overlay-step191.ldr
 0 Instructions191/192. Body coordinates; 5090/99207 side studs at Y-6/+14 and Z+/-24.
 0 50950 bottomY24, two connection centers localZ-20/0. Curved tip points down.
@@ -1055,14 +1046,12 @@
 1 19 -430 14 48 1 0 0 0 0 1 0 -1 0 50950.dat
 0 STEP
 0 NOFILE
-
 0 FILE body-pelvic-spur-overlay-step199.ldr
 0 Instruction step199 / book1 page202. Body-global mount.
 0 19735480 studs at localY-24,Z-50 mate1633034 undersideY72 atX-310,Z+/-10.
 0 A single raised stud pair supports the local assembly; lower uncovered studs are not forced into the same plane.
 1 16 -260 96 0 0 0 1 0 1 0 -1 0 0 pelvic-spur-step195.ldr
 0 NOFILE
-
 0 FILE pelvic-spur-step195.ldr
 0 Instruction step195 / book1 page201
 1 84 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat
@@ -1080,7 +1069,6 @@
 0 Instruction step198 / book1 page201. Hinge insertion centers matched; angle review pending.
 1 16 0 -16 10 1 0 0 0 -1 0 0 0 -1 pelvic-blade-step198.ldr
 0 NOFILE
-
 0 FILE pelvic-blade-step198.ldr
 0 Instruction step198 / book1 page201 inset
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 61406.dat
@@ -1090,7 +1078,6 @@
 1 19 10 -8 0 1 0 0 0 1 0 0 0 1 54200.dat
 1 19 0 8 0 1 0 0 0 1 0 0 0 1 48336.dat
 0 NOFILE
-
 0 FILE body-hip-ring-overlay-step200.ldr
 0 Body-coordinate overlay. Attach root I at (0,0,0); Quarter origins offset outward20LDU; support-stud grid compared.
 0 Instruction step200 / book1 page203. Diagram placement checked; integrated interference review pending.
@@ -1107,4 +1094,72 @@
 0 Proposed high-end support on35044stud rowY54; underside slope origin isbase.
 1 19 -280 64 -32 -1 0 0 0 0 1 0 1 0 15068.dat
 1 19 -280 64 32 1 0 0 0 0 1 0 -1 0 15068.dat
+0 NOFILE
+0 FILE body-dorsal-overlay-step221.ldr
+0 Instruction step221 / book1 page215
+1 16 -90 -104 0 -1 0 0 0 1 0 0 0 -1 dorsal-short-step221.ldr
+1 16 -50 -104 0 -1 0 0 0 1 0 0 0 -1 dorsal-short-step221.ldr
+1 16 -10 -104 0 -1 0 0 0 1 0 0 0 -1 dorsal-short-step221.ldr
+1 16 30 -104 0 -1 0 0 0 1 0 0 0 -1 dorsal-short-step221.ldr
+0 STEP
+0 Instruction step222 / book1 page216
+1 16 -390 -128 0 -1 0 0 0 1 0 0 0 -1 dorsal-middle-step222.ldr
+1 16 -350 -128 0 -1 0 0 0 1 0 0 0 -1 dorsal-middle-step222.ldr
+1 16 -250 -128 0 -1 0 0 0 1 0 0 0 -1 dorsal-middle-step222.ldr
+1 16 -210 -128 0 -1 0 0 0 1 0 0 0 -1 dorsal-middle-step222.ldr
+1 16 -170 -128 0 -1 0 0 0 1 0 0 0 -1 dorsal-middle-step222.ldr
+1 16 -130 -112 0 -1 0 0 0 1 0 0 0 -1 dorsal-middle-step222.ldr
+0 STEP
+0 Instruction step223 / book1 page217
+1 16 -670 -88 0 -1 0 0 0 1 0 0 0 -1 dorsal-tall-step223.ldr
+1 16 -630 -88 0 -1 0 0 0 1 0 0 0 -1 dorsal-tall-step223.ldr
+1 16 -590 -88 0 -1 0 0 0 1 0 0 0 -1 dorsal-tall-step223.ldr
+1 16 -550 -88 0 -1 0 0 0 1 0 0 0 -1 dorsal-tall-step223.ldr
+1 16 -510 -88 0 -1 0 0 0 1 0 0 0 -1 dorsal-tall-step223.ldr
+1 16 -470 -88 0 -1 0 0 0 1 0 0 0 -1 dorsal-tall-step223.ldr
+1 16 -430 -96 0 -1 0 0 0 1 0 0 0 -1 dorsal-tall-step223.ldr
+1 16 -300 -160 0 -1 0 0 0 1 0 0 0 -1 dorsal-center-cap-step223.ldr
+0 STEP
+0 NOFILE
+0 FILE dorsal-short-step221.ldr
+0 Instruction step221 / book1 page215: one of four. Foot extends +X; high stud at origin.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
+1 19 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
+0 NOFILE
+0 FILE dorsal-middle-step222.ldr
+0 Instruction step222 / book1 page216: one of six. Bottom Y24; high stud Y-24.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
+1 19 0 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+1 19 0 -24 0 0 0 -1 0 1 0 1 0 0 54200.dat
+0 NOFILE
+0 FILE dorsal-tall-step223.ldr
+0 Instruction step223 / book1 page217: one of seven. Extra plate directly above arch.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
+1 19 0 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
+1 19 0 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+1 19 0 -32 0 0 0 -1 0 1 0 1 0 0 54200.dat
+0 NOFILE
+0 FILE dorsal-center-cap-step223.ldr
+0 Instruction step223 / book1 page217: single brick and cheese on central hip jumper.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 3005.dat
+1 19 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
+0 NOFILE
+0 FILE neck-rear-horns-overlay-step224.ldr
+0 Body-global remainingthreefront-neckclips on eachside; axis/curve conventions sameas188/190.
+0 Instruction step224 / book1 page218
+1 19 -890 -66 54 0 0 1 0 -1 0 1 0 0 23443.dat
+1 19 -890 -36 54 -1 0 0 0 0 1 0 1 0 40379.dat
+1 19 -870 -46 54 0 0 1 0 -1 0 1 0 0 23443.dat
+1 19 -870 -16 54 -1 0 0 0 0 1 0 1 0 40379.dat
+1 19 -850 -26 54 0 0 1 0 -1 0 1 0 0 23443.dat
+1 19 -850 4 54 -1 0 0 0 0 1 0 1 0 40379.dat
+0 STEP
+0 Instruction step225 / book1 page219
+1 19 -890 -66 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
+1 19 -890 -36 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
+1 19 -870 -46 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
+1 19 -870 -16 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
+1 19 -850 -26 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
+1 19 -850 4 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
+0 STEP
 0 NOFILE

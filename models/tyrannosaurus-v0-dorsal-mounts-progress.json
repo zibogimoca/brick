@@ -1,0 +1,39 @@
+{
+  "scope": "221–223 dorsal mounts; prerequisite169/171/172 correction",
+  "physical_parts": 56,
+  "status": "diagram_contact_checked_and_rendered_ready_for_parent_integration",
+  "required_prior_changes": {
+    "169": "AllXcoordinates minus20;3176center40,15573centers30/50,32802center30,3024centers50,sidecheesesX30. Yunchanged.",
+    "170": "UNCHANGED: spacercenters-130/-90/-50/-10.",
+    "171": "AllXcoordinates plus20,allYcoordinates plus16. Ucenters-110/-70/-30/10,Y-80;jumperY-72;cheeseY-80.",
+    "172": "3460center(-60,-80,0) instead(-80,-96,0). Other172partsunchanged.",
+    "123": "Two tan3022 centers -100/-20 → -120/-40; fill gaps between93274 columns.",
+    "141": "4477 centers -730/-530 → -740/-540. Their underside stud3 radius4 inserts into65509 open stud2 inner radius4. Front35480 X-830 then aligns first topstud; rear plate edge-440 clears173jumper onblue3023b X-430."
+  },
+  "evidence": [
+    "171Uassemblies occupy gapsBETWEEN170spacercolumns;PDF174showsalternatinghollowjumpers/brownsolidspacers. UbottomY24 seatsbare93274topY-56,notontop1703024.",
+    "172bridgecoversalternatingUjumperandspacerstuds, bothY-72;plateY-80 matches169jumpertops.",
+    "169capundersideUcolumnX30and3024columnX50 match1223023bX30and79389X50.",
+    "78666nativefootextends+X; allspinesuseRy180 forfootfront(-X) perPDF215–217.",
+    "223 first6 tall roots X-670/-630/-590/-550/-510/-470 sit on corrected141 odd-X topstud grid. Seventh rootX-430 bottomY-72 seats173 spacer3024; its footX-450 cantilevers8LDU above longplate. No forced half-stud attachment of arches.",
+    "141 half-stud mounting is mechanically distinct from forcing ordinary filled studs: 4477stud3 radius4 downwardposts coincide with65509stud2 inner radius4 holes, bothspanworldY-60..-56. Endwallclearance and173blue3023b adjacency checked."
+  ],
+  "pending": [
+    "Physical clutch strength and load require real bricks; not claimed verified."
+  ],
+  "render_evidence": [
+    "/tmp/brick-instructions/dorsal-final-review.png",
+    "/tmp/brick-instructions/dorsal-final-side.png"
+  ],
+  "composite_candidate": {
+    "source_main_sha256": "b7f7340dbea3aac6561e6bc7e71496685c16580f9357d1b20d71ed2680ee3359",
+    "roots": [
+      "body-spine-start.ldr",
+      "body-dorsal-overlay-step221.ldr",
+      "neck-rear-horns-overlay-step224.ldr"
+    ],
+    "submodels": 23,
+    "includes_main_through": 201,
+    "remaining_body_integration": "202–213 pelvic parts owned by other agent;214–220 rear chevrons now being reviewed"
+  }
+}

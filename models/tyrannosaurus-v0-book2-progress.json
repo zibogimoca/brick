@@ -3,8 +3,8 @@
   "source": "/tmp/brick-instructions/2.pdf",
   "page_count": 148,
   "status": "in_progress",
-  "last_placed_step": 323,
-  "physical_piece_count": 257,
+  "last_placed_step": 425,
+  "physical_piece_count": 284,
   "steps": [
     {
       "step": 226,
@@ -1482,14 +1482,14 @@
       "submodels": [
         "book2-leg-core.ldr"
       ],
-      "phase_1": "identified",
+      "phase_1": "identified_corrected_against_paired_leg_BOM",
       "phase_2": "local_placement_implemented_corrected_anatomical_submodel",
       "parts": [
-        "1 28 -20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat",
-        "1 19 -20 -48 -30 1 0 0 0 1 0 0 0 1 48336.dat"
+        "1 28 20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat",
+        "1 297 -10 -30 -44 0 0 1 1 0 0 0 1 0 26047.dat"
       ],
       "physical_parts_added": 2,
-      "verification": "Foot/shin72132raised/low/sideface coordinates checked; exactdiagram silhouette andclawpose pending."
+      "verification": "322uses26047pearlgold297,not48336;323uses87747,not40379. Coordinates mirrored from423–424 onto identical72132grid. Render and clearances pending."
     },
     {
       "step": 323,
@@ -1497,15 +1497,28 @@
       "submodels": [
         "book2-leg-core.ldr"
       ],
-      "phase_1": "identified",
+      "phase_1": "identified_corrected_against_paired_leg_BOM",
       "phase_2": "local_placement_implemented_corrected_anatomical_submodel",
       "parts": [
-        "1 19 -20 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat",
-        "1 19 -20 -46 -50 0 0 1 -1 0 0 0 -1 0 11090.dat",
-        "1 19 -20 -46 -80 0 1 0 1 0 0 0 0 -1 40379.dat"
+        "1 19 0 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat",
+        "1 19 -30 -30 -42 0 -1 0 0 0 1 -1 0 0 11090.dat",
+        "1 19 -60 -30 -42 0 1 0 1 0 0 0 0 -1 87747.dat"
       ],
       "physical_parts_added": 3,
-      "verification": "Foot/shin72132raised/low/sideface coordinates checked; exactdiagram silhouette andclawpose pending."
+      "verification": "322uses26047pearlgold297,not48336;323uses87747,not40379. Coordinates mirrored from423–424 onto identical72132grid. Render and clearances pending."
+    },
+    {
+      "step": 425,
+      "page": 97,
+      "phase_1": "shared_toe_from_second_leg_source",
+      "phase_2": "three_first_leg_toes_mounted",
+      "parts": [
+        "1 16 -68 -98.86401628 -45.78504745 0 -1 0 0.34202014 0 0.93969262 -0.93969262 0 0.34202014 book2-shared-toe-step425.ldr",
+        "1 16 -70 -138 0 0 -1 0 0 0 1 -1 0 0 book2-shared-toe-step425.ldr",
+        "1 16 -68 -98.86401628 45.78504745 0 -1 0 -0.34202014 0 0.93969262 -0.93969262 0 -0.34202014 book2-shared-toe-step425.ldr"
+      ],
+      "physical_parts_added": 27,
+      "verification": "Native2736balltoe-local(0,2,52) transformed tosocketcenters within1e-6LDU;poseclearance notcertified."
     }
   ],
   "coordinate_system": "LDU; X upper-leg length; Y down; Z width. Final body mount not yet determined.",
@@ -1516,11 +1529,11 @@
     },
     {
       "step": 315,
-      "issue": "Hip67696socketcenter L-core(60,-22,0); alignbody17114ball duringintegration. Openingaxisneedsmeshconfirmation."
+      "issue": "Hip67696socketcenter L-core(60,-22,0); bodymount handled by parent."
     },
     {
       "step": 323,
-      "issue": "Correctedfoot/shinmount319/322/323 uses72132steppedfrontandperpendicularsideface. Exactclawpose/silhouettecomparisonpending."
+      "issue": "Corrected26047/87747 identification andmirrorplacement; newrender andclearance review pending."
     }
   ],
   "lessons": [
@@ -1592,6 +1605,16 @@
         323
       ],
       "finding": "Initial226core isfoot/shin;L-section29167696 ishipsocket. Namesupper/lower arelegacyincorrectanatomiclabels. Deriveanatomyfromactualjointandfinalassemblydiagram,notexistingname."
+    },
+    {
+      "scope": "model",
+      "steps": [
+        322,
+        323,
+        423,
+        424
+      ],
+      "finding": "Orange-looking BOMpart is pearl-gold26047singleopenstudhandle,not48336two-studhandle;pairedlegBOM confirms87747claw,not40379tail. MatchspecificBOMshape/colortoinventorybefore derivingmount."
     }
   ],
   "render_evidence": [
@@ -1609,17 +1632,51 @@
     "/tmp/brick-book2/render310.png",
     "/tmp/brick-book2/render310side.png",
     "/tmp/brick-book2/render310front.png",
-    "/tmp/brick-book2/render323-corrected-foot.png"
+    "/tmp/brick-book2/render323-identified-claw.png",
+    "/tmp/brick-book2/render425-first-leg.png"
   ],
   "physical_validation": false,
   "integration_ready": false,
-  "display_layout": "Local leg through323. Initial226core is foot/shin;291L-core contains hip socket. Global bodymount and exactsilhouette/clawpose review pending.",
+  "display_layout": "Firstlegthrough323plus3toes425;globalhipmountparent-owned;clawroll/clearancereviewpending.",
   "verification_checks": {
-    "recursive_parts": 257,
+    "recursive_parts": 284,
     "missing_geometry": [],
     "rotations": "all determinant +1 within1e-5",
     "browser_page_errors": 0,
     "physical_validation": false,
     "note": "Render loading pass does not settle detailed pose/silhouette comparison."
-  }
+  },
+  "scope_note": "First leg226–323 plus its3shared toes425.324–424ownedbysecondlegworkfile,not omitted.",
+  "toe_mounts": [
+    {
+      "toe_index": 4,
+      "socket_center": [
+        -70,
+        -50,
+        -28
+      ],
+      "placement_for_book2_leg_core": "1 16 -68 -98.86401628 -45.78504745 0 -1 0 0.34202014 0 0.93969262 -0.93969262 0 0.34202014 book2-shared-toe-step425.ldr",
+      "status": "provided_for_root_integration_not_inserted_in_first_leg"
+    },
+    {
+      "toe_index": 5,
+      "socket_center": [
+        -72,
+        -86,
+        0
+      ],
+      "placement_for_book2_leg_core": "1 16 -70 -138 0 0 -1 0 0 0 1 -1 0 0 book2-shared-toe-step425.ldr",
+      "status": "provided_for_root_integration_not_inserted_in_first_leg"
+    },
+    {
+      "toe_index": 6,
+      "socket_center": [
+        -70,
+        -50,
+        28
+      ],
+      "placement_for_book2_leg_core": "1 16 -68 -98.86401628 45.78504745 0 -1 0 -0.34202014 0 0.93969262 -0.93969262 0 -0.34202014 book2-shared-toe-step425.ldr",
+      "status": "provided_for_root_integration_not_inserted_in_first_leg"
+    }
+  ]
 }

@@ -115,14 +115,19 @@
 0 Instruction step 319 / book 2 page 46. Foot/shin72132steppedface; grey base rim excluded.
 1 19 -20 -20 28 -1 0 0 0 0 -1 0 -1 0 15068.dat
 0 STEP
-0 Instruction step 322 / book 2 page 49. Raised face and perpendicular side face of72132; pose comparison pending.
-1 28 -20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat
-1 19 -20 -48 -30 1 0 0 0 1 0 0 0 1 48336.dat
+0 Instruction step 322 / book 2 page 49. Raised72132row; 26047pearlgoldhandle, not48336.
+1 28 20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat
+1 297 -10 -30 -44 0 0 1 1 0 0 0 1 0 26047.dat
 0 STEP
-0 Instruction step 323 / book 2 page 50. Claw on handlebar, adjustable pose; not a verified range of motion.
-1 19 -20 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat
-1 19 -20 -46 -50 0 0 1 -1 0 0 0 -1 0 11090.dat
-1 19 -20 -46 -80 0 1 0 1 0 0 0 0 -1 40379.dat
+0 Instruction step 323 / book 2 page 50. Roundtile bridges35480and26047;87747claw clips onto barholder11090.
+1 19 0 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat
+1 19 -30 -30 -42 0 -1 0 0 0 1 -1 0 0 11090.dat
+1 19 -60 -30 -42 0 1 0 1 0 0 0 0 -1 87747.dat
+0 STEP
+0 Instruction step 425 / book2 pages97–98. First-legthree toes, exactball/socket centers;20degree splay isdisplaypose.
+1 16 -68 -98.86401628 -45.78504745 0 -1 0 0.34202014 0 0.93969262 -0.93969262 0 0.34202014 book2-shared-toe-step425.ldr
+1 16 -70 -138 0 0 -1 0 0 0 1 -1 0 0 book2-shared-toe-step425.ldr
+1 16 -68 -98.86401628 45.78504745 0 -1 0 -0.34202014 0 0.93969262 -0.93969262 0 -0.34202014 book2-shared-toe-step425.ldr
 0 NOFILE
 
 0 FILE book2-leg-upper-skin.ldr
@@ -476,4 +481,18 @@
 1 28 -60 0 170 -1 0 0 0 1 0 0 0 -1 32803.dat
 1 28 -70 0 150 0 0 1 0 1 0 -1 0 0 36840.dat
 1 28 -50 0 150 0 0 -1 0 1 0 1 0 0 36840.dat
+0 NOFILE
+
+0 FILE book2-shared-toe-step425.ldr
+0 Six identical independent toes for both legs; final ball-socket seating and toe pose remain pending.
+0 Instruction step 425 / book 2 page 97
+1 19 0 8 0 1 0 0 0 1 0 0 0 1 24201.dat
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 70681.dat
+1 84 0 -8 20 1 0 0 0 1 0 0 0 1 73230.dat
+1 28 0 -16 20 1 0 0 0 1 0 0 0 1 28192.dat
+1 71 0 2 40 0 0 1 0 1 0 -1 0 0 2736.dat
+1 84 0 24 -40 1 0 0 0 1 0 0 0 1 36840.dat
+1 19 0 32 -40 -1 0 0 0 1 0 0 0 -1 24201.dat
+1 28 0 22 -62 1 0 0 0 0 -1 0 1 0 85861.dat
+1 19 0 22 -66 -1 0 0 0 0 1 0 1 0 87747.dat
 0 NOFILE

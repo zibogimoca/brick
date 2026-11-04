@@ -1560,7 +1560,7 @@
         "33909@0": 2,
         "4032a@19": 1
       },
-      "note": "Gray row supported by outer73825 bracket facesY−136; black plates by6141Y−136; round plate one layer lower on6113021Y−128."
+      "note": "Gray row onouter73825bracketfacesY−136; black33909studedge corrected toX30 to support642rearcurve; round4032one layerloweron6113021Y−128."
     },
     {
       "step": 639,
@@ -1608,7 +1608,7 @@
         "15672@19": 2,
         "50950@19": 2
       },
-      "note": "50950 is3×1, not11477. Cutout foot16 fits15672stud; full feet24 restblack33909."
+      "note": "50950is3×1,not11477. AssembliesX30clutch638blackstudrowX30; cutoutfoot16fits15672stud,fullfeet24restblackplate."
     },
     {
       "step": 643,
@@ -1619,13 +1619,210 @@
         "15573@19": 1,
         "33909@28": 2
       },
-      "note": "Jumper atopround4032; two new plates bridge crown rear wingedges. Render review pending."
+      "note": "Jumper atop4032. New33909 pair studs form central2×2 X−30/−10,Z±10 (negativeZtileI,positiveZtileRy180), not a second four-stud row; checked against644studgrid."
+    },
+    {
+      "step": 644,
+      "page": 70,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3021@19": 2,
+        "26601@28": 2,
+        "85984@28": 2
+      },
+      "note": "Stud-grid fit locates tanpadsX−10,Z±60 and adjacenttriangleX−60,Z±60 atsameY−160; clearsrearcurvesX30."
+    },
+    {
+      "step": 645,
+      "page": 70,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "29119@28": 2,
+        "29120@28": 2
+      },
+      "note": "Handedcaps flank front-outside missing corners, leaving rear-innertriangle studs exposed."
+    },
+    {
+      "step": 646,
+      "page": 71,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "15573@19": 3,
+        "26601@28": 2
+      },
+      "note": "ThreejumpercentersX−50/−30/−10,Z0 andcornerplates bridge preceding studrows."
+    },
+    {
+      "step": 647,
+      "page": 71,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3024@19": 1,
+        "11477@19": 2
+      },
+      "note": "Native11477 clutch atZ−10 maps to jumperX−50/−10; high endsZ−20 facecenter. Existing orientations retained after native geometry verification."
+    },
+    {
+      "step": 648,
+      "page": 72,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3832@28": 1,
+        "66956@28": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 649,
+      "page": 72,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "60470b@19": 2,
+        "4032a@19": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 650,
+      "page": 72,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "41769@19": 1,
+        "41770@19": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 651,
+      "page": 72,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "3795@19": 1,
+        "22385@28": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 652,
+      "page": 73,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "48336@19": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 653,
+      "page": 73,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "15068@19": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 654,
+      "page": 73,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "2654a@19": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 655,
+      "page": 73,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "88292@19": 2,
+        "3665@28": 2
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 656,
+      "page": 74,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "35480@28": 1
+      },
+      "note": "Nasal roof subassembly; underside boat stud2654a identified separately from upper tile."
+    },
+    {
+      "step": 657,
+      "page": 74,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented_review_pending",
+      "parts": {},
+      "note": "Bar and clip centers coincide; pose and final interference still require review."
+    },
+    {
+      "step": 658,
+      "page": 75,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented_review_pending",
+      "parts": {
+        "48336@19": 2,
+        "2654a@19": 2,
+        "26601@28": 2,
+        "41769@19": 1,
+        "41770@19": 1
+      },
+      "note": "Bar and clip centers coincide; pose and final interference still require review."
+    },
+    {
+      "step": 705,
+      "page": 92,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "53451@19": 8,
+        "35480@28": 4
+      },
+      "note": "Upper small tooth pairs on corrected572/581 bracket planesY12,rowsZ±10."
+    },
+    {
+      "step": 706,
+      "page": 93,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "87747@19": 4,
+        "35480@28": 2
+      },
+      "note": "Large tooth pairsX−210/−190,rowsZ±10."
+    },
+    {
+      "step": 707,
+      "page": 94,
+      "phase_1": "identified_from_parts_inset",
+      "phase_2": "diagram_placement_implemented",
+      "parts": {
+        "53451@19": 4,
+        "87747@19": 2,
+        "77850@28": 2,
+        "35480@28": 1
+      },
+      "note": "Front centerplate and77850 wings folded90deg, producing tooth rowsX−270/−250/−230,Z±10. Wing undersideY16 matches594 nose4304 side studs."
     }
   ],
-  "last_implemented_step": 643,
-  "next_step": 644,
-  "piece_count": 651,
-  "verification": "Through641 crown rendered after610 support correction.642–643 placed; combined render pending. Global jaw/body attachment and physical fit remain unverified.",
+  "last_implemented_step": 707,
+  "next_step": 708,
+  "piece_count": 721,
+  "verification": "Through707 upper skull loads/renders;721 recursive parts including419 tail and302 skull. All placement matrices determinant+1; no missing referencedDAT. 577/586 side mounts corrected against4304 stud planes;705–707 upper teeth attach to exact stud planes. Nasal closing25degree pose remains provisional. Jaw659–702 and703/708 integration owned by root; final head/body mount709 pending.",
   "connections": [
     {
       "name": "tail_middle_rear_ball_stack",
@@ -1734,6 +1931,13 @@
         0
       ],
       "status": "Ball/socket and 3176 holes aligned; round plates alternate at Y=-48,-40,-32,-24. Pin depth pending."
+    },
+    {
+      "steps": [
+        577,
+        586
+      ],
+      "correction": "Side rail locations and90degree rolls corrected: left(-60,-2,-20),Rx90;right(-60,-2,+20),Rx−90Ry180. Matches4304 side stud plane and exposes3-row underside palate;99781 studs nowdownY12."
     }
   ],
   "pages_reviewed": [
@@ -1805,7 +2009,20 @@
     66,
     67,
     68,
-    69
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
   ],
   "unresolved": [
     {
@@ -1815,6 +2032,10 @@
     {
       "step": 513,
       "issue": "Final attachment to book 2 tail requires its receiving ball/socket coordinates. Independent subassembly implemented; no guessed global mount."
+    },
+    {
+      "step": 657,
+      "issue": "Bar/clip centers exactly coincide;25degree nasal closing pose is provisional pending front support and clearance verification."
     }
   ]
 }

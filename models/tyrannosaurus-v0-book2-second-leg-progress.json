@@ -3,7 +3,7 @@
   "scope": "Second leg, steps324–425",
   "status": "in_progress",
   "last_placed_step": 425,
-  "physical_piece_count": 298,
+  "physical_piece_count": 276,
   "steps": [
     {
       "step": 324,
@@ -1195,12 +1195,13 @@
       "phase_1": "identified",
       "phase_2": "local_placement_implemented",
       "parts": [
-        "1 19 -60 -48 60 1 0 0 0 1 0 0 0 1 15068.dat"
+        "1 19 20 -20 28 -1 0 0 0 0 -1 0 -1 0 15068.dat"
       ],
       "physical_parts_added": 1,
       "excluded": [
         "2 graybasearcplates"
-      ]
+      ],
+      "verification": "15068on72132stepped face at foot core, corrected from prior wrong hip-core placement."
     },
     {
       "step": 421,
@@ -1223,7 +1224,14 @@
       "excluded": [
         "gray26601baseplate"
       ],
-      "reason": "Dewclaw carrier placement relative to403top tile must be reconciled; no body part silently omitted."
+      "reason": "Dewclaw carrier placement relative to403top tile must be reconciled; no body part silently omitted.",
+      "parts": [
+        "1 28 -20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat",
+        "1 297 10 -30 -44 0 0 -1 -1 0 0 0 1 0 26047.dat"
+      ],
+      "phase_2": "local_placement_implemented",
+      "physical_parts_added": 2,
+      "verification": "Manual pages95–96, actual72132 raised stud row and handle/clip centers; viewer successfully renders attached dewclaw. Tile bridges two stud centers. Mechanical clearance not certified."
     },
     {
       "step": 424,
@@ -1234,13 +1242,21 @@
         "11090 tan": 1,
         "87747 tan": 1
       },
-      "reason": "Depends on423carrier; no fabricated clip transform."
+      "reason": "Depends on423carrier; no fabricated clip transform.",
+      "parts": [
+        "1 19 0 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat",
+        "1 19 30 -30 -42 0 1 0 0 0 1 1 0 0 11090.dat",
+        "1 19 60 -30 -42 0 -1 0 -1 0 0 0 0 -1 87747.dat"
+      ],
+      "phase_2": "local_placement_implemented",
+      "physical_parts_added": 3,
+      "verification": "Manual pages95–96, actual72132 raised stud row and handle/clip centers; viewer successfully renders attached dewclaw. Tile bridges two stud centers. Mechanical clearance not certified."
     },
     {
       "step": 425,
       "page": 97,
       "phase_1": "identified",
-      "phase_2": "independent_local_assembly_implemented",
+      "phase_2": "three_second_leg_toes_mounted_three_first_leg_toes_reserved",
       "parts_per_toe": [
         "1 19 0 8 0 1 0 0 0 1 0 0 0 1 24201.dat",
         "1 19 0 0 0 1 0 0 0 1 0 0 0 1 70681.dat",
@@ -1254,7 +1270,7 @@
       ],
       "quantity": 6,
       "physical_parts_added": 54,
-      "verification": "BOM resolved:73230axlebrick,36840up bracket,24201invertedcurves,87747mediumclaw; not87087/4070/roundedplates/40379longtail. Native contacts used; render and final mounting pending."
+      "verification": "2736nativeball(-12,0,0) gives toe-local(0,2,52); all three socket centers match exactly. Pose clearance needs review."
     }
   ],
   "unresolved": [
@@ -1285,22 +1301,93 @@
       "issue": "Main-body mounting and support pose remain root integration task."
     },
     {
-      "steps": [
-        423,
-        424
-      ],
-      "issue": "Dewclaw carrier position relative to403longtile needs review before implementation."
-    },
-    {
       "step": 425,
-      "issue": "Six toes built separately for both legs; final ball/socket seating and pose not yet implemented."
+      "issue": "Second-leg three toes attached at exact socket centers; first-leg three remain reserved in workbench. Their attachment instructions recorded separately for root integration. Display splay is not verified mechanical range."
     }
   ],
   "validation": {
-    "physical_piece_count_recursive": 298,
+    "physical_piece_count_recursive": 303,
     "missing_asset_references": 0,
     "non_rigid_transforms": 0,
     "browser_render": "Loaded successfully in local viewer; inspection screenshot saved in temporary workspace.",
     "limitations": "Visual workbench inspection is not proof of physical clutch strength or all mesh clearances. Final torso mounting remains pending."
-  }
+  },
+  "toe_mounts": [
+    {
+      "toe_index": 1,
+      "socket_center": [
+        70,
+        -50,
+        -28
+      ],
+      "fan_degrees": 20,
+      "placement": "1 16 68 -98.86401628 -45.78504745 0 1 0 -0.34202014 0 0.93969262 0.93969262 0 0.34202014 book2-shared-toe-step425.ldr",
+      "ball_center_residual": 7.944109290391274e-15
+    },
+    {
+      "toe_index": 2,
+      "socket_center": [
+        72,
+        -86,
+        0
+      ],
+      "fan_degrees": 0,
+      "placement": "1 16 70 -138 0 0 1 0 0 0 1 1 0 0 book2-shared-toe-step425.ldr",
+      "ball_center_residual": 0.0
+    },
+    {
+      "toe_index": 3,
+      "socket_center": [
+        70,
+        -50,
+        28
+      ],
+      "fan_degrees": -20,
+      "placement": "1 16 68 -98.86401628 45.78504745 0 1 0 0.34202014 0 0.93969262 0.93969262 0 -0.34202014 book2-shared-toe-step425.ldr",
+      "ball_center_residual": 7.944109290391274e-15
+    }
+  ],
+  "toe_native_ball_center": [
+    0,
+    2,
+    52
+  ],
+  "first_leg_reserved_toe_mounts": [
+    {
+      "toe_index": 4,
+      "socket_center": [
+        -70,
+        -50,
+        -28
+      ],
+      "placement_for_book2_leg_core": "1 16 -68 -98.86401628 -45.78504745 0 -1 0 0.34202014 0 0.93969262 -0.93969262 0 0.34202014 book2-shared-toe-step425.ldr",
+      "status": "provided_for_root_integration_not_inserted_in_first_leg"
+    },
+    {
+      "toe_index": 5,
+      "socket_center": [
+        -72,
+        -86,
+        0
+      ],
+      "placement_for_book2_leg_core": "1 16 -70 -138 0 0 -1 0 0 0 1 -1 0 0 book2-shared-toe-step425.ldr",
+      "status": "provided_for_root_integration_not_inserted_in_first_leg"
+    },
+    {
+      "toe_index": 6,
+      "socket_center": [
+        -70,
+        -50,
+        28
+      ],
+      "placement_for_book2_leg_core": "1 16 -68 -98.86401628 45.78504745 0 -1 0 -0.34202014 0 0.93969262 -0.93969262 0 -0.34202014 book2-shared-toe-step425.ldr",
+      "status": "provided_for_root_integration_not_inserted_in_first_leg"
+    }
+  ],
+  "corrections": [
+    "420cover belongs to foot/shin324core, not388hip core.",
+    "423–424dewclaw belongs72132foot/shin side; no dependency on403hip tile.",
+    "Toe2736ball center is12LDUbehindaxleorigin; actualtoe ballcenter(0,2,52)."
+  ],
+  "reserved_toes_removed": "Three reserveddisplayreferences removed after firstleg425attachment; sixactualtoes countedonce."
 }

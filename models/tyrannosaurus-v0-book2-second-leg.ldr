@@ -1,12 +1,7 @@
 0 FILE book2-second-leg-workbench.ldr
 0 Independent second leg assembly; no final body mount asserted.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 book2-second-leg-upper-core.ldr
-1 16 200 100 200 1 0 0 0 1 0 0 0 1 book2-shared-toe-step425.ldr
-1 16 260 100 200 1 0 0 0 1 0 0 0 1 book2-shared-toe-step425.ldr
-1 16 320 100 200 1 0 0 0 1 0 0 0 1 book2-shared-toe-step425.ldr
-1 16 380 100 200 1 0 0 0 1 0 0 0 1 book2-shared-toe-step425.ldr
-1 16 440 100 200 1 0 0 0 1 0 0 0 1 book2-shared-toe-step425.ldr
-1 16 500 100 200 1 0 0 0 1 0 0 0 1 book2-shared-toe-step425.ldr
+0 Three remaining toes reserved for first leg; not second-leg attachments.
 0 NOFILE
 0 FILE book2-second-leg-upper-core.ldr
 0 X along the core, Y down, Z across its width. Base3832 top is Y0.
@@ -106,6 +101,22 @@
 1 28 -90 16 0 0 0 1 0 1 0 -1 0 0 32803.dat
 1 19 -70 16 0 0 0 -1 0 1 0 1 0 0 3023b.dat
 0 STEP
+0 Instruction step 420 / book 2 page 92. Opposite foot/shin stepped face; relocated from mistaken hip core.
+1 19 20 -20 28 -1 0 0 0 0 -1 0 -1 0 15068.dat
+0 STEP
+0 Instruction step 423 / book 2 page 95. Raised72132 row, upper two studs and next handle stud.
+1 28 -20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat
+1 297 10 -30 -44 0 0 -1 -1 0 0 0 1 0 26047.dat
+0 STEP
+0 Instruction step 424 / book 2 page 96. Tile bridges lower35480stud and roundhandle; claw clips on handle.
+1 19 0 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat
+1 19 30 -30 -42 0 1 0 0 0 1 1 0 0 11090.dat
+1 19 60 -30 -42 0 -1 0 -1 0 0 0 0 -1 87747.dat
+0 STEP
+0 Instruction step 425 / book 2 pages97–98. Three toes mounted to actual socket centers; 20degree splay is a display pose.
+1 16 68 -98.86401628 -45.78504745 0 1 0 -0.34202014 0 0.93969262 0.93969262 0 0.34202014 book2-shared-toe-step425.ldr
+1 16 70 -138 0 0 1 0 0 0 1 1 0 0 book2-shared-toe-step425.ldr
+1 16 68 -98.86401628 45.78504745 0 1 0 0.34202014 0 0.93969262 0.93969262 0 -0.34202014 book2-shared-toe-step425.ldr
 0 NOFILE
 
 0 FILE book2-second-leg-upper-skin.ldr
@@ -472,7 +483,6 @@
 1 19 -16 -12 210 0 -1 0 -1 0 0 0 0 -1 22385.dat
 0 STEP
 0 Instruction step 420 / book 2 page 92. Tan leg cover retained; base arc decorations excluded.
-1 19 -60 -48 60 1 0 0 0 1 0 0 0 1 15068.dat
 0 STEP
 0 NOFILE
 

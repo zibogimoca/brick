@@ -1,9 +1,9 @@
 {
   "book": 2,
-  "scope": "steps453–493",
-  "last_placed_step": 467,
+  "scope": "steps453\u2013493",
+  "last_placed_step": 492,
   "status": "in_progress",
-  "physical_piece_count": 94,
+  "physical_piece_count": 156,
   "assembly_verified": false,
   "steps": [
     {
@@ -51,7 +51,7 @@
       "parts": 1,
       "page": 127,
       "status": "placed",
-      "connection": "14704studs into3022overhang undersideY0; not ovalundersideY8"
+      "connection": "14704studs into51739overhang undersideY0; notovalundersideY8"
     },
     {
       "step": 460,
@@ -131,6 +131,152 @@
       "page": 135,
       "status": "body_mount_pending",
       "attachment": "fold centralclip/bar and balljoints so oppositeupperarm meetsotherstrap"
+    },
+    {
+      "step": 470,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 136
+    },
+    {
+      "step": 471,
+      "parts": 4,
+      "status": "placed_stud_grid_checked",
+      "page": 136
+    },
+    {
+      "step": 472,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 137
+    },
+    {
+      "step": 473,
+      "parts": 3,
+      "status": "placed_stud_grid_checked",
+      "page": 137
+    },
+    {
+      "step": 474,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 138
+    },
+    {
+      "step": 475,
+      "parts": 2,
+      "status": "placed_BOM_corrected_27263",
+      "page": 138
+    },
+    {
+      "step": 476,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 138
+    },
+    {
+      "step": 477,
+      "parts": 5,
+      "status": "placed_stud_grid_checked",
+      "page": 139
+    },
+    {
+      "step": 478,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 140
+    },
+    {
+      "step": 479,
+      "parts": 2,
+      "status": "placed_support_stud_grid_checked_rendered",
+      "page": 140
+    },
+    {
+      "step": 480,
+      "parts": 5,
+      "status": "placed_top_tile_vertices_compared_to_pdf",
+      "page": 140
+    },
+    {
+      "step": 481,
+      "parts": 0,
+      "status": "body_mount_pending",
+      "attachment": "5066 T-bar to paired clips above pelvic ring",
+      "page": 141
+    },
+    {
+      "step": 482,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 142
+    },
+    {
+      "step": 483,
+      "parts": 4,
+      "status": "placed_stud_grid_checked",
+      "page": 142
+    },
+    {
+      "step": 484,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 143
+    },
+    {
+      "step": 485,
+      "parts": 3,
+      "status": "placed_stud_grid_checked",
+      "page": 143
+    },
+    {
+      "step": 486,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 144
+    },
+    {
+      "step": 487,
+      "parts": 2,
+      "status": "placed_BOM_corrected_27263",
+      "page": 144
+    },
+    {
+      "step": 488,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 144
+    },
+    {
+      "step": 489,
+      "parts": 5,
+      "status": "placed_stud_grid_checked",
+      "page": 145
+    },
+    {
+      "step": 490,
+      "parts": 2,
+      "status": "placed_stud_grid_checked",
+      "page": 146
+    },
+    {
+      "step": 491,
+      "parts": 2,
+      "status": "placed_support_stud_grid_checked_rendered",
+      "page": 146
+    },
+    {
+      "step": 492,
+      "parts": 5,
+      "status": "placed_top_tile_vertices_compared_to_pdf",
+      "page": 146
+    },
+    {
+      "step": 493,
+      "parts": 0,
+      "status": "body_mount_pending",
+      "attachment": "5066 T-bar to paired clips above pelvic ring",
+      "page": 147
     }
   ],
   "notes": [
@@ -139,6 +285,24 @@
     "453/45426601handedorientation candidate pendingoverviewcrosscheck.",
     "457/462centralhinge centres aligned at(-10,10,-50), but secondpanelroll/contour still renderreview pending.",
     "464/465smallclaw87747 and11090 positions reconstructed frombar/tubeaxes; cap handedness needs renderedcomparison.",
-    "Upperarm13547 highstudsY0 attach78444bottom0; lowstudsY8 attach14418bottom8. Bonewide-end14704free socket local(0,4,20), narrow14418socket(±10,4,-120)."
-  ]
+    "Upperarm13547 highstudsY0 attach78444bottom0; lowstudsY8 attach14418bottom8. Bonewide-end14704free socket local(0,4,20), narrow14418socket(\u00b110,4,-120).",
+    "Correction: shoulder458/462 darktanpart is51739symmetric2x4wedge, not3022. Wideedgefacesoval Znegative; 14704connectors unchanged becausecentral2x2studgrid identical.",
+    "Pelvic BOM verified from PDF2p136\u2013146: eachcover31parts. 475/487 use27263, 476/477/488/489 use51739.",
+    "Pelvic final grid: gray471centresX\u00b180,Z40; lower47218980X\u00b1100,Z40;474tan35044X\u00b160,Z60; upper47618980X-120,Y-16;477triangularwingcentreX160,Y-16. WedgesX-120/+140,Y-24. Central5066Y-16;4783021Y-24,Z10. Final69729centre(0,-32,20),22385X\u00b190. 27263Ltiles(-110,-32,70)Ry90 and(150,-32,10)Ry-90. Derived projected p140tile vertices using basis(2.675,-1.05)X,(1.85,1.65)Z; stepped gray/tan corners offset20X+20Z.",
+    "Pelvic bodymount pending481/493. 5066barcentre(0,2,30),axisX. Finalmechanicalcollision/loadnotverified."
+  ],
+  "validation": {
+    "recursive_physical_piece_count": 156,
+    "submodel_count": 17,
+    "missing_part_assets": 0,
+    "invalid_rotation_matrices": 0,
+    "browser_page_errors": 0,
+    "body_mounts_remaining": [
+      468,
+      469,
+      481,
+      493
+    ],
+    "last_render": "/tmp/brick-instructions/arms480-resolved.png"
+  }
 }

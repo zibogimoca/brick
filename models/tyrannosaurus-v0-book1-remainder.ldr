@@ -4,27 +4,7 @@
 1 16 300 0 0 1 0 0 0 1 0 0 0 1 pelvic-panel-step207.ldr
 1 16 500 0 0 1 0 0 0 1 0 0 0 1 pelvic-end-cap-step212.ldr
 1 16 600 0 0 1 0 0 0 1 0 0 0 1 rear-chevron-carrier-step214.ldr
-1 16 0 0 200 1 0 0 0 1 0 0 0 1 dorsal-short-step221.ldr
-1 16 60 0 200 1 0 0 0 1 0 0 0 1 dorsal-short-step221.ldr
-1 16 120 0 200 1 0 0 0 1 0 0 0 1 dorsal-short-step221.ldr
-1 16 180 0 200 1 0 0 0 1 0 0 0 1 dorsal-short-step221.ldr
-1 16 0 0 300 1 0 0 0 1 0 0 0 1 dorsal-middle-step222.ldr
-1 16 60 0 300 1 0 0 0 1 0 0 0 1 dorsal-middle-step222.ldr
-1 16 120 0 300 1 0 0 0 1 0 0 0 1 dorsal-middle-step222.ldr
-1 16 180 0 300 1 0 0 0 1 0 0 0 1 dorsal-middle-step222.ldr
-1 16 240 0 300 1 0 0 0 1 0 0 0 1 dorsal-middle-step222.ldr
-1 16 300 0 300 1 0 0 0 1 0 0 0 1 dorsal-middle-step222.ldr
-1 16 0 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
-1 16 60 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
-1 16 120 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
-1 16 180 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
-1 16 240 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
-1 16 300 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
-1 16 360 0 400 1 0 0 0 1 0 0 0 1 dorsal-tall-step223.ldr
-1 16 480 0 400 1 0 0 0 1 0 0 0 1 dorsal-center-cap-step223.ldr
-1 16 1100 0 950 1 0 0 0 1 0 0 0 1 neck-rear-horns-overlay-step224.ldr
 0 NOFILE
-
 0 FILE pelvic-lower-bar-step202.ldr
 0 Instruction step202 / book1 page205. Stepped underside support planes require review.
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 24201.dat
@@ -44,8 +24,6 @@
 1 19 0 -40 -40 0 0 1 0 1 0 -1 0 0 78329.dat
 1 19 0 -40 20 -1 0 0 0 1 0 0 0 -1 70681.dat
 0 NOFILE
-
-
 0 FILE pelvic-panel-step207.ldr
 0 Instruction step207 / book1 pages206-207. Local construction; placement into lower bar not yet final.
 0 Inset1-3: the wide end is +Z. Corner cuts form a four-stud wide far row.
@@ -70,7 +48,6 @@
 1 0 0 18 -70 1 0 0 0 1 0 0 0 1 61332.dat
 1 19 10 28 -70 0 0 1 0 -1 0 1 0 0 6541.dat
 0 NOFILE
-
 0 FILE pelvic-end-cap-step212.ldr
 0 Instruction step212 / book1 page210 inset. Curve bottom planes24/16/8 align plate/oneplate/cheese height.
 1 19 0 0 0 0 0 1 0 1 0 -1 0 0 3623.dat
@@ -84,7 +61,6 @@
 1 19 10 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
 1 28 0 -24 0 0 0 1 0 1 0 -1 0 0 61678.dat
 0 NOFILE
-
 0 FILE rear-chevron-carrier-step214.ldr
 0 Instruction step214 / book1 page212. Longitudinal log and first locking hinge.
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 30136.dat
@@ -104,54 +80,9 @@
 1 16 0 -26 -18 0 0 1 1 0 0 0 1 0 rear-chevron-arm-step218.ldr
 1 16 0 10 -30 0 0 1 1 0 0 0 1 0 rear-chevron-arm-step218.ldr
 0 NOFILE
-
-0 FILE dorsal-short-step221.ldr
-0 Instruction step221 / book1 page215: one of four. Foot extends +X; high stud at origin.
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
-1 19 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
-0 NOFILE
-0 FILE dorsal-middle-step222.ldr
-0 Instruction step222 / book1 page216: one of six. Bottom Y24; high stud Y-24.
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
-1 19 0 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
-1 19 0 -24 0 0 0 -1 0 1 0 1 0 0 54200.dat
-0 NOFILE
-0 FILE dorsal-tall-step223.ldr
-0 Instruction step223 / book1 page217: one of seven. Extra plate directly above arch.
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 78666.dat
-1 19 0 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
-1 19 0 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
-1 19 0 -32 0 0 0 -1 0 1 0 1 0 0 54200.dat
-0 NOFILE
-0 FILE dorsal-center-cap-step223.ldr
-0 Instruction step223 / book1 page217: single brick and cheese on central hip jumper.
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 3005.dat
-1 19 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
-0 NOFILE
-
 0 FILE neck-horn-pair-step188.ldr
 0 Instructions188/190 five each;224/225 three each. Handle center origin; tube mouth Y-30.
 0 Horn pin extends7.5 into mouth along+Y; body attachment angle pending.
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 23443.dat
 1 19 0 -30 0 1 0 0 0 0 -1 0 1 0 40379.dat
-0 NOFILE
-
-0 FILE neck-rear-horns-overlay-step224.ldr
-0 Body-global remainingthreefront-neckclips on eachside; axis/curve conventions sameas188/190.
-0 Instruction step224 / book1 page218
-1 19 -890 -66 54 0 0 1 0 -1 0 1 0 0 23443.dat
-1 19 -890 -36 54 -1 0 0 0 0 1 0 1 0 40379.dat
-1 19 -870 -46 54 0 0 1 0 -1 0 1 0 0 23443.dat
-1 19 -870 -16 54 -1 0 0 0 0 1 0 1 0 40379.dat
-1 19 -850 -26 54 0 0 1 0 -1 0 1 0 0 23443.dat
-1 19 -850 4 54 -1 0 0 0 0 1 0 1 0 40379.dat
-0 STEP
-0 Instruction step225 / book1 page219
-1 19 -890 -66 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
-1 19 -890 -36 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
-1 19 -870 -46 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
-1 19 -870 -16 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
-1 19 -850 -26 -54 0 0 1 0 -1 0 -1 0 0 23443.dat
-1 19 -850 4 -54 -1 0 0 0 0 1 0 -1 0 40379.dat
-0 STEP
 0 NOFILE

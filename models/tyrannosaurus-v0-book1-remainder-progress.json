@@ -12,7 +12,7 @@
   "source": "/tmp/brick-instructions/1.pdf",
   "model": "models/tyrannosaurus-v0-book1-remainder.ldr",
   "root": "book1-remainder-workbench.ldr",
-  "physical_parts_in_workbench": 108,
+  "physical_parts_in_workbench": 40,
   "scope_note": "Independent workbench; neck187–190 andlower-flank191–192 overlays now use body-global frames internally. Final shared-root integration is parent-owned.",
   "assemblies": [
     {
@@ -327,7 +327,8 @@
     "187–190": "neck-surface-and-horns-overlay-step187.ldr,36parts",
     "191–192": "body-lower-flank-overlay-step191.ldr,22parts",
     "195–199": "body-pelvic-spur-overlay-step199.ldr + nestedassemblies,13parts",
-    "200–201": "10parts;quarteroriginsoffset20LDU;15068capsadded;integratedrenderpending"
+    "200–201": "10parts;quarteroriginsoffset20LDU;15068capsadded;integratedrenderpending",
+    "221–225": "56dorsalparts+12neckhornparts; root integrated documentedprerequisitecorrections"
   },
   "dorsal_mount_review": {
     "221": {

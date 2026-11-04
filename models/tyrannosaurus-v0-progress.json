@@ -15418,7 +15418,7 @@
     "step": 202,
     "status": "sequential_assembly_in_progress",
     "last_placed_step": 201,
-    "body_draft_piece_count": 671,
+    "body_draft_piece_count": 739,
     "reason": "200–201골반 링8개 배치 수정 및 중앙덮개2개 통합.202이후 골반 하부 조립 통합 검토 중.",
     "verification": "골반 링 돌기 좌표 및 본체 통합 Chromium 렌더 확인. 정밀 간섭·실물 검증 아님.",
     "corrections": [
@@ -16344,9 +16344,12 @@
     "integration": "independent subassemblies; final attachment transforms pending"
   },
   "published_checkpoint": {
-    "body_draft_piece_count": 2327,
-    "piece_count": 2410,
+    "body_draft_piece_count": 2466,
+    "piece_count": 2549,
+    "integrated_body_piece_count": 739,
+    "assembly_verified": false,
     "layout": "separated_workbench_not_assembly_positions",
-    "assembly_verified": false
-  }
+    "note": "Dorsal/neckhorns integrated; jawattachedtoskull; finalbodylimbconnectionsremaining."
+  },
+  "integration_note": "Root directly integrated221–225 overlay and reviewed prerequisitecoordinatecorrections;202–213and214–220remainpending."
 }
