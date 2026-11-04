@@ -689,6 +689,8 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-surface-and-horns-overlay-step187.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-lower-flank-overlay-step191.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-pelvic-spur-overlay-step199.ldr
+0 Instruction steps200–201; corrected open hip ring and lower curved caps.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-hip-ring-overlay-step200.ldr
 0 NOFILE
 
 
@@ -1087,4 +1089,22 @@
 1 19 -10 -8 0 1 0 0 0 1 0 0 0 1 54200.dat
 1 19 10 -8 0 1 0 0 0 1 0 0 0 1 54200.dat
 1 19 0 8 0 1 0 0 0 1 0 0 0 1 48336.dat
+0 NOFILE
+
+0 FILE body-hip-ring-overlay-step200.ldr
+0 Body-coordinate overlay. Attach root I at (0,0,0); Quarter origins offset outward20LDU; support-stud grid compared.
+0 Instruction step200 / book1 page203. Diagram placement checked; integrated interference review pending.
+1 19 -260 4 -56 1 0 0 0 0 -1 0 1 0 5649.dat
+1 19 -260 -36 -56 0 0 -1 -1 0 0 0 1 0 5649.dat
+1 19 -300 -36 -56 -1 0 0 0 0 1 0 1 0 5649.dat
+1 19 -300 4 -56 0 0 1 1 0 0 0 1 0 5649.dat
+0 STEP
+0 Instruction step201 / book1 page204. Opposite face.
+1 19 -300 4 56 -1 0 0 0 0 -1 0 -1 0 5649.dat
+1 19 -300 -36 56 0 0 1 -1 0 0 0 -1 0 5649.dat
+1 19 -260 -36 56 1 0 0 0 0 1 0 -1 0 5649.dat
+1 19 -260 4 56 0 0 -1 1 0 0 0 -1 0 5649.dat
+0 Proposed high-end support on35044stud rowY54; underside slope origin isbase.
+1 19 -280 64 -32 -1 0 0 0 0 1 0 1 0 15068.dat
+1 19 -280 64 32 1 0 0 0 0 1 0 -1 0 15068.dat
 0 NOFILE

@@ -1,7 +1,6 @@
 0 FILE book1-remainder-workbench.ldr
 0 Book1 independent assemblies, steps187-225; not a final body assembly.
 1 16 180 0 0 1 0 0 0 1 0 0 0 1 pelvic-lower-bar-step202.ldr
-1 16 680 16 0 1 0 0 0 1 0 0 0 1 body-hip-ring-overlay-step200.ldr
 1 16 300 0 0 1 0 0 0 1 0 0 0 1 pelvic-panel-step207.ldr
 1 16 500 0 0 1 0 0 0 1 0 0 0 1 pelvic-end-cap-step212.ldr
 1 16 600 0 0 1 0 0 0 1 0 0 0 1 rear-chevron-carrier-step214.ldr
@@ -46,21 +45,6 @@
 1 19 0 -40 20 -1 0 0 0 1 0 0 0 -1 70681.dat
 0 NOFILE
 
-0 FILE body-hip-ring-overlay-step200.ldr
-0 Body-coordinate overlay. Attach root I at (0,0,0); quarter-circle origin is the hip center.
-0 Instruction step200 / book1 page203. Face placement review pending.
-1 19 -280 -16 -56 1 0 0 0 0 -1 0 1 0 5649.dat
-1 19 -280 -16 -56 0 0 -1 -1 0 0 0 1 0 5649.dat
-1 19 -280 -16 -56 -1 0 0 0 0 1 0 1 0 5649.dat
-1 19 -280 -16 -56 0 0 1 1 0 0 0 1 0 5649.dat
-0 STEP
-0 Instruction step201 / book1 page204. Opposite face.
-1 19 -280 -16 56 -1 0 0 0 0 -1 0 -1 0 5649.dat
-1 19 -280 -16 56 0 0 1 -1 0 0 0 -1 0 5649.dat
-1 19 -280 -16 56 1 0 0 0 0 1 0 -1 0 5649.dat
-1 19 -280 -16 56 0 0 -1 1 0 0 0 -1 0 5649.dat
-0 Both center-bottom 15068 attachments not yet placed: must clear spur hinge and quarter-ring ends.
-0 NOFILE
 
 0 FILE pelvic-panel-step207.ldr
 0 Instruction step207 / book1 pages206-207. Local construction; placement into lower bar not yet final.
