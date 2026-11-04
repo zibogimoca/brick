@@ -143,10 +143,13 @@
 1 71 60 -24 0 1 0 0 0 1 0 0 0 1 3020.dat
 0 STEP
 0 Instruction step 102
-0 UNRESOLVED step102: original dark-gray 3021 placement must be confirmed. No substitute accepted.
+0 Book 1 page 110: underside view; camera turn does not flip the part coordinate frame.
+1 72 50 8 0 1 0 0 0 1 0 0 0 1 3021.dat
+1 71 90 8 0 0 0 -1 0 1 0 1 0 0 14704.dat
 0 STEP
 0 Instruction step 103
-1 28 0 16 0 1 0 0 0 1 0 0 0 1 3832.dat
+0 Lower plate extends four studs toward negative X; shares underside layer with step102.
+1 28 -80 8 0 1 0 0 0 1 0 0 0 1 3832.dat
 0 STEP
 0 Instruction step 104 / book 1 page 111
 1 0 -220 0 0 1 0 0 0 1 0 0 0 1 2445.dat
@@ -154,8 +157,48 @@
 1 0 -320 -24 0 1 0 0 0 1 0 0 0 1 3003.dat
 1 0 -240 -24 0 1 0 0 0 1 0 0 0 1 3003.dat
 1 72 -280 -24 0 0 0 1 0 1 0 -1 0 0 17114.dat
-0 UNRESOLVED: original coupling to preceding body segment must be confirmed.
+0 Step104 base overlaps step103 lower plate by four studs at X=-180..-100, Y=8.
 0 STEP
-0 Instruction steps105-106 unresolved; unapproved red body placeholders removed.
+0 Instruction step 105 / book 1 page 112
+1 0 -340 8 0 1 0 0 0 1 0 0 0 1 4282.dat
+0 STEP
+0 Instruction step 106 / book 1 page 112
+0 Steering stand 3829c01 omitted as internal decoration, not a joint.
+1 71 -430 -40 0 0 0 -1 0 1 0 1 0 0 87552.dat
+1 71 -350 -40 0 0 0 1 0 1 0 -1 0 0 87552.dat
+1 71 -380 0 0 1 0 0 0 1 0 0 0 1 87580.dat
+0 STEP
+0 Instruction step 107 / internal frog and seat decoration omitted.
+0 STEP
+0 Instruction step 108 / book 1 page 113
+1 0 -310 -32 0 1 0 0 0 1 0 0 0 1 3021.dat
+1 0 -230 -32 0 1 0 0 0 1 0 0 0 1 3021.dat
+1 0 -80 -32 0 1 0 0 0 1 0 0 0 1 2445.dat
+1 19 60 -32 0 0 0 -1 0 1 0 1 0 0 3176.dat
+0 STEP
+0 Instruction step 109 / book 1 page 114
+1 0 -220 -40 0 1 0 0 0 1 0 0 0 1 2445.dat
+1 28 -20 -40 -10 1 0 0 0 1 0 0 0 1 3460.dat
+1 28 -20 -40 10 1 0 0 0 1 0 0 0 1 3460.dat
+0 STEP
+0 Instruction step 110
+1 14 -500 -16 0 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 Instruction step 111 / book 1 page 115
+1 0 -620 8 0 1 0 0 0 1 0 0 0 1 2445.dat
+1 14 -620 -16 0 1 0 0 0 1 0 0 0 1 2456.dat
+1 4 -700 0 0 1 0 0 0 1 0 0 0 1 4032a.dat
+0 STEP
+0 Instruction step 112 / book 1 page 116
+0 White pin centers X=-800,-760, Y=2; gray holes share Y=2.
+0 Gray outer wings at Y=0 support black plate at Y=-8, also seated on original red 4032a.
+1 15 -780 -8 0 1 0 0 0 1 0 0 0 1 30000.dat
+1 71 -810 -8 0 0 0 -1 0 1 0 1 0 0 73109.dat
+1 71 -750 -8 0 0 0 1 0 1 0 -1 0 0 73109.dat
+1 322 -830 8 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+1 322 -830 -8 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+1 0 -710 -8 0 1 0 0 0 1 0 0 0 1 3021.dat
+0 STEP
+0 UNRESOLVED step113: exact 2752 geometry unavailable in archive; 3747b variant is not verified equivalent. No replacement inserted.
 0 No body bone, joint or connector may be omitted as completed.
 0 NOFILE

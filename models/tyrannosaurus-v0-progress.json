@@ -1393,7 +1393,7 @@
     {
       "book": 1,
       "page": 109,
-      "status": "body_draft_with_red_substitutions",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         5,
         99,
@@ -1401,12 +1401,12 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "99–107단계. 108단계는 아직 미구현."
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 110,
-      "status": "body_draft_with_red_substitutions",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         102,
         103,
@@ -1416,12 +1416,12 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "99–107단계. 108단계는 아직 미구현."
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 111,
-      "status": "body_draft_with_red_substitutions",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         104,
         1,
@@ -1430,12 +1430,12 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "99–107단계. 108단계는 아직 미구현."
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 112,
-      "status": "body_draft_with_red_substitutions",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         105,
         106,
@@ -1443,12 +1443,12 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "99–107단계. 108단계는 아직 미구현."
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 113,
-      "status": "body_draft_with_red_substitutions",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         107,
         108,
@@ -1456,35 +1456,39 @@
       ],
       "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
       "scope": "body",
-      "reason": "99–107단계. 108단계는 아직 미구현."
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 114,
-      "status": "not_reviewed",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         109,
         110,
         114
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 115,
-      "status": "not_reviewed",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         111,
         1,
         2,
         115
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 116,
-      "status": "not_reviewed",
+      "status": "body_draft_render_reviewed_not_physical_verified",
       "number_candidates": [
         112,
         1,
@@ -1493,28 +1497,34 @@
         4,
         116
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "99–112단계 중 해당 페이지의 본체 부품 배치 및 기본/옆 시점 검토. 106 운전대와 107 개구리·좌석 장식은 제외. 본체 임의 대체 없음."
     },
     {
       "book": 1,
       "page": 117,
-      "status": "not_reviewed",
+      "status": "blocked_exact_part_geometry",
       "number_candidates": [
         113,
         117
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "113단계 2752 형상 미확보. 구형 3747b로 대체하지 않음."
     },
     {
       "book": 1,
       "page": 118,
-      "status": "not_reviewed",
+      "status": "reference_viewed_not_assembled",
       "number_candidates": [
         4,
         114,
         118
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification.",
+      "scope": "body",
+      "reason": "114단계 도해만 확인; 113단계 미해결로 순차 조립 미진행."
     },
     {
       "book": 1,
@@ -15299,13 +15309,29 @@
   "scope_decision": "미니피겨·명판·장식 생략 가능. 받침판은 빨간 대체 허용. 공룡 본체 뼈대·관절·연결 부품 생략·임의 대체 금지; 미해결 시 확인/질문.",
   "sequential_reconstruction": {
     "book": 1,
-    "page": 110,
-    "step": 102,
-    "status": "unresolved_body_placement",
-    "reason": "밑면 3021의 정확한 배치 및 앞뒤 층 연결을 확인해야 함. 본체 대체 초안 제거.",
-    "note": "104단계 부품 배치는 후속 미검증 초안으로만 보존. 본체 조립 완료 또는 다음 단계 검증으로 세지 않음."
+    "page": 117,
+    "step": 113,
+    "status": "blocked_exact_part_geometry",
+    "reason": "2752(element 6533361) 형상 없음. 원본 ZIP에는 3747a/b 구형만 존재. 최신 LDraw 경로 조회는 HTTP 403으로 확인 불가; 시험한 GitHub 경로는 404.",
+    "body_draft_piece_count": 35,
+    "verification": "99–112단계 배치 초안; 102–105 층·격자 계산 및 112단계 핀/구멍 축·판 착지 높이 대조. Chromium 기본/옆 시점 렌더와 로딩 오류 없음 확인. 정밀 메시 간섭·실물 검증 미수행.",
+    "last_placed_step": 112,
+    "published_body_piece_count": 12
   },
-  "active_question": null,
+  "active_question": {
+    "book": 1,
+    "page": 117,
+    "step": 113,
+    "part": "2752",
+    "element_id": "6533361",
+    "question": "2752 부품의 밑면·옆면 사진 또는 정확한 3D 형상이 필요합니다. 구형 3747b와 다른 밑면 연결부를 설명서만으로 확정하지 못했습니다.",
+    "attempts": [
+      "보관 중 원본 전체 ZIP의 2752/3747 파일 검색",
+      "설명서 117쪽 확대 도해 및 전체 부품표 대조",
+      "최신 공식·미공식 LDraw HTTP 403, 시험한 GitHub 경로 HTTP 404"
+    ],
+    "substitution_allowed": false
+  },
   "mount13_study": {
     "status": "candidate_rejected_pending_further_diagram_review",
     "changes": "12단계 부품표·확대 그림은 검정 99207 위꺾임 브래킷이다. 44728로 바꾼 수정은 잘못이었다.",

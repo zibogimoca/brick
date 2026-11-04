@@ -134,6 +134,17 @@
       "evidence": "1권 21쪽 13단계 확대 그림; models/tyrannosaurus-v0-reconstruction.ldr",
       "verification_level": "diagram_observation_and_partial_render_review",
       "limitations": "축 노출 길이·구멍 중심·스터드 정합 및 전역 배치는 미검증."
+    },
+    {
+      "id": "instruction-connector-height-and-part-variants",
+      "purpose": "설명서 재구성에서 연결 기준 높이와 몰드 변형을 잘못 추정하는 오류 방지",
+      "method": [
+        "회전 기호는 먼저 카메라 방향 변경으로 해석하고 동일한 조립 좌표계를 유지한다.",
+        "새 조립체를 바닥 높이에 맞추기 전에 실제 연결면·핀/구멍 중심을 계산한다.",
+        "외곽이 유사해도 부품 번호와 밑면 연결부가 다른 몰드는 동일 형상으로 확정하지 않는다."
+      ],
+      "evidence": "티라노 버전 0, 1권 110쪽 102–103단계와 116쪽 112단계의 층·축 계산 및 기본/옆 시점 렌더. 117쪽 2752는 구형 3747b와 동일 판정 보류.",
+      "verification_limit": "설명서 대조·기하 계산·렌더 검토. 실물 결합과 정밀 메시 간섭은 검증하지 않음."
     }
   ]
 }
