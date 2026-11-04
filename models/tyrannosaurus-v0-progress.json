@@ -15109,16 +15109,29 @@
   "scope_decision": "사용자 확인: 구조용 받침대 포함. 미니피겨·명판·하단 장식 제외.",
   "sequential_reconstruction": {
     "book": 1,
-    "page": 11,
-    "steps": [
-      1,
-      2
+    "page": 22,
+    "status": "needs_user_clarification",
+    "completed_checks": [
+      "1–6단계 부품 ID·색상·방향 수정 및 렌더 대조",
+      "7단계 두 줄 이음매와 핀8개 위치 도해 대조",
+      "9–10단계 빨간 브릭 바닥 착지 및 위 플레이트 높이 수정; 스터드별 지지 범위 검사"
     ],
-    "status": "part_identity_corrected_geometry_comparison_pending",
-    "corrections": [
-      "step1 3035 Black element303526",
-      "step2 Magenta41740 element6249090 replaces incorrect34103"
+    "not_claimed": [
+      "전체 연결 그래프 검증",
+      "실물 강도 검증"
     ],
-    "next": "1–2단계 스터드 중심과 겹침 확인 후 12쪽 3–6단계 진행"
+    "question": "13단계 6×10 받침판이 기존 검정 바닥판에 대해 어느 층·방향으로 장착되는지 확정 불가. 옆면 또는 밑면 접합 확인 필요."
+  },
+  "active_question": {
+    "book": 1,
+    "page": 22,
+    "step": 13,
+    "problem": "기존 검정 바닥판과 회색 받침판을 같은 높이에 놓으면 겹치고, 한 층 낮추면 상단 프레임과 높이 대응이 달라진다.",
+    "attempts": [
+      "21쪽 확대 조립 그림 확인",
+      "22쪽 장착 그림과23쪽 회전 그림 대조",
+      "LDraw 부품 경계·스터드 좌표 확인"
+    ],
+    "needed": "두 판이 접하는 옆면/밑면 관계 확인"
   }
 }
