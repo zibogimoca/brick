@@ -15418,7 +15418,7 @@
     "step": 202,
     "status": "sequential_assembly_in_progress",
     "last_placed_step": 201,
-    "body_draft_piece_count": 2488,
+    "body_draft_piece_count": 2496,
     "reason": "200–201골반 링8개 배치 수정 및 중앙덮개2개 통합.202이후 골반 하부 조립 통합 검토 중.",
     "verification": "골반 링 돌기 좌표 및 본체 통합 Chromium 렌더 확인. 정밀 간섭·실물 검증 아님.",
     "corrections": [
@@ -16344,36 +16344,13 @@
     "integration": "independent subassemblies; final attachment transforms pending"
   },
   "published_checkpoint": {
-    "body_draft_piece_count": 2488,
-    "piece_count": 2488,
+    "body_draft_piece_count": 2496,
+    "piece_count": 2496,
     "layout": "integrated_instruction_model",
     "assembly_verified": false
   },
   "integration_note": "Root integrated213pubis47parts and481/493pelviccovers62parts; connectoraxes/bodypinrotations corrected; composite render pending.",
-  "root_leg_integration": [
-    {
-      "source": "book2",
-      "line": "1 16 -374.4602625 552.0965555 90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 1 book2-leg-core.ldr",
-      "target_ball_centre": [
-        -280,
-        -14,
-        40
-      ],
-      "residual": 0.0,
-      "pose_status": "provisional_diagram_comparison_pending"
-    },
-    {
-      "source": "book2-second-leg",
-      "line": "1 16 -194.4017885 548.6452461 -251.4213557 0.3420201433 0 -0.9396926208 0.9396926208 0 0.3420201433 0 -1 0 book2-second-leg-upper-core.ldr",
-      "target_ball_centre": [
-        -280,
-        -14,
-        -40
-      ],
-      "residual": 0.0,
-      "pose_status": "provisional_diagram_comparison_pending"
-    }
-  ],
+  "root_leg_integration": "RightlegfullassemblyanditsZ-reflection; priorindependentsecondmountdiscarded.",
   "root_rib_integration": {
     "placements": [
       "1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr",
@@ -16463,11 +16440,26 @@
       -830,
       90,
       0
-    ]
+    ],
+    "oval3766": "NativefootprintX[-60,60]/Z[-40,40]; correctrotationRy90, centredat0. Previous I/translation-20incorrect.",
+    "talons": "Rotated180aboutinsertedbaraxis, curvefacesdownwhilefingerspointforward.",
+    "rod_joint_max_residual": 5.439379132036632e-08,
+    "hands_forward_shift": 40
   },
   "left_knee_correction": {
     "409": "T.Z135.764501988→121.6223663643",
     "constraint": "two67329side-studcentres to79846outerwingundersidepair; previous14.142LDUZoffset",
     "hip_reanchored": true
+  },
+  "left_leg_symmetry_correction": {
+    "method": "Reflect complete right-leg geometry acrossbodyZ0, including hip transform. Replacesindependentlymisorientedsecondleg.",
+    "right_mount": "1 16 -374.4602625 552.0965555 90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 1 book2-leg-core.ldr",
+    "left_mount": "1 16 -374.4602625 552.0965555 -90 0.3420201433 0.9396926208 0 -0.9396926208 0.3420201433 0 0 0 -1 book2-leg-core.ldr",
+    "status": "geometrymirror; chiralphysicalpart/BOMmappingnotcertified",
+    "hip_target": [
+      -280,
+      -14,
+      -40
+    ]
   }
 }
