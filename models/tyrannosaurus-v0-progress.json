@@ -15340,9 +15340,9 @@
     "step": 126,
     "status": "subassembly_identification_complete_placement_pending",
     "last_placed_step": 125,
-    "body_draft_piece_count": 152,
-    "reason": "126단계 부품 종류·색상·수량 확인. 소단계 1–11 배치가 다음 작업.",
-    "verification": "본체152개와 전체235개 참조 그래프 검사 통과. 113–121단계 본체 렌더 확인, 125단계까지 포함한 버전0 뷰어 로딩·모델 전환 포함6개 검사 통과. 도해 배치와 실제 실물 검증은 구분.",
+    "body_draft_piece_count": 175,
+    "reason": "126단계 소조립체 23개 로컬 배치. 본체 결합 위치는 다음 검토. 게시본에서는 분리 표시.",
+    "verification": "125단계 본체152개와 126단계 소조립체23개. 실물 결합·최종 본체 장착 미검증.",
     "corrections": [
       "101단계 3020은 진회색72. 밝은 회색71 3020은 전체 목록1개이며 100단계에 사용.",
       "118단계 3021 두 개는 나란한 배치로 수정."
@@ -15652,7 +15652,7 @@
       131
     ],
     "phase_1": "identified",
-    "phase_2": "pending",
+    "phase_2": "local_placement_implemented_global_mount_pending",
     "parts": {
       "3023b.dat": 3,
       "85984.dat": 1,
@@ -15666,6 +15666,7 @@
       "79389.dat": 2,
       "79180.dat": 2,
       "6141.dat": 2
-    }
+    },
+    "publication": "Separated workbench placement; not final assembly coordinates"
   }
 }

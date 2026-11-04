@@ -1,10 +1,11 @@
 0 FILE tyrannosaurus-v0.ldr
 0 Version 0 current reconstruction workbench; unfinished.
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":235,"body_draft_piece_count":152,"layout":"separated_workbench_not_assembly_positions","layout_note":"검토용 펼침 배치 · 원래 조립 위치 아님","unresolved":"125단계까지 배치 · 다음은 126단계 소조립체","support_note":"빨간 판은 승인된 대체 받침판. 본체 대체품 아님. 안정성 미검증.","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr"}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":258,"body_draft_piece_count":175,"layout":"separated_workbench_not_assembly_positions","layout_note":"검토용 펼침 배치 · 원래 조립 위치 아님","unresolved":"125단계 본체 + 126단계 소조립체 분리 표시 · 본체 결합 확인 전","support_note":"빨간 판은 승인된 대체 받침판. 본체 대체품 아님. 안정성 미검증.","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr"}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 reconstruction-main.ldr
 1 16 500 0 400 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 1150 0 0 1 0 0 0 1 0 0 0 1 cross-base-step13.ldr
 1 16 1400 0 0 1 0 0 0 1 0 0 0 1 cross-base-step15.ldr
+1 16 500 0 650 1 0 0 0 1 0 0 0 1 neck-transition-step126.ldr
 0 NOFILE
 0 FILE reconstruction-main.ldr
 0 Version 0 reconstruction checkpoint — book 1 pages 11-12, steps 1-10
@@ -278,12 +279,12 @@
 1 0 -640 16 -10 1 0 0 0 1 0 0 0 1 5090.dat
 1 0 -520 16 -10 1 0 0 0 1 0 0 0 1 5090.dat
 1 0 -400 16 -10 1 0 0 0 1 0 0 0 1 5090.dat
-1 28 -830 16 -10 1 0 0 0 1 0 0 0 1 99207.dat
+1 28 -840 16 -10 1 0 0 0 1 0 0 0 1 99207.dat
 1 0 -760 16 10 -1 0 0 0 1 0 0 0 -1 5090.dat
 1 0 -640 16 10 -1 0 0 0 1 0 0 0 -1 5090.dat
 1 0 -520 16 10 -1 0 0 0 1 0 0 0 -1 5090.dat
 1 0 -400 16 10 -1 0 0 0 1 0 0 0 -1 5090.dat
-1 28 -830 16 10 -1 0 0 0 1 0 0 0 -1 99207.dat
+1 28 -840 16 10 -1 0 0 0 1 0 0 0 -1 99207.dat
 0 STEP
 0 Instruction step 120 / book 1 page 124.
 1 72 -640 16 0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -293,12 +294,12 @@
 1 4 -780 16 0 1 0 0 0 1 0 0 0 1 4032a.dat
 0 STEP
 0 Instruction step 121 / book 1 page 125.
-1 19 -830 24 0 0 0 1 0 1 0 -1 0 0 3023b.dat
-1 28 -720 24 0 1 0 0 0 1 0 0 0 1 3832.dat
-1 19 -500 24 0 1 0 0 0 1 0 0 0 1 2445.dat
-1 0 -260 24 0 1 0 0 0 1 0 0 0 1 2445.dat
-1 19 -120 24 0 1 0 0 0 1 0 0 0 1 3022.dat
-1 28 0 24 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 19 -850 24 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+1 28 -740 24 0 1 0 0 0 1 0 0 0 1 3832.dat
+1 19 -520 24 0 1 0 0 0 1 0 0 0 1 2445.dat
+1 0 -280 24 0 1 0 0 0 1 0 0 0 1 2445.dat
+1 19 -140 24 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 28 -20 24 0 1 0 0 0 1 0 0 0 1 3832.dat
 1 71 90 24 0 0 0 -1 0 1 0 1 0 0 14704.dat
 0 STEP
 0 Instruction step 122 / book 1 page 126.
@@ -360,8 +361,8 @@
 4 16 -20 0 -50 -20 3 -50 20 3 -50 20 0 -50
 4 16 -20 0 -50 -20 0 10 -20 24 10 -20 24 -10
 3 16 -20 0 -50 -20 24 -10 -20 3 -50
-4 16 20 0 -50 20 0 10 20 24 10 20 24 -10
-3 16 20 0 -50 20 24 -10 20 3 -50
+4 16 20 24 -10 20 24 10 20 0 10 20 0 -50
+3 16 20 3 -50 20 24 -10 20 0 -50
 4 16 -20 24 -10 20 24 -10 20 3 -50 -20 3 -50
 4 16 -20 0 -10 20 0 -10 20 0 10 -20 0 10
 4 16 -20 0 -50 -16 0 -50 -16 0 -10 -20 0 -10
@@ -374,4 +375,53 @@
 1 16 10 0 0 1 0 0 0 1 0 0 0 1 primitives/stud.dat
 1 16 10 0 -20 1 0 0 0 1 0 0 0 1 primitives/stud2.dat
 1 16 10 0 -40 1 0 0 0 1 0 0 0 1 primitives/stud2.dat
+0 NOFILE
+
+0 FILE neck-transition-step126.ldr
+0 Book 1 pages130-131, step126: local subassembly. Global mounting awaits step127 connection check.
+0 STEP
+0 Instruction step126 inset 1
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3021.dat
+1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3021.dat
+0 STEP
+0 Instruction step126 inset 2
+1 322 20 8 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 Instruction step126 inset 3
+1 0 -40 -16 0 0 0 -1 0 1 0 1 0 0 79180.dat
+0 STEP
+0 Instruction step126 inset 4
+1 19 -60 -8 0 0 0 1 0 1 0 -1 0 0 2752-diagram-shape.dat
+0 STEP
+0 Instruction step126 inset 5
+1 19 -90 -24 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 322 -20 -16 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 Instruction step126 inset 6
+1 0 10 -16 -10 1 0 0 0 1 0 0 0 1 93274.dat
+1 0 10 -16 10 -1 0 0 0 1 0 0 0 -1 93274.dat
+0 STEP
+0 Instruction step126 inset 7
+1 0 -50 -24 -10 1 0 0 0 1 0 0 0 1 99781.dat
+1 0 -50 -24 10 -1 0 0 0 1 0 0 0 -1 99781.dat
+0 STEP
+0 Instruction step126 inset 8
+1 19 -100 -32 0 0 0 1 0 1 0 -1 0 0 99780.dat
+1 28 -114 -34 0 0 1 0 0 0 1 1 0 0 85984.dat
+0 STEP
+0 Instruction step126 inset 9
+1 19 -50 -32 -10 1 0 0 0 1 0 0 0 1 99207.dat
+1 19 -50 -32 10 -1 0 0 0 1 0 0 0 -1 99207.dat
+1 19 10 -24 -10 1 0 0 0 1 0 0 0 1 99207.dat
+1 19 10 -24 10 -1 0 0 0 1 0 0 0 -1 99207.dat
+0 STEP
+0 Instruction step126 inset 10
+1 322 80 0 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+1 0 40 -32 0 0 0 -1 0 1 0 1 0 0 79180.dat
+0 STEP
+0 Instruction step126 inset 11
+1 19 60 -16 -10 1 0 0 0 1 0 0 0 1 79389.dat
+1 19 60 -16 10 -1 0 0 0 1 0 0 0 -1 79389.dat
+1 71 60 -6 -32 1 0 0 0 0 -1 0 1 0 6141.dat
+1 71 60 -6 32 1 0 0 0 0 1 0 -1 0 6141.dat
 0 NOFILE
