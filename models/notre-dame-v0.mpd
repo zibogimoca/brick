@@ -1,9 +1,21 @@
 0 FILE notre-dame-v0.ldr
-0 !BRICK_STATE {"schema_version":3,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","reference_set":"LEGO Notre-Dame de Paris (6634573)","source_manual_segments":["6634573-66.pdf","6634573-125.pdf","6634573-163.pdf","6634573-202.pdf","6634573-239.pdf","6634573-290.pdf"],"coverage":"Booklet printed pages 6-7, step 1 only","piece_count":2,"placement_status":"diagram-derived draft; offsets and connection fit unverified","validation":{"part_files":"present in shared assets","physical_fit":"not_tested","full_manual_coverage":"not_started"},"instances":[{"id":"part-0001","part":"4282.dat","color":0,"position":[0,0,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate"},{"id":"part-0002","part":"4162.dat","color":0,"position":[0,-8,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate; length to confirm"}]}
-0 Step 1 / booklet printed page 7. Two long black base pieces, approximate part identities and placement pending closer comparison.
+0 !BRICK_STATE {"schema_version":3,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","reference_set":"LEGO Notre-Dame de Paris (6634573)","source_manual_segments":["6634573-66.pdf","6634573-125.pdf","6634573-163.pdf","6634573-202.pdf","6634573-239.pdf","6634573-290.pdf"],"coverage":"Booklet printed pages 6-7, steps 1-3","piece_count":6,"placement_status":"Steps 2-3 placed from diagram stud-grid relationships; exact edge-strip length and physical fit remain unverified","validation":{"part_files":"present in shared assets","physical_fit":"not_tested","full_manual_coverage":"not_started"},"instances":[{"id":"part-0001","part":"4282.dat","color":0,"position":[0,0,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate"},{"id":"part-0002","part":"4162.dat","color":0,"position":[0,-8,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate; length to confirm"},{"id":"part-0003","part":"4282.dat","color":0,"position":[280,0,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step2 diagram-derived; overlap/contact provisional"},{"id":"part-0004","part":"4162.dat","color":0,"position":[280,-8,40],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step2 diagram-derived; edge-strip length/orientation provisional"},{"id":"part-0005","part":"4282.dat","color":0,"position":[560,0,120],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step3 diagram-derived; overlap/contact provisional"},{"id":"part-0006","part":"4162.dat","color":0,"position":[560,-8,160],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step3 diagram-derived; edge-strip length/orientation provisional"}]}
+0 Steps 1-3 / booklet printed pages 6-7. Step 1 starts the long base; steps 2-3 extend perpendicular arms with repeated plate and edge-strip pairs. Later arms are placed from the diagram grid; contact fit remains provisional.
 0 !BRICK_INSTANCE part-0001
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 4282.dat
 0 !BRICK_INSTANCE part-0002
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 4162.dat
+0 STEP
+0 Instruction step 2 / booklet printed page 7; perpendicular 2x16 base plate and edge strip.
+0 !BRICK_INSTANCE part-0003
+1 0 280 0 0 0 0 1 0 1 0 -1 0 0 4282.dat
+0 !BRICK_INSTANCE part-0004
+1 0 280 -8 40 0 0 1 0 1 0 -1 0 0 4162.dat
+0 STEP
+0 Instruction step 3 / booklet printed page 7; opposite arm extension.
+0 !BRICK_INSTANCE part-0005
+1 0 560 0 120 0 0 1 0 1 0 -1 0 0 4282.dat
+0 !BRICK_INSTANCE part-0006
+1 0 560 -8 160 0 0 1 0 1 0 -1 0 0 4162.dat
 0 STEP
 0 NOFILE
