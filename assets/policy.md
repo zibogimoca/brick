@@ -83,6 +83,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "15672",
     "15712",
     "17114",
+    "1745",
     "1748",
     "1751",
     "1762",
@@ -90,6 +91,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "18654",
     "18674",
     "18980",
+    "19121",
     "22385",
     "22885",
     "2310",
@@ -107,6 +109,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "24316",
     "2445",
     "2450",
+    "2453a",
     "2456",
     "2462",
     "24855",
@@ -247,6 +250,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "43711",
     "43722",
     "43723",
+    "43888",
     "44224",
     "44225",
     "44301b",
@@ -254,9 +258,11 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "4477",
     "44861",
     "4519",
+    "4733",
     "47457",
     "48165",
     "48336",
+    "49307",
     "49656",
     "50340",
     "5066",
@@ -273,6 +279,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "55013",
     "55236",
     "5649",
+    "5907",
     "59443",
     "59900",
     "60470b",
@@ -349,10 +356,12 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "90194",
     "91988",
     "92438",
+    "92593",
     "93273",
     "93274",
     "96874",
     "98100",
+    "98138",
     "98989",
     "99207",
     "99563",
@@ -634,6 +643,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 2011,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Rolf Osterthun [Rolf]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/1745.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/1745.dat",
+      "source_sha256": "b017d0da54803c72a658e813dc8808a9ec92f79a5cdbd3b14a2c86ebc8cca427",
+      "sha256": "31de551befe53592561d3ef4dbf4826ed355757cfc3e471ddfa802e137d4e338",
+      "bytes": 577,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "parts/1748.dat": {
@@ -2624,6 +2643,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Philippe Hurbain [Philo]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/5907.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/5907.dat",
+      "source_sha256": "f9e2cbc5b4055e24ad726bd4091192247ada114b528f4d621611a339a7c6ed5f",
+      "sha256": "583bf05b0ab25e079430d5c655105c29dc7bc7b544d7eeac7eff2e41fe2f5632",
+      "bytes": 3423,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Gerald Lasser [GeraldLasser]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/59443.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/59443.dat",
@@ -3393,6 +3422,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Rolf Osterthun [Rolf]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/92593.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/92593.dat",
+      "source_sha256": "aff18eb900078f523e7ebed7bfe28e1c334e9b5b54dcc15ad92f725d71e75629",
+      "sha256": "91205ea9f3e4ff5bc744ff37441b306885e9ad08db991a427cd1de51ba859b6b",
+      "bytes": 809,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/93273.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/93273.dat",
@@ -3439,6 +3478,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_sha256": "1a7bf4c7cc90cb426ac1070d127a6b3d20282e245f8662694825760c733cd25a",
       "sha256": "a81b1b0f04b83f7200f40a8896843cba7b5bb442d48ae753c27f9ff40a8b3d4b",
       "bytes": 717,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/98138.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/98138.dat",
+      "source_sha256": "1d506f39ea2bf69757206009498025381bbf28d9fa0b79385a30f4c5fa37f111",
+      "sha256": "cef11392cb9b30616b48def70d9b7b14340a75918347862fe995c089b823321c",
+      "bytes": 377,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Magnus Forsberg [MagFors]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -4484,6 +4533,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_sha256": "ec5906bdde13641db85789111e07a7761e8fb0bc64a169a070af161ddf2d29b1",
       "sha256": "08cb0cc63945a361debc842a71df69cd4c14ddebaa39ef2afe34758c4a4427ef",
       "bytes": 22226,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/98138s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/98138s01.dat",
+      "source_sha256": "dff4bf55eb5b4d6a8f3889fc208b5946a8f7b139e297a1edb67e2f976fc165b9",
+      "sha256": "8884354bcab3c95b408a465ed0cc288cdd163075a9c666c72bf5969641af92f4",
+      "bytes": 710,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/98138s02.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/98138s02.dat",
+      "source_sha256": "5bda194e7fcb4eaac3211f712ec73a18988f4312fc94aade40722b1e9da00548",
+      "sha256": "812989e6f5b93eee1caa6a1642611ff7c7282ba7670d2cc75a8b502387d0fa2a",
+      "bytes": 572,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Magnus Forsberg [MagFors]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -7248,6 +7317,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": " Magnus Forsberg [MagFors]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/high-resolution/1-4cylo.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/48/1-4cylo.dat",
+      "source_sha256": "93f7305e7575678ae00336972ca5078611c37a02d9755865d38cea4ff122c345",
+      "sha256": "3e0881ead66c56f9ec778d04e25eb1a67fdd860b3f18c22bdbca62997b453f53",
+      "bytes": 482,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Max Martin Richter [MMR1988]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "primitives/high-resolution/1-4edge.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/48/1-4edge.dat",
@@ -8068,6 +8147,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Tim Gould [timgould]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/stud4o.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stud4o.dat",
+      "source_sha256": "827edfc93ece0c6898443bf247207e0a5182fcdaf30e1efb85285c9ab586e884",
+      "sha256": "0a0cd8e3c7065c7325747f644a0222202f640d663f55d34b705a5efdd948af2d",
+      "bytes": 565,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "primitives/stud4od.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stud4od.dat",
@@ -8514,6 +8603,66 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_sha256": "67e7a72ed488412a974d622570704c4a734d9ba9fe671b03261fcec8520e01f2",
       "sha256": "67e7a72ed488412a974d622570704c4a734d9ba9fe671b03261fcec8520e01f2",
       "bytes": 320,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/2453a.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/2453a.dat",
+      "source_sha256": "457ff62a325babfceea10b02c7933d09ca422a0479fa51e9b1623b56f543a0c3",
+      "sha256": "866961860f0def02ca41053c5575e4bbe4450c552c150d33efcccc99d8ea1610",
+      "bytes": 1605,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/49307.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/49307.dat",
+      "source_sha256": "5ab186e08cf7dfd9ff7ce2e1afcd69d08479fd44972340d53d78f67ffdceb135",
+      "sha256": "e74806b6aad033c09cf9bed3d89d1c89fbc4447fbd168c6b0d7cbc95f2e85325",
+      "bytes": 1133,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/4733.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/4733.dat",
+      "source_sha256": "1a78f23c832965da11a06c18090e0f8ac101f89c4a6d85d039d5548916ec68d6",
+      "sha256": "a4f331b68c01eea27d536678ed91a419930f2d919340de2e691388a18bd7959b",
+      "bytes": 4320,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/43888.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/43888.dat",
+      "source_sha256": "f4687f2989f6ceeadfc45add9061d37440646cf0bd353aa8fecd481e7a505c6b",
+      "sha256": "f38ac30af46dce870eaab62d710a9f8a18a46c314bd1877155647d02bfea0fc1",
+      "bytes": 1517,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Stig-Erik Blomqvist [stigge72]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/19121.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/19121.dat",
+      "source_sha256": "62860464fc99573e72dfb482f836fef56421ad2e3325c299f4f182605fd5b2cc",
+      "sha256": "fe05498881d86b1be3c99a72865a1c1453f5a445781982dd85df87a74e55ba81",
+      "bytes": 51244,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Heiko Jelnikar [KlotzKiste]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stug2-1x4.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug2-1x4.dat",
+      "source_sha256": "fca792de8f55eea1b35ec581ba94cb1aa5ad0967dd6af5ad3d7ed6ba0d0543b4",
+      "sha256": "8e22255c2c9fba09eb9daf7a09ca4d03142d87a405ce1ac6db0aa6330ae8333c",
+      "bytes": 468,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
