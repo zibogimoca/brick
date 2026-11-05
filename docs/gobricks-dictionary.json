@@ -232969,10 +232969,279 @@
         "3008",
         "63322"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3008.dat",
+        "sha256": "b79ba5ddcd7ccd3d3612907467161f0e087dbf3918fb340b48dad93186e6b443",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate 3008 and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            80.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          11.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes studs, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            -70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-0"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-1"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-2"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-3"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-4"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            30.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-5"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            50.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-6"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            70.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "primitives/stug-1x8.dat -> primitives/stud.dat",
+          "id": "stud-7"
+        },
+        {
+          "id": "underside-0",
+          "kind": "stud_receptacle",
+          "position": [
+            -70.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        },
+        {
+          "id": "underside-1",
+          "kind": "stud_receptacle",
+          "position": [
+            -50.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        },
+        {
+          "id": "underside-2",
+          "kind": "stud_receptacle",
+          "position": [
+            -30.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        },
+        {
+          "id": "underside-3",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        },
+        {
+          "id": "underside-4",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        },
+        {
+          "id": "underside-5",
+          "kind": "stud_receptacle",
+          "position": [
+            30.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        },
+        {
+          "id": "underside-6",
+          "kind": "stud_receptacle",
+          "position": [
+            50.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        },
+        {
+          "id": "underside-7",
+          "kind": "stud_receptacle",
+          "position": [
+            70.0,
+            24.0,
+            0.0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "Top stud grid projected to nominal underside seating plane; mating semantics inferred, not a physical clutch test."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; top studs and nominal underside receivers annotated; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-536-010",
@@ -233676,7 +233945,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/536.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-536-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Top stud grid and projected underside receivers only; not all legal attachment modes or physical compatibility."
     },
     {
       "gobricks_id": "537",
@@ -639022,10 +639292,10 @@
     }
   ],
   "geometry_enrichment": {
-    "reference_parts_prepared": 82,
+    "reference_parts_prepared": 83,
     "reference_assets": "assets/policy.md#에셋-목록",
     "physical_tests": false,
-    "remaining_parts_geometry_pending": 1740
+    "remaining_parts_geometry_pending": 1739
   },
   "reference_only_parts": {
     "3707": {
