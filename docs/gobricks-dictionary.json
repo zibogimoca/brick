@@ -638946,6 +638946,36 @@
       "source": "official LDraw complete.zip",
       "gobricks_status": "not_verified",
       "verification": "Official blank4x4tile shape; decorative dinosaur/fossil printing omitted with user authorization; not a geometry substitution."
+    },
+    "6577": {
+      "geometry": "assets/parts/6577.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 6577.dat: Technic Bush 1/2 Type 2 (BrickLink 4265b). Shape is a candidate for the two ring pieces shown in manual step 247; the manual mold identity and underlying shaft engagement remain unverified."
+    },
+    "30355": {
+      "geometry": "assets/parts/30355.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 30355.dat (Wing 6 x 12 Left); manual step286/printed p152 shows two large studded triangular panels with corresponding left-hand silhouette and 6x12-scale stud layout. Strong official-shape candidate only; exact manual mold identity and side assignment are not printed."
+    },
+    "30356": {
+      "geometry": "assets/parts/30356.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 30356.dat (Wing 6 x 12 Right); manual step286/printed p152 shows two large studded triangular panels with corresponding right-hand silhouette and 6x12-scale stud layout. Strong official-shape candidate only; exact manual mold identity and side assignment are not printed."
+    },
+    "67142": {
+      "geometry": "assets/parts/67142.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 67142.dat (Technic Panel 5 x 13 Curved Tapered Left); manual step287/printed p154 callout shows a left-side tapered perforated panel with four large pin openings. This is a strong shape/connector candidate; exact mold assignment is not printed and placement is tentative."
+    },
+    "68196": {
+      "geometry": "assets/parts/68196.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 68196.dat (Technic Panel 5 x 13 Curved Tapered Right); manual step287/printed p154 callout shows a right-side tapered perforated panel with four large pin openings. This is a strong shape/connector candidate; exact mold assignment is not printed and placement is tentative."
     }
   }
 }
