@@ -111,6 +111,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "2450",
     "2453a",
     "2456",
+    "2458",
     "2462",
     "2465",
     "24855",
@@ -188,6 +189,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "32324",
     "32524",
     "32525",
+    "32531",
     "32607",
     "32802",
     "32803",
@@ -295,6 +297,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "61406",
     "6141",
     "61485",
+    "6232",
     "62462",
     "63864",
     "63868",
@@ -926,6 +929,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "sha256": "46053f5597165dad370c0de13bc5c5e216b3f4e1e7e5c9749644bbd5e2fdc01c",
       "bytes": 1647,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/2458.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/2458.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "fd3b4daf225348926cb5e45064e854040a2783cb",
+      "source_sha256": "7c8e68deb0f2c31f2cb06e17fc469a6d2c67358cc530fe01c1feea1e50bb0ba1",
+      "sha256": "533a5b21bfc5af41f67b6bb1ffb3d89443e9e405b3ce4ef708eecff9924f605b",
+      "bytes": 794,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
@@ -1688,6 +1702,28 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 1978,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/32531.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/32531.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "6ea2ad263985d2b8e19aa73272457a46b1503abb",
+      "source_sha256": "f12d4a846b2d83a0da93e5d516a4c225eaff4931c91df46a8c75921d656b6ba1",
+      "sha256": "5729f89ad50f8368ea2ac5bfb4535010d163b83b66c5398a44bce93811869504",
+      "bytes": 360,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
+      "author": "[PTadmin]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/32531a.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/32531a.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "abddefadfba9e20fd01ee9a0834f1d206068743c",
+      "source_sha256": "c993db1bfab853c5009c2b6a76ab3e972ddbf2b7dea7eabaa8d9f89d88efafa6",
+      "sha256": "3fceb7289300a3f90981bdf39e67ec5d217aadd55064ead398925b53a70e0680",
+      "bytes": 2666,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
+      "author": "Marc Klein [marckl]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "parts/32607.dat": {
@@ -2855,6 +2891,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 598,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Tim Gould [timgould]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/6232.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/6232.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "e1cc19ce183f1bc9694d71b59ece7c06ffe324ea",
+      "source_sha256": "df10b1debb5514f7fc58def8861bf9b57296ac7deacc0db8c4129c9e887cf2ea",
+      "sha256": "9108f44252d8390e208986820f85497bf6320fca9caff9e5e8a9106aaf27cd93",
+      "bytes": 1748,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
+      "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "parts/62462.dat": {
@@ -4091,6 +4138,28 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "sha256": "af1110ff2a1e571635cf4ea7bfde4aa5f0a6e04ec85142eb4d695935ad3baf7a",
       "bytes": 9000,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Massimo Maso [Sirio]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/32531s01.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/s/32531s01.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "593cd62d5fa40b9ea80175f3496bac7a11b2a638",
+      "source_sha256": "7564adbf21d9de9c70058f0d4ef1eccfa7025cb6caefedb25d5da38ea9f8d212",
+      "sha256": "bc9a2fc54d489eb6c6a8e8ac078d01bef7704f1aea1c7d6946aea91c2b4751ba",
+      "bytes": 12261,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
+      "author": "Massimo Maso [Sirio]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/32532s02.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/s/32532s02.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "60f8955350c3abfec2b5e27a645101d221b32b22",
+      "source_sha256": "0b35bbd1b7b33d88cc68672fe1ef5faf5045bd37753846bdc1301d34126a8871",
+      "sha256": "1b76a6bfde09c53f6339eb5cbab446537c377d60179b8f7ab60b67a4a446a55d",
+      "bytes": 1617,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
       "author": "Massimo Maso [Sirio]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
@@ -8453,6 +8522,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Steve Bliss [sbliss]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/studxa.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/studxa.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "b9e9f5075d183f85098ccf948959b912aa85a140",
+      "source_sha256": "cf952b9f293281b6994d7b92c1d80cb7ee06e02a32c859540c3e9721007ed4bd",
+      "sha256": "f5a29868c454a8dc817335a1ad5ec24ef8a5707444ccea5f40f5bdf6a1e2efa5",
+      "bytes": 570,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
+      "author": "Massimo Maso [Sirio]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "primitives/stug-1x2.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stug-1x2.dat",
@@ -8871,6 +8951,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 307,
       "modification": "Official geometry copied without modification.",
       "author": "[PTadmin]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stxjcyl9.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/stxjcyl9.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "d3504faedbf1e9a85e50afddbf68cbb925088d06",
+      "source_sha256": "48180773ae296e9d0ba8b0a91ace237f96f5d66a250134d22a1e5aa0813e06ec",
+      "sha256": "eb341fcaaf89919b7d191199eb36b9df114cdd44a8abf68d89513759acef7147",
+      "bytes": 1617,
+      "modification": "Pinned official Git blob verified; dependency paths normalized, geometry coordinates unchanged.",
+      "author": "Massimo Maso [Sirio]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "primitives/t01i2000.dat": {
