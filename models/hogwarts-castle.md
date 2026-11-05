@@ -16,11 +16,11 @@ Printed p.13 step8 is now a partial local assembly in `hogwarts-step8.ldr`. It c
 
 Printed p.17 steps14–15 are a seven-reference local module (`hogwarts-step14.ldr`): a 32524 beam with four pins, a 64179 frame aligned to those pins and a 32278 rail. The beam/frame pin contacts align. The rail end datum is provisional; its first hole differs from the frame side-hole center by 9 LDU. The module is not root reachable. Printed p.18 step17 is a local 64179 frame with four 2780 pins at its side holes (`hogwarts-step17.ldr`); the pin contacts align, but no root placement is claimed without the step16 mating relation.
 
-Steps9–13,16 and18 have been image-reviewed but are not yet reconstructed. Their callouts/sequence show additional beams and wall/base details, four step16 pins and two side-pin blocks, and a bent beam with two pins at step18. Exact part IDs and multi-contact transforms still need confirmation. Model state keeps local definitions separate from root placed-piece counts.
+Steps9–13 and16 have been image-reviewed but are not yet reconstructed. Their callouts/sequence show additional beams and wall/base details, plus four step16 pins and two side-pin blocks. Step18 now has a tentative local `hogwarts-step18.ldr` with candidate 32140 and two 2780 pins. The candidate DAT has +Y holes at the two selected pin centers, but the callout has no element number; part identity and exact selected holes remain unconfirmed. This module is not root reachable. Model state keeps local definitions separate from root placed-piece counts.
 
 ## Validation status
 
 - MPD physical Type-1 references, unique IDs, per-instance transforms, and state records are checked separately for root and unplaced local modules.
-- Root placements: 25. Local partial modules: 18 references total. Unplaced definitions are not counted as assembled root pieces.
+- Root placements: 25. Local partial modules: 21 references total. Unplaced definitions are not counted as assembled root pieces.
 - 64179 source asset hashes and recursive dependencies are recorded in the shared asset manifest.
 - The repository validator reaches the commercial catalog lookup, then stops on empty `gobricks_id` (`KeyError: ''`). This is a catalog-mapping failure, not a geometry pass. Structural/shape checks continue independently; no placeholder offer data is used.
