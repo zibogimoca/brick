@@ -2,7 +2,7 @@
 
 ## Reconstruction status
 
-The v0 model is in progress in [`notre-dame-v0.mpd`](notre-dame-v0.mpd). The first booklet is represented through printed page 37 / step 44 as a mixture of dimensioned base work and diagram-derived drafts. Steps 41–44 extend the choir piers and upper arcade from later diagrams. The remaining pages and the other five booklets are not yet reconstructed.
+The v0 model is in progress in [`notre-dame-v0.mpd`](notre-dame-v0.mpd). First-booklet steps 1–46 and 54–74 are represented through printed page 52 as dimensioned base work and diagram-derived drafts. Steps47–53 are inventoried but their portal subassembly placement awaits later alignment views. Steps75–88 and five other booklets remain.
 
 Current project policy excludes minifigures, signs and nameplates from modeling and manual-reconstruction scope. No such items have been included in the current MPD. This exclusion does not apply to the building, base, structural connections or other ornament.
 
@@ -35,3 +35,12 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 - Step46 (printed page 39) shows 24 identical tall round columns. The silhouette and height support LDraw 2453a (1x1x5 brick with hollow stud). A 4-by-6 provisional grid sits within the R200 choir interior at x=10/50/90/130 and z=320/360/400/440/480/520; each lies within 200 LDU of the choir centre. Exact floor stations and the part mapping remain provisional pending later assembly views.
 
 - Step54 (printed page 40) shows seven repeated lower-arc details. Candidate inventory is 7 each of tan 3023b/15573, grey 6141, black 87087 and black 49307, based on callout silhouettes and the assembly inset. The seven modules are provisionally distributed at 30° intervals along R250. Later views are still needed to confirm exact support alignment and the side-stud/curved-cap contact.
+
+- Step58 (printed page 46) calls for two round plates, two mirrored 2x2 corner plates, a 2x3 base, a long plate and one four-side-stud brick. Candidates 6141/2420/3021/3710/4733 match the profiles. One raised interior module is placed over the column field; exact stud mapping remains provisional.
+- Step59 (printed page 47) builds two mirrored interior assemblies from four 1x1 tiles, two 1x4 tiles, two rounded-end open-stud plates and two round plates. Candidates 3070b/2431/35480/6141 match the callout; they follow the two red-highlighted locations, while precise elevations and offsets remain provisional.
+
+- Steps60–66 (printed pages 48–49) add paired interior runs: one 3021 base, one 3023b/6141 detail, six 15573 jumpers across steps62–63, three more 15573 in step64, then four 6141 and two 3023b caps in step65. Step66 adds no new parts and joins the paired assemblies. Counts and relative symmetry follow the callouts; exact offsets/contact points remain provisional.
+
+- Steps67–71 (printed page 50) form an interior curved base: 3021 plate, three dark 3021 supports, one 15573 link, then two plus four 15573 jumpers. The six links are placed at R120 with 20° centers; their 41.7-LDU chord approximates the 40-LDU jumper length. The curve is a diagram-derived draft; integration with the preceding furnishings remains provisional.
+
+- Steps72–74 (printed pages 51–52) add four 6141 round supports and two 15573 links to the curved interior assemblies; step73 places them without adding parts. Step74 adds two dark 3021 plates, one 87087 side-stud brick and one 6141 round detail at the highlighted interior position. Counts match the callouts; exact seating remains provisional.
