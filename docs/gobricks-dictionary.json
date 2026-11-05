@@ -638700,6 +638700,18 @@
       "source": "https://library.ldraw.org/library/updates/complete.zip",
       "gobricks_status": "not_verified",
       "verification": "Official LDraw 6577.dat: Technic Bush 1/2 Type 2 (BrickLink 4265b). Shape is a candidate for the two ring pieces shown in manual step 247; the manual mold identity and underlying shaft engagement remain unverified."
+    },
+    "30355": {
+      "geometry": "assets/parts/30355.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 30355.dat (Wing 6 x 12 Left); manual step286/printed p152 shows two large studded triangular panels with corresponding left-hand silhouette and 6x12-scale stud layout. Strong official-shape candidate only; exact manual mold identity and side assignment are not printed."
+    },
+    "30356": {
+      "geometry": "assets/parts/30356.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 30356.dat (Wing 6 x 12 Right); manual step286/printed p152 shows two large studded triangular panels with corresponding right-hand silhouette and 6x12-scale stud layout. Strong official-shape candidate only; exact manual mold identity and side assignment are not printed."
     }
   }
 }
