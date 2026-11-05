@@ -108,6 +108,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "24316",
     "2445",
     "2450",
+    "2453a",
     "2456",
     "2462",
     "24855",
@@ -8600,6 +8601,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 320,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/2453a.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/2453a.dat",
+      "source_sha256": "457ff62a325babfceea10b02c7933d09ca422a0479fa51e9b1623b56f543a0c3",
+      "sha256": "866961860f0def02ca41053c5575e4bbe4450c552c150d33efcccc99d8ea1610",
+      "bytes": 1605,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
