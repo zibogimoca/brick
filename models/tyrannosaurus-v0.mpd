@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3004,"body_draft_piece_count":2488,"stand_draft_piece_count":516,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 받침대 12/72 stud grid 접촉 차이, 축 삽입 여유·빠짐 방지, 전체 간섭·실물 가동·하중은 추가 검토가 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3004,"body_draft_piece_count":2488,"stand_draft_piece_count":516,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -3645,7 +3645,7 @@
 1 19 10 2 -50 -1 0 0 0 0 1 0 1 0 87747.dat
 0 NOFILE
 0 FILE body-display-stand-review.ldr
-0 Body/post axes and both foot-lock axle centerlines are aligned from LDraw bore coordinates. Stand 12/72 stud-grid contact, physical axle retention, full collision and load remain unverified.
+0 Body/post axes and both foot-lock axle centerlines are aligned from LDraw bore coordinates. Stand 12/72/73 stud-grid placements were checked against book1 pages 19–20 and 79–80; physical axle retention, full collision and load remain unverified.
 0 Page199 rear yellow axle uses the tailward outer hole of 39789; native X=20 at placement X=-60 gives body X=-40.
 0 Stand post axes are X=-42/698 and Y=32..72 after nested transforms; root X=-738 aligns them to body supports -780/-40. The two foot-lock axes are centered on paired 3700 cross-holes at X=-418 and22, Y=626; their 160LDU shafts span the 140LDU-separated holes.
 0 Front body bore Y=-8..12 uses 4L 3705 at centreY32 (extent -8..72); rear bore Y=-24..-6 uses 5L 32073 at centreY24 (extent -26..74).
@@ -3658,7 +3658,7 @@
 0 NOFILE
 0 FILE stand-review-display-stand.ldr
 0 Version 0 original display stand reconstruction. Full base authorized; only minifigs and printed plaque omitted.
-0 All stand1–98 stage parts represented. 3707 foot-lock axle centerlines now match paired 3700 holes; 12/72 contact and physical retention remain under review.
+0 All stand1–98 stage parts represented. 3707 foot-lock axle centerlines now match paired 3700 holes; 12/72/73 stud-grid placement follows book1 pages 19–20 and 79–80; physical axle retention remains unverified.
 0 Coordinates: X along plinth, Y downward, Z across plinth. Units LDU.
 0 Reference colors and part IDs require inventory cross-check before acceptance.
 0 STEP 1 / book 1 page 11
