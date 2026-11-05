@@ -91,6 +91,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "18654",
     "18674",
     "18980",
+    "19121",
     "22385",
     "22885",
     "2310",
@@ -8645,6 +8646,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Stig-Erik Blomqvist [stigge72]",
       "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/19121.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/19121.dat",
+      "source_sha256": "62860464fc99573e72dfb482f836fef56421ad2e3325c299f4f182605fd5b2cc",
+      "sha256": "fe05498881d86b1be3c99a72865a1c1453f5a445781982dd85df87a74e55ba81",
+      "bytes": 51244,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Heiko Jelnikar [KlotzKiste]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stug2-1x4.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug2-1x4.dat",
+      "source_sha256": "fca792de8f55eea1b35ec581ba94cb1aa5ad0967dd6af5ad3d7ed6ba0d0543b4",
+      "sha256": "8e22255c2c9fba09eb9daf7a09ca4d03142d87a405ce1ac6db0aa6330ae8333c",
+      "bytes": 468,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
 }
