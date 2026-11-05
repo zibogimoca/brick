@@ -251769,10 +251769,33 @@
         "63864",
         "37294"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/63864.dat",
+        "sha256": "53296079ff6a68fdcb8b94bfa930c027d4f49ac227cc14446067c4b82c6621ba"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            30.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          3.2,
+          8.0
+        ]
+      },
+      "connectors": [],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; flat tile underside grid inferred, physical fit unmeasured",
       "offers": [
         {
           "sku": "GDS-562-010",
@@ -255185,10 +255208,33 @@
         "59489",
         "63286"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3069b.dat",
+        "sha256": "ddfd95b62a2234ffc483c78f6ee52c6e6eb570285634b49e25aa648f4893a523"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          3.2,
+          8.0
+        ]
+      },
+      "connectors": [],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; flat tile underside grid inferred, physical fit unmeasured",
       "offers": [
         {
           "sku": "GDS-566-010",
@@ -286511,10 +286557,33 @@
         "39727",
         "53836"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3070b.dat",
+        "sha256": "c1c118e795562ef6388e5d50773469feb92ef7448404524b8cece05466d8969e"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          3.2,
+          8.0
+        ]
+      },
+      "connectors": [],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; flat tile underside grid inferred, physical fit unmeasured",
       "offers": [
         {
           "sku": "GDS-613-010",
@@ -402796,10 +402865,78 @@
         "44301a",
         "49715"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/44301.dat",
+        "sha256": "7242d6b7ea790093cd883fb360f94c0ba4b57e2cd1dd1033b4483bc8750e2057"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -5.380000000000001,
+            -10.0
+          ],
+          "max": [
+            35.35,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          22.14,
+          5.352,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/subparts/44301s01.dat -> primitives/stud.dat"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/subparts/44301s01.dat -> primitives/stud.dat"
+        },
+        {
+          "id": "locking-pivot",
+          "kind": "click_hinge_single",
+          "position": [
+            30,
+            2,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "angular_pitch_degrees": 22.5,
+          "verification": "Native clh6/clh4 cylinder transforms and clh-finger repetitions; physical holding torque unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_detent_torque_not_measured",
       "offers": [
         {
           "sku": "GDS-820-010",
@@ -403273,10 +403410,78 @@
         "44302b",
         "54657"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/44302.dat",
+        "sha256": "fd2fc41a83b0e690becb7ff09bf5e531936cbda960d1a7c2c8b7459b9a1f380b"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            36.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          22.400000000000002,
+          4.800000000000001,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat"
+        },
+        {
+          "id": "locking-pivot",
+          "kind": "click_hinge_dual",
+          "position": [
+            30,
+            2,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "angular_pitch_degrees": 22.5,
+          "verification": "Native clh6/clh4 cylinder transforms and clh-finger repetitions; physical holding torque unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_detent_torque_not_measured",
       "offers": [
         {
           "sku": "GDS-821-010",
