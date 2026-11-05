@@ -74,37 +74,57 @@ def run(model, check_body=False):
  visit(next(iter(defs)),identity,[0,0,0])
  items={i['id']:i for i in state['instances']};assert len(items)==len(state['instances'])
  assert set(items)==set(exported) and len(items)==state['piece_count']
- d=json.loads(Path('docs/gobricks-dictionary.json').read_text());parts={p['gobricks_id']:p for p in d['parts']};counts=Counter();total=Decimal(0);seen=set();lo=[float('inf')]*3;hi=[-float('inf')]*3
+ lego_v0=state.get('version_label')=='버전 0'
+ for o in items.values():
+  assert ('gobricks_id' in o)==('sku' in o),'Partial GoBricks metadata; record both a verified product ID and SKU, or neither'
+  assert lego_v0 or ('gobricks_id' in o and 'sku' in o),'GoBricks mapping is required outside v0'
+ has_catalog=any('gobricks_id' in o for o in items.values())
+ d=json.loads(Path('docs/gobricks-dictionary.json').read_text()) if has_catalog else {'parts':[],'colors':{}}
+ parts={p['gobricks_id']:p for p in d['parts']};counts=Counter();total=Decimal(0);seen={};duplicates=[];lo=[float('inf')]*3;hi=[-float('inf')]*3
  for ident,o in items.items():
   color,t,m,part=exported[ident];assert color==o['color'] and part==o['part'] and near(t,o['position']) and near(m,o['matrix']),ident
   assert all(math.isfinite(x) for x in t+m),ident
   transposed=[m[c*3+r] for r in range(3) for c in range(3)];assert near(mm(m,transposed),identity),'Scaled/skewed physical part '+ident
   det=m[0]*(m[4]*m[8]-m[5]*m[7])-m[1]*(m[3]*m[8]-m[5]*m[6])+m[2]*(m[3]*m[7]-m[4]*m[6]);assert abs(det-1)<1e-5,'Mirrored physical part '+ident
-  key=(part,tuple(round(x,4) for x in t+m));assert key not in seen,'Exact duplicate part placement '+ident;seen.add(key)
-  p=parts[o['gobricks_id']];offer=next(v for v in p['offers'] if v['sku']==o['sku']);assert str(d['colors'][offer['color_id']]['ldraw_color_id'])==str(color)
-  assert Path(p['geometry']['file']).name==part and hashlib.sha256(Path(p['geometry']['file']).read_bytes()).hexdigest()==p['geometry']['sha256']
-  counts[o['sku']]+=1;total+=Decimal(offer['unit_price_cny'])
-  if o['group']!='support':
+  key=(part,tuple(round(x,4) for x in t+m))
+  if key in seen:duplicates.append((seen[key],ident,part,t))
+  else:seen[key]=ident
+  if 'gobricks_id' in o:
+   p=parts[o['gobricks_id']];offer=next(v for v in p['offers'] if v['sku']==o['sku']);assert str(d['colors'][offer['color_id']]['ldraw_color_id'])==str(color)
+   assert Path(p['geometry']['file']).name==part and hashlib.sha256(Path(p['geometry']['file']).read_bytes()).hexdigest()==p['geometry']['sha256']
+   counts[o['sku']]+=1;total+=Decimal(offer['unit_price_cny'])
+  if 'gobricks_id' in o and o.get('group')!='support':
    bounds=p['dimensions']['bounds']
    for x in [bounds['min'][0],bounds['max'][0]]:
     for y in [bounds['min'][1],bounds['max'][1]]:
      for z in [bounds['min'][2],bounds['max'][2]]:
       q=plus(t,mv(m,[x,y,z]));lo=[min(a,b) for a,b in zip(lo,q)];hi=[max(a,b) for a,b in zip(hi,q)]
- assert total==Decimal(state['listed_retail_parts_cost_cny']) and len(counts)==state['unique_sale_skus']
- alloffers={o['sku']:o for p in d['parts'] for o in p['offers']}
- for sku,count in counts.items():assert alloffers[sku]['inventory_at_observation']>=count,sku+' exceeds recorded stock'
+ all_mapped=len(counts)>0 and len({o['id'] for o in items.values() if 'gobricks_id' in o})==len(items)
+ if all_mapped:
+  assert total==Decimal(state['listed_retail_parts_cost_cny']) and len(counts)==state['unique_sale_skus']
+  alloffers={o['sku']:o for p in d['parts'] for o in p['offers']}
+  for sku,count in counts.items():assert alloffers[sku]['inventory_at_observation']>=count,sku+' exceeds recorded stock'
  for j in state.get('joints',[]):
   assert j['submodel'] in defs
   for axis,limits in j['axes'].items():assert axis in 'xyz' and len(limits)==2 and limits[0]<=0<=limits[1]
- measured=dict(zip(['length','height','width'],[round((b-a)*.04,2) for a,b in zip(lo,hi)]));assert measured==state['reference_geometry_bounds_cm'],measured
+ if duplicates:
+  print('Exact duplicate placements:',len(duplicates))
+  for first,second,part,pos in duplicates[:50]:print(first,second,part,pos)
+  assert not duplicates,'MPD contains physically coincident duplicate part instances; resolve against the manual before treating geometry as clean'
+ if all_mapped:
+  measured=dict(zip(['length','height','width'],[round((b-a)*.04,2) for a,b in zip(lo,hi)]));assert measured==state['reference_geometry_bounds_cm'],measured
  if check_body:
+  assert all_mapped,'--check-body-overlaps requires verified catalog dimensions for every part'
   errors=body_overlaps(state,parts)
   print('Nominal rectangular body intersections:',len(errors))
   print('Groups:',dict(Counter(tuple(sorted([a['group'],b['group']])) for a,b in errors)))
   for a,b in errors[:20]:print(a['id'],a['part'],a['group'],a['position'],'<>',b['id'],b['part'],b['group'],b['position'])
   assert not errors,'Nominal rectangular bodies intersect; do not treat this design as assembly-ready'
- print('DATA PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'SKUs;',total,'CNY')
- print('Reference geometry bounding envelope (cm):',measured)
+ if all_mapped:
+  print('DATA PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'SKUs;',total,'CNY')
+  print('Reference geometry bounding envelope (cm):',measured)
+ else:
+  print('LEGO GEOMETRY PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'verified GoBricks SKUs; GoBricks product mapping is not required for v0.')
  print('NOT VERIFIED: assembly connectivity, exact mesh collision, joint range/strength, load stability, superiority to reference product.')
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('model',type=Path);parser.add_argument('--check-body-overlaps',action='store_true',help='직육면체 브릭 몸체의 명목 간섭 검사; 실패 시 0이 아닌 코드 반환');args=parser.parse_args();run(args.model,args.check_body_overlaps)
