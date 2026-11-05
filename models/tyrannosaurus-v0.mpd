@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3004,"body_draft_piece_count":2488,"stand_draft_piece_count":516,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3003,"body_draft_piece_count":2488,"stand_draft_piece_count":515,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -4109,28 +4109,25 @@
 0 Instruction step 36 / book1 page47. Curved bridge rests on two plate levels Y -32/-40.
 1 71 420 -32 -160 0 0 -1 0 1 0 1 0 0 15068.dat
 0 STEP
-0 Instruction step 37 / book1 page48. Two additional bridge curves; other four plates awaiting stud-grid review.
+0 Instruction step37 / book1 page48. BOM-matched two curved slopes, one 2x3 plate, one olive 1x3 plate, one olive corner plate, and one gray 1x2 Technic brick with hole.
 1 71 420 -32 -120 0 0 -1 0 1 0 1 0 0 15068.dat
 1 71 420 -32 -200 0 0 -1 0 1 0 1 0 0 15068.dat
-0 STEP
-0 Instruction step37 remaining plates / book1 page48. Paired cap plates bridge gray bricks and green axle-brick top studs without covering the green corner bricks.
 1 72 330 -32 -220 1 0 0 0 1 0 0 0 1 3021.dat
-1 72 330 -32 -100 1 0 0 0 1 0 0 0 1 3021.dat
-1 72 330 -32 -50 0 0 1 0 1 0 -1 0 0 2420.dat
-1 72 430 -32 -50 -1 0 0 0 1 0 0 0 -1 2420.dat
+1 330 330 -32 -100 1 0 0 0 1 0 0 0 1 3623.dat
+1 330 330 -32 -50 0 0 1 0 1 0 -1 0 0 77844.dat
+1 71 430 -32 -50 -1 0 0 0 1 0 0 0 -1 3700.dat
 0 STEP
-0 Instruction step38 / book1 page49. Paired triangular roof rests on step37 corner plates and the central bridge; outside trim preserves green foot mounts.
-1 72 410 -40 -90 1 0 0 0 1 0 0 0 1 2450.dat
-1 72 350 -40 -90 0 0 1 0 1 0 -1 0 0 2450.dat
-1 288 330 -40 -230 1 0 0 0 1 0 0 0 1 24866.dat
+0 Instruction step38 / book1 page49. BOM-matched roof pieces: one 2x3 plate, two olive 1x2 plates, two curved slopes, and one flower.
+1 72 380 -40 -90 1 0 0 0 1 0 0 0 1 3021.dat
+1 330 350 -40 -90 1 0 0 0 1 0 0 0 1 3023b.dat
+1 330 410 -40 -90 1 0 0 0 1 0 0 0 1 3023b.dat
 1 288 330 -40 -90 1 0 0 0 1 0 0 0 1 24866.dat
 1 330 320 -24 -230 0 0 -1 0 1 0 1 0 0 11477.dat
 1 330 430 -16 -120 1 0 0 0 1 0 0 0 1 11477.dat
 0 STEP
-0 Instruction step39 / book1 page50. Roof surface candidates with separate front chamfered tile and slope strip.
-1 72 390 -64 -70 -1 0 0 0 1 0 0 0 -1 43711.dat
-1 72 380 -48 -90 0 0 -1 0 1 0 1 0 0 15672.dat
-1 72 380 -48 -110 1 0 0 0 1 0 0 0 1 96910.dat
+0 Instruction step39 / book1 page50. BOM-matched 2x4 plate and chamfered olive tile.
+1 72 390 -64 -70 -1 0 0 0 1 0 0 0 -1 3020.dat
+1 330 380 -48 -110 1 0 0 0 1 0 0 0 1 96910.dat
 0 STEP
 0 Instruction step40 / book1 page51. Corner rock and two exposed plant mounts.
 1 71 350 -64 -70 -1 0 0 0 1 0 0 0 -1 13548.dat
