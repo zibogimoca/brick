@@ -322770,10 +322770,38 @@
         "32316",
         "41616"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/32316.dat",
+        "sha256": "540fcf5812b423f9f6306b6141c417b7a1aeb8bb46cdd0dab657c3b1e5ffc29f",
+        "source": "public ldraw-linux/ldraw-library mirror",
+        "mapping_basis": "GoBricks GDS-664 identifies a 1 x 5 thick Technic beam; LDraw part header and primitive dimensions match. Exact GoBricks mold and tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -9.0,
+            -10.0,
+            -49.0
+          ],
+          "max": [
+            9.0,
+            10.0,
+            49.0
+          ]
+        },
+        "size_mm": [
+          7.2,
+          8.0,
+          39.2
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; analytic bounds checked against 5-hole beam pitch; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-664-010",
@@ -571314,10 +571342,37 @@
         "6536",
         "40146"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/6536.dat",
+        "sha256": "d4d261df27a8a3eb2e0ed574945ab6721c272090158efdaa5a1a611d67325cd7",
+        "source": "Public mirror of the LDraw library: https://github.com/ldraw-linux/ldraw-library/blob/master/ldraw/parts/6536.dat",
+        "mapping_basis": "GoBricks catalog candidate 6536 is listed as Technic Axle and Pin Connector Perpendicular; source LDraw part is Technic Cross Block 1 x 2 (Axle/Pin). Mold equivalence and physical fit are untested."
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            -9.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            29.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          15.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw mirror geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "public_LDraw_library_mesh_resolved_and_bounds_computed; GoBricks mold equivalence, axis seating, and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-926-010",
@@ -571930,7 +571985,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/926.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-926-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Connector axes and hole centers require instance-transform analysis before use; no physical compatibility inferred."
     },
     {
       "gobricks_id": "927",
