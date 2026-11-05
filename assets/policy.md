@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 318종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 387종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -186,6 +186,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3044c",
     "3046",
     "30503",
+    "30504",
     "3062b",
     "3068b",
     "3069b",
@@ -10834,6 +10835,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 2344,
       "modification": "No geometry changes; recursively referenced by parts/2465.dat.",
       "author": "Michael Heidemann [mikeheide]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/30504.dat": {
+      "source": "https://github.com/ldraw-org/official-library/blob/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/30504.dat",
+      "source_git_commit": "894bbba5e696b1554800d8e45134c57163dba905",
+      "source_git_blob_sha1": "04389479257fd9d412d29b771a4eb5b69a8c88dc",
+      "source_sha256": "24c78404461ae5f49f77cee72952b811efd7daedc9aaa39cb38148fab0ec01c4",
+      "sha256": "24c78404461ae5f49f77cee72952b811efd7daedc9aaa39cb38148fab0ec01c4",
+      "bytes": 6823,
+      "modification": "None; official source DAT retained unchanged.",
+      "author": "Mark Kennedy [mkennedy]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }

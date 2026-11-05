@@ -651205,7 +651205,9 @@
           "ldraw_candidates": [
             "30504"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30504.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
