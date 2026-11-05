@@ -72,19 +72,19 @@
       "id": "connectivity-does-not-prove-model-quality",
       "category": "design_review",
       "problem": "부품 연결과 격자 검사 통과를 모델 품질의 충분한 기준으로 취급함.",
-      "evidence": "models/tyrannosaurus.md: 초기 모델에 대한 사용자 외형·가동성 평가 및 기존 검사 한계.",
-      "application_conditions": "공룡 골격 등 외형·가동성과 지지 구조를 함께 평가하는 모델.",
-      "lesson": "연결 검사와 별개로 기준 제품과 같은 시점의 실루엣·골격 특징·가동 자세·지지 조건을 비교해야 한다.",
+      "evidence": "models/tyrannosaurus-v2.mpd 및 models/tyrannosaurus.md의 138.34×50.70×33.78cm·2,587개 배치·명목 몸체 겹침 0건 검토본(통합 main 2f80a47). 같은 뷰어의 v0/v2 옆면·정면 검토에서 v2의 긴 노출 레일, 몸통–꼬리 사이 골격 공백, 다리·골반 볼륨 부족이 확인됐고 사용자도 형태 미달을 지적했다.",
+      "application_conditions": "화석 골격·건물 등 외형, 부위별 비례와 실제 연결을 함께 평가하는 모델.",
+      "lesson": "외곽 치수·배치 수·SKU·해시·명목 몸체 겹침 검사와 별개로 같은 시점의 실루엣, 부위별 굵기 변화, 골격 연속성, 연결과 지지를 비교한다. 치수를 늘리기 위한 레일 연장·루트 이동이 외형 개선인지 실제 화면에서 확인한다. 화면 회전 컨트롤은 해당 경계의 실제 관절 부품·회전축·간섭 근거가 있을 때만 기계 가동과 연결해 해석한다.",
       "verification_level": "user_feedback_and_process_lesson",
-      "limitations": "비교 절차의 필요성을 기록한 것이며, 개선 모델의 성공이나 실물 안정성은 아직 확인되지 않았다."
+      "limitations": "검토본의 실패 원인과 평가 방법을 기록한 사례다. v0 전체의 정확성, 후속 v2 보강의 성공, 실제 가동·강도·하중을 인증하지 않는다."
     },
     {
       "id": "confirm-part-axis-before-placement",
       "category": "geometry",
       "problem": "긴 플레이트의 길이 축을 Z로 추정해 두개골과 꼬리 방향을 잘못 배치함.",
       "application_conditions": "새 부품의 LDraw 좌표 방향을 설계에 적용할 때.",
-      "method": "사전의 실제 형상 경계와 연결 위치를 확인한 뒤 회전행렬을 정하고 정면·측면 렌더로 대조한다.",
-      "evidence": "models/tyrannosaurus.md; 60479의 긴 축은 X(-120..120), Z는 -10..10.",
+      "method": "부품의 긴 외곽 방향과 구멍·핀의 연결축을 구분한다. 실제 형상의 로컬 중심·축·삽입 구간을 확인하고 모든 상위 변환을 적용해 조립체 좌표에서 비교한다. 사전·상태 메타데이터와 실제 MPD 행렬이 같은지도 확인하며 정면·측면 렌더로 대조한다.",
+      "evidence": "60479의 긴 축은 X(-120..120), Z는 -10..10. models/tyrannosaurus.md의 v2 레일 검토에서는 빔 구멍의 전역 Y축과 기존 2780 핀의 전역 X축 불일치를 찾아 짝 없는 핀을 제거하고 횡보 연결핀을 재정렬했다(93a6d45). models/triceratops.md는 3700 구멍축을 로컬 Z로 기록한다(d601385); 부품·배치별 축을 확인해야 한다.",
       "verification_level": "reference_geometry_and_render",
       "limitations": "축 확인은 실제 부품 간 연결·간섭·하중 검증을 대신하지 않는다."
     },
@@ -103,10 +103,10 @@
       "category": "reference_review",
       "problem": "근사 비교 모델을 공식 설계의 정확한 복원처럼 취급하면 외형·부품 수·가동성 비교를 오판할 수 있다.",
       "application_conditions": "공식 3D 원본 없이 설명서와 완성 도해로 비교 모델을 만드는 경우.",
-      "method": "완성 도해로 실루엣과 부위별 비례를 먼저 잡고, 불명확한 부위만 중간 조립 페이지를 확인한다. 확인한 페이지·추정 구조·생략 항목을 모델 기록에 남기고 공식 부품 수와 근사 모델 수를 구분한다.",
-      "evidence": "사용자와 합의한 LEGO 76968 v0 작업 범위; models/tyrannosaurus.md",
-      "verification_level": "agreed_review_method",
-      "limitations": "근사 모델은 실제 제품의 구조·가동 범위·강도를 증명하지 않는다."
+      "method": "외형 비교용 근사 연구와 설명서 전체 재구성을 구분한다. 전체 재구성은 단계별 부품표·조립 도해·후속 결합 도해를 대조하고 실제 배치 및 확인·잠정·보류 범위를 기록한다. 완성 도해는 비례와 위치 관계의 보조 근거로 쓰며 가려진 접점의 부품·수치 변환까지 확정하는 근거로 확대하지 않는다. 후속 도해로 앞 단계를 보정하되 기록 추가를 배치 구현으로 대신하지 않는다.",
+      "evidence": "기존 76968 v0 근사안에 대한 사용자 평가; models/triceratops.md의 후속 완성도와 단계 278–279 접점 보류 사례(origin/agent/triceratops-restart d601385). 완성 개요의 위치 관계와 실제 결합 부품 식별이 구분되어 있다.",
+      "verification_level": "documented_reconstruction_failures_and_scope_distinction",
+      "limitations": "가려진 접점의 최종 변환이나 전체 설명서 재구성 완료를 검증한 사례가 아니다. 종전의 불명확한 부위만 중간 페이지를 보는 방식은 전체 재구성 절차로 사용하지 않는다."
     },
     {
       "id": "v0-visual-approximation-failure",
@@ -224,6 +224,78 @@
       "evidence": "76968 1권 199–200쪽과 LDraw 형상 좌표를 함께 대조했다. 30000은 배치 X=-780,Y=-8에서 단일 수직 축구멍 X=-780, Y=-8..12다. 39789는 배치 X=-60,Y=-24이며 세 구멍의 네이티브 X=-20,0,20, 축방향 Y=0..18이므로 후보 중심은 X=-80,-60,-40, Y=-24..-6이다. 도해의 노란 축은 꼬리 쪽 바깥 구멍(X=-40)에 놓인다. 받침 기둥 안 73230의 구멍 축범위는 중첩 변환 후 X=-42,698, Y=32..72이므로 간격740이다. 받침 전체 X=-738 이동으로 X=-780,-40을 맞췄다. 앞 4L축은 X=-780,Y=32 중심에서 -8..72를, 뒤 5L축은 X=-40,Y=24 중심에서 -26..74를 차지해 각 본체·기둥 구멍 범위를 잇는다.",
       "verification_level": "instruction_diagram_and_native_geometry_axes_and_axle_lengths_aligned; physical_fit_pending",
       "limitations": "계산상 축 중심·방향·길이는 맞췄으나 실물 공차, 빠짐 방지, 주변 간섭, 발 고정, 하중과 실제 안정성은 아직 검증하지 않았다."
+    },
+    {
+      "id": "ldraw-comments-help-and-real-references",
+      "category": "part_identification",
+      "problem": "DAT의 설명·조립 예시 주석에 적힌 부품 번호를 실제 포함 형상으로 오인하거나, 특정 결합용 HELP 변환을 반복 마디 전체에 적용함.",
+      "application_conditions": "공식 DAT를 읽어 부품 구성과 조립 방법을 판단할 때.",
+      "method": [
+        "줄의 실제 레코드 타입을 먼저 확인한다. 0 주석 안에 1 형식 문자열이나 부품 번호가 있어도 실제 Type-1 참조로 파싱하지 않는다.",
+        "부품 헤더, 실제 Type-1 재귀 참조와 렌더를 대조해 별도 부품 포함 여부를 판단한다.",
+        "0 !HELP는 적용 대상과 로컬 좌표계를 확인한 조립 지침으로 해석한다. 끝마디용 변환을 중간마디 반복에 확대 적용하지 않는다."
+      ],
+      "evidence": "assets/parts/24855.dat의 Flower on ... 3742.dat 문장은 0 // 주석이며 실제 꽃 참조가 아니다. assets/parts/40378.dat의 HELP는 end section에 X축 45도와 (0,-36,120) 이동을 명시한다. 트리케라 기록 a935327 및 티라노 꼬리 수정 201574a와 해당 DAT를 대조했다.",
+      "verification_level": "native_DAT_record_and_HELP_scope_inspection",
+      "limitations": "실제 꽃·줄기 체결, 설명서의 특정 금형 식별과 꼬리 전체 연결·허용각·유지력은 별도 검증이다."
+    },
+    {
+      "id": "handed-parts-before-rotation-reuse",
+      "category": "part_identification",
+      "problem": "좌우 대칭으로 보이는 부품을 같은 DAT의 회전 복제로 처리해 외곽·스터드 배열·연결면이 달라짐.",
+      "application_conditions": "쐐기·날개·좌우 전용 판과 대칭 조립체를 구성할 때.",
+      "method": [
+        "공식 헤더의 Left/Right와 양쪽 윤곽·스터드 위치·밑면 접점을 비교한다.",
+        "연결면 방향을 유지한 회전으로 대응하는지 확인하고, 별도 좌우 금형이면 각각의 형상을 참조한다.",
+        "음수 변환의 화면 표시 문제와 실제 좌우 부품 선택 문제는 구분한다."
+      ],
+      "evidence": "assets/parts/24299.dat와 24307.dat의 공식 헤더는 Wing 2×2 Left/Right이다. 트리케라 6단계에서 같은 24299를 회전 복제한 후보 대신 오른쪽을 24307 후보로 변경했다(models/triceratops.md, d601385). 두 DAT의 명칭과 형상을 직접 확인했다.",
+      "verification_level": "official_part_handedness_checked; instruction_placement_provisional",
+      "limitations": "공식 좌우 부품의 존재를 확인한 것으로, 해당 설명서의 식별·배치·스터드 체결이 모두 검증됐다는 뜻은 아니다."
+    },
+    {
+      "id": "curved-module-chord-and-closure-check",
+      "category": "geometry_and_assembly_review",
+      "problem": "곡선 벽체의 반복 모듈을 원호 길이나 눈대중으로 배열하면 실제 연결점 간격과 끝단이 맞지 않을 수 있음.",
+      "application_conditions": "힌지 벽·반원형 건물·연속 곡선 모듈의 후보 반지름과 각도 간격을 검토할 때.",
+      "method": [
+        "모듈 원점이 아닌 실제 힌지·연결점 사이의 간격을 기준으로 한다. 동일 반지름 R에서 각도차 Δθ의 두 점 거리는 2R·sin(Δθ/2)로 확인한다.",
+        "모듈 길이·반복 수·대칭·끝단 연결 조건을 함께 대조하고 후속 도해로 잠정 반지름과 중심을 보정한다.",
+        "평면 간격이 맞아도 층 높이·스터드 격자·힌지 회전 여유는 별도로 검사한다."
+      ],
+      "evidence": "노트르담 단계 23–30의 R230·20도 후보에서 계산된 연결점 간격은 약79.878 LDU로 80 LDU 모듈 간격과 비교됐다(models/notre-dame.md, origin/work ac34f46). 수식의 수치는 독립 재계산했으며 해당 배치 기록은 여전히 잠정이다.",
+      "verification_level": "chord_formula_recomputed; model_assembly_provisional",
+      "limitations": "79.878와80은 정확한 일치가 아니다. 오차 허용·강제 변형·연결 성공을 가정하지 않으며, 모든 접점과 끝단이 맞는 최종 반지름·각도는 추가 확인해야 한다."
+    },
+    {
+      "id": "shared-asset-merge-provenance-and-hashes",
+      "category": "asset_integration",
+      "problem": "여러 모델의 공용 형상·매니페스트를 합칠 때 한쪽 목록을 덮어쓰거나 파일만 바꾸면 참조·사전 해시가 불일치함.",
+      "application_conditions": "공용 LDraw 형상과 의존 파일을 여러 브랜치에서 추가·수정한 뒤 통합할 때.",
+      "method": [
+        "양쪽 변경과 출처를 비교하고 동일 경로 충돌이 줄바꿈·경로 정규화 차이인지 좌표·면·참조 변화인지 구분한다.",
+        "매니페스트는 실제 보존 파일의 바이트 해시와 일치하는 출처 기록을 선택해 합친다. 일치하는 근거가 없으면 해시만 새로 계산해 덮지 않는다.",
+        "부품 사전의 형상 해시도 함께 대조하고 전체 의존 참조 누락·순환과 파일 해시를 검사한다.",
+        "생성된 모델 목록의 내용 해시, 배포 MPD 바이트 해시와 통합본을 비교하고 브라우저 실제 로딩도 별도로 확인한다."
+      ],
+      "evidence": "통합 c320c26에서 4-4cylo.dat 양쪽 내용은 줄바꿈 외 동일함을 비교했고 실제 파일 해시에 맞는 기록으로 821개 항목을 합쳤다. d6a83d6에서는 6141.dat의 줄바꿈 변경 전후 내용 동일성을 확인하고 사전의 이전 해시를 보정했다. 배포 2f80a47에서 전체 재귀 참조·해시와 공개된 5개 MPD의 내용 해시를 확인했고 뷰어 9개 검사가 통과했다.",
+      "verification_level": "performed_merge_provenance_byte_hash_dependency_and_browser_checks",
+      "limitations": "파일·배포 일치와 로딩을 검증한 사례이며 부품 금형 호환·모델 배치 정확성·실물 조립성을 보장하지 않는다."
+    },
+    {
+      "id": "mesh-and-support-evidence-scope",
+      "category": "collision_and_support_review",
+      "problem": "표면 교차쌍·Boolean 부피·경계 상자 접촉·일부 부품 간 틈을 전체 간섭 또는 지지 성공으로 해석함.",
+      "application_conditions": "LDraw 메시로 정밀 간섭·관절 스윕·받침 접촉을 검토할 때.",
+      "method": [
+        "사용한 알고리즘이 닫힌 다양체를 요구하는지 확인한다. 입력 조건이 맞지 않는 Boolean 결과는 판정 근거로 삼지 않는다.",
+        "표면 교차쌍 수는 침투량이나 실제 충돌 횟수가 아니다. 의도된 결합 중첩, 불필요한 관통과 완전 내부 포함을 구분하고 미검출 범위를 남긴다.",
+        "접촉·간격은 비교한 두 부품과 표면·좌표계를 명시한다. 캡–레일 틈과 캡–하부 패널 접촉은 다른 주장이다.",
+        "접촉 후보부터 패널·횡보·핀·레일로 이어지는 실제 결속 경로를 확인하고, 경계 상자 일치나 거리0만으로 하중 지지를 확정하지 않는다."
+      ],
+      "evidence": "트리케라 링크 기록(d601385)은 비다양체 입력의 Boolean 결과를 미검증으로 남겼다. 티라노 v2 기록(a2992ae)은 관절 표면 교차쌍과 실제 간섭을 구분하고, 중앙 캡–레일 3LDU와 캡–하부 패널 거리0을 서로 다른 비교 대상으로 명시했다. 수치는 담당자 CAD 조사 기록이며 여기서 별도 재현하지 않았다.",
+      "verification_level": "documented_checker_limitations_and_contact_pair_distinction",
+      "limitations": "검사 해석의 재사용 원칙이다. 특정 관절의 무간섭 가동이나 중앙 받침의 실제 하중·안정성이 입증된 성공 사례가 아니다."
     }
   ]
 }
