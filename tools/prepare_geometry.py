@@ -1,60 +1,108 @@
+"""공식 LDraw ZIP의 지정 부품과 의존 형상을 추가한다. 기존 파일은 덮어쓰거나 삭제하지 않는다.
+실행: python3 tools/prepare_geometry.py /tmp/complete.zip --parts 64179 30504
+모든 의존성과 기존 해시를 확인한 뒤 저장하며 원본 저자·라이선스 주석을 유지한다.
 """
-기능: 공식 LDraw ZIP에서 지정 부품과 참조 조각을 추출하고 읽기 쉬운 경로로 변환한다.
-입력: archive 위치 인자(이미 확보한 complete.zip); 코드의 TOP 부품 목록.
-출력: assets/parts, assets/primitives, assets/LDConfig.ldr와 assets/policy.md 내부 목록.
-실행: python3 tools/prepare_geometry.py <complete.zip 경로>
-주의: TOP에 없는 기존 형상은 정리될 수 있다. 모든 모델의 필요 부품을 확인하고
-      새 형상 파일 생성 범위를 먼저 보고한다. 별도 manifest 파일은 만들지 않는다.
-한계: 형상 출처와 무결성을 기록하며, 고브릭스 실물과의 일치를 보장하지 않는다.
-"""
-import argparse,hashlib,json,zipfile
+import argparse
+import hashlib
+import json
+import re
+import zipfile
 from pathlib import Path
-p=argparse.ArgumentParser(description=__doc__);p.add_argument('archive',type=Path);args=p.parse_args()
-ROOT=Path('assets');TOP=['3001','3003','3005','3020','3024','3700','3705','4274','2429','2430','14417','14418','14419','3004','3010','3622','3023b','3022','3710','3623','3666','3460','3034','3832','3031','3032','3062b','6141','4032','3941','54200','11477','15068','59900','30374','60478','60479','60477']
-TOP += ['40378', '40379', '59443', '32013', '32062', '11214', '53451', '87747', '85970', '98100', '44224', '44225', '2780', '32524', '32525', '32278', '32140', '32009', '60483', '22385', '41770', '41769', '43722', '43723', '11090', '87994', '63965', '30414', '4070']
-TOP += ['3035','34103','35480','99207','3701','3702','3703','3673']
-TOP += ['3033','32324','32064a','3068b']
-# 버전 0의 승인된 형상 후보를 기존 모델의 형상과 함께 보존한다.
-progress = Path('models/tyrannosaurus-v0-progress.json')
-if progress.is_file():
- TOP = sorted(set(TOP) | set(json.loads(progress.read_text()).get('reference_inventory', {}).get('requested_geometry_parts', [])))
-source='https://library.ldraw.org/library/updates/complete.zip'
-def local_path(name):
- return name.replace('parts/s/', 'parts/subparts/').replace('p/48/', 'primitives/high-resolution/').replace('p/', 'primitives/', 1) if name.startswith('p/') else name.replace('parts/s/', 'parts/subparts/')
-ROOT.mkdir(parents=True,exist_ok=True)
-with zipfile.ZipFile(args.archive) as z:
- names={n.lower():n for n in z.namelist()};done={};queue={'parts/'+x+'.dat' for x in TOP}
- def resolve(name):
-  name=name.replace('\\','/').lower();assert '..' not in name.split('/') and not name.startswith('/')
-  for rel in ['parts/'+name,'p/'+name,name]:
-   if 'ldraw/'+rel in names:return rel
-  raise ValueError('Missing dependency: '+name)
- while queue:
-  rel=queue.pop()
-  if local_path(rel) in done:continue
-  original=names['ldraw/'+rel];data=z.read(original) # zipfile validates member CRC on read
-  text=data.decode('utf-8-sig',errors='strict');lines=[]
-  for line in text.splitlines(keepends=True):
-   f=line.split(maxsplit=14)
-   if len(f)==15 and f[0]=='1':
-    child=resolve(f[14].strip());queue.add(child)
-    ending='\r\n' if line.endswith('\r\n') else '\n' if line.endswith('\n') else ''
-    line=' '.join(f[:14])+' '+local_path(child)+ending
-   lines.append(line)
-  converted=''.join(lines).encode('utf-8');local=local_path(rel)
-  dest=ROOT/local;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(converted)
-  done[local]={'source_archive':source,'archive_member':original,'source_sha256':hashlib.sha256(data).hexdigest(),'sha256':hashlib.sha256(converted).hexdigest(),'bytes':len(converted),'modification':'Dependency paths renamed for readable folders; geometry coordinates unchanged.','author':next((l[10:].strip() for l in text.splitlines() if l.startswith('0 Author:')),None),'license':next((l[11:].strip() for l in text.splitlines() if l.startswith('0 !LICENSE')),None)}
- for rel in ['LDConfig.ldr']:
-  data=z.read(names['ldraw/'+rel.lower()]);(ROOT/rel).write_bytes(data)
-  done[rel]={'source_archive':source,'archive_member':names['ldraw/'+rel.lower()],'sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)}
- # Remove only stale geometry files from earlier downloads that are not in this closure.
- for folder in ['parts','p','primitives']:
-  for f in (ROOT/folder).rglob('*.dat'):
-   if f.relative_to(ROOT).as_posix() not in done:f.unlink()
- for folder in sorted((f for f in ROOT.rglob('*') if f.is_dir()),key=lambda f:len(f.parts),reverse=True):
-  if not any(folder.iterdir()):folder.rmdir()
- manifest={'source':source,'archive_sha256':hashlib.sha256(args.archive.read_bytes()).hexdigest(),'verification':'HTTPS source, ZIP member CRCs and retained per-file SHA-256; archive SHA is an observation, not a separately published signature.','parts':TOP,'files':done}
- policy=ROOT/'policy.md';text=policy.read_text();start='<!-- asset-manifest:start -->\n```json\n';end='\n```\n<!-- asset-manifest:end -->'
- before,rest=text.split(start,1);_,after=rest.split(end,1)
- policy.write_text(before+start+json.dumps(manifest,ensure_ascii=False,indent=2)+end+after)
-print('Extracted and verified',len(done),'files for',len(TOP),'parts')
+
+START = '<!-- asset-manifest:start -->\n```json\n'
+END = '\n```\n<!-- asset-manifest:end -->'
+
+def digest(data):
+    return {'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)}
+
+def add_geometry(archive, requested, root=Path('assets')):
+    policy = root / 'policy.md'
+    before, rest = policy.read_text().split(START, 1)
+    body, after = rest.split(END, 1)
+    manifest = json.loads(body)
+    files = manifest['files']
+    for rel, entry in files.items():
+        data = (root / rel).read_bytes()
+        if any(digest(data)[key] != entry[key] for key in ('sha256', 'bytes')):
+            raise ValueError('Existing asset integrity mismatch: ' + rel)
+    requested = sorted(set(p.lower().removesuffix('.dat') for p in requested))
+    if not requested or any(not re.fullmatch(r'[a-z0-9_-]+', p) for p in requested):
+        raise ValueError('Supply explicit part numbers with --parts')
+    pending = {}
+    visited = set()
+    with zipfile.ZipFile(archive) as z:
+        members = {n.lower(): n for n in z.namelist()}
+        def resolve(name):
+            name = name.replace('\\', '/').lower()
+            if name.startswith('/') or '..' in name.split('/'):
+                raise ValueError('Unsafe reference: ' + name)
+            for rel in (name, 'parts/' + name, 'p/' + name):
+                if 'ldraw/' + rel in members:
+                    return rel
+            raise ValueError('Missing ZIP dependency: ' + name)
+        def local(rel):
+            if rel.startswith('parts/s/'):
+                return rel.replace('parts/s/', 'parts/subparts/', 1)
+            if rel.startswith('p/48/'):
+                choices = ['primitives/48/' + rel[5:], 'primitives/high-resolution/' + rel[5:]]
+                return next((p for p in choices if (root / p).exists()), choices[0])
+            return rel.replace('p/', 'primitives/', 1) if rel.startswith('p/') else rel
+        def check_existing(path):
+            if path in visited:
+                return
+            visited.add(path)
+            data = (root / path).read_bytes()
+            if path not in files:
+                raise ValueError('Unregistered existing asset: ' + path)
+            for line in data.decode('utf-8-sig').splitlines():
+                fields = line.split(maxsplit=14)
+                if len(fields) == 15 and fields[0] == '1':
+                    child = fields[14].replace('\\', '/').lower()
+                    match = next((p for p in (child, 'parts/' + child, 'primitives/' + child) if (root / p).is_file()), None)
+                    if match is None:
+                        raise ValueError('Broken existing dependency: ' + child)
+                    check_existing(match)
+        def collect(rel):
+            path = local(rel)
+            if (root / path).exists():
+                check_existing(path)
+                return
+            if path in pending:
+                return
+            data = z.read(members['ldraw/' + rel])
+            pending[path] = b''  # Guard recursive dependency cycles.
+            lines = []
+            for line in data.decode('utf-8-sig').splitlines(keepends=True):
+                fields = line.split(maxsplit=14)
+                if len(fields) == 15 and fields[0] == '1':
+                    child = resolve(fields[14].strip())
+                    collect(child)
+                    ending = '\r\n' if line.endswith('\r\n') else '\n' if line.endswith('\n') else ''
+                    line = ' '.join(fields[:14]) + ' ' + local(child) + ending
+                lines.append(line)
+            pending[path] = ''.join(lines).encode('utf-8')
+        for part in requested:
+            # Existing roots may belong to an older archive; preserve them verbatim.
+            path = 'parts/' + part + '.dat'
+            if (root / path).exists():
+                check_existing(path)
+            else:
+                collect(resolve(path))
+        if not (root / 'LDConfig.ldr').exists():
+            pending['LDConfig.ldr'] = z.read(members['ldraw/ldconfig.ldr'])
+    # Nothing above mutates assets: missing dependencies leave the repository untouched.
+    for path, data in pending.items():
+        target = root / path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
+        files[path] = digest(data)
+    manifest['parts'] = sorted(set(manifest.get('parts', [])) | set(requested))
+    policy.write_text(before + START + json.dumps(manifest, ensure_ascii=False, indent=2) + END + after)
+    print('Added', len(pending), 'files; preserved', len(files) - len(pending), 'existing files. No geometry deleted or replaced.')
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('archive', type=Path)
+    parser.add_argument('--parts', nargs='+', required=True)
+    args = parser.parse_args()
+    add_geometry(args.archive, args.parts)
