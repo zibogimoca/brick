@@ -63,3 +63,7 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 - Second-booklet steps102–107 (printed pages82–87) extend the raised arcade with 4+4 X-lattice 19121 fences, tan slopes, 13 side-stud blocks, cap plates, 15 gallery links and round end details. Official LDraw 19121 matches the visible 1x4x2 X-lattice silhouette. Callout counts and upper-arc stations are represented; roof pitch, exact small-part colors and contact remain provisional.
 
 - Second-booklet steps108–116 (printed pages88–91) build a separate roof cap around an 8x16 92438 blank, reinforced with rails, plates and dark slopes; step116 installs it above the arcade. The successive roof layers are staged at the final central station. Exact roof pitch and some slope identities remain provisional.
+
+## Integration metadata consistency
+
+The existing part-0440 state transform disagreed with its MPD placement. State position and rotation were synchronized to the unchanged MPD placement (0, -240, 670 LDU; identity rotation). This corrects the duplicate state record only; the placement remains a diagram-derived draft and was not certified as connected or geometrically correct.
