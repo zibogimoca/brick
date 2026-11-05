@@ -16492,10 +16492,33 @@
       "ldraw_candidates": [
         "18674"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/18674.dat",
+        "sha256": "27a5033d5f84585affddf6c614af7891568caf432429fde4c0718663d82715ac"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.000504910000004,
+            -4.0,
+            -20.000504910000004
+          ],
+          "max": [
+            20.000504910000004,
+            8.0,
+            20.000504910000004
+          ]
+        },
+        "size_mm": [
+          16.000403928000004,
+          4.800000000000001,
+          16.000403928000004
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog_candidate_and_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-1041-010",
@@ -252562,10 +252585,33 @@
         "35371",
         "75703"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/2431.dat",
+        "sha256": "b135f79e25abc5b79953babcef79e17e54603a72cbf0106e1a375cf40e69a91f"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -40.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            40.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          3.2,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog_candidate_and_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-563-010",
@@ -331695,10 +331741,33 @@
       "ldraw_candidates": [
         "3659"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3659.dat",
+        "sha256": "1baeea008b087a6cef500c8fd64d57b55a5fcc039e684a8de5b5db547aa48fdd"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            40.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          11.200000000000001,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog_candidate_and_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-681-010",
@@ -363426,10 +363495,33 @@
         "14918",
         "63417"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3942c.dat",
+        "sha256": "dd4ec034870cbcbe593c7382255b245b808c58047d0087a06727062bfbc4682f"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            48.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          20.8,
+          16.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog_candidate_and_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-746-010",
@@ -378943,10 +379035,33 @@
         "60592",
         "79128"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/60592.dat",
+        "sha256": "5ff0f6fcd47678862c5804c4a29d78be47914fa5b764ed3d7d4371edc746d66c"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            48.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          20.8,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog_candidate_and_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-783-010",
