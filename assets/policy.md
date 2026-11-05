@@ -339,6 +339,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "89678",
     "90194",
     "91988",
+    "92438",
     "93273",
     "93274",
     "96874",
@@ -8307,6 +8308,46 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Created as an approximate 4x4 round plate with central vertical pinhole from instruction illustration; not copied from manufacturer CAD or LDraw mesh.",
       "author": "BRICK project",
       "license": "Original project reference geometry; no third-party mesh license asserted."
+    },
+    "parts/92438.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/92438.dat",
+      "source_sha256": "d180860e2598fa2576ef9d7af7084179c04bf5f5092662c491ee1b90576657e4",
+      "sha256": "dda9fa8edb3f9bc77c4267f451389f8ba8884e227853fd355452b85662a2ecc2",
+      "bytes": 842,
+      "modification": "Dependency paths renamed to the project asset folders; geometry coordinates unchanged.",
+      "author": "Rolf Osterthun [Rolf]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stug-8x8.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug-8x8.dat",
+      "source_sha256": "e9c033a1b9bd6f9d1f3c5d095e66824c9bc2f3e1034e805908c1b8c033e9b232",
+      "sha256": "f88eb1218f6bb3413af3bac428c151709921d268f8c6316cc3515d9a9751f3ca",
+      "bytes": 737,
+      "modification": "Dependency paths renamed to the project asset folders; geometry coordinates unchanged.",
+      "author": "Tore Eriksson [Tore_Eriksson]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stug4-7x7.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug4-7x7.dat",
+      "source_sha256": "0d0c714589226c4a5eafe92706ace22d6a5c317f681d4ecf1eece02cf6ab4740",
+      "sha256": "6791ea30205d5591a344861d010dbae0d231c3c8bb6ef8516601639a23aa3bbe",
+      "bytes": 439,
+      "modification": "Dependency paths renamed to the project asset folders; geometry coordinates unchanged.",
+      "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stug4-6x6.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug4-6x6.dat",
+      "source_sha256": "6e127410d945a8e2d85eb8df4815f60a9c90c4f2fd38296f4af6fe16817e1c5f",
+      "sha256": "d2be076f28e6bc511fd61b744be8fd0003ca8f5950b270213555c8badc137507",
+      "bytes": 495,
+      "modification": "Dependency paths renamed to the project asset folders; geometry coordinates unchanged.",
+      "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
 }

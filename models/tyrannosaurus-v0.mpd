@@ -570,9 +570,9 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-rear-horns-overlay-step224.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 pubis213-body-mounted-pubis-step213.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-arms-and-pelvic-covers-overlay.ldr
-0 Hip ball-centre aligned; pose angle requires final instruction comparison.
+0 Right-side hip centre at Z=+152; reference pose remains subject to manual/visual comparison.
 1 16 -58.7143761818 534.044722856 152 0.694523222373 -0.719470286797 0 0.719470286797 0.694523222373 0 0 0 1 book2-second-leg-upper-core.ldr
-0 Hip ball-centre aligned; pose angle requires final instruction comparison.
+0 Left-side hip centre at Z=-152; root transform is an orthonormal reflection (det=-1) and X is offset -304 LDU for the requested walking stride. This confirms global mirror/stride only; local knee bend, ankle, toe direction and stand contact still require review.
 1 16 -362.52030774 523.644970609 -152.305246211 0.79901621001 0.601264159819 -0.00738283539719 -0.597930428848 0.793166449963 -0.115612217825 0.0636576656725 -0.0967904580523 -0.993266987688 book2-leg-core-left-stride-posed.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
 1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr

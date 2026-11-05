@@ -1,0 +1,361 @@
+0 FILE tyrannosaurus-v2.ldr
+0 !BRICK_STATE {"schema_version":3,"status":"v2_skeletal_structure_prototype_in_progress","model":"Tyrannosaurus fossil redesign","design_version":2,"version_label":"v2","constraint":"Only GoBricks catalog parts with a verified sale SKU; no custom or unlisted parts.","target_dimensions_cm":{"length":140,"height":50,"width":34},"current_module_bounds_cm":{"length":21.6,"height":19.2,"width":9.6},"piece_count":153,"unique_sale_skus":12,"validation":{"catalog_skus":"verified_present_in_dictionary","part_files":"verified_present_in_assets","orthonormal_transforms":"right_handed_rotations","physical_fit":"not_tested","connections":"provisional","stability":"not_tested"},"design_basis":"GoBricks-listed twin-rail spine, bilateral hip/leg frame, segmented tail and neck, provisional rib silhouette, and open framed skull/hinged lower jaw; full assembly pending.","instances":[{"id":"part-0001","group":"hip","part":"32525.dat","gobricks_id":"583","sku":"GDS-583-031","color":19,"position":[0,-620,-100],"matrix":[1,0,0,0,0,-1,0,1,0],"status":"GoBricks SKU verified; hip-frame placement provisional"},{"id":"part-0002","group":"thigh","part":"32525.dat","gobricks_id":"583","sku":"GDS-583-031","color":19,"position":[0,-760,-100],"matrix":[1,0,0,0,0,-1,0,1,0],"status":"GoBricks SKU verified; joint attachment provisional"},{"id":"part-0003","group":"shin","part":"32525.dat","gobricks_id":"583","sku":"GDS-583-031","color":19,"position":[0,-960,-100],"matrix":[1,0,0,0,0,-1,0,1,0],"status":"GoBricks SKU verified; joint attachment provisional"},{"id":"part-0004","group":"hip-joint","part":"44224.dat","gobricks_id":"994","sku":"GDS-994-072","color":72,"position":[0,-620,-100],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; mating fit unverified"},{"id":"part-0005","group":"hip-joint","part":"44225.dat","gobricks_id":"995","sku":"GDS-995-072","color":72,"position":[0,-620,-80],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; mating fit unverified"},{"id":"part-0006","group":"leg-brace","part":"3700.dat","gobricks_id":"623","sku":"GDS-623-031","color":19,"position":[0,-740,-100],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; exact hole-axis engagement unverified"},{"id":"part-0007","group":"leg-brace","part":"3700.dat","gobricks_id":"623","sku":"GDS-623-031","color":19,"position":[0,-940,-100],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; exact hole-axis engagement unverified"},{"id":"part-0008","group":"leg-pin","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[0,-740,-100],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; insertion depth unverified"},{"id":"part-0009","group":"leg-pin","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[0,-940,-100],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; insertion depth unverified"},{"id":"part-0010","group":"hip","part":"32525.dat","gobricks_id":"583","sku":"GDS-583-031","color":19,"position":[0,-620,100],"matrix":[1,0,0,0,0,-1,0,1,0],"status":"GoBricks SKU verified; hip-frame placement provisional"},{"id":"part-0011","group":"thigh","part":"32525.dat","gobricks_id":"583","sku":"GDS-583-031","color":19,"position":[0,-760,100],"matrix":[1,0,0,0,0,-1,0,1,0],"status":"GoBricks SKU verified; joint attachment provisional"},{"id":"part-0012","group":"shin","part":"32525.dat","gobricks_id":"583","sku":"GDS-583-031","color":19,"position":[0,-960,100],"matrix":[1,0,0,0,0,-1,0,1,0],"status":"GoBricks SKU verified; joint attachment provisional"},{"id":"part-0013","group":"hip-joint","part":"44224.dat","gobricks_id":"994","sku":"GDS-994-072","color":72,"position":[0,-620,100],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; mating fit unverified"},{"id":"part-0014","group":"hip-joint","part":"44225.dat","gobricks_id":"995","sku":"GDS-995-072","color":72,"position":[0,-620,120],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; mating fit unverified"},{"id":"part-0015","group":"leg-brace","part":"3700.dat","gobricks_id":"623","sku":"GDS-623-031","color":19,"position":[0,-740,100],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; exact hole-axis engagement unverified"},{"id":"part-0016","group":"leg-brace","part":"3700.dat","gobricks_id":"623","sku":"GDS-623-031","color":19,"position":[0,-940,100],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; exact hole-axis engagement unverified"},{"id":"part-0017","group":"leg-pin","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[0,-740,100],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; insertion depth unverified"},{"id":"part-0018","group":"leg-pin","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[0,-940,100],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; insertion depth unverified"},{"id":"part-0019","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-1560,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0020","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-1300,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0021","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-1040,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0022","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-780,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0023","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-520,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0024","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-260,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0025","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[0,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0026","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[260,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0027","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[520,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0028","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[780,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0029","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[1040,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0030","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[1300,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0031","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[1560,-500,-20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0032","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-1560,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0033","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-1300,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0034","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-1040,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0035","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-780,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0036","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-520,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0037","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[-260,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0038","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[0,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0039","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[260,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0040","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[520,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0041","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[780,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0042","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[1040,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0043","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[1300,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0044","group":"spine","part":"32278.dat","gobricks_id":"668","sku":"GDS-668-072","color":72,"position":[1560,-500,20],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; neighboring 15-hole beams overlap one hole for a continuous rail; structural splice not physically tested"},{"id":"part-0045","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1560,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0046","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1480,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0047","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1400,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0048","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1320,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0049","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1240,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0050","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1160,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0051","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1080,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0052","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-1000,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0053","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-920,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0054","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-840,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0055","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-760,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0056","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-680,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0057","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-600,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0058","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-520,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0059","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-440,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0060","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-360,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0061","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-280,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0062","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-200,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0063","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-120,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0064","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[-40,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0065","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[40,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0066","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[120,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0067","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[200,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0068","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[280,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0069","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[360,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0070","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[440,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0071","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[520,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0072","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[600,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0073","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[680,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0074","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[760,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0075","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[840,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0076","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[920,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0077","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1000,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0078","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1080,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0079","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1160,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0080","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1240,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0081","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1320,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0082","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1400,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0083","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1480,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0084","group":"spine-cross-tie","part":"2780.dat","gobricks_id":"2139","sku":"GDS-2139-080","color":0,"position":[1560,-500,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"GoBricks SKU verified; 40LDU pin bridges paired rail holes; insertion/retention not physically tested"},{"id":"part-0085","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[1500,-500,0],"matrix":[6.123233995736766e-17,0.0,1.0,0.0,1.0,0.0,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0086","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[1620.0,-500.0,7.34788079488412e-15],"matrix":[6.114842316355997e-17,0.052335956242943835,0.9986295347545738,-3.204653064661855e-18,0.9986295347545738,-0.052335956242943835,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0087","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[1739.835544170549,-506.28031474915326,1.469576158976824e-14],"matrix":[6.089690279223575e-17,0.10452846326765347,0.9945218953682733,-6.400522398026175e-18,0.9945218953682733,-0.10452846326765347,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0088","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[1859.1781716147418,-518.8237303412717,2.2043642384652358e-14],"matrix":[6.047846824324981e-17,0.15643446504023087,0.9876883405951378,-9.578848344392363e-18,0.9876883405951378,-0.15643446504023087,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0089","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[1977.7007724861583,-537.5958661460994,2.939152317953648e-14],"matrix":[5.989426641661592e-17,0.20791169081775934,0.9781476007338057,-1.2730919333264157e-17,0.9781476007338057,-0.20791169081775934,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0090","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[2095.078484574215,-562.5452690442305,3.67394039744206e-14],"matrix":[5.914589856893349e-17,0.25881904510252074,0.9659258262890683,-1.5848095757158825e-17,0.9659258262890683,-0.25881904510252074,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0091","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[2210.989583728903,-593.603554456533,4.408728476930472e-14],"matrix":[5.823541592445462e-17,0.3090169943749474,0.9510565162951535,-1.892183365217075e-17,0.9510565162951535,-0.3090169943749474,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0092","group":"tail","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[2325.1163656843214,-630.6855937815267,5.1435165564188844e-14],"matrix":[5.716531405282095e-17,0.35836794954530027,0.9335804264972017,-2.1943708116382607e-17,0.9335804264972017,-0.35836794954530027,-1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0093","group":"tail-tip","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[2424.244770680355,-707.298643080862,5.878304635907296e-14],"matrix":[5.716531405282095e-17,0.9135454576426008,0.40673664307580026,-2.1943708116382607e-17,0.40673664307580026,-0.9135454576426008,-1.0,4.329780281177466e-17,4.329780281177467e-17],"status":"GoBricks sale SKU verified; transform follows 40378 official HELP; mating fit untested"},{"id":"part-0094","group":"neck","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[-1500,-500,0],"matrix":[6.123233995736766e-17,0.0,-1.0,0.0,1.0,0.0,1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0095","group":"neck","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[-1620.0,-500.0,7.34788079488412e-15],"matrix":[6.108318105475815e-17,-0.0697564737441253,-0.9975640502598242,4.2713521145274716e-18,0.9975640502598242,-0.0697564737441253,1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0096","group":"neck","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[-1739.7076860311788,-508.37077684929505,1.469576158976824e-14],"matrix":[6.063643103410976e-17,-0.13917310096006544,-0.9902680687415704,8.521894630907778e-18,0.9902680687415704,-0.13917310096006544,1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0097","group":"neck","part":"40378.dat","gobricks_id":"90504","sku":"GDS-90504-031","color":19,"position":[-1858.5398542801672,-525.0715489645029,2.2043642384652358e-14],"matrix":[5.989426641661592e-17,-0.20791169081775934,-0.9781476007338057,1.2730919333264157e-17,0.9781476007338057,-0.20791169081775934,1.0,0,6.123233995736766e-17],"status":"GoBricks sale SKU verified; midsection axis/layout provisional; joint fit not physically checked"},{"id":"part-0098","group":"neck-tip","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-1968.4327454987845,-585.234265489051,2.939152317953648e-14],"matrix":[5.989426641661592e-17,-0.838670567945424,-0.5446390350150272,1.2730919333264157e-17,0.5446390350150272,-0.838670567945424,1.0,4.329780281177466e-17,4.329780281177467e-17],"status":"GoBricks sale SKU verified; transform follows 40378 official HELP; mating fit untested"},{"id":"part-0099","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-600,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0100","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-600,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0101","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-480,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0102","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-480,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0103","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-360,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0104","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-360,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0105","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-240,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0106","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-240,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0107","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-120,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0108","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[-120,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0109","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[0,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0110","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[0,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0111","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[120,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0112","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[120,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0113","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[240,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0114","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[240,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0115","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[360,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0116","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[360,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0117","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[480,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0118","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[480,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0119","group":"rib-left","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[600,-500,-12],"matrix":[1,0,0,0,-0.707106781,0.707106781,0,-0.707106781,-0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0120","group":"rib-right","part":"40379.dat","gobricks_id":"M2062","sku":"GDS-M2062-031","color":19,"position":[600,-500,12],"matrix":[1,0,0,0,0.707106781,0.707106781,0,-0.707106781,0.707106781],"status":"GoBricks sale SKU verified; used as provisional rib silhouette; structural attachment is not modeled"},{"id":"part-0121","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-1980,-680,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0122","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2100,-680,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0123","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2220,-680,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0124","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2340,-680,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0125","group":"jaw-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-1980,-560,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; mandibular hinge and attachment provisional"},{"id":"part-0126","group":"jaw-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2100,-560,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; mandibular hinge and attachment provisional"},{"id":"part-0127","group":"jaw-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2220,-560,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; mandibular hinge and attachment provisional"},{"id":"part-0128","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-1980,-680,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0129","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2100,-680,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0130","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2220,-680,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0131","group":"skull-upper-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2340,-680,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; stud-grid contact provisional"},{"id":"part-0132","group":"jaw-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-1980,-560,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; mandibular hinge and attachment provisional"},{"id":"part-0133","group":"jaw-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2100,-560,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; mandibular hinge and attachment provisional"},{"id":"part-0134","group":"jaw-rail","part":"3666.dat","gobricks_id":"505","sku":"GDS-505-031","color":19,"position":[-2220,-560,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; mandibular hinge and attachment provisional"},{"id":"part-0135","group":"skull-crossbar","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[-1980,-680,0],"matrix":[0,-1,0,1,0,0,0,0,1],"status":"GoBricks sale verified; bridges side rails by 4-stud width; fit provisional"},{"id":"part-0136","group":"skull-crossbar","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[-2100,-680,0],"matrix":[0,-1,0,1,0,0,0,0,1],"status":"GoBricks sale verified; bridges side rails by 4-stud width; fit provisional"},{"id":"part-0137","group":"skull-crossbar","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[-2220,-680,0],"matrix":[0,-1,0,1,0,0,0,0,1],"status":"GoBricks sale verified; bridges side rails by 4-stud width; fit provisional"},{"id":"part-0138","group":"skull-crossbar","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[-2340,-680,0],"matrix":[0,-1,0,1,0,0,0,0,1],"status":"GoBricks sale verified; bridges side rails by 4-stud width; fit provisional"},{"id":"part-0139","group":"jaw-crossbar","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[-1980,-560,0],"matrix":[0,-1,0,1,0,0,0,0,1],"status":"GoBricks sale verified; jaw bridge provisional"},{"id":"part-0140","group":"jaw-crossbar","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[-2100,-560,0],"matrix":[0,-1,0,1,0,0,0,0,1],"status":"GoBricks sale verified; jaw bridge provisional"},{"id":"part-0141","group":"jaw-crossbar","part":"3020.dat","gobricks_id":"511","sku":"GDS-511-031","color":19,"position":[-2220,-560,0],"matrix":[0,-1,0,1,0,0,0,0,1],"status":"GoBricks sale verified; jaw bridge provisional"},{"id":"part-0142","group":"jaw-hinge","part":"44224.dat","gobricks_id":"994","sku":"GDS-994-072","color":72,"position":[-1980,-620,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; mating orientation/clearance untested"},{"id":"part-0143","group":"jaw-hinge","part":"44225.dat","gobricks_id":"995","sku":"GDS-995-072","color":72,"position":[-1980,-620,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; mating orientation/clearance untested"},{"id":"part-0144","group":"jaw-teeth","part":"87747.dat","gobricks_id":"1583","sku":"GDS-1583-031","color":19,"position":[-2120,-600,-40],"matrix":[0,0,-1,0,1,0,1,0,0],"status":"GoBricks sale verified; tooth orientation based on v1 LDraw placement; exact clearance untested"},{"id":"part-0145","group":"jaw-teeth","part":"87747.dat","gobricks_id":"1583","sku":"GDS-1583-031","color":19,"position":[-2200,-600,-40],"matrix":[0,0,-1,0,1,0,1,0,0],"status":"GoBricks sale verified; tooth orientation based on v1 LDraw placement; exact clearance untested"},{"id":"part-0146","group":"jaw-teeth","part":"87747.dat","gobricks_id":"1583","sku":"GDS-1583-031","color":19,"position":[-2280,-600,-40],"matrix":[0,0,-1,0,1,0,1,0,0],"status":"GoBricks sale verified; tooth orientation based on v1 LDraw placement; exact clearance untested"},{"id":"part-0147","group":"jaw-hinge","part":"44224.dat","gobricks_id":"994","sku":"GDS-994-072","color":72,"position":[-1980,-620,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; mating orientation/clearance untested"},{"id":"part-0148","group":"jaw-hinge","part":"44225.dat","gobricks_id":"995","sku":"GDS-995-072","color":72,"position":[-1980,-620,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks SKU verified; mating orientation/clearance untested"},{"id":"part-0149","group":"jaw-teeth","part":"87747.dat","gobricks_id":"1583","sku":"GDS-1583-031","color":19,"position":[-2120,-600,40],"matrix":[0,0,-1,0,1,0,1,0,0],"status":"GoBricks sale verified; tooth orientation based on v1 LDraw placement; exact clearance untested"},{"id":"part-0150","group":"jaw-teeth","part":"87747.dat","gobricks_id":"1583","sku":"GDS-1583-031","color":19,"position":[-2200,-600,40],"matrix":[0,0,-1,0,1,0,1,0,0],"status":"GoBricks sale verified; tooth orientation based on v1 LDraw placement; exact clearance untested"},{"id":"part-0151","group":"jaw-teeth","part":"87747.dat","gobricks_id":"1583","sku":"GDS-1583-031","color":19,"position":[-2280,-600,40],"matrix":[0,0,-1,0,1,0,1,0,0],"status":"GoBricks sale verified; tooth orientation based on v1 LDraw placement; exact clearance untested"},{"id":"part-0152","group":"snout-brow","part":"11477.dat","gobricks_id":"656","sku":"GDS-656-031","color":19,"position":[-2360,-680,-40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; visual placement provisional"},{"id":"part-0153","group":"snout-brow","part":"11477.dat","gobricks_id":"656","sku":"GDS-656-031","color":19,"position":[-2360,-680,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"GoBricks sale verified; visual placement provisional"}],"listed_retail_parts_cost_cny":"68.00","cost_scope":"GoBricks catalog prices for verified SKUs at dictionary snapshot; no shipping/tax; physical fit unverified.","reference_geometry_bounds_cm":{"length":194.47,"height":26.72,"width":11.2},"support_count":0,"support_verification":"Not included in initial core; stability untested."}
+0 !BRICK_INSTANCE_MAP GoBricks active sale SKUs verified per placement; physical mold fit, connection graph, and load remain untested.
+0 STEP
+0 !BRICK_INSTANCE part-0001
+1 19 0 -620 -100 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 32525.dat
+0 STEP
+0 !BRICK_INSTANCE part-0002
+1 19 0 -760 -100 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 32525.dat
+0 STEP
+0 !BRICK_INSTANCE part-0003
+1 19 0 -960 -100 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 32525.dat
+0 STEP
+0 !BRICK_INSTANCE part-0004
+1 72 0 -620 -100 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 44224.dat
+0 !BRICK_INSTANCE part-0005
+1 72 0 -620 -80 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 44225.dat
+0 STEP
+0 !BRICK_INSTANCE part-0006
+1 19 0 -740 -100 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3700.dat
+0 !BRICK_INSTANCE part-0007
+1 19 0 -940 -100 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3700.dat
+0 STEP
+0 !BRICK_INSTANCE part-0008
+1 0 0 -740 -100 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0009
+1 0 0 -940 -100 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 STEP
+0 !BRICK_INSTANCE part-0010
+1 19 0 -620 100 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 32525.dat
+0 STEP
+0 !BRICK_INSTANCE part-0011
+1 19 0 -760 100 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 32525.dat
+0 STEP
+0 !BRICK_INSTANCE part-0012
+1 19 0 -960 100 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 32525.dat
+0 STEP
+0 !BRICK_INSTANCE part-0013
+1 72 0 -620 100 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 44224.dat
+0 !BRICK_INSTANCE part-0014
+1 72 0 -620 120 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 44225.dat
+0 STEP
+0 !BRICK_INSTANCE part-0015
+1 19 0 -740 100 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3700.dat
+0 !BRICK_INSTANCE part-0016
+1 19 0 -940 100 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3700.dat
+0 STEP
+0 !BRICK_INSTANCE part-0017
+1 0 0 -740 100 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0018
+1 0 0 -940 100 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 STEP
+0 !BRICK_INSTANCE part-0019
+1 72 -1560 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0020
+1 72 -1300 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0021
+1 72 -1040 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0022
+1 72 -780 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0023
+1 72 -520 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0024
+1 72 -260 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0025
+1 72 0 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0026
+1 72 260 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0027
+1 72 520 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0028
+1 72 780 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0029
+1 72 1040 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0030
+1 72 1300 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0031
+1 72 1560 -500 -20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0032
+1 72 -1560 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0033
+1 72 -1300 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0034
+1 72 -1040 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0035
+1 72 -780 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0036
+1 72 -520 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0037
+1 72 -260 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0038
+1 72 0 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0039
+1 72 260 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0040
+1 72 520 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0041
+1 72 780 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0042
+1 72 1040 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0043
+1 72 1300 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 !BRICK_INSTANCE part-0044
+1 72 1560 -500 20 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 32278.dat
+0 STEP
+0 !BRICK_INSTANCE part-0045
+1 0 -1560 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0046
+1 0 -1480 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0047
+1 0 -1400 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0048
+1 0 -1320 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0049
+1 0 -1240 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0050
+1 0 -1160 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0051
+1 0 -1080 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0052
+1 0 -1000 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0053
+1 0 -920 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0054
+1 0 -840 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0055
+1 0 -760 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0056
+1 0 -680 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0057
+1 0 -600 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0058
+1 0 -520 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0059
+1 0 -440 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0060
+1 0 -360 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0061
+1 0 -280 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0062
+1 0 -200 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0063
+1 0 -120 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0064
+1 0 -40 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0065
+1 0 40 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0066
+1 0 120 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0067
+1 0 200 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0068
+1 0 280 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0069
+1 0 360 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0070
+1 0 440 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0071
+1 0 520 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0072
+1 0 600 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0073
+1 0 680 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0074
+1 0 760 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0075
+1 0 840 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0076
+1 0 920 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0077
+1 0 1000 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0078
+1 0 1080 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0079
+1 0 1160 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0080
+1 0 1240 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0081
+1 0 1320 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0082
+1 0 1400 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0083
+1 0 1480 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 !BRICK_INSTANCE part-0084
+1 0 1560 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 2780.dat
+0 STEP
+0 !BRICK_INSTANCE part-0085
+1 19 1500 -500 0 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0086
+1 19 1620.0 -500.0 7.34788079488412e-15 0.000000000 0.052335956 0.998629535 -0.000000000 0.998629535 -0.052335956 -1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0087
+1 19 1739.835544170549 -506.28031474915326 1.469576158976824e-14 0.000000000 0.104528463 0.994521895 -0.000000000 0.994521895 -0.104528463 -1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0088
+1 19 1859.1781716147418 -518.8237303412717 2.2043642384652358e-14 0.000000000 0.156434465 0.987688341 -0.000000000 0.987688341 -0.156434465 -1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0089
+1 19 1977.7007724861583 -537.5958661460994 2.939152317953648e-14 0.000000000 0.207911691 0.978147601 -0.000000000 0.978147601 -0.207911691 -1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0090
+1 19 2095.078484574215 -562.5452690442305 3.67394039744206e-14 0.000000000 0.258819045 0.965925826 -0.000000000 0.965925826 -0.258819045 -1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0091
+1 19 2210.989583728903 -593.603554456533 4.408728476930472e-14 0.000000000 0.309016994 0.951056516 -0.000000000 0.951056516 -0.309016994 -1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0092
+1 19 2325.1163656843214 -630.6855937815267 5.1435165564188844e-14 0.000000000 0.358367950 0.933580426 -0.000000000 0.933580426 -0.358367950 -1.000000000 0.000000000 0.000000000 40378.dat
+0 STEP
+0 !BRICK_INSTANCE part-0093
+1 19 2424.244770680355 -707.298643080862 5.878304635907296e-14 0.000000000 0.913545458 0.406736643 -0.000000000 0.406736643 -0.913545458 -1.000000000 0.000000000 0.000000000 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0094
+1 19 -1500 -500 0 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0095
+1 19 -1620.0 -500.0 7.34788079488412e-15 0.000000000 -0.069756474 -0.997564050 0.000000000 0.997564050 -0.069756474 1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0096
+1 19 -1739.7076860311788 -508.37077684929505 1.469576158976824e-14 0.000000000 -0.139173101 -0.990268069 0.000000000 0.990268069 -0.139173101 1.000000000 0.000000000 0.000000000 40378.dat
+0 !BRICK_INSTANCE part-0097
+1 19 -1858.5398542801672 -525.0715489645029 2.2043642384652358e-14 0.000000000 -0.207911691 -0.978147601 0.000000000 0.978147601 -0.207911691 1.000000000 0.000000000 0.000000000 40378.dat
+0 STEP
+0 !BRICK_INSTANCE part-0098
+1 19 -1968.4327454987845 -585.234265489051 2.939152317953648e-14 0.000000000 -0.838670568 -0.544639035 0.000000000 0.544639035 -0.838670568 1.000000000 0.000000000 0.000000000 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0099
+1 19 -600 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0100
+1 19 -600 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0101
+1 19 -480 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0102
+1 19 -480 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0103
+1 19 -360 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0104
+1 19 -360 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0105
+1 19 -240 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0106
+1 19 -240 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0107
+1 19 -120 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0108
+1 19 -120 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0109
+1 19 0 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0110
+1 19 0 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0111
+1 19 120 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0112
+1 19 120 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0113
+1 19 240 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0114
+1 19 240 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0115
+1 19 360 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0116
+1 19 360 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0117
+1 19 480 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0118
+1 19 480 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0119
+1 19 600 -500 -12 1.000000000 0.000000000 0.000000000 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0120
+1 19 600 -500 12 1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 40379.dat
+0 STEP
+0 !BRICK_INSTANCE part-0121
+1 19 -1980 -680 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0122
+1 19 -2100 -680 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0123
+1 19 -2220 -680 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0124
+1 19 -2340 -680 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 STEP
+0 !BRICK_INSTANCE part-0125
+1 19 -1980 -560 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0126
+1 19 -2100 -560 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0127
+1 19 -2220 -560 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 STEP
+0 !BRICK_INSTANCE part-0128
+1 19 -1980 -680 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0129
+1 19 -2100 -680 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0130
+1 19 -2220 -680 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0131
+1 19 -2340 -680 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 STEP
+0 !BRICK_INSTANCE part-0132
+1 19 -1980 -560 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0133
+1 19 -2100 -560 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 !BRICK_INSTANCE part-0134
+1 19 -2220 -560 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3666.dat
+0 STEP
+0 !BRICK_INSTANCE part-0135
+1 19 -1980 -680 0 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3020.dat
+0 !BRICK_INSTANCE part-0136
+1 19 -2100 -680 0 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3020.dat
+0 !BRICK_INSTANCE part-0137
+1 19 -2220 -680 0 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3020.dat
+0 !BRICK_INSTANCE part-0138
+1 19 -2340 -680 0 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3020.dat
+0 STEP
+0 !BRICK_INSTANCE part-0139
+1 19 -1980 -560 0 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3020.dat
+0 !BRICK_INSTANCE part-0140
+1 19 -2100 -560 0 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3020.dat
+0 !BRICK_INSTANCE part-0141
+1 19 -2220 -560 0 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 3020.dat
+0 STEP
+0 !BRICK_INSTANCE part-0142
+1 72 -1980 -620 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 44224.dat
+0 !BRICK_INSTANCE part-0143
+1 72 -1980 -620 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 44225.dat
+0 STEP
+0 !BRICK_INSTANCE part-0144
+1 19 -2120 -600 -40 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 87747.dat
+0 !BRICK_INSTANCE part-0145
+1 19 -2200 -600 -40 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 87747.dat
+0 !BRICK_INSTANCE part-0146
+1 19 -2280 -600 -40 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 87747.dat
+0 STEP
+0 !BRICK_INSTANCE part-0147
+1 72 -1980 -620 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 44224.dat
+0 !BRICK_INSTANCE part-0148
+1 72 -1980 -620 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 44225.dat
+0 STEP
+0 !BRICK_INSTANCE part-0149
+1 19 -2120 -600 40 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 87747.dat
+0 !BRICK_INSTANCE part-0150
+1 19 -2200 -600 40 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 87747.dat
+0 !BRICK_INSTANCE part-0151
+1 19 -2280 -600 40 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 87747.dat
+0 STEP
+0 !BRICK_INSTANCE part-0152
+1 19 -2360 -680 -40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 11477.dat
+0 !BRICK_INSTANCE part-0153
+1 19 -2360 -680 40 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 11477.dat
+0 NOFILE

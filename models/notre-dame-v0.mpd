@@ -1,5 +1,5 @@
 0 FILE notre-dame-v0.ldr
-0 !BRICK_STATE {"schema_version":3,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","reference_set":"LEGO Notre-Dame de Paris (6634573)","source_manual_segments":["6634573-66.pdf","6634573-125.pdf","6634573-163.pdf","6634573-202.pdf","6634573-239.pdf","6634573-290.pdf"],"coverage":"Booklet printed pages 6-7, steps 1-3","piece_count":6,"placement_status":"Steps 2-3 placed from diagram stud-grid relationships; exact edge-strip length and physical fit remain unverified","validation":{"part_files":"present in shared assets","physical_fit":"not_tested","full_manual_coverage":"not_started"},"instances":[{"id":"part-0001","part":"4282.dat","color":0,"position":[0,0,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate"},{"id":"part-0002","part":"4162.dat","color":0,"position":[0,-8,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate; length to confirm"},{"id":"part-0003","part":"4282.dat","color":0,"position":[280,0,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step2 diagram-derived; overlap/contact provisional"},{"id":"part-0004","part":"4162.dat","color":0,"position":[280,-8,40],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step2 diagram-derived; edge-strip length/orientation provisional"},{"id":"part-0005","part":"4282.dat","color":0,"position":[560,0,120],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step3 diagram-derived; overlap/contact provisional"},{"id":"part-0006","part":"4162.dat","color":0,"position":[560,-8,160],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step3 diagram-derived; edge-strip length/orientation provisional"}]}
+0 !BRICK_STATE {"schema_version":3,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","reference_set":"LEGO Notre-Dame de Paris (6634573)","source_manual_segments":["6634573-66.pdf","6634573-125.pdf","6634573-163.pdf","6634573-202.pdf","6634573-239.pdf","6634573-290.pdf"],"coverage":"Booklet printed pages 6-15, steps 1-12","piece_count":44,"placement_status":"Steps1-12 represented; steps2-12 placements provisional; 41539 and part dimensions require asset/catalog confirmation; physical fit unverified","validation":{"part_files":"present in shared assets","physical_fit":"not_tested","full_manual_coverage":"not_started"},"instances":[{"id":"part-0001","part":"4282.dat","color":0,"position":[0,0,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate"},{"id":"part-0002","part":"4162.dat","color":0,"position":[0,-8,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate; length to confirm"},{"id":"part-0003","part":"4282.dat","color":0,"position":[280,0,0],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step2 diagram-derived; overlap/contact provisional"},{"id":"part-0004","part":"4162.dat","color":0,"position":[280,-8,40],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step2 diagram-derived; edge-strip length/orientation provisional"},{"id":"part-0005","part":"4282.dat","color":0,"position":[560,0,120],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step3 diagram-derived; overlap/contact provisional"},{"id":"part-0006","part":"4162.dat","color":0,"position":[560,-8,160],"matrix":[0,0,1,0,1,0,-1,0,0],"status":"step3 diagram-derived; edge-strip length/orientation provisional"},{"id":"part-0007","part":"92438.dat","color":0,"position":[280,-8,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape asset registered; page9 footprint placement provisional"},{"id":"part-0008","part":"92438.dat","color":0,"position":[600,-8,40],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape asset registered; page9 footprint placement provisional"},{"id":"part-0009","part":"92438.dat","color":0,"position":[440,-8,200],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape asset registered; page9 footprint placement provisional"},{"id":"part-0010","part":"60479.dat","color":0,"position":[300,-16,80],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step7 diagram-derived; position provisional"},{"id":"part-0011","part":"3623.dat","color":19,"position":[500,-16,80],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step7 diagram-derived; position provisional"},{"id":"part-0012","part":"60479.dat","color":0,"position":[300,-16,160],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step7 diagram-derived; position provisional"},{"id":"part-0013","part":"3623.dat","color":19,"position":[500,-16,160],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step7 diagram-derived; position provisional"},{"id":"part-0014","part":"60479.dat","color":0,"position":[160,-8,80],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step8 diagram-derived; arm position provisional"},{"id":"part-0015","part":"60478.dat","color":0,"position":[160,-16,80],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step8 diagram-derived; tile position provisional"},{"id":"part-0016","part":"60479.dat","color":0,"position":[160,-8,160],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step8 diagram-derived; arm position provisional"},{"id":"part-0017","part":"60478.dat","color":0,"position":[160,-16,160],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step8 diagram-derived; tile position provisional"},{"id":"part-0018","part":"3028.dat","color":0,"position":[320,-16,80],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step9 shape candidate 6x12; dimensions and position diagram-derived provisional"},{"id":"part-0019","part":"3028.dat","color":0,"position":[640,-16,80],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step9 shape candidate 6x12; dimensions and position diagram-derived provisional"},{"id":"part-0020","part":"3036.dat","color":0,"position":[480,-16,160],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step9 shape candidate 6x8; dimensions and position diagram-derived provisional"},{"id":"part-0021","part":"60479.dat","color":0,"position":[0,-16,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step10 diagram-derived rail extension; provisional"},{"id":"part-0022","part":"60479.dat","color":0,"position":[320,-16,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step10 diagram-derived rail extension; provisional"},{"id":"part-0023","part":"60479.dat","color":0,"position":[0,-16,320],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step10 diagram-derived rail extension; provisional"},{"id":"part-0024","part":"60479.dat","color":0,"position":[320,-16,320],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step10 diagram-derived rail extension; provisional"},{"id":"part-0025","part":"60478.dat","color":0,"position":[0,-24,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step10 diagram-derived tile; provisional"},{"id":"part-0026","part":"60478.dat","color":0,"position":[320,-24,320],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step10 diagram-derived tile; provisional"},{"id":"part-0027","part":"41539.dat","color":0,"position":[320,-16,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step11 8x8 plate candidate; asset/placement provisional"},{"id":"part-0028","part":"41539.dat","color":0,"position":[480,-16,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step11 8x8 plate candidate; asset/placement provisional"},{"id":"part-0029","part":"41539.dat","color":0,"position":[640,-16,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step11 8x8 plate candidate; asset/placement provisional"},{"id":"part-0030","part":"41539.dat","color":0,"position":[320,-16,400],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step11 8x8 plate candidate; asset/placement provisional"},{"id":"part-0031","part":"41539.dat","color":0,"position":[480,-16,400],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step11 8x8 plate candidate; asset/placement provisional"},{"id":"part-0045","part":"3035.dat","color":0,"position":[320,-24,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0046","part":"3035.dat","color":0,"position":[480,-24,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0047","part":"3035.dat","color":0,"position":[640,-24,240],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0048","part":"3710.dat","color":19,"position":[320,-32,280],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0049","part":"3710.dat","color":19,"position":[400,-32,280],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0050","part":"3710.dat","color":19,"position":[480,-32,280],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0051","part":"3710.dat","color":19,"position":[560,-32,280],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0052","part":"3710.dat","color":19,"position":[320,-32,360],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0053","part":"3710.dat","color":19,"position":[400,-32,360],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0054","part":"3710.dat","color":19,"position":[480,-32,360],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0055","part":"3710.dat","color":19,"position":[560,-32,360],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0056","part":"3023b.dat","color":70,"position":[280,-32,200],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"},{"id":"part-0057","part":"3023b.dat","color":70,"position":[280,-32,220],"matrix":[1,0,0,0,1,0,0,0,1],"status":"step12 diagram-derived shape/position provisional"}]}
 0 Steps 1-3 / booklet printed pages 6-7. Step 1 starts the long base; steps 2-3 extend perpendicular arms with repeated plate and edge-strip pairs. Later arms are placed from the diagram grid; contact fit remains provisional.
 0 !BRICK_INSTANCE part-0001
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 4282.dat
@@ -19,3 +19,99 @@
 1 0 560 -8 160 0 0 1 0 1 0 -1 0 0 4162.dat
 0 STEP
 0 NOFILE
+
+0 Instruction step 6 / booklet printed page 9; three large 8x16 plates form the central footprint (part 92438; shared geometry requested). Positions are provisional.
+0 !BRICK_INSTANCE part-0007
+1 0 280 -8 40 1 0 0 0 1 0 0 0 1 92438.dat
+0 !BRICK_INSTANCE part-0008
+1 0 600 -8 40 1 0 0 0 1 0 0 0 1 92438.dat
+0 !BRICK_INSTANCE part-0009
+1 0 440 -8 200 1 0 0 0 1 0 0 0 1 92438.dat
+0 STEP
+0 Instruction step 7 / booklet printed page 10; two black long plates and two tan 1x3 plates bridge the central footprint. Coordinates are provisional.
+0 !BRICK_INSTANCE part-0010
+1 0 300 -16 80 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0011
+1 19 500 -16 80 1 0 0 0 1 0 0 0 1 3623.dat
+0 !BRICK_INSTANCE part-0012
+1 0 300 -16 160 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0013
+1 19 500 -16 160 1 0 0 0 1 0 0 0 1 3623.dat
+0 STEP
+
+0 Instruction step 8 / booklet printed page 11; two long black plates and two long black tiles continue the side arms. Coordinates provisional.
+0 !BRICK_INSTANCE part-0014
+1 0 160 -16 80 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0015
+1 0 160 -24 80 1 0 0 0 1 0 0 0 1 60478.dat
+0 !BRICK_INSTANCE part-0016
+1 0 160 -16 160 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0017
+1 0 160 -24 160 1 0 0 0 1 0 0 0 1 60478.dat
+0 STEP
+
+0 Instruction step 9 / booklet printed page 12; 2 large 6x12 plate candidates and one smaller 6x8 plate candidate fill the floor. Exact dimensions/offsets remain diagram-derived.
+0 !BRICK_INSTANCE part-0018
+1 0 320 -16 80 1 0 0 0 1 0 0 0 1 3028.dat
+0 !BRICK_INSTANCE part-0019
+1 0 640 -16 80 1 0 0 0 1 0 0 0 1 3028.dat
+0 !BRICK_INSTANCE part-0020
+1 0 480 -16 160 1 0 0 0 1 0 0 0 1 3036.dat
+0 STEP
+
+0 Instruction step 10 / booklet printed page 13; four black 1x12 plate candidates and two 1x12 tiles extend the perimeter rails. Coordinates provisional.
+0 !BRICK_INSTANCE part-0021
+1 0 0 -16 240 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0022
+1 0 320 -16 240 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0023
+1 0 0 -16 320 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0024
+1 0 320 -16 320 1 0 0 0 1 0 0 0 1 60479.dat
+0 !BRICK_INSTANCE part-0025
+1 0 0 -24 240 1 0 0 0 1 0 0 0 1 60478.dat
+0 !BRICK_INSTANCE part-0026
+1 0 320 -24 320 1 0 0 0 1 0 0 0 1 60478.dat
+0 STEP
+
+0 Instruction step 11 / booklet printed page 14; five 8x8 plate candidates (41539) fill central floor. Part mapping and positions provisional.
+0 !BRICK_INSTANCE part-0027
+1 0 320 -16 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE part-0028
+1 0 480 -16 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE part-0029
+1 0 640 -16 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE part-0030
+1 0 320 -16 400 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE part-0031
+1 0 480 -16 400 1 0 0 0 1 0 0 0 1 41539.dat
+0 STEP
+
+0 Instruction step 12 / booklet printed page 15; 3 black 4x8 plate candidates, 8 tan 1x4 plate candidates and 2 brown 1x2 plate candidates. Diagram-derived positions provisional.
+0 !BRICK_INSTANCE part-0045
+1 0 320 -24 240 1 0 0 0 1 0 0 0 1 3035.dat
+0 !BRICK_INSTANCE part-0046
+1 0 480 -24 240 1 0 0 0 1 0 0 0 1 3035.dat
+0 !BRICK_INSTANCE part-0047
+1 0 640 -24 240 1 0 0 0 1 0 0 0 1 3035.dat
+0 !BRICK_INSTANCE part-0048
+1 19 320 -32 280 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0049
+1 19 400 -32 280 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0050
+1 19 480 -32 280 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0051
+1 19 560 -32 280 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0052
+1 19 320 -32 360 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0053
+1 19 400 -32 360 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0054
+1 19 480 -32 360 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0055
+1 19 560 -32 360 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-0056
+1 70 280 -32 200 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE part-0057
+1 70 280 -32 220 1 0 0 0 1 0 0 0 1 3023b.dat
+0 STEP
