@@ -38,12 +38,12 @@
 1 0 -340 8 0 1 0 0 0 1 0 0 0 1 4282.dat
 0 STEP
 0 Instruction step 106 / book 1 page 112
-0 Steering stand 3829c01 omitted as internal decoration, not a joint.
+0 The manual's page106 BOM also lists one 3829c01 steering-seat assembly. Omit it as hidden interior decoration, not a skeletal/body connector; retain the two 87552 columns and 87580 plate.
 1 71 -430 -40 0 0 0 -1 0 1 0 1 0 0 87552.dat
 1 71 -350 -40 0 0 0 1 0 1 0 -1 0 0 87552.dat
 1 71 -380 0 0 1 0 0 0 1 0 0 0 1 87580.dat
 0 STEP
-0 Instruction step 107 / internal frog and seat decoration omitted.
+0 Instruction step 107 / book 1 page 113. Omit the frog and brown seat as internal decoration; page113 image confirms their inset location. This is not a missing skeletal part.
 0 STEP
 0 Instruction step 108 / book 1 page 113
 1 0 -310 -32 0 1 0 0 0 1 0 0 0 1 3021.dat
