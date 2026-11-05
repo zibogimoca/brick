@@ -664253,8 +664253,13 @@
           "previous_candidates_to_recheck": [
             "35480"
           ],
-          "reason": "26단계는 dark tan15573 점퍼와 reddish brown24246 반원 1×1 타일 후보다. 호출의 갈색 조각은 두 열린 스터드를 가진 35480 둥근 1×2 판과 다르다. 부품별 색상도 분리해 확인한다.",
-          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
+          "reason": "Step26 brown element callout visibly has one central stud. Inventory element 6510060 maps through the community crosswalk to LDraw 1745, whose official description is Plate 1 x 2 Half Round with 1 Centre Stud. 24246 is smooth and lacks the shown stud, so it is rejected as a visual match. The exact physical element/mold and contact remain unverified.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified",
+          "visual_resolution": {
+            "source": "6634573-66.pdf, split PDF page 21 / printed page 26; magnified LDraw callout compared against official part descriptions and element table",
+            "finding": "The reddish-brown callout has a visible central stud; listed element 6510060 crosswalks to LDraw 1745. Use 1745 as the shape candidate. 24246 is a smooth rounded-end tile without a stud and is not a match to the visible callout.",
+            "status": "diagram_and_inventory_support_1745_shape_candidate; exact_lego_element_mold_and_placement_not_verified"
+          }
         },
         {
           "source_document": "6634577.pdf",
@@ -664312,7 +664317,12 @@
             "92593"
           ],
           "reason": "수직으로 두 측면 스터드가 있는32952, 양쪽 반아치38583, 두 스터드·홈이 있는41740, 99563 금괴 타일 후보를 대조한다. 11211은 가로1×2 측면 브릭이므로 같은 것으로 취급하지 않는다. 공식 LDraw99563은96910으로 identity alias되므로 기존96910 사용을 번호가 다르다는 이유만으로 오류 처리하지 않는다. 41740과92593의 하부 형상 차이도 접점과 함께 확인한다.",
-          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified",
+          "visual_resolution": {
+            "source": "6634573-66.pdf split page29 / printed34 for step41 and split page32 / printed37 for step44; inspected original diagram against official LDraw descriptions and bounds",
+            "finding": "Step41 callout shows 13 vertical side-stud cores, opposite-side half arches, 1x4 two-stud grooved plates and chamfered tiles; use 32952/38583/41740 and 99563 (identity alias 96910). The old 11211/1745/92593 shapes differ.",
+            "status": "diagram_shape_candidate_reconciled; station_alignment_provisional; physical_side_contacts_not_verified"
+          }
         },
         {
           "source_document": "6634577.pdf",
@@ -664346,7 +664356,12 @@
             "37352"
           ],
           "reason": "반아치가 서로 인접한 두 면에 있는38585와99563 타일이 도해와 제품 부품표에 부합한다. 기존37352 곡면 브릭은 스터드 없는 다른 형상이다. 금괴 타일의 LDraw99563→96910 alias는 유효하다.",
-          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified",
+          "visual_resolution": {
+            "source": "6634573-66.pdf split page29 / printed34 for step41 and split page32 / printed37 for step44; inspected original diagram against official LDraw descriptions and bounds",
+            "finding": "Step44 callout shows adjacent-side half arches and two-indent tiles; use 38585 and 99563 (identity alias 96910). Old 37352 is a different 1x2 curved brick.",
+            "status": "diagram_shape_candidate_reconciled; station_alignment_provisional; physical_side_contacts_not_verified"
+          }
         },
         {
           "source_document": "6634577.pdf",
@@ -671615,8 +671630,13 @@
           "previous_candidates_to_recheck": [
             "35480"
           ],
-          "reason": "26단계는 dark tan15573 점퍼와 reddish brown24246 반원 1×1 타일 후보다. 호출의 갈색 조각은 두 열린 스터드를 가진 35480 둥근 1×2 판과 다르다. 부품별 색상도 분리해 확인한다.",
-          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
+          "reason": "Step26 brown element callout visibly has one central stud. Inventory element 6510060 maps through the community crosswalk to LDraw 1745, whose official description is Plate 1 x 2 Half Round with 1 Centre Stud. 24246 is smooth and lacks the shown stud, so it is rejected as a visual match. The exact physical element/mold and contact remain unverified.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified",
+          "visual_resolution": {
+            "source": "6634573-66.pdf, split PDF page 21 / printed page 26; magnified LDraw callout compared against official part descriptions and element table",
+            "finding": "The reddish-brown callout has a visible central stud; listed element 6510060 crosswalks to LDraw 1745. Use 1745 as the shape candidate. 24246 is a smooth rounded-end tile without a stud and is not a match to the visible callout.",
+            "status": "diagram_and_inventory_support_1745_shape_candidate; exact_lego_element_mold_and_placement_not_verified"
+          }
         },
         {
           "source_document": "6634577.pdf",
@@ -671674,7 +671694,12 @@
             "92593"
           ],
           "reason": "수직으로 두 측면 스터드가 있는32952, 양쪽 반아치38583, 두 스터드·홈이 있는41740, 99563 금괴 타일 후보를 대조한다. 11211은 가로1×2 측면 브릭이므로 같은 것으로 취급하지 않는다. 공식 LDraw99563은96910으로 identity alias되므로 기존96910 사용을 번호가 다르다는 이유만으로 오류 처리하지 않는다. 41740과92593의 하부 형상 차이도 접점과 함께 확인한다.",
-          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified",
+          "visual_resolution": {
+            "source": "6634573-66.pdf split page29 / printed34 for step41 and split page32 / printed37 for step44; inspected original diagram against official LDraw descriptions and bounds",
+            "finding": "Step41 callout shows 13 vertical side-stud cores, opposite-side half arches, 1x4 two-stud grooved plates and chamfered tiles; use 32952/38583/41740 and 99563 (identity alias 96910). The old 11211/1745/92593 shapes differ.",
+            "status": "diagram_shape_candidate_reconciled; station_alignment_provisional; physical_side_contacts_not_verified"
+          }
         },
         {
           "source_document": "6634577.pdf",
@@ -671708,7 +671733,12 @@
             "37352"
           ],
           "reason": "반아치가 서로 인접한 두 면에 있는38585와99563 타일이 도해와 제품 부품표에 부합한다. 기존37352 곡면 브릭은 스터드 없는 다른 형상이다. 금괴 타일의 LDraw99563→96910 alias는 유효하다.",
-          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified",
+          "visual_resolution": {
+            "source": "6634573-66.pdf split page29 / printed34 for step41 and split page32 / printed37 for step44; inspected original diagram against official LDraw descriptions and bounds",
+            "finding": "Step44 callout shows adjacent-side half arches and two-indent tiles; use 38585 and 99563 (identity alias 96910). Old 37352 is a different 1x2 curved brick.",
+            "status": "diagram_shape_candidate_reconciled; station_alignment_provisional; physical_side_contacts_not_verified"
+          }
         },
         {
           "source_document": "6634577.pdf",

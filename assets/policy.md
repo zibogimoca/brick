@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 319종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 290종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -440,9 +440,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "99207",
     "99563",
     "99780",
-    "99781",
-    "19119",
-    "90398"
+    "99781"
   ],
   "files": {
     "LDConfig.ldr": {
@@ -10815,64 +10813,6 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 320,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/19119.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/19119.dat",
-      "sha256": "0489fd68cb86898ef60e234de7425346d1324036ed88b5536655bc31f9e09d5f",
-      "bytes": 11288
-    },
-    "primitives/t01o4000.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/p/t01o4000.dat",
-      "sha256": "649427b40541ede62e77cdc22b775a78f51e0bd01e3a8ddeed5ad249cbc7aab9",
-      "bytes": 17905
-    },
-    "parts/37695s01.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/37695s01.dat",
-      "sha256": "93faae8f7cff333fa15f0486b4cdf9d574ddf97548e75a689166d0cd0557b905",
-      "bytes": 52052
-    },
-    "parts/90398.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/90398.dat",
-      "source_sha256": "02b70e612e81a94aaacf0e3a9158df3a880c156820dbcc8204764138644de527",
-      "sha256": "124c45aaf1182df4102a6552e1f24f38393ee32bcc7c360e7491b854a6798993",
-      "bytes": 2164,
-      "modification": "Dependency paths normalized for shared folders; geometry coordinates unchanged.",
-      "author": "Magnus Forsberg [MagFors]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/subparts/90398s01.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/s/90398s01.dat",
-      "source_sha256": "d64313ee1906015c68c95d862cd96d45b903ce1173481521203da00b0e883702",
-      "sha256": "ac777bae7c349cf63769b3e7aab15416c32657edf795cd320e52f334c6cd9fac",
-      "bytes": 57385,
-      "modification": "Dependency paths normalized for shared folders; geometry coordinates unchanged.",
-      "author": "Magnus Forsberg [MagFors]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/subparts/90398s02.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/s/90398s02.dat",
-      "source_sha256": "ad552a0b937a012c4454af17c3966b0120734e7997cef50dbc8f18e69c137f15",
-      "sha256": "5f90255f697db2adbd21c39fb0b93a2a0846f562bc10f76f520b0293bc6fc12b",
-      "bytes": 820,
-      "modification": "Dependency paths normalized for shared folders; geometry coordinates unchanged.",
-      "author": "Magnus Forsberg [MagFors]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "primitives/t04o6250.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/p/t04o6250.dat",
-      "source_sha256": "c09d0c876e3b54907f2640576924316922d686fec53bb64cf7379efa0d8e9485",
-      "sha256": "8f90746d1572ec1c69237716f71e392828570535a8f45d71016fb74855c132e5",
-      "bytes": 5237,
-      "modification": "Dependency paths normalized for shared folders; geometry coordinates unchanged.",
-      "author": "Paul Easter [pneaster]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
