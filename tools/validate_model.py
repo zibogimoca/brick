@@ -2,7 +2,8 @@
 기능: 지정한 MPD의 실제 배치와 상태 기록, 부품 사전·가격·형상 무결성을 검사한다.
 입력: models/<모델>.mpd 위치 인자, docs/gobricks-dictionary.json, assets/policy.md.
 선택: --check-body-overlaps로 직육면체 몸체 겹침을 검사한다. 곡선·관절은 제외한다.
-출력: 콘솔 검사 결과만 출력한다. 파일을 생성·수정하지 않는다.
+출력: 기본은 읽기 전용. --sync-state는 schema 3의 ID·수량·좌표 상태만 본문에서 갱신한다.
+      --sync-only와 함께 쓰면 상태 갱신만 수행한다. 형상·목표 치수·검증 판정은 바꾸지 않는다.
 실행: python3 tools/validate_model.py models/tyrannosaurus-v1.mpd
 범위: BRICK schema_version 3; 계층·회전·수량·중복 배치 검사.
       v0는 LEGO 형상을 검사하며, 다른 버전은 GoBricks SKU·색상·가격도 검사한다.
@@ -41,6 +42,81 @@ def body_overlaps(state, parts):
    if not separated:errors.append((o,other))
  return errors
 
+def sync_state(model):
+ """Derive schema-3 metadata without changing any type-1 geometry or verification claims."""
+ text=model.read_text();lines=text.splitlines(keepends=True)
+ state_line=next(i for i,l in enumerate(lines) if l.startswith('0 !BRICK_STATE '))
+ state=json.loads(lines[state_line].split(' ',2)[2])
+ if state.get('schema_version')!=3:
+  raise ValueError('--sync-state supports schema 3 only; the model was not changed')
+ identity=[1,0,0,0,1,0,0,0,1];defs={};current=None;marker=None;used=set();edits={};insertions={}
+ reserved={l.split()[2] for l in lines if l.startswith('0 !BRICK_INSTANCE ')}
+ serial=1
+ for idx,line in enumerate(lines):
+  if line.startswith('0 FILE '):
+   current=line[7:].strip();marker=None
+   if current in defs:raise ValueError('Duplicate FILE '+current)
+   defs[current]=[]
+  elif line.startswith('0 NOFILE'):current=None;marker=None
+  elif line.startswith('0 !BRICK_INSTANCE '):marker=idx
+  elif line.startswith('1 ') and current:
+   f=line.split(maxsplit=14)
+   if len(f)!=15:raise ValueError('Invalid type-1 line')
+   child=f[14].strip();ident=lines[marker].split()[2] if marker is not None else None
+   if child.lower().endswith('.dat') and not current.lower().endswith('.dat'):
+    if not ident or ident in used:
+     while 'part-%04d'%serial in reserved:serial+=1
+     ident='part-%04d'%serial;reserved.add(ident);serial+=1
+     replacement='0 !BRICK_INSTANCE '+ident+'\n'
+     if marker is None:insertions[idx]=replacement
+     else:edits[marker]=replacement
+    used.add(ident)
+   defs[current].append((ident,int(f[1]),list(map(float,f[2:5])),list(map(float,f[5:14])),child))
+   marker=None
+ if not defs:raise ValueError('No MPD definitions')
+ old={o['id']:o for o in state.get('instances',[])}
+ for group in state.get('unplaced_submodels',[]):
+  old.update({o['id']:o for o in group.get('instances',[])})
+ reached=set();emitted=set()
+ def walk(name,mat,pos,color=16,stack=()):
+  if name in stack:raise ValueError('Cyclic MPD '+name)
+  reached.add(name);result=[]
+  for ident,c,t,m,child in defs[name]:
+   c=color if c==16 else c;rt=plus(pos,mv(mat,t));rm=mm(mat,m)
+   if child.lower().endswith('.dat'):
+    if ident in emitted:
+     raise ValueError('Repeated physical definition '+str(ident)+': use unique physical IDs per placed occurrence before syncing; model unchanged')
+    emitted.add(ident);prior=old.get(ident,{})
+    item=dict(prior)
+    if prior and (prior.get('part')!=child or prior.get('color')!=c):
+     item.pop('gobricks_id',None);item.pop('sku',None)
+     item['catalog_mapping_status']='not_verified'
+    item.update(id=ident,part=child,color=c,position=rt,matrix=rm)
+    item.setdefault('group',name)
+    result.append(item)
+   else:
+    if child not in defs:raise ValueError('Missing internal submodel '+child)
+    result.extend(walk(child,rm,rt,c,stack+(name,)))
+  return result
+ placed=walk(next(iter(defs)),identity,[0,0,0]);unplaced=[]
+ # Only unreferenced local roots are listed, not every nested definition twice.
+ remaining=set(defs)-reached
+ children={child for name in remaining for _,_,_,_,child in defs[name] if child in remaining}
+ roots=[name for name in defs if name in remaining-children and not name.lower().endswith('.dat')]
+ previous={g['file']:g for g in state.get('unplaced_submodels',[])}
+ for name in roots:
+  items=walk(name,identity,[0,0,0])
+  group=dict(previous.get(name,{}));group.update(file=name,instances=items)
+  group.setdefault('status','local_definition_not_root_reachable');unplaced.append(group)
+ if any(name not in reached and not name.lower().endswith('.dat') for name in defs):
+  raise ValueError('Unreachable cyclic definitions; model unchanged')
+ state.update(instances=placed,piece_count=len(placed),placed_piece_count=len(placed),unplaced_submodels=unplaced,unplaced_piece_count=sum(len(g['instances']) for g in unplaced))
+ edits[state_line]='0 !BRICK_STATE '+json.dumps(state,ensure_ascii=False,separators=(',',':'))+'\n'
+ result=''.join(insertions.get(i,'')+edits.get(i,l) for i,l in enumerate(lines))
+ # Type-1 rows, local coordinates and all connection/coverage claims stay unchanged.
+ model.write_text(result)
+ print('STATE SYNC:',len(placed),'root parts;',state['unplaced_piece_count'],'unplaced parts. Geometry and verification claims unchanged.')
+
 def run(model, check_body=False):
  root=Path('assets');manifest=json.loads((root/'policy.md').read_text().split('<!-- asset-manifest:start -->\n```json\n',1)[1].split('\n```\n<!-- asset-manifest:end -->',1)[0])
  for rel,entry in manifest['files'].items():
@@ -58,20 +134,20 @@ def run(model, check_body=False):
    current=line[7:].strip();assert current not in defs;defs[current]=[];marker=None
   elif line.startswith('0 !BRICK_INSTANCE '):marker=line.split()[2]
   elif line.startswith('1 '):
-   fields=line.split();assert current and len(fields)==15
+   fields=line.split(maxsplit=14);fields[-1]=fields[-1].strip();assert current and len(fields)==15
    defs[current].append((marker,int(fields[1]),list(map(float,fields[2:5])),list(map(float,fields[5:14])),fields[14]));marker=None
  exported={};identity=[1,0,0,0,1,0,0,0,1]
- def visit(name,mat,pos,stack=()):
+ def visit(name,mat,pos,stack=(),inherited_color=16):
   assert name not in stack,'Cyclic MPD submodel'
   for ident,color,t,m,child in defs[name]:
-   rm=mm(mat,m);rt=plus(pos,mv(mat,t))
+   rm=mm(mat,m);rt=plus(pos,mv(mat,t));color=inherited_color if color==16 else color
    if child.endswith('.dat'):
     assert ident and ident not in exported,'Duplicate or missing instance ID'
     assert (root/'parts'/child).is_file(),child
     exported[ident]=(color,rt,rm,child)
    else:
     assert child in defs,child
-    visit(child,rm,rt,stack+(name,))
+    visit(child,rm,rt,stack+(name,),color)
  visit(next(iter(defs)),identity,[0,0,0])
  items={i['id']:i for i in state['instances']};assert len(items)==len(state['instances'])
  assert set(items)==set(exported) and len(items)==state['piece_count']
@@ -138,4 +214,7 @@ def run(model, check_body=False):
   print('LEGO GEOMETRY PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'verified GoBricks SKUs; GoBricks product mapping is not required for v0.')
  print('NOT VERIFIED: assembly connectivity, exact mesh collision, joint range/strength, load stability, superiority to reference product.')
 if __name__=='__main__':
- parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('model',type=Path);parser.add_argument('--check-body-overlaps',action='store_true',help='직육면체 브릭 몸체의 명목 간섭 검사; 실패 시 0이 아닌 코드 반환');args=parser.parse_args();run(args.model,args.check_body_overlaps)
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('model',type=Path);parser.add_argument('--check-body-overlaps',action='store_true',help='직육면체 브릭 몸체의 명목 간섭 검사; 실패 시 0이 아닌 코드 반환');parser.add_argument('--sync-state',action='store_true',help='schema 3 본문 기준 상태 갱신; 반복 호출의 ID가 모호하면 저장 없이 실패');parser.add_argument('--sync-only',action='store_true',help='--sync-state와 함께 상태 갱신만 실행');args=parser.parse_args()
+ if args.sync_only and not args.sync_state:parser.error('--sync-only requires --sync-state')
+ if args.sync_state:sync_state(args.model)
+ if not args.sync_only:run(args.model,args.check_body_overlaps)
