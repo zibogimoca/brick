@@ -88,6 +88,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "1762",
     "18651",
     "18654",
+    "18674",
     "18980",
     "22385",
     "22885",
@@ -139,12 +140,14 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3023",
     "3023b",
     "3024",
+    "3028",
     "3031",
     "3032",
     "3033",
     "3034",
     "3035",
     "30357",
+    "3036",
     "30363",
     "30374",
     "3039",
@@ -221,6 +224,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "40378",
     "40379",
     "4070",
+    "4073",
+    "41539",
     "4162",
     "41682",
     "41740",
@@ -330,6 +335,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "86996",
     "87079",
     "87087",
+    "87544",
     "87552",
     "87580",
     "87620",
@@ -1845,8 +1851,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/4-4cylo.dat",
       "source_sha256": "d6ca97ee2e75918b3309a5c88aafcd2455b3a316f7cef8963517c19f1d86b38f",
-      "sha256": "8f6e757b6d93b445406cd05d7d9bfc9ea3ef174801e5e15cc2def81420f71857",
-      "bytes": 416,
+      "sha256": "7ccfd523adf8b887a1eb8d1b84e30832d48a0f09cfd4810467f72ed936d92d1d",
+      "bytes": 413,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Mark Kennedy [mkennedy]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -3701,6 +3707,39 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Philippe Hurbain [Philo]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/18674.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/18674.dat",
+      "source_sha256": "1a6a54b886d17bf5b5556c1e5db9ee3c6a30cfe5228cc53eabfced3d37bb499e",
+      "sha256": "27a5033d5f84585affddf6c614af7891568caf432429fde4c0718663d82715ac",
+      "bytes": 1051,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+
+    "parts/87544.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/87544.dat",
+      "source_sha256": "70dad5448009af938468c1253f98be5a108c67fd8e24779feeab47a5747f3962",
+      "sha256": "8c6f258868dfb33ef086f278ac28e0e637aee0a3bc471afe0c7a0ec2493c5d0f",
+      "bytes": 667,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Rene Rechthaler [Blechtaler]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+
+    "parts/subparts/87544s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/87544s01.dat",
+      "source_sha256": "1300990698e3c5e42964a13b3704fd6eaaf7d4ca7c0b9f63133c47ba10bd47b5",
+      "sha256": "4a6de899925e656db82483dea1b7ef9364a8d98f1d4683d74ae295d3628fe61e",
+      "bytes": 3084,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Rene Rechthaler [Blechtaler]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+
     "parts/87552.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/87552.dat",
@@ -4535,8 +4574,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/6141.dat",
       "source_sha256": "fb2cd4fad207392508bd2ca8b5469b1c351b692e111aa06b55da55d53fd44dd7",
-      "sha256": "e478866dd21d44746c7a6e05798bd83ff528dfc8633b5cc94162f4c810b894c9",
-      "bytes": 1076,
+      "sha256": "0364e421813b92ffebd100b815a9a40d630759eebc11aee37ac637eeb9e2ee19",
+      "bytes": 1069,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -5135,8 +5174,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stud4.dat",
       "source_sha256": "871cdcab26e7f5113488a24c453d6fabda75b275b06de592e0bfaad4292c12a3",
-      "sha256": "a1340a6652396d41a04ca3c595a663893611dc5db239bf49caa3db1abb466c1b",
-      "bytes": 1012,
+      "sha256": "b4c45522882db818641f56b4abd95c5ba3b76da74c567ba0d9dc3da89c10fcf0",
+      "bytes": 1005,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -5775,8 +5814,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stud.dat",
       "source_sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
-      "sha256": "407a8aad1581c2ef07fc1a1f5aabc4e3b64161f1a2803e154cee75da4561d2dd",
-      "bytes": 742,
+      "sha256": "20de312b34b2769113d15581ed298971d246f7585f23cffe1e334747a6d3ced2",
+      "bytes": 738,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -8347,6 +8386,46 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 495,
       "modification": "Dependency paths renamed to the project asset folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/3028.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/3028.dat",
+      "source_sha256": "52dfb92f2351b6a6ba5cc00039be58bc024ca50697d6d7aeae5d02a308b6fd33",
+      "sha256": "b4b88a2455081ab0f8fb514c6081785b40cd9afa4634960ccd8d04affbc663f7",
+      "bytes": 7635,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/3036.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/3036.dat",
+      "source_sha256": "3074a0b2952f5d9903ac2fe2196a8110e1553fd245a1d8bc7ccb43f99c654d38",
+      "sha256": "7c108504e6823f46eecab58f22931e13acd9cf6a355e849f11556bba88a6e71c",
+      "bytes": 5246,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/41539.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/41539.dat",
+      "source_sha256": "8b07f1bb13a223f20d2587560540a584d99fdab788c234168e57c18ad796d084",
+      "sha256": "2f01cbe3e4239b745973cfc7f580f43afe0846e429de03c5943cbcdb05e8e9c8",
+      "bytes": 6741,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Martin G Cormier",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/4073.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/4073.dat",
+      "source_sha256": "18f33637a25a55fc066769ec283719fc096e90eb7007136531bfffdc00126e0a",
+      "sha256": "f26e90154a9aecabc6a3e6ba06905883b731f4154b1865601b48f78460e7c5ba",
+      "bytes": 400,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "[PTadmin]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
