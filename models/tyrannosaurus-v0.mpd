@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3003,"body_draft_piece_count":2488,"stand_draft_piece_count":515,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3001,"body_draft_piece_count":2488,"stand_draft_piece_count":513,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -4189,10 +4189,10 @@
 0 Instruction step51 / book1 page63. Rock assembly bottom Y24 mates roof Y-48.
 1 16 660 -72 70 -1 0 0 0 1 0 0 0 -1 stand-foot-review-high-foot-rock-step51.ldr
 0 STEP
-0 Instruction step52 / book1 page64. Amber stack lower olive plate bottom mates roof.
+0 Instruction step52 / book1 printed page52. BOM 15672x1, 3023x1, 3062bx1, 3005x1; all four are placed in this module. Physical connection is not load-tested.
 1 16 720 -56 70 1 0 0 0 1 0 0 0 1 stand-foot-review-high-foot-amber-step52.ldr
 0 STEP
-0 Instruction step53 / book1 page65. Geodes use the exposed roof and right-side cap studs; curved caps use the lower3021row and adjoining olive plate level.
+0 Instruction step53 / book1 printed page53. BOM 54200x1, 11477x2, 24866x1 and composite geode 49656x2; two geode instances each expand to two official mesh subparts. Their contact/load is not physically tested.
 1 16 630 -48 70 -1 0 0 0 1 0 0 0 -1 stand-foot-review-amber-geode-step53.ldr
 1 16 750 -40 90 -1 0 0 0 1 0 0 0 -1 stand-foot-review-amber-geode-step53.ldr
 1 330 750 -32 120 -1 0 0 0 1 0 0 0 -1 11477.dat
@@ -4262,7 +4262,7 @@
 1 72 0 -32 0 0 0 1 0 1 0 -1 0 0 15672.dat
 0 NOFILE
 0 FILE stand-foot-review-amber-geode-step53.ldr
-0 Step53 one physical geode. Existing official split mesh: translucent-orange crystal interior and dark-bluish-gray matrix. No new asset files.
+0 One physical 49656 geode. The official split mesh uses translucent-orange crystal interior and dark-bluish-gray matrix; two instances are placed by step53. These two geometry references form one physical part per instance. No new asset files.
 1 57 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s01.dat
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s02.dat
 
