@@ -249,6 +249,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "43711",
     "43722",
     "43723",
+    "43888",
     "44224",
     "44225",
     "44301b",
@@ -8634,6 +8635,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/43888.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/43888.dat",
+      "source_sha256": "f4687f2989f6ceeadfc45add9061d37440646cf0bd353aa8fecd481e7a505c6b",
+      "sha256": "f38ac30af46dce870eaab62d710a9f8a18a46c314bd1877155647d02bfea0fc1",
+      "bytes": 1517,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Stig-Erik Blomqvist [stigge72]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
     }
   }
 }
