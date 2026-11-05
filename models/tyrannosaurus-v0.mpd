@@ -692,7 +692,7 @@
 1 28 -30 -8 30 -1 0 0 0 1 0 0 0 -1 54200.dat
 0 NOFILE
 0 FILE neck-joint-step142.ldr
-0 Book 1 pages149-151, steps142-149. Independent joint carrier; clutch assembly pending.
+0 Book 1 pages149-152, steps142-151. Build the joint carrier in steps142-150 and mount it in step151; mesh alignment is represented, but clutch motion and holding force are not tested.
 0 Instruction step 142
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 99207.dat
 1 322 -10 -8 10 0 0 1 0 1 0 -1 0 0 3023b.dat
@@ -767,7 +767,7 @@
 1 19 -10 -24 -10 0 0 1 0 1 0 -1 0 0 50950.dat
 0 NOFILE
 0 FILE hip-cap-step163.ldr
-0 Book1 pages165-166 step163. Independent assembly; body attachment under review.
+0 Book1 pages165-166 step163. Cap underside alignment to the page121 spine plate is represented; attachment strength is untested.
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 3034.dat
 1 28 -60 -8 -10 1 0 0 0 1 0 0 0 1 99207.dat
 1 28 -60 -8 10 -1 0 0 0 1 0 0 0 -1 99207.dat
