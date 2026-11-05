@@ -122,8 +122,8 @@ test('loads integrated v0 with no invented articulation and can return to v1', a
   await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 180000 });
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
   await expect(page.locator('#summary')).toContainText('본체·받침대 통합 검토본');
-  await expect(page.locator('#summary')).toContainText('본체 초안 2488개');
-  await expect(page.locator('#summary')).toContainText('두 번째 다리 비대칭 보행 후보');
+  await expect(page.locator('#summary')).toContainText('본체 초안 2489개');
+  await expect(page.locator('#summary')).toContainText('하퇴 자세와 받침 접촉 추가 검증 중');
   await expect(page.locator('#pose-panel')).toBeHidden();
   await page.selectOption('#versions', { label: '버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 180000 });
@@ -189,6 +189,7 @@ test('loads all integrated review models without missing geometry', async ({ pag
     ['티라노사우루스', '버전 0', 'tyrannosaurus-v0.mpd'],
     ['트리케라톱스', '버전 0', 'triceratops-v0.mpd'],
     ['노트르담 대성당', '버전 0', 'notre-dame-v0.mpd'],
+    ['호그와트성', '버전 0', 'hogwarts-castle-v0.mpd'],
   ]) {
     await page.selectOption('#models', { label: model });
     await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
