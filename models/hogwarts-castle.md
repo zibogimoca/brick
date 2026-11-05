@@ -27,4 +27,4 @@ Printed p.14 step9 is now represented in `hogwarts-step9.ldr`: the brown bar is 
 - MPD physical Type-1 references, unique IDs, per-instance transforms, and state records are checked separately for root and unplaced local modules.
 - Root placements: 27 unique physical references. Local partial modules: 39 physical references total. Unplaced definitions are not counted as assembled root pieces.
 - 64179 source asset hashes and recursive dependencies are recorded in the shared asset manifest.
-- The repository validator reaches the commercial catalog lookup, then stops on empty `gobricks_id` (`KeyError: ''`). This is a catalog-mapping failure, not a geometry pass. Structural/shape checks continue independently; no placeholder offer data is used.
+- The current shared validator checks v0 LEGO geometry without requiring GoBricks IDs/SKUs. Root27 refs and state are checked; 39 local parts remain unplaced and do not count toward the assembled root. Physical joints remain subject to direct connection and view checks.
