@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3002,"body_draft_piece_count":2489,"stand_draft_piece_count":513,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 고관절 중심 좌표 일치 · 하퇴 자세와 받침 접촉 추가 검증 중","unresolved":"3권 710단계 6589 베벨 기어 후보를 반대편에 배치했으며 치형 맞물림·간섭은 화면 검토 중입니다. 3권 712–714단계 명판 브래킷은 명판만 지지하는 비구조 부품으로 판별했지만 MPD 반영이 남았습니다(인쇄 명판 제외). 두 다리 고관절 중심은 몸통 볼과 좌표상 일치합니다. 대퇴·무릎·발목·발끝의 설명서 자세 비교와 발-받침 실제 접촉이 남았습니다. 3707 축의 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중·안정성은 미검증입니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3002,"body_draft_piece_count":2489,"stand_draft_piece_count":513,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 고관절 중심 정렬 · 발끝·받침 연결 미완료","unresolved":"두 다리의 선택 고관절 접점은 몸통 볼 중심과 0.04 LDU 이내로 정렬됩니다. 56 LDU는 다리 내부의 다른 소켓 간격이며 몸통 좌우 볼 간격 80 LDU와 짝이 아닙니다. 발가락 조립체 6개는 다리 루트 작업 좌표에 남아 있고 발목 코어에서 분리되어 재배치가 필요합니다. 받침의 3707 축은 받침 안쪽 3700 구멍과만 정렬되었으며 다리 발과의 접촉은 미확인입니다. 710단계의 두 6589는 32073 축 양 끝에 놓이는 후보로, 맞물리는 상대 부품과 회전 전달은 아직 미확인입니다. 3권 712–714단계 명판 받침 조립은 MPD 반영이 남았습니다(인쇄 명판 제외). 전수 간섭·실물 결합·가동·하중·안정성은 미검증입니다.","support_note":"받침대와 지지축은 CAD 초안입니다. 다리와 발끝의 연결, 부품 접촉, 전수 간섭, 실물 결합, 하중은 미검증입니다.","assembly_verified":false,"joints":[]}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -614,11 +614,11 @@
 1 16 -740 -20.1277115412 -170.180946322 0.5 0 -0.866025403784 -0.612372435707 0.7071067812 -0.3535533906 0.612372435707 0.7071067812 0.3535533906 shoulder-strap-step454.ldr
 0 Step709:69789transverseaxlehole native(0,0,-10) becomes head(11.9,-74,0); matchedbodycapaxis(-1030,-98,0).
 1 16 -1041.9 -24 0 1 0 0 0 1 0 0 0 1 book3-head-assembly.ldr
-0 Step7095Laxle and12Tbevel; gearbaseflushoutercapZ-40.
+0 Step709 5L axle runs on world Z; gear center Z=-43 seats near the negative axle end.
 1 71 -1030 -98 0 0 0 1 0 1 0 -1 0 0 32073.dat
 1 19 -1030 -98 -43 -1 0 0 0 1 0 0 0 -1 6589.dat
 0 STEP
-0 Instruction step 710 / book 3 page 97. The manual adds the second 6589 bevel gear to the near side of the neck drive; the step 709 gear remains on the opposite side. Center it on the opposite Z-side axle at (-1030,-98,+43), matching the mirrored joint face. This mirrors the manual placement candidate; gear-tooth engagement and clearance remain under visual review.
+0 Instruction step 710 / book 3 page 97. Add the second 6589 at (-1030,-98,+43), on the opposite end of the same world-Z 32073 axle whose centerline is (-1030,-98,Z). The two gears do not mesh with each other; the other rotating/toothed counterpart remains to be traced.
 1 19 -1030 -98 43 1 0 0 0 1 0 0 0 1 6589.dat
 0 STEP
 0 Step513:middlefront3176hole(-130,Y,0) tobodyrearhole(70,Y,0);8LDUgap -16..-8 fitsbodyplate-72..-64.
@@ -1696,7 +1696,7 @@
 1 19 -30 -30 -42 0 -1 0 0 0 1 -1 0 0 11090.dat
 1 19 -60 -30 -42 0 1 0 1 0 0 0 0 -1 87747.dat
 0 STEP
-0 Instruction step 425 / book2 pages97–98. First-legthree toes, exactball/socket centers;20degree splay isdisplaypose.
+0 Instruction step 425 / book2 pages97–98. First-leg toe modules remain in leg-root workbench coordinates; attachment to distal foot is unresolved.
 1 16 -117.726969127 -69.0453665466 -36.2103858255 -0.174239717311 -0.322926915522 0.930246595341 0.0121687023499 0.943919113194 0.329952466927 0.984628073739 -0.068810718494 0.160538597931 book2-shared-toe-step425.ldr
 1 16 -120.431423718 -92.2032284614 -17.997698557 -0.333098277356 -0.115348101048 0.935809998454 -0.114691174924 0.990075947215 0.0812130109046 0.935890737222 0.0802772341967 0.343022001703 book2-shared-toe-step425.ldr
 1 16 -111.747176445 -64.3405950818 0.440599003213 -0.477398844298 -0.327379829829 0.815421848177 -0.236538497504 0.941625445863 0.239564310578 0.846250484586 0.0785109337941 0.526968832677 book2-shared-toe-step425.ldr
