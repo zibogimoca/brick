@@ -658182,10 +658182,27 @@
         11,
         12,
         13,
+        82,
+        131,
+        132,
+        133,
+        134,
+        135,
         136,
         137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
         148,
         149,
+        150,
         161,
         162
       ],
@@ -658447,6 +658464,338 @@
           ],
           "reason": "도해의 얇은 L형 3×3 리프트암은 32056, 갈라진 크로스 블록은 92907, 검은 짧은 마찰 핀은 61332 후보와 부합한다. 기존 32140·32184·11214로 계산한 40-LDU 간격·축/삽입은 실제 부품 확인 없이 재사용하지 않는다. 새 DAT의 홀과 핀 구간으로 다시 계산한다.",
           "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 131,
+          "step": 237,
+          "elements": [
+            {
+              "element_id": "4143409",
+              "part_num": "4477",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 3
+            },
+            {
+              "element_id": "4113917",
+              "part_num": "3023",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 11
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "p.131 step237 calls one tan 1x10 plate and one tan 1x2 plate. Their two-stud connection is present in the diagram; local placement uses matching official stud-grid centers.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_verification_partial"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 131,
+          "step": 238,
+          "elements": [
+            {
+              "element_id": "4113917",
+              "part_num": "3023",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 11
+            },
+            {
+              "element_id": "4161734",
+              "part_num": "6141",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 3
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "p.131 step238 calls one tan 1x2 plate and two tan round 1x1 plates. Their positions are provisional except for registration to the 4477 top-stud row; exact round-plate mold/color stays diagram-level.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_verification_partial"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 132,
+          "step": 239,
+          "elements": [
+            {
+              "element_id": "4113917",
+              "part_num": "3023",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 11
+            },
+            {
+              "element_id": "4211541",
+              "part_num": "32000",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 71,
+                "name": "Light Bluish Gray",
+                "rgb": "A0A5A9"
+              },
+              "product_quantity": 4
+            },
+            {
+              "element_id": "6212758",
+              "part_num": "35480",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 32
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "p.132 callout silhouettes and the product inventory support two tan 1x2 plates, two Light Bluish Gray 1x2 two-hole Technic bricks (32000), and two tan rounded open-stud plates (35480). Exact face orientation and local overlap remain provisional.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; placement_draft_provisional"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 133,
+          "step": 240,
+          "elements": [
+            {
+              "element_id": "4159553",
+              "part_num": "3024",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 17
+            },
+            {
+              "element_id": "4205107",
+              "part_num": "3700",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 8
+            },
+            {
+              "element_id": "4516055",
+              "part_num": "54200",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 20
+            },
+            {
+              "element_id": "4211252",
+              "part_num": "3700",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 70,
+                "name": "Reddish Brown",
+                "rgb": "582A12"
+              },
+              "product_quantity": 2
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "p.133 step240 callout shows one tan 1x1 plate, two tan one-hole Technic bricks, one tan cheese slope, one reddish-brown one-hole Technic brick. The last black 1x1 hole-brick silhouette is represented as a 6541 shape candidate, but the inventory crosswalk has no black 6541 element; do not treat its color or ID as resolved.",
+          "status": "diagram_and_inventory_candidate; placement_provisional"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 133,
+          "step": 241,
+          "elements": [
+            {
+              "element_id": "4516055",
+              "part_num": "54200",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 20
+            },
+            {
+              "element_id": "4179771",
+              "part_num": "6541",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 10
+            },
+            {
+              "element_id": "4205107",
+              "part_num": "3700",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 8
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "p.133 step241 callout and follow-up view support one tan cheese slope, one tan 1x1 Technic brick with a side pin hole (6541), and one tan 1x2 one-hole Technic brick (3700). Local placement remains diagram-derived provisional.",
+          "status": "diagram_and_inventory_candidate; placement_provisional"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 133,
+          "step": 242,
+          "elements": [
+            {
+              "element_id": "6212758",
+              "part_num": "35480",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 32
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "Two tan rounded open-stud plates are called in step242; diagram shows a stacked pair. Center/stack is provisional.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; local_transform_provisional"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 133,
+          "step": 243,
+          "elements": [
+            {
+              "element_id": "4113233",
+              "part_num": "3710",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 5
+            },
+            {
+              "element_id": "4161734",
+              "part_num": "6141",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 3
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "Step243 calls a tan 1x4 plate and tan round 1x1 plate. Visible alignment to the long rail is provisional.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; local_transform_provisional"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 134,
+          "step": 244,
+          "elements": [
+            {
+              "element_id": "4516055",
+              "part_num": "54200",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 20
+            },
+            {
+              "element_id": "4161734",
+              "part_num": "6141",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 3
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "Step244 calls one tan cheese slope and one tan round 1x1 plate at separate rail positions.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; local_transform_provisional"
+        },
+        {
+          "source_document": "6649865.pdf",
+          "pdf_page": 134,
+          "step": 245,
+          "elements": [
+            {
+              "element_id": "4159553",
+              "part_num": "3024",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 17
+            },
+            {
+              "element_id": "4516055",
+              "part_num": "54200",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 20
+            },
+            {
+              "element_id": "6299936",
+              "part_num": "29120",
+              "color_reference": {
+                "system": "Rebrickable",
+                "id": 19,
+                "name": "Tan",
+                "rgb": "E4CD9E"
+              },
+              "product_quantity": 4
+            }
+          ],
+          "previous_candidates_to_recheck": [],
+          "reason": "Step245 calls a tan 1x1 plate, tan cheese slope and one curved 2x1 wedge-brick silhouette. 29120 is only a provisional left-mold candidate; do not instantiate 29119 as an alternative.",
+          "status": "diagram_and_product_inventory_crosswalk_consistent; local_transform_provisional"
         }
       ],
       "elements": [
@@ -661307,8 +661656,11 @@
           "ldraw_candidates": [
             "66906"
           ],
-          "available_geometry_files": [],
-          "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
+          "available_geometry_files": [
+            "assets/parts/66906.dat"
+          ],
+          "identification_status": "official_element_listed; community part/color crosswalk; shape file verified; instruction role/placement provisional",
+          "geometry_verification": "official_ldraw_geometry_registered; shape dimensions and connectors available; step placement not verified"
         },
         {
           "element_id": "6338428",
@@ -662142,8 +662494,11 @@
           "ldraw_candidates": [
             "41239"
           ],
-          "available_geometry_files": [],
-          "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
+          "available_geometry_files": [
+            "assets/parts/41239.dat"
+          ],
+          "identification_status": "official_element_listed; community part/color crosswalk; shape file verified; instruction role/placement provisional",
+          "geometry_verification": "official_ldraw_geometry_registered; shape dimensions and connectors available; step placement not verified"
         },
         {
           "element_id": "6353423",
