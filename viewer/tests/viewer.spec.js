@@ -234,3 +234,33 @@ test('keeps the latest version when an earlier model download finishes late', as
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v1.mpd');
   await expect(page.locator('#versions option:checked')).toHaveText('버전 1');
 });
+
+for (const [slug, title, pieces] of [
+  ['hogwarts-clock-tower', '호그와트 시계탑 (75948)', 884],
+  ['hogwarts-whomping-willow', '호그와트 커다란 버드나무 (75953)', 719],
+  ['hogwarts-great-hall', '호그와트 대연회장 (75954)', 821],
+  ['hogwarts-room-of-requirement', '호그와트 필요의 방 (75966)', 169],
+  ['hogwarts-astronomy-tower', '호그와트 천문탑 (75969)', 925],
+  ['louvre', '루브르 박물관 (21024)', 693],
+  ['statue-of-liberty', '자유의 여신상 (21042)', 1683],
+  ['big-ben', '빅벤 (10253)', 4166],
+  ['dinosaur-7219', '소형 공룡 (7219)', 34],
+]) {
+  test(`imports CAD version 0: ${slug}`, async ({ page }, testInfo) => {
+    test.setTimeout(600000);
+    const errors = [];
+    page.on('pageerror', error => errors.push(error.message));
+    await page.goto('/');
+    await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(9);
+    await page.selectOption('#models', { label: title });
+    await expect(page.locator('#models')).toBeEnabled({ timeout: 300000 });
+    await expect(page.locator('#version')).toContainText(`${slug}-v0.mpd`, { timeout: 300000 });
+    await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 0']);
+    await expect(page.locator('#summary')).toContainText(`${pieces}개 부품`);
+    await expect(page.locator('#summary')).toContainText('CAD 모델');
+    await expect(page.locator('canvas')).toHaveAttribute('data-model-loaded', 'true');
+    await expect(page.locator('#pose-panel')).toBeHidden();
+    await page.screenshot({ path: testInfo.outputPath(slug + '.png') });
+    expect(errors).toEqual([]);
+  });
+}
