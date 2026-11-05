@@ -2,7 +2,7 @@
 
 ## Reconstruction status
 
-The v0 model is in progress in [`notre-dame-v0.mpd`](notre-dame-v0.mpd). The first booklet is represented through printed page 66 / step 88 as dimensioned base work and diagram-derived drafts. Steps47–53 were backward-placed from their final portal view; step54 details were shifted onto the paired nave side walls using later views. Five other booklets remain.
+The v0 model is in progress in [`notre-dame-v0.mpd`](notre-dame-v0.mpd). Booklets 6634573-66 (steps1–88), 6634573-125 (steps89–160) and 6634573-163 (steps161–192) are represented as a mix of dimensioned anchors and diagram-derived placements. Later assembly views have been used to revise the approach, paired entry and nave roof runs. The final three supplied manual segments, 6634573-202, -239 and -290, remain in progress.
 
 Current project policy excludes minifigures, signs and nameplates from modeling and manual-reconstruction scope. No such items have been included in the current MPD. This exclusion does not apply to the building, base, structural connections or other ornament.
 
@@ -73,3 +73,5 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 
 
 - Second-booklet steps139–160 (printed pages116–125) finish the approach floor and build the paired entrance portals. Steps139–141 add 30 round paving markers, 64 black/white slope candidates around the approach, and paired round columns. Steps142–158 build the tan arch and side-frame pieces, which step159 locates on either side of the existing z=220 entrance; step160 extends the portal wings. Candidate identities are selected by visible shape and callout, and reference counts match each printed step. The two pale special inserts and some handed slope details remain uncertain, so those remain transparent/geometry candidates without a claimed product identity. The portal bay spacing is symmetric around x=0; exact portal face offsets and clutch remain provisional.
+
+- Third booklet 6634573-163, steps 161–192 (printed pages 128–163), adds the repeated nave-end return piers, end-wall ties, six roof-bearing platforms, longitudinal roof ties, two broad roof fields and the eave/ridge courses. The step 174–192 callout quantities were read from enlarged diagram crops and are represented exactly per step: 12, 12, 8, 3, 6, 8, 6, 9, 9, 54, 8, 8, 16, 16, 26, 70, 10, 6 and 28 parts. Steps 174–180 are placed symmetrically at the four end-wall stations; steps 181–183 place the bearing plates at the top level of the existing tall-column rows. Steps 185–192 are distributed over the two nave roof runs, with the paired end-wall and later roof views fixing the broad orientation. Tan curved profiles and several modified/slope silhouettes use candidate LDraw parts selected by shape; exact handedness, plate seams, stud registration and physical clutch remain provisional. GoBricks correspondence remains unverified.
