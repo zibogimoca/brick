@@ -417,6 +417,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "42205-97cfe4dbdc",
     "42446",
     "4274",
+    "4275b",
+    "4276b",
     "4282",
     "4286",
     "42862",
@@ -13583,6 +13585,22 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "primitives/48/tm08q1125.dat": {
       "sha256": "434bfd27bbad673f788ff14c629f1e7475d73a931289f867f32f2c28f6c90f15",
       "bytes": 26829
+    },
+    "parts/4275b.dat": {
+      "sha256": "74a8135bac411fa7b44ecf2c53e0f6e3fa3d922a530ebdbc475eb2a577039351",
+      "bytes": 1272
+    },
+    "primitives/h2.dat": {
+      "sha256": "6153d92d82234c7637ec360b597a00795efc959f0626f9607b15c2d890fb2c69",
+      "bytes": 1911
+    },
+    "parts/4276b.dat": {
+      "sha256": "464fdd6f97840b72e0434c74bf2df955adb06fdfa9a0ee2e0144ccba90d399ea",
+      "bytes": 1276
+    },
+    "primitives/h1.dat": {
+      "sha256": "1da74f714b5fc460815134709f53fb17aaa25bb6a5d05eacf3fe7ca3d8279258",
+      "bytes": 1933
     }
   }
 }
