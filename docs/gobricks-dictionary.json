@@ -656734,7 +656734,14 @@
           "available_geometry_files": [
             "assets/parts/3021.dat"
           ],
-          "identification_status": "official_element_listed; community_part_and_color_crosswalk; local_LDraw_shape_candidate; exact_mold_and_placement_not_verified"
+          "identification_status": "official_element_listed; community_part_and_color_crosswalk; local_LDraw_shape_candidate; exact_mold_and_placement_not_verified",
+          "gobricks_candidate": {
+            "gobricks_id": "510",
+            "catalog_url": "https://gobricks.cn/part_detail/GDS-510-010",
+            "image_url": "https://image.gobricks.cn/newproducts/010/510.png",
+            "image_sha256": "56200a0637a3fe3f006432a0ca8bd31cc79860ea18850d2ff00d14de002c3790",
+            "status": "visual_shape_candidate; exact_mold_dimensions_underside_clutch_and_color_not_verified"
+          }
         },
         {
           "element_id": "4113233",
@@ -659070,7 +659077,14 @@
           "available_geometry_files": [
             "assets/parts/3021.dat"
           ],
-          "identification_status": "official_element_listed; community_part_and_color_crosswalk; local_LDraw_shape_candidate; exact_mold_and_placement_not_verified"
+          "identification_status": "official_element_listed; community_part_and_color_crosswalk; local_LDraw_shape_candidate; exact_mold_and_placement_not_verified",
+          "gobricks_candidate": {
+            "gobricks_id": "510",
+            "catalog_url": "https://gobricks.cn/part_detail/GDS-510-010",
+            "image_url": "https://image.gobricks.cn/newproducts/010/510.png",
+            "image_sha256": "56200a0637a3fe3f006432a0ca8bd31cc79860ea18850d2ff00d14de002c3790",
+            "status": "visual_shape_candidate; exact_mold_dimensions_underside_clutch_and_color_not_verified"
+          }
         },
         {
           "element_id": "4251796",
@@ -660566,7 +660580,14 @@
           "available_geometry_files": [
             "assets/parts/3021.dat"
           ],
-          "identification_status": "official_element_listed; community_part_and_color_crosswalk; local_LDraw_shape_candidate; exact_mold_and_placement_not_verified"
+          "identification_status": "official_element_listed; community_part_and_color_crosswalk; local_LDraw_shape_candidate; exact_mold_and_placement_not_verified",
+          "gobricks_candidate": {
+            "gobricks_id": "510",
+            "catalog_url": "https://gobricks.cn/part_detail/GDS-510-010",
+            "image_url": "https://image.gobricks.cn/newproducts/010/510.png",
+            "image_sha256": "56200a0637a3fe3f006432a0ca8bd31cc79860ea18850d2ff00d14de002c3790",
+            "status": "visual_shape_candidate; exact_mold_dimensions_underside_clutch_and_color_not_verified"
+          }
         },
         {
           "element_id": "4211053",
@@ -662300,7 +662321,44 @@
           ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; local_LDraw_shape_candidate; exact_mold_and_placement_not_verified"
         }
-      ]
+      ],
+      "gobricks_candidate_review": {
+        "retrieved_date_utc": "2026-11-05",
+        "review_method": "Official GoBricks catalog item labels and primary product images visually compared with corresponding official LDraw candidate silhouettes. These are shape candidates only; image evidence does not prove underside mold, exact dimensions, clutch, color equivalence, or set-specific availability.",
+        "candidates": [
+          {
+            "gobricks_id": "510",
+            "name": "Plate 2 x 3",
+            "ldraw_candidate": "3021",
+            "catalog_url": "https://gobricks.cn/part_detail/GDS-510-010",
+            "image_url": "https://image.gobricks.cn/newproducts/010/510.png",
+            "image_sha256": "56200a0637a3fe3f006432a0ca8bd31cc79860ea18850d2ff00d14de002c3790",
+            "visible_evidence": "Red catalog image shows a rectangular plate with a 2x3 six-stud array and matching overall plan silhouette.",
+            "status": "visual_shape_candidate; exact_mold_dimensions_underside_clutch_and_color_not_verified"
+          },
+          {
+            "gobricks_id": "90044",
+            "name": "Wedge Sloped 45° 3 x 3 Left",
+            "ldraw_candidate": "42862",
+            "catalog_url": "https://gobricks.cn/part_detail/GDS-90044-010",
+            "image_url": "https://image.gobricks.cn/newproducts/010/90044.png",
+            "image_sha256": "d219d82c0edad0bb9481754ac1d62331451a99f2fbeddeb5486ef29798164021",
+            "visible_evidence": "Catalog title says left 3x3 wedge; image shows a three-stud triangular sloped profile consistent with the selected LDraw silhouette.",
+            "status": "visual_shape_candidate; handedness_exact_mold_dimensions_underside_clutch_and_color_not_verified"
+          },
+          {
+            "gobricks_id": "90045",
+            "name": "Wedge Sloped 45° 3 x 3 Right",
+            "ldraw_candidate": "48165",
+            "catalog_url": "https://gobricks.cn/part_detail/GDS-90045-010",
+            "image_url": "https://image.gobricks.cn/newproducts/010/90045.png",
+            "image_sha256": "54598609713032415178c4d626272690571e12cbdc200a9c8d521ca6ad290bb8",
+            "visible_evidence": "Catalog title says right 3x3 wedge; image shows a three-stud triangular sloped profile consistent with the selected LDraw silhouette.",
+            "status": "visual_shape_candidate; handedness_exact_mold_dimensions_underside_clutch_and_color_not_verified"
+          }
+        ],
+        "usage": "Do not add GoBricks IDs or SKUs to the v0 physical instances from these images alone. Keep original LEGO/LDraw references; expose the IDs only as unconfirmed visual candidates."
+      }
     }
   }
 }
