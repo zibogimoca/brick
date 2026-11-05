@@ -638694,6 +638694,12 @@
       "source": "official LDraw complete.zip",
       "gobricks_status": "not_verified",
       "verification": "Official blank4x4tile shape; decorative dinosaur/fossil printing omitted with user authorization; not a geometry substitution."
+    },
+    "6577": {
+      "geometry": "assets/parts/6577.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 6577.dat: Technic Bush 1/2 Type 2 (BrickLink 4265b). Shape is a candidate for the two ring pieces shown in manual step 247; the manual mold identity and underlying shaft engagement remain unverified."
     }
   }
 }

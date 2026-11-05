@@ -295,6 +295,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "65426",
     "65429",
     "65509",
+    "6577",
     "6589",
     "6632",
     "6636",
@@ -8516,6 +8517,36 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 320,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/6577.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/6577.dat",
+      "source_sha256": "fd7e3b88c162c47b856e774c46c8fb4d1d440ce821b5be79431ca41d3943af45",
+      "sha256": "70e5734b34130e756932b3fdc5bbedf154ce3f080a044420ca7db03c8815a992",
+      "bytes": 2694,
+      "modification": "Dependency paths renamed to shared asset folders; geometry unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/t04i2500.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/t04i2500.dat",
+      "source_sha256": "16a0e74be0e6e149ea99ffd6aff98b3406c19fc7727d0453b1fe1572cf4e40bb",
+      "sha256": "16a0e74be0e6e149ea99ffd6aff98b3406c19fc7727d0453b1fe1572cf4e40bb",
+      "bytes": 5104,
+      "modification": "Dependency paths renamed to shared asset folders; geometry unchanged.",
+      "author": "Paul Easter [pneaster]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/bushloc2.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/bushloc2.dat",
+      "source_sha256": "f1dd4de70690f3811fa32802611f41cfc9702fb737690af0abec78495e5678da",
+      "sha256": "c25eee43e0fdf7bb8c0b067aac4da11e484bd8b07fccd48c434c6b5f6bd438e5",
+      "bytes": 8273,
+      "modification": "Dependency paths renamed to shared asset folders; geometry unchanged.",
+      "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
