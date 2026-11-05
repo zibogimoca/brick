@@ -636,7 +636,7 @@
 1 71 -1030 -98 0 0 0 1 0 1 0 -1 0 0 32073.dat
 1 19 -1030 -98 -43 -1 0 0 0 1 0 0 0 -1 6589.dat
 0 Step513:middlefront3176hole(-130,Y,0) tobodyrearhole(70,Y,0);8LDUgap -16..-8 fitsbodyplate-72..-64.
-0 Book3 step513 shows this tail assembly placed on the body; current X=200/Y=-56 placement is provisional from that view. Step514 shows one axle entering the upper tail-root hole, but its exact part ID/axis/depth is not yet verified and is not placed here.
+0 Book3 step513 shows this tail assembly placed on the body; current X=200/Y=-56 placement is provisional from that view. Step514 shows one long pin entering the upper tail-root hole. It resembles the 77765 pin used in steps529/544/560, but the exact part ID, axis, and depth are not verified; it is not placed here.
 1 16 200 -56 0 1 0 0 0 1 0 0 0 1 book3-tail-assembly.ldr
 0 Step514longpin stop restsfrontstacktopY-104; axis-Y.
 1 71 70 -74 0 0 1 0 -1 0 0 0 0 1 77765.dat
