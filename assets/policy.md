@@ -139,12 +139,14 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3023",
     "3023b",
     "3024",
+    "3028",
     "3031",
     "3032",
     "3033",
     "3034",
     "3035",
     "30357",
+    "3036",
     "30363",
     "30374",
     "3039",
@@ -221,6 +223,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "40378",
     "40379",
     "4070",
+    "41539",
     "4162",
     "41682",
     "41740",
@@ -5135,8 +5138,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stud4.dat",
       "source_sha256": "871cdcab26e7f5113488a24c453d6fabda75b275b06de592e0bfaad4292c12a3",
-      "sha256": "a1340a6652396d41a04ca3c595a663893611dc5db239bf49caa3db1abb466c1b",
-      "bytes": 1012,
+      "sha256": "b4c45522882db818641f56b4abd95c5ba3b76da74c567ba0d9dc3da89c10fcf0",
+      "bytes": 1005,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -5775,8 +5778,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stud.dat",
       "source_sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
-      "sha256": "407a8aad1581c2ef07fc1a1f5aabc4e3b64161f1a2803e154cee75da4561d2dd",
-      "bytes": 742,
+      "sha256": "20de312b34b2769113d15581ed298971d246f7585f23cffe1e334747a6d3ced2",
+      "bytes": 738,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -8348,6 +8351,36 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed to the project asset folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/3028.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/3028.dat",
+      "source_sha256": "52dfb92f2351b6a6ba5cc00039be58bc024ca50697d6d7aeae5d02a308b6fd33",
+      "sha256": "b4b88a2455081ab0f8fb514c6081785b40cd9afa4634960ccd8d04affbc663f7",
+      "bytes": 7635,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/3036.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/3036.dat",
+      "source_sha256": "3074a0b2952f5d9903ac2fe2196a8110e1553fd245a1d8bc7ccb43f99c654d38",
+      "sha256": "7c108504e6823f46eecab58f22931e13acd9cf6a355e849f11556bba88a6e71c",
+      "bytes": 5246,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/41539.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/41539.dat",
+      "source_sha256": "8b07f1bb13a223f20d2587560540a584d99fdab788c234168e57c18ad796d084",
+      "sha256": "2f01cbe3e4239b745973cfc7f580f43afe0846e429de03c5943cbcdb05e8e9c8",
+      "bytes": 6741,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Martin G Cormier",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
     }
   }
 }
