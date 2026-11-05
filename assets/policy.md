@@ -367,7 +367,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "99563",
     "99780",
     "99781",
-    "19119"
+    "19119",
+    "notre-dame-apostle-candidate"
   ],
   "files": {
     "LDConfig.ldr": {
@@ -8685,6 +8686,12 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "archive_member": "ldraw/parts/37695s01.dat",
       "sha256": "93faae8f7cff333fa15f0486b4cdf9d574ddf97548e75a689166d0cd0557b905",
       "bytes": 52052
+    },
+    "parts/notre-dame-apostle-candidate.dat": {
+      "source": "Created in this project from official LDraw references 4073.dat, 98100.dat and 3062b.dat, using manual booklet 6634573-290 pp.279,284 as the silhouette/count source.",
+      "sha256": "740692e3a278c4e21bdaff85d5145346ebc2020b8ab04322b2c5ff311c8c2fbd",
+      "bytes": 561,
+      "modification": "Project-created composite visual candidate; not a numbered LDraw part, manufacturer CAD, GoBricks mapping, or confirmed physical assembly."
     }
   }
 }
