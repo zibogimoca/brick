@@ -286511,10 +286511,38 @@
         "39727",
         "53836"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3070b.dat",
+        "sha256": "c1c118e795562ef6388e5d50773469feb92ef7448404524b8cece05466d8969e",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate 3070b and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          3.2,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; reference bounds computed; physical fit unverified",
       "offers": [
         {
           "sku": "GDS-613-010",
@@ -287335,7 +287363,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/613.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-613-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "No connector annotations; physical compatibility and clutch are not verified."
     },
     {
       "gobricks_id": "613-DE1656",
@@ -639022,10 +639051,10 @@
     }
   ],
   "geometry_enrichment": {
-    "reference_parts_prepared": 82,
+    "reference_parts_prepared": 83,
     "reference_assets": "assets/policy.md#에셋-목록",
     "physical_tests": false,
-    "remaining_parts_geometry_pending": 1740
+    "remaining_parts_geometry_pending": 1739
   },
   "reference_only_parts": {
     "3707": {
