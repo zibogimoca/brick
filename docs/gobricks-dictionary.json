@@ -641132,6 +641132,10 @@
     "3665": {
       "geometry": "assets/parts/3665.dat",
       "gobricks_status": "not_verified"
+    },
+    "30504": {
+      "geometry": "assets/parts/30504.dat",
+      "gobricks_status": "not_verified"
     }
   },
   "instruction_sets": {
@@ -641294,7 +641298,9 @@
           "ldraw_candidates": [
             "90398"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/90398.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -641480,7 +641486,9 @@
           "ldraw_candidates": [
             "47905"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/47905.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -641532,7 +641540,9 @@
           "ldraw_candidates": [
             "92947"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/92947.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -641584,7 +641594,9 @@
           "ldraw_candidates": [
             "11476"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/11476.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -641688,7 +641700,9 @@
           "ldraw_candidates": [
             "4510"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4510.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -641740,7 +641754,9 @@
           "ldraw_candidates": [
             "2465"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2465.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -641929,7 +641945,9 @@
           "ldraw_candidates": [
             "35464"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/35464.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642062,7 +642080,9 @@
           "ldraw_candidates": [
             "14716"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/14716.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642115,7 +642135,9 @@
             "2453b",
             "2453"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2453b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642140,7 +642162,9 @@
           "ldraw_candidates": [
             "15070"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15070.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642218,7 +642242,9 @@
           "ldraw_candidates": [
             "47905"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/47905.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642243,7 +642269,9 @@
           "ldraw_candidates": [
             "60897"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/60897.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642269,7 +642297,9 @@
             "60475b",
             "60475"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/60475b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642402,7 +642432,9 @@
           "ldraw_candidates": [
             "17485"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/17485.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642429,7 +642461,8 @@
             "6143"
           ],
           "available_geometry_files": [
-            "assets/parts/3941.dat"
+            "assets/parts/3941.dat",
+            "assets/parts/6143.dat"
           ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
@@ -642455,7 +642488,9 @@
           "ldraw_candidates": [
             "38585"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/38585.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642507,7 +642542,9 @@
           "ldraw_candidates": [
             "90195"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/90195.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642587,7 +642624,9 @@
           "ldraw_candidates": [
             "98283"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/98283.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642640,7 +642679,9 @@
             "4865b",
             "26169"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4865b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642665,7 +642706,9 @@
           "ldraw_candidates": [
             "3937"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3937.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642744,7 +642787,9 @@
           "ldraw_candidates": [
             "38583"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/38583.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642824,7 +642869,9 @@
             "3245c",
             "3245"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3245c.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642904,7 +642951,10 @@
             "2454b",
             "2454"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2454b.dat",
+            "assets/parts/2454.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -642984,7 +643034,9 @@
           "ldraw_candidates": [
             "64644"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/64644.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643064,7 +643116,9 @@
           "ldraw_candidates": [
             "32028"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32028.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643196,7 +643250,9 @@
           "ldraw_candidates": [
             "85080"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/85080.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643221,7 +643277,9 @@
           "ldraw_candidates": [
             "27925"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/27925.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643327,7 +643385,9 @@
           "ldraw_candidates": [
             "14719"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/14719.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643460,7 +643520,9 @@
           "ldraw_candidates": [
             "4490"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4490.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643512,7 +643574,9 @@
           "ldraw_candidates": [
             "4286"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4286.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643537,7 +643601,9 @@
           "ldraw_candidates": [
             "13965"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/13965.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643723,7 +643789,9 @@
             "6259",
             "20430"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6259.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643748,7 +643816,9 @@
           "ldraw_candidates": [
             "15207"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15207.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643773,7 +643843,9 @@
           "ldraw_candidates": [
             "15533"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15533.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643933,7 +644005,9 @@
           "ldraw_candidates": [
             "6182"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6182.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -643958,7 +644032,9 @@
           "ldraw_candidates": [
             "60581"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/60581.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644009,7 +644085,9 @@
             "73983",
             "19954"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/73983.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644061,7 +644139,9 @@
           "ldraw_candidates": [
             "18646"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/18646.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644086,7 +644166,9 @@
           "ldraw_candidates": [
             "15254"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15254.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644138,7 +644220,9 @@
           "ldraw_candidates": [
             "92950"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/92950.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644217,7 +644301,9 @@
           "ldraw_candidates": [
             "59349"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/59349.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644242,7 +644328,9 @@
           "ldraw_candidates": [
             "48092"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/48092.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644267,7 +644355,9 @@
           "ldraw_candidates": [
             "30565"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30565.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644319,7 +644409,9 @@
           "ldraw_candidates": [
             "30562"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30562.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644453,7 +644545,9 @@
           "ldraw_candidates": [
             "16577"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/16577.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644478,7 +644572,9 @@
           "ldraw_candidates": [
             "3008"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3008.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644530,7 +644626,9 @@
           "ldraw_candidates": [
             "22888"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/22888.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644555,7 +644653,9 @@
           "ldraw_candidates": [
             "4510"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4510.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644608,7 +644708,9 @@
             "3007",
             "93888"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3007.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644660,7 +644762,9 @@
           "ldraw_candidates": [
             "6111"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6111.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644712,7 +644816,9 @@
           "ldraw_candidates": [
             "3030"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3030.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -644927,7 +645033,9 @@
           "ldraw_candidates": [
             "6558"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6558.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -645034,7 +645142,9 @@
           "ldraw_candidates": [
             "64644"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/64644.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -645423,7 +645533,9 @@
           "ldraw_candidates": [
             "90398"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/90398.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -645714,7 +645826,9 @@
           "ldraw_candidates": [
             "61252"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/61252.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -645847,7 +645961,9 @@
             "3245c",
             "3245"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3245c.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -645872,7 +645988,9 @@
           "ldraw_candidates": [
             "88072"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/88072.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646138,7 +646256,9 @@
             "30350b",
             "30350"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30350b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646298,7 +646418,9 @@
             "3007",
             "93888"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3007.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646323,7 +646445,9 @@
           "ldraw_candidates": [
             "2730"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2730.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646348,7 +646472,9 @@
           "ldraw_candidates": [
             "6111"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6111.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646398,7 +646524,9 @@
           "ldraw_candidates": [
             "6112"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6112.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646423,7 +646551,9 @@
           "ldraw_candidates": [
             "3030"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3030.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646635,7 +646765,9 @@
           "ldraw_candidates": [
             "19119"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/19119.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -646928,7 +647060,9 @@
           "ldraw_candidates": [
             "11833"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/11833.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -647422,7 +647556,9 @@
           "ldraw_candidates": [
             "43898"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/43898.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -648018,7 +648154,9 @@
           "ldraw_candidates": [
             "32316"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32316.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -648231,7 +648369,9 @@
             "20482",
             "31570"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/20482.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -648605,7 +648745,9 @@
           "ldraw_candidates": [
             "18646"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/18646.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -648657,7 +648799,9 @@
           "ldraw_candidates": [
             "30565"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30565.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -648815,7 +648959,9 @@
           "ldraw_candidates": [
             "6003"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6003.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -648840,7 +648986,9 @@
           "ldraw_candidates": [
             "6106"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6106.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649052,7 +649200,9 @@
           "ldraw_candidates": [
             "27925"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/27925.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649104,7 +649254,9 @@
           "ldraw_candidates": [
             "43719"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/43719.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649237,7 +649389,9 @@
           "ldraw_candidates": [
             "37775"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/37775.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649289,7 +649443,9 @@
           "ldraw_candidates": [
             "64647"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/64647.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649396,7 +649552,9 @@
             "20482",
             "31561"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/20482.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649422,7 +649580,9 @@
             "85975",
             "29175"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/85975.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649583,7 +649743,9 @@
           "ldraw_candidates": [
             "42446"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/42446.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649661,7 +649823,9 @@
             "98313",
             "76116"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/98313.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649742,7 +649906,8 @@
             "6143"
           ],
           "available_geometry_files": [
-            "assets/parts/3941.dat"
+            "assets/parts/3941.dat",
+            "assets/parts/6143.dat"
           ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
@@ -649795,7 +649960,9 @@
           "ldraw_candidates": [
             "2877"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2877.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649847,7 +650014,9 @@
           "ldraw_candidates": [
             "30044"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30044.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649927,7 +650096,9 @@
           "ldraw_candidates": [
             "32028"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32028.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -649980,7 +650151,9 @@
           "ldraw_candidates": [
             "48723"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/48723.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650114,7 +650287,9 @@
           "ldraw_candidates": [
             "99206"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/99206.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650410,7 +650585,9 @@
           "ldraw_candidates": [
             "32124"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32124.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650436,7 +650613,9 @@
             "3957b",
             "3957"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3957b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650567,7 +650746,9 @@
           "ldraw_candidates": [
             "15254"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15254.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650619,7 +650800,9 @@
           "ldraw_candidates": [
             "92950"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/92950.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650698,7 +650881,9 @@
           "ldraw_candidates": [
             "3008"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3008.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650805,7 +650990,9 @@
           "ldraw_candidates": [
             "6112"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6112.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650858,7 +651045,9 @@
             "2343",
             "6269"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2343.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -650911,7 +651100,9 @@
             "4599b",
             "4599"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4599b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651071,7 +651262,9 @@
           "ldraw_candidates": [
             "14716"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/14716.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651178,7 +651371,9 @@
           "ldraw_candidates": [
             "61252"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/61252.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651203,7 +651398,9 @@
           "ldraw_candidates": [
             "60897"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/60897.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651282,7 +651479,9 @@
           "ldraw_candidates": [
             "60481"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/60481.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651362,7 +651561,9 @@
             "18838",
             "30938"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/18838.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651518,7 +651719,9 @@
             "18838",
             "30938"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/18838.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651893,7 +652096,9 @@
             "3678b",
             "3678"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3678b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -651918,7 +652123,9 @@
           "ldraw_candidates": [
             "6134"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6134.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -652104,7 +652311,9 @@
           "ldraw_candidates": [
             "6182"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6182.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -652449,7 +652658,9 @@
           "ldraw_candidates": [
             "18646"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/18646.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -652555,7 +652766,9 @@
           "ldraw_candidates": [
             "6179"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6179.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -652662,7 +652875,9 @@
           "ldraw_candidates": [
             "3008"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3008.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -652714,7 +652929,9 @@
           "ldraw_candidates": [
             "16577"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/16577.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -652953,7 +653170,9 @@
           "ldraw_candidates": [
             "30504"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30504.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653032,7 +653251,9 @@
           "ldraw_candidates": [
             "3456"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3456.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653057,7 +653278,9 @@
           "ldraw_candidates": [
             "24482"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/24482.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653216,7 +653439,9 @@
           "ldraw_candidates": [
             "60897"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/60897.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653349,7 +653574,9 @@
           "ldraw_candidates": [
             "4740"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4740.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653375,7 +653602,9 @@
             "3942c",
             "14918"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3942c.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653506,7 +653735,9 @@
           "ldraw_candidates": [
             "60481"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/60481.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653532,7 +653763,9 @@
             "3245c",
             "3245"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3245c.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653640,7 +653873,9 @@
             "2412b",
             "2412"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2412b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653666,7 +653901,10 @@
             "2454b",
             "2454"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2454b.dat",
+            "assets/parts/2454.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653773,7 +654011,9 @@
           "ldraw_candidates": [
             "32028"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32028.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653875,7 +654115,9 @@
           "ldraw_candidates": [
             "47397"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/47397.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -653900,7 +654142,9 @@
           "ldraw_candidates": [
             "47398"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/47398.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654035,7 +654279,9 @@
           "ldraw_candidates": [
             "3688"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3688.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654061,7 +654307,9 @@
             "3678b",
             "3678"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3678b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654140,7 +654388,9 @@
           "ldraw_candidates": [
             "3045"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3045.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654220,7 +654470,9 @@
           "ldraw_candidates": [
             "43898"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/43898.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654245,7 +654497,9 @@
           "ldraw_candidates": [
             "6233"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6233.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654379,7 +654633,9 @@
           "ldraw_candidates": [
             "38317"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/38317.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654431,7 +654687,9 @@
           "ldraw_candidates": [
             "3038"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3038.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654457,7 +654715,9 @@
             "47543",
             "48310"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/48310.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654482,7 +654742,9 @@
           "ldraw_candidates": [
             "59349"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/59349.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654507,7 +654769,9 @@
           "ldraw_candidates": [
             "22888"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/22888.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654532,7 +654796,9 @@
           "ldraw_candidates": [
             "18646"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/18646.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654692,7 +654958,9 @@
             "3747b",
             "3747"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3747b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654771,7 +655039,9 @@
           "ldraw_candidates": [
             "15207"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15207.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654904,7 +655174,9 @@
           "ldraw_candidates": [
             "14718"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/14718.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -654929,7 +655201,9 @@
           "ldraw_candidates": [
             "3037"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3037.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655085,7 +655359,9 @@
           "ldraw_candidates": [
             "15706"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15706.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655110,7 +655386,9 @@
           "ldraw_candidates": [
             "3894"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3894.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655189,7 +655467,9 @@
           "ldraw_candidates": [
             "27507"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/27507.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655296,7 +655576,9 @@
           "ldraw_candidates": [
             "23949"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/23949.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655348,7 +655630,9 @@
           "ldraw_candidates": [
             "3008"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3008.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655400,7 +655684,9 @@
           "ldraw_candidates": [
             "4510"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/4510.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655426,7 +655712,9 @@
             "3007",
             "93888"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3007.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655559,7 +655847,9 @@
           "ldraw_candidates": [
             "6112"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6112.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655770,7 +656060,9 @@
           "ldraw_candidates": [
             "22888"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/22888.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -655823,7 +656115,9 @@
           "ldraw_candidates": [
             "18646"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/18646.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -656109,7 +656403,9 @@
           "ldraw_candidates": [
             "92947"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/92947.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -656214,7 +656510,9 @@
           "ldraw_candidates": [
             "64644"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/64644.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -656293,7 +656591,9 @@
           "ldraw_candidates": [
             "29111"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/29111.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -656344,7 +656644,9 @@
           "ldraw_candidates": [
             "75937"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/75937.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -656371,7 +656673,8 @@
             "6143"
           ],
           "available_geometry_files": [
-            "assets/parts/3941.dat"
+            "assets/parts/3941.dat",
+            "assets/parts/6143.dat"
           ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
@@ -656560,7 +656863,9 @@
           "ldraw_candidates": [
             "22888"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/22888.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -656835,7 +657140,9 @@
           "ldraw_candidates": [
             "3043"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3043.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -656861,7 +657168,9 @@
             "90540",
             "18745"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/90540.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657048,7 +657357,9 @@
             "3245c",
             "3245"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3245c.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657397,7 +657708,9 @@
           "ldraw_candidates": [
             "98374"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/98374.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657422,7 +657735,9 @@
           "ldraw_candidates": [
             "49668"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/49668.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657448,7 +657763,9 @@
             "24246",
             "35399"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/24246.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657526,7 +657843,9 @@
             "2343",
             "6269"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2343.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657552,7 +657871,9 @@
             "20482",
             "31561"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/20482.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657658,7 +657979,9 @@
           "ldraw_candidates": [
             "15070"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/15070.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657683,7 +658006,9 @@
           "ldraw_candidates": [
             "61252"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/61252.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -657763,7 +658088,9 @@
           "ldraw_candidates": [
             "90398"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/90398.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -658548,7 +658875,9 @@
             "24246",
             "35399"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/24246.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -658897,7 +659226,9 @@
           "ldraw_candidates": [
             "5092"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/5092.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -658922,7 +659253,9 @@
           "ldraw_candidates": [
             "49668"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/49668.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -658947,7 +659280,9 @@
           "ldraw_candidates": [
             "5091"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/5091.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -659105,7 +659440,9 @@
           "ldraw_candidates": [
             "32828"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32828.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -659239,7 +659576,9 @@
             "6536",
             "40146"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6536.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -659554,7 +659893,9 @@
             "11476",
             "65458"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/11476.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -659738,7 +660079,9 @@
           "ldraw_candidates": [
             "2540"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/2540.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -659896,7 +660239,9 @@
           "ldraw_candidates": [
             "14719"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/14719.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -660477,7 +660822,9 @@
             "32124",
             "50029"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32124.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -660638,7 +660985,9 @@
             "62361",
             "4925"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/62361.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -661088,7 +661437,9 @@
           "ldraw_candidates": [
             "52107"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/52107.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -661224,7 +661575,9 @@
           "ldraw_candidates": [
             "32530"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32530.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -661249,7 +661602,9 @@
           "ldraw_candidates": [
             "3937"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3937.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -661275,7 +661630,9 @@
             "44567b",
             "49716"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/44567b.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -661383,7 +661740,9 @@
           "ldraw_candidates": [
             "6134"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/6134.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -661624,7 +661983,9 @@
             "32124",
             "50029"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32124.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -661971,7 +662332,9 @@
             "20482",
             "31561"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/20482.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -662050,7 +662413,9 @@
           "ldraw_candidates": [
             "5092"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/5092.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -662075,7 +662440,9 @@
           "ldraw_candidates": [
             "5091"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/5091.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -662318,7 +662685,9 @@
           "ldraw_candidates": [
             "52107"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/52107.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -662533,7 +662902,9 @@
           "ldraw_candidates": [
             "32028"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/32028.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -662667,7 +663038,9 @@
           "ldraw_candidates": [
             "3030"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3030.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -662908,7 +663281,9 @@
           "ldraw_candidates": [
             "1927"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/1927.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -663362,7 +663737,9 @@
           "ldraw_candidates": [
             "30565"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/30565.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -663387,7 +663764,9 @@
           "ldraw_candidates": [
             "3958"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3958.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -663977,7 +664356,9 @@
           "ldraw_candidates": [
             "92947"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/92947.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -664785,7 +665166,9 @@
           "ldraw_candidates": [
             "3038"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3038.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -664864,7 +665247,9 @@
           "ldraw_candidates": [
             "3008"
           ],
-          "available_geometry_files": [],
+          "available_geometry_files": [
+            "assets/parts/3008.dat"
+          ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },
         {
@@ -666001,7 +666386,7 @@
           "previous_candidates_to_recheck": [
             "35480"
           ],
-          "reason": "26단계는 dark tan15573 점퍼와 reddish brown24246 반원 1×1 타일 후보다. 호출의 갈색 조각은 두 열린 스터드를 가진 35480 둥근 1×2 판과 다르다. 부품별 색상도 분리해 확인한다.",
+          "reason": "26단계는 dark tan15573 점퍼와 reddish brown1745 반원형 점퍼 플레이트다. 갈색 부품 윗면에 스터드가 있으므로 매끈한24246 타일과 구분한다. 35480 둥근1×2 판과도 다르며, 각 부품의 색상과 접점을 확인한다.",
           "status": "diagram_and_product_inventory_crosswalk_consistent; placement_and_physical_fit_not_verified"
         },
         {
@@ -682371,7 +682756,8 @@
             "6143"
           ],
           "available_geometry_files": [
-            "assets/parts/3941.dat"
+            "assets/parts/3941.dat",
+            "assets/parts/6143.dat"
           ],
           "identification_status": "official_element_listed; community_part_and_color_crosswalk; exact_mold_and_placement_not_verified"
         },

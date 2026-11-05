@@ -2,17 +2,18 @@
 
 ## 재구성 근거와 진행
 
-LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다. 과거 배치는 근거로 재사용하지 않는다.
+`models/triceratops-v0.mpd` is a manual-based reconstruction. Earlier layouts are not used as evidence when part identity changes; affected transforms are recalculated from the current official LDraw DAT geometry. Latest policy and shared know-how from `origin/main` commit `8ca6bf3` were incorporated, including the 77985 reviewed-step candidates.
 
-- 인쇄 10쪽 1–2단계 및 11쪽 3단계: 기반판, 역브래킷, 적갈색 판·테크닉 브릭, 경사 부품, 녹색 원판을 도해에서 식별해 배치했다. 일부 stud 좌표는 원근도에 따른 잠정값이다.
-- 11쪽 4단계: 곡선 받침 후보 `50950`를 사용했다. 설명서 실루엣과 LDraw 곡선 형상이 완전히 일치하는지 확인하지 못했으므로 부품 식별과 접점 모두 미확인 후보 상태다.
-- 11쪽 5단계: 3700 형상의 구멍 중심은 로컬 (0,10,±10), 축은 로컬 Z 방향이다. 배치 회전으로 구멍 축을 조립체 X축에 맞췄고, 4519 축 후보를 정렬했다. 두 축과 부싱은 각각 별도 ID다. 삽입 깊이·실제 맞물림은 미검증이다.
-- 설명서 색상은 보존했다. 부품/색상 SKU를 사전에서 찾지 못한 50950·4519는 SKU를 임의 지정하지 않고 `not_verified`로 남겼다. 후보 50950은 후속 시점 및 접점 대조가 필요하다.
+- Printed steps 4–6 are a display-base rock formation, separate from the fossil skull built much later. Step 4 uses the called 18980 rounded 2×6 plate. Its DAT stud grid projects onto three perimeter positions in the 60474 project platform proxy; because that proxy omits the underside locking geometry, only grid and layer registration are established.
+- Step 5 uses 24316 stop axles, 32064a cross-axlehole bricks and 3713 bushes. The replaced 4519/3700 coordinate assumptions are not carried forward; see the instance notes for the DAT-based refit and remaining insertion uncertainty.
+- Step 10 is the display plant branch (68211 stem, 4367 white flower, 22667 dark-azure fruit candidate). It is not fossil-skull material. Its local ornament module remains separate from the skull.
+- Step 249 is a local sandwich core: two 6541 bricks between the 3023b layers. The 6141 underside tubes enter the parallel +Z side ports and their top studs point outward. The 25264 anti-stud intervals register over those studs, with mold fit and cap azimuth still provisional.
+- Step 278 is rebuilt from 32056, 92907 and two 61332 parts. Their internal axes and pin spans are recalculated below. Step 279 has a candidate body-side 32056/47905 port fit recorded below; the complete skull pose is still provisional because its skull-local reference frame is absent.
+- Independent later body, skull and base fragments continue as local candidate assemblies. Their unconnected definitions are not counted as pieces attached to the final root.
 
 ## 검사 결과와 한계
 
-현재 MPD는 84개 물리 배치를 포함하며 단계 247–249 몸통 후보, 278–279 링크와 받침 280–288 독립 서브모델을 기록한다. 별도 구조 검사에서 MPD 계층·상태 데이터의 84개 ID·부품·색상·전역 좌표·회전과 851개 공용 형상의 해시·참조를 대조했다. SKU 자동 대조는 알려진 `StopIteration`을 반복하지 않았으며 상품 대응은 미확인이다. 247·249·278·279의 연결 정합성과 open-surface 간섭은 미확정/모호로 구분해 두었다.
-
+Current state records 161 physical instance IDs across the MPD hierarchy. Structural checks compare every ID, part, color, composed transform and quantity with embedded state. SKU mapping remains separate from source-part identity. LDraw DAT axis/center tests are distinct from closed-solid Boolean or open-surface collision tests; neither collision method is treated as valid when its mesh assumptions fail.
 
 ## 장식·범위 확인 항목
 
@@ -24,15 +25,9 @@ LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다
 
 사용자 지시에 따라 미니피겨 및 표지판/명판은 모델 구성에서 제외한다. 13쪽 완성 장면에 보이는 표지판은 부품 배치 대상이 아니다.
 
-## 24855 형상 판독 보정
+## 단계 10 식물 장식 대조
 
-`24855.dat`의 `Flower on ...` 문구는 `0 //` 주석이며 실제 형상 참조가 아니다. 실제 Type-1 형상 참조를 확인했으며, 부품은 꽃 머리가 붙은 부품이 아니라 구멍/바가 있는 줄기 형상이다. 따라서 별도 흰 꽃은 중복이 아니다. 도해의 흰 꽃 후보는 공용 사전 후보 24866(5꽃잎)이며, 꽃잎 수와 스터드/바 접합은 렌더 대조 후 확정한다. 장식 서브모델은 아직 MPD에 넣지 않았다.
-
-## 장식 서브모델 작업
-
-- `triceratops-ornament.ldr` 내부 서브모델을 추가했다. 로컬 원점은 줄기 핀/바 접점이다. 24855 줄기, 37695 잎 스프레이, 흰 5꽃잎 후보 24866을 별도 배치로 기록했으며 꽃 형상은 24855에 중복되지 않는다. 줄기-잎 상대 결합과 꽃 체결은 도해에 근거한 잠정 배치이고, 두개골 부착 변환은 미정이다.
-- SKU 미확인 상품은 설명서 색상과 별도 `not_verified` 상태를 유지한다. 전체 검증기의 SKU 대조 실패를 형상·조립 실패로 해석하지 않는다.
-- 미니피겨와 표지판/명판은 사용자 지시에 따라 제외한다.
+The step10 callout and the latest product-inventory crosswalk support one white seven-petal flower `4367`, one bright-green three-prong stem `68211`, and one dark-azure fruit `22667`. The prior `24855` stem and `37695` leaf-spray assignments are withdrawn; no old coordinates are reused. The current ornament module keeps the three parts separate, and their relative fit remains provisional until the exact bar/prong contact is checked. This is display-formation foliage, not fossil-skull ornament. SKU availability is a separate unknown.
 
 ## 두개골 본체 조립 진행
 
@@ -56,47 +51,22 @@ LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다
 - 현재 스켈레톤 지지 프레임과 페이지 14–21 로컬 프레임은 서로 다른 조립 구조일 수 있다. 86쪽 개요만으로 이를 같은 프레임으로 간주해 변환하지 않는다. 연결점 기준이 드러나는 단계별 도해가 확인될 때까지 두 서브모델의 상대 변환은 보류한다.
 
 
-## 두개골-몸통 결합 도해 및 로컬 링크
+## 단계 249 및 278–279 형상 기반 재검산
 
-- 인쇄 148쪽(단계 278)은 완성 두개골 뒤쪽에 검은 테크닉 링크와 핀 2개를 더하고, 인쇄 149쪽(단계 279)은 그 조립체를 앞몸통에 도킹한다. 전후 도해로 관계는 확인되지만, 그림 자체에 금형 번호나 좌표 표기는 없다.
-- `triceratops-skull-link.ldr`에 32140 L형 빔, 32184 소형 교차 블록, 11214 2개를 도해 적합 후보로 실제 배치했다. 공식 DAT 형상 기준 40 LDU 간격, 축 정렬, 액슬·핀 삽입 구간을 계산해 로컬 조립체를 만들었다. 이는 공식 형상 치수의 기하 등록 확인이며 설명서의 특정 금형 번호를 확정한 것은 아니다. 98989는 2×4 크기와 추가 구멍 패턴이 호출 그림의 컴팩트한 2점 연결과 맞지 않아 후보에서 제외했다.
-- PDF 2 인쇄 136–142쪽(단계 247–263)은 몸통/골격 하위 조립체를 보여준다. 단계247의 6541 후보와 두 spacer 후보, 단계249의 2×6541 지지 조립체는 MPD 내부 서브모델에 실제 배치했다. 상세한 후보·좌표·검증 수준은 아래 갱신 기록을 따른다.
-- 인쇄 136쪽 단계 247 확대도에서 6541 후보는 아래쪽의 두 원형 부품과 수직으로 순차 조립된다. 최종 시점은 블록의 측면 구멍과 아래 spacer stack을 함께 보여 주므로, 두 링을 6541의 측면 구멍 양쪽에 세우던 초안 좌표는 폐기했다. MPD에서는 6541 DAT의 측면 구멍 중심 `[20,20,20]`, 축 `+Y`를 유지하고, 두 `6577` 형상 후보를 그 아래 수직으로 10 LDU 간격 배치했다. 공식 `6577`은 여성 액슬 구멍의 Technic Bush 1/2 Type 2여서 형상 후보 수준이며, 그림만으로 부품 번호·숨은 지지축/스터드 및 삽입 깊이는 확정할 수 없다.
-- 인쇄 137쪽 단계 249 부품표와 호출 그림에서 두 tan 6541 후보, 2×1 판, 두 개의 짧은 축/핀 모양 부품, 두 개의 원형 슬롯 커넥터를 확인했다. MPD에 `43093` 남성 axle-pin 후보와 `62462` Round Pin Joiner 후보를 각 2개 포함해 내부 지지 조립체를 작성했다. 공식 형상 치수상 현재 모델의 6541 구멍 중심은 20 LDU 간격이며 두 축은 모두 `+Z`; 43093 후보와 각 62462의 가까운 핀 구멍은 동축이다. 먼 쪽 receiver 중심은 `[390,-14,50]`, `[410,-14,50]`로 계산된다. step278/279 순서에서 32184 교차 구멍은 두개골 쪽, 32140의 남은 `[20,0,20]` 구멍(+Y)은 몸통 쪽 포트로 잠정 분리했다. 그러므로 몸통 수용부가 두 축을 동시에 맞출 필요는 없다. 249의 평행/직교 여부만으로 후보를 제외하지 않으며, 해당 지지부의 역할·변환·삽입은 보류한다.
-- 단계 278의 두 11214는 32184와 32140의 내부 40-LDU 간격 구멍을 이미 잇는다. 단계 279에는 부품표가 없으므로 새 핀을 추가하는 단계가 아니라 완성 링크를 기존 몸통 수용부에 도킹하는 단계다. 32140의 자유 구멍 `[20,0,20]` 축 `+Y`, 32184의 직교 관통구멍 `[0,20,0]` 축 `+Z`는 외부 링크 후보로 따로 기록했다. 이 두 점에 대응하는 몸통의 249 수용구와 삽입 범위는 아직 식별되지 않아 상대 변환을 확정하지 않았다.
+- Step 247’s local receiver remains the p.136 47905 brick over two 6141 plates. It is a separate part group from the step249 tan support.
+- On p.137, the step2–3 subdiagrams show two 6541 holes side by side and facing the same way on the 3023b plate pair; the hole axes are parallel. With the 6541 DAT origins at y=-24, the +Z side-port mouths are `(-10,-14,10)` and `(10,-14,10)`, each axis -Z into the brick. The 6141 plates are reversed from the earlier draft: their underside tubes enter each side port and their top studs point +Z. The part envelope reaches 8 LDU inward from the side-port mouth; its top stud spans z=10..14. Each 25264 cap’s official `stud4od` feature is an underside tube with local Y interval -9..-5. With local Y rotated to -Z and cap origin z=5, that interval maps to z=10..14 and registers over the 6141 stud. Centerlines and nominal feature intervals align; molded friction, clearances and cap azimuth remain unverified. The `3023b`/`6541` local core is separate from step247 and still has no confirmed whole-body transform.
+- Step278’s current parts are 32056 + 92907 + 2×61332, per the latest reviewed inventory and p.148 callout. The old 32140/32184/11214 coordinates and all results derived from them are withdrawn.
+- Step279 adds no pieces; p.149 shows docking of the completed skull onto the body. The current MPD has separate local fragments, not a physically assembled complete fossil skull. Page 148 shows the 92907 end being attached to the skull before step 279. The partial body-side candidate therefore matches the free `32056` axle-hole line point `(40,-5,0)`—which is `(20,60,0)` in the step278 link frame—to the +Z `47905` stud at `(0,10,10)`. The candidate transform is translation `(0,-50,30)` and rotation `[[0,0,1],[0,1,0],[-1,0,0]]`, giving 0-LDU centerline residual, opposed axes, nominal 12-LDU outer diameter, and 4-LDU projected stud insertion. The 32056 axlehol4 is keyed/cross-shaped while the 47905 stud is round, so profile clearance and actual insertion are unverified; the hidden view also leaves the receiver side and overall skull pose provisional.
 
+## 단계 6 전시용 바위 형상
 
-## 단계 6 좌우 쐐기 금형 대조
+The p.12 step6 pair is reddish-brown sloped rock trim in the display formation. The latest reviewed inventory identifies both as `28192` cutout slopes; the old `24299`/`24307` left/right wing interpretation is withdrawn. They remain inside `triceratops-display-formation-6.ldr`, a name explicitly distinct from the later fossil skull. Current positions follow the two opposed sides of the 3005 support; exact stud contact remains provisional.
 
-- 확대 인쇄 12쪽 단계 6에서 갈색 쐐기 두 개가 중앙의 테크닉 브릭을 덮는 좌우 대칭 캡을 만든다. 공용 공식 DAT를 직접 비교하면 `24299.dat`는 Wing 2×2 Left, `24307.dat`는 Wing 2×2 Right이며, 단순 180도 회전 복제 관계가 아니다. 하부 스터드 위치와 쐐기 윤곽이 반대 손잡이로 정의되어 있다.
-- 두 개의 반대 방향 지붕면과 맞물리는 도해, 그리고 DAT의 반전된 스터드·모서리 형상이 부합하므로 우측 후보를 `24307.dat`으로 교체했다. 좌표는 기존 도해 기반 잠정값을 유지했으며 실제 스터드 겹침은 미검증이다. 공용 사전/매니페스트에는 24307 원본이 이미 있어 자산 변경은 필요하지 않았다.
+## 단계 278 링크의 DAT 기반 좌표
 
+`triceratops-step278-link.ldr` uses the 92907 local origin. The official DAT exposes the two positive-X axle-port lines at `(x,20,0)` and `(x,20,-20)`, each through x=0..20. The 32056 holes at `(0,0,0)` and `(0,0,20)` are mapped to those lines with translation `(25,20,0)` and rotation `[[0,1,0],[1,0,0],[0,0,-1]]`. The liftarm web spans x=20..30 and meets the crossblock face at x=20.
 
-- 상태 데이터의 `joint-skull-anterior-torso`에는 도해가 확인하는 조립 순서와 로컬 형상 분석의 후보 수준을 분리해 적었다. SKU 상태는 별도다.
-
-- 이전 기록에서 32140·32184·98989를 미확인 후보로만 둔 설명은 아래의 실제 로컬 배치 및 후속 판단으로 대체한다.
-
-
-## 단계 278 링크 조립 및 LDU 정합
-
-- 확대 호출 그림의 L형 부품을 `32140.dat`, 소형 교차 부품을 `32184.dat`, 두 핀을 `11214.dat`의 액슬-핀 연결부로 좁혔다. `98989.dat`는 공식 DAT가 2×4 외곽과 더 많은 교차 구멍을 가지며, 그림의 소형 부품 및 두 지점 링크와 맞지 않아 제외했다. `32184`의 원형 액슬 보어와 두 축 말단도 호출도해 형상에 부합한다. GoBricks SKU 대응은 여전히 미확인이다.
-- `32140`의 40 LDU 간격 구멍 둘 `(0,0,20)`, `(0,0,60)`을 `32184`의 액슬 보어 중심 `(0,-20,0)`, `(0,20,0)`과 맞췄다. 회전 `R=[[0,0,1],[1,0,0],[0,1,0]]`, 이동 `(0,20,40)`에서 보어 중심선의 횡방향 잔차는 0 LDU, 공통 축은 +Y, 맞닿는 면의 층 오프셋은 20 LDU다. 32140의 세 번째 구멍은 이 배치에서 `(20,0,20)`, 축 +Y로 남는다.
-- 각 `11214`는 로컬 X축을 +Y로 두고 z=±20의 링크 구멍에 놓았다. DAT의 20 LDU 액슬 구간은 `32184` 보어에 들어가고, 40 LDU 2L 핀 구간은 `32140`의 20 LDU 두께 핀 구멍을 통과해 20 LDU 돌출한다. 이 두 핀은 우선 두 링크 부품을 서로 연결한다. `32140`의 세 번째 자유 구멍은 몸통 연결 후보이고, `32184`의 중심 교차 구멍(현재 링크 좌표 `[0,20,0]`, 축 +Z)은 두개골 측 후보로 분리해 두었다. 두 외부 포트의 상대 부품과 삽입 핀은 후속 도해에서 확정해야 한다. 이는 CAD 기준 위치·축·삽입 구간 검사이며, 실물 공차 검증은 아니다.
-- `triceratops-skull-link.ldr`에 네 기하 후보 배치를 작성했다. 상태 데이터와 MPD 전역 변환을 대조해 ID·수량·회전·좌표가 일치했고, 링크 핀 축선의 횡방향 잔차는 0 LDU, 마주 보는 부품 면의 층 간격은 20 LDU이며 11214의 액슬/핀 구간이 각 보어/구멍을 관통한다. 메시 간섭과 실물 공차는 검사하지 않았다.
-
-
-- 과거 구조 검사 기록(41개 배치)은 이후 수정으로 대체되었다. 현재 60개 물리 배치와 내부 서브모델 참조를 다시 대조했고 ID·부품·색상·전역 좌표·회전이 일치했다. 링크의 32140/32184 두 축선은 횡방향 잔차 0 LDU, 접촉면 간격 20 LDU이며, 잠정 6541 수용부는 세 번째 32140 구멍과 동축(0 LDU 횡잔차), 면 간격 0 LDU다. `6541`은 단계247 형상 후보이며 단계279 결합부라는 식별은 미확정이다.
-
-- 메시 간섭 검사는 현재 보류: Blender Boolean 시도에 사용한 재귀 DAT 삼각망이 32140 148/2762, 32184 360/2170, 11214 383/1378, 6541 56/520개의 비다양체 모서리를 가졌다. 의도한 면 접촉에도 작은 교차 부피가 나와 이 입력으로는 간섭 여부를 판정할 수 없다. 축선 잔차·층 간격 검사는 독립 계산으로 유효하지만, 메시 간섭 통과로 해석하지 않는다.
-
-
-## 단계 247–249와 278–279 형상 대조 갱신
-
-- 페이지 136의 247 단계 호출도와 완성 몸통을 확대했다. 6577 후보 두 개는 6541의 측면 구멍 바깥에 하나씩 놓이는 구성이 아니라 블록 아래 수직 spacer stack을 이룬다. 따라서 두 bush의 축을 수직으로 바꾸고 6541의 옆 구멍 좌표·축만 32140 자유 포트 후보와 정렬했다. bush가 끼워지는 하부 축/스터드와 실제 mold 번호는 미확정으로 남겼다.
-- 페이지 137의 249 단계는 2× 6541, 2× 3023b, 2× 짧은 axle-pin 모양 부품, 2× round slotted connector의 하위 조립체를 보여 준다. MPD에는 두 6541과 판을 유지하고 43093/62462 형상 후보를 각각 두 개 실제 배치해 hole 축을 맞췄다. 6541 쌍은 현재 20 LDU 평행 구멍 배치로 작성했으나, 호출의 가려진 면에서 두 번째 구멍축이 직교할 가능성도 아직 배제하지 않았다. 279단계의 외부 포트쌍과 정확한 대응 및 62462 삽입 깊이는 보류다.
-- 278단계는 11214 2개를 먼저 cross block에 넣고 32140 빔을 추가하는 호출이다. 두 핀은 그 내부 연결에 사용되며 279단계에 새 부품으로 다시 세지 않았다. 단계 279 부품표가 비어 있고 도킹 화살표만 있으므로 필요한 몸통 수용부는 앞선 몸통 단계에서 이미 형성되어 있어야 한다.
-- 닫힌 솔리드 Boolean 검사는 재귀 DAT 삼각망의 비다양체 모서리 때문에 무효였다. 별도로 수행한 open-surface BVH는 닫힘을 요구하지 않지만, 의도 접촉의 면 삼각형 교차/0거리와 실제 관통을 분리하지 못하고 내부 포함도 검사하지 않는다. 따라서 그 결과는 간섭 없음이 아니라 미검증/모호로 기록한다. 원본 형상은 고치지 않았다.
-
+Each 61332’s DAT shaft envelope is 40 LDU along local X. Pins are placed on the two shared X-axis lines at `(20,20,0)` and `(20,20,-20)`, with their collar at the part-face boundary. This gives 20 LDU through the crossblock, 10 LDU into the liftarm and a nominal 10 LDU projection beyond its far face. These are computed geometry intervals, not proof of real-world tolerance or surface-interference clearance. The remaining 92907 center receiver points along +Z; its mating counterpart is not yet present as a verified feature in the local skull assembly.
 
 ## 독립 받침 조립 시작
 
@@ -104,24 +74,16 @@ LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다
 - 단계 281의 1×3 판 두 개는 두 행에 나란히 올린 보강 패치로 추가했다. 실제 부품 길이와 반복 수량은 도해와 맞지만 정확한 길이 방향/겹침은 다음 플랫폼 단계로 보정할 잠정 좌표다. 이 서브모델은 두개골·몸통 링크와 독립적으로 작성했다.
 
 
-- 단계249에서 남은 판독 질문: 인쇄 137쪽 substep 2–3의 가려진 면에서 두 6541 구멍축은 평행인가, 직교인가? 32184는 두개골 측, 32140의 남은 구멍은 몸통 측이라는 잠정 역할을 반영했다. 몸통 수용구가 두 외부 포트 축을 함께 만족할 필요가 없으므로 평행/직교 비교만으로 후보를 제외할 수 없다. 이 세부는 사용자가 “불명확, 후보 유지”로 답했으며 다시 묻지 않고 해당 접점만 보류한다.
-- 단계247 부품 식별 질문: 인쇄 136쪽 상단 부품표와 세로 호출에서 두 원형 부품은 여성 십자 액슬 구멍인 `6577` bush 후보인가, 남성 축/핀인 `43093` 후보인가? 6577은 아래 세로 spacer 그림과 실루엣은 맞지만 자체 삽입축이 필요하다. 43093은 6541 횡구멍에 기능적으로 들어갈 수 있으나 두 개가 세로 spacer처럼 놓인 그림과는 맞지 않는다. 식별에 필요한 것은 해당 두 부품의 중앙 구멍/돌출축을 구분할 수 있는 확대 시점 또는 호출부품 번호다.
 
 - 인쇄 151쪽 단계 282의 평평한 tan 2×4 타일을 `87079.dat` 형상 후보로 base 서브모델에 추가했다. 힌지 끝을 덮는 위치는 그림에서 추정한 잠정값이며 283단계 호출로 보정한다.
 
-- 추가한 단계249 후보의 open-triangle BVH 검사에서 6541↔43093, 43093↔62462, 판↔브릭, 인접 브릭의 표면 삼각형 교차와 최소거리 0이 나왔다. 이 결과는 의도된 접촉/마찰 결합과 관통을 구분하지 못하므로 통과로 해석하지 않았다. 닫힌 솔리드 Boolean 실패와 별개로 간섭 상태는 계속 미검증이다.
 
-- 두 질문에 대한 사용자 회신은 모두 “불명확, 두 후보 유지”다. 따라서 단계247은 `6577`/`43093`을 후보로 유지하고, 단계249는 평행/직교 축 변형을 미확정으로 유지했다. 사용자는 두 항목 모두 불명확하므로 후보를 유지하라고 답했다. 후속 반대 시점·부품표·실제 결합 형상이 구별 근거를 제공할 때까지 해당 접점만 보류하고, 독립 받침 조립은 계속한다.
 
 - 인쇄 151쪽 283단계 부품표에서 tan 1×2 판 1개, 1×2 테크닉 브릭 1개, 이중 손가락 힌지판 2개를 식별했다. `3023b`, `3700`, `50340` 후보를 282단계 타일 뒤의 드러난 두 행에 배치하고 공식 부품 높이에 맞춰 각 힌지판을 위에 놓았다. 행 선택과 손가락 방향은 도해 기반 잠정값이다.
 
 
 ## 포트 역할 보정 및 단계 284
 
-- 단계 278에서 11214 두 개는 이미 링크 내부 32184–32140 연결에 쓰였다. 단계 279는 새 부품을 추가하지 않고 링크를 앞몸통에 도킹한다. 조립 순서에 근거해 32184의 교차 구멍을 두개골 측, 32140의 남은 구멍을 몸통 측 포트로 잠정 분류했다. 외부 수용부 하나가 두 축 모두를 맞춰야 한다는 이전 계산 조건은 잘못 설정된 조건이므로 후보 제외 근거로 사용하지 않는다.
-- 단계 247 후보 receiver 6541은 해당 32140 구멍과 중심선 횡잔차 0 LDU, 면 간격 0 LDU다. 이는 좌표·축 정합일 뿐 부품 정체·핀 길이·삽입 깊이 또는 실물 결합을 확정하지 않는다.
-- 단계 247의 6577은 암형 bush 후보로 유지한다. 성립 조건은 도해의 두 원형 부품이 축을 끼우는 여성 보어이고 숨은 수직 지지축이 존재하는 경우다. 직접 6541 측면 구멍에 꽂는 수형 연결로 해석하면 형상이 맞지 않는다. 43093은 남성 마찰핀이라 측면 구멍에 들어갈 수 있지만, 호출의 수직 ring stack과 자체 보어/지지축이 필요한 구성으로는 형상이 불일치한다. 두 후보를 동시에 완료 수량으로 세지 않는다.
-- 단계 249의 43093→62462 조합은 DAT 상 수형 핀과 여성 핀 구멍이라는 기능 유형·동축 배치가 성립할 수 있는 후보일 뿐, 설명서 부품 번호나 삽입 깊이 확인은 아니다. 6577 여성 bush는 6541 또는 62462에 직접 연결되는 수형 축이 확인되지 않으면 해당 직결 해석이 성립하지 않는다. 단계 249의 구멍축 방향 질문은 사용자 회신대로 후보 상태이며, 몸통 포트 하나와의 연결 근거 없이 평행/직교 하나를 배제하지 않는다.
 - 단계 284 (인쇄 151쪽): 여섯 스터드 2×3 판은 `3021.dat`, 네 스터드 2×2 판은 `3022.dat` 도해 호출과 공식 형상이 일치한다. 두 부품을 독립 받침 서브모델에 추가했다. 길이 방향 회전·상대 중첩은 다음 플랫폼 시점에 맞춘 잠정 배치다. 기존 비다양체 Boolean/BVH 검사는 재실행하지 않았다.
 
 - 단계 285 (인쇄 151쪽): 짧은 곡면 쐐기 두 개가 추가된다. 공식 `1762.dat` (“Slope Brick 31 2 x 2 Double, Curved”)은 호출의 이중 곡면 윤곽·수량과 맞는 형상 후보여서 양쪽에 하나씩 MPD에 배치했다. 이는 부품 식별 확정이 아니다. 곡면 진행 방향, 아래 스터드 footprint, 284단계 판과의 정확한 중첩은 286단계의 더 넓은 삼각판 조립과 함께 보정한다.
@@ -133,33 +95,9 @@ LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다
 - 단계 288 (인쇄 154쪽): 작은 왼쪽·오른쪽 경사 날개 조각이 각각 두 개씩 호출된다. `24299` 왼쪽 Wing과 `24307` 오른쪽 Wing은 서로 다른 공식 금형이며 동일 부품의 단순 회전으로 취급하지 않았다. 후보 네 개를 외측 패널에 잠정 배치했으나, 평평한 면 방향과 스터드/클립 접점은 다음 289–290단계 호출과 후면 시점으로 보정한다. 후보 배치는 확정 BOM 수량으로 세지 않는다.
 
 
-## 단계 278–279 포트 역할과 후보 판정
+## 단계 278–279 외부 포트 상태
 
-- 조립 순서에서 278단계의 11214 두 핀은 32184와 32140 사이의 내부 링크로 이미 사용되고, 279단계는 완성 링크를 앞몸통에 도킹한다. 이를 근거로 32184 직교 구멍을 두개골 측, 32140의 남은 구멍을 몸통 측으로 잠정 배정했다. 정확한 외부 접점은 확정 전이며, 몸통 receiver 하나가 두 축을 함께 만족할 조건은 없다.
-- 단계247의 6541 후보는 32140 자유 포트와 중심선 횡잔차 0 LDU, 인접면 간격 0 LDU다. 이는 좌표 정렬만 확인하며 결합 핀·삽입 깊이·부품 동일성은 증명하지 않는다.
-- 사용자 답변대로 6577/43093 식별 및 249 구멍축 방향은 불명확하므로 각 쟁점만 후보로 유지한다. 6577은 숨은 수직 수형 축이 있고 그림의 원형 부품이 암형 부싱일 때 성립하고, 6541 옆 구멍에 직접 꽂는 수형 핀 해석에는 성립하지 않는다. 43093은 6541 측면 구멍에 수형 마찰핀으로 꽂힐 수 있으나, 하부에 두 개 쌓인 부싱 해석과는 형상·방향이 맞지 않는다. 후속 도해나 전체 부품목록이 분별 근거를 제공하기 전에는 확정하지 않는다.
-- 단계249의 43093→62462 동축 후보는 남성 핀과 여성 핀 구멍의 형상 기능이 맞을 수 있지만, 설명서 ID·삽입 깊이는 확인 전이다. 6541 두 개의 평행/직교 방향만으로 어떤 상대를 배제하지 않는다.
-
-- 인쇄 155쪽 단계 289의 첫 두 호출을 독립 조립으로 작성했다. 여섯 스터드 적갈색 판 `3666` 위에 여덟 스터드 tan 2×4 판 `3020`을 올리고, DAT의 20-LDU 행 간격과 8-LDU 판 층을 적용했다. 이 하위 조립체는 위치가 정해질 때까지 MPD 내부 별도 로컬 브랜치에 두었으며, 다음 289 호출에서 hinge/bar/round-cap 형상을 확인해 확장한다.
-
-- 단계 289 하위 조립의 3–5 호출도 작성했다. 두 스터드 1×2 판은 부품 수로 식별했고, modified hinge는 `50340`, 세 스터드 둥근 적갈색 조각은 `77850`, 둥근 2×2 캡은 `4032a` 형상 후보로 배치했다. 호출의 부품 번호가 없어 이 세 형상과 높이 스택은 잠정이다. 연결부 전체가 확정되지 않았어도 289 하위 조립체를 별도 로컬 MPD 모듈로 유지했다.
-
-- 단계 290 (인쇄 156쪽)의 판·힌지 지지부를 두 번째 독립 MPD 서브모델로 시작했다. 여섯 스터드 `3666`과 2×4 판 `3020`은 도해 수량·스터드 열로 맞췄고, 3023b·50340·77850·4032a는 후속 캡/힌지 후보로 적층 배치했다. 두 번째 쪽의 좌우 67142/68196 패널은 접점이 뒤 시점으로 확인될 때 배치하도록 현재 상태에서만 보류한다.
-
-- 단계 247·249 후보를 부품표와 대조하려고 설명서 마지막 전체 부품 목록(인쇄 161–162쪽)을 확인했다. 목록은 GoBricks/LDraw 금형 번호가 아닌 LEGO element 번호와 썸네일·수량만 보여 준다. 원형 부품 후보의 수량·대략 윤곽은 대조되지만, 중앙 암형 액슬 구멍과 수형 마찰핀 끝단의 식별 또는 249의 가려진 뒷면 구멍축은 확정하지 못했다. 사용자는 이미 두 항목을 “불명확, 후보 유지”로 답했으므로 이 기록은 재질문이 아니라 후속 도해 근거다.
-
-- 최신 정책에 따라 v0는 원래 LEGO 설명서 부품·색상 재구성이며 GoBricks 판매 SKU는 필수 조건이 아니다. 이번에 등록한 30355/30356 및 67142/68196은 공식 LDraw 형상 후보로 사용했고 GoBricks 대응은 별도 미확인 상태로 유지한다.
-
-
-## 247–249 후보 수량 및 단계 291–292 접힘 도해
-
-- 247단계의 원형 부품 후보는 별도 가설로 기록한다. MPD에는 6577 형상 2개만 잠정 배치했고, 대안인 43093 2개는 MPD에 추가하지 않았다. 6577은 그림의 암형 bush와 숨은 수직 수형 축/스터드가 확인될 때 성립하며, 직접 6541 측면 구멍에 꽂는 수형 핀 해석이면 성립하지 않는다. 43093은 후속 호출/분해도에서 측면 구멍에 들어가는 남성 마찰핀으로 확인될 때 성립하고, 현재 보이는 수직 bush stack 해석에는 맞지 않는다. 둘을 동시에 완료 수량으로 세지 않는다.
-- 249단계의 43093 핀과 62462 슬롯형 조인트는 서로 다른 호출 형상을 나타내는 잠정 조립이며, 공식 DAT에서는 핀-암형 구멍의 동축 정렬이 가능하다. 이것은 후보 금형 및 삽입 깊이 확인이 아니다. 두 6541의 축 관계는 현재 MPD에서 평행 배열 하나만 잠정 배치했다. 직교 대안은 별도 부품으로 추가하지 않았고, 사용자의 “불명확, 후보 유지” 회신을 보존한다. 두 후보 수용부는 32184/32140 외부 포트 역할을 특정하지 못하므로 평행/직교만으로 배제하지 않는다.
-- 상태의 `piece_count=84`는 MPD의 물리 인스턴스 레코드 수이며 확정 BOM 수량이 아니다. 후보는 `candidate_unverified` 또는 상태 기록의 대안으로 분리하고, 상호 배타적 형상 가설을 함께 배치하거나 완료 수량에 더하지 않는다.
-- 인쇄 157쪽 단계291–292는 이미 조립한 양쪽 측면 패널을 접는 화살표이며 새 부품 호출은 없다. 패널 관절 동작만 확인되고 정확한 피벗 중심·접힘 각도는 도해에서 수치화되지 않아 새 배치/복제는 만들지 않았다. 기존 패널의 최종 접힘 변환은 미검증으로 남겼다.
-
-- 인쇄 158쪽 단계293의 완성도는 단계289–292 측면 패널이 화석의 옆구리/늑골 영역에 놓이는 관계만 보여 준다. 개별 결합점·핀 축·삽입 길이는 가려져 있으므로 두 로컬 패널 서브모델의 변환은 수치화하지 않았다. 인쇄 159쪽 단계294는 표지판과 미니피겨 장면이며 사용자 지시대로 제외했다.
-
+Step278 internal hole centerlines and pin spans are registered as described above. Page 148 shows the 92907 end attached to the skull before step279, so the body-side candidate is the free 32056 axle-hole line. Its candidate transform to the step247 47905 +Z stud is translation `[0,-50,30]` and rotation `[[0,0,1],[0,1,0],[-1,0,0]]`, with 0-LDU centerline residual, opposed axes and 4-LDU projected stud insertion. The hidden connection and overall skull pose remain provisional. Step249 remains a distinct support candidate; withdrawn spacer/pin hypotheses are not instantiated.
 
 ## 단계 250 몸통 연장판
 
@@ -210,7 +148,6 @@ LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다
 - 인쇄 144–145쪽 단계268–274의 호출을 별도 로컬 후보 모듈로 작성했다. 268·274는 구멍 난 삼각판을 `3176` 후보로, 270은 좌우를 구분한 `24299`/`24307` 후보로 배치했다. 269·271·273의 판/쐐기/둥근 캡과 272의 3개 반복 곡면도 호출 수대로 내부 조립체에 기록했다. 모든 배치는 설명서 외곽에 맞춘 형상 후보이며 연결 깊이·뒤쪽 접촉면·두개골 상대 변환은 미검증이다. 이 후보들은 확정 수량이나 완성된 두개골 부품으로 세지 않는다.
 - 인쇄 146쪽 단계275–276의 1×2 판·쐐기·큰 곡면 부품과 지지 조각은 각 호출 수량대로 로컬 후보 조립에 기록했다. 큰 외곽은 공용 `64225`/`61678` 곡면 후보와 대조했지만 후속 시점에서 곡률과 아래 체결점 검증이 필요하다.
 - 단계277 호출의 긴 구간은 `14301` flexible hose 형상과 강한 길이/분할 윤곽 대응을 보여 두 개를 뿔 본체 후보로 MPD 내부 로컬 모듈에 추가했다. 공식 형상은 직선 표준 렌더이므로 설명서의 굽힘 포즈를 구현하지 않았으며 이를 연결 확인으로 해석하지 않는다. 필수 `14301k01/k02` 세그먼트를 공용 에셋에 함께 등록했고, 저자 Sylvain Sauvage 및 CC BY 4.0 고지, 원본 아카이브·파일 해시를 `assets/policy.md` 매니페스트에 기록했다. GoBricks 판매 대응은 별도 미확인이다. 호출의 핀·칼라·끝 장식은 단계별 삽입 방향과 수용 구멍 대응을 확인하기 전까지 배치하지 않았다.
-- 인쇄 148–149쪽 278–279 확대도에서 32140/32184 링크가 2×11214 핀으로 자체 조립된 후 단계279에 몸통 앞쪽으로 이동하는 것을 다시 확인했다. 링크 32140 남은 구멍 중심 `[20,0,20]`, 축 `+Y`와 단계247 6541 후보 수용 중심 `[20,20,20]`, 축 `+Y`를 맞추기 위해 루트 링크 모듈을 `[0,20,0]` 이동했다. 계산된 축 횡오차 0 LDU, 중심 잔차 0 LDU, 명목 면 간격 0 LDU다. 이 접촉은 단일 몸통 포트 후보에 대한 변환 적합이며 6541 금형 확정·핀 체결 깊이 검증이 아니다. 32184 쪽 두개골 접점은 계속 별도 미확정이다.
 - 단계277 호출의 끝 조각은 공식 `13564.dat` Animal Cow Horn 2.25L의 휘어진 뾰족 윤곽과 대조해 두 개를 `14301` 호스 끝 후보로 추가했다. `13564`와 해당 primitive 참조를 공식 아카이브에서 확보해 기존 공용 경로로 변환하고 `assets/policy.md`에 원본·변환 해시, 저자 Philippe Hurbain, CC BY 4.0을 기록했다. 호스 끝점 근처에 등록했지만 실제 소켓의 성별·삽입 깊이·조립 각은 미확정이다.
 - 단계277 호출의 나머지 내부 조각은 후보를 하나로 단정하지 않았다. 축/막대는 매끈한 `87994`와 십자축 `4519`, 구형 핀은 수형 액슬 타월볼 `2736`과 볼 조인트 막대 `22484`, 원통 슬리브는 `62462`와 `59443`, 테이퍼 어댑터는 `59900`과 `98100`을 각각 대조 후보로 남겼다. 도해가 각 단면과 수용부 암수 구조를 가려 네 부품군은 인스턴스화하지 않았고, 완료 수량으로도 세지 않는다.
 - 단계260의 올리브색 곡선 조각은 전체 부품표의 작은 곡선 조각 3개 수량과 대조했다. 단계277의 두 끝 조각과 같은 형상군으로 보이며 공용 `13564` 형상의 곡선·테이퍼가 부합해 세 번째 `13564` 후보로 배치했다. 설명서 색상 330 Olive Green을 유지하고, 아래 화살표에 따라 6541 상부 스터드 중심에 놓았다. 형상 홈과 실제 몰드가 동일하다는 확정 근거는 아니므로 후보 상태다.
@@ -229,8 +166,8 @@ LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다
 
 ## Current-manual candidate corrections — 2026-11-05
 
-Merged the current `origin/main` inventory review (`a52802c`) and inspected official `6649865.pdf` pages 11–13, 136–137, and 148. The early step 4–6 objects are a display-base/rock formation, not the fossil skull. In `triceratops-v0.mpd`, step 4 now uses the rounded 2×6 plate candidate `18980`; step 6 uses two reddish-brown `28192` cutout slopes around its called small brick. Step 5 axle/bushing candidates were replaced by `24316`, `32064a`, and `3713`; their centers and axes were recalculated from the new DAT files. Step 10 now records the called green stem `68211`, white flower `4367`, and dark-azure cherry `22667`, with local branch fit provisional.
+Integrated `origin/main` through `21bae1a`; the set-specific 77985 candidate review remains the one from `8ca6bf3`. Inspected official `6649865.pdf` pages 11–13, 136–137, 148–149 and enlarged p.137 substeps 2–5. The early step 4–6 objects are a display-base/rock formation, not the fossil skull. In `triceratops-v0.mpd`, step 4 now uses the rounded 2×6 plate candidate `18980`; step 6 uses two reddish-brown `28192` cutout slopes around its called small brick. Step 5 axle/bushing candidates were replaced by `24316`, `32064a`, and `3713`; their centers and axes were recalculated from the new DAT files. Step 10 now records the called green stem `68211`, white flower `4367`, and dark-azure cherry `22667`, with local branch fit provisional.
 
-Step 247’s `6541`/`6577` stack was replaced by the called opposite-side-stud brick `47905` and two stacked black `6141` round plates. Step 249’s former `43093` pins and `62462` slotted joiners were replaced by black `6141` and `25264` shape candidates; their support contacts remain provisional. Step 278’s `32140`/`32184`/`11214` assembly and derived 40-LDU port fit were withdrawn and rebuilt with `32056`, `92907`, and two `61332` friction pins. The step 279 external mating transform is not claimed. Product inventory totals remain distinct from placements shown in an individual instruction step.
+Step 247 now follows the latest crosswalk: one `47905` opposite-side-stud brick and two stacked `6141` plates. Step 249 uses the `3023b`/`6541` core, with 6141 underside tubes registered in the side ports and 25264 anti-stud intervals aligned to the 6141 outward studs; exact pressure fit remains provisional. Step 278 uses `32056`, `92907` and two `61332`; all former 32140/32184/11214 geometry is withdrawn. Internal link geometry is registered; a partial step279 32056/47905 body-side transform candidate is recorded, while the overall skull pose remains provisional.
 
 The same review removed one exact duplicate frame-base placement (`part-0022` 4282) at the root stand plate transform; the frame now reuses the root base plate instead of double-counting it.
