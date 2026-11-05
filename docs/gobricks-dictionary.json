@@ -639468,6 +639468,1670 @@
       "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/4723.dat",
       "gobricks_status": "not_verified",
       "verification": "Official LDraw pinned Git blob and recursive dependencies checked. LEGO 21061 inventory candidate; specific instruction placement and physical fit unverified."
+    },
+    "3941": {
+      "geometry": "assets/parts/3941.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11212": {
+      "geometry": "assets/parts/11212.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15070": {
+      "geometry": "assets/parts/15070.dat",
+      "gobricks_status": "not_verified"
+    },
+    "89522": {
+      "geometry": "assets/parts/89522.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60474": {
+      "geometry": "assets/parts/60474.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6141": {
+      "geometry": "assets/parts/6141.dat",
+      "gobricks_status": "not_verified"
+    },
+    "22388": {
+      "geometry": "assets/parts/22388.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3062b": {
+      "geometry": "assets/parts/3062b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2343": {
+      "geometry": "assets/parts/2343.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3033": {
+      "geometry": "assets/parts/3033.dat",
+      "gobricks_status": "not_verified"
+    },
+    "54200": {
+      "geometry": "assets/parts/54200.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6541": {
+      "geometry": "assets/parts/6541.dat",
+      "gobricks_status": "not_verified"
+    },
+    "43093": {
+      "geometry": "assets/parts/43093.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3005": {
+      "geometry": "assets/parts/3005.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87079": {
+      "geometry": "assets/parts/87079.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87580": {
+      "geometry": "assets/parts/87580.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3245c": {
+      "geometry": "assets/parts/3245c.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60581": {
+      "geometry": "assets/parts/60581.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3001": {
+      "geometry": "assets/parts/3001.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3710": {
+      "geometry": "assets/parts/3710.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3028": {
+      "geometry": "assets/parts/3028.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3010": {
+      "geometry": "assets/parts/3010.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3040b": {
+      "geometry": "assets/parts/3040b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3622": {
+      "geometry": "assets/parts/3622.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3003": {
+      "geometry": "assets/parts/3003.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2357": {
+      "geometry": "assets/parts/2357.dat",
+      "gobricks_status": "not_verified"
+    },
+    "20310-eacab9d213": {
+      "geometry": "assets/parts/20310-eacab9d213.dat",
+      "gobricks_status": "not_verified"
+    },
+    "25269": {
+      "geometry": "assets/parts/25269.dat",
+      "gobricks_status": "not_verified"
+    },
+    "63864": {
+      "geometry": "assets/parts/63864.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3009": {
+      "geometry": "assets/parts/3009.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98283": {
+      "geometry": "assets/parts/98283.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2780": {
+      "geometry": "assets/parts/2780.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60592": {
+      "geometry": "assets/parts/60592.dat",
+      "gobricks_status": "not_verified"
+    },
+    "38320": {
+      "geometry": "assets/parts/38320.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30044": {
+      "geometry": "assets/parts/30044.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30046": {
+      "geometry": "assets/parts/30046.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30136": {
+      "geometry": "assets/parts/30136.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2454b-d0adf8a59d": {
+      "geometry": "assets/parts/2454b-d0adf8a59d.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87620": {
+      "geometry": "assets/parts/87620.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3659": {
+      "geometry": "assets/parts/3659.dat",
+      "gobricks_status": "not_verified"
+    },
+    "85861": {
+      "geometry": "assets/parts/85861.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3024": {
+      "geometry": "assets/parts/3024.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98100": {
+      "geometry": "assets/parts/98100.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6126b": {
+      "geometry": "assets/parts/6126b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4738a": {
+      "geometry": "assets/parts/4738a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4739": {
+      "geometry": "assets/parts/4739.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2465": {
+      "geometry": "assets/parts/2465.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3665a": {
+      "geometry": "assets/parts/3665a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2420": {
+      "geometry": "assets/parts/2420.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3032": {
+      "geometry": "assets/parts/3032.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3795": {
+      "geometry": "assets/parts/3795.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4460b": {
+      "geometry": "assets/parts/4460b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3684c": {
+      "geometry": "assets/parts/3684c.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2454": {
+      "geometry": "assets/parts/2454.dat",
+      "gobricks_status": "not_verified"
+    },
+    "88292": {
+      "geometry": "assets/parts/88292.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3666": {
+      "geometry": "assets/parts/3666.dat",
+      "gobricks_status": "not_verified"
+    },
+    "59900": {
+      "geometry": "assets/parts/59900.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15573": {
+      "geometry": "assets/parts/15573.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98138": {
+      "geometry": "assets/parts/98138.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30153": {
+      "geometry": "assets/parts/30153.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2654a": {
+      "geometry": "assets/parts/2654a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4079": {
+      "geometry": "assets/parts/4079.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4032a": {
+      "geometry": "assets/parts/4032a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92593": {
+      "geometry": "assets/parts/92593.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87693": {
+      "geometry": "assets/parts/87693.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87544": {
+      "geometry": "assets/parts/87544.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30151b": {
+      "geometry": "assets/parts/30151b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3023": {
+      "geometry": "assets/parts/3023.dat",
+      "gobricks_status": "not_verified"
+    },
+    "24324": {
+      "geometry": "assets/parts/24324.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3069bph2": {
+      "geometry": "assets/parts/3069bph2.dat",
+      "gobricks_status": "not_verified"
+    },
+    "24093": {
+      "geometry": "assets/parts/24093.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32001": {
+      "geometry": "assets/parts/32001.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2460": {
+      "geometry": "assets/parts/2460.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15535": {
+      "geometry": "assets/parts/15535.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3894": {
+      "geometry": "assets/parts/3894.dat",
+      "gobricks_status": "not_verified"
+    },
+    "44375bp04": {
+      "geometry": "assets/parts/44375bp04.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6587": {
+      "geometry": "assets/parts/6587.dat",
+      "gobricks_status": "not_verified"
+    },
+    "59443": {
+      "geometry": "assets/parts/59443.dat",
+      "gobricks_status": "not_verified"
+    },
+    "604552": {
+      "geometry": "assets/parts/604552.dat",
+      "gobricks_status": "not_verified"
+    },
+    "604615": {
+      "geometry": "assets/parts/604615.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3020": {
+      "geometry": "assets/parts/3020.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92280": {
+      "geometry": "assets/parts/92280.dat",
+      "gobricks_status": "not_verified"
+    },
+    "48729b": {
+      "geometry": "assets/parts/48729b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "16577": {
+      "geometry": "assets/parts/16577.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15672": {
+      "geometry": "assets/parts/15672.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6081": {
+      "geometry": "assets/parts/6081.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87994": {
+      "geometry": "assets/parts/87994.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30350b": {
+      "geometry": "assets/parts/30350b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3021": {
+      "geometry": "assets/parts/3021.dat",
+      "gobricks_status": "not_verified"
+    },
+    "34103": {
+      "geometry": "assets/parts/34103.dat",
+      "gobricks_status": "not_verified"
+    },
+    "85984": {
+      "geometry": "assets/parts/85984.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4070": {
+      "geometry": "assets/parts/4070.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4599b": {
+      "geometry": "assets/parts/4599b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "85975": {
+      "geometry": "assets/parts/85975.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3701": {
+      "geometry": "assets/parts/3701.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3706": {
+      "geometry": "assets/parts/3706.dat",
+      "gobricks_status": "not_verified"
+    },
+    "33299a-5a3cb0bc24": {
+      "geometry": "assets/parts/33299a-5a3cb0bc24.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18654": {
+      "geometry": "assets/parts/18654.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2339": {
+      "geometry": "assets/parts/2339.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6636": {
+      "geometry": "assets/parts/6636.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3035": {
+      "geometry": "assets/parts/3035.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3623": {
+      "geometry": "assets/parts/3623.dat",
+      "gobricks_status": "not_verified"
+    },
+    "41770": {
+      "geometry": "assets/parts/41770.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60478": {
+      "geometry": "assets/parts/60478.dat",
+      "gobricks_status": "not_verified"
+    },
+    "41769": {
+      "geometry": "assets/parts/41769.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3039": {
+      "geometry": "assets/parts/3039.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60481": {
+      "geometry": "assets/parts/60481.dat",
+      "gobricks_status": "not_verified"
+    },
+    "75902p04": {
+      "geometry": "assets/parts/75902p04.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32952": {
+      "geometry": "assets/parts/32952.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3007": {
+      "geometry": "assets/parts/3007.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18649": {
+      "geometry": "assets/parts/18649.dat",
+      "gobricks_status": "not_verified"
+    },
+    "28802": {
+      "geometry": "assets/parts/28802.dat",
+      "gobricks_status": "not_verified"
+    },
+    "26601": {
+      "geometry": "assets/parts/26601.dat",
+      "gobricks_status": "not_verified"
+    },
+    "29120": {
+      "geometry": "assets/parts/29120.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6106": {
+      "geometry": "assets/parts/6106.dat",
+      "gobricks_status": "not_verified"
+    },
+    "63868": {
+      "geometry": "assets/parts/63868.dat",
+      "gobricks_status": "not_verified"
+    },
+    "29119": {
+      "geometry": "assets/parts/29119.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6259": {
+      "geometry": "assets/parts/6259.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3678b": {
+      "geometry": "assets/parts/3678b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3660": {
+      "geometry": "assets/parts/3660.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3942c": {
+      "geometry": "assets/parts/3942c.dat",
+      "gobricks_status": "not_verified"
+    },
+    "90540": {
+      "geometry": "assets/parts/90540.dat",
+      "gobricks_status": "not_verified"
+    },
+    "35563": {
+      "geometry": "assets/parts/35563.dat",
+      "gobricks_status": "not_verified"
+    },
+    "33909": {
+      "geometry": "assets/parts/33909.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3004": {
+      "geometry": "assets/parts/3004.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3068b": {
+      "geometry": "assets/parts/3068b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "85080": {
+      "geometry": "assets/parts/85080.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3830": {
+      "geometry": "assets/parts/3830.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3831": {
+      "geometry": "assets/parts/3831.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30503": {
+      "geometry": "assets/parts/30503.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30374": {
+      "geometry": "assets/parts/30374.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87926": {
+      "geometry": "assets/parts/87926.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18980": {
+      "geometry": "assets/parts/18980.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2453b": {
+      "geometry": "assets/parts/2453b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60596": {
+      "geometry": "assets/parts/60596.dat",
+      "gobricks_status": "not_verified"
+    },
+    "57895": {
+      "geometry": "assets/parts/57895.dat",
+      "gobricks_status": "not_verified"
+    },
+    "22888": {
+      "geometry": "assets/parts/22888.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6111": {
+      "geometry": "assets/parts/6111.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15706": {
+      "geometry": "assets/parts/15706.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2429": {
+      "geometry": "assets/parts/2429.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2430": {
+      "geometry": "assets/parts/2430.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30562": {
+      "geometry": "assets/parts/30562.dat",
+      "gobricks_status": "not_verified"
+    },
+    "22385": {
+      "geometry": "assets/parts/22385.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30367c": {
+      "geometry": "assets/parts/30367c.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60477": {
+      "geometry": "assets/parts/60477.dat",
+      "gobricks_status": "not_verified"
+    },
+    "95820": {
+      "geometry": "assets/parts/95820.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2431": {
+      "geometry": "assets/parts/2431.dat",
+      "gobricks_status": "not_verified"
+    },
+    "59": {
+      "geometry": "assets/parts/59.dat",
+      "gobricks_status": "not_verified"
+    },
+    "48310": {
+      "geometry": "assets/parts/48310.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32000": {
+      "geometry": "assets/parts/32000.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3022": {
+      "geometry": "assets/parts/3022.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6179": {
+      "geometry": "assets/parts/6179.dat",
+      "gobricks_status": "not_verified"
+    },
+    "89523": {
+      "geometry": "assets/parts/89523.dat",
+      "gobricks_status": "not_verified"
+    },
+    "27448": {
+      "geometry": "assets/parts/27448.dat",
+      "gobricks_status": "not_verified"
+    },
+    "35443": {
+      "geometry": "assets/parts/35443.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3940": {
+      "geometry": "assets/parts/3940.dat",
+      "gobricks_status": "not_verified"
+    },
+    "35442": {
+      "geometry": "assets/parts/35442.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3065": {
+      "geometry": "assets/parts/3065.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3832": {
+      "geometry": "assets/parts/3832.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11477": {
+      "geometry": "assets/parts/11477.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92947": {
+      "geometry": "assets/parts/92947.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18674": {
+      "geometry": "assets/parts/18674.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4733": {
+      "geometry": "assets/parts/4733.dat",
+      "gobricks_status": "not_verified"
+    },
+    "54383": {
+      "geometry": "assets/parts/54383.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11609": {
+      "geometry": "assets/parts/11609.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2462": {
+      "geometry": "assets/parts/2462.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87421": {
+      "geometry": "assets/parts/87421.dat",
+      "gobricks_status": "not_verified"
+    },
+    "14718": {
+      "geometry": "assets/parts/14718.dat",
+      "gobricks_status": "not_verified"
+    },
+    "95228": {
+      "geometry": "assets/parts/95228.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4345b": {
+      "geometry": "assets/parts/4345b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4346": {
+      "geometry": "assets/parts/4346.dat",
+      "gobricks_status": "not_verified"
+    },
+    "33320": {
+      "geometry": "assets/parts/33320.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3002": {
+      "geometry": "assets/parts/3002.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2489": {
+      "geometry": "assets/parts/2489.dat",
+      "gobricks_status": "not_verified"
+    },
+    "43888": {
+      "geometry": "assets/parts/43888.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6003": {
+      "geometry": "assets/parts/6003.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2450": {
+      "geometry": "assets/parts/2450.dat",
+      "gobricks_status": "not_verified"
+    },
+    "37762": {
+      "geometry": "assets/parts/37762.dat",
+      "gobricks_status": "not_verified"
+    },
+    "37775": {
+      "geometry": "assets/parts/37775.dat",
+      "gobricks_status": "not_verified"
+    },
+    "35480": {
+      "geometry": "assets/parts/35480.dat",
+      "gobricks_status": "not_verified"
+    },
+    "26603": {
+      "geometry": "assets/parts/26603.dat",
+      "gobricks_status": "not_verified"
+    },
+    "93095": {
+      "geometry": "assets/parts/93095.dat",
+      "gobricks_status": "not_verified"
+    },
+    "27263": {
+      "geometry": "assets/parts/27263.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3070b": {
+      "geometry": "assets/parts/3070b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "27507": {
+      "geometry": "assets/parts/27507.dat",
+      "gobricks_status": "not_verified"
+    },
+    "61485": {
+      "geometry": "assets/parts/61485.dat",
+      "gobricks_status": "not_verified"
+    },
+    "64647": {
+      "geometry": "assets/parts/64647.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3836": {
+      "geometry": "assets/parts/3836.dat",
+      "gobricks_status": "not_verified"
+    },
+    "40232": {
+      "geometry": "assets/parts/40232.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3456": {
+      "geometry": "assets/parts/3456.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15068": {
+      "geometry": "assets/parts/15068.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18838": {
+      "geometry": "assets/parts/18838.dat",
+      "gobricks_status": "not_verified"
+    },
+    "24593": {
+      "geometry": "assets/parts/24593.dat",
+      "gobricks_status": "not_verified"
+    },
+    "99780": {
+      "geometry": "assets/parts/99780.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98374": {
+      "geometry": "assets/parts/98374.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30385": {
+      "geometry": "assets/parts/30385.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6063": {
+      "geometry": "assets/parts/6063.dat",
+      "gobricks_status": "not_verified"
+    },
+    "13564": {
+      "geometry": "assets/parts/13564.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92950": {
+      "geometry": "assets/parts/92950.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87552": {
+      "geometry": "assets/parts/87552.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3700": {
+      "geometry": "assets/parts/3700.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3298": {
+      "geometry": "assets/parts/3298.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6585": {
+      "geometry": "assets/parts/6585.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6589": {
+      "geometry": "assets/parts/6589.dat",
+      "gobricks_status": "not_verified"
+    },
+    "55013": {
+      "geometry": "assets/parts/55013.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3709b": {
+      "geometry": "assets/parts/3709b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "59426": {
+      "geometry": "assets/parts/59426.dat",
+      "gobricks_status": "not_verified"
+    },
+    "27925": {
+      "geometry": "assets/parts/27925.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15100": {
+      "geometry": "assets/parts/15100.dat",
+      "gobricks_status": "not_verified"
+    },
+    "40378": {
+      "geometry": "assets/parts/40378.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3705": {
+      "geometry": "assets/parts/3705.dat",
+      "gobricks_status": "not_verified"
+    },
+    "14704": {
+      "geometry": "assets/parts/14704.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32016": {
+      "geometry": "assets/parts/32016.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2736": {
+      "geometry": "assets/parts/2736.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32062": {
+      "geometry": "assets/parts/32062.dat",
+      "gobricks_status": "not_verified"
+    },
+    "10288": {
+      "geometry": "assets/parts/10288.dat",
+      "gobricks_status": "not_verified"
+    },
+    "43892": {
+      "geometry": "assets/parts/43892.dat",
+      "gobricks_status": "not_verified"
+    },
+    "33183": {
+      "geometry": "assets/parts/33183.dat",
+      "gobricks_status": "not_verified"
+    },
+    "24855": {
+      "geometry": "assets/parts/24855.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2926": {
+      "geometry": "assets/parts/2926.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60479": {
+      "geometry": "assets/parts/60479.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30029": {
+      "geometry": "assets/parts/30029.dat",
+      "gobricks_status": "not_verified"
+    },
+    "36840": {
+      "geometry": "assets/parts/36840.dat",
+      "gobricks_status": "not_verified"
+    },
+    "36841": {
+      "geometry": "assets/parts/36841.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3829c01": {
+      "geometry": "assets/parts/3829c01.dat",
+      "gobricks_status": "not_verified"
+    },
+    "99781": {
+      "geometry": "assets/parts/99781.dat",
+      "gobricks_status": "not_verified"
+    },
+    "88646": {
+      "geometry": "assets/parts/88646.dat",
+      "gobricks_status": "not_verified"
+    },
+    "93273": {
+      "geometry": "assets/parts/93273.dat",
+      "gobricks_status": "not_verified"
+    },
+    "62361": {
+      "geometry": "assets/parts/62361.dat",
+      "gobricks_status": "not_verified"
+    },
+    "99207": {
+      "geometry": "assets/parts/99207.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11476": {
+      "geometry": "assets/parts/11476.dat",
+      "gobricks_status": "not_verified"
+    },
+    "88072": {
+      "geometry": "assets/parts/88072.dat",
+      "gobricks_status": "not_verified"
+    },
+    "45677": {
+      "geometry": "assets/parts/45677.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92262": {
+      "geometry": "assets/parts/92262.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92263": {
+      "geometry": "assets/parts/92263.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4449-f1": {
+      "geometry": "assets/parts/4449-f1.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2540": {
+      "geometry": "assets/parts/2540.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15712": {
+      "geometry": "assets/parts/15712.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4176": {
+      "geometry": "assets/parts/4176.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4594": {
+      "geometry": "assets/parts/4594.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98281": {
+      "geometry": "assets/parts/98281.dat",
+      "gobricks_status": "not_verified"
+    },
+    "93594": {
+      "geometry": "assets/parts/93594.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92409": {
+      "geometry": "assets/parts/92409.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3464": {
+      "geometry": "assets/parts/3464.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3835": {
+      "geometry": "assets/parts/3835.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4522": {
+      "geometry": "assets/parts/4522.dat",
+      "gobricks_status": "not_verified"
+    },
+    "21301-68d242599e": {
+      "geometry": "assets/parts/21301-68d242599e.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87618": {
+      "geometry": "assets/parts/87618.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3626c": {
+      "geometry": "assets/parts/3626c.dat",
+      "gobricks_status": "not_verified"
+    },
+    "61252": {
+      "geometry": "assets/parts/61252.dat",
+      "gobricks_status": "not_verified"
+    },
+    "53451": {
+      "geometry": "assets/parts/53451.dat",
+      "gobricks_status": "not_verified"
+    },
+    "61678": {
+      "geometry": "assets/parts/61678.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15571": {
+      "geometry": "assets/parts/15571.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3176": {
+      "geometry": "assets/parts/3176.dat",
+      "gobricks_status": "not_verified"
+    },
+    "14417": {
+      "geometry": "assets/parts/14417.dat",
+      "gobricks_status": "not_verified"
+    },
+    "14418": {
+      "geometry": "assets/parts/14418.dat",
+      "gobricks_status": "not_verified"
+    },
+    "48336": {
+      "geometry": "assets/parts/48336.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32803": {
+      "geometry": "assets/parts/32803.dat",
+      "gobricks_status": "not_verified"
+    },
+    "43719": {
+      "geometry": "assets/parts/43719.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4282": {
+      "geometry": "assets/parts/4282.dat",
+      "gobricks_status": "not_verified"
+    },
+    "91405": {
+      "geometry": "assets/parts/91405.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2445": {
+      "geometry": "assets/parts/2445.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4162": {
+      "geometry": "assets/parts/4162.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3008": {
+      "geometry": "assets/parts/3008.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3460": {
+      "geometry": "assets/parts/3460.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15470": {
+      "geometry": "assets/parts/15470.dat",
+      "gobricks_status": "not_verified"
+    },
+    "33057": {
+      "geometry": "assets/parts/33057.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6254": {
+      "geometry": "assets/parts/6254.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3899": {
+      "geometry": "assets/parts/3899.dat",
+      "gobricks_status": "not_verified"
+    },
+    "23986-c2299585eb": {
+      "geometry": "assets/parts/23986-c2299585eb.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60475b": {
+      "geometry": "assets/parts/60475b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60583b": {
+      "geometry": "assets/parts/60583b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3034": {
+      "geometry": "assets/parts/3034.dat",
+      "gobricks_status": "not_verified"
+    },
+    "10172": {
+      "geometry": "assets/parts/10172.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15533": {
+      "geometry": "assets/parts/15533.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18759": {
+      "geometry": "assets/parts/18759.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3937": {
+      "geometry": "assets/parts/3937.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87601": {
+      "geometry": "assets/parts/87601.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3747b": {
+      "geometry": "assets/parts/3747b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6134": {
+      "geometry": "assets/parts/6134.dat",
+      "gobricks_status": "not_verified"
+    },
+    "44728": {
+      "geometry": "assets/parts/44728.dat",
+      "gobricks_status": "not_verified"
+    },
+    "14769": {
+      "geometry": "assets/parts/14769.dat",
+      "gobricks_status": "not_verified"
+    },
+    "23949": {
+      "geometry": "assets/parts/23949.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3685": {
+      "geometry": "assets/parts/3685.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4332": {
+      "geometry": "assets/parts/4332.dat",
+      "gobricks_status": "not_verified"
+    },
+    "40244": {
+      "geometry": "assets/parts/40244.dat",
+      "gobricks_status": "not_verified"
+    },
+    "40243": {
+      "geometry": "assets/parts/40243.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2476a": {
+      "geometry": "assets/parts/2476a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3703": {
+      "geometry": "assets/parts/3703.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2730": {
+      "geometry": "assets/parts/2730.dat",
+      "gobricks_status": "not_verified"
+    },
+    "92438": {
+      "geometry": "assets/parts/92438.dat",
+      "gobricks_status": "not_verified"
+    },
+    "41539": {
+      "geometry": "assets/parts/41539.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4274": {
+      "geometry": "assets/parts/4274.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30292a": {
+      "geometry": "assets/parts/30292a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32524": {
+      "geometry": "assets/parts/32524.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98313-027c3f0ff6": {
+      "geometry": "assets/parts/98313-027c3f0ff6.dat",
+      "gobricks_status": "not_verified"
+    },
+    "63965": {
+      "geometry": "assets/parts/63965.dat",
+      "gobricks_status": "not_verified"
+    },
+    "95344": {
+      "geometry": "assets/parts/95344.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30357": {
+      "geometry": "assets/parts/30357.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4341": {
+      "geometry": "assets/parts/4341.dat",
+      "gobricks_status": "not_verified"
+    },
+    "29111": {
+      "geometry": "assets/parts/29111.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3031": {
+      "geometry": "assets/parts/3031.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30165": {
+      "geometry": "assets/parts/30165.dat",
+      "gobricks_status": "not_verified"
+    },
+    "26047": {
+      "geometry": "assets/parts/26047.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60470b": {
+      "geometry": "assets/parts/60470b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "38317": {
+      "geometry": "assets/parts/38317.dat",
+      "gobricks_status": "not_verified"
+    },
+    "47398": {
+      "geometry": "assets/parts/47398.dat",
+      "gobricks_status": "not_verified"
+    },
+    "47397": {
+      "geometry": "assets/parts/47397.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30586": {
+      "geometry": "assets/parts/30586.dat",
+      "gobricks_status": "not_verified"
+    },
+    "46212": {
+      "geometry": "assets/parts/46212.dat",
+      "gobricks_status": "not_verified"
+    },
+    "59349": {
+      "geometry": "assets/parts/59349.dat",
+      "gobricks_status": "not_verified"
+    },
+    "64390": {
+      "geometry": "assets/parts/64390.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60594": {
+      "geometry": "assets/parts/60594.dat",
+      "gobricks_status": "not_verified"
+    },
+    "86210": {
+      "geometry": "assets/parts/86210.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87087": {
+      "geometry": "assets/parts/87087.dat",
+      "gobricks_status": "not_verified"
+    },
+    "60616b": {
+      "geometry": "assets/parts/60616b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "37695-847931e4a8": {
+      "geometry": "assets/parts/37695-847931e4a8.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18920": {
+      "geometry": "assets/parts/18920.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2423": {
+      "geometry": "assets/parts/2423.dat",
+      "gobricks_status": "not_verified"
+    },
+    "51239-702e8473f9": {
+      "geometry": "assets/parts/51239-702e8473f9.dat",
+      "gobricks_status": "not_verified"
+    },
+    "51266": {
+      "geometry": "assets/parts/51266.dat",
+      "gobricks_status": "not_verified"
+    },
+    "76764": {
+      "geometry": "assets/parts/76764.dat",
+      "gobricks_status": "not_verified"
+    },
+    "64799": {
+      "geometry": "assets/parts/64799.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11213": {
+      "geometry": "assets/parts/11213.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98138p85": {
+      "geometry": "assets/parts/98138p85.dat",
+      "gobricks_status": "not_verified"
+    },
+    "98138p8b": {
+      "geometry": "assets/parts/98138p8b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "53119": {
+      "geometry": "assets/parts/53119.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3957b": {
+      "geometry": "assets/parts/3957b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "43898": {
+      "geometry": "assets/parts/43898.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87081": {
+      "geometry": "assets/parts/87081.dat",
+      "gobricks_status": "not_verified"
+    },
+    "64390-03ad90cc81": {
+      "geometry": "assets/parts/64390-03ad90cc81.dat",
+      "gobricks_status": "not_verified"
+    },
+    "94161": {
+      "geometry": "assets/parts/94161.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2454b": {
+      "geometry": "assets/parts/2454b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "17485": {
+      "geometry": "assets/parts/17485.dat",
+      "gobricks_status": "not_verified"
+    },
+    "44567b": {
+      "geometry": "assets/parts/44567b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30553": {
+      "geometry": "assets/parts/30553.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15207": {
+      "geometry": "assets/parts/15207.dat",
+      "gobricks_status": "not_verified"
+    },
+    "28621-b886189b34": {
+      "geometry": "assets/parts/28621-b886189b34.dat",
+      "gobricks_status": "not_verified"
+    },
+    "48723": {
+      "geometry": "assets/parts/48723.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11090": {
+      "geometry": "assets/parts/11090.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11211": {
+      "geometry": "assets/parts/11211.dat",
+      "gobricks_status": "not_verified"
+    },
+    "26604": {
+      "geometry": "assets/parts/26604.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3030": {
+      "geometry": "assets/parts/3030.dat",
+      "gobricks_status": "not_verified"
+    },
+    "10247": {
+      "geometry": "assets/parts/10247.dat",
+      "gobricks_status": "not_verified"
+    },
+    "22885": {
+      "geometry": "assets/parts/22885.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6233": {
+      "geometry": "assets/parts/6233.dat",
+      "gobricks_status": "not_verified"
+    },
+    "44375b": {
+      "geometry": "assets/parts/44375b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "22961": {
+      "geometry": "assets/parts/22961.dat",
+      "gobricks_status": "not_verified"
+    },
+    "51270": {
+      "geometry": "assets/parts/51270.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6091": {
+      "geometry": "assets/parts/6091.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6005": {
+      "geometry": "assets/parts/6005.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4697b": {
+      "geometry": "assets/parts/4697b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "42205-97cfe4dbdc": {
+      "geometry": "assets/parts/42205-97cfe4dbdc.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30565": {
+      "geometry": "assets/parts/30565.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4477": {
+      "geometry": "assets/parts/4477.dat",
+      "gobricks_status": "not_verified"
+    },
+    "48092": {
+      "geometry": "assets/parts/48092.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3680": {
+      "geometry": "assets/parts/3680.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3679": {
+      "geometry": "assets/parts/3679.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11458": {
+      "geometry": "assets/parts/11458.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6192": {
+      "geometry": "assets/parts/6192.dat",
+      "gobricks_status": "not_verified"
+    },
+    "93609": {
+      "geometry": "assets/parts/93609.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32474": {
+      "geometry": "assets/parts/32474.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2815": {
+      "geometry": "assets/parts/2815.dat",
+      "gobricks_status": "not_verified"
+    },
+    "35485": {
+      "geometry": "assets/parts/35485.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3794b": {
+      "geometry": "assets/parts/3794b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "50746": {
+      "geometry": "assets/parts/50746.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3045": {
+      "geometry": "assets/parts/3045.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4460a": {
+      "geometry": "assets/parts/4460a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2419": {
+      "geometry": "assets/parts/2419.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6143": {
+      "geometry": "assets/parts/6143.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3029": {
+      "geometry": "assets/parts/3029.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32018": {
+      "geometry": "assets/parts/32018.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6558": {
+      "geometry": "assets/parts/6558.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2654": {
+      "geometry": "assets/parts/2654.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30505": {
+      "geometry": "assets/parts/30505.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2637": {
+      "geometry": "assets/parts/2637.dat",
+      "gobricks_status": "not_verified"
+    },
+    "99206": {
+      "geometry": "assets/parts/99206.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32064a": {
+      "geometry": "assets/parts/32064a.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4519": {
+      "geometry": "assets/parts/4519.dat",
+      "gobricks_status": "not_verified"
+    },
+    "87609": {
+      "geometry": "assets/parts/87609.dat",
+      "gobricks_status": "not_verified"
+    },
+    "11203": {
+      "geometry": "assets/parts/11203.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3938": {
+      "geometry": "assets/parts/3938.dat",
+      "gobricks_status": "not_verified"
+    },
+    "50950": {
+      "geometry": "assets/parts/50950.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32602-f847c42f9e": {
+      "geometry": "assets/parts/32602-f847c42f9e.dat",
+      "gobricks_status": "not_verified"
+    },
+    "75937": {
+      "geometry": "assets/parts/75937.dat",
+      "gobricks_status": "not_verified"
+    },
+    "61482": {
+      "geometry": "assets/parts/61482.dat",
+      "gobricks_status": "not_verified"
+    },
+    "6266": {
+      "geometry": "assets/parts/6266.dat",
+      "gobricks_status": "not_verified"
+    },
+    "85863": {
+      "geometry": "assets/parts/85863.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15397": {
+      "geometry": "assets/parts/15397.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2639": {
+      "geometry": "assets/parts/2639.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2456": {
+      "geometry": "assets/parts/2456.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15462": {
+      "geometry": "assets/parts/15462.dat",
+      "gobricks_status": "not_verified"
+    },
+    "18651": {
+      "geometry": "assets/parts/18651.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3708": {
+      "geometry": "assets/parts/3708.dat",
+      "gobricks_status": "not_verified"
+    },
+    "14769p0f-b2b8c170a3": {
+      "geometry": "assets/parts/14769p0f-b2b8c170a3.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3036": {
+      "geometry": "assets/parts/3036.dat",
+      "gobricks_status": "not_verified"
+    },
+    "2566": {
+      "geometry": "assets/parts/2566.dat",
+      "gobricks_status": "not_verified"
+    },
+    "33291": {
+      "geometry": "assets/parts/33291.dat",
+      "gobricks_status": "not_verified"
+    },
+    "44294": {
+      "geometry": "assets/parts/44294.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32498": {
+      "geometry": "assets/parts/32498.dat",
+      "gobricks_status": "not_verified"
+    },
+    "44375bp04-ccb1d3a60b": {
+      "geometry": "assets/parts/44375bp04-ccb1d3a60b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32270": {
+      "geometry": "assets/parts/32270.dat",
+      "gobricks_status": "not_verified"
+    },
+    "4510": {
+      "geometry": "assets/parts/4510.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15208": {
+      "geometry": "assets/parts/15208.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32034": {
+      "geometry": "assets/parts/32034.dat",
+      "gobricks_status": "not_verified"
+    },
+    "61184": {
+      "geometry": "assets/parts/61184.dat",
+      "gobricks_status": "not_verified"
+    },
+    "42446": {
+      "geometry": "assets/parts/42446.dat",
+      "gobricks_status": "not_verified"
+    },
+    "32530": {
+      "geometry": "assets/parts/32530.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30414": {
+      "geometry": "assets/parts/30414.dat",
+      "gobricks_status": "not_verified"
+    },
+    "15332": {
+      "geometry": "assets/parts/15332.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3688": {
+      "geometry": "assets/parts/3688.dat",
+      "gobricks_status": "not_verified"
+    },
+    "50450": {
+      "geometry": "assets/parts/50450.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30389b": {
+      "geometry": "assets/parts/30389b.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30386": {
+      "geometry": "assets/parts/30386.dat",
+      "gobricks_status": "not_verified"
+    },
+    "30365": {
+      "geometry": "assets/parts/30365.dat",
+      "gobricks_status": "not_verified"
+    },
+    "3665": {
+      "geometry": "assets/parts/3665.dat",
+      "gobricks_status": "not_verified"
     }
   },
   "instruction_sets": {

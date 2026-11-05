@@ -1,0 +1,1648 @@
+0 FILE hogwarts-great-hall-v0.ldr
+0 호그와트 대연회장
+0 Author: Stefan Frenz [smf]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 !BRICK_STATE {"schema_version":3,"status":"cad_import","version_label":"버전 0","display_name":"호그와트 대연회장 (75954)","set_number":"75954","piece_count":821,"layout":"integrated_cad_model","assembly_verified":false,"layout_note":"미니피겨·스티커 미포함.","matrix_precision_limit":0.01,"instances":[{"id":"part-00001","group":"boat","part":"21301-68d242599e.dat","color":70,"position":[-110.0,-8.0,210.0],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00002","group":"boat","part":"3942c.dat","color":0,"position":[-53.440000000000005,-56.0,153.44],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00003","group":"boat","part":"87618.dat","color":0,"position":[-53.440000000000005,-114.5,153.44],"matrix":[0.707,0.0,0.707,0.0,-1.0,0.0,0.707,0.0,-0.707]},{"id":"part-00004","group":"boat","part":"15712.dat","color":297,"position":[-67.58000000000001,-108.5,167.58],"matrix":[-0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,-0.707]},{"id":"part-00005","group":"boat","part":"3626c.dat","color":42,"position":[-67.58000000000001,-100.5,167.58],"matrix":[-0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,-0.707]},{"id":"part-00006","group":"bird","part":"61252.dat","color":0,"position":[251.76,-548.0,440.0],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00007","group":"bird","part":"4733.dat","color":0,"position":[251.76,-572.0,440.0],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00008","group":"bird","part":"3024.dat","color":57,"position":[251.76,-580.0,440.0],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00009","group":"bird","part":"3024.dat","color":4,"position":[264.486,-562.0,452.726],"matrix":[0.0,-0.707,-0.707,1.0,0.0,0.0,0.0,-0.707,0.707]},{"id":"part-00010","group":"bird","part":"3024.dat","color":4,"position":[239.034,-562.0,427.274],"matrix":[0.0,0.707,0.707,1.0,0.0,0.0,0.0,0.707,-0.707]},{"id":"part-00011","group":"bird","part":"49668.dat","color":0,"position":[251.76,-588.0,440.0],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00012","group":"bird","part":"15712.dat","color":4,"position":[251.76,-596.0,440.0],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00013","group":"bird","part":"53451.dat","color":4,"position":[248.932,-602.0,442.828],"matrix":[-0.707,0.0,-0.707,0.0,-1.0,0.0,-0.707,0.0,0.707]},{"id":"part-00014","group":"bird","part":"29120.dat","color":25,"position":[244.69,-552.0,432.93],"matrix":[0.707,0.707,0.0,0.0,0.0,-1.0,-0.707,0.707,0.0]},{"id":"part-00015","group":"bird","part":"29119.dat","color":25,"position":[258.83,-552.0,447.07],"matrix":[-0.707,-0.707,0.0,0.0,0.0,-1.0,0.707,-0.707,0.0]},{"id":"part-00016","group":"bird","part":"61678.dat","color":4,"position":[227.72199999999998,-532.0,464.038],"matrix":[0.707,0.707,0.0,0.0,0.0,1.0,0.707,-0.707,0.0]},{"id":"part-00017","group":"magic-window","part":"3666.dat","color":191,"position":[291.76,-480.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00018","group":"magic-window","part":"60596.dat","color":28,"position":[291.76,-624.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00019","group":"magic-window","part":"3024.dat","color":19,"position":[291.76,-488.0,390.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00020","group":"magic-window","part":"3024.dat","color":19,"position":[291.76,-496.0,390.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00021","group":"magic-window","part":"3024.dat","color":19,"position":[291.76,-488.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00022","group":"magic-window","part":"3024.dat","color":19,"position":[291.76,-496.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00023","group":"magic-window","part":"2453b.dat","color":191,"position":[291.76,-616.0,390.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00024","group":"magic-window","part":"2453b.dat","color":191,"position":[291.76,-616.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00025","group":"magic-window","part":"3024.dat","color":19,"position":[291.76,-624.0,390.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00026","group":"magic-window","part":"3024.dat","color":19,"position":[291.76,-624.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00027","group":"magic-window","part":"3666.dat","color":191,"position":[291.76,-632.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00028","group":"magic-window","part":"3040b.dat","color":191,"position":[291.76,-656.0,450.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00029","group":"magic-window","part":"3040b.dat","color":191,"position":[291.76,-656.0,430.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00030","group":"magic-window","part":"15571.dat","color":297,"position":[291.76,-680.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00031","group":"magic-window","part":"59900.dat","color":297,"position":[291.76,-656.0,390.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00032","group":"magic-window","part":"59900.dat","color":297,"position":[291.76,-656.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00033","group":"magic-window","part":"57895.dat","color":0,"position":[296.76,-620.0,439.5],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00034","group":"snake","part":"63868.dat","color":0,"position":[490.0,-8.0,150.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00035","group":"snake","part":"63868.dat","color":0,"position":[470.0,-8.0,150.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00036","group":"snake","part":"3176.dat","color":0,"position":[480.0,-16.0,150.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00037","group":"snake","part":"3021.dat","color":72,"position":[480.0,-24.0,160.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00038","group":"snake","part":"63868.dat","color":0,"position":[470.0,-32.0,150.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00039","group":"snake","part":"63868.dat","color":0,"position":[490.0,-32.0,150.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00040","group":"snake","part":"14417.dat","color":72,"position":[480.0,-32.0,180.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00041","group":"snake","part":"3022.dat","color":0,"position":[480.0,-40.0,170.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00042","group":"snake","part":"85984.dat","color":0,"position":[480.0,-32.0,140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00043","group":"snake-limb","part":"2654a.dat","color":0,"position":[487.77,-24.0,228.98],"matrix":[0.966,0.0,0.259,0.0,1.0,0.0,-0.259,0.0,0.966]},{"id":"part-00044","group":"snake-limb","part":"14417.dat","color":72,"position":[490.36,-32.0,238.64],"matrix":[-0.966,0.0,-0.259,0.0,1.0,0.0,0.259,0.0,-0.966]},{"id":"part-00045","group":"snake-limb","part":"14704.dat","color":71,"position":[485.18,-32.0,219.32],"matrix":[0.966,0.0,0.259,0.0,1.0,0.0,-0.259,0.0,0.966]},{"id":"part-00046","group":"snake-limb","part":"3022.dat","color":0,"position":[487.77,-40.0,228.98],"matrix":[0.966,0.0,0.259,0.0,1.0,0.0,-0.259,0.0,0.966]},{"id":"part-00047","group":"snake-limb","part":"2654a.dat","color":0,"position":[480.529,-24.0,283.93600000000004],"matrix":[0.866,0.0,-0.5,0.0,1.0,0.0,0.5,0.0,0.866]},{"id":"part-00048","group":"snake-limb","part":"14417.dat","color":72,"position":[475.529,-32.0,292.596],"matrix":[-0.866,0.0,0.5,0.0,1.0,0.0,-0.5,0.0,-0.866]},{"id":"part-00049","group":"snake-limb","part":"14704.dat","color":71,"position":[485.529,-32.0,275.276],"matrix":[0.866,0.0,-0.5,0.0,1.0,0.0,0.5,0.0,0.866]},{"id":"part-00050","group":"snake-limb","part":"3022.dat","color":0,"position":[480.529,-40.0,283.93600000000004],"matrix":[0.866,0.0,-0.5,0.0,1.0,0.0,0.5,0.0,0.866]},{"id":"part-00051","group":"snake-limb","part":"2654a.dat","color":0,"position":[465.529,-24.0,339.91700000000003],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00052","group":"snake-limb","part":"14417.dat","color":72,"position":[465.529,-32.0,349.91700000000003],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00053","group":"snake-limb","part":"14704.dat","color":71,"position":[465.529,-32.0,329.91700000000003],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00054","group":"snake-limb","part":"3022.dat","color":0,"position":[465.529,-40.0,339.91700000000003],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00055","group":"snake-limb","part":"2654a.dat","color":0,"position":[473.299,-24.0,398.89700000000005],"matrix":[0.966,0.0,0.259,0.0,1.0,0.0,-0.259,0.0,0.966]},{"id":"part-00056","group":"snake-limb","part":"14417.dat","color":72,"position":[475.889,-32.0,408.557],"matrix":[-0.966,0.0,-0.259,0.0,1.0,0.0,0.259,0.0,-0.966]},{"id":"part-00057","group":"snake-limb","part":"14704.dat","color":71,"position":[470.709,-32.0,389.237],"matrix":[0.966,0.0,0.259,0.0,1.0,0.0,-0.259,0.0,0.966]},{"id":"part-00058","group":"snake-limb","part":"3022.dat","color":0,"position":[473.299,-40.0,398.89700000000005],"matrix":[0.966,0.0,0.259,0.0,1.0,0.0,-0.259,0.0,0.966]},{"id":"part-00059","group":"snake","part":"14418.dat","color":71,"position":[488.823,-32.0,456.85],"matrix":[-0.259,0.0,0.966,0.0,1.0,0.0,-0.966,0.0,-0.259]},{"id":"part-00060","group":"snake","part":"3623.dat","color":0,"position":[491.411,-24.0,466.51],"matrix":[-0.259,0.0,0.966,0.0,1.0,0.0,-0.966,0.0,-0.259]},{"id":"part-00061","group":"snake","part":"54200.dat","color":72,"position":[486.235,-32.0,447.191],"matrix":[0.966,0.0,0.259,0.0,1.0,0.0,-0.259,0.0,0.966]},{"id":"part-00062","group":"snake","part":"11477.dat","color":0,"position":[493.999,-24.0,476.169],"matrix":[-0.966,0.0,-0.259,0.0,1.0,0.0,0.259,0.0,-0.966]},{"id":"part-00063","group":"snake","part":"48336.dat","color":0,"position":[480.0,-8.0,100.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00064","group":"snake","part":"32803.dat","color":71,"position":[480.0,-8.0,80.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00065","group":"snake","part":"3068b.dat","color":320,"position":[480.0,-16.0,90.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00066","group":"snake-head","part":"3022.dat","color":320,"position":[480.0,-31.974,89.46600000000001],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00067","group":"snake-head","part":"48336.dat","color":0,"position":[480.0,-37.112,101.19800000000001],"matrix":[-1.0,0.0,0.0,0.0,0.966,-0.259,0.0,-0.259,-0.966]},{"id":"part-00068","group":"snake-head","part":"43719.dat","color":0,"position":[480.0,-44.882000000000005,72.218],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00069","group":"snake-head","part":"6141.dat","color":46,"position":[470.0,-50.019999999999996,83.95],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00070","group":"snake-head","part":"6141.dat","color":46,"position":[490.0,-50.019999999999996,83.95],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00071","group":"snake-head","part":"49668.dat","color":0,"position":[490.0,-44.84,103.27],"matrix":[0.0,0.0,-1.0,0.259,0.966,0.0,0.966,-0.259,0.0]},{"id":"part-00072","group":"snake-head","part":"49668.dat","color":0,"position":[470.0,-44.84,103.27],"matrix":[0.0,0.0,1.0,-0.259,0.966,0.0,-0.966,-0.259,0.0]},{"id":"part-00073","group":"snake-head","part":"85984.dat","color":0,"position":[480.0,-44.84,103.27],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00074","group":"snake-head","part":"15068.dat","color":0,"position":[480.0,-44.882000000000005,72.218],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00075","group":"snake-head","part":"85861.dat","color":0,"position":[490.0,-39.744,60.486],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00076","group":"snake-head","part":"85861.dat","color":0,"position":[470.0,-39.744,60.486],"matrix":[1.0,0.0,0.0,0.0,0.966,0.259,0.0,-0.259,0.966]},{"id":"part-00077","group":"snake-head","part":"53451.dat","color":15,"position":[490.0,-32.016000000000005,58.414],"matrix":[1.0,0.0,0.0,0.0,-0.259,0.966,0.0,-0.966,-0.259]},{"id":"part-00078","group":"snake-head","part":"53451.dat","color":15,"position":[470.0,-32.016000000000005,58.414],"matrix":[1.0,0.0,0.0,0.0,-0.259,0.966,0.0,-0.966,-0.259]},{"id":"part-00079","group":"great-hall","part":"4282.dat","color":72,"position":[1.76,0.0,1040.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00080","group":"great-hall","part":"6541.dat","color":71,"position":[151.76,-24.0,1050.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00081","group":"great-hall","part":"3005.dat","color":19,"position":[131.76,-24.0,1050.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00082","group":"great-hall","part":"3046.dat","color":72,"position":[111.76,-24.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00083","group":"great-hall","part":"3710.dat","color":288,"position":[81.76,0.0,1070.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00084","group":"great-hall","part":"88292.dat","color":84,"position":[71.76,-48.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00085","group":"great-hall","part":"3040b.dat","color":71,"position":[51.76,-24.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00086","group":"great-hall","part":"32607.dat","color":10,"position":[111.76,-32.0,1070.0],"matrix":[-0.866,0.0,-0.5,0.0,1.0,0.0,0.5,0.0,-0.866]},{"id":"part-00087","group":"great-hall","part":"88292.dat","color":84,"position":[31.76,-48.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00088","group":"great-hall","part":"3004.dat","color":19,"position":[1.76,-24.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00089","group":"great-hall","part":"88292.dat","color":84,"position":[-28.24,-48.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00090","group":"great-hall","part":"3005.dat","color":19,"position":[-48.24,-24.0,1050.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00091","group":"great-hall","part":"88292.dat","color":84,"position":[-68.24,-48.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00092","group":"great-hall","part":"3037.dat","color":71,"position":[-118.24,-24.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00093","group":"great-hall","part":"3710.dat","color":288,"position":[-118.24,0.0,1070.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00094","group":"great-hall","part":"3046.dat","color":72,"position":[-128.24,-24.0,1030.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00095","group":"great-hall","part":"32607.dat","color":10,"position":[-148.24,-32.0,1030.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00096","group":"great-hall","part":"3666.dat","color":71,"position":[151.76,-8.0,980.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00097","group":"great-hall","part":"3666.dat","color":71,"position":[-108.24,-8.0,980.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00098","group":"great-hall","part":"91405.dat","color":72,"position":[1.76,0.0,860.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00099","group":"great-hall","part":"2445.dat","color":71,"position":[21.76,-8.0,920.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00100","group":"great-hall","part":"2431.dat","color":72,"position":[-108.24,-8.0,880.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00101","group":"great-hall","part":"4162.dat","color":72,"position":[151.76,-8.0,840.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00102","group":"great-hall","part":"87079.dat","color":1,"position":[21.76,-8.0,980.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00103","group":"great-hall","part":"3008.dat","color":19,"position":[-128.24,-24.0,920.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00104","group":"great-hall","part":"3008.dat","color":19,"position":[-128.24,-24.0,760.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00105","group":"great-hall","part":"3005.dat","color":84,"position":[-148.24,-24.0,990.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00106","group":"great-hall","part":"3005.dat","color":84,"position":[-148.24,-24.0,930.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00107","group":"great-hall","part":"3005.dat","color":19,"position":[-148.24,-24.0,870.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00108","group":"great-hall","part":"54200.dat","color":71,"position":[-148.24,0.0,910.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00109","group":"great-hall","part":"3040b.dat","color":71,"position":[-148.24,-24.0,770.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00110","group":"great-hall","part":"3710.dat","color":288,"position":[-168.24,0.0,740.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00111","group":"great-hall","part":"3005.dat","color":19,"position":[-148.24,-24.0,810.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00112","group":"great-hall","part":"3046.dat","color":72,"position":[-148.24,-24.0,750.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00113","group":"great-hall","part":"91405.dat","color":72,"position":[1.76,0.0,540.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00114","group":"great-hall","part":"4162.dat","color":72,"position":[151.76,-8.0,680.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00115","group":"great-hall","part":"3069b.dat","color":72,"position":[151.76,-8.0,580.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00116","group":"great-hall","part":"3037.dat","color":71,"position":[-148.24,-24.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00117","group":"great-hall","part":"3710.dat","color":288,"position":[-168.24,0.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00118","group":"great-hall","part":"32607.dat","color":10,"position":[-168.24,-8.0,630.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00119","group":"great-hall","part":"3010.dat","color":19,"position":[-128.24,-24.0,640.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00120","group":"great-hall","part":"3005.dat","color":19,"position":[-148.24,-24.0,630.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00121","group":"great-hall","part":"54200.dat","color":71,"position":[-148.24,-24.0,770.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00122","group":"great-hall","part":"54200.dat","color":71,"position":[-168.24,-24.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00123","group":"great-hall","part":"54200.dat","color":71,"position":[-148.24,-24.0,670.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00124","group":"great-hall","part":"3456.dat","color":71,"position":[21.76,-16.0,980.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00125","group":"great-hall","part":"4079.dat","color":70,"position":[-58.24,-24.0,980.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00126","group":"great-hall","part":"4079.dat","color":70,"position":[101.76,-24.0,980.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00127","group":"great-hall","part":"92280.dat","color":0,"position":[11.76,-24.0,1000.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00128","group":"great-hall","part":"92280.dat","color":0,"position":[31.76,-24.0,1000.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00129","group":"great-hall","part":"6141.dat","color":297,"position":[11.76,-24.0,970.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00130","group":"great-hall","part":"6141.dat","color":297,"position":[31.76,-24.0,970.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00131","group":"great-hall","part":"3022.dat","color":320,"position":[21.76,-32.0,980.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00132","group":"great-hall","part":"60478.dat","color":70,"position":[11.76,-60.0,1008.0],"matrix":[0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0]},{"id":"part-00133","group":"great-hall","part":"60478.dat","color":70,"position":[31.76,-60.0,1008.0],"matrix":[0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0]},{"id":"part-00134","group":"great-hall","part":"22385.dat","color":70,"position":[21.76,-70.0,1000.0],"matrix":[-1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0]},{"id":"part-00135","group":"great-hall","part":"30136.dat","color":484,"position":[-88.24,-40.0,940.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00136","group":"great-hall","part":"30136.dat","color":484,"position":[131.76,-40.0,940.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00137","group":"great-hall","part":"30136.dat","color":484,"position":[21.76,-40.0,930.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00138","group":"great-hall","part":"3795.dat","color":308,"position":[-38.24,-48.0,940.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00139","group":"great-hall","part":"3795.dat","color":308,"position":[81.76,-48.0,940.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00140","group":"fireplace","part":"3795.dat","color":308,"position":[-98.24,-8.0,780.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00141","group":"fireplace","part":"6141.dat","color":297,"position":[-88.24,-16.0,730.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00142","group":"fireplace","part":"6141.dat","color":297,"position":[-88.24,-16.0,830.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00143","group":"fireplace","part":"85984.dat","color":0,"position":[-98.24,-8.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00144","group":"fireplace","part":"85984.dat","color":0,"position":[-98.24,-8.0,810.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00145","group":"fireplace","part":"85861.dat","color":0,"position":[-88.24,-16.0,770.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00146","group":"fireplace","part":"85861.dat","color":0,"position":[-88.24,-16.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00147","group":"fireplace","part":"87552.dat","color":0,"position":[-108.24,-56.0,780.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00148","group":"fireplace","part":"54200.dat","color":70,"position":[-88.24,-16.0,730.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00149","group":"fireplace","part":"54200.dat","color":70,"position":[-88.24,-16.0,830.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00150","group":"fireplace","part":"64647.dat","color":57,"position":[-88.24,-16.0,770.0],"matrix":[-0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,-0.707]},{"id":"part-00151","group":"fireplace","part":"64647.dat","color":57,"position":[-88.24,-16.0,790.0],"matrix":[-0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,-0.707]},{"id":"part-00152","group":"fireplace","part":"13965.dat","color":70,"position":[-108.24,-80.0,730.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00153","group":"fireplace","part":"13965.dat","color":70,"position":[-108.24,-80.0,830.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00154","group":"fireplace","part":"20310-eacab9d213.dat","color":70,"position":[-108.24,-80.0,730.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00155","group":"fireplace","part":"20310-eacab9d213.dat","color":70,"position":[-108.24,-80.0,830.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00156","group":"great-hall","part":"6141.dat","color":297,"position":[131.76,-8.0,890.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00157","group":"great-hall","part":"6141.dat","color":297,"position":[131.76,-8.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00158","group":"great-hall","part":"6141.dat","color":297,"position":[131.76,-8.0,710.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00159","group":"great-hall","part":"6141.dat","color":297,"position":[131.76,-8.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00160","group":"great-hall","part":"30136.dat","color":484,"position":[81.76,-24.0,890.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00161","group":"great-hall","part":"30136.dat","color":484,"position":[81.76,-24.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00162","group":"great-hall","part":"30136.dat","color":484,"position":[81.76,-24.0,710.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00163","group":"great-hall","part":"30136.dat","color":484,"position":[81.76,-24.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00164","group":"great-hall","part":"6141.dat","color":297,"position":[11.76,-8.0,890.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00165","group":"great-hall","part":"6141.dat","color":297,"position":[11.76,-8.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00166","group":"great-hall","part":"6141.dat","color":297,"position":[11.76,-8.0,710.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00167","group":"great-hall","part":"6141.dat","color":297,"position":[11.76,-8.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00168","group":"great-hall","part":"30136.dat","color":484,"position":[-38.24,-24.0,890.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00169","group":"great-hall","part":"30136.dat","color":484,"position":[-38.24,-24.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00170","group":"great-hall","part":"30136.dat","color":484,"position":[-38.24,-24.0,710.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00171","group":"great-hall","part":"30136.dat","color":484,"position":[-38.24,-24.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00172","group":"great-hall","part":"3460.dat","color":308,"position":[11.76,-16.0,820.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00173","group":"great-hall","part":"3460.dat","color":308,"position":[11.76,-16.0,640.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00174","group":"great-hall","part":"3460.dat","color":308,"position":[131.76,-16.0,820.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00175","group":"great-hall","part":"3460.dat","color":308,"position":[131.76,-16.0,640.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00176","group":"great-hall","part":"3460.dat","color":70,"position":[-48.24,-32.0,640.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00177","group":"great-hall","part":"3460.dat","color":70,"position":[-48.24,-32.0,820.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00178","group":"great-hall","part":"3460.dat","color":70,"position":[71.76,-32.0,640.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00179","group":"great-hall","part":"3460.dat","color":70,"position":[71.76,-32.0,820.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00180","group":"great-hall","part":"4162.dat","color":70,"position":[-28.24,-32.0,640.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00181","group":"great-hall","part":"4162.dat","color":70,"position":[-28.24,-32.0,820.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00182","group":"great-hall","part":"4162.dat","color":70,"position":[91.76,-32.0,640.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00183","group":"great-hall","part":"4162.dat","color":70,"position":[91.76,-32.0,820.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00184","group":"great-hall","part":"2357.dat","color":19,"position":[111.76,-24.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00185","group":"great-hall","part":"3005.dat","color":84,"position":[111.76,-24.0,510.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00186","group":"great-hall","part":"4286.dat","color":19,"position":[131.76,-24.0,550.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00187","group":"great-hall","part":"3010.dat","color":19,"position":[141.76,-24.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00188","group":"great-hall","part":"3010.dat","color":19,"position":[141.76,-24.0,390.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00189","group":"great-hall","part":"3040b.dat","color":71,"position":[91.76,-24.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00190","group":"great-hall","part":"41769.dat","color":272,"position":[81.76,0.0,360.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00191","group":"great-hall","part":"3040b.dat","color":71,"position":[-28.24,-24.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00192","group":"great-hall","part":"15706.dat","color":70,"position":[-38.24,0.0,360.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00193","group":"great-hall","part":"32607.dat","color":10,"position":[-38.24,-8.0,345.85799999999995],"matrix":[-0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,-0.707]},{"id":"part-00194","group":"great-hall","part":"3005.dat","color":19,"position":[71.76,-24.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00195","group":"great-hall","part":"3046.dat","color":72,"position":[31.76,-24.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00196","group":"great-hall","part":"54200.dat","color":71,"position":[31.76,-24.0,370.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00197","group":"great-hall","part":"54200.dat","color":71,"position":[-24.096999999999998,0.0,331.71500000000003],"matrix":[0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,0.707]},{"id":"part-00198","group":"great-hall","part":"3795.dat","color":308,"position":[-24.096999999999998,-8.0,289.289],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00199","group":"great-hall","part":"3023.dat","color":84,"position":[-59.452000000000005,0.0,253.933],"matrix":[-0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,-0.707]},{"id":"part-00200","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-24.0,570.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00201","group":"great-hall","part":"3046.dat","color":72,"position":[-128.24,-24.0,550.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00202","group":"great-hall","part":"3004.dat","color":19,"position":[-98.24,-24.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00203","group":"great-hall","part":"3040b.dat","color":71,"position":[-128.24,-24.0,510.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00204","group":"great-hall","part":"54200.dat","color":71,"position":[-128.24,-24.0,530.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00205","group":"great-hall","part":"54200.dat","color":71,"position":[-148.24,0.0,450.0],"matrix":[0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,0.707]},{"id":"part-00206","group":"great-hall","part":"32607.dat","color":10,"position":[-128.24,-8.0,410.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00207","group":"great-hall","part":"3010.dat","color":19,"position":[-108.24,-24.0,500.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00208","group":"great-hall","part":"3005.dat","color":19,"position":[-108.24,-24.0,430.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00209","group":"great-hall","part":"3005.dat","color":19,"position":[-108.24,-24.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00210","group":"great-hall","part":"3005.dat","color":84,"position":[-68.24,-24.0,390.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00211","group":"great-hall","part":"3028.dat","color":72,"position":[221.76,0.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00212","group":"great-hall","part":"6541.dat","color":71,"position":[271.76,-24.0,330.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00213","group":"great-hall","part":"3046.dat","color":72,"position":[251.76,-24.0,330.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00214","group":"great-hall","part":"41770.dat","color":272,"position":[241.76,0.0,300.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00215","group":"great-hall","part":"54200.dat","color":71,"position":[171.76,0.0,330.0],"matrix":[-0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,-0.707]},{"id":"part-00216","group":"great-hall","part":"2431.dat","color":72,"position":[271.76,-8.0,380.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00217","group":"great-hall","part":"2460.dat","color":72,"position":[261.76,-8.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00218","group":"great-hall","part":"3040b.dat","color":71,"position":[271.76,-24.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00219","group":"great-hall","part":"3040b.dat","color":71,"position":[271.76,-48.0,310.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00220","group":"great-hall","part":"54200.dat","color":71,"position":[271.76,-48.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00221","group":"great-hall","part":"6141.dat","color":297,"position":[271.76,-8.0,530.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00222","group":"great-hall","part":"43888.dat","color":19,"position":[271.76,-144.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00223","group":"great-hall","part":"3940.dat","color":72,"position":[161.76,-48.0,520.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00224","group":"great-hall","part":"18674.dat","color":72,"position":[161.76,-56.0,520.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00225","group":"great-hall","part":"33320.dat","color":14,"position":[161.76,-56.0,520.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00226","group":"great-hall","part":"60596.dat","color":19,"position":[171.76,-144.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00227","group":"great-hall","part":"87421.dat","color":19,"position":[191.76,-144.0,350.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00228","group":"great-hall","part":"18674.dat","color":15,"position":[-38.24,-40.0,760.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00229","group":"great-hall","part":"6141.dat","color":15,"position":[71.76,-40.0,850.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00230","group":"great-hall","part":"15470.dat","color":29,"position":[71.76,-40.0,850.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00231","group":"great-hall","part":"33057.dat","color":484,"position":[-38.24,-38.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00232","group":"great-hall","part":"2343.dat","color":297,"position":[31.76,-88.0,950.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00233","group":"great-hall","part":"2343.dat","color":297,"position":[-28.24,-88.0,930.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00234","group":"great-hall","part":"18674.dat","color":15,"position":[-38.24,-40.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00235","group":"great-hall","part":"6141.dat","color":29,"position":[-38.24,-48.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00236","group":"great-hall","part":"6141.dat","color":70,"position":[-38.24,-56.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00237","group":"great-hall","part":"6254.dat","color":15,"position":[-38.24,-64.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00238","group":"great-hall","part":"3899.dat","color":4,"position":[71.76,-56.0,650.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00239","group":"great-hall","part":"23986-c2299585eb.dat","color":15,"position":[71.76,-56.0,610.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00240","group":"great-hall","part":"3622.dat","color":19,"position":[251.76,-48.0,330.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00241","group":"great-hall","part":"60592.dat","color":70,"position":[241.76,-96.0,330.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00242","group":"great-hall","part":"38320.dat","color":0,"position":[241.76,-96.0,330.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00243","group":"great-hall","part":"60475b.dat","color":72,"position":[271.76,-72.0,330.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00244","group":"great-hall","part":"3005.dat","color":84,"position":[271.76,-96.0,330.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00245","group":"great-hall","part":"3622.dat","color":19,"position":[251.76,-120.0,330.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00246","group":"great-hall","part":"6541.dat","color":71,"position":[271.76,-144.0,330.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00247","group":"great-hall","part":"3005.dat","color":84,"position":[251.76,-144.0,330.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00248","group":"great-hall","part":"3660.dat","color":19,"position":[221.76,-144.0,330.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00249","group":"great-hall","part":"3005.dat","color":84,"position":[171.76,-48.0,390.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00250","group":"great-hall","part":"98283.dat","color":84,"position":[141.76,-48.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00251","group":"great-hall","part":"3622.dat","color":19,"position":[151.76,-72.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00252","group":"great-hall","part":"3005.dat","color":19,"position":[171.76,-96.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00253","group":"great-hall","part":"3005.dat","color":19,"position":[171.76,-120.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00254","group":"great-hall","part":"2357.dat","color":19,"position":[111.76,-48.0,550.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00255","group":"great-hall","part":"2357.dat","color":19,"position":[111.76,-48.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00256","group":"great-hall","part":"3004.dat","color":19,"position":[161.76,-48.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00257","group":"great-hall","part":"3005.dat","color":19,"position":[91.76,-48.0,550.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00258","group":"great-hall","part":"3622.dat","color":19,"position":[111.76,-72.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00259","group":"great-hall","part":"3622.dat","color":19,"position":[151.76,-72.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00260","group":"great-hall","part":"3622.dat","color":19,"position":[111.76,-72.0,510.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00261","group":"great-hall","part":"3660.dat","color":19,"position":[171.76,-144.0,380.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00262","group":"great-hall","part":"3005.dat","color":84,"position":[171.76,-96.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00263","group":"great-hall","part":"3005.dat","color":19,"position":[171.76,-120.0,490.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00264","group":"great-hall","part":"13965.dat","color":19,"position":[131.76,-144.0,550.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00265","group":"great-hall","part":"13965.dat","color":19,"position":[151.76,-144.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00266","group":"great-hall","part":"13965.dat","color":19,"position":[131.76,-144.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00267","group":"great-hall","part":"13965.dat","color":19,"position":[151.76,-144.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00268","group":"great-hall","part":"13965.dat","color":19,"position":[131.76,-144.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00269","group":"great-hall","part":"3010.dat","color":19,"position":[111.76,-96.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00270","group":"great-hall","part":"60475b.dat","color":72,"position":[111.76,-120.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00271","group":"great-hall","part":"3005.dat","color":19,"position":[111.76,-120.0,490.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00272","group":"great-hall","part":"15573.dat","color":19,"position":[111.76,-104.0,520.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00273","group":"great-hall","part":"3004.dat","color":19,"position":[121.76,-144.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00274","group":"great-hall","part":"60583b.dat","color":19,"position":[91.76,-144.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00275","group":"great-hall","part":"3010.dat","color":19,"position":[121.76,-168.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00276","group":"great-hall","part":"3010.dat","color":19,"position":[141.76,-144.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00277","group":"great-hall","part":"3004.dat","color":19,"position":[-98.24,-48.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00278","group":"great-hall","part":"3622.dat","color":19,"position":[-108.24,-48.0,510.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00279","group":"great-hall","part":"2357.dat","color":19,"position":[-108.24,-72.0,550.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00280","group":"great-hall","part":"98283.dat","color":84,"position":[-108.24,-72.0,500.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00281","group":"great-hall","part":"3010.dat","color":19,"position":[-108.24,-96.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00282","group":"great-hall","part":"60583b.dat","color":19,"position":[-88.24,-144.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00283","group":"great-hall","part":"60475b.dat","color":72,"position":[-108.24,-120.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00284","group":"great-hall","part":"15573.dat","color":19,"position":[-108.24,-104.0,520.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00285","group":"great-hall","part":"3003.dat","color":19,"position":[-138.24,-48.0,560.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00286","group":"great-hall","part":"3003.dat","color":19,"position":[-138.24,-72.0,560.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00287","group":"great-hall","part":"3003.dat","color":19,"position":[-138.24,-96.0,560.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00288","group":"great-hall","part":"3003.dat","color":19,"position":[-138.24,-120.0,560.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00289","group":"great-hall","part":"3004.dat","color":19,"position":[-138.24,-144.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00290","group":"great-hall","part":"3622.dat","color":19,"position":[-128.24,-144.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00291","group":"great-hall","part":"3008.dat","color":19,"position":[81.76,-48.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00292","group":"great-hall","part":"3008.dat","color":19,"position":[-78.24,-48.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00293","group":"great-hall","part":"3034.dat","color":70,"position":[1.76,-56.0,1060.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00294","group":"great-hall","part":"3460.dat","color":308,"position":[1.76,-56.0,1090.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00295","group":"great-hall","part":"15573.dat","color":19,"position":[1.76,-64.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00296","group":"great-hall","part":"10172.dat","color":297,"position":[1.76,-64.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00297","group":"great-hall","part":"15533.dat","color":84,"position":[121.76,-72.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00298","group":"great-hall","part":"3004.dat","color":19,"position":[141.76,-96.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00299","group":"great-hall","part":"98283.dat","color":84,"position":[101.76,-96.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00300","group":"great-hall","part":"3010.dat","color":19,"position":[121.76,-120.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00301","group":"great-hall","part":"3622.dat","color":19,"position":[111.76,-144.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00302","group":"great-hall","part":"6541.dat","color":71,"position":[151.76,-144.0,1050.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00303","group":"great-hall","part":"3004.dat","color":19,"position":[141.76,-168.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00304","group":"great-hall","part":"3005.dat","color":19,"position":[91.76,-168.0,1050.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00305","group":"great-hall","part":"15070.dat","color":19,"position":[111.76,-152.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00306","group":"great-hall","part":"3005.dat","color":84,"position":[151.76,-192.0,1050.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00307","group":"great-hall","part":"4490.dat","color":19,"position":[111.76,-192.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00308","group":"big-window","part":"3034.dat","color":70,"position":[1.76,-64.0,1080.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00309","group":"big-window","part":"60592.dat","color":70,"position":[71.76,-112.0,1080.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00310","group":"big-window","part":"38320.dat","color":0,"position":[71.76,-112.0,1080.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00311","group":"big-window","part":"60592.dat","color":70,"position":[71.76,-160.0,1080.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00312","group":"big-window","part":"38320.dat","color":0,"position":[71.76,-160.0,1080.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00313","group":"big-window","part":"60592.dat","color":70,"position":[71.76,-208.0,1080.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00314","group":"big-window","part":"38320.dat","color":0,"position":[71.76,-208.0,1080.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00315","group":"big-window","part":"60592.dat","color":70,"position":[41.76,-112.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00316","group":"big-window","part":"38320.dat","color":0,"position":[41.76,-112.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00317","group":"big-window","part":"60592.dat","color":70,"position":[41.76,-160.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00318","group":"big-window","part":"38320.dat","color":0,"position":[41.76,-160.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00319","group":"big-window","part":"60592.dat","color":70,"position":[41.76,-208.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00320","group":"big-window","part":"38320.dat","color":0,"position":[41.76,-208.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00321","group":"big-window","part":"60592.dat","color":70,"position":[1.76,-112.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00322","group":"big-window","part":"38320.dat","color":0,"position":[1.76,-112.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00323","group":"big-window","part":"60592.dat","color":70,"position":[1.76,-160.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00324","group":"big-window","part":"38320.dat","color":0,"position":[1.76,-160.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00325","group":"big-window","part":"60592.dat","color":70,"position":[1.76,-208.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00326","group":"big-window","part":"38320.dat","color":0,"position":[1.76,-208.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00327","group":"big-window","part":"60592.dat","color":70,"position":[-38.24,-112.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00328","group":"big-window","part":"38320.dat","color":0,"position":[-38.24,-112.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00329","group":"big-window","part":"60592.dat","color":70,"position":[-38.24,-160.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00330","group":"big-window","part":"38320.dat","color":0,"position":[-38.24,-160.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00331","group":"big-window","part":"60592.dat","color":70,"position":[-38.24,-208.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00332","group":"big-window","part":"38320.dat","color":0,"position":[-38.24,-208.0,1090.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00333","group":"big-window","part":"60592.dat","color":70,"position":[-68.24,-112.0,1080.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00334","group":"big-window","part":"38320.dat","color":0,"position":[-68.24,-112.0,1080.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00335","group":"big-window","part":"60592.dat","color":70,"position":[-68.24,-160.0,1080.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00336","group":"big-window","part":"38320.dat","color":0,"position":[-68.24,-160.0,1080.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00337","group":"big-window","part":"60592.dat","color":70,"position":[-68.24,-208.0,1080.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00338","group":"big-window","part":"38320.dat","color":0,"position":[-68.24,-208.0,1080.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00339","group":"big-window","part":"3034.dat","color":70,"position":[1.76,-216.0,1080.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00340","group":"great-hall","part":"3010.dat","color":19,"position":[-118.24,-72.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00341","group":"great-hall","part":"15533.dat","color":84,"position":[-118.24,-96.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00342","group":"great-hall","part":"3010.dat","color":19,"position":[-118.24,-120.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00343","group":"great-hall","part":"3010.dat","color":19,"position":[-118.24,-144.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00344","group":"great-hall","part":"3005.dat","color":19,"position":[-88.24,-168.0,1050.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00345","group":"great-hall","part":"15070.dat","color":19,"position":[-108.24,-152.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00346","group":"great-hall","part":"3005.dat","color":19,"position":[-128.24,-168.0,1050.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00347","group":"great-hall","part":"4490.dat","color":19,"position":[-108.24,-192.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00348","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00349","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00350","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00351","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00352","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00353","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00354","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00355","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00356","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00357","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00358","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00359","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00360","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00361","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00362","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00363","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00364","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00365","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00366","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00367","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00368","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00369","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00370","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00371","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00372","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00373","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00374","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00375","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00376","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00377","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00378","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00379","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00380","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00381","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00382","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00383","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00384","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00385","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00386","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00387","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00388","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00389","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00390","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-72.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00391","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-72.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00392","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-120.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00393","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-120.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00394","group":"great-hall","part":"60592.dat","color":70,"position":[-128.24,-168.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00395","group":"great-hall","part":"38320.dat","color":0,"position":[-128.24,-168.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00396","group":"great-hall","part":"2454.dat","color":19,"position":[-138.24,-144.0,990.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00397","group":"great-hall","part":"2454.dat","color":19,"position":[-138.24,-144.0,930.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00398","group":"great-hall","part":"2454.dat","color":19,"position":[-138.24,-144.0,870.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00399","group":"great-hall","part":"2454.dat","color":19,"position":[-138.24,-144.0,810.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00400","group":"great-hall","part":"2454.dat","color":19,"position":[-138.24,-144.0,750.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00401","group":"great-hall","part":"2454.dat","color":19,"position":[-138.24,-144.0,690.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00402","group":"great-hall","part":"2454.dat","color":19,"position":[-138.24,-144.0,630.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00403","group":"great-hall","part":"3010.dat","color":19,"position":[-118.24,-168.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00404","group":"great-hall","part":"3665a.dat","color":19,"position":[-148.24,-168.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00405","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,990.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00406","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,930.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00407","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,870.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00408","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,810.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00409","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,750.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00410","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,690.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00411","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,630.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00412","group":"great-hall","part":"13965.dat","color":19,"position":[-128.24,-216.0,570.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00413","group":"great-hall","part":"3665a.dat","color":19,"position":[-148.24,-168.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00414","group":"great-hall","part":"18759.dat","color":19,"position":[-148.24,-168.0,990.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00415","group":"great-hall","part":"18759.dat","color":19,"position":[-148.24,-168.0,930.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00416","group":"great-hall","part":"18759.dat","color":19,"position":[-148.24,-168.0,870.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00417","group":"great-hall","part":"18759.dat","color":19,"position":[-148.24,-168.0,810.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00418","group":"great-hall","part":"18759.dat","color":19,"position":[-148.24,-168.0,750.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00419","group":"great-hall","part":"18759.dat","color":19,"position":[-148.24,-168.0,690.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00420","group":"great-hall","part":"18759.dat","color":19,"position":[-148.24,-168.0,630.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00421","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00422","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00423","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00424","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00425","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00426","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00427","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00428","group":"great-hall","part":"3039.dat","color":19,"position":[-128.24,-192.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00429","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,1050.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00430","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,1050.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00431","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,990.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00432","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,990.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00433","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,930.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00434","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,930.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00435","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,870.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00436","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,870.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00437","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,810.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00438","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,810.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00439","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,750.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00440","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,750.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00441","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,690.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00442","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,690.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00443","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,630.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00444","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,630.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00445","group":"great-hall","part":"4070.dat","color":19,"position":[-148.24,-192.0,570.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00446","group":"great-hall","part":"22388.dat","color":19,"position":[-154.24,-182.0,570.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00447","group":"great-hall","part":"6141.dat","color":72,"position":[-108.24,-112.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00448","group":"great-hall","part":"6141.dat","color":297,"position":[-108.24,-120.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00449","group":"great-hall","part":"90398.dat","color":72,"position":[-108.24,-120.0,520.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00450","group":"great-hall","part":"6141.dat","color":72,"position":[111.76,-112.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00451","group":"great-hall","part":"6141.dat","color":297,"position":[111.76,-120.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00452","group":"great-hall","part":"90398.dat","color":72,"position":[111.76,-120.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00453","group":"great-hall","part":"3005.dat","color":19,"position":[-108.24,-120.0,490.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00454","group":"great-hall","part":"3005.dat","color":84,"position":[-108.24,-144.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00455","group":"great-hall","part":"3005.dat","color":84,"position":[-108.24,-168.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00456","group":"great-hall","part":"3005.dat","color":84,"position":[111.76,-168.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00457","group":"great-hall","part":"3659.dat","color":19,"position":[-108.24,-192.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00458","group":"great-hall","part":"3659.dat","color":19,"position":[111.76,-192.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00459","group":"great-hall","part":"3665a.dat","color":19,"position":[-88.24,-192.0,550.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00460","group":"great-hall","part":"3665a.dat","color":19,"position":[91.76,-192.0,550.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00461","group":"great-hall","part":"3004.dat","color":19,"position":[-138.24,-192.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00462","group":"great-hall","part":"3004.dat","color":19,"position":[141.76,-192.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00463","group":"great-hall","part":"6112.dat","color":19,"position":[1.76,-216.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00464","group":"great-hall","part":"3004.dat","color":19,"position":[141.76,-216.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00465","group":"great-hall","part":"3003.dat","color":19,"position":[-138.24,-216.0,560.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00466","group":"great-hall","part":"3937.dat","color":84,"position":[111.76,-216.0,520.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00467","group":"great-hall","part":"3937.dat","color":84,"position":[-108.24,-216.0,520.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00468","group":"great-hall","part":"6112.dat","color":19,"position":[-18.24,-240.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00469","group":"great-hall","part":"3004.dat","color":19,"position":[121.76,-240.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00470","group":"great-hall","part":"87601.dat","color":70,"position":[-88.24,-108.0,530.0],"matrix":[-0.866,0.0,0.5,0.0,-1.0,0.0,0.5,0.0,0.866]},{"id":"part-00471","group":"great-hall","part":"87601.dat","color":70,"position":[91.76,-108.0,530.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00472","group":"great-hall","part":"6112.dat","color":19,"position":[1.76,-264.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00473","group":"great-hall","part":"3004.dat","color":19,"position":[-78.24,-288.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00474","group":"great-hall","part":"3004.dat","color":19,"position":[81.76,-288.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00475","group":"great-hall","part":"3005.dat","color":84,"position":[-28.24,-288.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00476","group":"great-hall","part":"3005.dat","color":84,"position":[31.76,-288.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00477","group":"great-hall","part":"3747b.dat","color":70,"position":[1.76,-288.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00478","group":"great-hall","part":"4490.dat","color":19,"position":[-48.24,-312.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00479","group":"great-hall","part":"4490.dat","color":19,"position":[51.76,-312.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00480","group":"great-hall","part":"18838.dat","color":19,"position":[1.76,-264.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00481","group":"great-hall","part":"3062b.dat","color":19,"position":[-108.24,-240.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00482","group":"great-hall","part":"3062b.dat","color":19,"position":[111.76,-240.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00483","group":"great-hall","part":"3010.dat","color":19,"position":[21.76,-288.0,490.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00484","group":"great-hall","part":"98283.dat","color":84,"position":[-38.24,-288.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00485","group":"great-hall","part":"2420.dat","color":19,"position":[11.76,-296.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00486","group":"great-hall","part":"2420.dat","color":19,"position":[-8.24,-296.0,490.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00487","group":"door-roof","part":"6134.dat","color":71,"position":[-114.8,-213.55,520.0],"matrix":[0.0,0.656,0.755,0.0,0.755,-0.656,-1.0,0.0,0.0]},{"id":"part-00488","group":"door-roof","part":"3034.dat","color":72,"position":[-67.198,-265.51,520.0],"matrix":[0.755,0.656,0.0,-0.656,0.755,0.0,0.0,0.0,1.0]},{"id":"part-00489","group":"door-roof","part":"6134.dat","color":71,"position":[118.32000000000001,-213.55,520.0],"matrix":[0.0,-0.656,-0.755,0.0,0.755,-0.656,1.0,0.0,0.0]},{"id":"part-00490","group":"door-roof","part":"3034.dat","color":72,"position":[70.718,-265.51,520.0],"matrix":[-0.755,-0.656,0.0,-0.656,0.755,0.0,0.0,0.0,-1.0]},{"id":"part-00491","group":"great-hall","part":"44728.dat","color":19,"position":[1.76,-304.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00492","group":"great-hall","part":"14769.dat","color":15,"position":[1.76,-284.0,468.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0]},{"id":"part-00493","group":"great-hall","part":"3024.dat","color":19,"position":[-28.24,-304.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00494","group":"great-hall","part":"3024.dat","color":19,"position":[31.76,-304.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00495","group":"great-hall","part":"3710.dat","color":19,"position":[1.76,-312.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00496","group":"great-hall","part":"3004.dat","color":19,"position":[1.76,-336.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00497","group":"great-hall","part":"15573.dat","color":72,"position":[1.76,-344.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00498","group":"great-hall","part":"59900.dat","color":72,"position":[1.76,-368.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00499","group":"great-hall","part":"90540.dat","color":378,"position":[1.76,-358.0,490.0],"matrix":[1.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00500","group":"great-hall","part":"3005.dat","color":84,"position":[-128.24,-216.0,590.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00501","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-216.0,630.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00502","group":"great-hall","part":"98283.dat","color":84,"position":[-128.24,-216.0,660.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00503","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-216.0,690.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00504","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-216.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00505","group":"great-hall","part":"98283.dat","color":84,"position":[-128.24,-216.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00506","group":"great-hall","part":"98283.dat","color":84,"position":[-138.24,-216.0,810.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00507","group":"great-hall","part":"98283.dat","color":84,"position":[-128.24,-216.0,840.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00508","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-216.0,870.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00509","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-216.0,930.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00510","group":"great-hall","part":"98283.dat","color":84,"position":[-128.24,-216.0,960.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00511","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-216.0,990.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00512","group":"great-hall","part":"2357.dat","color":19,"position":[-128.24,-216.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00513","group":"great-hall","part":"6112.dat","color":19,"position":[1.76,-216.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00514","group":"great-hall","part":"3004.dat","color":19,"position":[141.76,-216.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00515","group":"great-hall","part":"23949.dat","color":72,"position":[-108.24,-240.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00516","group":"great-hall","part":"23949.dat","color":72,"position":[-108.24,-240.0,740.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00517","group":"great-hall","part":"23949.dat","color":72,"position":[-108.24,-240.0,860.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00518","group":"great-hall","part":"23949.dat","color":72,"position":[-108.24,-240.0,980.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00519","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00520","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,630.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00521","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,690.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00522","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,750.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00523","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,810.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00524","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,870.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00525","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,930.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00526","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,990.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00527","group":"great-hall","part":"3062b.dat","color":19,"position":[-148.24,-240.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00528","group":"great-hall","part":"6112.dat","color":19,"position":[-18.24,-240.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00529","group":"great-hall","part":"3004.dat","color":19,"position":[121.76,-240.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00530","group":"great-hall","part":"3037.dat","color":72,"position":[41.76,-240.0,1070.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00531","group":"great-hall","part":"3037.dat","color":72,"position":[-38.24,-240.0,1070.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00532","group":"great-hall","part":"3004.dat","color":19,"position":[101.76,-264.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00533","group":"great-hall","part":"3037.dat","color":72,"position":[41.76,-264.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00534","group":"great-hall","part":"3037.dat","color":72,"position":[-38.24,-264.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00535","group":"great-hall","part":"3004.dat","color":19,"position":[-98.24,-264.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00536","group":"great-hall","part":"3004.dat","color":19,"position":[81.76,-288.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00537","group":"great-hall","part":"3010.dat","color":19,"position":[1.76,-288.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00538","group":"great-hall","part":"98283.dat","color":84,"position":[-78.24,-288.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00539","group":"great-hall","part":"4490.dat","color":19,"position":[-48.24,-312.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00540","group":"great-hall","part":"4490.dat","color":19,"position":[51.76,-312.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00541","group":"great-hall","part":"3685.dat","color":320,"position":[-108.24,-152.0,810.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00542","group":"great-hall","part":"3684c.dat","color":320,"position":[-108.24,-152.0,780.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00543","group":"great-hall","part":"3685.dat","color":320,"position":[-108.24,-152.0,750.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00544","group":"great-hall","part":"3836.dat","color":70,"position":[271.76,-10.0,350.0],"matrix":[-1.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,1.0]},{"id":"part-00545","group":"great-hall","part":"4332.dat","color":70,"position":[111.76,-147.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00546","group":"great-hall","part":"4332.dat","color":0,"position":[-108.24,-147.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00547","group":"great-hall","part":"40244.dat","color":308,"position":[261.76,-72.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00548","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-24.0,440.0],"matrix":[0.259,0.0,-0.966,0.0,1.0,0.0,0.966,0.0,0.259]},{"id":"part-00549","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-40.0,440.0],"matrix":[0.5,0.0,-0.866,0.0,1.0,0.0,0.866,0.0,0.5]},{"id":"part-00550","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-56.0,440.0],"matrix":[0.809,0.0,-0.588,0.0,1.0,0.0,0.588,0.0,0.809]},{"id":"part-00551","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-72.0,440.0],"matrix":[0.978,0.0,-0.208,0.0,1.0,0.0,0.208,0.0,0.978]},{"id":"part-00552","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-88.0,440.0],"matrix":[0.978,0.0,0.208,0.0,1.0,0.0,-0.208,0.0,0.978]},{"id":"part-00553","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-104.0,440.0],"matrix":[0.809,0.0,0.588,0.0,1.0,0.0,-0.588,0.0,0.809]},{"id":"part-00554","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-120.0,440.0],"matrix":[0.5,0.0,0.866,0.0,1.0,0.0,-0.866,0.0,0.5]},{"id":"part-00555","group":"great-hall","part":"40243.dat","color":84,"position":[261.76,-136.0,440.0],"matrix":[0.105,0.0,0.995,0.0,1.0,0.0,-0.995,0.0,0.105]},{"id":"part-00556","group":"great-hall","part":"3020.dat","color":28,"position":[141.76,-152.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00557","group":"great-hall","part":"2476a.dat","color":28,"position":[261.76,-144.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00558","group":"great-hall","part":"3958.dat","color":28,"position":[221.76,-152.0,500.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00559","group":"great-hall","part":"6003.dat","color":28,"position":[221.76,-152.0,380.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00560","group":"great-hall","part":"3005.dat","color":19,"position":[-108.24,-48.0,470.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00561","group":"great-hall","part":"3005.dat","color":19,"position":[-108.24,-48.0,430.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00562","group":"great-hall","part":"3005.dat","color":19,"position":[-108.24,-48.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00563","group":"great-hall","part":"3005.dat","color":19,"position":[-68.24,-48.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00564","group":"great-hall","part":"3005.dat","color":19,"position":[-28.24,-48.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00565","group":"great-hall","part":"3005.dat","color":19,"position":[31.76,-48.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00566","group":"great-hall","part":"3005.dat","color":19,"position":[71.76,-48.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00567","group":"great-hall","part":"3005.dat","color":19,"position":[111.76,-48.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00568","group":"great-hall","part":"2431.dat","color":72,"position":[-108.24,-56.0,420.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00569","group":"great-hall","part":"2431.dat","color":72,"position":[-58.24,-56.0,390.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00570","group":"great-hall","part":"2431.dat","color":72,"position":[61.76,-56.0,390.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00571","group":"great-hall","part":"3070b.dat","color":72,"position":[-108.24,-56.0,470.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00572","group":"great-hall","part":"3070b.dat","color":72,"position":[111.76,-56.0,390.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00573","group":"great-hall","part":"4460b.dat","color":72,"position":[151.76,-192.0,390.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00574","group":"great-hall","part":"54200.dat","color":72,"position":[151.76,-192.0,390.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00575","group":"great-hall","part":"24482.dat","color":19,"position":[-108.24,-244.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00576","group":"great-hall","part":"24482.dat","color":19,"position":[111.76,-246.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00577","group":"ridge","part":"3703.dat","color":0,"position":[11.76,-312.0,900.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00578","group":"ridge","part":"2780.dat","color":0,"position":[1.7599999999999998,-302.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00579","group":"ridge","part":"2780.dat","color":0,"position":[1.7599999999999998,-302.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00580","group":"ridge","part":"2780.dat","color":0,"position":[1.7599999999999998,-302.0,880.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00581","group":"ridge","part":"2780.dat","color":0,"position":[1.7599999999999998,-302.0,1040.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00582","group":"ridge","part":"2730.dat","color":0,"position":[-8.24,-312.0,960.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00583","group":"ridge","part":"3703.dat","color":0,"position":[-8.24,-312.0,700.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00584","group":"ridge","part":"2780.dat","color":0,"position":[1.7599999999999998,-302.0,720.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00585","group":"ridge","part":"2780.dat","color":0,"position":[1.7599999999999998,-302.0,560.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00586","group":"ridge","part":"2730.dat","color":0,"position":[11.76,-312.0,640.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00587","group":"ridge","part":"3710.dat","color":70,"position":[-8.24,-320.0,600.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00588","group":"ridge","part":"4282.dat","color":72,"position":[1.7599999999999998,-320.0,800.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00589","group":"ridge","part":"3710.dat","color":70,"position":[-8.24,-320.0,1000.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00590","group":"ridge","part":"3040b.dat","color":308,"position":[11.76,-336.0,1030.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00591","group":"ridge","part":"3040b.dat","color":308,"position":[11.76,-336.0,570.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00592","group":"ridge","part":"3937.dat","color":84,"position":[-8.24,-344.0,1020.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00593","group":"ridge","part":"3937.dat","color":84,"position":[-8.24,-344.0,980.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00594","group":"ridge","part":"3937.dat","color":84,"position":[-8.24,-344.0,580.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00595","group":"ridge","part":"3937.dat","color":84,"position":[-8.24,-344.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00596","group":"ridge","part":"3037.dat","color":71,"position":[11.76,-344.0,800.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00597","group":"ridge","part":"3005.dat","color":19,"position":[11.76,-360.0,1030.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00598","group":"ridge","part":"3005.dat","color":19,"position":[11.76,-360.0,570.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00599","group":"great-hall","part":"3009.dat","color":84,"position":[1.76,-336.0,1050.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00600","group":"great-hall","part":"3010.dat","color":19,"position":[1.76,-360.0,1050.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00601","group":"great-hall","part":"3009.dat","color":84,"position":[1.76,-336.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00602","group":"great-hall","part":"3010.dat","color":19,"position":[1.76,-360.0,550.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00603","group":"roof","part":"92438.dat","color":72,"position":[-71.08,-298.29200000000003,720.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00604","group":"roof","part":"6134.dat","color":71,"position":[-15.19,-341.19,580.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00605","group":"roof","part":"6134.dat","color":71,"position":[-15.19,-341.19,620.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00606","group":"roof","part":"4282.dat","color":72,"position":[-36.76,-320.34,800.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00607","group":"roof","part":"41539.dat","color":72,"position":[-71.08,-298.29200000000003,960.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00608","group":"roof","part":"6134.dat","color":71,"position":[-15.19,-341.19,980.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00609","group":"roof","part":"6134.dat","color":71,"position":[-15.19,-341.19,1020.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00610","group":"roof","part":"35464.dat","color":19,"position":[-49.51,-319.142,1010.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00611","group":"roof","part":"35464.dat","color":19,"position":[-92.64999999999999,-277.442,1010.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00612","group":"roof","part":"35464.dat","color":19,"position":[-92.64999999999999,-277.442,930.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00613","group":"roof","part":"35464.dat","color":19,"position":[-49.51,-319.142,930.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00614","group":"roof","part":"35464.dat","color":19,"position":[-92.64999999999999,-277.442,850.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00615","group":"roof","part":"35464.dat","color":19,"position":[-49.51,-319.142,850.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00616","group":"roof","part":"35464.dat","color":19,"position":[-92.64999999999999,-277.442,750.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00617","group":"roof","part":"35464.dat","color":19,"position":[-49.51,-319.142,750.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00618","group":"roof","part":"35464.dat","color":19,"position":[-92.64999999999999,-277.442,670.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00619","group":"roof","part":"35464.dat","color":19,"position":[-49.51,-319.142,670.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00620","group":"roof","part":"35464.dat","color":19,"position":[-92.64999999999999,-277.442,590.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00621","group":"roof","part":"35464.dat","color":19,"position":[-49.51,-319.142,590.0],"matrix":[0.0,0.695,-0.719,0.0,0.719,0.695,1.0,0.0,0.0]},{"id":"part-00622","group":"great-hall","part":"3003.dat","color":19,"position":[1.76,-384.0,560.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00623","group":"great-hall","part":"3003.dat","color":19,"position":[1.76,-384.0,1040.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00624","group":"great-hall","part":"3942c.dat","color":72,"position":[1.76,-432.0,1040.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00625","group":"great-hall","part":"3942c.dat","color":72,"position":[1.76,-432.0,560.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00626","group":"great-hall","part":"24482.dat","color":72,"position":[1.76,-436.0,1040.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00627","group":"great-hall","part":"24482.dat","color":72,"position":[1.76,-436.0,560.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00628","group":"great-hall","part":"3660.dat","color":19,"position":[11.76,-368.0,820.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00629","group":"great-hall","part":"3660.dat","color":19,"position":[11.76,-368.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00630","group":"great-hall","part":"3700.dat","color":0,"position":[11.76,-392.0,800.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00631","group":"great-hall","part":"87620.dat","color":19,"position":[1.76,-392.0,780.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00632","group":"great-hall","part":"87620.dat","color":19,"position":[1.76,-392.0,820.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00633","group":"great-hall","part":"35563.dat","color":72,"position":[21.76,-488.0,800.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00634","group":"great-hall","part":"59900.dat","color":72,"position":[11.76,-512.0,800.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00635","group":"great-hall","part":"89522.dat","color":179,"position":[11.76,-518.0,800.0],"matrix":[0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,-1.0]},{"id":"part-00636","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-246.0,1050.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00637","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,990.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00638","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,930.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00639","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,870.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00640","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,810.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00641","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,750.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00642","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,690.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00643","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,630.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00644","group":"great-hall","part":"24482.dat","color":19,"position":[-148.24,-244.0,570.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00645","group":"great-hall","part":"4274.dat","color":71,"position":[21.76,-302.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00646","group":"great-hall","part":"4274.dat","color":71,"position":[21.76,-302.0,980.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00647","group":"great-hall","part":"48729b.dat","color":72,"position":[35.76,-302.0,620.0],"matrix":[0.0,-1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]},{"id":"part-00648","group":"great-hall","part":"30292a.dat","color":0,"position":[35.76,-302.0,619.0],"matrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-1.0,0.0]},{"id":"part-00649","group":"great-hall","part":"48729b.dat","color":72,"position":[35.76,-302.0,980.0],"matrix":[0.0,-1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]},{"id":"part-00650","group":"great-hall","part":"30292a.dat","color":0,"position":[35.76,-302.0,979.0],"matrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-1.0,0.0]},{"id":"part-00651","group":"chandelier","part":"32524.dat","color":0,"position":[31.76,-322.0,800.0],"matrix":[0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0]},{"id":"part-00652","group":"chandelier","part":"4274.dat","color":71,"position":[21.76,-262.0,800.0],"matrix":[-1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0]},{"id":"part-00653","group":"chandelier","part":"4274.dat","color":71,"position":[21.76,-282.0,800.0],"matrix":[-1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0]},{"id":"part-00654","group":"chandelier","part":"48729b.dat","color":72,"position":[7.760000000000002,-262.0,800.0],"matrix":[0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0]},{"id":"part-00655","group":"chandelier","part":"48729b.dat","color":72,"position":[7.760000000000002,-282.0,800.0],"matrix":[0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0]},{"id":"part-00656","group":"chandelier","part":"2780.dat","color":0,"position":[21.76,-382.0,800.0],"matrix":[-1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0]},{"id":"part-00657","group":"chandelier","part":"2780.dat","color":0,"position":[21.76,-302.0,800.0],"matrix":[-1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0]},{"id":"part-00658","group":"chandelier","part":"87994.dat","color":0,"position":[7.760000000000002,-292.0,800.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00659","group":"chandelier","part":"98313-027c3f0ff6.dat","color":0,"position":[7.760000000000002,-237.0,800.0],"matrix":[0.0,-1.0,0.0,0.0,0.0,1.0,-1.0,0.0,0.0]},{"id":"part-00660","group":"chandelier","part":"98313-027c3f0ff6.dat","color":0,"position":[7.760000000000002,-247.0,800.0],"matrix":[0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0]},{"id":"part-00661","group":"chandelier","part":"63965.dat","color":0,"position":[-9.739999999999998,-237.0,677.0],"matrix":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-1.0,0.0]},{"id":"part-00662","group":"chandelier","part":"63965.dat","color":0,"position":[25.26,-247.0,923.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0]},{"id":"part-00663","group":"chandelier-candle","part":"59230.dat","color":0,"position":[30.26,-237.0,673.0],"matrix":[0.0,-1.0,0.0,-1.0,0.0,0.0,0.0,0.0,-1.0]},{"id":"part-00664","group":"chandelier-candle","part":"37762.dat","color":15,"position":[30.26,-241.0,673.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00665","group":"chandelier-candle","part":"37775.dat","color":57,"position":[30.26,-268.0,673.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00666","group":"chandelier-candle","part":"59230.dat","color":0,"position":[30.26,-237.0,729.0],"matrix":[0.0,-1.0,0.0,-1.0,0.0,0.0,0.0,0.0,-1.0]},{"id":"part-00667","group":"chandelier-candle","part":"37762.dat","color":15,"position":[30.26,-241.0,729.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00668","group":"chandelier-candle","part":"37775.dat","color":57,"position":[30.26,-268.0,729.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00669","group":"chandelier-candle","part":"59230.dat","color":0,"position":[65.26,-247.0,871.0],"matrix":[0.0,-1.0,0.0,-1.0,0.0,0.0,0.0,0.0,-1.0]},{"id":"part-00670","group":"chandelier-candle","part":"37762.dat","color":15,"position":[65.26,-251.0,871.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00671","group":"chandelier-candle","part":"37775.dat","color":57,"position":[65.26,-278.0,871.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00672","group":"chandelier-candle","part":"59230.dat","color":0,"position":[65.26,-247.0,927.0],"matrix":[0.0,-1.0,0.0,-1.0,0.0,0.0,0.0,0.0,-1.0]},{"id":"part-00673","group":"chandelier-candle","part":"37762.dat","color":15,"position":[65.26,-251.0,927.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00674","group":"chandelier-candle","part":"37775.dat","color":57,"position":[65.26,-278.0,927.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00675","group":"great-hall","part":"3622.dat","color":19,"position":[151.76,-176.0,410.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00676","group":"great-hall","part":"3622.dat","color":19,"position":[151.76,-176.0,470.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00677","group":"great-hall","part":"30044.dat","color":70,"position":[131.76,-216.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00678","group":"great-hall","part":"30046.dat","color":0,"position":[127.76,-193.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00679","group":"great-hall","part":"3004.dat","color":19,"position":[141.76,-200.0,470.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00680","group":"great-hall","part":"98283.dat","color":84,"position":[141.76,-200.0,410.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00681","group":"great-hall","part":"3659.dat","color":19,"position":[131.76,-224.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00682","group":"great-hall","part":"3005.dat","color":84,"position":[151.76,-224.0,410.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00683","group":"great-hall","part":"3005.dat","color":19,"position":[151.76,-224.0,470.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00684","group":"great-hall","part":"35563.dat","color":72,"position":[161.76,-320.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00685","group":"great-hall","part":"59900.dat","color":72,"position":[151.76,-344.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00686","group":"great-hall","part":"24482.dat","color":72,"position":[151.76,-350.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00687","group":"great-hall","part":"2453b.dat","color":19,"position":[171.76,-296.0,410.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00688","group":"great-hall","part":"2453b.dat","color":19,"position":[171.76,-296.0,470.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00689","group":"great-hall","part":"98374.dat","color":83,"position":[211.76,-156.0,450.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00690","group":"great-hall","part":"95344.dat","color":297,"position":[211.76,-180.0,450.0],"matrix":[0.0,1.0,0.0,0.0,0.0,-1.0,-1.0,0.0,0.0]},{"id":"part-00691","group":"great-hall","part":"30385.dat","color":36,"position":[211.76,-176.0,450.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00692","group":"great-hall","part":"3062b.dat","color":308,"position":[211.76,-176.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00693","group":"great-hall","part":"3062b.dat","color":308,"position":[251.76,-176.0,490.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00694","group":"great-hall","part":"3062b.dat","color":308,"position":[251.76,-176.0,530.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00695","group":"great-hall","part":"30357.dat","color":70,"position":[251.76,-184.0,490.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00696","group":"great-hall","part":"2343.dat","color":297,"position":[231.76,-224.0,530.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00697","group":"great-hall","part":"3062b.dat","color":43,"position":[251.76,-208.0,510.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00698","group":"great-hall","part":"3062b.dat","color":34,"position":[231.76,-208.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00699","group":"great-hall","part":"30153.dat","color":34,"position":[231.76,-212.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00700","group":"great-hall","part":"30153.dat","color":33,"position":[251.76,-212.0,510.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00701","group":"great-hall","part":"30562.dat","color":19,"position":[241.76,-296.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00702","group":"great-hall","part":"30562.dat","color":19,"position":[241.76,-296.0,480.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00703","group":"great-hall","part":"4341.dat","color":0,"position":[221.76,-194.0,380.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00704","group":"great-hall","part":"30385.dat","color":35,"position":[219.76,-168.0,367.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00705","group":"great-hall","part":"30385.dat","color":35,"position":[221.76,-168.0,392.0],"matrix":[0.5,0.0,0.866,0.0,1.0,0.0,-0.866,0.0,0.5]},{"id":"part-00706","group":"great-hall","part":"2454.dat","color":19,"position":[261.76,-272.0,330.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00707","group":"great-hall","part":"2454.dat","color":19,"position":[261.76,-272.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00708","group":"great-hall","part":"6112.dat","color":19,"position":[251.76,-296.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00709","group":"great-hall","part":"20310-eacab9d213.dat","color":19,"position":[271.76,-296.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00710","group":"great-hall","part":"20310-eacab9d213.dat","color":19,"position":[271.76,-296.0,330.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00711","group":"great-hall","part":"6003.dat","color":28,"position":[221.76,-304.0,380.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00712","group":"great-hall","part":"6003.dat","color":28,"position":[221.76,-304.0,500.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00713","group":"great-hall","part":"3010.dat","color":19,"position":[171.76,-328.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00714","group":"great-hall","part":"3010.dat","color":19,"position":[171.76,-352.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00715","group":"great-hall","part":"3010.dat","color":19,"position":[171.76,-376.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00716","group":"great-hall","part":"30044.dat","color":70,"position":[171.76,-440.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00717","group":"great-hall","part":"30046.dat","color":0,"position":[167.76,-417.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00718","group":"great-hall","part":"3005.dat","color":19,"position":[171.76,-400.0,410.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00719","group":"great-hall","part":"3005.dat","color":19,"position":[171.76,-424.0,410.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00720","group":"great-hall","part":"3005.dat","color":19,"position":[171.76,-400.0,470.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00721","group":"great-hall","part":"3005.dat","color":84,"position":[171.76,-424.0,470.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00722","group":"great-hall","part":"3659.dat","color":19,"position":[171.76,-448.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00723","group":"great-hall","part":"87580.dat","color":320,"position":[201.76,-312.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00724","group":"great-hall","part":"87580.dat","color":320,"position":[241.76,-312.0,500.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00725","group":"great-hall","part":"3069b.dat","color":320,"position":[211.76,-312.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00726","group":"great-hall","part":"4738a.dat","color":70,"position":[201.76,-344.0,420.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00727","group":"great-hall","part":"4739.dat","color":70,"position":[201.76,-360.0,420.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00728","group":"great-hall","part":"30153.dat","color":36,"position":[208.76,-344.0,396.0],"matrix":[0.0,0.866,-0.5,0.0,0.5,0.866,1.0,0.0,0.0]},{"id":"part-00729","group":"great-hall","part":"30153.dat","color":35,"position":[206.76,-329.0,430.0],"matrix":[0.0,0.0,-1.0,-0.966,0.259,0.0,0.259,0.966,0.0]},{"id":"part-00730","group":"great-hall","part":"30153.dat","color":46,"position":[195.76,-328.0,430.0],"matrix":[0.0,0.0,-1.0,0.866,0.5,0.0,0.5,-0.866,0.0]},{"id":"part-00731","group":"great-hall","part":"30153.dat","color":47,"position":[197.76,-331.0,450.0],"matrix":[0.0,-1.0,0.0,0.0,0.0,-1.0,1.0,0.0,0.0]},{"id":"part-00732","group":"great-hall","part":"30153.dat","color":52,"position":[201.76,-336.0,400.0],"matrix":[0.0,0.0,-1.0,0.866,0.5,0.0,0.5,-0.866,0.0]},{"id":"part-00733","group":"great-hall","part":"29111.dat","color":0,"position":[251.76,-304.0,390.0],"matrix":[0.707,0.0,-0.707,0.0,1.0,0.0,0.707,0.0,0.707]},{"id":"part-00734","group":"great-hall","part":"64644.dat","color":297,"position":[241.76,-352.0,500.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00735","group":"great-hall","part":"2454.dat","color":19,"position":[261.76,-424.0,330.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00736","group":"great-hall","part":"30562.dat","color":19,"position":[241.76,-448.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00737","group":"great-hall","part":"30562.dat","color":19,"position":[241.76,-448.0,480.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00738","group":"great-hall","part":"2454.dat","color":19,"position":[261.76,-424.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00739","group":"great-hall","part":"20310-eacab9d213.dat","color":19,"position":[271.76,-448.0,330.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00740","group":"great-hall","part":"6112.dat","color":19,"position":[251.76,-448.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00741","group":"great-hall","part":"20310-eacab9d213.dat","color":19,"position":[271.76,-448.0,550.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00742","group":"great-hall","part":"6003.dat","color":28,"position":[221.76,-456.0,380.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00743","group":"great-hall","part":"6003.dat","color":28,"position":[221.76,-456.0,500.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00744","group":"great-hall","part":"3031.dat","color":72,"position":[281.76,-464.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00745","group":"great-hall","part":"2431.dat","color":0,"position":[291.76,-472.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00746","group":"great-hall","part":"15573.dat","color":70,"position":[251.76,-472.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00747","group":"great-hall","part":"3010.dat","color":70,"position":[311.76,-488.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00748","group":"great-hall","part":"3010.dat","color":70,"position":[271.76,-488.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00749","group":"great-hall","part":"54200.dat","color":19,"position":[311.76,-488.0,470.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00750","group":"great-hall","part":"54200.dat","color":19,"position":[311.76,-488.0,410.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00751","group":"great-hall","part":"59900.dat","color":297,"position":[251.76,-496.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00752","group":"great-hall","part":"64644.dat","color":297,"position":[251.76,-536.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00753","group":"great-hall","part":"30165.dat","color":72,"position":[261.76,-480.0,380.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00754","group":"great-hall","part":"30165.dat","color":72,"position":[261.76,-480.0,500.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00755","group":"great-hall","part":"15573.dat","color":70,"position":[221.76,-464.0,490.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00756","group":"great-hall","part":"15573.dat","color":70,"position":[221.76,-464.0,390.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00757","group":"great-hall","part":"48336.dat","color":297,"position":[221.76,-472.0,490.0],"matrix":[-0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,-0.707]},{"id":"part-00758","group":"great-hall","part":"48336.dat","color":297,"position":[221.76,-472.0,390.0],"matrix":[0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,0.707]},{"id":"part-00759","group":"great-hall","part":"15573.dat","color":70,"position":[221.76,-480.0,490.0],"matrix":[-0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,-0.707]},{"id":"part-00760","group":"great-hall","part":"15573.dat","color":70,"position":[221.76,-480.0,390.0],"matrix":[0.707,0.0,0.707,0.0,1.0,0.0,-0.707,0.0,0.707]},{"id":"part-00761","group":"great-hall","part":"26047.dat","color":70,"position":[221.76,-488.0,490.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00762","group":"great-hall","part":"26047.dat","color":70,"position":[221.76,-488.0,390.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00763","group":"great-hall","part":"60470b.dat","color":71,"position":[261.76,-488.0,500.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00764","group":"great-hall","part":"60470b.dat","color":71,"position":[261.76,-488.0,380.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00765","group":"great-hall","part":"35480.dat","color":19,"position":[261.76,-496.0,500.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00766","group":"great-hall","part":"35480.dat","color":19,"position":[261.76,-496.0,380.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00767","group":"great-hall","part":"3039.dat","color":70,"position":[211.76,-480.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00768","group":"great-hall","part":"3684c.dat","color":72,"position":[261.76,-528.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00769","group":"great-hall","part":"3684c.dat","color":72,"position":[261.76,-528.0,530.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00770","group":"great-hall","part":"3023.dat","color":84,"position":[261.76,-504.0,510.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00771","group":"great-hall","part":"3005.dat","color":19,"position":[251.76,-528.0,510.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00772","group":"great-hall","part":"20310-eacab9d213.dat","color":19,"position":[271.76,-528.0,510.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00773","group":"great-hall","part":"3023.dat","color":84,"position":[261.76,-504.0,370.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00774","group":"great-hall","part":"3005.dat","color":19,"position":[251.76,-528.0,370.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00775","group":"great-hall","part":"20310-eacab9d213.dat","color":19,"position":[271.76,-528.0,370.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00776","group":"great-hall","part":"3245c.dat","color":72,"position":[211.76,-528.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00777","group":"great-hall","part":"3684c.dat","color":72,"position":[191.76,-528.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00778","group":"great-hall","part":"3684c.dat","color":72,"position":[261.76,-600.0,510.0],"matrix":[-1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0]},{"id":"part-00779","group":"great-hall","part":"3684c.dat","color":72,"position":[261.76,-600.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"part-00780","group":"great-hall","part":"3684c.dat","color":72,"position":[211.76,-600.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00781","group":"tower-roof-top","part":"48310.dat","color":72,"position":[281.76,-744.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00782","group":"tower-roof-top","part":"3660.dat","color":19,"position":[271.76,-768.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00783","group":"tower-roof-top","part":"3245c.dat","color":72,"position":[291.76,-816.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,1.0,0.0,1.0,0.0,0.0]},{"id":"part-00784","group":"tower-roof-top","part":"38317.dat","color":72,"position":[281.76,-816.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00785","group":"tower-roof-top","part":"3942c.dat","color":72,"position":[281.76,-864.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00786","group":"tower-roof-top","part":"59900.dat","color":72,"position":[281.76,-888.0,440.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00787","group":"tower-roof-top","part":"90540.dat","color":378,"position":[281.76,-878.0,440.0],"matrix":[0.0,0.0,-1.0,0.0,-1.0,0.0,-1.0,0.0,0.0]},{"id":"part-00788","group":"tower-roof-side","part":"47398.dat","color":72,"position":[191.496,-581.19,477.84400000000005],"matrix":[0.707,0.689,-0.159,0.0,0.225,0.974,0.707,-0.689,0.159]},{"id":"part-00789","group":"tower-roof-side","part":"47397.dat","color":72,"position":[233.916,-581.19,520.264],"matrix":[0.707,0.689,-0.159,0.0,0.225,0.974,0.707,-0.689,0.159]},{"id":"part-00790","group":"tower-roof-side","part":"3034.dat","color":72,"position":[200.834,-544.03,510.92600000000004],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00791","group":"tower-roof-side","part":"3710.dat","color":72,"position":[173.264,-505.07,496.0760000000001],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00792","group":"tower-roof-side","part":"3710.dat","color":72,"position":[215.684,-505.07,538.4960000000001],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00793","group":"tower-roof-side","part":"87580.dat","color":72,"position":[216.734,-641.43,495.02600000000007],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00794","group":"tower-roof-side","part":"3020.dat","color":72,"position":[208.678,-520.95,503.08200000000005],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00795","group":"tower-roof-side","part":"63868.dat","color":71,"position":[203.94,-499.67,493.68000000000006],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00796","group":"tower-roof-side","part":"63868.dat","color":71,"position":[218.07999999999998,-499.67,507.82000000000005],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00797","group":"tower-roof-side","part":"32803.dat","color":71,"position":[215.78,-528.89,495.9800000000001],"matrix":[0.707,0.689,-0.159,0.0,0.225,0.974,0.707,-0.689,0.159]},{"id":"part-00798","group":"tower-roof-side","part":"87580.dat","color":72,"position":[198.502,-565.31,513.258],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00799","group":"tower-roof-side","part":"87580.dat","color":72,"position":[185.78199999999998,-487.39,525.9780000000001],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00800","group":"tower-roof-side","part":"29120.dat","color":72,"position":[166.936,-474.05,488.26400000000007],"matrix":[0.159,0.689,0.707,-0.974,0.225,0.0,-0.159,-0.689,0.707]},{"id":"part-00801","group":"tower-roof-side","part":"29119.dat","color":72,"position":[223.49599999999998,-474.05,544.8240000000001],"matrix":[-0.159,0.689,-0.707,0.974,0.225,0.0,0.159,-0.689,-0.707]},{"id":"part-00802","group":"tower-roof-side","part":"54200.dat","color":19,"position":[185.78199999999998,-487.39,525.9780000000001],"matrix":[-0.707,0.689,0.159,0.0,0.225,-0.974,-0.707,-0.689,-0.159]},{"id":"part-00803","group":"tower-roof-side","part":"54200.dat","color":19,"position":[198.502,-565.31,513.258],"matrix":[-0.707,0.689,0.159,0.0,0.225,-0.974,-0.707,-0.689,-0.159]},{"id":"part-00804","group":"tower-roof-side","part":"54200.dat","color":19,"position":[216.734,-641.43,495.02600000000007],"matrix":[-0.707,0.689,0.159,0.0,0.225,-0.974,-0.707,-0.689,-0.159]},{"id":"part-00805","group":"tower-roof-side","part":"47398.dat","color":72,"position":[233.916,-581.19,359.73599999999993],"matrix":[-0.707,0.689,-0.159,0.0,0.225,0.974,0.707,0.689,-0.159]},{"id":"part-00806","group":"tower-roof-side","part":"47397.dat","color":72,"position":[191.496,-581.19,402.15599999999995],"matrix":[-0.707,0.689,-0.159,0.0,0.225,0.974,0.707,0.689,-0.159]},{"id":"part-00807","group":"tower-roof-side","part":"3034.dat","color":72,"position":[200.834,-544.03,369.07399999999996],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00808","group":"tower-roof-side","part":"3710.dat","color":72,"position":[215.684,-505.07,341.50399999999996],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00809","group":"tower-roof-side","part":"3710.dat","color":72,"position":[173.264,-505.07,383.9239999999999],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00810","group":"tower-roof-side","part":"87580.dat","color":72,"position":[216.734,-641.43,384.97399999999993],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00811","group":"tower-roof-side","part":"3020.dat","color":72,"position":[208.678,-520.95,376.91799999999995],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00812","group":"tower-roof-side","part":"63868.dat","color":71,"position":[218.07999999999998,-499.67,372.17999999999995],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00813","group":"tower-roof-side","part":"63868.dat","color":71,"position":[203.94,-499.67,386.31999999999994],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00814","group":"tower-roof-side","part":"32803.dat","color":71,"position":[215.78,-528.89,384.0199999999999],"matrix":[-0.707,0.689,-0.159,0.0,0.225,0.974,0.707,0.689,-0.159]},{"id":"part-00815","group":"tower-roof-side","part":"87580.dat","color":72,"position":[198.502,-565.31,366.74199999999996],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00816","group":"tower-roof-side","part":"87580.dat","color":72,"position":[185.78199999999998,-487.39,354.02199999999993],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00817","group":"tower-roof-side","part":"29120.dat","color":72,"position":[223.49599999999998,-474.05,335.17599999999993],"matrix":[0.159,0.689,-0.707,-0.974,0.225,0.0,0.159,0.689,0.707]},{"id":"part-00818","group":"tower-roof-side","part":"29119.dat","color":72,"position":[166.936,-474.05,391.73599999999993],"matrix":[-0.159,0.689,0.707,0.974,0.225,0.0,-0.159,0.689,-0.707]},{"id":"part-00819","group":"tower-roof-side","part":"54200.dat","color":19,"position":[185.78199999999998,-487.39,354.02199999999993],"matrix":[0.707,0.689,0.159,0.0,0.225,-0.974,-0.707,0.689,0.159]},{"id":"part-00820","group":"tower-roof-side","part":"54200.dat","color":19,"position":[198.502,-565.31,366.74199999999996],"matrix":[0.707,0.689,0.159,0.0,0.225,-0.974,-0.707,0.689,0.159]},{"id":"part-00821","group":"tower-roof-side","part":"54200.dat","color":19,"position":[216.734,-641.43,384.97399999999993],"matrix":[0.707,0.689,0.159,0.0,0.225,-0.974,-0.707,0.689,0.159]}]}
+0 !BRICK_INSTANCE part-00001
+1 70 -110 -8 210 0.707 0 -0.707 0 1 0 0.707 0 0.707 21301-68d242599e.dat
+0 !BRICK_INSTANCE part-00002
+1 0 -53.44 -56 153.44 0.707 0 -0.707 0 1 0 0.707 0 0.707 3942c.dat
+0 !BRICK_INSTANCE part-00003
+1 0 -53.44 -114.5 153.44 0.707 0 0.707 0 -1 0 0.707 0 -0.707 87618.dat
+0 !BRICK_INSTANCE part-00004
+1 297 -67.58 -108.5 167.58 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 15712.dat
+0 !BRICK_INSTANCE part-00005
+1 42 -67.58 -100.5 167.58 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 3626c.dat
+0 !BRICK_INSTANCE part-00006
+1 0 251.76 -548 440 0.707 0 -0.707 0 1 0 0.707 0 0.707 61252.dat
+0 !BRICK_INSTANCE part-00007
+1 0 251.76 -572 440 0.707 0 -0.707 0 1 0 0.707 0 0.707 4733.dat
+0 !BRICK_INSTANCE part-00008
+1 57 251.76 -580 440 0.707 0 -0.707 0 1 0 0.707 0 0.707 3024.dat
+0 !BRICK_INSTANCE part-00009
+1 4 264.486 -562 452.726 0 -0.707 -0.707 1 0 0 0 -0.707 0.707 3024.dat
+0 !BRICK_INSTANCE part-00010
+1 4 239.034 -562 427.274 0 0.707 0.707 1 0 0 0 0.707 -0.707 3024.dat
+0 !BRICK_INSTANCE part-00011
+1 0 251.76 -588 440 0.707 0 -0.707 0 1 0 0.707 0 0.707 49668.dat
+0 !BRICK_INSTANCE part-00012
+1 4 251.76 -596 440 0.707 0 -0.707 0 1 0 0.707 0 0.707 15712.dat
+0 !BRICK_INSTANCE part-00013
+1 4 248.932 -602 442.828 -0.707 0 -0.707 0 -1 0 -0.707 0 0.707 53451.dat
+0 !BRICK_INSTANCE part-00014
+1 25 244.69 -552 432.93 0.707 0.707 0 0 0 -1 -0.707 0.707 0 29120.dat
+0 !BRICK_INSTANCE part-00015
+1 25 258.83 -552 447.07 -0.707 -0.707 0 0 0 -1 0.707 -0.707 0 29119.dat
+0 !BRICK_INSTANCE part-00016
+1 4 227.722 -532 464.038 0.707 0.707 0 0 0 1 0.707 -0.707 0 61678.dat
+0 !BRICK_INSTANCE part-00017
+1 191 291.76 -480 440 0 0 -1 0 1 0 1 0 0 3666.dat
+0 !BRICK_INSTANCE part-00018
+1 28 291.76 -624 440 0 0 1 0 1 0 -1 0 0 60596.dat
+0 !BRICK_INSTANCE part-00019
+1 19 291.76 -488 390 0 0 1 0 1 0 -1 0 0 3024.dat
+0 !BRICK_INSTANCE part-00020
+1 19 291.76 -496 390 0 0 1 0 1 0 -1 0 0 3024.dat
+0 !BRICK_INSTANCE part-00021
+1 19 291.76 -488 490 0 0 1 0 1 0 -1 0 0 3024.dat
+0 !BRICK_INSTANCE part-00022
+1 19 291.76 -496 490 0 0 1 0 1 0 -1 0 0 3024.dat
+0 !BRICK_INSTANCE part-00023
+1 191 291.76 -616 390 0 0 1 0 1 0 -1 0 0 2453b.dat
+0 !BRICK_INSTANCE part-00024
+1 191 291.76 -616 490 0 0 1 0 1 0 -1 0 0 2453b.dat
+0 !BRICK_INSTANCE part-00025
+1 19 291.76 -624 390 0 0 1 0 1 0 -1 0 0 3024.dat
+0 !BRICK_INSTANCE part-00026
+1 19 291.76 -624 490 0 0 1 0 1 0 -1 0 0 3024.dat
+0 !BRICK_INSTANCE part-00027
+1 191 291.76 -632 440 0 0 -1 0 1 0 1 0 0 3666.dat
+0 !BRICK_INSTANCE part-00028
+1 191 291.76 -656 450 -1 0 0 0 1 0 0 0 -1 3040b.dat
+0 !BRICK_INSTANCE part-00029
+1 191 291.76 -656 430 1 0 0 0 1 0 0 0 1 3040b.dat
+0 !BRICK_INSTANCE part-00030
+1 297 291.76 -680 440 0 0 1 0 1 0 -1 0 0 15571.dat
+0 !BRICK_INSTANCE part-00031
+1 297 291.76 -656 390 0 0 1 0 1 0 -1 0 0 59900.dat
+0 !BRICK_INSTANCE part-00032
+1 297 291.76 -656 490 0 0 1 0 1 0 -1 0 0 59900.dat
+0 !BRICK_INSTANCE part-00033
+1 0 296.76 -620 439.5 0 0 1 0 1 0 -1 0 0 57895.dat
+0 !BRICK_INSTANCE part-00034
+1 0 490 -8 150 0 0 1 0 1 0 -1 0 0 63868.dat
+0 !BRICK_INSTANCE part-00035
+1 0 470 -8 150 0 0 1 0 1 0 -1 0 0 63868.dat
+0 !BRICK_INSTANCE part-00036
+1 0 480 -16 150 -1 0 0 0 1 0 0 0 -1 3176.dat
+0 !BRICK_INSTANCE part-00037
+1 72 480 -24 160 0 0 1 0 1 0 -1 0 0 3021.dat
+0 !BRICK_INSTANCE part-00038
+1 0 470 -32 150 0 0 1 0 1 0 -1 0 0 63868.dat
+0 !BRICK_INSTANCE part-00039
+1 0 490 -32 150 0 0 1 0 1 0 -1 0 0 63868.dat
+0 !BRICK_INSTANCE part-00040
+1 72 480 -32 180 -1 0 0 0 1 0 0 0 -1 14417.dat
+0 !BRICK_INSTANCE part-00041
+1 0 480 -40 170 -1 0 0 0 1 0 0 0 -1 3022.dat
+0 !BRICK_INSTANCE part-00042
+1 0 480 -32 140 1 0 0 0 1 0 0 0 1 85984.dat
+0 !BRICK_INSTANCE part-00043
+1 0 487.77 -24 228.98 0.966 0 0.259 0 1 0 -0.259 0 0.966 2654a.dat
+0 !BRICK_INSTANCE part-00044
+1 72 490.36 -32 238.64 -0.966 0 -0.259 0 1 0 0.259 0 -0.966 14417.dat
+0 !BRICK_INSTANCE part-00045
+1 71 485.18 -32 219.32 0.966 0 0.259 0 1 0 -0.259 0 0.966 14704.dat
+0 !BRICK_INSTANCE part-00046
+1 0 487.77 -40 228.98 0.966 0 0.259 0 1 0 -0.259 0 0.966 3022.dat
+0 !BRICK_INSTANCE part-00047
+1 0 480.529 -24 283.936 0.866 0 -0.5 0 1 0 0.5 0 0.866 2654a.dat
+0 !BRICK_INSTANCE part-00048
+1 72 475.529 -32 292.596 -0.866 0 0.5 0 1 0 -0.5 0 -0.866 14417.dat
+0 !BRICK_INSTANCE part-00049
+1 71 485.529 -32 275.276 0.866 0 -0.5 0 1 0 0.5 0 0.866 14704.dat
+0 !BRICK_INSTANCE part-00050
+1 0 480.529 -40 283.936 0.866 0 -0.5 0 1 0 0.5 0 0.866 3022.dat
+0 !BRICK_INSTANCE part-00051
+1 0 465.529 -24 339.917 1 0 0 0 1 0 0 0 1 2654a.dat
+0 !BRICK_INSTANCE part-00052
+1 72 465.529 -32 349.917 -1 0 0 0 1 0 0 0 -1 14417.dat
+0 !BRICK_INSTANCE part-00053
+1 71 465.529 -32 329.917 1 0 0 0 1 0 0 0 1 14704.dat
+0 !BRICK_INSTANCE part-00054
+1 0 465.529 -40 339.917 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE part-00055
+1 0 473.299 -24 398.897 0.966 0 0.259 0 1 0 -0.259 0 0.966 2654a.dat
+0 !BRICK_INSTANCE part-00056
+1 72 475.889 -32 408.557 -0.966 0 -0.259 0 1 0 0.259 0 -0.966 14417.dat
+0 !BRICK_INSTANCE part-00057
+1 71 470.709 -32 389.237 0.966 0 0.259 0 1 0 -0.259 0 0.966 14704.dat
+0 !BRICK_INSTANCE part-00058
+1 0 473.299 -40 398.897 0.966 0 0.259 0 1 0 -0.259 0 0.966 3022.dat
+0 !BRICK_INSTANCE part-00059
+1 71 488.823 -32 456.85 -0.259 0 0.966 0 1 0 -0.966 0 -0.259 14418.dat
+0 !BRICK_INSTANCE part-00060
+1 0 491.411 -24 466.51 -0.259 0 0.966 0 1 0 -0.966 0 -0.259 3623.dat
+0 !BRICK_INSTANCE part-00061
+1 72 486.235 -32 447.191 0.966 0 0.259 0 1 0 -0.259 0 0.966 54200.dat
+0 !BRICK_INSTANCE part-00062
+1 0 493.999 -24 476.169 -0.966 0 -0.259 0 1 0 0.259 0 -0.966 11477.dat
+0 !BRICK_INSTANCE part-00063
+1 0 480 -8 100 -1 0 0 0 1 0 0 0 -1 48336.dat
+0 !BRICK_INSTANCE part-00064
+1 71 480 -8 80 1 0 0 0 1 0 0 0 1 32803.dat
+0 !BRICK_INSTANCE part-00065
+1 320 480 -16 90 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE part-00066
+1 320 480 -31.974 89.466 1 0 0 0 0.966 0.259 0 -0.259 0.966 3022.dat
+0 !BRICK_INSTANCE part-00067
+1 0 480 -37.112 101.198 -1 0 0 0 0.966 -0.259 0 -0.259 -0.966 48336.dat
+0 !BRICK_INSTANCE part-00068
+1 0 480 -44.882 72.218 1 0 0 0 0.966 0.259 0 -0.259 0.966 43719.dat
+0 !BRICK_INSTANCE part-00069
+1 46 470 -50.02 83.95 1 0 0 0 0.966 0.259 0 -0.259 0.966 6141.dat
+0 !BRICK_INSTANCE part-00070
+1 46 490 -50.02 83.95 1 0 0 0 0.966 0.259 0 -0.259 0.966 6141.dat
+0 !BRICK_INSTANCE part-00071
+1 0 490 -44.84 103.27 0 0 -1 0.259 0.966 0 0.966 -0.259 0 49668.dat
+0 !BRICK_INSTANCE part-00072
+1 0 470 -44.84 103.27 0 0 1 -0.259 0.966 0 -0.966 -0.259 0 49668.dat
+0 !BRICK_INSTANCE part-00073
+1 0 480 -44.84 103.27 1 0 0 0 0.966 0.259 0 -0.259 0.966 85984.dat
+0 !BRICK_INSTANCE part-00074
+1 0 480 -44.882 72.218 1 0 0 0 0.966 0.259 0 -0.259 0.966 15068.dat
+0 !BRICK_INSTANCE part-00075
+1 0 490 -39.744 60.486 1 0 0 0 0.966 0.259 0 -0.259 0.966 85861.dat
+0 !BRICK_INSTANCE part-00076
+1 0 470 -39.744 60.486 1 0 0 0 0.966 0.259 0 -0.259 0.966 85861.dat
+0 !BRICK_INSTANCE part-00077
+1 15 490 -32.016 58.414 1 0 0 0 -0.259 0.966 0 -0.966 -0.259 53451.dat
+0 !BRICK_INSTANCE part-00078
+1 15 470 -32.016 58.414 1 0 0 0 -0.259 0.966 0 -0.966 -0.259 53451.dat
+0 !BRICK_INSTANCE part-00079
+1 72 1.76 0 1040 1 0 0 0 1 0 0 0 1 4282.dat
+0 !BRICK_INSTANCE part-00080
+1 71 151.76 -24 1050 0 0 -1 0 1 0 1 0 0 6541.dat
+0 !BRICK_INSTANCE part-00081
+1 19 131.76 -24 1050 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00082
+1 72 111.76 -24 1050 -1 0 0 0 1 0 0 0 -1 3046.dat
+0 !BRICK_INSTANCE part-00083
+1 288 81.76 0 1070 -1 0 0 0 1 0 0 0 -1 3710.dat
+0 !BRICK_INSTANCE part-00084
+1 84 71.76 -48 1050 1 0 0 0 1 0 0 0 1 88292.dat
+0 !BRICK_INSTANCE part-00085
+1 71 51.76 -24 1050 -1 0 0 0 1 0 0 0 -1 3040b.dat
+0 !BRICK_INSTANCE part-00086
+1 10 111.76 -32 1070 -0.866 0 -0.5 0 1 0 0.5 0 -0.866 32607.dat
+0 !BRICK_INSTANCE part-00087
+1 84 31.76 -48 1050 1 0 0 0 1 0 0 0 1 88292.dat
+0 !BRICK_INSTANCE part-00088
+1 19 1.76 -24 1050 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE part-00089
+1 84 -28.24 -48 1050 1 0 0 0 1 0 0 0 1 88292.dat
+0 !BRICK_INSTANCE part-00090
+1 19 -48.24 -24 1050 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00091
+1 84 -68.24 -48 1050 1 0 0 0 1 0 0 0 1 88292.dat
+0 !BRICK_INSTANCE part-00092
+1 71 -118.24 -24 1050 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 !BRICK_INSTANCE part-00093
+1 288 -118.24 0 1070 -1 0 0 0 1 0 0 0 -1 3710.dat
+0 !BRICK_INSTANCE part-00094
+1 72 -128.24 -24 1030 0 0 1 0 1 0 -1 0 0 3046.dat
+0 !BRICK_INSTANCE part-00095
+1 10 -148.24 -32 1030 0 0 1 0 1 0 -1 0 0 32607.dat
+0 !BRICK_INSTANCE part-00096
+1 71 151.76 -8 980 0 0 1 0 1 0 -1 0 0 3666.dat
+0 !BRICK_INSTANCE part-00097
+1 71 -108.24 -8 980 0 0 1 0 1 0 -1 0 0 3666.dat
+0 !BRICK_INSTANCE part-00098
+1 72 1.76 0 860 0 0 1 0 1 0 -1 0 0 91405.dat
+0 !BRICK_INSTANCE part-00099
+1 71 21.76 -8 920 1 0 0 0 1 0 0 0 1 2445.dat
+0 !BRICK_INSTANCE part-00100
+1 72 -108.24 -8 880 0 0 -1 0 1 0 1 0 0 2431.dat
+0 !BRICK_INSTANCE part-00101
+1 72 151.76 -8 840 0 0 -1 0 1 0 1 0 0 4162.dat
+0 !BRICK_INSTANCE part-00102
+1 1 21.76 -8 980 0 0 -1 0 1 0 1 0 0 87079.dat
+0 !BRICK_INSTANCE part-00103
+1 19 -128.24 -24 920 0 0 -1 0 1 0 1 0 0 3008.dat
+0 !BRICK_INSTANCE part-00104
+1 19 -128.24 -24 760 0 0 -1 0 1 0 1 0 0 3008.dat
+0 !BRICK_INSTANCE part-00105
+1 84 -148.24 -24 990 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00106
+1 84 -148.24 -24 930 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00107
+1 19 -148.24 -24 870 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00108
+1 71 -148.24 0 910 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE part-00109
+1 71 -148.24 -24 770 0 0 1 0 1 0 -1 0 0 3040b.dat
+0 !BRICK_INSTANCE part-00110
+1 288 -168.24 0 740 0 0 1 0 1 0 -1 0 0 3710.dat
+0 !BRICK_INSTANCE part-00111
+1 19 -148.24 -24 810 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00112
+1 72 -148.24 -24 750 0 0 1 0 1 0 -1 0 0 3046.dat
+0 !BRICK_INSTANCE part-00113
+1 72 1.76 0 540 0 0 1 0 1 0 -1 0 0 91405.dat
+0 !BRICK_INSTANCE part-00114
+1 72 151.76 -8 680 0 0 -1 0 1 0 1 0 0 4162.dat
+0 !BRICK_INSTANCE part-00115
+1 72 151.76 -8 580 0 0 -1 0 1 0 1 0 0 3069b.dat
+0 !BRICK_INSTANCE part-00116
+1 71 -148.24 -24 680 0 0 1 0 1 0 -1 0 0 3037.dat
+0 !BRICK_INSTANCE part-00117
+1 288 -168.24 0 660 0 0 1 0 1 0 -1 0 0 3710.dat
+0 !BRICK_INSTANCE part-00118
+1 10 -168.24 -8 630 0 0 1 0 1 0 -1 0 0 32607.dat
+0 !BRICK_INSTANCE part-00119
+1 19 -128.24 -24 640 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00120
+1 19 -148.24 -24 630 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00121
+1 71 -148.24 -24 770 0 0 1 0 1 0 -1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00122
+1 71 -168.24 -24 750 -1 0 0 0 1 0 0 0 -1 54200.dat
+0 !BRICK_INSTANCE part-00123
+1 71 -148.24 -24 670 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE part-00124
+1 71 21.76 -16 980 1 0 0 0 1 0 0 0 1 3456.dat
+0 !BRICK_INSTANCE part-00125
+1 70 -58.24 -24 980 1 0 0 0 1 0 0 0 1 4079.dat
+0 !BRICK_INSTANCE part-00126
+1 70 101.76 -24 980 1 0 0 0 1 0 0 0 1 4079.dat
+0 !BRICK_INSTANCE part-00127
+1 0 11.76 -24 1000 0 0 -1 0 1 0 1 0 0 92280.dat
+0 !BRICK_INSTANCE part-00128
+1 0 31.76 -24 1000 0 0 -1 0 1 0 1 0 0 92280.dat
+0 !BRICK_INSTANCE part-00129
+1 297 11.76 -24 970 0 0 -1 0 1 0 1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00130
+1 297 31.76 -24 970 0 0 -1 0 1 0 1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00131
+1 320 21.76 -32 980 0 0 -1 0 1 0 1 0 0 3022.dat
+0 !BRICK_INSTANCE part-00132
+1 70 11.76 -60 1008 0 0 1 1 0 0 0 1 0 60478.dat
+0 !BRICK_INSTANCE part-00133
+1 70 31.76 -60 1008 0 0 1 1 0 0 0 1 0 60478.dat
+0 !BRICK_INSTANCE part-00134
+1 70 21.76 -70 1000 -1 0 0 0 0 1 0 1 0 22385.dat
+0 !BRICK_INSTANCE part-00135
+1 484 -88.24 -40 940 0 0 -1 0 1 0 1 0 0 30136.dat
+0 !BRICK_INSTANCE part-00136
+1 484 131.76 -40 940 0 0 -1 0 1 0 1 0 0 30136.dat
+0 !BRICK_INSTANCE part-00137
+1 484 21.76 -40 930 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00138
+1 308 -38.24 -48 940 -1 0 0 0 1 0 0 0 -1 3795.dat
+0 !BRICK_INSTANCE part-00139
+1 308 81.76 -48 940 -1 0 0 0 1 0 0 0 -1 3795.dat
+0 !BRICK_INSTANCE part-00140
+1 308 -98.24 -8 780 0 0 -1 0 1 0 1 0 0 3795.dat
+0 !BRICK_INSTANCE part-00141
+1 297 -88.24 -16 730 0 0 -1 0 1 0 1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00142
+1 297 -88.24 -16 830 0 0 -1 0 1 0 1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00143
+1 0 -98.24 -8 750 -1 0 0 0 1 0 0 0 -1 85984.dat
+0 !BRICK_INSTANCE part-00144
+1 0 -98.24 -8 810 1 0 0 0 1 0 0 0 1 85984.dat
+0 !BRICK_INSTANCE part-00145
+1 0 -88.24 -16 770 1 0 0 0 1 0 0 0 1 85861.dat
+0 !BRICK_INSTANCE part-00146
+1 0 -88.24 -16 790 1 0 0 0 1 0 0 0 1 85861.dat
+0 !BRICK_INSTANCE part-00147
+1 0 -108.24 -56 780 0 0 -1 0 1 0 1 0 0 87552.dat
+0 !BRICK_INSTANCE part-00148
+1 70 -88.24 -16 730 0 0 -1 0 1 0 1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00149
+1 70 -88.24 -16 830 0 0 -1 0 1 0 1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00150
+1 57 -88.24 -16 770 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 64647.dat
+0 !BRICK_INSTANCE part-00151
+1 57 -88.24 -16 790 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 64647.dat
+0 !BRICK_INSTANCE part-00152
+1 70 -108.24 -80 730 1 0 0 0 1 0 0 0 1 13965.dat
+0 !BRICK_INSTANCE part-00153
+1 70 -108.24 -80 830 -1 0 0 0 1 0 0 0 -1 13965.dat
+0 !BRICK_INSTANCE part-00154
+1 70 -108.24 -80 730 0 0 -1 0 1 0 1 0 0 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00155
+1 70 -108.24 -80 830 0 0 -1 0 1 0 1 0 0 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00156
+1 297 131.76 -8 890 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00157
+1 297 131.76 -8 750 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00158
+1 297 131.76 -8 710 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00159
+1 297 131.76 -8 570 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00160
+1 484 81.76 -24 890 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00161
+1 484 81.76 -24 750 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00162
+1 484 81.76 -24 710 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00163
+1 484 81.76 -24 570 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00164
+1 297 11.76 -8 890 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00165
+1 297 11.76 -8 750 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00166
+1 297 11.76 -8 710 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00167
+1 297 11.76 -8 570 -1 0 0 0 1 0 0 0 -1 6141.dat
+0 !BRICK_INSTANCE part-00168
+1 484 -38.24 -24 890 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00169
+1 484 -38.24 -24 750 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00170
+1 484 -38.24 -24 710 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00171
+1 484 -38.24 -24 570 -1 0 0 0 1 0 0 0 -1 30136.dat
+0 !BRICK_INSTANCE part-00172
+1 308 11.76 -16 820 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00173
+1 308 11.76 -16 640 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00174
+1 308 131.76 -16 820 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00175
+1 308 131.76 -16 640 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00176
+1 70 -48.24 -32 640 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00177
+1 70 -48.24 -32 820 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00178
+1 70 71.76 -32 640 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00179
+1 70 71.76 -32 820 0 0 1 0 1 0 -1 0 0 3460.dat
+0 !BRICK_INSTANCE part-00180
+1 70 -28.24 -32 640 0 0 1 0 1 0 -1 0 0 4162.dat
+0 !BRICK_INSTANCE part-00181
+1 70 -28.24 -32 820 0 0 1 0 1 0 -1 0 0 4162.dat
+0 !BRICK_INSTANCE part-00182
+1 70 91.76 -32 640 0 0 1 0 1 0 -1 0 0 4162.dat
+0 !BRICK_INSTANCE part-00183
+1 70 91.76 -32 820 0 0 1 0 1 0 -1 0 0 4162.dat
+0 !BRICK_INSTANCE part-00184
+1 19 111.76 -24 550 -1 0 0 0 1 0 0 0 -1 2357.dat
+0 !BRICK_INSTANCE part-00185
+1 84 111.76 -24 510 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00186
+1 19 131.76 -24 550 0 0 -1 0 1 0 1 0 0 4286.dat
+0 !BRICK_INSTANCE part-00187
+1 19 141.76 -24 490 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00188
+1 19 141.76 -24 390 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00189
+1 71 91.76 -24 390 1 0 0 0 1 0 0 0 1 3040b.dat
+0 !BRICK_INSTANCE part-00190
+1 272 81.76 0 360 0 0 -1 0 1 0 1 0 0 41769.dat
+0 !BRICK_INSTANCE part-00191
+1 71 -28.24 -24 390 1 0 0 0 1 0 0 0 1 3040b.dat
+0 !BRICK_INSTANCE part-00192
+1 70 -38.24 0 360 -1 0 0 0 1 0 0 0 -1 15706.dat
+0 !BRICK_INSTANCE part-00193
+1 10 -38.24 -8 345.858 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 32607.dat
+0 !BRICK_INSTANCE part-00194
+1 19 71.76 -24 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00195
+1 72 31.76 -24 390 1 0 0 0 1 0 0 0 1 3046.dat
+0 !BRICK_INSTANCE part-00196
+1 71 31.76 -24 370 0 0 1 0 1 0 -1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00197
+1 71 -24.097 0 331.715 0.707 0 0.707 0 1 0 -0.707 0 0.707 54200.dat
+0 !BRICK_INSTANCE part-00198
+1 308 -24.097 -8 289.289 0.707 0 -0.707 0 1 0 0.707 0 0.707 3795.dat
+0 !BRICK_INSTANCE part-00199
+1 84 -59.452 0 253.933 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 3023.dat
+0 !BRICK_INSTANCE part-00200
+1 19 -128.24 -24 570 0 0 -1 0 1 0 1 0 0 2357.dat
+0 !BRICK_INSTANCE part-00201
+1 72 -128.24 -24 550 0 0 1 0 1 0 -1 0 0 3046.dat
+0 !BRICK_INSTANCE part-00202
+1 19 -98.24 -24 550 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE part-00203
+1 71 -128.24 -24 510 1 0 0 0 1 0 0 0 1 3040b.dat
+0 !BRICK_INSTANCE part-00204
+1 71 -128.24 -24 530 0 0 1 0 1 0 -1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00205
+1 71 -148.24 0 450 0.707 0 0.707 0 1 0 -0.707 0 0.707 54200.dat
+0 !BRICK_INSTANCE part-00206
+1 10 -128.24 -8 410 0 0 1 0 1 0 -1 0 0 32607.dat
+0 !BRICK_INSTANCE part-00207
+1 19 -108.24 -24 500 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00208
+1 19 -108.24 -24 430 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00209
+1 19 -108.24 -24 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00210
+1 84 -68.24 -24 390 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00211
+1 72 221.76 0 440 0 0 1 0 1 0 -1 0 0 3028.dat
+0 !BRICK_INSTANCE part-00212
+1 71 271.76 -24 330 0 0 1 0 1 0 -1 0 0 6541.dat
+0 !BRICK_INSTANCE part-00213
+1 72 251.76 -24 330 0 0 1 0 1 0 -1 0 0 3046.dat
+0 !BRICK_INSTANCE part-00214
+1 272 241.76 0 300 0 0 1 0 1 0 -1 0 0 41770.dat
+0 !BRICK_INSTANCE part-00215
+1 71 171.76 0 330 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 54200.dat
+0 !BRICK_INSTANCE part-00216
+1 72 271.76 -8 380 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE part-00217
+1 72 261.76 -8 440 0 0 1 0 1 0 -1 0 0 2460.dat
+0 !BRICK_INSTANCE part-00218
+1 71 271.76 -24 310 1 0 0 0 1 0 0 0 1 3040b.dat
+0 !BRICK_INSTANCE part-00219
+1 71 271.76 -48 310 0 0 1 0 1 0 -1 0 0 3040b.dat
+0 !BRICK_INSTANCE part-00220
+1 71 271.76 -48 310 1 0 0 0 1 0 0 0 1 54200.dat
+0 !BRICK_INSTANCE part-00221
+1 297 271.76 -8 530 1 0 0 0 1 0 0 0 1 6141.dat
+0 !BRICK_INSTANCE part-00222
+1 19 271.76 -144 550 1 0 0 0 1 0 0 0 1 43888.dat
+0 !BRICK_INSTANCE part-00223
+1 72 161.76 -48 520 1 0 0 0 1 0 0 0 1 3940.dat
+0 !BRICK_INSTANCE part-00224
+1 72 161.76 -56 520 1 0 0 0 1 0 0 0 1 18674.dat
+0 !BRICK_INSTANCE part-00225
+1 14 161.76 -56 520 0 0 -1 0 1 0 1 0 0 33320.dat
+0 !BRICK_INSTANCE part-00226
+1 19 171.76 -144 440 0 0 1 0 1 0 -1 0 0 60596.dat
+0 !BRICK_INSTANCE part-00227
+1 19 191.76 -144 350 0 0 1 0 1 0 -1 0 0 87421.dat
+0 !BRICK_INSTANCE part-00228
+1 15 -38.24 -40 760 0 0 1 0 1 0 -1 0 0 18674.dat
+0 !BRICK_INSTANCE part-00229
+1 15 71.76 -40 850 0 0 1 0 1 0 -1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00230
+1 29 71.76 -40 850 0 0 1 0 1 0 -1 0 0 15470.dat
+0 !BRICK_INSTANCE part-00231
+1 484 -38.24 -38 760 1 0 0 0 1 0 0 0 1 33057.dat
+0 !BRICK_INSTANCE part-00232
+1 297 31.76 -88 950 1 0 0 0 1 0 0 0 1 2343.dat
+0 !BRICK_INSTANCE part-00233
+1 297 -28.24 -88 930 1 0 0 0 1 0 0 0 1 2343.dat
+0 !BRICK_INSTANCE part-00234
+1 15 -38.24 -40 620 0 0 1 0 1 0 -1 0 0 18674.dat
+0 !BRICK_INSTANCE part-00235
+1 29 -38.24 -48 620 0 0 1 0 1 0 -1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00236
+1 70 -38.24 -56 620 0 0 1 0 1 0 -1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00237
+1 15 -38.24 -64 620 0 0 1 0 1 0 -1 0 0 6254.dat
+0 !BRICK_INSTANCE part-00238
+1 4 71.76 -56 650 1 0 0 0 1 0 0 0 1 3899.dat
+0 !BRICK_INSTANCE part-00239
+1 15 71.76 -56 610 0 0 1 0 1 0 -1 0 0 23986-c2299585eb.dat
+0 !BRICK_INSTANCE part-00240
+1 19 251.76 -48 330 1 0 0 0 1 0 0 0 1 3622.dat
+0 !BRICK_INSTANCE part-00241
+1 70 241.76 -96 330 1 0 0 0 1 0 0 0 1 60592.dat
+0 !BRICK_INSTANCE part-00242
+1 0 241.76 -96 330 1 0 0 0 1 0 0 0 1 38320.dat
+0 !BRICK_INSTANCE part-00243
+1 72 271.76 -72 330 -1 0 0 0 1 0 0 0 -1 60475b.dat
+0 !BRICK_INSTANCE part-00244
+1 84 271.76 -96 330 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00245
+1 19 251.76 -120 330 1 0 0 0 1 0 0 0 1 3622.dat
+0 !BRICK_INSTANCE part-00246
+1 71 271.76 -144 330 0 0 1 0 1 0 -1 0 0 6541.dat
+0 !BRICK_INSTANCE part-00247
+1 84 251.76 -144 330 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00248
+1 19 221.76 -144 330 -1 0 0 0 1 0 0 0 -1 3660.dat
+0 !BRICK_INSTANCE part-00249
+1 84 171.76 -48 390 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00250
+1 84 141.76 -48 390 1 0 0 0 1 0 0 0 1 98283.dat
+0 !BRICK_INSTANCE part-00251
+1 19 151.76 -72 390 1 0 0 0 1 0 0 0 1 3622.dat
+0 !BRICK_INSTANCE part-00252
+1 19 171.76 -96 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00253
+1 19 171.76 -120 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00254
+1 19 111.76 -48 550 0 0 1 0 1 0 -1 0 0 2357.dat
+0 !BRICK_INSTANCE part-00255
+1 19 111.76 -48 490 1 0 0 0 1 0 0 0 1 2357.dat
+0 !BRICK_INSTANCE part-00256
+1 19 161.76 -48 490 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE part-00257
+1 19 91.76 -48 550 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00258
+1 19 111.76 -72 550 1 0 0 0 1 0 0 0 1 3622.dat
+0 !BRICK_INSTANCE part-00259
+1 19 151.76 -72 490 1 0 0 0 1 0 0 0 1 3622.dat
+0 !BRICK_INSTANCE part-00260
+1 19 111.76 -72 510 0 0 1 0 1 0 -1 0 0 3622.dat
+0 !BRICK_INSTANCE part-00261
+1 19 171.76 -144 380 0 0 -1 0 1 0 1 0 0 3660.dat
+0 !BRICK_INSTANCE part-00262
+1 84 171.76 -96 490 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00263
+1 19 171.76 -120 490 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00264
+1 19 131.76 -144 550 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00265
+1 19 151.76 -144 490 -1 0 0 0 1 0 0 0 -1 13965.dat
+0 !BRICK_INSTANCE part-00266
+1 19 131.76 -144 490 -1 0 0 0 1 0 0 0 -1 13965.dat
+0 !BRICK_INSTANCE part-00267
+1 19 151.76 -144 390 1 0 0 0 1 0 0 0 1 13965.dat
+0 !BRICK_INSTANCE part-00268
+1 19 131.76 -144 390 1 0 0 0 1 0 0 0 1 13965.dat
+0 !BRICK_INSTANCE part-00269
+1 19 111.76 -96 520 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00270
+1 72 111.76 -120 550 -1 0 0 0 1 0 0 0 -1 60475b.dat
+0 !BRICK_INSTANCE part-00271
+1 19 111.76 -120 490 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00272
+1 19 111.76 -104 520 0 0 -1 0 1 0 1 0 0 15573.dat
+0 !BRICK_INSTANCE part-00273
+1 19 121.76 -144 550 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE part-00274
+1 19 91.76 -144 550 1 0 0 0 1 0 0 0 1 60583b.dat
+0 !BRICK_INSTANCE part-00275
+1 19 121.76 -168 550 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00276
+1 19 141.76 -144 490 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00277
+1 19 -98.24 -48 550 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE part-00278
+1 19 -108.24 -48 510 0 0 1 0 1 0 -1 0 0 3622.dat
+0 !BRICK_INSTANCE part-00279
+1 19 -108.24 -72 550 0 0 1 0 1 0 -1 0 0 2357.dat
+0 !BRICK_INSTANCE part-00280
+1 84 -108.24 -72 500 0 0 1 0 1 0 -1 0 0 98283.dat
+0 !BRICK_INSTANCE part-00281
+1 19 -108.24 -96 520 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00282
+1 19 -88.24 -144 550 1 0 0 0 1 0 0 0 1 60583b.dat
+0 !BRICK_INSTANCE part-00283
+1 72 -108.24 -120 550 -1 0 0 0 1 0 0 0 -1 60475b.dat
+0 !BRICK_INSTANCE part-00284
+1 19 -108.24 -104 520 0 0 -1 0 1 0 1 0 0 15573.dat
+0 !BRICK_INSTANCE part-00285
+1 19 -138.24 -48 560 0 0 -1 0 1 0 1 0 0 3003.dat
+0 !BRICK_INSTANCE part-00286
+1 19 -138.24 -72 560 0 0 -1 0 1 0 1 0 0 3003.dat
+0 !BRICK_INSTANCE part-00287
+1 19 -138.24 -96 560 0 0 -1 0 1 0 1 0 0 3003.dat
+0 !BRICK_INSTANCE part-00288
+1 19 -138.24 -120 560 0 0 -1 0 1 0 1 0 0 3003.dat
+0 !BRICK_INSTANCE part-00289
+1 19 -138.24 -144 570 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE part-00290
+1 19 -128.24 -144 550 1 0 0 0 1 0 0 0 1 3622.dat
+0 !BRICK_INSTANCE part-00291
+1 19 81.76 -48 1050 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE part-00292
+1 19 -78.24 -48 1050 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE part-00293
+1 70 1.76 -56 1060 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE part-00294
+1 308 1.76 -56 1090 1 0 0 0 1 0 0 0 1 3460.dat
+0 !BRICK_INSTANCE part-00295
+1 19 1.76 -64 1050 -1 0 0 0 1 0 0 0 -1 15573.dat
+0 !BRICK_INSTANCE part-00296
+1 297 1.76 -64 1050 -1 0 0 0 1 0 0 0 -1 10172.dat
+0 !BRICK_INSTANCE part-00297
+1 84 121.76 -72 1050 -1 0 0 0 1 0 0 0 -1 15533.dat
+0 !BRICK_INSTANCE part-00298
+1 19 141.76 -96 1050 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00299
+1 84 101.76 -96 1050 -1 0 0 0 1 0 0 0 -1 98283.dat
+0 !BRICK_INSTANCE part-00300
+1 19 121.76 -120 1050 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00301
+1 19 111.76 -144 1050 -1 0 0 0 1 0 0 0 -1 3622.dat
+0 !BRICK_INSTANCE part-00302
+1 71 151.76 -144 1050 0 0 1 0 1 0 -1 0 0 6541.dat
+0 !BRICK_INSTANCE part-00303
+1 19 141.76 -168 1050 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00304
+1 19 91.76 -168 1050 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00305
+1 19 111.76 -152 1050 -1 0 0 0 1 0 0 0 -1 15070.dat
+0 !BRICK_INSTANCE part-00306
+1 84 151.76 -192 1050 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00307
+1 19 111.76 -192 1050 -1 0 0 0 1 0 0 0 -1 4490.dat
+0 !BRICK_INSTANCE part-00308
+1 70 1.76 -64 1080 -1 0 0 0 1 0 0 0 -1 3034.dat
+0 !BRICK_INSTANCE part-00309
+1 70 71.76 -112 1080 0 0 -1 0 1 0 1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00310
+1 0 71.76 -112 1080 0 0 -1 0 1 0 1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00311
+1 70 71.76 -160 1080 0 0 -1 0 1 0 1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00312
+1 0 71.76 -160 1080 0 0 -1 0 1 0 1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00313
+1 70 71.76 -208 1080 0 0 -1 0 1 0 1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00314
+1 0 71.76 -208 1080 0 0 -1 0 1 0 1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00315
+1 70 41.76 -112 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00316
+1 0 41.76 -112 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00317
+1 70 41.76 -160 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00318
+1 0 41.76 -160 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00319
+1 70 41.76 -208 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00320
+1 0 41.76 -208 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00321
+1 70 1.76 -112 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00322
+1 0 1.76 -112 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00323
+1 70 1.76 -160 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00324
+1 0 1.76 -160 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00325
+1 70 1.76 -208 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00326
+1 0 1.76 -208 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00327
+1 70 -38.24 -112 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00328
+1 0 -38.24 -112 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00329
+1 70 -38.24 -160 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00330
+1 0 -38.24 -160 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00331
+1 70 -38.24 -208 1090 -1 0 0 0 1 0 0 0 -1 60592.dat
+0 !BRICK_INSTANCE part-00332
+1 0 -38.24 -208 1090 -1 0 0 0 1 0 0 0 -1 38320.dat
+0 !BRICK_INSTANCE part-00333
+1 70 -68.24 -112 1080 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00334
+1 0 -68.24 -112 1080 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00335
+1 70 -68.24 -160 1080 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00336
+1 0 -68.24 -160 1080 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00337
+1 70 -68.24 -208 1080 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00338
+1 0 -68.24 -208 1080 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00339
+1 70 1.76 -216 1080 -1 0 0 0 1 0 0 0 -1 3034.dat
+0 !BRICK_INSTANCE part-00340
+1 19 -118.24 -72 1050 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00341
+1 84 -118.24 -96 1050 -1 0 0 0 1 0 0 0 -1 15533.dat
+0 !BRICK_INSTANCE part-00342
+1 19 -118.24 -120 1050 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00343
+1 19 -118.24 -144 1050 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00344
+1 19 -88.24 -168 1050 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00345
+1 19 -108.24 -152 1050 -1 0 0 0 1 0 0 0 -1 15070.dat
+0 !BRICK_INSTANCE part-00346
+1 19 -128.24 -168 1050 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00347
+1 19 -108.24 -192 1050 -1 0 0 0 1 0 0 0 -1 4490.dat
+0 !BRICK_INSTANCE part-00348
+1 70 -128.24 -72 1020 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00349
+1 0 -128.24 -72 1020 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00350
+1 70 -128.24 -120 1020 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00351
+1 0 -128.24 -120 1020 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00352
+1 70 -128.24 -168 1020 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00353
+1 0 -128.24 -168 1020 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00354
+1 70 -128.24 -72 960 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00355
+1 0 -128.24 -72 960 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00356
+1 70 -128.24 -120 960 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00357
+1 0 -128.24 -120 960 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00358
+1 70 -128.24 -168 960 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00359
+1 0 -128.24 -168 960 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00360
+1 70 -128.24 -72 900 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00361
+1 0 -128.24 -72 900 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00362
+1 70 -128.24 -120 900 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00363
+1 0 -128.24 -120 900 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00364
+1 70 -128.24 -168 900 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00365
+1 0 -128.24 -168 900 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00366
+1 70 -128.24 -72 840 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00367
+1 0 -128.24 -72 840 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00368
+1 70 -128.24 -120 840 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00369
+1 0 -128.24 -120 840 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00370
+1 70 -128.24 -168 840 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00371
+1 0 -128.24 -168 840 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00372
+1 70 -128.24 -72 780 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00373
+1 0 -128.24 -72 780 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00374
+1 70 -128.24 -120 780 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00375
+1 0 -128.24 -120 780 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00376
+1 70 -128.24 -168 780 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00377
+1 0 -128.24 -168 780 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00378
+1 70 -128.24 -72 720 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00379
+1 0 -128.24 -72 720 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00380
+1 70 -128.24 -120 720 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00381
+1 0 -128.24 -120 720 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00382
+1 70 -128.24 -168 720 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00383
+1 0 -128.24 -168 720 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00384
+1 70 -128.24 -72 660 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00385
+1 0 -128.24 -72 660 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00386
+1 70 -128.24 -120 660 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00387
+1 0 -128.24 -120 660 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00388
+1 70 -128.24 -168 660 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00389
+1 0 -128.24 -168 660 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00390
+1 70 -128.24 -72 600 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00391
+1 0 -128.24 -72 600 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00392
+1 70 -128.24 -120 600 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00393
+1 0 -128.24 -120 600 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00394
+1 70 -128.24 -168 600 0 0 1 0 1 0 -1 0 0 60592.dat
+0 !BRICK_INSTANCE part-00395
+1 0 -128.24 -168 600 0 0 1 0 1 0 -1 0 0 38320.dat
+0 !BRICK_INSTANCE part-00396
+1 19 -138.24 -144 990 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00397
+1 19 -138.24 -144 930 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00398
+1 19 -138.24 -144 870 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00399
+1 19 -138.24 -144 810 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00400
+1 19 -138.24 -144 750 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00401
+1 19 -138.24 -144 690 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00402
+1 19 -138.24 -144 630 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00403
+1 19 -118.24 -168 550 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00404
+1 19 -148.24 -168 570 -1 0 0 0 1 0 0 0 -1 3665a.dat
+0 !BRICK_INSTANCE part-00405
+1 19 -128.24 -216 990 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00406
+1 19 -128.24 -216 930 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00407
+1 19 -128.24 -216 870 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00408
+1 19 -128.24 -216 810 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00409
+1 19 -128.24 -216 750 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00410
+1 19 -128.24 -216 690 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00411
+1 19 -128.24 -216 630 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00412
+1 19 -128.24 -216 570 0 0 1 0 1 0 -1 0 0 13965.dat
+0 !BRICK_INSTANCE part-00413
+1 19 -148.24 -168 1050 1 0 0 0 1 0 0 0 1 3665a.dat
+0 !BRICK_INSTANCE part-00414
+1 19 -148.24 -168 990 1 0 0 0 1 0 0 0 1 18759.dat
+0 !BRICK_INSTANCE part-00415
+1 19 -148.24 -168 930 1 0 0 0 1 0 0 0 1 18759.dat
+0 !BRICK_INSTANCE part-00416
+1 19 -148.24 -168 870 1 0 0 0 1 0 0 0 1 18759.dat
+0 !BRICK_INSTANCE part-00417
+1 19 -148.24 -168 810 1 0 0 0 1 0 0 0 1 18759.dat
+0 !BRICK_INSTANCE part-00418
+1 19 -148.24 -168 750 1 0 0 0 1 0 0 0 1 18759.dat
+0 !BRICK_INSTANCE part-00419
+1 19 -148.24 -168 690 1 0 0 0 1 0 0 0 1 18759.dat
+0 !BRICK_INSTANCE part-00420
+1 19 -148.24 -168 630 1 0 0 0 1 0 0 0 1 18759.dat
+0 !BRICK_INSTANCE part-00421
+1 19 -128.24 -192 1020 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00422
+1 19 -128.24 -192 960 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00423
+1 19 -128.24 -192 900 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00424
+1 19 -128.24 -192 840 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00425
+1 19 -128.24 -192 780 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00426
+1 19 -128.24 -192 720 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00427
+1 19 -128.24 -192 660 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00428
+1 19 -128.24 -192 600 0 0 1 0 1 0 -1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00429
+1 19 -148.24 -192 1050 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00430
+1 19 -154.24 -182 1050 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00431
+1 19 -148.24 -192 990 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00432
+1 19 -154.24 -182 990 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00433
+1 19 -148.24 -192 930 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00434
+1 19 -154.24 -182 930 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00435
+1 19 -148.24 -192 870 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00436
+1 19 -154.24 -182 870 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00437
+1 19 -148.24 -192 810 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00438
+1 19 -154.24 -182 810 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00439
+1 19 -148.24 -192 750 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00440
+1 19 -154.24 -182 750 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00441
+1 19 -148.24 -192 690 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00442
+1 19 -154.24 -182 690 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00443
+1 19 -148.24 -192 630 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00444
+1 19 -154.24 -182 630 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00445
+1 19 -148.24 -192 570 0 0 1 0 1 0 -1 0 0 4070.dat
+0 !BRICK_INSTANCE part-00446
+1 19 -154.24 -182 570 0 1 0 0 0 -1 -1 0 0 22388.dat
+0 !BRICK_INSTANCE part-00447
+1 72 -108.24 -112 520 0 0 1 0 1 0 -1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00448
+1 297 -108.24 -120 520 0 0 1 0 1 0 -1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00449
+1 72 -108.24 -120 520 0 0 -1 0 1 0 1 0 0 90398.dat
+0 !BRICK_INSTANCE part-00450
+1 72 111.76 -112 520 0 0 1 0 1 0 -1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00451
+1 297 111.76 -120 520 0 0 1 0 1 0 -1 0 0 6141.dat
+0 !BRICK_INSTANCE part-00452
+1 72 111.76 -120 520 0 0 1 0 1 0 -1 0 0 90398.dat
+0 !BRICK_INSTANCE part-00453
+1 19 -108.24 -120 490 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00454
+1 84 -108.24 -144 490 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00455
+1 84 -108.24 -168 490 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00456
+1 84 111.76 -168 490 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00457
+1 19 -108.24 -192 520 0 0 1 0 1 0 -1 0 0 3659.dat
+0 !BRICK_INSTANCE part-00458
+1 19 111.76 -192 520 0 0 1 0 1 0 -1 0 0 3659.dat
+0 !BRICK_INSTANCE part-00459
+1 19 -88.24 -192 550 0 0 -1 0 1 0 1 0 0 3665a.dat
+0 !BRICK_INSTANCE part-00460
+1 19 91.76 -192 550 0 0 1 0 1 0 -1 0 0 3665a.dat
+0 !BRICK_INSTANCE part-00461
+1 19 -138.24 -192 550 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00462
+1 19 141.76 -192 550 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00463
+1 19 1.76 -216 550 -1 0 0 0 1 0 0 0 -1 6112.dat
+0 !BRICK_INSTANCE part-00464
+1 19 141.76 -216 550 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00465
+1 19 -138.24 -216 560 0 0 -1 0 1 0 1 0 0 3003.dat
+0 !BRICK_INSTANCE part-00466
+1 84 111.76 -216 520 0 0 -1 0 1 0 1 0 0 3937.dat
+0 !BRICK_INSTANCE part-00467
+1 84 -108.24 -216 520 0 0 1 0 1 0 -1 0 0 3937.dat
+0 !BRICK_INSTANCE part-00468
+1 19 -18.24 -240 550 -1 0 0 0 1 0 0 0 -1 6112.dat
+0 !BRICK_INSTANCE part-00469
+1 19 121.76 -240 550 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00470
+1 70 -88.24 -108 530 -0.866 0 0.5 0 -1 0 0.5 0 0.866 87601.dat
+0 !BRICK_INSTANCE part-00471
+1 70 91.76 -108 530 1 0 0 0 1 0 0 0 1 87601.dat
+0 !BRICK_INSTANCE part-00472
+1 19 1.76 -264 550 -1 0 0 0 1 0 0 0 -1 6112.dat
+0 !BRICK_INSTANCE part-00473
+1 19 -78.24 -288 550 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00474
+1 19 81.76 -288 550 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00475
+1 84 -28.24 -288 550 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00476
+1 84 31.76 -288 550 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00477
+1 70 1.76 -288 550 1 0 0 0 1 0 0 0 1 3747b.dat
+0 !BRICK_INSTANCE part-00478
+1 19 -48.24 -312 550 -1 0 0 0 1 0 0 0 -1 4490.dat
+0 !BRICK_INSTANCE part-00479
+1 19 51.76 -312 550 -1 0 0 0 1 0 0 0 -1 4490.dat
+0 !BRICK_INSTANCE part-00480
+1 19 1.76 -264 490 -1 0 0 0 1 0 0 0 -1 18838.dat
+0 !BRICK_INSTANCE part-00481
+1 19 -108.24 -240 490 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00482
+1 19 111.76 -240 490 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00483
+1 19 21.76 -288 490 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00484
+1 84 -38.24 -288 490 1 0 0 0 1 0 0 0 1 98283.dat
+0 !BRICK_INSTANCE part-00485
+1 19 11.76 -296 490 1 0 0 0 1 0 0 0 1 2420.dat
+0 !BRICK_INSTANCE part-00486
+1 19 -8.24 -296 490 0 0 -1 0 1 0 1 0 0 2420.dat
+0 !BRICK_INSTANCE part-00487
+1 71 -114.8 -213.55 520 0 0.656 0.755 0 0.755 -0.656 -1 0 0 6134.dat
+0 !BRICK_INSTANCE part-00488
+1 72 -67.198 -265.51 520 0.755 0.656 0 -0.656 0.755 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE part-00489
+1 71 118.32 -213.55 520 0 -0.656 -0.755 0 0.755 -0.656 1 0 0 6134.dat
+0 !BRICK_INSTANCE part-00490
+1 72 70.718 -265.51 520 -0.755 -0.656 0 -0.656 0.755 0 0 0 -1 3034.dat
+0 !BRICK_INSTANCE part-00491
+1 19 1.76 -304 490 1 0 0 0 1 0 0 0 1 44728.dat
+0 !BRICK_INSTANCE part-00492
+1 15 1.76 -284 468 1 0 0 0 0 -1 0 1 0 14769.dat
+0 !BRICK_INSTANCE part-00493
+1 19 -28.24 -304 490 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE part-00494
+1 19 31.76 -304 490 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE part-00495
+1 19 1.76 -312 490 1 0 0 0 1 0 0 0 1 3710.dat
+0 !BRICK_INSTANCE part-00496
+1 19 1.76 -336 490 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE part-00497
+1 72 1.76 -344 490 1 0 0 0 1 0 0 0 1 15573.dat
+0 !BRICK_INSTANCE part-00498
+1 72 1.76 -368 490 1 0 0 0 1 0 0 0 1 59900.dat
+0 !BRICK_INSTANCE part-00499
+1 378 1.76 -358 490 1 0 0 0 -1 0 0 0 -1 90540.dat
+0 !BRICK_INSTANCE part-00500
+1 84 -128.24 -216 590 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00501
+1 19 -128.24 -216 630 -1 0 0 0 1 0 0 0 -1 2357.dat
+0 !BRICK_INSTANCE part-00502
+1 84 -128.24 -216 660 0 0 1 0 1 0 -1 0 0 98283.dat
+0 !BRICK_INSTANCE part-00503
+1 19 -128.24 -216 690 0 0 -1 0 1 0 1 0 0 2357.dat
+0 !BRICK_INSTANCE part-00504
+1 19 -128.24 -216 750 -1 0 0 0 1 0 0 0 -1 2357.dat
+0 !BRICK_INSTANCE part-00505
+1 84 -128.24 -216 780 0 0 1 0 1 0 -1 0 0 98283.dat
+0 !BRICK_INSTANCE part-00506
+1 84 -138.24 -216 810 -1 0 0 0 1 0 0 0 -1 98283.dat
+0 !BRICK_INSTANCE part-00507
+1 84 -128.24 -216 840 0 0 1 0 1 0 -1 0 0 98283.dat
+0 !BRICK_INSTANCE part-00508
+1 19 -128.24 -216 870 0 0 -1 0 1 0 1 0 0 2357.dat
+0 !BRICK_INSTANCE part-00509
+1 19 -128.24 -216 930 -1 0 0 0 1 0 0 0 -1 2357.dat
+0 !BRICK_INSTANCE part-00510
+1 84 -128.24 -216 960 0 0 1 0 1 0 -1 0 0 98283.dat
+0 !BRICK_INSTANCE part-00511
+1 19 -128.24 -216 990 0 0 -1 0 1 0 1 0 0 2357.dat
+0 !BRICK_INSTANCE part-00512
+1 19 -128.24 -216 1050 -1 0 0 0 1 0 0 0 -1 2357.dat
+0 !BRICK_INSTANCE part-00513
+1 19 1.76 -216 1050 -1 0 0 0 1 0 0 0 -1 6112.dat
+0 !BRICK_INSTANCE part-00514
+1 19 141.76 -216 1050 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00515
+1 72 -108.24 -240 620 0 0 1 0 1 0 -1 0 0 23949.dat
+0 !BRICK_INSTANCE part-00516
+1 72 -108.24 -240 740 0 0 1 0 1 0 -1 0 0 23949.dat
+0 !BRICK_INSTANCE part-00517
+1 72 -108.24 -240 860 0 0 1 0 1 0 -1 0 0 23949.dat
+0 !BRICK_INSTANCE part-00518
+1 72 -108.24 -240 980 0 0 1 0 1 0 -1 0 0 23949.dat
+0 !BRICK_INSTANCE part-00519
+1 19 -148.24 -240 570 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00520
+1 19 -148.24 -240 630 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00521
+1 19 -148.24 -240 690 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00522
+1 19 -148.24 -240 750 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00523
+1 19 -148.24 -240 810 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00524
+1 19 -148.24 -240 870 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00525
+1 19 -148.24 -240 930 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00526
+1 19 -148.24 -240 990 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00527
+1 19 -148.24 -240 1050 -1 0 0 0 1 0 0 0 -1 3062b.dat
+0 !BRICK_INSTANCE part-00528
+1 19 -18.24 -240 1050 -1 0 0 0 1 0 0 0 -1 6112.dat
+0 !BRICK_INSTANCE part-00529
+1 19 121.76 -240 1050 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00530
+1 72 41.76 -240 1070 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 !BRICK_INSTANCE part-00531
+1 72 -38.24 -240 1070 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 !BRICK_INSTANCE part-00532
+1 19 101.76 -264 1050 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00533
+1 72 41.76 -264 1050 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 !BRICK_INSTANCE part-00534
+1 72 -38.24 -264 1050 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 !BRICK_INSTANCE part-00535
+1 19 -98.24 -264 1050 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00536
+1 19 81.76 -288 1050 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00537
+1 19 1.76 -288 1050 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00538
+1 84 -78.24 -288 1050 -1 0 0 0 1 0 0 0 -1 98283.dat
+0 !BRICK_INSTANCE part-00539
+1 19 -48.24 -312 1050 -1 0 0 0 1 0 0 0 -1 4490.dat
+0 !BRICK_INSTANCE part-00540
+1 19 51.76 -312 1050 -1 0 0 0 1 0 0 0 -1 4490.dat
+0 !BRICK_INSTANCE part-00541
+1 320 -108.24 -152 810 0 0 -1 0 1 0 1 0 0 3685.dat
+0 !BRICK_INSTANCE part-00542
+1 320 -108.24 -152 780 0 0 -1 0 1 0 1 0 0 3684c.dat
+0 !BRICK_INSTANCE part-00543
+1 320 -108.24 -152 750 1 0 0 0 1 0 0 0 1 3685.dat
+0 !BRICK_INSTANCE part-00544
+1 70 271.76 -10 350 -1 0 0 0 -1 0 0 0 1 3836.dat
+0 !BRICK_INSTANCE part-00545
+1 70 111.76 -147 570 -1 0 0 0 1 0 0 0 -1 4332.dat
+0 !BRICK_INSTANCE part-00546
+1 0 -108.24 -147 570 -1 0 0 0 1 0 0 0 -1 4332.dat
+0 !BRICK_INSTANCE part-00547
+1 308 261.76 -72 440 0 0 1 0 1 0 -1 0 0 40244.dat
+0 !BRICK_INSTANCE part-00548
+1 84 261.76 -24 440 0.259 0 -0.966 0 1 0 0.966 0 0.259 40243.dat
+0 !BRICK_INSTANCE part-00549
+1 84 261.76 -40 440 0.5 0 -0.866 0 1 0 0.866 0 0.5 40243.dat
+0 !BRICK_INSTANCE part-00550
+1 84 261.76 -56 440 0.809 0 -0.588 0 1 0 0.588 0 0.809 40243.dat
+0 !BRICK_INSTANCE part-00551
+1 84 261.76 -72 440 0.978 0 -0.208 0 1 0 0.208 0 0.978 40243.dat
+0 !BRICK_INSTANCE part-00552
+1 84 261.76 -88 440 0.978 0 0.208 0 1 0 -0.208 0 0.978 40243.dat
+0 !BRICK_INSTANCE part-00553
+1 84 261.76 -104 440 0.809 0 0.588 0 1 0 -0.588 0 0.809 40243.dat
+0 !BRICK_INSTANCE part-00554
+1 84 261.76 -120 440 0.5 0 0.866 0 1 0 -0.866 0 0.5 40243.dat
+0 !BRICK_INSTANCE part-00555
+1 84 261.76 -136 440 0.105 0 0.995 0 1 0 -0.995 0 0.105 40243.dat
+0 !BRICK_INSTANCE part-00556
+1 28 141.76 -152 440 0 0 -1 0 1 0 1 0 0 3020.dat
+0 !BRICK_INSTANCE part-00557
+1 28 261.76 -144 440 0 0 1 0 1 0 -1 0 0 2476a.dat
+0 !BRICK_INSTANCE part-00558
+1 28 221.76 -152 500 0 0 -1 0 1 0 1 0 0 3958.dat
+0 !BRICK_INSTANCE part-00559
+1 28 221.76 -152 380 0 0 1 0 1 0 -1 0 0 6003.dat
+0 !BRICK_INSTANCE part-00560
+1 19 -108.24 -48 470 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00561
+1 19 -108.24 -48 430 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00562
+1 19 -108.24 -48 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00563
+1 19 -68.24 -48 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00564
+1 19 -28.24 -48 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00565
+1 19 31.76 -48 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00566
+1 19 71.76 -48 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00567
+1 19 111.76 -48 390 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00568
+1 72 -108.24 -56 420 0 0 -1 0 1 0 1 0 0 2431.dat
+0 !BRICK_INSTANCE part-00569
+1 72 -58.24 -56 390 -1 0 0 0 1 0 0 0 -1 2431.dat
+0 !BRICK_INSTANCE part-00570
+1 72 61.76 -56 390 -1 0 0 0 1 0 0 0 -1 2431.dat
+0 !BRICK_INSTANCE part-00571
+1 72 -108.24 -56 470 -1 0 0 0 1 0 0 0 -1 3070b.dat
+0 !BRICK_INSTANCE part-00572
+1 72 111.76 -56 390 -1 0 0 0 1 0 0 0 -1 3070b.dat
+0 !BRICK_INSTANCE part-00573
+1 72 151.76 -192 390 0 0 1 0 1 0 -1 0 0 4460b.dat
+0 !BRICK_INSTANCE part-00574
+1 72 151.76 -192 390 0 0 1 0 1 0 -1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00575
+1 19 -108.24 -244 490 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00576
+1 19 111.76 -246 490 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00577
+1 0 11.76 -312 900 0 0 1 0 1 0 -1 0 0 3703.dat
+0 !BRICK_INSTANCE part-00578
+1 0 1.76 -302 760 1 0 0 0 1 0 0 0 1 2780.dat
+0 !BRICK_INSTANCE part-00579
+1 0 1.76 -302 840 1 0 0 0 1 0 0 0 1 2780.dat
+0 !BRICK_INSTANCE part-00580
+1 0 1.76 -302 880 1 0 0 0 1 0 0 0 1 2780.dat
+0 !BRICK_INSTANCE part-00581
+1 0 1.76 -302 1040 1 0 0 0 1 0 0 0 1 2780.dat
+0 !BRICK_INSTANCE part-00582
+1 0 -8.24 -312 960 0 0 -1 0 1 0 1 0 0 2730.dat
+0 !BRICK_INSTANCE part-00583
+1 0 -8.24 -312 700 0 0 1 0 1 0 -1 0 0 3703.dat
+0 !BRICK_INSTANCE part-00584
+1 0 1.76 -302 720 1 0 0 0 1 0 0 0 1 2780.dat
+0 !BRICK_INSTANCE part-00585
+1 0 1.76 -302 560 1 0 0 0 1 0 0 0 1 2780.dat
+0 !BRICK_INSTANCE part-00586
+1 0 11.76 -312 640 0 0 -1 0 1 0 1 0 0 2730.dat
+0 !BRICK_INSTANCE part-00587
+1 70 -8.24 -320 600 0 0 -1 0 1 0 1 0 0 3710.dat
+0 !BRICK_INSTANCE part-00588
+1 72 1.76 -320 800 0 0 -1 0 1 0 1 0 0 4282.dat
+0 !BRICK_INSTANCE part-00589
+1 70 -8.24 -320 1000 0 0 -1 0 1 0 1 0 0 3710.dat
+0 !BRICK_INSTANCE part-00590
+1 308 11.76 -336 1030 1 0 0 0 1 0 0 0 1 3040b.dat
+0 !BRICK_INSTANCE part-00591
+1 308 11.76 -336 570 -1 0 0 0 1 0 0 0 -1 3040b.dat
+0 !BRICK_INSTANCE part-00592
+1 84 -8.24 -344 1020 0 0 1 0 1 0 -1 0 0 3937.dat
+0 !BRICK_INSTANCE part-00593
+1 84 -8.24 -344 980 0 0 1 0 1 0 -1 0 0 3937.dat
+0 !BRICK_INSTANCE part-00594
+1 84 -8.24 -344 580 0 0 1 0 1 0 -1 0 0 3937.dat
+0 !BRICK_INSTANCE part-00595
+1 84 -8.24 -344 620 0 0 1 0 1 0 -1 0 0 3937.dat
+0 !BRICK_INSTANCE part-00596
+1 71 11.76 -344 800 0 0 1 0 1 0 -1 0 0 3037.dat
+0 !BRICK_INSTANCE part-00597
+1 19 11.76 -360 1030 0 0 1 0 1 0 -1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00598
+1 19 11.76 -360 570 0 0 1 0 1 0 -1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00599
+1 84 1.76 -336 1050 1 0 0 0 1 0 0 0 1 3009.dat
+0 !BRICK_INSTANCE part-00600
+1 19 1.76 -360 1050 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00601
+1 84 1.76 -336 550 1 0 0 0 1 0 0 0 1 3009.dat
+0 !BRICK_INSTANCE part-00602
+1 19 1.76 -360 550 -1 0 0 0 1 0 0 0 -1 3010.dat
+0 !BRICK_INSTANCE part-00603
+1 72 -71.08 -298.292 720 0 0.695 -0.719 0 0.719 0.695 1 0 0 92438.dat
+0 !BRICK_INSTANCE part-00604
+1 71 -15.19 -341.19 580 0 0.695 -0.719 0 0.719 0.695 1 0 0 6134.dat
+0 !BRICK_INSTANCE part-00605
+1 71 -15.19 -341.19 620 0 0.695 -0.719 0 0.719 0.695 1 0 0 6134.dat
+0 !BRICK_INSTANCE part-00606
+1 72 -36.76 -320.34 800 0 0.695 -0.719 0 0.719 0.695 1 0 0 4282.dat
+0 !BRICK_INSTANCE part-00607
+1 72 -71.08 -298.292 960 0 0.695 -0.719 0 0.719 0.695 1 0 0 41539.dat
+0 !BRICK_INSTANCE part-00608
+1 71 -15.19 -341.19 980 0 0.695 -0.719 0 0.719 0.695 1 0 0 6134.dat
+0 !BRICK_INSTANCE part-00609
+1 71 -15.19 -341.19 1020 0 0.695 -0.719 0 0.719 0.695 1 0 0 6134.dat
+0 !BRICK_INSTANCE part-00610
+1 19 -49.51 -319.142 1010 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00611
+1 19 -92.65 -277.442 1010 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00612
+1 19 -92.65 -277.442 930 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00613
+1 19 -49.51 -319.142 930 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00614
+1 19 -92.65 -277.442 850 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00615
+1 19 -49.51 -319.142 850 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00616
+1 19 -92.65 -277.442 750 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00617
+1 19 -49.51 -319.142 750 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00618
+1 19 -92.65 -277.442 670 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00619
+1 19 -49.51 -319.142 670 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00620
+1 19 -92.65 -277.442 590 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00621
+1 19 -49.51 -319.142 590 0 0.695 -0.719 0 0.719 0.695 1 0 0 35464.dat
+0 !BRICK_INSTANCE part-00622
+1 19 1.76 -384 560 0 0 -1 0 1 0 1 0 0 3003.dat
+0 !BRICK_INSTANCE part-00623
+1 19 1.76 -384 1040 0 0 -1 0 1 0 1 0 0 3003.dat
+0 !BRICK_INSTANCE part-00624
+1 72 1.76 -432 1040 0 0 -1 0 1 0 1 0 0 3942c.dat
+0 !BRICK_INSTANCE part-00625
+1 72 1.76 -432 560 0 0 -1 0 1 0 1 0 0 3942c.dat
+0 !BRICK_INSTANCE part-00626
+1 72 1.76 -436 1040 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00627
+1 72 1.76 -436 560 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00628
+1 19 11.76 -368 820 0 0 1 0 1 0 -1 0 0 3660.dat
+0 !BRICK_INSTANCE part-00629
+1 19 11.76 -368 780 0 0 1 0 1 0 -1 0 0 3660.dat
+0 !BRICK_INSTANCE part-00630
+1 0 11.76 -392 800 0 0 1 0 1 0 -1 0 0 3700.dat
+0 !BRICK_INSTANCE part-00631
+1 19 1.76 -392 780 0 0 1 0 1 0 -1 0 0 87620.dat
+0 !BRICK_INSTANCE part-00632
+1 19 1.76 -392 820 -1 0 0 0 1 0 0 0 -1 87620.dat
+0 !BRICK_INSTANCE part-00633
+1 72 21.76 -488 800 0 0 1 0 1 0 -1 0 0 35563.dat
+0 !BRICK_INSTANCE part-00634
+1 72 11.76 -512 800 0 0 1 0 1 0 -1 0 0 59900.dat
+0 !BRICK_INSTANCE part-00635
+1 179 11.76 -518 800 0 1 0 1 0 0 0 0 -1 89522.dat
+0 !BRICK_INSTANCE part-00636
+1 19 -148.24 -246 1050 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00637
+1 19 -148.24 -244 990 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00638
+1 19 -148.24 -244 930 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00639
+1 19 -148.24 -244 870 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00640
+1 19 -148.24 -244 810 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00641
+1 19 -148.24 -244 750 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00642
+1 19 -148.24 -244 690 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00643
+1 19 -148.24 -244 630 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00644
+1 19 -148.24 -244 570 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00645
+1 71 21.76 -302 620 1 0 0 0 1 0 0 0 1 4274.dat
+0 !BRICK_INSTANCE part-00646
+1 71 21.76 -302 980 1 0 0 0 1 0 0 0 1 4274.dat
+0 !BRICK_INSTANCE part-00647
+1 72 35.76 -302 620 0 -1 0 1 0 0 0 0 1 48729b.dat
+0 !BRICK_INSTANCE part-00648
+1 0 35.76 -302 619 1 0 0 0 0 1 0 -1 0 30292a.dat
+0 !BRICK_INSTANCE part-00649
+1 72 35.76 -302 980 0 -1 0 1 0 0 0 0 1 48729b.dat
+0 !BRICK_INSTANCE part-00650
+1 0 35.76 -302 979 1 0 0 0 0 1 0 -1 0 30292a.dat
+0 !BRICK_INSTANCE part-00651
+1 0 31.76 -322 800 0 1 0 0 0 1 1 0 0 32524.dat
+0 !BRICK_INSTANCE part-00652
+1 71 21.76 -262 800 -1 0 0 0 0 1 0 1 0 4274.dat
+0 !BRICK_INSTANCE part-00653
+1 71 21.76 -282 800 -1 0 0 0 0 1 0 1 0 4274.dat
+0 !BRICK_INSTANCE part-00654
+1 72 7.76 -262 800 0 1 0 0 0 1 1 0 0 48729b.dat
+0 !BRICK_INSTANCE part-00655
+1 72 7.76 -282 800 0 1 0 0 0 1 1 0 0 48729b.dat
+0 !BRICK_INSTANCE part-00656
+1 0 21.76 -382 800 -1 0 0 0 0 1 0 1 0 2780.dat
+0 !BRICK_INSTANCE part-00657
+1 0 21.76 -302 800 -1 0 0 0 0 1 0 1 0 2780.dat
+0 !BRICK_INSTANCE part-00658
+1 0 7.76 -292 800 -1 0 0 0 1 0 0 0 -1 87994.dat
+0 !BRICK_INSTANCE part-00659
+1 0 7.76 -237 800 0 -1 0 0 0 1 -1 0 0 98313-027c3f0ff6.dat
+0 !BRICK_INSTANCE part-00660
+1 0 7.76 -247 800 0 1 0 0 0 1 1 0 0 98313-027c3f0ff6.dat
+0 !BRICK_INSTANCE part-00661
+1 0 -9.74 -237 677 1 0 0 0 0 1 0 -1 0 63965.dat
+0 !BRICK_INSTANCE part-00662
+1 0 25.26 -247 923 1 0 0 0 0 -1 0 1 0 63965.dat
+0 !BRICK_INSTANCE part-00663
+1 0 30.26 -237 673 0 -1 0 -1 0 0 0 0 -1 59230.dat
+0 !BRICK_INSTANCE part-00664
+1 15 30.26 -241 673 -1 0 0 0 1 0 0 0 -1 37762.dat
+0 !BRICK_INSTANCE part-00665
+1 57 30.26 -268 673 0 0 -1 0 1 0 1 0 0 37775.dat
+0 !BRICK_INSTANCE part-00666
+1 0 30.26 -237 729 0 -1 0 -1 0 0 0 0 -1 59230.dat
+0 !BRICK_INSTANCE part-00667
+1 15 30.26 -241 729 -1 0 0 0 1 0 0 0 -1 37762.dat
+0 !BRICK_INSTANCE part-00668
+1 57 30.26 -268 729 0 0 -1 0 1 0 1 0 0 37775.dat
+0 !BRICK_INSTANCE part-00669
+1 0 65.26 -247 871 0 -1 0 -1 0 0 0 0 -1 59230.dat
+0 !BRICK_INSTANCE part-00670
+1 15 65.26 -251 871 -1 0 0 0 1 0 0 0 -1 37762.dat
+0 !BRICK_INSTANCE part-00671
+1 57 65.26 -278 871 0 0 -1 0 1 0 1 0 0 37775.dat
+0 !BRICK_INSTANCE part-00672
+1 0 65.26 -247 927 0 -1 0 -1 0 0 0 0 -1 59230.dat
+0 !BRICK_INSTANCE part-00673
+1 15 65.26 -251 927 -1 0 0 0 1 0 0 0 -1 37762.dat
+0 !BRICK_INSTANCE part-00674
+1 57 65.26 -278 927 0 0 -1 0 1 0 1 0 0 37775.dat
+0 !BRICK_INSTANCE part-00675
+1 19 151.76 -176 410 -1 0 0 0 1 0 0 0 -1 3622.dat
+0 !BRICK_INSTANCE part-00676
+1 19 151.76 -176 470 -1 0 0 0 1 0 0 0 -1 3622.dat
+0 !BRICK_INSTANCE part-00677
+1 70 131.76 -216 440 0 0 1 0 1 0 -1 0 0 30044.dat
+0 !BRICK_INSTANCE part-00678
+1 0 127.76 -193 440 0 0 1 0 1 0 -1 0 0 30046.dat
+0 !BRICK_INSTANCE part-00679
+1 19 141.76 -200 470 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 !BRICK_INSTANCE part-00680
+1 84 141.76 -200 410 1 0 0 0 1 0 0 0 1 98283.dat
+0 !BRICK_INSTANCE part-00681
+1 19 131.76 -224 440 0 0 1 0 1 0 -1 0 0 3659.dat
+0 !BRICK_INSTANCE part-00682
+1 84 151.76 -224 410 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00683
+1 19 151.76 -224 470 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00684
+1 72 161.76 -320 440 0 0 1 0 1 0 -1 0 0 35563.dat
+0 !BRICK_INSTANCE part-00685
+1 72 151.76 -344 440 0 0 1 0 1 0 -1 0 0 59900.dat
+0 !BRICK_INSTANCE part-00686
+1 72 151.76 -350 440 0 0 1 0 1 0 -1 0 0 24482.dat
+0 !BRICK_INSTANCE part-00687
+1 19 171.76 -296 410 0 0 1 0 1 0 -1 0 0 2453b.dat
+0 !BRICK_INSTANCE part-00688
+1 19 171.76 -296 470 0 0 1 0 1 0 -1 0 0 2453b.dat
+0 !BRICK_INSTANCE part-00689
+1 83 211.76 -156 450 0 0 1 0 1 0 -1 0 0 98374.dat
+0 !BRICK_INSTANCE part-00690
+1 297 211.76 -180 450 0 1 0 0 0 -1 -1 0 0 95344.dat
+0 !BRICK_INSTANCE part-00691
+1 36 211.76 -176 450 0 0 1 0 1 0 -1 0 0 30385.dat
+0 !BRICK_INSTANCE part-00692
+1 308 211.76 -176 490 0 0 1 0 1 0 -1 0 0 3062b.dat
+0 !BRICK_INSTANCE part-00693
+1 308 251.76 -176 490 0 0 1 0 1 0 -1 0 0 3062b.dat
+0 !BRICK_INSTANCE part-00694
+1 308 251.76 -176 530 0 0 1 0 1 0 -1 0 0 3062b.dat
+0 !BRICK_INSTANCE part-00695
+1 70 251.76 -184 490 0 0 -1 0 1 0 1 0 0 30357.dat
+0 !BRICK_INSTANCE part-00696
+1 297 231.76 -224 530 1 0 0 0 1 0 0 0 1 2343.dat
+0 !BRICK_INSTANCE part-00697
+1 43 251.76 -208 510 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE part-00698
+1 34 231.76 -208 490 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE part-00699
+1 34 231.76 -212 490 1 0 0 0 1 0 0 0 1 30153.dat
+0 !BRICK_INSTANCE part-00700
+1 33 251.76 -212 510 1 0 0 0 1 0 0 0 1 30153.dat
+0 !BRICK_INSTANCE part-00701
+1 19 241.76 -296 400 0 0 1 0 1 0 -1 0 0 30562.dat
+0 !BRICK_INSTANCE part-00702
+1 19 241.76 -296 480 -1 0 0 0 1 0 0 0 -1 30562.dat
+0 !BRICK_INSTANCE part-00703
+1 0 221.76 -194 380 0 0 1 0 1 0 -1 0 0 4341.dat
+0 !BRICK_INSTANCE part-00704
+1 35 219.76 -168 367 0 0 1 0 1 0 -1 0 0 30385.dat
+0 !BRICK_INSTANCE part-00705
+1 35 221.76 -168 392 0.5 0 0.866 0 1 0 -0.866 0 0.5 30385.dat
+0 !BRICK_INSTANCE part-00706
+1 19 261.76 -272 330 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00707
+1 19 261.76 -272 550 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00708
+1 19 251.76 -296 440 0 0 -1 0 1 0 1 0 0 6112.dat
+0 !BRICK_INSTANCE part-00709
+1 19 271.76 -296 550 1 0 0 0 1 0 0 0 1 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00710
+1 19 271.76 -296 330 -1 0 0 0 1 0 0 0 -1 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00711
+1 28 221.76 -304 380 0 0 1 0 1 0 -1 0 0 6003.dat
+0 !BRICK_INSTANCE part-00712
+1 28 221.76 -304 500 -1 0 0 0 1 0 0 0 -1 6003.dat
+0 !BRICK_INSTANCE part-00713
+1 19 171.76 -328 440 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00714
+1 19 171.76 -352 440 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00715
+1 19 171.76 -376 440 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00716
+1 70 171.76 -440 440 0 0 1 0 1 0 -1 0 0 30044.dat
+0 !BRICK_INSTANCE part-00717
+1 0 167.76 -417 440 0 0 1 0 1 0 -1 0 0 30046.dat
+0 !BRICK_INSTANCE part-00718
+1 19 171.76 -400 410 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00719
+1 19 171.76 -424 410 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00720
+1 19 171.76 -400 470 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00721
+1 84 171.76 -424 470 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 !BRICK_INSTANCE part-00722
+1 19 171.76 -448 440 0 0 1 0 1 0 -1 0 0 3659.dat
+0 !BRICK_INSTANCE part-00723
+1 320 201.76 -312 440 0 0 1 0 1 0 -1 0 0 87580.dat
+0 !BRICK_INSTANCE part-00724
+1 320 241.76 -312 500 0 0 1 0 1 0 -1 0 0 87580.dat
+0 !BRICK_INSTANCE part-00725
+1 320 211.76 -312 400 0 0 1 0 1 0 -1 0 0 3069b.dat
+0 !BRICK_INSTANCE part-00726
+1 70 201.76 -344 420 0 0 -1 0 1 0 1 0 0 4738a.dat
+0 !BRICK_INSTANCE part-00727
+1 70 201.76 -360 420 0 0 -1 0 1 0 1 0 0 4739.dat
+0 !BRICK_INSTANCE part-00728
+1 36 208.76 -344 396 0 0.866 -0.5 0 0.5 0.866 1 0 0 30153.dat
+0 !BRICK_INSTANCE part-00729
+1 35 206.76 -329 430 0 0 -1 -0.966 0.259 0 0.259 0.966 0 30153.dat
+0 !BRICK_INSTANCE part-00730
+1 46 195.76 -328 430 0 0 -1 0.866 0.5 0 0.5 -0.866 0 30153.dat
+0 !BRICK_INSTANCE part-00731
+1 47 197.76 -331 450 0 -1 0 0 0 -1 1 0 0 30153.dat
+0 !BRICK_INSTANCE part-00732
+1 52 201.76 -336 400 0 0 -1 0.866 0.5 0 0.5 -0.866 0 30153.dat
+0 !BRICK_INSTANCE part-00733
+1 0 251.76 -304 390 0.707 0 -0.707 0 1 0 0.707 0 0.707 29111.dat
+0 !BRICK_INSTANCE part-00734
+1 297 241.76 -352 500 0 0 -1 0 1 0 1 0 0 64644.dat
+0 !BRICK_INSTANCE part-00735
+1 19 261.76 -424 330 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00736
+1 19 241.76 -448 400 0 0 1 0 1 0 -1 0 0 30562.dat
+0 !BRICK_INSTANCE part-00737
+1 19 241.76 -448 480 -1 0 0 0 1 0 0 0 -1 30562.dat
+0 !BRICK_INSTANCE part-00738
+1 19 261.76 -424 550 1 0 0 0 1 0 0 0 1 2454.dat
+0 !BRICK_INSTANCE part-00739
+1 19 271.76 -448 330 -1 0 0 0 1 0 0 0 -1 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00740
+1 19 251.76 -448 440 0 0 -1 0 1 0 1 0 0 6112.dat
+0 !BRICK_INSTANCE part-00741
+1 19 271.76 -448 550 1 0 0 0 1 0 0 0 1 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00742
+1 28 221.76 -456 380 0 0 1 0 1 0 -1 0 0 6003.dat
+0 !BRICK_INSTANCE part-00743
+1 28 221.76 -456 500 -1 0 0 0 1 0 0 0 -1 6003.dat
+0 !BRICK_INSTANCE part-00744
+1 72 281.76 -464 440 0 0 1 0 1 0 -1 0 0 3031.dat
+0 !BRICK_INSTANCE part-00745
+1 0 291.76 -472 440 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE part-00746
+1 70 251.76 -472 440 0 0 1 0 1 0 -1 0 0 15573.dat
+0 !BRICK_INSTANCE part-00747
+1 70 311.76 -488 440 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00748
+1 70 271.76 -488 440 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE part-00749
+1 19 311.76 -488 470 0 0 1 0 1 0 -1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00750
+1 19 311.76 -488 410 0 0 1 0 1 0 -1 0 0 54200.dat
+0 !BRICK_INSTANCE part-00751
+1 297 251.76 -496 440 0 0 1 0 1 0 -1 0 0 59900.dat
+0 !BRICK_INSTANCE part-00752
+1 297 251.76 -536 440 0 0 -1 0 1 0 1 0 0 64644.dat
+0 !BRICK_INSTANCE part-00753
+1 72 261.76 -480 380 0 0 -1 0 1 0 1 0 0 30165.dat
+0 !BRICK_INSTANCE part-00754
+1 72 261.76 -480 500 0 0 -1 0 1 0 1 0 0 30165.dat
+0 !BRICK_INSTANCE part-00755
+1 70 221.76 -464 490 1 0 0 0 1 0 0 0 1 15573.dat
+0 !BRICK_INSTANCE part-00756
+1 70 221.76 -464 390 1 0 0 0 1 0 0 0 1 15573.dat
+0 !BRICK_INSTANCE part-00757
+1 297 221.76 -472 490 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 48336.dat
+0 !BRICK_INSTANCE part-00758
+1 297 221.76 -472 390 0.707 0 0.707 0 1 0 -0.707 0 0.707 48336.dat
+0 !BRICK_INSTANCE part-00759
+1 70 221.76 -480 490 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 15573.dat
+0 !BRICK_INSTANCE part-00760
+1 70 221.76 -480 390 0.707 0 0.707 0 1 0 -0.707 0 0.707 15573.dat
+0 !BRICK_INSTANCE part-00761
+1 70 221.76 -488 490 0 0 -1 0 1 0 1 0 0 26047.dat
+0 !BRICK_INSTANCE part-00762
+1 70 221.76 -488 390 0 0 -1 0 1 0 1 0 0 26047.dat
+0 !BRICK_INSTANCE part-00763
+1 71 261.76 -488 500 0 0 1 0 1 0 -1 0 0 60470b.dat
+0 !BRICK_INSTANCE part-00764
+1 71 261.76 -488 380 0 0 1 0 1 0 -1 0 0 60470b.dat
+0 !BRICK_INSTANCE part-00765
+1 19 261.76 -496 500 0 0 1 0 1 0 -1 0 0 35480.dat
+0 !BRICK_INSTANCE part-00766
+1 19 261.76 -496 380 0 0 1 0 1 0 -1 0 0 35480.dat
+0 !BRICK_INSTANCE part-00767
+1 70 211.76 -480 440 0 0 -1 0 1 0 1 0 0 3039.dat
+0 !BRICK_INSTANCE part-00768
+1 72 261.76 -528 350 1 0 0 0 1 0 0 0 1 3684c.dat
+0 !BRICK_INSTANCE part-00769
+1 72 261.76 -528 530 -1 0 0 0 1 0 0 0 -1 3684c.dat
+0 !BRICK_INSTANCE part-00770
+1 84 261.76 -504 510 -1 0 0 0 1 0 0 0 -1 3023.dat
+0 !BRICK_INSTANCE part-00771
+1 19 251.76 -528 510 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00772
+1 19 271.76 -528 510 0 0 -1 0 1 0 1 0 0 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00773
+1 84 261.76 -504 370 -1 0 0 0 1 0 0 0 -1 3023.dat
+0 !BRICK_INSTANCE part-00774
+1 19 251.76 -528 370 0 0 -1 0 1 0 1 0 0 3005.dat
+0 !BRICK_INSTANCE part-00775
+1 19 271.76 -528 370 0 0 -1 0 1 0 1 0 0 20310-eacab9d213.dat
+0 !BRICK_INSTANCE part-00776
+1 72 211.76 -528 440 0 0 1 0 1 0 -1 0 0 3245c.dat
+0 !BRICK_INSTANCE part-00777
+1 72 191.76 -528 440 0 0 1 0 1 0 -1 0 0 3684c.dat
+0 !BRICK_INSTANCE part-00778
+1 72 261.76 -600 510 -1 0 0 0 1 0 0 0 -1 3684c.dat
+0 !BRICK_INSTANCE part-00779
+1 72 261.76 -600 370 1 0 0 0 1 0 0 0 1 3684c.dat
+0 !BRICK_INSTANCE part-00780
+1 72 211.76 -600 440 0 0 1 0 1 0 -1 0 0 3684c.dat
+0 !BRICK_INSTANCE part-00781
+1 72 281.76 -744 440 0 0 1 0 1 0 -1 0 0 48310.dat
+0 !BRICK_INSTANCE part-00782
+1 19 271.76 -768 440 0 0 -1 0 1 0 1 0 0 3660.dat
+0 !BRICK_INSTANCE part-00783
+1 72 291.76 -816 440 0 0 -1 0 1 0 1 0 0 3245c.dat
+0 !BRICK_INSTANCE part-00784
+1 72 281.76 -816 440 0 0 1 0 1 0 -1 0 0 38317.dat
+0 !BRICK_INSTANCE part-00785
+1 72 281.76 -864 440 0 0 1 0 1 0 -1 0 0 3942c.dat
+0 !BRICK_INSTANCE part-00786
+1 72 281.76 -888 440 0 0 1 0 1 0 -1 0 0 59900.dat
+0 !BRICK_INSTANCE part-00787
+1 378 281.76 -878 440 0 0 -1 0 -1 0 -1 0 0 90540.dat
+0 !BRICK_INSTANCE part-00788
+1 72 191.496 -581.19 477.844 0.707 0.689 -0.159 0 0.225 0.974 0.707 -0.689 0.159 47398.dat
+0 !BRICK_INSTANCE part-00789
+1 72 233.916 -581.19 520.264 0.707 0.689 -0.159 0 0.225 0.974 0.707 -0.689 0.159 47397.dat
+0 !BRICK_INSTANCE part-00790
+1 72 200.834 -544.03 510.926 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 3034.dat
+0 !BRICK_INSTANCE part-00791
+1 72 173.264 -505.07 496.076 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 3710.dat
+0 !BRICK_INSTANCE part-00792
+1 72 215.684 -505.07 538.496 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 3710.dat
+0 !BRICK_INSTANCE part-00793
+1 72 216.734 -641.43 495.026 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 87580.dat
+0 !BRICK_INSTANCE part-00794
+1 72 208.678 -520.95 503.082 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 3020.dat
+0 !BRICK_INSTANCE part-00795
+1 71 203.94 -499.67 493.68 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 63868.dat
+0 !BRICK_INSTANCE part-00796
+1 71 218.08 -499.67 507.82 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 63868.dat
+0 !BRICK_INSTANCE part-00797
+1 71 215.78 -528.89 495.98 0.707 0.689 -0.159 0 0.225 0.974 0.707 -0.689 0.159 32803.dat
+0 !BRICK_INSTANCE part-00798
+1 72 198.502 -565.31 513.258 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 87580.dat
+0 !BRICK_INSTANCE part-00799
+1 72 185.782 -487.39 525.978 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 87580.dat
+0 !BRICK_INSTANCE part-00800
+1 72 166.936 -474.05 488.264 0.159 0.689 0.707 -0.974 0.225 0 -0.159 -0.689 0.707 29120.dat
+0 !BRICK_INSTANCE part-00801
+1 72 223.496 -474.05 544.824 -0.159 0.689 -0.707 0.974 0.225 0 0.159 -0.689 -0.707 29119.dat
+0 !BRICK_INSTANCE part-00802
+1 19 185.782 -487.39 525.978 -0.707 0.689 0.159 0 0.225 -0.974 -0.707 -0.689 -0.159 54200.dat
+0 !BRICK_INSTANCE part-00803
+1 19 198.502 -565.31 513.258 -0.707 0.689 0.159 0 0.225 -0.974 -0.707 -0.689 -0.159 54200.dat
+0 !BRICK_INSTANCE part-00804
+1 19 216.734 -641.43 495.026 -0.707 0.689 0.159 0 0.225 -0.974 -0.707 -0.689 -0.159 54200.dat
+0 !BRICK_INSTANCE part-00805
+1 72 233.916 -581.19 359.736 -0.707 0.689 -0.159 0 0.225 0.974 0.707 0.689 -0.159 47398.dat
+0 !BRICK_INSTANCE part-00806
+1 72 191.496 -581.19 402.156 -0.707 0.689 -0.159 0 0.225 0.974 0.707 0.689 -0.159 47397.dat
+0 !BRICK_INSTANCE part-00807
+1 72 200.834 -544.03 369.074 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 3034.dat
+0 !BRICK_INSTANCE part-00808
+1 72 215.684 -505.07 341.504 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 3710.dat
+0 !BRICK_INSTANCE part-00809
+1 72 173.264 -505.07 383.924 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 3710.dat
+0 !BRICK_INSTANCE part-00810
+1 72 216.734 -641.43 384.974 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 87580.dat
+0 !BRICK_INSTANCE part-00811
+1 72 208.678 -520.95 376.918 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 3020.dat
+0 !BRICK_INSTANCE part-00812
+1 71 218.08 -499.67 372.18 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 63868.dat
+0 !BRICK_INSTANCE part-00813
+1 71 203.94 -499.67 386.32 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 63868.dat
+0 !BRICK_INSTANCE part-00814
+1 71 215.78 -528.89 384.02 -0.707 0.689 -0.159 0 0.225 0.974 0.707 0.689 -0.159 32803.dat
+0 !BRICK_INSTANCE part-00815
+1 72 198.502 -565.31 366.742 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 87580.dat
+0 !BRICK_INSTANCE part-00816
+1 72 185.782 -487.39 354.022 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 87580.dat
+0 !BRICK_INSTANCE part-00817
+1 72 223.496 -474.05 335.176 0.159 0.689 -0.707 -0.974 0.225 0 0.159 0.689 0.707 29120.dat
+0 !BRICK_INSTANCE part-00818
+1 72 166.936 -474.05 391.736 -0.159 0.689 0.707 0.974 0.225 0 -0.159 0.689 -0.707 29119.dat
+0 !BRICK_INSTANCE part-00819
+1 19 185.782 -487.39 354.022 0.707 0.689 0.159 0 0.225 -0.974 -0.707 0.689 0.159 54200.dat
+0 !BRICK_INSTANCE part-00820
+1 19 198.502 -565.31 366.742 0.707 0.689 0.159 0 0.225 -0.974 -0.707 0.689 0.159 54200.dat
+0 !BRICK_INSTANCE part-00821
+1 19 216.734 -641.43 384.974 0.707 0.689 0.159 0 0.225 -0.974 -0.707 0.689 0.159 54200.dat
+0 NOFILE
