@@ -131,7 +131,7 @@
       "category": "instruction_reconstruction",
       "problem": "완성 도해만 보고 축 구멍 브릭 두 개를 열린 블록의 반대쪽에 놓았다.",
       "method": "확대 조립 순서와 삽입 화살표를 함께 보고 같은 쪽에 차례로 끼우는 배치로 수정했다. 반복 부품은 최종 실루엣만으로 좌우를 추정하지 않는다.",
-      "evidence": "1권 21쪽 13단계 확대 그림; models/tyrannosaurus-v0-reconstruction.ldr",
+      "evidence": "1권 21쪽 13단계 확대 그림; models/tyrannosaurus-v0.mpd",
       "verification_level": "diagram_observation_and_partial_render_review",
       "limitations": "축 노출 길이·구멍 중심·스터드 정합 및 전역 배치는 미검증."
     },
