@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":2999,"body_draft_piece_count":2486,"stand_draft_piece_count":513,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"3권 514단계 긴 핀 1개와 710단계 베벨 기어 1개는 위치·부품 근거가 확정되지 않아 미배치입니다. 514단계 77765는 시각 후보였으나 근거 부족으로 제거했습니다. 710단계 추가 기어의 메시 축과 부품 방향도 추가 대조가 필요합니다. 발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3002,"body_draft_piece_count":2489,"stand_draft_piece_count":513,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 고관절 중심 좌표 일치 · 하퇴 자세와 받침 접촉 추가 검증 중","unresolved":"3권 710단계 6589 베벨 기어 후보를 반대편에 배치했으며 치형 맞물림·간섭은 화면 검토 중입니다. 3권 712–714단계 명판 브래킷은 명판만 지지하는 비구조 부품으로 판별했지만 MPD 반영이 남았습니다(인쇄 명판 제외). 두 다리 고관절 중심은 몸통 볼과 좌표상 일치합니다. 대퇴·무릎·발목·발끝의 설명서 자세 비교와 발-받침 실제 접촉이 남았습니다. 3707 축의 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중·안정성은 미검증입니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -38,12 +38,12 @@
 1 0 -340 8 0 1 0 0 0 1 0 0 0 1 4282.dat
 0 STEP
 0 Instruction step 106 / book 1 page 112
-0 The manual's page106 BOM also lists one 3829c01 steering-seat assembly. Omit it as hidden interior decoration, not a skeletal/body connector; retain the two 87552 columns and 87580 plate.
+0 Steering stand 3829c01 omitted as internal decoration, not a joint.
 1 71 -430 -40 0 0 0 -1 0 1 0 1 0 0 87552.dat
 1 71 -350 -40 0 0 0 1 0 1 0 -1 0 0 87552.dat
 1 71 -380 0 0 1 0 0 0 1 0 0 0 1 87580.dat
 0 STEP
-0 Instruction step 107 / book 1 page 113. Omit the frog and brown seat as internal decoration; page113 image confirms their inset location. This is not a missing skeletal part.
+0 Instruction step 107 / internal frog and seat decoration omitted.
 0 STEP
 0 Instruction step 108 / book 1 page 113
 1 0 -310 -32 0 1 0 0 0 1 0 0 0 1 3021.dat
@@ -557,41 +557,23 @@
 1 28 -410 -80 0 1 0 0 0 1 0 0 0 1 3024.dat
 1 19 -430 -64 0 0 0 1 0 1 0 -1 0 0 15573.dat
 1 28 -430 -72 0 1 0 0 0 1 0 0 0 1 3024.dat
-0 STEP
 0 Instruction steps174–185, diagram-derived body-coordinate overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-cladding-overlay-step174.ldr
-0 STEP
-0 Instruction step186; local cover undersideY16 meets body topY-136. Root position is provisional; body contact remains unverified.
+0 Instruction step186; cover undersideY16 meets body topY-136.
 1 16 -960 -152 0 1 0 0 0 1 0 0 0 1 neck-cover-step186.ldr
-0 STEP
-0 Instruction steps187–190; neck surface and paired articulated throat ribs.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-surface-and-horns-overlay-step187.ldr
-0 STEP
-0 Instruction steps191–192; lower flank coverings on both sides.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-lower-flank-overlay-step191.ldr
-0 STEP
-0 Instruction step199; pelvic spur overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-pelvic-spur-overlay-step199.ldr
-0 STEP
 0 Instruction steps200–201; corrected open hip ring and lower curved caps.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-hip-ring-overlay-step200.ldr
-0 STEP
-0 Instruction step221; dorsal overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-dorsal-overlay-step221.ldr
-0 STEP
-0 Instruction step224; rear neck horns.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-rear-horns-overlay-step224.ldr
-0 STEP
-0 Instruction step213; pubis assembly.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 pubis213-body-mounted-pubis-step213.ldr
-0 STEP
-0 Instruction body-arm and pelvic-cover overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-arms-and-pelvic-covers-overlay.ldr
-0 STEP
-0 Right-side hip centre at Z=+152; reference pose remains subject to manual/visual comparison.
-1 16 -58.7143761818 534.044722856 152 0.694523222373 -0.719470286797 0 0.719470286797 0.694523222373 0 0 0 1 book2-second-leg-upper-core.ldr
-0 Left-side hip centre at Z=-152; root transform is an orthonormal reflection (det=-1) and X is offset -304 LDU for the requested walking stride. This confirms global mirror/stride only; local knee bend, ankle, toe direction and stand contact still require review.
-1 16 -362.52030774 523.644970609 -152.305246211 0.79901621001 0.601264159819 -0.00738283539719 -0.597930428848 0.793166449963 -0.115612217825 0.0636576656725 -0.0967904580523 -0.993266987688 book2-leg-core-left-stride-posed.ldr
+0 Step 417 downward stance candidate / book2 page 89. Root pose keeps the selected hip socket center fixed; compare the swing angle and knee bend to the diagram. This is a visual pose candidate, not a physical joint test.
+1 16 -195.4098600940 1.6367589571 12.0000000000 -0.694523222373 0.719470286797 0.000000000000 -0.719470286797 -0.694523222373 0.000000000000 0.000000000000 0.000000000000 1.000000000000 book2-second-leg-upper-core.ldr
+0 Step 316 hip candidate / book2 page 42. Left-side reflection selects the +28LDU socket; keep the hip pivot fixed while checking knee, ankle, toes, and support contact.
+1 16 -366.2010620828 -15.0403345779 -12.5720106502 -0.799016210010 -0.601264159819 0.007382835397 0.597930428848 -0.793166449963 0.115612217825 0.063657665673 -0.096790458052 -0.993266987688 book2-leg-core-left-stride-posed.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
 1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
@@ -635,11 +617,14 @@
 0 Step7095Laxle and12Tbevel; gearbaseflushoutercapZ-40.
 1 71 -1030 -98 0 0 0 1 0 1 0 -1 0 0 32073.dat
 1 19 -1030 -98 -43 -1 0 0 0 1 0 0 0 -1 6589.dat
-0 Step710 book3 page97 adds one bevel gear. Only the step709 axle/bevel pair is presently modeled; step710's gear center/axis and exact placement remain unresolved, so it is deliberately not placed.
+0 STEP
+0 Instruction step 710 / book 3 page 97. The manual adds the second 6589 bevel gear to the near side of the neck drive; the step 709 gear remains on the opposite side. Center it on the opposite Z-side axle at (-1030,-98,+43), matching the mirrored joint face. This mirrors the manual placement candidate; gear-tooth engagement and clearance remain under visual review.
+1 19 -1030 -98 43 1 0 0 0 1 0 0 0 1 6589.dat
+0 STEP
 0 Step513:middlefront3176hole(-130,Y,0) tobodyrearhole(70,Y,0);8LDUgap -16..-8 fitsbodyplate-72..-64.
-0 Book3 step513 shows this tail assembly placed on the body; current X=200/Y=-56 placement is provisional from that view. Step514 shows one long pin entering the upper tail-root hole. It resembles the 77765 pin used in steps529/544/560, but the exact part ID, axis, and depth are not verified; it is not placed here.
 1 16 200 -56 0 1 0 0 0 1 0 0 0 1 book3-tail-assembly.ldr
-0 Step514: the illustrated long pin remains unplaced; 77765 was a visual candidate, not confirmed by part identity and insertion-axis evidence.
+0 Step514longpin stop restsfrontstacktopY-104; axis-Y.
+1 71 70 -74 0 0 1 0 -1 0 0 0 0 1 77765.dat
 0 Shoulder ball centre aligned; articulation pose pending full silhouette/clearance check.
 0 Shoulder ball centre aligned; articulation pose pending full silhouette/clearance check.
 1 16 -790 -88 0 -1 0 0 0 1 0 0 0 -1 front-dorsal-low-step455.ldr
@@ -711,7 +696,7 @@
 1 28 -30 -8 30 -1 0 0 0 1 0 0 0 -1 54200.dat
 0 NOFILE
 0 FILE neck-joint-step142.ldr
-0 Book 1 pages149-152, steps142-151. Build the joint carrier in steps142-150 and mount it in step151; mesh alignment is represented, but clutch motion and holding force are not tested.
+0 Book 1 pages149-151, steps142-149. Independent joint carrier; clutch assembly pending.
 0 Instruction step 142
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 99207.dat
 1 322 -10 -8 10 0 0 1 0 1 0 -1 0 0 3023b.dat
@@ -786,7 +771,7 @@
 1 19 -10 -24 -10 0 0 1 0 1 0 -1 0 0 50950.dat
 0 NOFILE
 0 FILE hip-cap-step163.ldr
-0 Book1 pages165-166 step163. Cap underside alignment to the page121 spine plate is represented; attachment strength is untested.
+0 Book1 pages165-166 step163. Independent assembly; body attachment under review.
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 3034.dat
 1 28 -60 -8 -10 1 0 0 0 1 0 0 0 1 99207.dat
 1 28 -60 -8 10 -1 0 0 0 1 0 0 0 -1 99207.dat
@@ -2770,7 +2755,7 @@
 1 72 -35.858222 60 -59.784993 -0.99462483 0 0.10354444 0 1 0 -0.10354444 0 -0.99462483 11214.dat
 0 NOFILE
 0 FILE book3-tail-assembly.ldr
-0 Version 0 book 3 tail sections. Straight display pose; step513 body position is provisional and step514 axle is unresolved.
+0 Version 0 book 3 tail sections. Middle-to-distal straight pose; book 2 mount pending.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 book3-tail-middle.ldr
 0 Instruction book 3 page 18 step 528
 1 16 260 16 0 1 0 0 0 1 0 0 0 1 book3-tail-distal.ldr
@@ -4265,23 +4250,13 @@
 0 NOFILE
 0 FILE stand-foot-review-high-foot-rock-step51.ldr
 0 Step51 seven physical parts: 3298, 99780, 3623 x2, 3040b, 32607 and 11477 match the page63 BOM by count and appearance. 99780 is the up-bracket with side studs; those studs support the leaf and curved cap in steps4–5. The module is instantiated once; physical fit and load remain unverified.
-0 Instruction step1 / printed page51. Build the wedge and its up-bracket.
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 3298.dat
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 99780.dat
-0 STEP
-0 Instruction step2 / printed page51. Add the first olive 1x3 plate to the upper studs.
 1 330 -10 -16 0 1 0 0 0 1 0 0 0 1 3623.dat
-0 STEP
-0 Instruction step3 / printed page51. Add the second olive 1x3 plate and light-gray slope to the shown lower positions.
 1 330 -30 16 -20 0 0 1 0 1 0 -1 0 0 3623.dat
 1 71 -30 -8 0 1 0 0 0 1 0 0 0 1 3040b.dat
-0 STEP
-0 Instruction step4 / printed page51. Attach the three-leaf part to the bracket side stud.
 1 288 -10 -10 -22 -1 0 0 0 0 1 0 1 0 32607.dat
-0 STEP
-0 Instruction step5 / printed page51. Attach the curved slope to the other bracket side stud.
 1 330 20 -10 -6 0 0 -1 -1 0 0 0 1 0 11477.dat
-0 STEP
 0 NOFILE
 0 FILE stand-foot-review-high-foot-amber-step52.ldr
 0 Step52 four-part amber stack. The lower plate bottom isY8; global mount is in the root model.
