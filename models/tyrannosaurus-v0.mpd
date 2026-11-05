@@ -557,19 +557,37 @@
 1 28 -410 -80 0 1 0 0 0 1 0 0 0 1 3024.dat
 1 19 -430 -64 0 0 0 1 0 1 0 -1 0 0 15573.dat
 1 28 -430 -72 0 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
 0 Instruction steps174–185, diagram-derived body-coordinate overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-cladding-overlay-step174.ldr
-0 Instruction step186; cover undersideY16 meets body topY-136.
+0 STEP
+0 Instruction step186; local cover undersideY16 meets body topY-136. Root position is provisional; body contact remains unverified.
 1 16 -960 -152 0 1 0 0 0 1 0 0 0 1 neck-cover-step186.ldr
+0 STEP
+0 Instruction steps187–190; neck surface and paired articulated throat ribs.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-surface-and-horns-overlay-step187.ldr
+0 STEP
+0 Instruction steps191–192; lower flank coverings on both sides.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-lower-flank-overlay-step191.ldr
+0 STEP
+0 Instruction step199; pelvic spur overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-pelvic-spur-overlay-step199.ldr
+0 STEP
 0 Instruction steps200–201; corrected open hip ring and lower curved caps.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-hip-ring-overlay-step200.ldr
+0 STEP
+0 Instruction step221; dorsal overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-dorsal-overlay-step221.ldr
+0 STEP
+0 Instruction step224; rear neck horns.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 neck-rear-horns-overlay-step224.ldr
+0 STEP
+0 Instruction step213; pubis assembly.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 pubis213-body-mounted-pubis-step213.ldr
+0 STEP
+0 Instruction body-arm and pelvic-cover overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-arms-and-pelvic-covers-overlay.ldr
+0 STEP
 0 Right-side hip centre at Z=+152; reference pose remains subject to manual/visual comparison.
 1 16 -58.7143761818 534.044722856 152 0.694523222373 -0.719470286797 0 0.719470286797 0.694523222373 0 0 0 1 book2-second-leg-upper-core.ldr
 0 Left-side hip centre at Z=-152; root transform is an orthonormal reflection (det=-1) and X is offset -304 LDU for the requested walking stride. This confirms global mirror/stride only; local knee bend, ankle, toe direction and stand contact still require review.
