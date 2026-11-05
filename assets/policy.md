@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 312종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 290종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -27,7 +27,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
 
 ## 출처와 라이선스
 
-기본 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 출처별 저자와 조건을 보존한다. 추가로 2026-11-05에 `ldraw-org/official-library` 공식 GitHub 저장소의 고정 커밋 `894bbba5e696b1554800d8e45134c57163dba905`에서 64179 프레임과 의존 형상을 확보했으며, 각 원본/정규화 SHA-256과 경로를 아래 매니페스트에 기록했다. 목록에 `original_project_geometry`로 표시한 누락 부품은 프로젝트에서 만든 시각 참고 형상이며 제조사 CAD와 동일하거나 실물 결합이 검증된 것으로 표시하지 않는다.
+기본 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 출처별 저자와 조건을 보존한다. 목록에 `original_project_geometry`로 표시한 누락 부품은 프로젝트에서 만든 시각 참고 형상이며 제조사 CAD와 동일하거나 실물 결합이 검증된 것으로 표시하지 않는다.
 
 현재 형상에는 **CC BY 4.0** 또는 **CC BY 2.0과 CC BY 4.0** 병기 자료가 포함된다. 파일별 고지는 아래 목록에 보존한다. [이용 조건 요약](https://creativecommons.org/licenses/by/4.0/)과 [라이선스 전문](https://creativecommons.org/licenses/by/4.0/legalcode)을 기준으로, 공유할 때 저자·출처와 라이선스 링크를 제공하고 변경했다면 그 사실을 표시한다. 저자가 이 프로젝트를 보증하는 것처럼 표현하지 않는다. 색상 설정 등 다른 자료의 조건을 이 확인 결과로 일괄 단정하지 않고 원본 고지를 따른다.
 
@@ -151,6 +151,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3033",
     "3034",
     "3035",
+    "30355",
+    "30356",
     "30357",
     "3036",
     "30363",
@@ -303,13 +305,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "65426",
     "65429",
     "65509",
+    "6577",
     "6589",
     "6632",
     "6636",
     "66956",
+    "67142",
     "67329",
     "67695",
     "67696",
+    "68196",
     "68297",
     "68568",
     "69729",
@@ -723,6 +728,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Magnus Forsberg [MagFors]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/19121.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/19121.dat",
+      "source_sha256": "62860464fc99573e72dfb482f836fef56421ad2e3325c299f4f182605fd5b2cc",
+      "sha256": "fe05498881d86b1be3c99a72865a1c1453f5a445781982dd85df87a74e55ba81",
+      "bytes": 51244,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Heiko Jelnikar [KlotzKiste]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/22385.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/22385.dat",
@@ -889,6 +904,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_sha256": "5bdb50ad11b750ca1621a7c1717f1dee4af58ae8816af3c77f4af75f7e72f408",
       "sha256": "7e1020bcb9a077b0e6ba643f8acd196b1d4ef728d9616fcdaf0f602a9a4ed2cc",
       "bytes": 2533,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/2453a.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/2453a.dat",
+      "source_sha256": "457ff62a325babfceea10b02c7933d09ca422a0479fa51e9b1623b56f543a0c3",
+      "sha256": "866961860f0def02ca41053c5575e4bbe4450c552c150d33efcccc99d8ea1610",
+      "bytes": 1605,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -1307,6 +1332,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/30355.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/30355.dat",
+      "source_sha256": "362db433aede9c8c0089da37f1890c9b7b9dad35ba4ee43deddaee4656342c2c",
+      "sha256": "786a1b645bcc0c0956defcbe647cc9462a3cbf839b8d7ed6c9749ea27e221cfa",
+      "bytes": 1017,
+      "modification": "Official part references converted to shared assets/parts/subparts paths; geometry coordinates unchanged.",
+      "author": "John Van Zwieten [jvan]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/30356.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/30356.dat",
+      "source_sha256": "df9929620c63ab49cb3ac4eb77b541cc14d7a5a1821801801f221d1691b2eab3",
+      "sha256": "c1fd4875afe55e3212743e4b374535dabc4a8dc9685c51ebbf5a4b1c1a9470c7",
+      "bytes": 937,
+      "modification": "Official part reference converted to shared assets/parts/subparts layout; geometry coordinates unchanged.",
+      "author": "John Van Zwieten [jvan]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
     },
     "parts/30357.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
@@ -2378,6 +2423,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Donald Sutter [technog]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/43888.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/43888.dat",
+      "source_sha256": "f4687f2989f6ceeadfc45add9061d37440646cf0bd353aa8fecd481e7a505c6b",
+      "sha256": "f38ac30af46dce870eaab62d710a9f8a18a46c314bd1877155647d02bfea0fc1",
+      "bytes": 1517,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Stig-Erik Blomqvist [stigge72]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/44224.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/44224.dat",
@@ -2448,6 +2503,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/4733.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/4733.dat",
+      "source_sha256": "1a78f23c832965da11a06c18090e0f8ac101f89c4a6d85d039d5548916ec68d6",
+      "sha256": "a4f331b68c01eea27d536678ed91a419930f2d919340de2e691388a18bd7959b",
+      "bytes": 4320,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/47457.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/47457.dat",
@@ -2486,6 +2551,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 656,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/49307.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/49307.dat",
+      "source_sha256": "5ab186e08cf7dfd9ff7ce2e1afcd69d08479fd44972340d53d78f67ffdceb135",
+      "sha256": "e74806b6aad033c09cf9bed3d89d1c89fbc4447fbd168c6b0d7cbc95f2e85325",
+      "bytes": 1133,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Philippe Hurbain [Philo]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "parts/49656.dat": {
@@ -2821,6 +2896,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "El'dar Ismagilov [Eldar]",
       "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/64179.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/64179.dat",
+      "archive_member": "ldraw/parts/64179.dat",
+      "source_sha256": "7e8e131d8c7ca9387ba9f3b79d1fbd2f089c6d28b3f3b415bcbd1224e1629834",
+      "sha256": "dbb5e3e6c4e5a2bbf0c3d95516a24857bed045687dd555762a8738ce1d802e2b",
+      "bytes": 4241,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
     "parts/64225.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/64225.dat",
@@ -2881,6 +2967,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Philippe Hurbain [Philo]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/6577.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/6577.dat",
+      "source_sha256": "fd7e3b88c162c47b856e774c46c8fb4d1d440ce821b5be79431ca41d3943af45",
+      "sha256": "70e5734b34130e756932b3fdc5bbedf154ce3f080a044420ca7db03c8815a992",
+      "bytes": 2694,
+      "modification": "Dependency paths renamed to shared asset folders; geometry unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/6589.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/6589.dat",
@@ -2921,6 +3017,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Massimo Maso [Sirio]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/67142.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/67142.dat",
+      "source_sha256": "8abf444068922ae3592a4a1c08d8bb6798315487901580af146faa649862fb62",
+      "sha256": "70f9a05f7b8cd42a21d81f298e53b4747a15b9abbb5fcf8393453c240bb69313",
+      "bytes": 32058,
+      "modification": "Official part references converted to shared assets/parts/subparts paths; geometry coordinates unchanged.",
+      "author": "Gerald Lasser [GeraldLasser]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/67329.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/67329.dat",
@@ -2949,6 +3055,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 1125,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/68196.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/68196.dat",
+      "source_sha256": "46aab59bd3a67c868ac87fb6c0fe7aebf8f1fb4eac8829d8af88a6987ea56233",
+      "sha256": "46aab59bd3a67c868ac87fb6c0fe7aebf8f1fb4eac8829d8af88a6987ea56233",
+      "bytes": 323,
+      "modification": "Official geometry copied without modification.",
+      "author": "Gerald Lasser [GeraldLasser]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "parts/68297.dat": {
@@ -3877,6 +3993,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Tore Eriksson [Tore_Eriksson]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/subparts/30355s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/30355s01.dat",
+      "source_sha256": "a0e80395622b9a46b7266aa374cb65623bba3b8d5d1c1cc7c30870d43813e519",
+      "sha256": "4d607efca33a830d9f0b7f2bd87009573a6b1a1cd72a55338adf77f660e9ecd2",
+      "bytes": 8989,
+      "modification": "Official part references converted to shared assets/parts/subparts paths; geometry coordinates unchanged.",
+      "author": "Guy Vivan [guyvivan]",
+      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
     "parts/subparts/30363s01.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/s/30363s01.dat",
@@ -4328,6 +4454,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Ulrich Röder [UR]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "parts/subparts/64179s01.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/s/64179s01.dat",
+      "archive_member": "ldraw/parts/s/64179s01.dat",
+      "source_sha256": "bb17d1bb2edc234ab451f3045c3f4ab9f2aea371d886b9eaa9374cd5f3e8b666",
+      "sha256": "479a34306b2dbae47c20e5f9ab6187c928c2a150f9adc0a9a7c5e13942bfd3f1",
+      "bytes": 4681,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
     "parts/subparts/65429s01.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/parts/s/65429s01.dat",
@@ -4356,6 +4493,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 9102,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Massimo Maso [Sirio]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/67142s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/67142s01.dat",
+      "source_sha256": "89cfe910ed48e5ef326915cea67539d8b8f6ff6cdc5426d2603ca21f0aabea2c",
+      "sha256": "36b9a78bc5fdcdb0eb6c056d7b554bac9cca347249180842277254e082d5fd8c",
+      "bytes": 10674,
+      "modification": "Official part references converted to shared assets/parts/subparts paths; geometry coordinates unchanged.",
+      "author": "Gerald Lasser [GeraldLasser]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "parts/subparts/67695s01.dat": {
@@ -5008,6 +5155,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Paul Easter [pneaster]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/1-8ring9.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/1-8ring9.dat",
+      "archive_member": "ldraw/p/1-8ring9.dat",
+      "source_sha256": "315a78ca5138394333b62197ed7552aa4acd69d470f054b59a5ac06cb04427f9",
+      "sha256": "315a78ca5138394333b62197ed7552aa4acd69d470f054b59a5ac06cb04427f9",
+      "bytes": 600,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
     "primitives/1-8sphc.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/1-8sphc.dat",
@@ -5056,6 +5214,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 346,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Massimo Maso [Sirio]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/11-16cyli.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/11-16cyli.dat",
+      "source_sha256": "6763716ab47ebf0a16e8b40e6f1a74a32633ea22489bfc07f0e235c0bbf691bc",
+      "sha256": "6763716ab47ebf0a16e8b40e6f1a74a32633ea22489bfc07f0e235c0bbf691bc",
+      "bytes": 1924,
+      "modification": "Official geometry copied without modification.",
+      "author": "Willy Tschager [Holly-Wood]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/11-16edge.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/11-16edge.dat",
+      "source_sha256": "1bf8fadea1634856d2ff42b4029da1a23f8bfadacdc332e745ffa783ec0ef4d4",
+      "sha256": "1bf8fadea1634856d2ff42b4029da1a23f8bfadacdc332e745ffa783ec0ef4d4",
+      "bytes": 818,
+      "modification": "Official geometry copied without modification.",
+      "author": "Willy Tschager [Holly-Wood]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "primitives/2-4chrd.dat": {
@@ -5227,6 +5405,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Willy Tschager [Holly-Wood]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/2-4ring9.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/2-4ring9.dat",
+      "archive_member": "ldraw/p/2-4ring9.dat",
+      "source_sha256": "66c4444b0d30e8b1cb0b1a3aa0e472e28750462cb55d2c43fadcd2e14b852f36",
+      "sha256": "66c4444b0d30e8b1cb0b1a3aa0e472e28750462cb55d2c43fadcd2e14b852f36",
+      "bytes": 907,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Willy Tschager [Holly-Wood]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
     },
     "primitives/2-4stud4.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
@@ -5676,6 +5865,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 2722,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Willy Tschager [Holly-Wood]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/4-4con5.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/4-4con5.dat",
+      "source_sha256": "b2d6eb9f4a94b4440d5bbe4793a9f8f1b06a9d5e3bd0df8ea04260e808ae8798",
+      "sha256": "b2d6eb9f4a94b4440d5bbe4793a9f8f1b06a9d5e3bd0df8ea04260e808ae8798",
+      "bytes": 2424,
+      "modification": "Official geometry copied without modification.",
+      "author": "Niels Karsdorp [nielsk]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "primitives/4-4con7.dat": {
@@ -6828,6 +7027,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Gerald Lasser [GeraldLasser]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/bushloc2.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/bushloc2.dat",
+      "source_sha256": "f1dd4de70690f3811fa32802611f41cfc9702fb737690af0abec78495e5678da",
+      "sha256": "c25eee43e0fdf7bb8c0b067aac4da11e484bd8b07fccd48c434c6b5f6bd438e5",
+      "bytes": 8273,
+      "modification": "Dependency paths renamed to shared asset folders; geometry unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "primitives/clh-base.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/clh-base.dat",
@@ -7067,6 +7276,17 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Philippe Hurbain [Philo]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/connhol2.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/connhol2.dat",
+      "archive_member": "ldraw/p/connhol2.dat",
+      "source_sha256": "3748d67fa7aef4d3d5f6c5d78adb2f9c6b93ed403159455f7e5f702d6ad390ec",
+      "sha256": "d6eb99cfcb85890403a5db50fa125dc8b6f7491d3aeb2b8a6f6748428bf08a8b",
+      "bytes": 930,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
     },
     "primitives/connhol3.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
@@ -7768,6 +7988,28 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Magnus Forsberg [MagFors]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/npeghol10.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol10.dat",
+      "archive_member": "ldraw/p/npeghol10.dat",
+      "source_sha256": "c0afbce636428be0d8a33c1f7cd50f9ccb68af2ae506b2bd7a7a9130d6076043",
+      "sha256": "628286f0663bff4a0c953876fa1736925eb86bd5562671a94ae020ed7f86a301",
+      "bytes": 3519,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/npeghol19.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol19.dat",
+      "archive_member": "ldraw/p/npeghol19.dat",
+      "source_sha256": "29879c27995254faf9abb29a802edf44de07c806e681ae3740ecc04635103dbd",
+      "sha256": "71f0b00c03a4d8b3c31a3c7819ec2e628e152b88632b8c2ae89e8c417bfa67ee",
+      "bytes": 3338,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Max Murtazin [SwampKryakwa]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
     "primitives/npeghol2.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/npeghol2.dat",
@@ -7827,6 +8069,28 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Max Murtazin [SwampKryakwa]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/npeghol8.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol8.dat",
+      "archive_member": "ldraw/p/npeghol8.dat",
+      "source_sha256": "4fbb5add7705e3b5b485f27c2cc35c13c17ee8b1def98b952df314b0659ba7cb",
+      "sha256": "3c19c757beb50a1c16a09037ace133b2750dbeef408c40ca9935f32acdf0bffc",
+      "bytes": 3797,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/npeghol9.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol9.dat",
+      "archive_member": "ldraw/p/npeghol9.dat",
+      "source_sha256": "218a7aace2e1d2b4d3b22f1c072a694fadb8801eb5591eb6bca4197808b466b0",
+      "sha256": "d1079429f73a5aee8ed303c1963d40c434e57d797ffc57655933007f780b5a1b",
+      "bytes": 1434,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
     },
     "primitives/npeghole.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
@@ -8318,6 +8582,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Tore Eriksson [Tore_Eriksson]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/stug-5x5.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug-5x5.dat",
+      "source_sha256": "e2f3c9299dcda5ecb768de44b94fc9bc0bb436e501bc1e6ecd8a2b7eb5f73b21",
+      "sha256": "e2f3c9299dcda5ecb768de44b94fc9bc0bb436e501bc1e6ecd8a2b7eb5f73b21",
+      "bytes": 794,
+      "modification": "Official geometry copied without modification.",
+      "author": "Michael Heidemann [mikeheide]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "primitives/stug-6x1.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stug-6x1.dat",
@@ -8364,6 +8638,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_sha256": "e3944f4657c3e4620509cca9b6923ddb2d88fc9e4ca52d102579f90f6680d6ad",
       "sha256": "0a7fd9c27ecb4e8127833e5afc591282a927d522929b011088cfca2c4dbc32a0",
       "bytes": 414,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stug2-1x4.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug2-1x4.dat",
+      "source_sha256": "fca792de8f55eea1b35ec581ba94cb1aa5ad0967dd6af5ad3d7ed6ba0d0543b4",
+      "sha256": "8e22255c2c9fba09eb9daf7a09ca4d03142d87a405ce1ac6db0aa6330ae8333c",
+      "bytes": 468,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
@@ -8468,6 +8752,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/stug3.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug3.dat",
+      "source_sha256": "ab1e3dc6c68a4f8d4e63b03e12ba0965eb68aa896f7850fa25729601968787e1",
+      "sha256": "ab1e3dc6c68a4f8d4e63b03e12ba0965eb68aa896f7850fa25729601968787e1",
+      "bytes": 307,
+      "modification": "Official geometry copied without modification.",
+      "author": "[PTadmin]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "primitives/stug4-1x2.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/stug4-1x2.dat",
@@ -8558,6 +8852,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
+    "primitives/stug4.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug4.dat",
+      "source_sha256": "977530a161304abc45fa2dbcac0e8a7df389d8ab3838a82702032a74dca9021f",
+      "sha256": "977530a161304abc45fa2dbcac0e8a7df389d8ab3838a82702032a74dca9021f",
+      "bytes": 307,
+      "modification": "Official geometry copied without modification.",
+      "author": "[PTadmin]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/stug5.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/stug5.dat",
+      "source_sha256": "597146ce96a64ba1754d0ab57d7c7fa4acf700f27c4a54b5dad9d9fca63fb6c3",
+      "sha256": "597146ce96a64ba1754d0ab57d7c7fa4acf700f27c4a54b5dad9d9fca63fb6c3",
+      "bytes": 307,
+      "modification": "Official geometry copied without modification.",
+      "author": "[PTadmin]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
     "primitives/t01i2000.dat": {
       "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
       "archive_member": "ldraw/p/t01i2000.dat",
@@ -8566,6 +8880,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 17555,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Max Martin Richter [MMR1988]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/t04i2500.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/t04i2500.dat",
+      "source_sha256": "16a0e74be0e6e149ea99ffd6aff98b3406c19fc7727d0453b1fe1572cf4e40bb",
+      "sha256": "16a0e74be0e6e149ea99ffd6aff98b3406c19fc7727d0453b1fe1572cf4e40bb",
+      "bytes": 5104,
+      "modification": "Dependency paths renamed to shared asset folders; geometry unchanged.",
+      "author": "Paul Easter [pneaster]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "primitives/t16o1429.dat": {
@@ -8607,165 +8931,6 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/2453a.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/2453a.dat",
-      "source_sha256": "457ff62a325babfceea10b02c7933d09ca422a0479fa51e9b1623b56f543a0c3",
-      "sha256": "866961860f0def02ca41053c5575e4bbe4450c552c150d33efcccc99d8ea1610",
-      "bytes": 1605,
-      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
-      "author": "James Jessiman",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/49307.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/49307.dat",
-      "source_sha256": "5ab186e08cf7dfd9ff7ce2e1afcd69d08479fd44972340d53d78f67ffdceb135",
-      "sha256": "e74806b6aad033c09cf9bed3d89d1c89fbc4447fbd168c6b0d7cbc95f2e85325",
-      "bytes": 1133,
-      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
-      "author": "Philippe Hurbain [Philo]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/4733.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/4733.dat",
-      "source_sha256": "1a78f23c832965da11a06c18090e0f8ac101f89c4a6d85d039d5548916ec68d6",
-      "sha256": "a4f331b68c01eea27d536678ed91a419930f2d919340de2e691388a18bd7959b",
-      "bytes": 4320,
-      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
-      "author": "James Jessiman",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/43888.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/43888.dat",
-      "source_sha256": "f4687f2989f6ceeadfc45add9061d37440646cf0bd353aa8fecd481e7a505c6b",
-      "sha256": "f38ac30af46dce870eaab62d710a9f8a18a46c314bd1877155647d02bfea0fc1",
-      "bytes": 1517,
-      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
-      "author": "Stig-Erik Blomqvist [stigge72]",
-      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/19121.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/parts/19121.dat",
-      "source_sha256": "62860464fc99573e72dfb482f836fef56421ad2e3325c299f4f182605fd5b2cc",
-      "sha256": "fe05498881d86b1be3c99a72865a1c1453f5a445781982dd85df87a74e55ba81",
-      "bytes": 51244,
-      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
-      "author": "Heiko Jelnikar [KlotzKiste]",
-      "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
-    },
-    "primitives/stug2-1x4.dat": {
-      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
-      "archive_member": "ldraw/p/stug2-1x4.dat",
-      "source_sha256": "fca792de8f55eea1b35ec581ba94cb1aa5ad0967dd6af5ad3d7ed6ba0d0543b4",
-      "sha256": "8e22255c2c9fba09eb9daf7a09ca4d03142d87a405ce1ac6db0aa6330ae8333c",
-      "bytes": 468,
-      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
-      "author": "Steffen [Steffen]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
-    },
-    "parts/64179.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/64179.dat",
-      "archive_member": "ldraw/parts/64179.dat",
-      "source_sha256": "7e8e131d8c7ca9387ba9f3b79d1fbd2f089c6d28b3f3b415bcbd1224e1629834",
-      "sha256": "dbb5e3e6c4e5a2bbf0c3d95516a24857bed045687dd555762a8738ce1d802e2b",
-      "bytes": 4241,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Santeri Piippo [arezey]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "parts/subparts/64179s01.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/s/64179s01.dat",
-      "archive_member": "ldraw/parts/s/64179s01.dat",
-      "source_sha256": "bb17d1bb2edc234ab451f3045c3f4ab9f2aea371d886b9eaa9374cd5f3e8b666",
-      "sha256": "479a34306b2dbae47c20e5f9ab6187c928c2a150f9adc0a9a7c5e13942bfd3f1",
-      "bytes": 4681,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Santeri Piippo [arezey]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "primitives/npeghol9.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol9.dat",
-      "archive_member": "ldraw/p/npeghol9.dat",
-      "source_sha256": "218a7aace2e1d2b4d3b22f1c072a694fadb8801eb5591eb6bca4197808b466b0",
-      "sha256": "d1079429f73a5aee8ed303c1963d40c434e57d797ffc57655933007f780b5a1b",
-      "bytes": 1434,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Philippe Hurbain [Philo]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "primitives/2-4ring9.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/2-4ring9.dat",
-      "archive_member": "ldraw/p/2-4ring9.dat",
-      "source_sha256": "66c4444b0d30e8b1cb0b1a3aa0e472e28750462cb55d2c43fadcd2e14b852f36",
-      "sha256": "66c4444b0d30e8b1cb0b1a3aa0e472e28750462cb55d2c43fadcd2e14b852f36",
-      "bytes": 907,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Willy Tschager [Holly-Wood]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "primitives/npeghol10.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol10.dat",
-      "archive_member": "ldraw/p/npeghol10.dat",
-      "source_sha256": "c0afbce636428be0d8a33c1f7cd50f9ccb68af2ae506b2bd7a7a9130d6076043",
-      "sha256": "628286f0663bff4a0c953876fa1736925eb86bd5562671a94ae020ed7f86a301",
-      "bytes": 3519,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Philippe Hurbain [Philo]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "primitives/npeghol8.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol8.dat",
-      "archive_member": "ldraw/p/npeghol8.dat",
-      "source_sha256": "4fbb5add7705e3b5b485f27c2cc35c13c17ee8b1def98b952df314b0659ba7cb",
-      "sha256": "3c19c757beb50a1c16a09037ace133b2750dbeef408c40ca9935f32acdf0bffc",
-      "bytes": 3797,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Philippe Hurbain [Philo]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "primitives/connhol2.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/connhol2.dat",
-      "archive_member": "ldraw/p/connhol2.dat",
-      "source_sha256": "3748d67fa7aef4d3d5f6c5d78adb2f9c6b93ed403159455f7e5f702d6ad390ec",
-      "sha256": "d6eb99cfcb85890403a5db50fa125dc8b6f7491d3aeb2b8a6f6748428bf08a8b",
-      "bytes": 930,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Santeri Piippo [arezey]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "primitives/npeghol19.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol19.dat",
-      "archive_member": "ldraw/p/npeghol19.dat",
-      "source_sha256": "29879c27995254faf9abb29a802edf44de07c806e681ae3740ecc04635103dbd",
-      "sha256": "71f0b00c03a4d8b3c31a3c7819ec2e628e152b88632b8c2ae89e8c417bfa67ee",
-      "bytes": 3338,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Max Murtazin [SwampKryakwa]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
-    },
-    "primitives/1-8ring9.dat": {
-      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/1-8ring9.dat",
-      "archive_member": "ldraw/p/1-8ring9.dat",
-      "source_sha256": "315a78ca5138394333b62197ed7552aa4acd69d470f054b59a5ac06cb04427f9",
-      "sha256": "315a78ca5138394333b62197ed7552aa4acd69d470f054b59a5ac06cb04427f9",
-      "bytes": 600,
-      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
-      "author": "Steffen [Steffen]",
-      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
-      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
     }
   }
 }

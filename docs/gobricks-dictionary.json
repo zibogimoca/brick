@@ -18476,10 +18476,38 @@
         "39726",
         "54578"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/27263.dat",
+        "sha256": "7d0a51f05a690d926f5fe9f305868bf19f9fd3068ce037ef0b82fba308dbc65a",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 27263; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            30.0,
+            8.0,
+            30.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          3.2,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-1044-010",
@@ -186265,10 +186293,38 @@
       "ldraw_candidates": [
         "69729"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/69729.dat",
+        "sha256": "456dbb1964bf0fd36ca2bdcf9f1ac8addadd10ddc55679a1fb9abe0beed878a2",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 69729; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -60.0,
+            0.0,
+            -20.0
+          ],
+          "max": [
+            60.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          3.2,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-2187-010",
@@ -207729,10 +207785,38 @@
       "ldraw_candidates": [
         "3021"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3021.dat",
+        "sha256": "4417aac018236736fd7d41a87241ec550737c114cdcddd0bcb4dc373398ffb3d",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 3021; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            30.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          4.8,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-510-010",
@@ -244006,10 +244090,38 @@
       "ldraw_candidates": [
         "54383"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/54383.dat",
+        "sha256": "5584040238200f82edfcf74a4749d249541a79d53c8a8f994ba9e0be9569bb94",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 54383; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -29.0,
+            -4.0,
+            -60.0
+          ],
+          "max": [
+            30.0,
+            8.0,
+            60.0
+          ]
+        },
+        "size_mm": [
+          23.6,
+          4.8,
+          48.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-550-010",
@@ -244558,10 +244670,38 @@
       "ldraw_candidates": [
         "54384"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/54384.dat",
+        "sha256": "e7444cff68d4559788f715e9cf74a0933e4e957b2c9aa47c37ca472add1d5f0b",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 54384; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -4.0,
+            -60.0
+          ],
+          "max": [
+            29.0,
+            8.0,
+            60.0
+          ]
+        },
+        "size_mm": [
+          23.6,
+          4.8,
+          48.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-551-010",
@@ -246623,10 +246763,38 @@
       "ldraw_candidates": [
         "51739"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/51739.dat",
+        "sha256": "ad8b3758945b9f8a3bdf50e8b7643acff1218ae4dae2a1b58a8f5fd7ab148fa4",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 51739; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -38.5,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            38.5,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          30.8,
+          4.8,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-555-010",
@@ -282001,10 +282169,38 @@
         "28558",
         "93791"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/2654.dat",
+        "sha256": "a399887fa22098b0fc786388e3dd36d8f1769035e2ef638f29c8a7e7841a59a8",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 2654; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.00101,
+            -4.0,
+            -20.00101
+          ],
+          "max": [
+            20.00101,
+            8.0,
+            20.00101
+          ]
+        },
+        "size_mm": [
+          16.000808,
+          4.8,
+          16.000808
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-608-010",
@@ -444782,10 +444978,38 @@
       "ldraw_candidates": [
         "18980"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/18980.dat",
+        "sha256": "3e379ce57bb3e0ef0eafb381bf58c4fa551263ff695db7c9da0b7306bbb592be",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 18980; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -60.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            60.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          4.8,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-899-010",
@@ -451422,10 +451646,38 @@
       "ldraw_candidates": [
         "35044"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/35044.dat",
+        "sha256": "f8431f84433d78acfd5d764a153aaeaf4e62397152a7b5528ac546918f6a1fc9",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 35044; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -40.0,
+            -4.0,
+            -40.0
+          ],
+          "max": [
+            40.0,
+            8.0,
+            40.0
+          ]
+        },
+        "size_mm": [
+          32.0,
+          4.8,
+          32.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of official LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_mesh_resolved_and_bounds_computed; GoBricks mold equivalence and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-90033-014",
@@ -638694,6 +638946,36 @@
       "source": "official LDraw complete.zip",
       "gobricks_status": "not_verified",
       "verification": "Official blank4x4tile shape; decorative dinosaur/fossil printing omitted with user authorization; not a geometry substitution."
+    },
+    "6577": {
+      "geometry": "assets/parts/6577.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 6577.dat: Technic Bush 1/2 Type 2 (BrickLink 4265b). Shape is a candidate for the two ring pieces shown in manual step 247; the manual mold identity and underlying shaft engagement remain unverified."
+    },
+    "30355": {
+      "geometry": "assets/parts/30355.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 30355.dat (Wing 6 x 12 Left); manual step286/printed p152 shows two large studded triangular panels with corresponding left-hand silhouette and 6x12-scale stud layout. Strong official-shape candidate only; exact manual mold identity and side assignment are not printed."
+    },
+    "30356": {
+      "geometry": "assets/parts/30356.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 30356.dat (Wing 6 x 12 Right); manual step286/printed p152 shows two large studded triangular panels with corresponding right-hand silhouette and 6x12-scale stud layout. Strong official-shape candidate only; exact manual mold identity and side assignment are not printed."
+    },
+    "67142": {
+      "geometry": "assets/parts/67142.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 67142.dat (Technic Panel 5 x 13 Curved Tapered Left); manual step287/printed p154 callout shows a left-side tapered perforated panel with four large pin openings. This is a strong shape/connector candidate; exact mold assignment is not printed and placement is tentative."
+    },
+    "68196": {
+      "geometry": "assets/parts/68196.dat",
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw 68196.dat (Technic Panel 5 x 13 Curved Tapered Right); manual step287/printed p154 callout shows a right-side tapered perforated panel with four large pin openings. This is a strong shape/connector candidate; exact mold assignment is not printed and placement is tentative."
     }
   }
 }
