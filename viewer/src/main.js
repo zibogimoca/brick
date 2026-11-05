@@ -12,6 +12,7 @@ const controls = new OrbitControls(camera, renderer.domElement); controls.enable
 scene.add(new THREE.HemisphereLight(0xffffff, 0x657080, 3));
 const light = new THREE.DirectionalLight(0xffffff, 3); light.position.set(200, 400, 300); scene.add(light);
 let model, selected, generation = 0;
+let latestEntryRequest = 0;
 let poseJoints = [], poseGroups = new Map();
 let instanceBatches = [];
 const hidden = [];
@@ -96,6 +97,7 @@ async function fetchCatalog() {
 }
 async function loadEntry(selectedEntry) {
   if (!selectedEntry) return;
+  const request = ++latestEntryRequest;
   try {
     const latest = await fetchCatalog();
     const entry = latest.find(item => item.url === selectedEntry.url); if (!entry) throw new Error('Model removed');
@@ -105,8 +107,9 @@ async function loadEntry(selectedEntry) {
     const digest = await crypto.subtle.digest('SHA-256', data);
     const revision = [...new Uint8Array(digest)].map(x => x.toString(16).padStart(2, '0')).join('').slice(0, 12);
     if (entry.version && entry.version !== revision) throw new Error('Model index and contents disagree');
+    if (request !== latestEntryRequest) return;
     await open(data, entry.url, revision);
-  } catch { status('최신 모델 파일을 가져오지 못했습니다. 잠시 후 다시 선택하세요.'); }
+  } catch { if (request === latestEntryRequest) status('최신 모델 파일을 가져오지 못했습니다. 잠시 후 다시 선택하세요.'); }
 }
 $('models').onchange = () => {
   const modelId = $('models').value; const versions = $('versions');
