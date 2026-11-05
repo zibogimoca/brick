@@ -157,6 +157,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "11477",
     "13547",
     "13548",
+    "13564",
     "13731",
     "14301",
     "14417",
@@ -8861,6 +8862,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 886,
       "modification": "Official geometry retained; internal part/primitive references converted to shared asset paths; coordinates and surfaces unchanged.",
       "author": "Sylvain Sauvage [SLS]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "assets/parts/13564.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/13564.dat",
+      "source_sha256": "290146789259ca9044e55921d8f53620769b47416581474988164e67037aa6ba",
+      "sha256": "b2098a8691b29ff95e6c6dc79bf0e0fbfac37818ed8ae78b763355d116bcd435",
+      "bytes": 35209,
+      "modification": "Official geometry retained; primitive references converted to shared asset paths; coordinates and surfaces unchanged.",
+      "author": "Philippe Hurbain [Philo]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
