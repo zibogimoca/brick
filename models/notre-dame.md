@@ -1,0 +1,11 @@
+# Notre-Dame de Paris v0
+
+## Reconstruction notes
+
+- Source: the six uploaded LEGO 6634573 instruction-booklet PDFs. GoBricks correspondence and sales status are not verified; no product IDs or SKUs are inferred.
+- `models/notre-dame-v0.mpd` is the only model source. Current placements through step 20 are drafts, not a completed physical-fit reconstruction.
+- Step 20 (booklet printed page 23): the callout contains white counts 5/5/8 and black counts 5/5/10. The two 5-count silhouettes are represented by five complementary LDraw 42862/48165 pairs per color. The broad 4x2 double-wedge silhouettes are represented as eight white 43710 and ten black 43711 parts. The 3x3 pair cells extend the mosaic edge; individual endpoint alignment remains provisional.
+- Backward constraint from step 44 (printed page 37): the choir wall has 13 repeated three-stud cap modules along an approximately semicircular outer arc. Thirteen 60-LDU pitches over a half-circle imply a radius near 248 LDU, consistent with a 250-LDU outer step-20 run. The 8-part inner run at radius 200 LDU has an approximately 78.0-LDU chord pitch; the 10-part outer run at radius 250 LDU has an approximately 78.2-LDU chord pitch, both close to the 80-LDU four-stud wedge module.
+- This later view moved the step-20 semicircle center from the provisional mosaic center `(-200, 420)` to `(0, 420)`, putting the choir arc beside the 4x6 floor mosaic. Step 14's 2x6 tile field remains provisionally placed in the adjoining floor area. Its precise contact with the choir footprint, and the physical clutch/contact of both arcs, are still unverified.
+- Step 44's repeated cap parts were used as a geometric constraint only. Their exact LDraw identities, vertical levels, wall subassembly, and connection points have not yet been reconstructed.
+- Independent checks performed for step 20: instance/reference count and ID uniqueness, LDraw reference presence, matrix orthogonality and handedness, per-step part quantities, and radii/chord pitches. `tools/validate_model.py` still stops at required missing `gobricks_id`; this is a product-metadata validation failure and is not represented as a geometry pass. No physical-fit or full-manual-coverage claim is made.
