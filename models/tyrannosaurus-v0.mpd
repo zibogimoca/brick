@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3015,"body_draft_piece_count":2497,"stand_draft_piece_count":518,"layout":"integrated_instruction_model","layout_note":"본체·받침대 검토본 · 오른쪽 다리 기준 보존, 왼쪽 284개 실제 좌우 대응 금형 및 고관절 앞뒤 12° 자세","unresolved":"설명서 1권 1–98단계의 받침대와 3권 99–100쪽의 711–714단계 부품은 배치했으나, 12/72 브래킷의 4 LDU 접점 차이, 기둥·본체 축 정렬, 명판 받침 접촉은 미검증이다. 710단계의 두 번째 tan 6589는 709단계 5L 축 반대쪽에 추가했으며, 기어 맞물림과 축 유지력은 미검증이다. 양쪽 다리는 각 284개이고 실제 좌우 대응 금형을 사용한다. 몸통 17114 볼과 다리 67696 소켓 중심은 각각 (-280,-14,+40), (-280,-14,-40)에서 일치한다. 오른쪽 루트는 유지했고 왼쪽에 앞뒤 12° 자세만 적용했다. 279단계 79846은 고정 스터드 결합이므로 무릎 회전을 넣지 않았다. 발바닥은 받침 경계와 약 0.71 LDU 차이의 근접 배치지만 실제 축 체결·접촉·하중 경로와 유지력은 미검증이다.","support_note":"마감 부품 일부의 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr","geometry_component_reference_count":3023,"integration_count_note":"지오드49656 여덟 개는 각각물리부품1개다. 색상 하위 형상 참조를 펼친3023개와 물리부품3015개를 구분한다."}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3017,"body_draft_piece_count":2497,"stand_draft_piece_count":520,"layout":"integrated_instruction_model","layout_note":"본체·받침대 검토본 · 오른쪽 다리 기준 보존, 왼쪽 284개 실제 좌우 대응 금형 및 고관절 앞뒤 12° 자세","unresolved":"설명서 1권 1–98단계의 받침대와 3권 99–100쪽의 711–714단계 부품은 배치했으나, 12/72 브래킷의 4 LDU 접점 차이, 기둥·본체 축 정렬, 명판 받침 접촉은 미검증이다. 710단계의 두 번째 tan 6589는 709단계 5L 축 반대쪽에 추가했으며, 기어 맞물림과 축 유지력은 미검증이다. 양쪽 다리는 각 284개이고 실제 좌우 대응 금형을 사용한다. 몸통 17114 볼과 다리 67696 소켓 중심은 각각 (-280,-14,+40), (-280,-14,-40)에서 일치한다. 오른쪽 루트는 유지했고 왼쪽에 앞뒤 12° 자세만 적용했다. 279단계 79846은 고정 스터드 결합이므로 무릎 회전을 넣지 않았다. 318·419단계의 55013 8L 축을 각 발판의 두 3700 관통구멍 중심선에 복원했다; 축-구멍 기하가 일치하지만 삽입 여유·빠짐 방지·발판 접촉·하중 경로는 화면과 실물에서 추가 확인해야 한다. 317·418단계의 3004/85943 배치와 받침 기둥 정렬은 계속 대조 중이다.","support_note":"마감 부품 일부의 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr","geometry_component_reference_count":3025,"integration_count_note":"지오드49656 여덟 개는 각각물리부품1개다. 색상 하위 형상 참조를 펼친3025개와 물리부품3017개를 구분한다."}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -4082,7 +4082,7 @@
 1 19 0 0 0 0 0 1 0 1 0 -1 0 0 3766.dat
 1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 22385.dat
 0 Instruction step458 / book2page127
-1 28 20 -8 40 -1 0 0 0 1 0 0 0 -1 51739.dat
+1 28 20 -8 40 -1 0 0 0 1 0 0 0 -1 26601.dat
 0 Instruction step459 / book2page127
 1 71 20 8 50 -1 0 0 0 1 0 0 0 -1 14704.dat
 0 Instruction step460 / book2page127
@@ -4098,7 +4098,7 @@
 0 FILE shoulder-oval-step462.ldr
 1 19 0 0 0 0 0 1 0 1 0 -1 0 0 3766.dat
 1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 22385.dat
-1 28 -20 -8 40 -1 0 0 0 1 0 0 0 -1 51739.dat
+1 28 -20 -8 40 -1 0 0 0 1 0 0 0 -1 26601.dat
 1 71 -20 8 50 -1 0 0 0 1 0 0 0 -1 14704.dat
 1 71 20 8 30 -1 0 0 0 1 0 0 0 -1 14704.dat
 1 19 -20 8 20 1 0 0 0 1 0 0 0 1 2654.dat
@@ -4479,6 +4479,8 @@
 1 2 30 -24 10 0 0 1 0 1 0 -1 0 0 2357.dat
 1 72 -70 -24 40 0 0 1 0 1 0 -1 0 0 3700.dat
 1 72 70 -24 40 0 0 1 0 1 0 -1 0 0 3700.dat
+0 Instruction steps 318/419: the 8L stop axle spans the two 3700 holes; local X-axis, hole centers X=±70.
+1 72 0 -24 40 1 0 0 0 1 0 0 0 1 55013.dat
 1 2 -50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
 1 2 50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
 
@@ -4983,6 +4985,8 @@
 1 14 30 -24 10 0 0 1 0 1 0 -1 0 0 2357.dat
 1 72 -70 -24 40 0 0 1 0 1 0 -1 0 0 3700.dat
 1 72 70 -24 40 0 0 1 0 1 0 -1 0 0 3700.dat
+0 Instruction steps 318/419: the 8L stop axle spans the two 3700 holes; local X-axis, hole centers X=±70.
+1 72 0 -24 40 1 0 0 0 1 0 0 0 1 55013.dat
 1 14 -50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
 1 14 50 -24 40 0 0 1 0 1 0 -1 0 0 32064a.dat
 0 NOFILE
