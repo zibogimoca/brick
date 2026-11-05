@@ -1315,133 +1315,6 @@
 1 19 110 -32 70 -1 0 0 0 1 0 0 0 -1 27263.dat
 1 19 -150 -32 10 1 0 0 0 1 0 0 0 1 27263.dat
 0 NOFILE
-0 FILE book2-leg-core-posed.ldr
-0 Book 2 local reconstruction; unfinished. X along upper leg, Y down, Z across leg.
-0 Local placement requires diagram/render comparison; not ready for integrated publication.
-0 STEP
-0 Instruction step 226 / book 2 page 3
-1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
-1 2 90 -40 0 0 0 -1 0 1 0 1 0 0 67329.dat
-0 STEP
-0 Instruction step 227 / book 2 page 3
-1 71 10 -8 0 1 0 0 0 1 0 0 0 1 3021.dat
-1 71 60 -40 -10 1 0 0 0 1 0 0 0 1 22885.dat
-1 71 60 -40 10 -1 0 0 0 1 0 0 0 -1 22885.dat
-0 STEP
-0 Instruction step 228 / book 2 page 4
-1 71 -70 -32 0 0 0 -1 0 1 0 1 0 0 11215.dat
-1 322 -100 -24 0 1 0 0 0 1 0 0 0 1 3022.dat
-1 4 -110 -16 -10 -1 0 0 0 1 0 0 0 -1 3172.dat
-1 4 -110 -16 10 -1 0 0 0 1 0 0 0 -1 3172.dat
-1 28 -100 -8 -10 1 0 0 0 1 0 0 0 1 99780.dat
-1 28 -100 -8 10 -1 0 0 0 1 0 0 0 -1 99780.dat
-1 72 -110 0 0 0 0 1 0 1 0 -1 0 0 3023b.dat
-0 STEP
-0 Instruction step 229 / book 2 page 5
-1 71 -30 -16 0 1 0 0 0 1 0 0 0 1 3021.dat
-1 322 20 -16 0 1 0 0 0 1 0 0 0 1 3022.dat
-0 STEP
-0 Instruction step 230 / book 2 page 5
-1 15 0 -40 -10 1 0 0 0 1 0 0 0 1 30414.dat
-1 2 -50 -40 -10 1 0 0 0 1 0 0 0 1 87087.dat
-1 15 0 -40 10 -1 0 0 0 1 0 0 0 -1 30414.dat
-1 2 -50 -40 10 -1 0 0 0 1 0 0 0 -1 87087.dat
-0 STEP
-0 Instruction step 231 / book 2 page 5
-1 0 -100 -40 -10 1 0 0 0 1 0 0 0 1 99781.dat
-1 0 -100 -40 10 -1 0 0 0 1 0 0 0 -1 99781.dat
-1 84 -70 -40 -10 1 0 0 0 1 0 0 0 1 79389.dat
-1 84 -70 -40 10 -1 0 0 0 1 0 0 0 -1 79389.dat
-0 STEP
-0 Instruction step 232 / book 2 page 5
-1 0 -100 -20 -32 -1 0 0 0 0 1 0 1 0 3022.dat
-1 0 -100 -20 32 1 0 0 0 0 1 0 -1 0 3022.dat
-1 0 -110 -20 -40 0 0 1 1 0 0 0 1 0 1748.dat
-1 0 -110 -20 40 0 0 1 -1 0 0 0 -1 0 1748.dat
-0 STEP
-0 Instruction step 233 / book 2 page 6
-1 71 -70 -20 -32 0 0 -1 -1 0 0 0 1 0 14418.dat
-1 71 -70 -20 32 0 0 1 -1 0 0 0 -1 0 14418.dat
-1 19 -70 -30 -40 -1 0 0 0 0 1 0 1 0 3070b.dat
-1 19 -70 -30 40 1 0 0 0 0 1 0 -1 0 3070b.dat
-0 STEP
-0 Instruction step 234 / book 2 page 6
-1 19 -90 -10 -40 1 0 0 0 0 -1 0 1 0 27263.dat
-1 19 -90 -10 40 0 0 1 -1 0 0 0 -1 0 27263.dat
-0 STEP
-0 Instruction step 235 / book 2 page 6
-1 19 0 -30 -36 -1 0 0 0 0 1 0 1 0 72132.dat
-1 19 0 -30 36 1 0 0 0 0 1 0 -1 0 72132.dat
-1 19 -50 -20 -36 0 0 -1 -1 0 0 0 1 0 99563.dat
-1 19 -50 -20 36 0 0 1 -1 0 0 0 -1 0 99563.dat
-0 STEP
-0 Instruction step 242 / book 2 page 8. Skin mounted on core's Y=-40 top stud plane.
-1 16 0 -48 0 1 0 0 0 1 0 0 0 1 book2-leg-upper-skin.ldr
-0 STEP
-0 Instruction step 243 / book 2 page 9
-1 19 -20 -48 -30 1 0 0 0 1 0 0 0 1 3023b.dat
-1 19 -30 -56 -30 1 0 0 0 1 0 0 0 1 3024.dat
-1 19 0 -64 -30 0 0 -1 0 1 0 1 0 0 11153.dat
-1 19 -20 -48 30 1 0 0 0 1 0 0 0 1 3023b.dat
-1 19 -30 -56 30 1 0 0 0 1 0 0 0 1 3024.dat
-1 19 0 -64 30 0 0 -1 0 1 0 1 0 0 11153.dat
-0 STEP
-0 Instruction step 244 / book 2 page 9
-1 0 116 -20 -10 0 -1 0 1 0 0 0 0 1 4304.dat
-0 STEP
-0 Instruction step 245 / book 2 page 10
-1 0 140 -20 -36 -1 0 0 0 0 1 0 1 0 79846.dat
-1 28 120 -20 -44 0 0 -1 -1 0 0 0 1 0 26601.dat
-1 28 154.142136 -5.857864 -44 -0.707107 0 -0.707107 -0.707107 0 0.707107 0 1 0 26601.dat
-0 STEP
-0 Instruction step 246 / book 2 page 10
-1 28 80 -20 -36 0 0 1 1 0 0 0 1 0 26601.dat
-0 STEP
-0 Instruction step 247 / book 2 page 10
-1 19 100 -20 -36 0 0 1 1 0 0 0 1 0 15068.dat
-0 STEP
-0 Instruction step 279 / book 2 page 20. Green side stud grid joins the second wing of79846.
-1 16 154.142136 22.426407 0 0 -0.70710678 0.70710678 0 0.70710678 0.70710678 -1 0 0 book2-lower-leg-core.ldr
-0 STEP
-0 Instruction step 283 / book 2 page 21
-1 0 140 -20 36 0.70710678 0 -0.70710678 0.70710678 0 0.70710678 0 -1 0 79846.dat
-1 28 120 -20 44 1 0 0 0 0 1 0 -1 0 26601.dat
-1 28 154.14214 -5.857864 44 0.707107 0 0.707107 -0.707107 0 0.707107 0 -1 0 26601.dat
-0 STEP
-0 Instruction step 284 / book 2 page 22
-1 28 80 -20 36 -1 0 0 0 0 -1 0 -1 0 26601.dat
-0 STEP
-0 Instruction step 285 / book 2 page 22
-1 19 100 -20 36 0 0 1 -1 0 0 0 -1 0 15068.dat
-0 STEP
-0 Instruction step 286 / book 2 page 23
-1 19 124 -20 -10 0 -1 0 1 0 0 0 0 1 3023b.dat
-1 19 116 -20 -10 0 -1 0 0 0 1 -1 0 0 93273.dat
-0 STEP
-0 Instruction step 287 / book 2 page 23
-1 28 80 8 0 0 0 1 0 1 0 -1 0 0 3020.dat
-1 19 80 0 -30 1 0 0 0 1 0 0 0 1 99563.dat
-1 19 80 0 30 1 0 0 0 1 0 0 0 1 99563.dat
-1 28 90 16 0 0 0 -1 0 1 0 1 0 0 32803.dat
-1 19 70 16 0 0 0 1 0 1 0 -1 0 0 3023b.dat
-0 STEP
-0 Instruction step 319 / book 2 page 46. Foot/shin72132steppedface; grey base rim excluded.
-1 19 -20 -20 28 -1 0 0 0 0 -1 0 -1 0 15068.dat
-0 STEP
-0 Instruction step 322 / book 2 page 49. Raised72132row; 26047pearlgoldhandle, not48336.
-1 28 20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat
-1 297 -10 -30 -44 0 0 1 1 0 0 0 1 0 26047.dat
-0 STEP
-0 Instruction step 323 / book 2 page 50. Roundtile bridges35480and26047;87747claw clips onto barholder11090.
-1 19 0 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat
-1 19 -30 -30 -42 0 -1 0 0 0 1 -1 0 0 11090.dat
-1 19 -60 -30 -42 0 1 0 1 0 0 0 0 -1 87747.dat
-0 STEP
-0 Instruction step 425 / book2 pages97–98. First-legthree toes, exactball/socket centers;20degree splay isdisplaypose.
-1 16 -53.5697469733 -97.8830972112 -40.0522112024 0.0846732289754 -0.956498874207 -0.279177986121 0.27043690665 -0.247606210561 0.930352107545 -0.959006946699 -0.154275948001 0.237706979392 book2-shared-toe-step425.ldr
-1 16 -53.7722575028 -134.733899293 -0.869748879358 0.149739324571 -0.937379420592 -0.314480454923 0.0736031127228 -0.306615880291 0.9489832895 -0.985982107583 -0.165246857172 0.0230815883404 book2-shared-toe-step425.ldr
-1 16 -60.7015734313 -100.477340949 36.5777223695 0.208261093154 -0.967769839523 -0.141593978647 -0.126447490417 -0.170194179706 0.977264024387 -0.969865119099 -0.185621870761 -0.157816893423 book2-shared-toe-step425.ldr
-0 NOFILE
 0 FILE book2-leg-upper-skin.ldr
 0 STEP
 0 Instruction step 236 / book 2 page 7
@@ -1471,112 +1344,6 @@
 1 28 -40 -24 0 1 0 0 0 1 0 0 0 1 3623.dat
 1 19 -50 -32 0 1 0 0 0 1 0 0 0 1 99563.dat
 1 19 10 -32 0 0 0 -1 0 1 0 1 0 0 11153.dat
-0 NOFILE
-0 FILE book2-lower-leg-core.ldr
-0 Lower leg mounted to upper leg at step 279; body mounting pending.
-0 STEP
-0 Instruction step 248 / book 2 page 11
-1 19 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat
-1 2 10 -40 0 0 0 -1 0 1 0 1 0 0 67329.dat
-0 STEP
-0 Instruction step 249 / book 2 page 11
-1 0 -10 -40 0 0 0 1 0 1 0 -1 0 0 67329.dat
-1 322 0 -48 0 1 0 0 0 1 0 0 0 1 3022.dat
-0 STEP
-0 Instruction step 250 / book 2 page 11
-1 72 0 -72 0 1 0 0 0 1 0 0 0 1 3941.dat
-1 322 0 -80 0 1 0 0 0 1 0 0 0 1 3022.dat
-0 STEP
-0 Instruction step 251 / book 2 page 11
-1 2 10 -120 0 0 0 -1 0 1 0 1 0 0 67329.dat
-1 0 -10 -120 0 0 0 1 0 1 0 -1 0 0 67329.dat
-1 322 0 -128 0 1 0 0 0 1 0 0 0 1 3022.dat
-0 STEP
-0 Instruction step 252 / book 2 page 11
-1 72 0 -152 0 1 0 0 0 1 0 0 0 1 3941.dat
-1 322 0 -160 0 1 0 0 0 1 0 0 0 1 3022.dat
-0 STEP
-0 Instruction step 253 / book 2 page 12
-1 2 10 -200 0 0 0 -1 0 1 0 1 0 0 67329.dat
-1 0 -10 -200 0 0 0 1 0 1 0 -1 0 0 67329.dat
-0 STEP
-0 Instruction step 254 / book 2 page 12
-1 0 0 -216 -10 1 0 0 0 1 0 0 0 1 4304.dat
-1 322 0 -216 10 1 0 0 0 1 0 0 0 1 35480.dat
-0 STEP
-0 Instruction step 255 / book 2 page 12
-1 0 0 8 -10 1 0 0 0 1 0 0 0 1 32803.dat
-1 322 0 8 10 1 0 0 0 1 0 0 0 1 35480.dat
-0 STEP
-0 Instruction step 262 / book 2 page 15
-1 16 0 -100 -28 0 0 -1 -1 0 0 0 1 0 book2-lower-leg-skin.ldr
-0 STEP
-0 Instruction step 263 / book 2 page 15
-1 0 0 -240 -10 1 0 0 0 1 0 0 0 1 11211.dat
-1 0 0 -240 10 -1 0 0 0 1 0 0 0 -1 11211.dat
-0 STEP
-0 Instruction step 264 / book 2 page 15
-1 0 10 -280 0 0 0 -1 0 1 0 1 0 0 67329.dat
-0 STEP
-0 Instruction step 277 / book 2 page 19
-1 16 0 -100 28 0 0 1 -1 0 0 0 -1 0 book2-lower-leg-opposite-skin.ldr
-0 STEP
-0 Instruction step 280 / book 2 page 20
-1 19 28 -120 0 0 -1 0 1 0 0 0 0 1 3034.dat
-0 STEP
-0 Instruction step 281 / book 2 page 20
-1 28 36 -80 0 0 -1 0 1 0 0 0 0 1 3020.dat
-0 STEP
-0 Instruction step 282 / book 2 page 21
-1 19 36 -60 0 0 -1 0 0 0 -1 1 0 0 15068.dat
-1 19 36 -100 0 0 -1 0 0 0 -1 1 0 0 15068.dat
-0 STEP
-0 Instruction step 283 / book 2 page 21
-1 19 -28 -120 0 0 1 0 1 0 0 0 0 -1 3034.dat
-0 STEP
-0 Instruction step 284 / book 2 page 22
-1 28 -36 -80 0 0 1 0 1 0 0 0 0 -1 3020.dat
-0 STEP
-0 Instruction step 285 / book 2 page 22
-1 19 -36 -60 0 0 1 0 0 0 -1 -1 0 0 15068.dat
-1 19 -36 -100 0 0 1 0 0 0 -1 -1 0 0 15068.dat
-0 STEP
-0 Instruction step 306 / book 2 page 33. Green bottom 2x2 holes mate to black 67329 side grid at X=20, Y=-270/-250, Z=+/-10.
-1 16 28 -320 200 0 -1 0 -1 0 0 0 0 -1 book2-leg-angle-core.ldr
-0 STEP
-0 Instruction step 307 / book 2 page 34
-1 0 0 -260 -28 0 0 1 1 0 0 0 1 0 2639.dat
-0 STEP
-0 Instruction step 308 / book 2 page 35. Corner plate support grid checked; wedge handedness remains under review.
-1 28 20 -260 -36 1 0 0 0 0 -1 0 1 0 3020.dat
-1 19 0 -260 -44 0 0 1 1 0 0 0 1 0 24299.dat
-1 19 -10 -260 -52 0 0 1 1 0 0 0 1 0 22385.dat
-1 19 40 -260 -36 0 0 -1 -1 0 0 0 1 0 15068.dat
-0 STEP
-0 Instruction step 309 / book 2 page 36
-1 19 0 -220 -36 1 0 0 0 0 -1 0 1 0 24307.dat
-1 19 0 -220 -44 1 0 0 0 0 -1 0 1 0 24307.dat
-0 STEP
-0 Instruction step 310 / book 2 page 37. Wing and slope close the knee corner, awaiting matching-view comparison.
-1 28 0 -230 -52 1 0 0 0 0 -1 0 1 0 43722.dat
-1 19 0 -230 -76 1 0 0 0 0 -1 0 1 0 3298.dat
-0 STEP
-0 Instruction step 311 / book 2 page 38. Opposite knee face, paired handed wedges.
-1 0 0 -260 28 1 0 0 0 0 1 0 -1 0 2639.dat
-0 STEP
-0 Instruction step 312 / book 2 page 39. Opposite knee face, paired handed wedges.
-1 28 20 -260 36 -1 0 0 0 0 -1 0 -1 0 3020.dat
-1 19 0 -260 44 0 0 1 -1 0 0 0 -1 0 24307.dat
-1 19 -10 -260 52 0 0 1 -1 0 0 0 -1 0 22385.dat
-1 19 40 -260 36 0 0 -1 1 0 0 0 -1 0 15068.dat
-0 STEP
-0 Instruction step 313 / book 2 page 40. Opposite knee face, paired handed wedges.
-1 19 0 -220 36 -1 0 0 0 0 -1 0 -1 0 24299.dat
-1 19 0 -220 44 -1 0 0 0 0 -1 0 -1 0 24299.dat
-0 STEP
-0 Instruction step 314 / book 2 page 41. Opposite knee face, paired handed wedges.
-1 28 0 -230 52 -1 0 0 0 0 -1 0 -1 0 43723.dat
-1 19 0 -230 76 -1 0 0 0 0 -1 0 -1 0 3298.dat
 0 NOFILE
 0 FILE book2-lower-leg-skin.ldr
 0 Independent lower-leg skin; not mounted to the vertical core yet.
@@ -1804,8 +1571,8 @@
 1 19 0 22 -66 -1 0 0 0 0 1 0 1 0 87747.dat
 0 NOFILE
 0 FILE book2-leg-core-left-stride-posed.ldr
-0 Book 2 local reconstruction; unfinished. X along upper leg, Y down, Z across leg.
-0 Local placement requires diagram/render comparison; not ready for integrated publication.
+0 Active second-leg assembly for book2 steps315–316; mounted in the integrated body at the walking-stride transform. X follows the upper leg, Y down, Z across leg.
+0 Side-view pose follows the instruction; exact joint limits, collision and physical fit remain unverified.
 0 STEP
 0 Instruction step 226 / book 2 page 3
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
@@ -1931,7 +1698,7 @@
 1 16 -111.747176445 -64.3405950818 0.440599003213 -0.477398844298 -0.327379829829 0.815421848177 -0.236538497504 0.941625445863 0.239564310578 0.846250484586 0.0785109337941 0.526968832677 book2-shared-toe-step425.ldr
 0 NOFILE
 0 FILE book2-lower-leg-core-left-stride.ldr
-0 Lower leg mounted to upper leg at step 279; body mounting pending.
+0 Active second lower-leg assembly nested in the integrated walking-stride leg; body and foot fit are represented. Exact joint limits, collision and physical fit remain unverified.
 0 STEP
 0 Instruction step 248 / book 2 page 11
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat
