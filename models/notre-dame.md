@@ -61,3 +61,5 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 - Second-booklet steps95–101 (printed pages75–81) add 12 43888 choir poles with jumpers, four repeated pole kits, a mixed-color roof joint, 26 tan 1x1 roof-pier bricks, six 3659 Arch 1x4 candidates, and 16 black curved-top/brick stacks with ten white plates. Count and repeated arc/roof positions follow the callouts; exact upper-storey part identity and contact remain provisional.
 
 - Second-booklet steps102–107 (printed pages82–87) extend the raised arcade with 4+4 X-lattice 19121 fences, tan slopes, 13 side-stud blocks, cap plates, 15 gallery links and round end details. Official LDraw 19121 matches the visible 1x4x2 X-lattice silhouette. Callout counts and upper-arc stations are represented; roof pitch, exact small-part colors and contact remain provisional.
+
+- Second-booklet steps108–116 (printed pages88–91) build a separate roof cap around an 8x16 92438 blank, reinforced with rails, plates and dark slopes; step116 installs it above the arcade. The successive roof layers are staged at the final central station. Exact roof pitch and some slope identities remain provisional.
