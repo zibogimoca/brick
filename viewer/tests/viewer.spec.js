@@ -3,6 +3,7 @@ async function load(page) {
   await page.goto('/');
   await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
   await page.selectOption('#models', { label: '티라노사우루스' });
+  await page.selectOption('#versions', { label: '버전 1' });
   await expect(page.locator('#versions')).toBeEnabled();
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
 }
@@ -34,7 +35,7 @@ test('model and version selectors stay separate and filter available versions', 
   await expect(page.locator('#status')).toContainText('버전 0 · 작업 중. 펼침 배치', { timeout: 30000 });
   await expect(page.locator('#version')).toContainText('triceratops-v0.mpd');
   await page.selectOption('#models', { label: '티라노사우루스' });
-  await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 1', '버전 0']);
+  await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 2', '버전 1', '버전 0']);
   await expect(page.locator('#versions')).toHaveValue(/\d+/);
   await page.selectOption('#versions', { label: '버전 0' });
   await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 30000 });
@@ -171,4 +172,26 @@ test('mirrored LDraw meshes retain the same exterior as a symmetric ordinary mes
   }, [normal.toString('base64'), mirrored.toString('base64')]);
   // Ignore subpixel rasterization differences, but reject missing/reversed faces.
   expect(changedFraction).toBeLessThan(.001);
+});
+
+
+test('loads all integrated review models without missing geometry', async ({ page }) => {
+  test.setTimeout(180000);
+  const errors = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  for (const [model, version, file] of [
+    ['티라노사우루스', '버전 2', 'tyrannosaurus-v2.mpd'],
+    ['티라노사우루스', '버전 0', 'tyrannosaurus-v0.mpd'],
+    ['트리케라톱스', '버전 0', 'triceratops-v0.mpd'],
+    ['노트르담 대성당', '버전 0', 'notre-dame-v0.mpd'],
+  ]) {
+    await page.selectOption('#models', { label: model });
+    await page.selectOption('#versions', { label: version });
+    await expect(page.locator('#version')).toContainText(file, { timeout: 60000 });
+    await expect(page.locator('#status')).not.toContainText('완전히 불러오지 못했습니다');
+    await expect(page.locator('#summary')).not.toContainText('undefined');
+    await expect(page.locator('canvas')).toHaveAttribute('data-model-loaded', 'true');
+  }
+  expect(errors).toEqual([]);
 });

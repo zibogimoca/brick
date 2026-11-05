@@ -287982,7 +287982,7 @@
       ],
       "geometry": {
         "file": "assets/parts/6141.dat",
-        "sha256": "e478866dd21d44746c7a6e05798bd83ff528dfc8633b5cc94162f4c810b894c9",
+        "sha256": "0364e421813b92ffebd100b815a9a40d630759eebc11aee37ac637eeb9e2ee19",
         "source": "LDraw official complete.zip",
         "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
