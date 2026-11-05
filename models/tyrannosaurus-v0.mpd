@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":2999,"body_draft_piece_count":2486,"stand_draft_piece_count":513,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"3권 514단계 긴 핀 1개와 710단계 베벨 기어 1개는 위치·부품 근거가 확정되지 않아 미배치입니다. 514단계 77765는 시각 후보였으나 근거 부족으로 제거했습니다. 710단계 추가 기어의 메시 축과 부품 방향도 추가 대조가 필요합니다. 발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3007,"body_draft_piece_count":2488,"stand_draft_piece_count":519,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 선택 고관절 소켓 중심만 정렬 · 보행 자세와 전체 고관절 미검증","unresolved":"3권 710단계의 필수 12T 베벨 기어(6589 후보) 1개는 상대축·삽입 구멍을 확정하지 못해 미배치입니다. 다리의 두 14418 소켓과 몸통 17114 볼의 간격은 강체 변환으로 동시에 맞지 않습니다. 발판의 3707 8L 축 중심은 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -588,10 +588,10 @@
 0 Instruction body-arm and pelvic-cover overlay.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-arms-and-pelvic-covers-overlay.ldr
 0 STEP
-0 Right-side hip centre at Z=+152; reference pose remains subject to manual/visual comparison.
-1 16 -58.7143761818 534.044722856 152 0.694523222373 -0.719470286797 0 0.719470286797 0.694523222373 0 0 0 1 book2-second-leg-upper-core.ldr
-0 Left-side hip centre at Z=-152; root transform is an orthonormal reflection (det=-1) and X is offset -304 LDU for the requested walking stride. This confirms global mirror/stride only; local knee bend, ankle, toe direction and stand contact still require review.
-1 16 -362.52030774 523.644970609 -152.305246211 0.79901621001 0.601264159819 -0.00738283539719 -0.597930428848 0.793166449963 -0.115612217825 0.0636576656725 -0.0967904580523 -0.993266987688 book2-leg-core-left-stride-posed.ldr
+0 Hip socket candidate on the right leg: local (70,-50,+28). Root Rz(-46deg), translation (-292.644,+71.089,+12) maps its 14418 socket center to the body 17114 ball (-280,-14,+40). Its companion socket maps to (-280,-14,-16), not the other ball at Z=-40; the four-socket/two-ball relationship remains unresolved and is not counted as a verified connection.
+1 16 -292.644 71.089 12 0.694523222373 0.719470286797 0 -0.719470286797 0.694523222373 0 0 0 1 book2-second-leg-upper-core.ldr
+0 Left hip socket candidate: local (-70,-50,-28). Root Rz(+46deg), translation (-267.356,+71.089,-12) maps its 14418 center to body ball (-280,-14,-40). This replaces the prior reflected/twisted root and arbitrary -304LDU stride translation. Its companion socket maps to (-280,-14,+16), not the other ball at Z=+40; this mismatch remains open. Opposing femur directions give a walking pose, but matching-view comparison shows knee-to-foot and stand alignment still need correction.
+1 16 -267.356 71.089 -12 0.694523222373 -0.719470286797 0 0.719470286797 0.694523222373 0 0 0 1 book2-leg-core-left-stride-posed.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
 1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr
 0 Rib red axle inserts20LDU into angledspineconnector; localY10..50 mapsconnector50..10.
@@ -636,10 +636,10 @@
 1 71 -1030 -98 0 0 0 1 0 1 0 -1 0 0 32073.dat
 1 19 -1030 -98 -43 -1 0 0 0 1 0 0 0 -1 6589.dat
 0 Step710 book3 page97 adds one bevel gear. Only the step709 axle/bevel pair is presently modeled; step710's gear center/axis and exact placement remain unresolved, so it is deliberately not placed.
-0 Step513:middlefront3176hole(-130,Y,0) tobodyrearhole(70,Y,0);8LDUgap -16..-8 fitsbodyplate-72..-64.
-0 Book3 step513 shows this tail assembly placed on the body; current X=200/Y=-56 placement is provisional from that view. Step514 shows one long pin entering the upper tail-root hole. It resembles the 77765 pin used in steps529/544/560, but the exact part ID, axis, and depth are not verified; it is not placed here.
+0 Step513: middle-front 3176 hole (-130,Y,0) maps to body rear hole (70,Y,0); the seam meets the body plate layer -72..-64.
+0 Step514 BOM silhouette and repeated pins at steps529/544/560 identify 77765. The tail-side 3176 hole center maps to world (70,-64,0) under the provisional tail root (200,-56,0). The end stop meets the hole's upper plane and the shaft crosses the seam. This is a part/axis/coordinate trace, not a physical retention test.
 1 16 200 -56 0 1 0 0 0 1 0 0 0 1 book3-tail-assembly.ldr
-0 Step514: the illustrated long pin remains unplaced; 77765 was a visual candidate, not confirmed by part identity and insertion-axis evidence.
+0 Step514's long pin is restored in the tail-root connection, distinct from removing the earlier unsupported candidate.
 0 Shoulder ball centre aligned; articulation pose pending full silhouette/clearance check.
 0 Shoulder ball centre aligned; articulation pose pending full silhouette/clearance check.
 1 16 -790 -88 0 -1 0 0 0 1 0 0 0 -1 front-dorsal-low-step455.ldr
@@ -2770,8 +2770,11 @@
 1 72 -35.858222 60 -59.784993 -0.99462483 0 0.10354444 0 1 0 -0.10354444 0 -0.99462483 11214.dat
 0 NOFILE
 0 FILE book3-tail-assembly.ldr
-0 Version 0 book 3 tail sections. Straight display pose; step513 body position is provisional and step514 axle is unresolved.
+0 Version 0 book 3 tail sections. Straight display pose; step513 body position remains provisional.
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 book3-tail-middle.ldr
+0 Instruction book 3 page 19 step 514. Long pin 77765 secures the tail-root 3176 hole to the body seam.
+0 Tail-local hole (-130,-8,0) maps to (70,-64,0) in the body. Native pin X maps to local -Y; the end stop rests at Y=-8 and the 40LDU shaft extends toward +Y through the seam.
+1 71 -130 22 0 0 0 -1 -1 0 0 0 1 0 77765.dat
 0 Instruction book 3 page 18 step 528
 1 16 260 16 0 1 0 0 0 1 0 0 0 1 book3-tail-distal.ldr
 0 Instruction book 3 page 19 step 529
