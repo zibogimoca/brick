@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 290종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 312종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -27,7 +27,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
 
 ## 출처와 라이선스
 
-기본 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 출처별 저자와 조건을 보존한다. 목록에 `original_project_geometry`로 표시한 누락 부품은 프로젝트에서 만든 시각 참고 형상이며 제조사 CAD와 동일하거나 실물 결합이 검증된 것으로 표시하지 않는다.
+기본 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 출처별 저자와 조건을 보존한다. 추가로 2026-11-05에 `ldraw-org/official-library` 공식 GitHub 저장소의 고정 커밋 `894bbba5e696b1554800d8e45134c57163dba905`에서 64179 프레임과 의존 형상을 확보했으며, 각 원본/정규화 SHA-256과 경로를 아래 매니페스트에 기록했다. 목록에 `original_project_geometry`로 표시한 누락 부품은 프로젝트에서 만든 시각 참고 형상이며 제조사 CAD와 동일하거나 실물 결합이 검증된 것으로 표시하지 않는다.
 
 현재 형상에는 **CC BY 4.0** 또는 **CC BY 2.0과 CC BY 4.0** 병기 자료가 포함된다. 파일별 고지는 아래 목록에 보존한다. [이용 조건 요약](https://creativecommons.org/licenses/by/4.0/)과 [라이선스 전문](https://creativecommons.org/licenses/by/4.0/legalcode)을 기준으로, 공유할 때 저자·출처와 라이선스 링크를 제공하고 변경했다면 그 사실을 표시한다. 저자가 이 프로젝트를 보증하는 것처럼 표현하지 않는다. 색상 설정 등 다른 자료의 조건을 이 확인 결과로 일괄 단정하지 않고 원본 고지를 따른다.
 
@@ -296,6 +296,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "63864",
     "63868",
     "63965",
+    "64179",
     "64225",
     "64799",
     "6541",
@@ -8666,6 +8667,105 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/64179.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/64179.dat",
+      "archive_member": "ldraw/parts/64179.dat",
+      "source_sha256": "7e8e131d8c7ca9387ba9f3b79d1fbd2f089c6d28b3f3b415bcbd1224e1629834",
+      "sha256": "dbb5e3e6c4e5a2bbf0c3d95516a24857bed045687dd555762a8738ce1d802e2b",
+      "bytes": 4241,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "parts/subparts/64179s01.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/parts/s/64179s01.dat",
+      "archive_member": "ldraw/parts/s/64179s01.dat",
+      "source_sha256": "bb17d1bb2edc234ab451f3045c3f4ab9f2aea371d886b9eaa9374cd5f3e8b666",
+      "sha256": "479a34306b2dbae47c20e5f9ab6187c928c2a150f9adc0a9a7c5e13942bfd3f1",
+      "bytes": 4681,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/npeghol9.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol9.dat",
+      "archive_member": "ldraw/p/npeghol9.dat",
+      "source_sha256": "218a7aace2e1d2b4d3b22f1c072a694fadb8801eb5591eb6bca4197808b466b0",
+      "sha256": "d1079429f73a5aee8ed303c1963d40c434e57d797ffc57655933007f780b5a1b",
+      "bytes": 1434,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/2-4ring9.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/2-4ring9.dat",
+      "archive_member": "ldraw/p/2-4ring9.dat",
+      "source_sha256": "66c4444b0d30e8b1cb0b1a3aa0e472e28750462cb55d2c43fadcd2e14b852f36",
+      "sha256": "66c4444b0d30e8b1cb0b1a3aa0e472e28750462cb55d2c43fadcd2e14b852f36",
+      "bytes": 907,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Willy Tschager [Holly-Wood]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/npeghol10.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol10.dat",
+      "archive_member": "ldraw/p/npeghol10.dat",
+      "source_sha256": "c0afbce636428be0d8a33c1f7cd50f9ccb68af2ae506b2bd7a7a9130d6076043",
+      "sha256": "628286f0663bff4a0c953876fa1736925eb86bd5562671a94ae020ed7f86a301",
+      "bytes": 3519,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/npeghol8.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol8.dat",
+      "archive_member": "ldraw/p/npeghol8.dat",
+      "source_sha256": "4fbb5add7705e3b5b485f27c2cc35c13c17ee8b1def98b952df314b0659ba7cb",
+      "sha256": "3c19c757beb50a1c16a09037ace133b2750dbeef408c40ca9935f32acdf0bffc",
+      "bytes": 3797,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/connhol2.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/connhol2.dat",
+      "archive_member": "ldraw/p/connhol2.dat",
+      "source_sha256": "3748d67fa7aef4d3d5f6c5d78adb2f9c6b93ed403159455f7e5f702d6ad390ec",
+      "sha256": "d6eb99cfcb85890403a5db50fa125dc8b6f7491d3aeb2b8a6f6748428bf08a8b",
+      "bytes": 930,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/npeghol19.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/npeghol19.dat",
+      "archive_member": "ldraw/p/npeghol19.dat",
+      "source_sha256": "29879c27995254faf9abb29a802edf44de07c806e681ae3740ecc04635103dbd",
+      "sha256": "71f0b00c03a4d8b3c31a3c7819ec2e628e152b88632b8c2ae89e8c417bfa67ee",
+      "bytes": 3338,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Max Murtazin [SwampKryakwa]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
+    },
+    "primitives/1-8ring9.dat": {
+      "source": "https://raw.githubusercontent.com/ldraw-org/official-library/894bbba5e696b1554800d8e45134c57163dba905/ldraw/p/1-8ring9.dat",
+      "archive_member": "ldraw/p/1-8ring9.dat",
+      "source_sha256": "315a78ca5138394333b62197ed7552aa4acd69d470f054b59a5ac06cb04427f9",
+      "sha256": "315a78ca5138394333b62197ed7552aa4acd69d470f054b59a5ac06cb04427f9",
+      "bytes": 600,
+      "modification": "Official Git repository file downloaded at pinned commit; dependency references normalized to repository asset paths; geometry coordinates preserved.",
+      "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905/ldraw"
     }
   }
 }
