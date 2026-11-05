@@ -259,6 +259,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "47457",
     "48165",
     "48336",
+    "49307",
     "49656",
     "50340",
     "5066",
@@ -8611,6 +8612,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 1605,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/49307.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/49307.dat",
+      "source_sha256": "5ab186e08cf7dfd9ff7ce2e1afcd69d08479fd44972340d53d78f67ffdceb135",
+      "sha256": "e74806b6aad033c09cf9bed3d89d1c89fbc4447fbd168c6b0d7cbc95f2e85325",
+      "bytes": 1133,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Philippe Hurbain [Philo]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
