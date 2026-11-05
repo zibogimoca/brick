@@ -13,7 +13,9 @@ for (const name of (await readdir(new URL('models/', root))).filter(name => name
   const stem = name.replace(/\.mpd$/i, '');
   const match = stem.match(/^(.*)-v(\d+)$/);
   const modelName = match ? match[1] : stem;
-  const title = ({ tyrannosaurus: '티라노사우루스', triceratops: '트리케라톱스', 'notre-dame': '노트르담 대성당', 'hogwarts-castle': '호그와트성' })[modelName] || modelName.replaceAll('-', ' ');
+  const stateLine = data.toString('utf8').split('\n').find(line => line.startsWith('0 !BRICK_STATE '));
+  const metadata = stateLine ? JSON.parse(stateLine.slice(15)) : {};
+  const title = metadata.display_name || ({ tyrannosaurus: '티라노사우루스', triceratops: '트리케라톱스', 'notre-dame': '노트르담 대성당', 'hogwarts-castle': '호그와트성' })[modelName] || modelName.replaceAll('-', ' ');
   entries.push({ modelId: modelName, modelName: title, name: title, versionLabel: match ? '버전 ' + match[2] : '기본', designVersion: match ? Number(match[2]) : null, url: './models/' + name, version: createHash('sha256').update(data).digest('hex').slice(0, 12) });
 }
 await writeFile(new URL('models/index.json', publicRoot), JSON.stringify(entries, null, 2) + '\n');

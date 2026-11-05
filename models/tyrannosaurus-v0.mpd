@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3022,"body_draft_piece_count":2496,"stand_draft_piece_count":526,"layout":"integrated_instruction_model","layout_note":"본체·받침대 검토본 · 오른쪽 다리 기준 보존, 왼쪽 284개 물리 금형 대응 미러 및 고관절 앞뒤 12° 자세","unresolved":"받침대1–98단계와 3권 99–100쪽의 711–714단계(검정 1×6 타일, 무지 명판 받침)를 배치했습니다. 받침대 본체와 연결되는 711 타일·명판 받침 접촉은 화면/실물 미검증입니다. 12/72 브래킷의4LDU 접점 차이와 발 고정축 정렬은 아직 미해결입니다. 왼쪽 무릎 279단계는 79846 135도 플레이트의 고정 스터드 결합이며 회전축이 확인되지 않아 굽힘 적용 보류; 다리 조립을 분리해 돌리면 결합이 깨질 수 있습니다. 왼쪽 다리 284개는 오른쪽의 대응 부품으로 구성했고 67696 중심(-280,-14,-40)을 유지했습니다. 무릎 279단계는 79846 135° 플레이트의 고정 스터드 결합이라 회전축이 확인되지 않아 임의 굽힘을 적용하지 않았습니다. 발바닥의 받침 접촉·축 체결과 실물 유지력은 미검증입니다.","support_note":"마감 부품 일부의 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr"}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3015,"body_draft_piece_count":2497,"stand_draft_piece_count":518,"layout":"integrated_instruction_model","layout_note":"본체·받침대 검토본 · 오른쪽 다리 기준 보존, 왼쪽 284개 실제 좌우 대응 금형 및 고관절 앞뒤 12° 자세","unresolved":"받침대1–98단계와 3권 99–100쪽의 711–714단계(검정 1×6 타일, 무지 명판 받침)를 배치했습니다. 받침대 본체와 연결되는 711 타일·명판 받침 접촉은 화면/실물 미검증입니다. 12/72 브래킷의4LDU 접점 차이와 발 고정축 정렬은 아직 미해결입니다. 710단계 반대쪽 6589 기어는 추가했지만 축 체결·맞물림은 미검증입니다. 왼쪽 다리 284개는 오른쪽의 대응 부품으로 구성했고 67696 중심(-280,-14,-40)을 유지했습니다. 무릎 279단계는 79846 135° 플레이트의 고정 스터드 결합이라 임의 굽힘을 적용하지 않았습니다. 발바닥의 받침 접촉·축 체결과 실물 유지력은 미검증입니다.","support_note":"마감 부품 일부의 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[],"source_workfile":"tyrannosaurus-v0-reconstruction.ldr","source_stand_workfile":"tyrannosaurus-v0-display-stand.ldr","geometry_component_reference_count":3023,"integration_count_note":"지오드49656 여덟 개는 각각물리부품1개다. 색상 하위 형상 참조를 펼친3023개와 물리부품3015개를 구분한다."}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -614,9 +614,11 @@
 1 16 -740 -20.1277115412 -170.180946322 0.5 0 -0.866025403784 -0.612372435707 0.7071067812 -0.3535533906 0.612372435707 0.7071067812 0.3535533906 shoulder-strap-step454.ldr
 0 Step709:69789transverseaxlehole native(0,0,-10) becomes head(11.9,-74,0); matchedbodycapaxis(-1030,-98,0).
 1 16 -1041.9 -24 0 1 0 0 0 1 0 0 0 1 book3-head-assembly.ldr
-0 Step7095Laxle and12Tbevel; gearbaseflushoutercapZ-40.
+0 Step709: 5L axle and first 12T bevel gear on -Z side; the axle spans the opposite side of the head assembly.
 1 71 -1030 -98 0 0 0 1 0 1 0 -1 0 0 32073.dat
 1 19 -1030 -98 -43 -1 0 0 0 1 0 0 0 -1 6589.dat
+0 Instruction step 710 / book 3 page 97: second tan 12T bevel gear, opposite end of the same transverse axle.
+1 19 -1030 -98 43 1 0 0 0 1 0 0 0 1 6589.dat
 0 Step513:middlefront3176hole(-130,Y,0) tobodyrearhole(70,Y,0);8LDUgap -16..-8 fitsbodyplate-72..-64.
 1 16 200 -56 0 1 0 0 0 1 0 0 0 1 book3-tail-assembly.ldr
 0 Step514longpin stop restsfrontstacktopY-104; axis-Y.
@@ -1316,7 +1318,7 @@
 1 19 -150 -32 10 1 0 0 0 1 0 0 0 1 27263.dat
 0 NOFILE
 0 FILE book2-shared-toe-step425-left.ldr
-0 Physical mirror of the shared right toe module for left-side mold geometry.
+0 Left-side toe counterpart uses proper rotations and left/right-specific molds where required.
 0 Six identical independent toes for both legs; final ball-socket seating and toe pose remain pending.
 0 Instruction step 425 / book 2 page 97
 1 19 0 8 0 1 0 0 0 1 0 0 0 1 24201.dat
@@ -1331,7 +1333,7 @@
 0 NOFILE
 
 0 FILE book2-leg-upper-skin-left.ldr
-0 Physical left-side copy; reflected part placements, with handed molds mapped in the parent leg hierarchy.
+0 Left-side counterpart uses proper rotations and mapped handed molds; no negative-determinant part transform.
 0 STEP
 0 Instruction step 236 / book 2 page 7
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 3832.dat
@@ -1363,7 +1365,7 @@
 0 NOFILE
 
 0 FILE book2-lower-leg-skin-left.ldr
-0 Physical left-side copy; reflected part placements, with handed molds mapped in the parent leg hierarchy.
+0 Left-side counterpart uses proper rotations and mapped handed molds; no negative-determinant part transform.
 0 Independent lower-leg skin; not mounted to the vertical core yet.
 0 STEP
 0 Instruction step 256 / book 2 page 13
@@ -1396,7 +1398,7 @@
 0 NOFILE
 
 0 FILE book2-lower-leg-opposite-skin-left.ldr
-0 Physical left-side copy; reflected part placements, with handed molds mapped in the parent leg hierarchy.
+0 Left-side counterpart uses proper rotations and mapped handed molds; no negative-determinant part transform.
 0 Opposite skin mounted at step 277; local diagram reconstruction.
 0 STEP
 0 Instruction step 265 / book 2 page 16
@@ -1459,7 +1461,7 @@
 0 NOFILE
 
 0 FILE book2-leg-core-left-pose.ldr
-0 Physical mirror: each reference position and orientation is reflected; matched left/right molds replace handed parts.
+0 Left-side counterpart uses proper rotations and corresponding handed molds; no negative-determinant part transform.
 0 Independent left-only copy of the right leg core; keep right modules untouched.
 0 Book 2 local reconstruction; unfinished. X along upper leg, Y down, Z across leg.
 0 Local placement requires diagram/render comparison; not ready for integrated publication.
@@ -1589,7 +1591,7 @@
 0 NOFILE
 
 0 FILE book2-lower-leg-core-left-pose.ldr
-0 Physical mirror: each reference position and orientation is reflected; matched left/right molds replace handed parts.
+0 Left-side counterpart uses proper rotations and corresponding handed molds; no negative-determinant part transform.
 0 Independent left-only copy of the lower leg; its step 279 stud connection is rigid.
 0 Lower leg mounted to upper leg at step 279; body mounting pending.
 0 STEP
@@ -1698,7 +1700,7 @@
 0 NOFILE
 
 0 FILE book2-leg-angle-core-left-pose.ldr
-0 Physical mirror: each reference position and orientation is reflected; matched left/right molds replace handed parts.
+0 Left-side counterpart uses proper rotations and corresponding handed molds; no negative-determinant part transform.
 0 Independent left-only copy of the angled lower-leg structure.
 0 Independent L-shaped core from step 288, body mount pending.
 0 STEP
@@ -5012,6 +5014,5 @@
 0 NOFILE
 0 FILE stand-foot-review-amber-geode-step53.ldr
 0 Step53 one physical geode. Existing official split mesh: translucent-orange crystal interior and dark-bluish-gray matrix. No new asset files.
-1 57 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s01.dat
-1 72 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s02.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 stand-review-stand-orange-geode.dat
 0 NOFILE
