@@ -539342,10 +539342,17 @@
       "ldraw_candidates": [
         "24855"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/24855.dat",
+        "sha256": "856a9d5ce22e799d7bd0ad4cb504ba4406f157d716cd6d7e7bd0fad26b429ca0",
+        "source": "LDraw official complete.zip",
+        "source_member": "ldraw/parts/24855.dat",
+        "mapping_basis": "Manufacturer-listed LDraw candidate; official part identity confirmed. GoBricks mold equivalence and LEGO 77985 manual-piece identity remain unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "candidate_manual_shape_unverified",
       "offers": [
         {
           "sku": "GDS-90486-010",
@@ -546323,10 +546330,17 @@
       "ldraw_candidates": [
         "37695"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/37695.dat",
+        "sha256": "2158b5caed610aa868714a131b659361afe7c77177c04bfcd7dedb4e6bd6d050",
+        "source": "LDraw official complete.zip",
+        "source_member": "ldraw/parts/37695.dat",
+        "mapping_basis": "Manufacturer-listed LDraw candidate; official part identity confirmed. GoBricks mold equivalence and LEGO 77985 manual-piece identity remain unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "candidate_manual_shape_unverified",
       "offers": [
         {
           "sku": "GDS-90503-010",
