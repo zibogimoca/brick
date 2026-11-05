@@ -132,6 +132,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3004",
     "3005",
     "3006",
+    "3009",
     "3010",
     "30136",
     "3020",
@@ -8419,6 +8420,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 1326,
       "modification": "Dependency paths converted to project asset layout; geometry retained.",
       "author": " Philippe Hurbain [Philo]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/3009.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/3009.dat",
+      "source_sha256": "950a186800b17a778e6c4b91420b1846df98c2bdbac8a551cfe7f74ddc831a3e",
+      "sha256": "ca401017967bedb8ba6b638a51bf24d904015556cc48cd85783580fbd3cdde8d",
+      "bytes": 676,
+      "modification": "Dependency paths converted to project asset layout; geometry retained.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/3009s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/3009s01.dat",
+      "source_sha256": "889704b3896146872fdfd6b0f759ec00c90495d94cdd4bb1bed07875024efc47",
+      "sha256": "501cb5754ef48dfea41e5701d5b45ce731908af98cc7837e123ae414f78b0f2c",
+      "bytes": 1753,
+      "modification": "Dependency paths converted to project asset layout; geometry retained.",
+      "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }

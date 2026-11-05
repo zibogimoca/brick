@@ -232017,10 +232017,16 @@
         "3009a",
         "3009b"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/3009.dat",
+        "sha256": "ca401017967bedb8ba6b638a51bf24d904015556cc48cd85783580fbd3cdde8d",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 3009; GoBricks mold equivalence not measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-535-010",
