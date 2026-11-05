@@ -83,6 +83,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "15672",
     "15712",
     "17114",
+    "1745",
     "1748",
     "1751",
     "1762",
@@ -347,6 +348,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "90194",
     "91988",
     "92438",
+    "92593",
     "93273",
     "93274",
     "96874",
@@ -8483,6 +8485,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "source_sha256": "827edfc93ece0c6898443bf247207e0a5182fcdaf30e1efb85285c9ab586e884",
       "sha256": "0a0cd8e3c7065c7325747f644a0222202f640d663f55d34b705a5efdd948af2d",
       "bytes": 565,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/1745.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/1745.dat",
+      "source_sha256": "b017d0da54803c72a658e813dc8808a9ec92f79a5cdbd3b14a2c86ebc8cca427",
+      "sha256": "31de551befe53592561d3ef4dbf4826ed355757cfc3e471ddfa802e137d4e338",
+      "bytes": 577,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/92593.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/92593.dat",
+      "source_sha256": "aff18eb900078f523e7ebed7bfe28e1c334e9b5b54dcc15ad92f725d71e75629",
+      "sha256": "91205ea9f3e4ff5bc744ff37441b306885e9ad08db991a427cd1de51ba859b6b",
+      "bytes": 809,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Magnus Forsberg [MagFors]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
