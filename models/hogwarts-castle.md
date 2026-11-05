@@ -1,42 +1,26 @@
-# Hogwarts Castle 71043 — 버전 0
+# Hogwarts Castle 71043 — version 0 reconstruction
 
-## 범위 및 자료
+## Source and scope
 
-- 재구성 대상: LEGO Hogwarts Castle 71043. 첨부된 PDF 12개를 분할 설명서로 취급한다. 파일명 숫자는 인쇄 페이지나 단계로 간주하지 않는다. 각 PDF 표지 요약의 책자 표시와 완성 도해를 기준으로 관계를 추적 중이다.
-- 이번 반영: `6607901-50.pdf`, 책자 22, 인쇄 p.10 단계 1–2. p.11 단계 3–5와 p.50–51의 넓은 판·벽체 지지 관계를 읽기 선행 근거로 사용했다.
-- 별도 페이지 6–9의 원형 소품은 이 테크닉 프레임 조립과 혼합하지 않고 별도 미확정 구간으로 남겼다. 미니피겨는 범위에서 제외한다.
+The supplied booklet PDFs are treated as segments of the 71043 instructions; filename digits are not interpreted as printed page or step numbers. Image review of `6607901-50.pdf`, booklet 22, maps PDF pp.6–14 to printed pp.10–18 and steps 1–18. Steps 8–18 appear on printed pp.13–18. Circular side builds shown earlier in this booklet remain a separate unresolved assembly. Minifigures are excluded.
 
-## 구현 및 상태
+The 64179 frame geometry and recursive dependencies came from the official `ldraw-org/official-library` repository at commit `894bbba5e696b1554800d8e45134c57163dba905`. Its header identifies a Technic Beam 7 x 5 with Open Center 5 x 3, CC BY 4.0. Source, license, dependency paths, and hashes are recorded in `assets/policy.md`. No GoBricks offer or SKU is asserted.
 
-- MPD 내부 `hogwarts-frame.ldr`에 노란 7홀 보 `32524.dat`, 핀 `2780.dat` 4개, 회색 긴 보 후보 `32278.dat`를 추가했다. 보 구멍 중심은 LDraw 좌표계에서 20 LDU 간격이며 네 핀은 x=-60,-20,20,60에 놓았다.
-- 2단계 회색 긴 보의 정확한 종류·핀 삽입 맞물림은 도해 기반 잠정 배치다. 물리 조립과 간섭은 미검증이다. 상품 SKU는 추정하지 않았다.
-- 다음: p.11 단계 3–5의 회색 프레임 커넥터와 연장부를 호출부 확대 판독 후 추가하고, p.50–51의 바닥판/벽체 결합으로 기준을 보정한다.
+## Written geometry
 
-- 추가 진행: `6607901-50.pdf` 책자 22, 인쇄 p.11 단계 3에서 회색 1×2 옆구멍 테크닉 브릭 두 개를 확인해 `3700.dat` 형상 후보로 서브모델에 기록했다. 보·핀 4개와 다중 구멍 축의 동시 맞물림 및 단계 3의 정확한 상대 좌표는 잠정이다. 단계 4–5는 아직 미기록.
+The root `hogwarts-frame.ldr` contains 25 physical references for steps 1–7. The 64179 frame at `[-40,20,0]` aligns four local through-hole centers `(40,0,z)`, z=−60,−20,20,60, with the four 2780 pins from step1. Center and axis residuals are 0 LDU. The nominal pin spans both adjacent 20-LDU layers; real fit and friction are untested.
 
-- 단계 6–7 (6607901-50.pdf, 책자 22, 인쇄 p.12): 장 회색 보·가로 보·판과 회색 블록/녹색·올리브 색상 부품을 추가했다. 후보 형상 및 좌표는 잠정이며, 후속 도해의 결합 접점에 따라 보정한다. 단계 8 내부 테크닉 프레임은 이어서 작성할 범위다.
+Root `part-0006` (32278, step2) currently has an end-face datum against the frame side, but its first hole is 9 LDU beyond the frame side-hole center. The step3 retaining joint remains unverified. `part-0012` and three tan supports form a provisional underside contact at y=38; the overhang and exact step5 support pattern remain unverified. Steps6–7 are candidate placements and remain subject to correction from later attachment evidence.
 
+Printed p.13 step8 is now a partial local assembly in `hogwarts-step8.ldr`. It contains one 64179 frame, two purple 2420 corner plates, one 32278 rail and two 2780 pins. The rail is rotated so its local +Y hole axis maps to +X and its local Z hole centers map to the frame side row. At z=−60 and +60, both pin axes and centers match the 64179 and 32278 holes; the pin length nominally spans both adjoining parts. These contacts are geometry-derived and not physically tested. The callout also shows one lime 2x2 axle-hole plate, one gray 1x2 side-connector and two gray 2x2 side-pin blocks; those three gray blocks and the center plate have not been placed because their precise shape/seat is unresolved. This module is partial and not root reachable.
 
-## 이어서 확인한 조립 구간
+Printed p.17 steps14–15 are a seven-reference local module (`hogwarts-step14.ldr`): a 32524 beam with four pins, a 64179 frame aligned to those pins and a 32278 rail. The beam/frame pin contacts align. The rail end datum is provisional; its first hole differs from the frame side-hole center by 9 LDU. The module is not root reachable. Printed p.18 step17 is a local 64179 frame with four 2780 pins at its side holes (`hogwarts-step17.ldr`); the pin contacts align, but no root placement is claimed without the step16 mating relation.
 
-- `6607901-50.pdf`(책자 22), PDF p.6–14를 직접 렌더링해 인쇄 p.10–18의 1–18단계를 확인했다. p.10 step 2의 `part-0006`은 15홀 회색 빔(32278)이며, 노란 7홀 빔과 평행하다. MPD/state에서 방향은 단위 회전으로 바꿨다(그림의 보 행 방향과 일치). `[0,20,0]`은 네 핀 축과 32278 구멍을 맞추는 수학적 후보지만, 도해에서 네 핀이 5×7 프레임에 들어가는지 32278에 들어가는지 구분할 수 없어 확정하지 않았다. 이 후보는 단계5 `part-0012`와 중첩하므로 유효 배치로 취급하지 않는다.
-- 인쇄 p.13–18(단계 8–18)은 정사각 5×7 테크닉 프레임을 중심으로 반복 빔·핀·커넥터를 조립한다. `assets/parts`에서 대응 프레임 DAT를 찾지 못했다. 이후 공식 LDraw GitHub 경로를 찾아 형상을 확보했다. 단계 1–2의 프레임 접점은 확인했고, 단부 연결 및 나머지 단계의 transforms는 추가 도해 대조 중이다. 이 프레임의 구멍 배열과 주변 빔의 다중 접점이 확정되지 않아 단계 8–18의 정확한 상대 배치는 보류다.
-- SKU/판매처 매핑은 미확인이다. 상품 매핑 상태를 구조 배치의 완료 근거로 쓰지 않는다.
-- 독립 진행: 인쇄 p.17 단계14의 노란 7홀 보와 핀 4개를 `hogwarts-step14.ldr` 내부 서브모델로 로컬 작성했다. 보 중심 기준 z=−60,−20,20,60의 네 구멍에 핀 축 X→+Y로 정렬했으며, 이는 아직 루트에서 호출되지 않은 미배치 로컬 조립체다. 단계15–18 도해에서 전체 프레임의 결합점을 확인한 뒤 전역 변환을 정할 예정이다.
+Steps9–13,16 and18 have been image-reviewed but are not yet reconstructed. Their callouts/sequence show additional beams and wall/base details, four step16 pins and two side-pin blocks, and a bent beam with two pins at step18. Exact part IDs and multi-contact transforms still need confirmation. Model state keeps local definitions separate from root placed-piece counts.
 
-- 2026-11-05: 공식 LDraw 저장소 `ldraw-org/official-library`, commit `894bbba5e696b1554800d8e45134c57163dba905`에서 `64179.dat`와 재귀 하위 형상 8개를 받았다. 헤더는 Technic Beam 7×5 with Open Center 5×3, 저자 Santeri Piippo, CC BY 4.0이다. 에셋 경로/출처/라이선스/원본 및 정규화 SHA-256은 `assets/policy.md` 매니페스트에 등록했다. Part 64179는 `parts/64179.dat` 및 `parts/subparts/64179s01.dat`이며, GoBricks 판매 형상 대응은 미확인이다.
-- p.10의 64179를 `part-00030`으로 추가했다. 로컬 홀 중심 `(40,0,z)`에서 `z=−60,−20,20,60`, 축 `+Y`인 네 홀은 변환 `[-40,20,0]` 뒤 `part-0002..0005` 핀 축과 각각 일치한다. 빔 층은 y=−10..10, 프레임 층 y=10..30, 핀의 기하 길이는 양 층을 가로지른다. 축선·중심 잔차는 0 LDU이며 마찰/실물 공차는 미검증이다.
+## Validation status
 
-- 네트워크: 환경 상태 API는 `unrestricted/enforced`였고 실행기의 `/etc/codex/network-policy.json`은 restricted startup snapshot으로 서로 달랐다. 권한 실행 경로에서 GitHub 접근이 성공했다. 공식 LDraw 웹 경로의 404 뒤 공식 저장소를 GitHub API 트리에서 확인해 파일을 받았다. 같은 경로에서 브랜치 `agent/hogwarts-v0`의 `ab24d34` 푸시도 성공했다.
-- 64179 연결점 대조: 공식 형상의 네 `connhole` 중심 `(40,0,−60/−20)` 및 Z 반사 `(40,0,20/60)`은 `+Y`축이다. 프레임 `[-40,20,0]` 변환 후 각 중심은 `(0,20,z)`가 되어 `part-0002..0005`의 핀 축선과 0 LDU 잔차로 일치한다. 프레임 층 y=10..30과 노란 보 y=−10..10을 핀이 관통한다.
-- `part-0006`은 32278의 15개 홀 피치(20 LDU)로 계산했다. Y축 90° 회전으로 로컬 Z를 전역 +X로 보내고 중심을 `[150,20,0]`에 두면 끝 홀 x=10이 프레임 옆면 기준점 `(10,20,0)`에 닿는다. 다만 그 프레임 옆면 홀 축 X와 32278의 홀 축 Y는 직교하므로, 단계 3의 유지 부품과 직접 고정은 추가 대조가 필요하다.
-- p.11 단계5의 32278(`part-0012`)은 프레임 개구부 폭 60 LDU 안쪽 x=−40에 두고, 프레임 위 지지판 세 개(3024×2, 3021×1) 스터드 높이에 맞춰 y=52에 둔 잠정 배치다. 전체 빔 길이와 지지면의 일부가 맞지만 돌출단의 후속 체결 위치는 아직 미검증이다.
-- p.17 단계15의 프레임과 32278을 `hogwarts-step14.ldr` 로컬 조립체에 추가했다. 네 핀과 프레임 구멍은 정렬되고, 긴 빔 끝은 프레임 옆면에 접한다. 이 로컬 조립체는 현재도 루트 미배치이며 `placed_piece_count`에 포함하지 않았다.
-
-
-### 2026-11-05 후속 반영
-
-- 권한 실행 경로로 `ab24d34`를 원격에 푸시했다. LDraw 공식 저장소 commit `894bbba5e696b1554800d8e45134c57163dba905`에서 64179와 재귀 의존 형상을 확보하고 출처·CC BY 4.0·원본/정규화 해시를 `assets/policy.md` 매니페스트에 등록했다.
-- p.10 프레임을 `part-00030`으로 루트 조립체에 추가했다. p1의 네 핀과 64179의 `(40,0,z)` 홀, z=−60,−20,20,60의 축/중심 잔차는 0 LDU다.
-- `part-0006`은 프레임 side-hole 기준점까지 이동했다. 빔/프레임 끝면은 맞지만 두 홀 축이 직교하며 단계 3 보유 부품과 잠금은 아직 확인 중이다. `part-0012` 및 세 tan 지지부는 개구부 내 임시 지지 구조로 이동해 겹침 후보를 제거했으며, 돌출단 연결은 미검증이다.
-- 단계 14–15 로컬 서브모델에 프레임과 회색 빔을 추가했다. 이 7개 로컬 참조는 `unplaced_submodels`에 기록하며 루트에서 배치된 부품 수 25에는 포함하지 않는다.
+- MPD physical Type-1 references, unique IDs, per-instance transforms, and state records are checked separately for root and unplaced local modules.
+- Root placements: 25. Local partial modules: 18 references total. Unplaced definitions are not counted as assembled root pieces.
+- 64179 source asset hashes and recursive dependencies are recorded in the shared asset manifest.
+- The repository validator reaches the commercial catalog lookup, then stops on empty `gobricks_id` (`KeyError: ''`). This is a catalog-mapping failure, not a geometry pass. Structural/shape checks continue independently; no placeholder offer data is used.
