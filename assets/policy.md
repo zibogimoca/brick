@@ -15,7 +15,7 @@
 | `LDConfig.ldr` | 색상 번호와 화면 표시 색상·재질의 대응표. |
 | `policy.md` | 사용자가 알아야 할 에셋 구조·관리 원칙·이용 조건을 모은 유일한 설명 문서. |
 
-`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 317종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
+`.dat`는 문서가 아니라 좌표, 면, 다른 형상 파일의 배치 정보를 담는 LDraw 형상 형식이다. 현재 목록의 상위 부품은 318종이며, 나머지 형상 파일 상당수는 그 부품들이 참조하는 조각이다. 파일 수가 판매 부품 수를 뜻하지 않는다.
 
 ## 왜 나뉘어 있는가
 
@@ -112,6 +112,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "2453a",
     "2456",
     "2462",
+    "2465",
     "24855",
     "24866",
     "25269",
@@ -8930,6 +8931,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 320,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/2465.dat": {
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905",
+      "archive_member": "ldraw/parts/2465.dat",
+      "source_sha256": "3237acda8a54e8835b93abd983b847ff1921d05d8ff52a8e1f3c47f88d98ec64",
+      "sha256": "2e5000c3c99a13a96832c71fc00bf7adfd539c6b1e58a479e85aa44740a4b8ff",
+      "bytes": 546,
+      "modification": "Renamed recursive reference s\\2465s01.dat to subparts/2465s01.dat for shared asset paths; geometry coordinates unchanged.",
+      "author": "James Jessiman",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/2465s01.dat": {
+      "source_archive": "https://github.com/ldraw-org/official-library/tree/894bbba5e696b1554800d8e45134c57163dba905",
+      "archive_member": "ldraw/parts/s/2465s01.dat",
+      "source_sha256": "192c3ea8ba73dbd62700f915a762249692886f852b466dc3aa42675727e1921a",
+      "sha256": "192c3ea8ba73dbd62700f915a762249692886f852b466dc3aa42675727e1921a",
+      "bytes": 2344,
+      "modification": "No geometry changes; recursively referenced by parts/2465.dat.",
+      "author": "Michael Heidemann [mikeheide]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
