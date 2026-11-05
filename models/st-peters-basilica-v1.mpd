@@ -4,9 +4,9 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 sp-dome-profile.ldr
 1 16 760 0 -200 1 0 0 0 1 0 0 0 1 sp-front-window-study.ldr
 1 16 760 0 160 1 0 0 0 1 0 0 0 1 sp-square-straight-study.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 sp-nave-study.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 sp-crossing-study.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 sp-colonnade-curve-study.ldr
+1 16 -760 0 0 1 0 0 0 1 0 0 0 1 sp-nave-study.ldr
+1 16 0 0 800 1 0 0 0 1 0 0 0 1 sp-crossing-study.ldr
+1 16 760 0 800 1 0 0 0 1 0 0 0 1 sp-colonnade-curve-study.ldr
 0 FILE sp-dome-profile.ldr
 0 조립 표본: 계단형 곡률과 드럼·랜턴의 상대 인상만 시험. 세로 골은 색상 위치 표기이며 완성된 돌출 리브가 아님. 실물 조립·강도 미검증.
 0 !BRICK_INSTANCE M-00001
