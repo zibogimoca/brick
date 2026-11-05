@@ -612962,10 +612962,49 @@
         "4275",
         "4275b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/4275b.dat",
+        "sha256": "74a8135bac411fa7b44ecf2c53e0f6e3fa3d922a530ebdbc475eb2a577039351"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            34.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          21.6,
+          4.800000000000001,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "id": "finger-hinge",
+          "kind": "hinge_plate_three_fingers",
+          "position": [
+            30,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "verification": "Reference primitive transform: h1/h2 at (20,4,0), cylinder axis at primitive (0,10,z). Physical friction and angular stops unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-M173-010",
@@ -613437,10 +613476,49 @@
         "4276",
         "4276b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/4276b.dat",
+        "sha256": "464fdd6f97840b72e0434c74bf2df955adb06fdfa9a0ee2e0144ccba90d399ea"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            34.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          21.6,
+          4.800000000000001,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "id": "finger-hinge",
+          "kind": "hinge_plate_two_fingers",
+          "position": [
+            30,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "verification": "Reference primitive transform: h1/h2 at (20,4,0), cylinder axis at primitive (0,10,z). Physical friction and angular stops unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-M174-010",
