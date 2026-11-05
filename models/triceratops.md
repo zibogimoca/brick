@@ -217,3 +217,20 @@ LEGO 77985 설명서 PDF를 기준으로 `triceratops-v0.mpd`를 재구성한다
 - 단계277 호출의 여섯 범주를 단계 순서와 전체 부품표 수량으로 대조해 두 뿔 각각에 후보를 배치했다: 근위 수형 볼 축 `2736`, 긴 유연 호스 `14301`, 호스 축을 따라 들어가는 매끈한 3L 막대 `87994`, 둥근 슬롯 슬리브 `62462`, 작은 테이퍼 어댑터 `59900`, 말단 곡선 뿔 `13564`. 도해의 짧은 핀·원통·테이퍼 실루엣과 부품표의 두 개씩 수량은 이 구성과 양립한다. 이 좌표는 단계 순서에 근거한 후보 조립이며 소켓 지름/수형축 단면·체결 깊이는 확인 전이다. 대안 `4519`, `22484`, `59443`, `98100`은 동시에 넣지 않고 분별 특징을 상태에 기록했다.
 - 253–254단계의 공식 DAT를 다시 좌표화해 수정했다. `3023b`의 두 스터드는 기본 로컬 Z 방향의 `z=±10` 행에 있으므로, 90° 회전 후 위치 `[0,0,10]`에 놓아 전역 `(x=±10,z=10)`에 맞췄다. `4032a` 밑면의 한 소켓 행도 같은 중심이므로 명목 중심 잔차는 0 LDU, 판 바닥과 원형판 밑면의 간격은 0 LDU다. 중심 액슬 구멍은 수직 로컬 Y축으로 열린 채 유지된다. 이는 공식 형상 중심선 기반 잠정 접촉이며, 설명서 금형 번호·실제 공차·하중 검증은 아니다.
 - 단계255(인쇄 139쪽) 확대도는 90° L형 스터드판 하나와 둥근 스터드 캡 둘을 부른다. `2420`과 `6141×2` 후보를 새 로컬 조립체에 넣었다. 캡이 smooth tile `25269`인지 studded round `6141`인지는 top-surface detail로 더 확인할 항목이다. 이 조립체를 단계256 팔에 아직 연결하지 않았다. 단계257의 아래 보강판이 같은 중심 접점을 함께 지지하는지 대조한 뒤 한 개 변환만 적용할 예정이다.
+
+## 메인 에이전트의 제품 부품표 대조 — 2026-11-05
+
+공식 77985 설명서 `6649865.pdf`의 161–162쪽 부품표를 기존 공용 사전 `instruction_sets["77985"]`에 등록했다. 281개 요소의 인쇄 수량 합계는 1154개로 제품 안내와 일치한다. 요소·수량·원본 위치와 Rebrickable의 부품/색상 교차표를 구분해 저장했고, 미니피겨·명판을 포함한 제품 전체 목록이므로 모델 범위 수량과 동일시하지 않는다.
+
+메인이 도해를 직접 대조한 결과 기존 기록의 후보 일부에 오류가 있다. 4단계는 스터드 있는 dark tan 18980 판, 5단계는 적갈색 스톱 축24316·회색 십자 구멍32064a·3713 부싱, 6단계 갈색 경사면은28192, 10단계는 흰 꽃4367·초록 막대68211·청색 체리22667 후보로 재검토한다. 247단계는 검은 측면 스터드47905와 원형판6141 두 개, 249단계 검은 캡은25264, 278단계는32056·92907·61332 후보가 공식 제품 목록과 호출도해에 부합한다. 상세 요소 번호·색상·이전 후보와의 차이는 사전의 `reviewed_step_candidates`를 따른다. 이는 새 후보의 근거이며 실제 조립·삽입을 확정한 기록이 아니다.
+
+초기 10–13쪽은 전시 소품의 바위·식물·표지판 기반부이며 화석 두개골 본체가 아니다. 후반 278단계의 큰 tan 화석 두개골과 혼동한 기존 내부 모듈 명칭·연결 가정을 재검토해야 한다. 표지판·미니피겨 제외 지시는 유지한다. 이 검토에서는 MPD 좌표·기존 배치를 수정하지 않았고, 담당 에이전트가 최신 자기 브랜치에서 후보 교체와 접점 계산을 수행한다. 기존 후보로 얻은 잔차0·핀 삽입 결과를 새 부품의 검증으로 승계하지 않는다.
+
+
+## Current-manual candidate corrections — 2026-11-05
+
+Merged the current `origin/main` inventory review (`a52802c`) and inspected official `6649865.pdf` pages 11–13, 136–137, and 148. The early step 4–6 objects are a display-base/rock formation, not the fossil skull. In `triceratops-v0.mpd`, step 4 now uses the rounded 2×6 plate candidate `18980`; step 6 uses two reddish-brown `28192` cutout slopes around its called small brick. Step 5 axle/bushing candidates were replaced by `24316`, `32064a`, and `3713`; their centers and axes were recalculated from the new DAT files. Step 10 now records the called green stem `68211`, white flower `4367`, and dark-azure cherry `22667`, with local branch fit provisional.
+
+Step 247’s `6541`/`6577` stack was replaced by the called opposite-side-stud brick `47905` and two stacked black `6141` round plates. Step 249’s former `43093` pins and `62462` slotted joiners were replaced by black `6141` and `25264` shape candidates; their support contacts remain provisional. Step 278’s `32140`/`32184`/`11214` assembly and derived 40-LDU port fit were withdrawn and rebuilt with `32056`, `92907`, and two `61332` friction pins. The step 279 external mating transform is not claimed. Product inventory totals remain distinct from placements shown in an individual instruction step.
+
+The same review removed one exact duplicate frame-base placement (`part-0022` 4282) at the root stand plate transform; the frame now reuses the root base plate instead of double-counting it.
