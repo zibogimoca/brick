@@ -366,7 +366,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "99207",
     "99563",
     "99780",
-    "99781"
+    "99781",
+    "19119"
   ],
   "files": {
     "LDConfig.ldr": {
@@ -8666,6 +8667,24 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Steffen [Steffen]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/19119.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/19119.dat",
+      "sha256": "0489fd68cb86898ef60e234de7425346d1324036ed88b5536655bc31f9e09d5f",
+      "bytes": 11288
+    },
+    "primitives/t01o4000.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/t01o4000.dat",
+      "sha256": "649427b40541ede62e77cdc22b775a78f51e0bd01e3a8ddeed5ad249cbc7aab9",
+      "bytes": 17905
+    },
+    "parts/37695s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/37695s01.dat",
+      "sha256": "93faae8f7cff333fa15f0486b4cdf9d574ddf97548e75a689166d0cd0557b905",
+      "bytes": 52052
     }
   }
 }
