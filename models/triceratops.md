@@ -10,11 +10,13 @@
 - Step 249 is a local sandwich core: two 6541 bricks between the 3023b layers. The 6141 underside tubes enter the parallel +Z side ports and their top studs point outward. The 25264 anti-stud intervals register over those studs, with mold fit and cap azimuth still provisional.
 - Step 278 is rebuilt from 32056, 92907 and two 61332 parts. Both pin tips are placed into the parallel 6541 ports on the step249 support, with centerline, pitch and 10-LDU projection registration. This is a locally connected skull-link joint; its molded fit and the separate step279 body interface remain unverified.
 - Independent later body, skull and base fragments continue as local candidate assemblies. Their unconnected definitions are not counted as pieces attached to the final root.
-- Printed steps 237–238 now form a local rail: one tan 3023b plate supports two of the ten-stud positions of the tan 4477 plate; step238 adds two tan 6141 round plates at x=20/40 and another 3023b at x=80. These stud centers register to the 4477 pattern. The rail is a partial skull-side branch; the later 239–246 connection into the head core remains to be restored.
+- Printed steps 237–246 form a provisional local skull rail: one tan 3023b plate supports two of the ten-stud positions of the tan 4477 plate; step238 adds two tan 6141 round plates at x=20/40 and another 3023b at x=80. These stud centers register to the 4477 pattern. The rail is a partial skull-side branch; the later 239–246 connection into the head core remains to be restored.
+
+- Official LDraw `41239.dat` and `66906.dat` (alias to `6628.dat`) are registered in the shared asset tree with recursive references, original attribution and license. The p.82 step124 callout supports their display-upright role; their relative transform is still unplaced, and they are not used as the step279 torso receiver.
 
 ## 검사 결과와 한계
 
-Current state records 166 physical instance IDs across the MPD hierarchy. Structural checks compare every ID, part, color, composed transform and quantity with embedded state. SKU mapping remains separate from source-part identity. LDraw DAT axis/center tests are distinct from closed-solid Boolean or open-surface collision tests; neither collision method is treated as valid when its mesh assumptions fail.
+Current state records 201 root-reachable physical instances and one called-but-unplaced step246 92947 candidate; draft placements are not a completed product count. Structural checks compare every ID, part, color, composed transform and quantity with embedded state. SKU mapping remains separate from source-part identity. LDraw DAT axis/center tests are distinct from closed-solid Boolean or open-surface collision tests; neither collision method is treated as valid when its mesh assumptions fail.
 
 ## 장식·범위 확인 항목
 
@@ -35,6 +37,10 @@ The step10 callout and the latest product-inventory crosswalk support one white 
 - 인쇄 12쪽 6단계의 갈색 1×1 브릭을 두개골 서브모델 로컬 원점으로 삼고, 인접한 두 갈색 경사/날개 부품 후보 24299를 좌우로 배치했다. 형상 파일은 공용 에셋에서 확인했으나 설명서의 실제 금형 번호와 stud 접점은 잠정이다.
 - 인쇄 13쪽 완성도와 11단계 그림에서 두개골 옆에 2×2 원형 스터드가 있는 판 2개가 세워지는 것을 확인했다. 아직 정확한 판 후보 및 브래킷 연결면을 특정하지 않아 접점만 보류한다. 기준 본체는 별도 서브모델로 기록했다.
 - 두개골 서브모델의 몸체 기준 변환과 장식 모듈 연결 변환은 후속 시점 대조 대상으로 남겼다. SKU 미확인은 설계 선행 조건으로 사용하지 않았다.
+
+## 인쇄 131–132쪽 단계 237–239 로컬 레일
+
+`triceratops-skull-spine-237-246.ldr` contains the tan 4477 1x10 plate over 3023b at two stud centers. The step238 6141 round plates at x=20/40 and 3023b at x=80 are aligned to the visible top-stud grid. Steps239 parts are also present at the far end in the p.132 callout order; the brace transform is provisional. Front, side and oblique renders were reviewed against p.131–132. They confirm the draft has the depicted rail-and-block silhouette, not a verified fit or attachment to the head core. Step239 adds the callout-confirmed two 3023b, two LBG 32000 and two tan 35480 candidates at the rail end; their orientation/stack is still provisional. Steps240–245 extend the row with 3024/3700/54200/6541/35480/3710/6141 and one provisional 29120 curved wedge. The investigated 7324 elbow is not placed: its official 80-LDU shape conflicts with the small step241 icon. Step246 now adds the called cap candidates, but the 92947 contact and upper-row placement remain provisional.
 
 ## 화석 두개골 조립 모듈 이름 보정
 
@@ -106,7 +112,7 @@ Step278 DAT checks register the paired 61332 pins inside the 32056/92907 link an
 
 ## 단계 250 두개골 연장판
 
-- 인쇄 137쪽 250단계 호출은 tan 네-스터드 1×4 판 한 개다. 공식 `3710.dat`의 네 스터드와 평판 윤곽이 호출과 일치한다. 실제 배치는 `triceratops-skull-250.ldr` 내부 로컬 조각으로 작성했고, 긴 축은 도해의 두개골 보 방향에 맞췄다. 루트의 X=1600은 미연결 조각을 보기 좋게 분리한 편집 좌표다. 스터드 행·겹침·두개골 최종 변환은 미확인이라 기존 247/249 수용부와 임의로 결합하지 않았다.
+- 인쇄 137쪽 250단계의 tan 3710은 별도 조각으로 두지 않고, p.137의 캡 위로 뻗는 방향을 따라 237–246 레일 모듈에 배치했다. 기존 3710과 한 plate layer만큼 높이를 분리하고 x=80에서 40 LDU 겹치도록 두어 잠정 스터드 연결을 만들었다. 이 연결은 정면·측면·사선 렌더에서 물리적으로 연속된 후보로 보이나, 설명서의 가려진 스터드 행이 드러나지 않아 최종 맞물림은 미검증이다.
 
 
 ## 단계 251 소형 두개골 연결 조각
@@ -187,3 +193,8 @@ The same review removed one exact duplicate frame-base placement (`part-0022` 42
 - 278단계는 이전 32140/32184/11214 축과 삽입 결과를 버리고 공식 32056·92907·61332 DAT의 구멍축·핀 구간으로 다시 구성했다. 61332는 x축 방향 길이 40 LDU이며, 92907 관통 구간 x=0..20과 32056 web x=20..30을 지나 10 LDU 노출된다. 두 축은 20 LDU 피치다. 이는 공식 형상의 중심선 정합이며 핀 단면이 각 32056 axlehole/round hole에 실제로 맞는지까지 확정한 것은 아니다.
 - p.148은 링크가 두개골 뒤쪽에 붙는 것을 보여 준다. 현재 step278→step249 후보 변환은 두 노출 핀의 중심·축·10 LDU 삽입을 동시에 맞춘다. 자유 32056 axlehol4는 링크 로컬 [20,60,0], 축 +X이고, 그 후보 변환을 거치면 두개골 로컬 [-10,26,-20], 축 +Z다. p.149에서 두개골/링크가 몸통으로 이동하는 것은 보이지만 해당 몸통 핀·축·구멍은 현재 MPD에 없고 완성도만으로 정확한 중심을 얻을 수 없어 최종 상대 변환은 보류했다. 과거 47905 맞춤 잔차와 32140/32184 좌표는 폐기했다.
 - 이전 `torso-*` 파일명은 잘못된 조립체 분류를 담고 있어 모든 250–277단계 MPD 모듈·상태 그룹을 `skull-*`로 개명했다. 배치와 물리 인스턴스 ID·수량은 그대로다. 초기 4–6단계 전시 받침/바위는 `display-*`로 남고 화석 두개골과 별도다.
+
+
+## 2026-11-05: 237–250 connected local skull branch
+
+The p.131–135 rail through steps237–246 is retained in its local datum. Step250 `3710.dat` is now nested into that module rather than left at a separate root editor coordinate. It overlaps the prior 3710 by 40 LDU in plan and meets it at the next plate layer, based on the p.137 top-span silhouette; this is a provisional physical connection, not a confirmed concealed-stud fit. Front, side, and oblique renders were regenerated. Step246 `92947.dat` remains at its prior diagram-derived transform, but the earlier assertion that its underside sockets mate to the two `32000.dat` bricks is withdrawn: the official DAT features do not support that claim. Its position/contact remains unverified. `python3 tools/validate_model.py models/triceratops-v0.mpd --sync-state` reports 201 root-reachable instances and one unplaced 92947 candidate; this verifies reference/state consistency only. Geometry edits: moved step250 ID `part-0022` into the connected rail module and retained its inventory count; withdrew step246 ID `part-0192` from the unsupported overlap and preserved it in an explicitly unplaced internal module. Record-only edits: withdrew the false 92947 mating claim and updated source/assembly status.
