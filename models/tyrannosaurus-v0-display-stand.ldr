@@ -74,22 +74,22 @@
 1 72 460 -32 30 1 0 0 0 1 0 0 0 1 3023b.dat
 0 STEP
 0 Instruction step 11 / book 1 page 19; provisional frame-relative placement
-1 26 680 -8 -10 1 0 0 0 1 0 0 0 1 41740.dat
-1 26 680 -8 10 1 0 0 0 1 0 0 0 1 41740.dat
+1 26 700 -8 -10 1 0 0 0 1 0 0 0 1 41740.dat
+1 26 700 -8 10 1 0 0 0 1 0 0 0 1 41740.dat
 0 STEP
 0 Instruction step 12 / book 1 page 20. Two terminal brackets face +X across full plinth width.
-1 0 710 -16 -20 0 0 -1 0 1 0 1 0 0 99207.dat
-1 0 710 -16 20 0 0 -1 0 1 0 1 0 0 99207.dat
+1 0 730 0 -20 0 0 -1 0 1 0 1 0 0 99207.dat
+1 0 730 0 20 0 0 -1 0 1 0 1 0 0 99207.dat
 0 STEP
 0 Instruction step 13 / book1 pages21–22. Cross-base mating pose under diagram review.
 1 16 700 0 140 1 0 0 0 1 0 0 0 1 cross-base-step13.ldr
 0 STEP
-0 Instruction step 14 / book1 page24.
-1 15 520 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat
+0 Instruction step 14 / book1 page23. Rounded plate is at the inward end of the white 1x8; white 1x8 meets the blue end plate.
+1 15 580 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat
 1 15 240 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat
-1 15 620 -8 -30 1 0 0 0 1 0 0 0 1 35480.dat
-1 322 680 -8 -30 1 0 0 0 1 0 0 0 1 3710.dat
-1 14 650 -16 -20 0 0 -1 0 1 0 1 0 0 47457.dat
+1 15 480 -8 -30 1 0 0 0 1 0 0 0 1 35480.dat
+1 322 700 -8 -30 1 0 0 0 1 0 0 0 1 3710.dat
+1 14 650 -24 -20 0 0 -1 0 1 0 1 0 0 47457.dat
 0 STEP
 0 Instruction step 15 / book1 page24.
 1 16 380 0 -140 -1 0 0 0 1 0 0 0 -1 cross-base-step15.ldr
@@ -216,18 +216,18 @@
 1 0 580 -40 20 0 0 -1 0 1 0 1 0 0 33909.dat
 0 STEP
 0 Instruction step 32 / book1 pages42–43. Mounted to cross-base15.
-1 16 480 0 -160 0 0 -1 0 1 0 1 0 0 central-foot-side-step32.ldr
+1 16 280 0 -160 0 0 1 0 1 0 -1 0 0 central-foot-side-step32.ldr
 0 STEP
-0 Core columns: native73230 hole axes align standX-42/678. Mating height under review against book1pages199-200.
+0 Core columns: native73230 hole axes align standX-42/698. Mating height under review against book1pages199-200.
 0 Book1 columns and surrounding detailing54–98; actual stand coordinates, no workbench display roots. Physical fit issues explicitly recorded in progress JSON.
 1 16 -28 -8 0 0 1 0 -1 0 0 0 0 1 stand-low-column-step54.ldr
-1 16 692 -8 0 0 1 0 -1 0 0 0 0 1 stand-column-step54.ldr
-1 16 692 -8 0 0 1 0 -1 0 0 0 0 1 stand-first-post-trim-step69.ldr
-1 16 680 -120 0 1 0 0 0 1 0 0 0 1 stand-top-rock-ring-step76.ldr
+1 16 712 -8 0 0 1 0 -1 0 0 0 0 1 stand-column-step54.ldr
+1 16 712 -8 0 0 1 0 -1 0 0 0 0 1 stand-first-post-trim-step69.ldr
+1 16 700 -120 0 1 0 0 0 1 0 0 0 1 stand-top-rock-ring-step76.ldr
 1 16 -52 -8 0 0 -1 0 -1 0 0 0 0 -1 stand-second-post-trim-step83.ldr
 1 16 -40 -120 0 -1 0 0 0 1 0 0 0 -1 stand-top-rock-ring-step94.ldr
-0 Step73 end panel uses upper72 stud grid; lower12 4LDU mismatch logged. Step79 horizontal backing meets lowerSNOT rowY-22 and wing meets87087(710,-62,-40).
-1 16 732 -52 20 0 -1 0 -1 0 0 0 0 -1 stand-side-wedge-step73.ldr
+0 Step73 and both bracket grids align in overhang candidate; body post coupling remains under review. Step79 horizontal backing meets lowerSNOT rowY-22 and wing meets87087(710,-62,-40).
+1 16 752 -52 20 0 -1 0 -1 0 0 0 0 -1 stand-side-wedge-step73.ldr
 1 16 660 -12 -48 1 0 0 0 0 -1 0 1 0 stand-rock-panel-step79.ldr
 0 Step91/95 horizontal backing mates lowerSNOT rowY-22; wing mates upper87087(-70,-62,+/-40).
 1 16 -20 -12 -48 1 0 0 0 0 -1 0 1 0 stand-rock-panel-step91.ldr
@@ -236,15 +236,15 @@
 1 16 -92 -32 0 0 1 0 0 0 1 1 0 0 stand-fossil-tile-step87.ldr
 0 Step93 outer end panel: upper86 side stud planeX-84.
 1 16 -92 -52 0 0 1 0 -1 0 0 0 0 1 stand-side-wedge-step93.ldr
-0 Step75 remaining end strip; brick bottoms meet72 side studplaneX724.
-1 16 724 -52 -30 0 -1 0 -1 0 0 0 0 -1 stand-rock-core-step75.ldr
-0 Step74 foot-side rock attaches first-foot48 bracket candidate; cross-check when foot48 finalized.
-1 16 750 -30 32 0 0 1 1 0 0 0 1 0 stand-corner-rock-step74.ldr
+0 Step75 remaining end strip; brick bottoms meet72 side studplaneX744.
+1 16 744 -52 -30 0 -1 0 -1 0 0 0 0 -1 stand-rock-core-step75.ldr
+0 Step74 wedge underside at X716 meets the four side studs of the corrected step48 bracket.
+1 16 692 -30 70 0 1 0 1 0 0 0 0 -1 stand-corner-rock-step74.ldr
 0 Steps77/78 upper front ornaments; final multi-foot clearance needs review.
-1 288 650 -120 10 1 0 0 0 1 0 0 0 1 32607.dat
-1 71 640 -120 -10 0 0 1 0 1 0 -1 0 0 28192.dat
-1 16 610 -88 -10 0 0 1 0 1 0 -1 0 0 stand-orange-geode.dat
-1 16 650 -144 10 -1 0 0 0 1 0 0 0 -1 stand-corner-rock-step78.ldr
+1 288 670 -120 10 1 0 0 0 1 0 0 0 1 32607.dat
+1 71 660 -120 -10 0 0 1 0 1 0 -1 0 0 28192.dat
+1 16 630 -88 -10 0 0 1 0 1 0 -1 0 0 stand-orange-geode.dat
+1 16 670 -144 10 -1 0 0 0 1 0 0 0 -1 stand-corner-rock-step78.ldr
 0 Step80 side triangle; faces mate side SNOT planeZ-40.
 1 16 650 -12 -64 0 0 -1 -1 0 0 0 1 0 stand-side-rock-pair-step80.ldr
 0 Step81 shield overlay mates79 three-by-three white stud field atZ-72.

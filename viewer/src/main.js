@@ -87,12 +87,15 @@ let entries = [];
 async function fetchCatalog() {
   const response = await fetch('./models/index.json?t=' + Date.now(), { cache: 'no-store' });
   if (!response.ok) throw new Error('Model index unavailable');
-  return response.json();
+  const data = await response.json();
+  return data.map(entry => {
+    const file = entry.url?.split('/').pop()?.replace(/\.mpd$/i, '') || entry.name;
+    const match = file.match(/^(.*)-v(\d+)$/);
+    return { ...entry, modelId: entry.modelId || (match ? match[1] : entry.name), modelName: entry.modelName || (match ? entry.name.replace(/\s*·\s*버전\s*\d+$/, '') : entry.name), versionLabel: entry.versionLabel || (match ? `버전 ${match[2]}` : '기본') };
+  });
 }
-$('models').onchange = async () => {
-  if ($('models').value === '') return;
-  const selectedEntry = entries[Number($('models').value)]; if (!selectedEntry) return;
-  $('models').disabled = true;
+async function loadEntry(selectedEntry) {
+  if (!selectedEntry) return;
   try {
     const latest = await fetchCatalog();
     const entry = latest.find(item => item.url === selectedEntry.url); if (!entry) throw new Error('Model removed');
@@ -104,8 +107,18 @@ $('models').onchange = async () => {
     if (entry.version && entry.version !== revision) throw new Error('Model index and contents disagree');
     await open(data, entry.url, revision);
   } catch { status('최신 모델 파일을 가져오지 못했습니다. 잠시 후 다시 선택하세요.'); }
-  finally { $('models').disabled = false; }
+}
+$('models').onchange = () => {
+  const modelId = $('models').value; const versions = $('versions');
+  versions.replaceChildren(new Option('버전 선택', ''));
+  const matches = entries.map((entry, index) => ({ entry, index })).filter(x => x.entry.modelId === modelId)
+    .sort((a, b) => (b.entry.designVersion ?? -1) - (a.entry.designVersion ?? -1));
+  versions.disabled = !matches.length;
+  for (const { entry, index } of matches) versions.add(new Option(entry.versionLabel, String(index)));
+  if (matches.length) { versions.value = String(matches[0].index); loadEntry(matches[0].entry); }
+  else status('모델을 선택하세요.');
 };
+$('versions').onchange = () => { if ($('versions').value !== '') loadEntry(entries[Number($('versions').value)]); };
 $('fit').onclick = fit;
 $('hide').onclick = () => { if (!selected) return; selected.visible = false; hidden.push(selected); selected = null; $('hide').disabled = true; $('selection').textContent = '선택한 부품을 숨겼습니다.'; refreshInstanceBatches(); };
 $('reset').onclick = () => { for (const item of hidden) item.visible = true; hidden.length = 0; refreshInstanceBatches(); fit(); };
@@ -114,7 +127,12 @@ renderer.domElement.addEventListener('pointerdown', e => { down = [e.clientX, e.
 renderer.domElement.addEventListener('pointerup', e => { if (!model || !down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5) return; const rect = renderer.domElement.getBoundingClientRect(); raycaster.setFromCamera(new THREE.Vector2((e.clientX - rect.left) / rect.width * 2 - 1, -(e.clientY - rect.top) / rect.height * 2 + 1), camera); const hits = raycaster.intersectObject(model, true).filter(h => { for (let p = h.object; p; p = p.parent) if (!p.visible) return false; return h.object.isMesh; }); selected = hits[0]?.object?.isInstancedMesh ? hits[0].object.userData.sourceMeshes[hits[0].instanceId] : hits[0]?.object || null; while (selected?.parent && selected.parent !== model && selected.userData.type !== 'Part') selected = selected.parent; $('hide').disabled = !selected; $('selection').textContent = selected ? `선택: ${selected.userData.fileName || selected.name || '부품'}` : '부품을 클릭하면 선택됩니다.'; });
 new ResizeObserver(() => { const w = $('viewport').clientWidth, h = $('viewport').clientHeight; renderer.setSize(w, h); camera.aspect = w / h; camera.updateProjectionMatrix(); }).observe($('viewport'));
 renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
-fetchCatalog().then(data => { entries = data; entries.forEach((entry, index) => { const option = document.createElement('option'); option.value = String(index); option.textContent = entry.name; $('models').append(option); }); if (entries.length) status('모델을 선택하세요.'); }).catch(() => status('모델 목록을 가져오지 못했습니다. 페이지를 다시 열어주세요.'));
+fetchCatalog().then(data => {
+  entries = data;
+  const models = [...new Map(entries.map(entry => [entry.modelId, entry.modelName])).entries()];
+  for (const [id, name] of models) $('models').add(new Option(name, id));
+  if (entries.length) status('모델을 선택하세요.');
+}).catch(() => status('모델 목록을 가져오지 못했습니다. 페이지를 다시 열어주세요.'));
 
 function configurePose(metadata) {
   poseJoints = metadata?.joints || []; poseGroups = new Map();

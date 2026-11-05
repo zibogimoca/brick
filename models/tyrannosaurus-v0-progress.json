@@ -2555,34 +2555,37 @@
     {
       "book": 1,
       "page": 205,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         202,
         203,
         204,
         205,
-        206,
-        205
+        206
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Printed page 205; five numbered assembly steps shown.",
+      "role": "골반 아래쪽 곡선 지지 바 조립",
+      "draft_file": "tyrannosaurus-v0-leg-experiment.ldr",
+      "reason": "부품표·표준 형상과 대조해 24201/13547/3623/3710/78329/70681의 다섯 단계를 로컬 하위조립으로 배치했다. 단계213에서 골반 모듈에 통합되어 있으며, 밑면 계단면 접촉과 실제 체결은 추가 검증이 필요하다."
     },
     {
       "book": 1,
       "page": 206,
-      "status": "not_reviewed",
+      "status": "diagram_reviewed_placement_draft",
       "number_candidates": [
         207,
-        1,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        2,
-        206
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214
       ],
-      "number_extraction_note": "Includes page numbers and inset substeps; requires visual identification."
+      "number_extraction_note": "Printed page 206; eight assembly insets shown, matching draft substeps 207–214.",
+      "role": "골반 양쪽 패널 조립 및 핀 연결",
+      "draft_file": "tyrannosaurus-v0-reconstruction.ldr",
+      "reason": "PDF 1권 206쪽의 부품표와 조립 도해를 확인했다. 기존 골반 앞·뒤 패널 작업본과 렌더에 대응한다. 패널 방향·접촉면·체결은 본체 통합 상태에서 추가 대조가 필요하며 실물 검증은 하지 않았다."
     },
     {
       "book": 1,
@@ -15414,16 +15417,17 @@
   "scope_decision": "미니피겨·명판·장식 생략 가능. 받침판은 빨간 대체 허용. 공룡 본체 뼈대·관절·연결 부품 생략·임의 대체 금지; 미해결 시 확인/질문.",
   "sequential_reconstruction": {
     "book": 1,
-    "page": 205,
-    "step": 202,
-    "status": "sequential_assembly_in_progress",
-    "last_placed_step": 201,
+    "page": 206,
+    "step": 214,
+    "status": "page206_steps207_214_draft_placement_review_pending",
+    "last_placed_step": 214,
     "body_draft_piece_count": 2496,
-    "reason": "200–201골반 링8개 배치 수정 및 중앙덮개2개 통합.202이후 골반 하부 조립 통합 검토 중.",
-    "verification": "골반 링 돌기 좌표 및 본체 통합 Chromium 렌더 확인. 정밀 간섭·실물 검증 아님.",
+    "reason": "1권 206쪽, 207–214 패널 단계의 기존 작업본을 설명서 부품표·도해와 대조했다. 본체 통합 접촉·방향 검토는 남아 있다.",
+    "verification": "PDF 도해와 기존 패널 렌더 대조. 정밀 간섭 및 실물 체결 검증 아님.",
     "corrections": [
       "101단계 3020은 진회색72. 밝은 회색71 3020은 전체 목록1개이며 100단계에 사용.",
-      "118단계 3021 두 개는 나란한 배치로 수정."
+      "118단계 3021 두 개는 나란한 배치로 수정.",
+      "193–194 지지축: 실제 구멍 중심과 중첩 변환·축 길이를 계산해 작업본에서 양 기둥 축과 정합."
     ]
   },
   "active_question": null,
@@ -16338,30 +16342,41 @@
     "verification": "126/151/156 간 8 LDU 높이 및 바닥 중첩 미해결. 2752 원본 형상으로 치환."
   },
   "parallel_work": {
-    "book2": "models/tyrannosaurus-v0-book2-progress.json",
-    "book3": "models/tyrannosaurus-v0-book3-progress.json",
-    "book1_remainder": "models/tyrannosaurus-v0-book1-remainder-progress.json",
-    "integration": "Main agent integrated body and stand; module agents finished assigned stand stage-part placement."
+    "status": "Agent split progress records were folded into this master file on 2026-11-05. Completed subassembly geometry is stored in the integrated MPD; separate workfiles remain only where they contain unfinished or alternate placement work.",
+    "integrated_checkpoint": "models/tyrannosaurus-v0.mpd",
+    "retained_unfinished_workfiles": [
+      "models/tyrannosaurus-v0-book1-remainder.ldr",
+      "models/tyrannosaurus-v0-book2.ldr",
+      "models/tyrannosaurus-v0-book2-arms.ldr",
+      "models/tyrannosaurus-v0-book2-ribs.ldr",
+      "models/tyrannosaurus-v0-book2-second-leg.ldr",
+      "models/tyrannosaurus-v0-book3.ldr",
+      "models/tyrannosaurus-v0-display-stand.ldr",
+      "models/tyrannosaurus-v0-display-stand-columns.ldr",
+      "models/tyrannosaurus-v0-display-stand-foot-rocks.ldr",
+      "models/tyrannosaurus-v0-dorsal-mounts.ldr",
+      "models/tyrannosaurus-v0-hip-ring-review.ldr",
+      "models/tyrannosaurus-v0-pelvic-panel-review.ldr",
+      "models/tyrannosaurus-v0-reconstruction.ldr"
+    ],
+    "removed_redundant_workfiles": [
+      "models/tyrannosaurus-v0-arms-integration.ldr",
+      "models/tyrannosaurus-v0-book2-first-ribs.ldr",
+      "models/tyrannosaurus-v0-book3-jaw.ldr",
+      "models/tyrannosaurus-v0-leg-experiment.ldr",
+      "models/tyrannosaurus-v0-neck-cladding.ldr"
+    ],
+    "deletion_rule": "The retained files contain unfinished or differing subassemblies not yet fully merged; removed files had geometry or exact definitions already integrated into the canonical MPD."
   },
   "published_checkpoint": {
-    "schema_version": 4,
-    "status": "instruction_reconstruction_in_progress",
-    "version_label": "버전 0",
-    "piece_count": 3010,
-    "body_draft_piece_count": 2496,
-    "stand_draft_piece_count": 514,
-    "layout": "integrated_instruction_model",
-    "layout_note": "본체·받침대 검토본 · 어깨띠 전방 기울기·원판 접힘 수정",
-    "unresolved": "받침대1–98단계 부품 배치를 반영했습니다. 12/72 브래킷의4LDU 접점 차이와 발 고정축 정렬은 아직 미해결입니다.",
-    "support_note": "마감 부품 일부의 접촉·전수 간섭·실물 결합·하중은 미검증입니다.",
-    "assembly_verified": false,
-    "joints": [],
-    "source_workfile": "tyrannosaurus-v0-reconstruction.ldr",
-    "source_stand_workfile": "tyrannosaurus-v0-display-stand.ldr",
-    "publication_status": "review_build_ready_for_deploy"
+    "status": "local_review_checkpoint_prepared_not_yet_published",
+    "model": "models/tyrannosaurus-v0.mpd",
+    "part_count": 3004,
+    "body_part_count": 2488,
+    "stand_part_count": 516
   },
   "integration_note": "Root integrated213pubis47parts and481/493pelviccovers62parts; connectoraxes/bodypinrotations corrected; composite render pending.",
-  "root_leg_integration": "RightlegfullassemblyanditsZ-reflection; priorindependentsecondmountdiscarded.",
+  "root_leg_integration": "Updated into models/tyrannosaurus-v0.mpd from the prior leg candidate: right/left legs use distinct poses; body-display-stand-review now contains the Y=640 candidate stand placement, two body-post axles, and two foot-lock axles. Foot peg residual and physical retention remain unresolved.",
   "root_rib_integration": {
     "placements": [
       "1 16 -450 -72.42640687 -92.42640687 0 0 1 0.7071067812 0.7071067812 0 -0.7071067812 0.7071067812 0 first-rib-step426.ldr",
@@ -16520,14 +16535,14 @@
     "review_stand_piece_count": 514,
     "body_post_axis_x": [
       -780,
-      -60
+      -40
     ],
     "publication_scope": "Body with complete stage-part placement, shoulder strap and folded sternum correction",
     "complete": false,
     "remaining": [
-      "12/72 bracket4LDUcontact mismatch",
-      "Foot locking axles318/419 alignment",
-      "Ornament contact audit and whole-mesh/physical strength checks"
+      "Body-to-post X/Y centre, direction and axial-length ranges now align in the candidate workfile; physical fit and retainer strength are unverified",
+      "Foot locking axles 318/419 and foot-to-plinth alignment",
+      "12/72 bracket contact, ornament contact audit, whole-mesh collision and physical strength checks"
     ]
   },
   "walking_pose_revision": {
@@ -16738,5 +16753,1303 @@
       "heel_note": "Slight heel lift in walking pose; three toes contactY616.",
       "axial_twist_degrees": 0
     }
-  ]
+  ],
+  "second_leg_revision": {
+    "source": "book2 steps324–419; independent second leg",
+    "hip_world": [
+      -280,
+      -14,
+      40
+    ],
+    "foot_peg_world": [
+      22,
+      609.019315,
+      152
+    ],
+    "stand_peg_y": 610,
+    "height_residual_ldu": 0.980685,
+    "alignment": "hip centre and axle direction align; three toe ball centres aligned",
+    "remaining": "With old stand Y624 residual is 0.98 LDU; revised stand Y640 avoids spine plate penetration but increases leg peg residual to 16.98 LDU. Exact leg/post solution still required.",
+    "status": "working_source_not_published",
+    "stand_peg_y_candidate_640": 626,
+    "candidate_height_residual_ldu": 16.980685
+  },
+  "working_revision": {
+    "status": "in_progress_not_published",
+    "stand": "12/72/73 side grid corrected using step11 overhang; 14 plate ordering corrected; 32–41 central foot side and bridge corrected; 48/74 bracket geometry corrected.",
+    "leg": "Second leg original applied; first leg hip/foot simultaneously constrained solution not found.",
+    "support": "Book 1 pages 199–200 and native part geometry: body bores X=-780/-40, post bores at same X after stand X=-738; front 4L axle spans Y=-8..72 and rear 5L axle Y=-26..74 across body and post bore ranges. Physical fit/retention remains unverified.",
+    "next": "Check the updated support geometry in a full-scene render and for adjacent-part collisions; verify foot-to-plinth locks and left-leg pose; continue manual sequence and publish only after the authorized reconstruction checkpoint is complete."
+  },
+  "upper_arm_dish_correction": {
+    "source": "book2 pages132–133, steps466–467",
+    "before": [
+      0,
+      8,
+      10
+    ],
+    "after": [
+      0,
+      8,
+      -10
+    ],
+    "evidence": "underside stud positions align; prior dish had 140 mesh vertices inside ball radius 8, corrected minimum distance 11.236 LDU",
+    "remaining": "arm-to-rib and shoulder mesh intersection, physical joint range",
+    "status": "working_source_not_published"
+  },
+  "forelimb_clearance_revision": {
+    "source": "book2 page135 step469",
+    "central_move_y": -10,
+    "tested": "independent coordinate check; shoulder stem versus socket rim excluding intended ball sphere, arm/rib/shoulder triangle crossings zero; prior torso/head sample check",
+    "joint_error_ldu_max": 2.3e-09,
+    "limitations": "Physical ball joint range, friction, force, complete mesh containment and full-model collisions remain unverified.",
+    "status": "working_source_independent_mesh_checks_passed_not_published"
+  },
+  "step194_followup": {
+    "source": "book1 page199 step193 and page200 step194, checked against native LDraw geometry",
+    "observed": "The red 4L axle passes through 30000 at body X=-780; bore range Y=-8..12. The yellow 5L axle uses the tailward outer hole of 39789 at X=-40; its vertical bore range is Y=-24..-6. The two post bores formed by 73230 after nested transformations are X=-42 and 698 locally and span Y=32..72. Stand translation X=-738 aligns post and body X centres at -780/-40. The front 3705 at centre Y=32 spans -8..72; rear 32073 at centre Y=24 spans -26..74, bridging both bore ranges by part length.",
+    "candidate_only": {
+      "stand_translation": [
+        -738,
+        640,
+        0
+      ],
+      "stand_post_axes_x": [
+        -780,
+        -40
+      ],
+      "post_bore_range_y": [
+        32,
+        72
+      ],
+      "body_bore_ranges_y": [
+        [
+          -8,
+          12
+        ],
+        [
+          -24,
+          -6
+        ]
+      ],
+      "axles": [
+        {
+          "part": "3705",
+          "centre": [
+            -780,
+            32,
+            0
+          ],
+          "range_y": [
+            -8,
+            72
+          ]
+        },
+        {
+          "part": "32073",
+          "centre": [
+            -40,
+            24,
+            0
+          ],
+          "range_y": [
+            -26,
+            74
+          ]
+        }
+      ]
+    },
+    "status": "body_and_post_bore_axes_and_axle_length_ranges_match_in_workfile; physical_fit_unverified",
+    "remaining": "check actual part clearance and insertion tolerance in the complete scene; verify axle retention, foot locking and physical load stability"
+  },
+  "integration_checkpoint_2026_11_05": {
+    "integrated_file": "models/tyrannosaurus-v0.mpd",
+    "expanded_physical_part_references": 3004,
+    "body_candidate_parts": 2488,
+    "stand_candidate_parts": 516,
+    "merged_from": "models/tyrannosaurus-v0-leg-experiment.ldr",
+    "manual_reference": "Book 2 steps 324–419; stand/body connection checked against Book 1 pages 199–200 and part geometry.",
+    "candidate_findings": "Distinct leg assemblies and walking pose are integrated. Stand translation Y=640 and front/rear body-post axle placements match calculated axle spans; foot-lock axle candidates are included.",
+    "remaining": "Right foot peg residual is about 16.98 LDU against the revised stand candidate. 12/72 grid, foot peg retention, whole-model collision, physical fit and load are unverified. Do not call the model complete."
+  },
+  "consolidated_subassembly_progress": {
+    "arms-integration": {
+      "scope": "PDF2 body integration468/469/481/493",
+      "status": "in_progress",
+      "assembly_verified": false,
+      "notes": [
+        "11458nativehole(10,-6,0),axisZ;166/168bodytransformmakesworldYhole at(-290/-270,-86,±46).3673pincentreY-96 mustaxisY.3484shaft+Yfromclipcentre-128 insertsupperhalf ofpin;3484nativeclipaxisZ mustrotateRy90toX.",
+        "Covers shown vertical about X hinge; reference pose tilt and mechanical clearance review pending."
+      ],
+      "required_body_part_replacements": [
+        {
+          "old": "1 71 -290 -96 46 1 0 0 0 0 1 0 -1 0 3673.dat",
+          "new": "1 71 -290 -96 46 0 -1 0 1 0 0 0 0 1 3673.dat"
+        },
+        {
+          "old": "1 0 -290 -128 46 1 0 0 0 1 0 0 0 1 3484.dat",
+          "new": "1 0 -290 -128 46 0 0 1 0 1 0 -1 0 0 3484.dat"
+        },
+        {
+          "old": "1 71 -270 -96 46 1 0 0 0 0 1 0 -1 0 3673.dat",
+          "new": "1 71 -270 -96 46 0 -1 0 1 0 0 0 0 1 3673.dat"
+        },
+        {
+          "old": "1 0 -270 -128 46 1 0 0 0 1 0 0 0 1 3484.dat",
+          "new": "1 0 -270 -128 46 0 0 1 0 1 0 -1 0 0 3484.dat"
+        },
+        {
+          "old": "1 71 -270 -96 -46 -1 -0 -0 0 0 1 -0 1 -0 3673.dat",
+          "new": "1 71 -270 -96 -46 0 -1 0 1 0 0 0 0 1 3673.dat"
+        },
+        {
+          "old": "1 0 -270 -128 -46 -1 -0 -0 0 1 0 -0 -0 -1 3484.dat",
+          "new": "1 0 -270 -128 -46 0 0 1 0 1 0 -1 0 0 3484.dat"
+        },
+        {
+          "old": "1 71 -290 -96 -46 -1 -0 -0 0 0 1 -0 1 -0 3673.dat",
+          "new": "1 71 -290 -96 -46 0 -1 0 1 0 0 0 0 1 3673.dat"
+        },
+        {
+          "old": "1 0 -290 -128 -46 -1 -0 -0 0 1 0 -0 -0 -1 3484.dat",
+          "new": "1 0 -290 -128 -46 0 0 1 0 1 0 -1 0 0 3484.dat"
+        }
+      ],
+      "additional_physical_parts": 0,
+      "mounted_existing_parts": 62
+    },
+    "book1-remainder": {
+      "book": 1,
+      "source": "/tmp/brick-instructions/1.pdf",
+      "status": "independent_subassemblies_in_progress",
+      "physical_parts_in_workbench": 40,
+      "scope_note": "Independent workbench; neck187–190 andlower-flank191–192 overlays now use body-global frames internally. Final shared-root integration is parent-owned.",
+      "validation": {
+        "local_references": "passed",
+        "rotation_matrices": "orthonormal_determinant_positive_one",
+        "counts": "recursive_physical_parts_not_lines",
+        "rendered_subassemblies": [
+          "pelvic-spur-step195.ldr",
+          "pelvic-lower-bar-step202.ldr",
+          "pelvic-panel-step207.ldr"
+        ],
+        "render_limitation": "rear-chevron render timed out on missing3069b; geometry now supplied but public rebuild and render pending"
+      },
+      "remaining": [
+        "187–190 neck covers depend on final neck frame; BOM identified, not placed.",
+        "199 body placement of spur; 200–201 missing two central 15068 covers.",
+        "207–213 paired pelvic panels need complete joint placement and lower-bar attachment; 208 uses dark-tan15672.",
+        "216 side stud row and219 bend angle need confirmation before220 body attachment.",
+        "221–223 inset units complete, body top-spacer coordinates not yet applied.",
+        "188/190/224/225 horn pairs assembled; body neck-frame placements pending."
+      ],
+      "unresolved": [
+        "195-198: final hinged blade angle and base clipping clearance need rendering comparison.",
+        "207/209: duplicate panels not yet attached to lower bar; 208/210/211 unfinished.",
+        "214-217 hinge carrier mounting under review.",
+        "187-190/222-225 depend on unresolved parent neck frame; not skipped or marked done.",
+        "202–206: page205 parts and placement are now matched and represented in the main workfile; confirm stepped underside exact contact, insertion and surrounding body clearance."
+      ],
+      "step_detail": {
+        "count": 2,
+        "range": [],
+        "status_counts": {},
+        "open_steps": []
+      },
+      "step_status_counts": {
+        "local_parts_placed_review_pending": 10,
+        "diagram_and_parts_matched; draft_in_main_review_file; physical_contact_unverified": 5,
+        "BOM_and_connection_grid_corrected_render_checked": 1,
+        "partial_overlay": 2,
+        "diagram_placed_render_checked": 7,
+        "body_overlay_stud_positions_matched_render_pending": 2,
+        "support_interface_depth_pending": 1,
+        "replacement_stand_integration_pending": 1,
+        "attachment_or_pose_not_yet_implemented": 3,
+        "inset_assembled_body_attachment_pending": 3,
+        "diagram_review_in_progress": 4
+      },
+      "assemblies": [
+        {
+          "name": "pelvic-spur-step195.ldr",
+          "part_count": 13,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "pelvic-blade-step198.ldr",
+          "part_count": 6,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "pelvic-lower-bar-step202.ldr",
+          "part_count": 8,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "body-hip-ring-overlay-step200.ldr",
+          "part_count": 8,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "pelvic-panel-step207.ldr",
+          "part_count": 16,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "pelvic-end-cap-step212.ldr",
+          "part_count": 4,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "rear-chevron-arm-step218.ldr",
+          "part_count": 3,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "rear-chevron-carrier-step214.ldr",
+          "part_count": 12,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "dorsal-short-step221.ldr",
+          "part_count": 2,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "dorsal-middle-step222.ldr",
+          "part_count": 3,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "dorsal-tall-step223.ldr",
+          "part_count": 4,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "dorsal-center-cap-step223.ldr",
+          "part_count": 2,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "neck-horn-pair-step188.ldr",
+          "part_count": 2,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "body-lower-flank-overlay-step191.ldr",
+          "part_count": 22,
+          "status": "local_placement_under_review"
+        },
+        {
+          "name": "neck-surface-and-horns-overlay-step187.ldr",
+          "part_count": 36,
+          "status": "diagram_placed_render_checked"
+        },
+        {
+          "name": "body-pelvic-spur-overlay-step199.ldr",
+          "part_count": 13,
+          "status": "diagram_placed_render_checked"
+        },
+        {
+          "name": "neck-rear-horns-overlay-step224.ldr",
+          "part_count": 12,
+          "status": "diagram_placed_render_checked"
+        }
+      ]
+    },
+    "book2-arms": {
+      "book": 2,
+      "scope": "steps453–493",
+      "status": "in_progress",
+      "last_placed_step": 492,
+      "physical_piece_count": 156,
+      "assembly_verified": false,
+      "validation": {
+        "recursive_physical_piece_count": 156,
+        "submodel_count": 17,
+        "missing_part_assets": 0,
+        "invalid_rotation_matrices": 0,
+        "browser_page_errors": 0,
+        "body_mounts_remaining": [
+          468,
+          469,
+          481,
+          493
+        ],
+        "last_render": "/tmp/brick-instructions/arms480-resolved.png"
+      },
+      "notes": [
+        "Workbenches not finalattachment positions.",
+        "453base3738Technic2x8, centralholesarefunctional; notordinary3832plate.",
+        "453/45426601handedorientation candidate pendingoverviewcrosscheck.",
+        "457/462centralhinge centres aligned at(-10,10,-50), but secondpanelroll/contour still renderreview pending.",
+        "464/465smallclaw87747 and11090 positions reconstructed frombar/tubeaxes; cap handedness needs renderedcomparison.",
+        "Upperarm13547 highstudsY0 attach78444bottom0; lowstudsY8 attach14418bottom8. Bonewide-end14704free socket local(0,4,20), narrow14418socket(±10,4,-120).",
+        "Correction: shoulder458/462 darktanpart is51739symmetric2x4wedge, not3022. Wideedgefacesoval Znegative; 14704connectors unchanged becausecentral2x2studgrid identical.",
+        "Pelvic BOM verified from PDF2p136–146: eachcover31parts. 475/487 use27263, 476/477/488/489 use51739.",
+        "Pelvic final grid: gray471centresX±80,Z40; lower47218980X±100,Z40;474tan35044X±60,Z60; upper47618980X-120,Y-16;477triangularwingcentreX160,Y-16. WedgesX-120/+140,Y-24. Central5066Y-16;4783021Y-24,Z10. Final69729centre(0,-32,20),22385X±90. 27263Ltiles(-110,-32,70)Ry90 and(150,-32,10)Ry-90. Derived projected p140tile vertices using basis(2.675,-1.05)X,(1.85,1.65)Z; stepped gray/tan corners offset20X+20Z.",
+        "Pelvic bodymount pending481/493. 5066barcentre(0,2,30),axisX. Finalmechanicalcollision/loadnotverified."
+      ],
+      "step_detail": {
+        "count": 41,
+        "range": [
+          453,
+          493
+        ],
+        "status_counts": {
+          "independent_assembly_placed": 2,
+          "independent_subassemblies_placed": 1,
+          "two_independent_subassemblies_placed": 1,
+          "placed": 5,
+          "placed_render_review_pending": 1,
+          "ballcentres_matched": 1,
+          "candidate_placement_render_review_pending": 2,
+          "placed_ball_centres_matched": 2,
+          "body_mount_pending": 4,
+          "placed_stud_grid_checked": 16,
+          "placed_BOM_corrected_27263": 2,
+          "placed_support_stud_grid_checked_rendered": 2,
+          "placed_top_tile_vertices_compared_to_pdf": 2
+        },
+        "open_steps": [
+          {
+            "step": 453,
+            "page": 120,
+            "parts": 8,
+            "status": "independent_assembly_placed",
+            "mount": "PDFpage121/123:two3673pins connect rib32291holes; finalbodyframepending"
+          },
+          {
+            "step": 454,
+            "page": 122,
+            "parts": 8,
+            "status": "independent_assembly_placed",
+            "mount": "PDFpage121/123:two3673pins connect rib32291holes; finalbodyframepending"
+          },
+          {
+            "step": 455,
+            "page": 124,
+            "parts": 8,
+            "status": "independent_subassemblies_placed",
+            "mount": "Three anterior spine pieces align remainingflatstrip. Bodyframepending."
+          },
+          {
+            "step": 456,
+            "page": 126,
+            "parts": 6,
+            "status": "two_independent_subassemblies_placed",
+            "evidence": "BOMcloseup shows32062notched2Laxle, not61332pin.59900internalaxlestopY8; axlecentreY28,endY8."
+          },
+          {
+            "step": 457,
+            "parts": 2,
+            "page": 127,
+            "status": "placed"
+          },
+          {
+            "step": 458,
+            "parts": 1,
+            "page": 127,
+            "status": "placed"
+          },
+          {
+            "step": 459,
+            "parts": 1,
+            "page": 127,
+            "status": "placed",
+            "connection": "14704studs into51739overhang undersideY0; notovalundersideY8"
+          },
+          {
+            "step": 460,
+            "parts": 3,
+            "page": 127,
+            "status": "placed"
+          },
+          {
+            "step": 461,
+            "parts": 4,
+            "page": 127,
+            "status": "placed",
+            "connection": "24201studplanesY0/+8 bridgeovalbottom8 andlowerplatebottom16"
+          },
+          {
+            "step": 462,
+            "parts": 11,
+            "page": 128,
+            "status": "placed_render_review_pending"
+          },
+          {
+            "step": 464,
+            "parts": 9,
+            "page": 130,
+            "status": "candidate_placement_render_review_pending"
+          },
+          {
+            "step": 465,
+            "parts": 9,
+            "page": 131,
+            "status": "candidate_placement_render_review_pending"
+          },
+          {
+            "step": 466,
+            "parts": 6,
+            "page": 132,
+            "status": "placed_ball_centres_matched",
+            "parts_identified": [
+              "2654",
+              "14704",
+              "78444",
+              "41769",
+              "14418",
+              "13547"
+            ]
+          },
+          {
+            "step": 467,
+            "parts": 6,
+            "page": 133,
+            "status": "placed_ball_centres_matched",
+            "parts_identified": [
+              "2654",
+              "14704",
+              "78443",
+              "41770",
+              "14418",
+              "13547"
+            ]
+          },
+          {
+            "step": 468,
+            "parts": 0,
+            "page": 134,
+            "status": "body_mount_pending",
+            "attachment": "free upperarm14704socket to shoulderstrap14417ball"
+          },
+          {
+            "step": 469,
+            "parts": 0,
+            "page": 135,
+            "status": "body_mount_pending",
+            "attachment": "fold centralclip/bar and balljoints so oppositeupperarm meetsotherstrap"
+          },
+          {
+            "step": 470,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 136
+          },
+          {
+            "step": 471,
+            "parts": 4,
+            "status": "placed_stud_grid_checked",
+            "page": 136
+          },
+          {
+            "step": 472,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 137
+          },
+          {
+            "step": 473,
+            "parts": 3,
+            "status": "placed_stud_grid_checked",
+            "page": 137
+          },
+          {
+            "step": 474,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 138
+          },
+          {
+            "step": 475,
+            "parts": 2,
+            "status": "placed_BOM_corrected_27263",
+            "page": 138
+          },
+          {
+            "step": 476,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 138
+          },
+          {
+            "step": 477,
+            "parts": 5,
+            "status": "placed_stud_grid_checked",
+            "page": 139
+          },
+          {
+            "step": 478,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 140
+          },
+          {
+            "step": 479,
+            "parts": 2,
+            "status": "placed_support_stud_grid_checked_rendered",
+            "page": 140
+          },
+          {
+            "step": 480,
+            "parts": 5,
+            "status": "placed_top_tile_vertices_compared_to_pdf",
+            "page": 140
+          },
+          {
+            "step": 481,
+            "parts": 0,
+            "status": "body_mount_pending",
+            "attachment": "5066 T-bar to paired clips above pelvic ring",
+            "page": 141
+          },
+          {
+            "step": 482,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 142
+          },
+          {
+            "step": 483,
+            "parts": 4,
+            "status": "placed_stud_grid_checked",
+            "page": 142
+          },
+          {
+            "step": 484,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 143
+          },
+          {
+            "step": 485,
+            "parts": 3,
+            "status": "placed_stud_grid_checked",
+            "page": 143
+          },
+          {
+            "step": 486,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 144
+          },
+          {
+            "step": 487,
+            "parts": 2,
+            "status": "placed_BOM_corrected_27263",
+            "page": 144
+          },
+          {
+            "step": 488,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 144
+          },
+          {
+            "step": 489,
+            "parts": 5,
+            "status": "placed_stud_grid_checked",
+            "page": 145
+          },
+          {
+            "step": 490,
+            "parts": 2,
+            "status": "placed_stud_grid_checked",
+            "page": 146
+          },
+          {
+            "step": 491,
+            "parts": 2,
+            "status": "placed_support_stud_grid_checked_rendered",
+            "page": 146
+          },
+          {
+            "step": 492,
+            "parts": 5,
+            "status": "placed_top_tile_vertices_compared_to_pdf",
+            "page": 146
+          },
+          {
+            "step": 493,
+            "parts": 0,
+            "status": "body_mount_pending",
+            "attachment": "5066 T-bar to paired clips above pelvic ring",
+            "page": 147
+          }
+        ]
+      }
+    },
+    "book2-first-ribs": {
+      "book": 2,
+      "scope": "First ribs steps 426–430",
+      "source": "76968_2.pdf pages 100–107",
+      "status": "independent_subassemblies_implemented_mounting_pending",
+      "physical_piece_count": 76,
+      "validation": {
+        "physical_piece_count_recursive": 76,
+        "missing_asset_references": 0,
+        "non_rigid_transforms": 0,
+        "browser_render": "Loaded successfully in local viewer; inspection screenshot saved in temporary workspace.",
+        "limitations": "Visual workbench inspection is not proof of physical clutch strength or all mesh clearances. Final torso mounting remains pending."
+      },
+      "blockers": [
+        "Exact attachment to torso spine not implemented in this independent workbench.",
+        "51274 uses parent-provided derived geometry; catalogue geometry provenance remains recorded by parent."
+      ],
+      "step_detail": {
+        "count": 5,
+        "range": [
+          426,
+          430
+        ],
+        "status_counts": {
+          "unspecified": 5
+        },
+        "open_steps": []
+      }
+    },
+    "book2": {
+      "book": 2,
+      "source": "/tmp/brick-instructions/2.pdf",
+      "status": "in_progress",
+      "last_placed_step": 425,
+      "physical_piece_count": 284,
+      "integration_ready": false,
+      "scope_note": "First leg226–323 plus its3shared toes425.324–424ownedbysecondlegworkfile,not omitted.",
+      "coordinate_system": "LDU; X upper-leg length; Y down; Z width. Final body mount not yet determined.",
+      "unresolved": [
+        {
+          "step": 314,
+          "issue": "Detailedkneecladdingsilhouettecomparisonpending."
+        },
+        {
+          "step": 315,
+          "issue": "Hip67696socketcenter L-core(60,-22,0); bodymount handled by parent."
+        },
+        {
+          "step": 323,
+          "issue": "Corrected26047/87747 identification andmirrorplacement; newrender andclearance review pending."
+        }
+      ],
+      "step_detail": {
+        "count": 99,
+        "range": [
+          226,
+          425
+        ],
+        "status_counts": {
+          "unspecified": 99
+        },
+        "open_steps": []
+      }
+    },
+    "book2-ribs": {
+      "book": 2,
+      "scope": "rib assemblies, steps431 onward",
+      "status": "in_progress",
+      "last_placed_step": 452,
+      "physical_piece_count": 74,
+      "assembly_verified": false,
+      "pending": "440/450/451/452finalbodymounts;new451–452rendercomparison.",
+      "next_step": 453,
+      "step_detail": {
+        "count": 20,
+        "range": [
+          431,
+          452
+        ],
+        "status_counts": {
+          "placed_connector_centres_checked_rendered": 18,
+          "two_copies_placed_render_pending": 2
+        },
+        "open_steps": [
+          {
+            "step": 431,
+            "parts": 3,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 432,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 433,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 434,
+            "parts": 3,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 435,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 436,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 437,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 438,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 439,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 441,
+            "parts": 3,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 442,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 443,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 444,
+            "parts": 3,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 445,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 446,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 447,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 448,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 449,
+            "parts": 2,
+            "status": "placed_connector_centres_checked_rendered"
+          },
+          {
+            "step": 451,
+            "parts": 18,
+            "status": "two_copies_placed_render_pending",
+            "body_mount": "pending"
+          },
+          {
+            "step": 452,
+            "parts": 16,
+            "status": "two_copies_placed_render_pending",
+            "body_mount": "pending"
+          }
+        ]
+      }
+    },
+    "book2-second-leg": {
+      "book": 2,
+      "scope": "Second leg, steps324–425",
+      "status": "in_progress",
+      "last_placed_step": 425,
+      "physical_piece_count": 276,
+      "validation": {
+        "physical_piece_count_recursive": 303,
+        "missing_asset_references": 0,
+        "non_rigid_transforms": 0,
+        "browser_render": "Loaded successfully in local viewer; inspection screenshot saved in temporary workspace.",
+        "limitations": "Visual workbench inspection is not proof of physical clutch strength or all mesh clearances. Final torso mounting remains pending."
+      },
+      "unresolved": [
+        {
+          "step": 359,
+          "issue": "Underside 3023 support row to compare in rendered side view; not verified."
+        },
+        {
+          "steps": [
+            386,
+            387
+          ],
+          "issue": "24299/43723a wedge handedness and3stud wing offset require final diagram/inventory comparison before acceptance."
+        },
+        {
+          "step": 403,
+          "issue": "Long tile41740andcorner27263longitudinal positions require close render comparison."
+        },
+        {
+          "step": 409,
+          "issue": "Ankle has two confirmed mating studs on yellow side. Check remaining wing contact and global pose against page82 before final integration."
+        },
+        {
+          "steps": [
+            416,
+            417
+          ],
+          "issue": "Main-body mounting and support pose remain root integration task."
+        },
+        {
+          "step": 425,
+          "issue": "Second-leg three toes attached at exact socket centers; first-leg three remain reserved in workbench. Their attachment instructions recorded separately for root integration. Display splay is not verified mechanical range."
+        }
+      ],
+      "step_detail": {
+        "count": 102,
+        "range": [
+          324,
+          425
+        ],
+        "status_counts": {
+          "unspecified": 94,
+          "body_integration_pending": 2,
+          "excluded_base_support_detail": 1,
+          "base_anchor_pending": 1,
+          "excluded_base_decoration": 2,
+          "body_detail_placement_pending": 2
+        },
+        "open_steps": [
+          {
+            "step": 416,
+            "page": 88,
+            "status": "body_integration_pending",
+            "reason": "Hip mount requires shared main body frame; independent leg retained."
+          },
+          {
+            "step": 417,
+            "page": 89,
+            "status": "body_integration_pending",
+            "reason": "Final support pose follows416; not falsely marked assembled."
+          },
+          {
+            "step": 419,
+            "page": 91,
+            "status": "base_anchor_pending",
+            "parts": [
+              "8Laxle",
+              "graywedgeplate"
+            ],
+            "reason": "Anchoring must be reconsidered with approved substitute base; axle not counted as installed."
+          },
+          {
+            "step": 423,
+            "page": 95,
+            "status": "body_detail_placement_pending",
+            "identified_parts": {
+              "35480 darktan": 1,
+              "26047 pearlgold": 1
+            },
+            "excluded": [
+              "gray26601baseplate"
+            ],
+            "reason": "Dewclaw carrier placement relative to403top tile must be reconciled; no body part silently omitted.",
+            "parts": [
+              "1 28 -20 -30 -44 1 0 0 0 0 -1 0 1 0 35480.dat",
+              "1 297 10 -30 -44 0 0 -1 -1 0 0 0 1 0 26047.dat"
+            ],
+            "phase_2": "local_placement_implemented",
+            "physical_parts_added": 2,
+            "verification": "Manual pages95–96, actual72132 raised stud row and handle/clip centers; viewer successfully renders attached dewclaw. Tile bridges two stud centers. Mechanical clearance not certified."
+          },
+          {
+            "step": 424,
+            "page": 96,
+            "status": "body_detail_placement_pending",
+            "identified_parts": {
+              "14769 tan": 1,
+              "11090 tan": 1,
+              "87747 tan": 1
+            },
+            "reason": "Depends on423carrier; no fabricated clip transform.",
+            "parts": [
+              "1 19 0 -20 -52 1 0 0 0 0 -1 0 1 0 14769.dat",
+              "1 19 30 -30 -42 0 1 0 0 0 1 1 0 0 11090.dat",
+              "1 19 60 -30 -42 0 -1 0 -1 0 0 0 0 -1 87747.dat"
+            ],
+            "phase_2": "local_placement_implemented",
+            "physical_parts_added": 3,
+            "verification": "Manual pages95–96, actual72132 raised stud row and handle/clip centers; viewer successfully renders attached dewclaw. Tile bridges two stud centers. Mechanical clearance not certified."
+          }
+        ]
+      }
+    },
+    "book3-jaw": {
+      "scope": {
+        "book": 3,
+        "pages": [
+          76,
+          89
+        ],
+        "steps": [
+          659,
+          702
+        ]
+      },
+      "status": "in_progress",
+      "physical_parts": 100,
+      "pending": [
+        "final skull attachment703 onward belongs to book3 integration",
+        "precise mesh clearance review remains separate from diagram/axis checks"
+      ],
+      "placed_steps": [
+        659,
+        702
+      ]
+    },
+    "book3": {
+      "book": 3,
+      "source": "/tmp/brick-instructions/3.pdf",
+      "status": "in_progress",
+      "unresolved": [
+        {
+          "step": 511,
+          "issue": "Final hinge bend angle is not numerically specified; neutral hinge placement exists, matching bent pose remains to review."
+        },
+        {
+          "step": 513,
+          "issue": "Final attachment to book 2 tail requires its receiving ball/socket coordinates. Independent subassembly implemented; no guessed global mount."
+        },
+        {
+          "step": 657,
+          "issue": "Bar/clip centers exactly coincide;25degree nasal closing pose is provisional pending front support and clearance verification."
+        }
+      ],
+      "next_step": 708,
+      "step_detail": {
+        "count": 168,
+        "range": [
+          494,
+          707
+        ],
+        "status_counts": {
+          "unspecified": 168
+        },
+        "open_steps": []
+      }
+    },
+    "display-stand-columns": {
+      "scope": "Instruction book1 steps54–98; independent columns then surrounding stand detailing",
+      "status": "Working-source overhang corrected; 12/72/73 stud grids align. Body support coupling remains unresolved.",
+      "last_placed_step": 98,
+      "per_column_parts": 54,
+      "columns": 2,
+      "pending": [
+        "Current stand column axes −42/698 (740 LDU) vs earlier body anchors −780/−60 (720 LDU). Resolve body mounting before certification.",
+        "77/78 multi-foot ornament contacts and88–90 local overlap need close review; stage parts present, not declared physically verified.",
+        "74 matched foot48 bracket candidate; final independent foot module integration review needed.",
+        "79/91/95 corrected horizontal6x2 backing orientation: baseplate sideSNOT rowY-22, wing upper sideSNOT rowY-62. Individual contact occupancy still needs final audit.",
+        "Structural strength and manufacturing tolerances untested."
+      ],
+      "evidence": [
+        "54 two73230 axes rotated along column; vertical axle access after world mount",
+        "59 redhalf-pin positions read individually:120,160,220,260,320,380,420,480,520",
+        "61 opposite grayhalf-pins occupy separate holes100,140,180,240,300,340,400,460,500,540",
+        "65 green22885 stacks form80LDU foot, side studs support4lime15573 jumpers coupling column underside"
+      ],
+      "last_validation": "243 physical parts; direct references resolve; final composite browser render completed, no runtime error. Detailed fit exceptions remain listed.",
+      "placed_steps": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    "display-stand-foot-rocks": {
+      "scope": "Book 1 stand feet and rocks, steps 33–53",
+      "status": "All instruction33–53 BOM parts placed. Local and combined browser views checked; not a physical assembly/load certification.",
+      "last_placed_step": 53,
+      "assembly_complete": true,
+      "validation": {
+        "missing_direct_part_assets": [],
+        "local_rendered_modules": [
+          43,
+          51,
+          52
+        ],
+        "exact_completed_range": null,
+        "invalid_rotation_lines": [],
+        "physical_parts": 99,
+        "bom_parts": 99,
+        "combined_render_paths": [
+          "/tmp/brick-instructions/high-foot53-front.png",
+          "/tmp/brick-instructions/central-foot41-review.png"
+        ],
+        "notes": [
+          "High-foot render precedes final43wing same-level correction.",
+          "Central-foot38–41render checked after all placements.",
+          "Not claiming100percent independently audited instruction geometry."
+        ]
+      },
+      "unresolved": [
+        "Full mechanical collision and load testing is not performed.",
+        "Independent high-foot48–53 coordinate audit was reassigned; current placements were reviewed locally and in combined browser rendering."
+      ],
+      "placed_steps": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    "display-stand": {
+      "scope": "Original stand1–98 with only minifigs and printed plaque excluded.",
+      "source": "76968_1.pdf steps1–98, subsequent support locks in book2 and final plaque attachments in book3",
+      "status": "All assigned stage parts placed and integrated; unresolved connector/foot contact prevents completion claim.",
+      "last_reviewed_step": 98,
+      "validation": {
+        "physical_parts": 168,
+        "missing_part_references": [],
+        "duplicate_placements_in_same_submodel": [],
+        "rotation_determinants": "+1",
+        "render": "168part base loaded and rendered after SNOT identities and rear support row14/16 correction; not physical or exhaustive collision verification.",
+        "limitations": "Visual diagram/connector review; no physical load test or exhaustive mesh interference analysis.",
+        "foundation_physical_parts": 168,
+        "integrated_stand_root_physical_parts": 307
+      },
+      "unresolved": [
+        {
+          "steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "issue": "Rear row14/16 corrected to contiguous stud coverage and6studgap320..440. X+20 global shift and step12 Y0 move rejected. Current168part render loads; remaining exact diagram/mesh contact comparison before acceptance."
+        },
+        {
+          "steps": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "issue": "Recheck absolute positions/heights after foundation anchors settle. LocalBOMandleftpoststudgrid reviewed but globalmatch incomplete."
+        }
+      ],
+      "step_detail": {
+        "count": 32,
+        "range": [
+          1,
+          32
+        ],
+        "status_counts": {
+          "provisional_foundation_grid_reconciliation": 25,
+          "stud_coverage_reconciled; composite_render_review_pending": 2,
+          "local_geometry_reviewed_absolute_mount_pending": 5
+        },
+        "open_steps": [
+          {
+            "step": 14,
+            "parts": [
+              "1 15 520 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat",
+              "1 15 240 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat",
+              "1 15 620 -8 -30 1 0 0 0 1 0 0 0 1 35480.dat",
+              "1 322 680 -8 -30 1 0 0 0 1 0 0 0 1 3710.dat",
+              "1 14 650 -16 -20 0 0 -1 0 1 0 1 0 0 47457.dat"
+            ],
+            "status": "stud_coverage_reconciled; composite_render_review_pending"
+          },
+          {
+            "step": 16,
+            "parts": [
+              "1 72 -40 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 72 40 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 72 120 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 72 200 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 72 280 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 72 480 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 72 560 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 72 640 -32 -30 1 0 0 0 1 0 0 0 1 30414.dat",
+              "1 71 700 -32 -30 1 0 0 0 1 0 0 0 1 11211.dat"
+            ],
+            "status": "stud_coverage_reconciled; composite_render_review_pending"
+          },
+          {
+            "step": 28,
+            "parts": [
+              "1 71 80 -48 -30 1 0 0 0 1 0 0 0 1 4304.dat",
+              "1 330 110 -40 -20 0 0 1 0 1 0 -1 0 0 3023b.dat",
+              "1 72 70 -40 10 0 0 1 0 1 0 -1 0 0 73825.dat",
+              "1 0 180 -40 -20 1 0 0 0 1 0 0 0 1 69729.dat",
+              "1 0 300 -40 -20 1 0 0 0 1 0 0 0 1 69729.dat",
+              "1 0 140 -40 20 1 0 0 0 1 0 0 0 1 69729.dat",
+              "1 0 260 -40 20 1 0 0 0 1 0 0 0 1 69729.dat"
+            ],
+            "status": "local_geometry_reviewed_absolute_mount_pending"
+          },
+          {
+            "step": 29,
+            "parts": [
+              "1 72 70 -64 10 0 0 -1 0 1 0 1 0 0 43711.dat",
+              "1 288 70 -56 -30 1 0 0 0 1 0 0 0 1 24866.dat"
+            ],
+            "status": "local_geometry_reviewed_absolute_mount_pending"
+          },
+          {
+            "step": 30,
+            "parts": [
+              "1 330 100 -40 -30 0 0 -1 0 1 0 1 0 0 11477.dat",
+              "1 330 60 -64 10 0 0 -1 0 1 0 1 0 0 11477.dat",
+              "1 0 380 -40 20 1 0 0 0 1 0 0 0 1 69729.dat",
+              "1 0 380 -40 -20 0 0 1 0 1 0 -1 0 0 33909.dat",
+              "1 0 420 -40 -20 0 0 -1 0 1 0 1 0 0 33909.dat"
+            ],
+            "status": "local_geometry_reviewed_absolute_mount_pending"
+          },
+          {
+            "step": 31,
+            "parts": [
+              "1 0 500 -40 -20 1 0 0 0 1 0 0 0 1 69729.dat",
+              "1 0 500 -40 20 1 0 0 0 1 0 0 0 1 69729.dat",
+              "1 0 580 -40 -20 0 0 -1 0 1 0 1 0 0 33909.dat",
+              "1 0 580 -40 20 0 0 -1 0 1 0 1 0 0 33909.dat"
+            ],
+            "status": "local_geometry_reviewed_absolute_mount_pending"
+          },
+          {
+            "step": 32,
+            "parts": [
+              "1 16 480 0 -160 0 0 -1 0 1 0 1 0 0 central-foot-side-step32.ldr"
+            ],
+            "status": "local_geometry_reviewed_absolute_mount_pending"
+          }
+        ]
+      }
+    },
+    "dorsal-mounts": {
+      "scope": "221–223 dorsal mounts; prerequisite169/171/172 correction",
+      "status": "diagram_contact_checked_and_rendered_ready_for_parent_integration",
+      "physical_parts": 56,
+      "pending": [
+        "Physical clutch strength and load require real bricks; not claimed verified."
+      ],
+      "evidence": [
+        "171Uassemblies occupy gapsBETWEEN170spacercolumns;PDF174showsalternatinghollowjumpers/brownsolidspacers. UbottomY24 seatsbare93274topY-56,notontop1703024.",
+        "172bridgecoversalternatingUjumperandspacerstuds, bothY-72;plateY-80 matches169jumpertops.",
+        "169capundersideUcolumnX30and3024columnX50 match1223023bX30and79389X50.",
+        "78666nativefootextends+X; allspinesuseRy180 forfootfront(-X) perPDF215–217.",
+        "223 first6 tall roots X-670/-630/-590/-550/-510/-470 sit on corrected141 odd-X topstud grid. Seventh rootX-430 bottomY-72 seats173 spacer3024; its footX-450 cantilevers8LDU above longplate. No forced half-stud attachment of arches.",
+        "141 half-stud mounting is mechanically distinct from forcing ordinary filled studs: 4477stud3 radius4 downwardposts coincide with65509stud2 inner radius4 holes, bothspanworldY-60..-56. Endwallclearance and173blue3023b adjacency checked."
+      ]
+    },
+    "neck-cladding": {
+      "book": 1,
+      "scope": "174–185 neck cladding",
+      "status": "diagram_placed_render_checked",
+      "last_placed_step": 185,
+      "physical_piece_count": 61,
+      "assembly_verified": false,
+      "coordinate_system": "body-global, near side Z-negative; far side reflected",
+      "pending": [
+        "Whole-model mesh interference and physical clutch/strength not validated."
+      ],
+      "evidence": [
+        "175 PDF side stud lattice: X columns -850 through-930, rowsY-126 through14; wall faceZ±24; firstplatefaceZ±32.",
+        "176 squareplate11212 confirmed3x3/ninestuds inBOM andassembly, replaces erroneous3031 identification.",
+        "176–179 staggered cladding layersZ32/40/48 and clip staircase fromPDF.",
+        "185 four jumper columnsX-890/-870/-850/-830 use support topY-136/-112/-104/-80. Front high columnX-910 of73562 stays exposed; PDFp189 shows its two studs.",
+        "Chromium full-body/side/close-neck render passes without load error.",
+        "1742752 stud pairX-850,Z±10 atY24 connects below11999207; inverse-slope bottomY48, opposite longitudinal orientation to113 slope.",
+        "175–179 plate support grid checked against existingwall: firstlayerZ32 attacheswallZ24; secondlayerZ40; clips/tilesZ48."
+      ]
+    }
+  }
 }

@@ -10,6 +10,7 @@ p{margin:6px 0 0;line-height:1.45}
 .control-section+.control-section{border-top:1px solid #303a45;padding-top:10px}
 select,button{font:inherit;border:1px solid #3d4b59;border-radius:5px;background:#222c36;color:inherit;min-height:30px;padding:5px 7px;min-width:0;max-width:100%}
 select{display:block;width:100%}
+#models+label{margin-top:8px}
 button{cursor:pointer;white-space:nowrap}
 button:hover:not(:disabled){background:#303d4a;border-color:#8193a6}
 button:disabled{opacity:.4;cursor:default}

@@ -2,7 +2,8 @@ import { test, expect } from '@playwright/test';
 async function load(page) {
   await page.goto('/');
   await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
-  await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
+  await page.selectOption('#models', { label: '티라노사우루스' });
+  await expect(page.locator('#versions')).toBeEnabled();
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
 }
 test('renders the actual model and switches camera views', async ({ page }) => {
@@ -25,6 +26,22 @@ test('renders the actual model and switches camera views', async ({ page }) => {
   await page.click('#reset');
   expect(errors).toEqual([]);
 });
+test('model and version selectors stay separate and filter available versions', async ({ page }) => {
+  await page.goto('/');
+  await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
+  await page.selectOption('#models', { label: '트리케라톱스' });
+  await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 0']);
+  await expect(page.locator('#status')).toContainText('버전 0 · 작업 중. 펼침 배치', { timeout: 30000 });
+  await expect(page.locator('#version')).toContainText('triceratops-v0.mpd');
+  await page.selectOption('#models', { label: '티라노사우루스' });
+  await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 1', '버전 0']);
+  await expect(page.locator('#versions')).toHaveValue(/\d+/);
+  await page.selectOption('#versions', { label: '버전 0' });
+  await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 30000 });
+  await page.selectOption('#models', { label: '노트르담 대성당' });
+  await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 0']);
+  await expect(page.locator('#version')).toContainText('notre-dame-v0.mpd');
+});
 test('rejects a broken catalog model while preserving the previous model', async ({ page }) => {
   const { createHash } = await import('node:crypto');
   const { readFile } = await import('node:fs/promises');
@@ -35,7 +52,7 @@ test('rejects a broken catalog model while preserving the previous model', async
   await page.route('**/models/index.json?*', route => route.fulfill({ json: entries.map(entry => ({ ...entry, version: hash })) }));
   await page.route('**/models/*.mpd?*', route => route.fulfill({ body: broken, contentType: 'text/plain' }));
   await page.selectOption('#models', '');
-  await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
+  await page.selectOption('#models', { label: '티라노사우루스' });
   await expect(page.locator('#status')).toContainText('완전히 불러오지 못했습니다', { timeout: 30000 });
   await expect(page.locator('#version')).toHaveText(revision);
 });
@@ -88,21 +105,22 @@ test('refreshes an old catalog before requesting a versioned model', async ({ pa
   expect(modelRequests).toHaveLength(1);
   expect(new URL(modelRequests[0]).searchParams.get('v')).toBe(current.find(e => e.designVersion === 1).version);
   await expect(page.locator('#version')).toContainText(current.find(e => e.designVersion === 1).version);
-  await expect(page.locator('#models option:checked')).toHaveText(current.find(e => e.designVersion === 1).name);
+  await expect(page.locator('#models option:checked')).toHaveText('티라노사우루스');
+  await expect(page.locator('#versions option:checked')).toHaveText('버전 1');
   expect(current.some(e => e.designVersion === 0)).toBe(true);
 });
 
 test('loads integrated v0 with no invented articulation and can return to v1', async ({ page }) => {
   test.setTimeout(60000);
   await load(page);
-  await page.selectOption('#models', { label: '티라노사우루스 · 버전 0' });
+  await page.selectOption('#versions', { label: '버전 0' });
   await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 30000 });
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
-  await expect(page.locator('#summary')).toContainText('본체·받침대 검토본');
-  await expect(page.locator('#summary')).toContainText('본체 초안 2496개');
-  await expect(page.locator('#summary')).toContainText('어깨띠 전방 기울기·원판 접힘 수정');
+  await expect(page.locator('#summary')).toContainText('본체·받침대 통합 검토본');
+  await expect(page.locator('#summary')).toContainText('본체 초안 2488개');
+  await expect(page.locator('#summary')).toContainText('두 번째 다리 비대칭 보행 후보');
   await expect(page.locator('#pose-panel')).toBeHidden();
-  await page.selectOption('#models', { label: '티라노사우루스 · 버전 1' });
+  await page.selectOption('#versions', { label: '버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
   await expect(page.locator('#joint option')).toHaveCount(18);
 });

@@ -1,7 +1,0 @@
-0 FILE body-arms-and-pelvic-covers-overlay.ldr
-0 Body-space overlay for PDF2 steps468/469/481/493. Existing support corrections recorded in progress JSON; no extra physical inventory.
-0 Instruction step481 /book2page141; 5066bar local(0,2,30),axisX to3484clips(-290/-270,-128,+46).
-1 16 -280 -158 48 1 0 0 0 0 1 0 -1 0 pelvic-cover-step480.ldr
-0 Instruction step493 /book2page147; opposite clips(-290/-270,-128,-46).
-1 16 -280 -158 -48 -1 0 0 0 0 1 0 1 0 pelvic-cover-step492.ldr
-0 NOFILE

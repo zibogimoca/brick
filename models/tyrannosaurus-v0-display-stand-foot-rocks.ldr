@@ -1,56 +1,57 @@
 0 FILE stand-foot-rocks-steps33-53.ldr
+0 Experimental 32–41 candidate: 32 root(280,0,-160) Ry+90; 34 root(480,0,-160) Ry-90; 33 grey corner spans frame/34 seam. 39 handed orientation remains unverified.
 0 Stand feet and rocks for instruction steps 33–53: all99 physical parts placed; connection and reference checks documented in companion progress JSON.
 0 Instruction step 33 / book1 page44. Centralfootbrick supports and bridgeplate; visual comparisonpending.
-1 71 330 -24 -210 1 0 0 0 1 0 0 0 1 2357.dat
-1 71 330 -24 -110 0 0 1 0 1 0 -1 0 0 2357.dat
-1 71 370 -24 -170 1 0 0 0 1 0 0 0 1 60477.dat
-1 70 410 -24 -160 0 0 -1 0 1 0 1 0 0 85943.dat
-1 71 340 -32 -160 0 0 1 0 1 0 -1 0 0 3795.dat
-1 72 350 -40 -160 0 0 1 0 1 0 -1 0 0 3666.dat
+1 71 430 -24 -210 1 0 0 0 1 0 0 0 1 2357.dat
+1 71 430 -24 -110 -1 0 0 0 1 0 0 0 -1 2357.dat
+1 71 390 -24 -170 1 0 0 0 1 0 0 0 1 60477.dat
+1 70 350 -24 -160 0 0 1 0 1 0 -1 0 0 85943.dat
+1 71 420 -32 -160 0 0 -1 0 1 0 1 0 0 3795.dat
+1 72 410 -40 -160 0 0 -1 0 1 0 1 0 0 3666.dat
 0 STEP
 0 Independent step34 / book1 page45. Opposite side rock plates; local study, mounting comparison pending.
-1 16 280 0 -160 0 0 1 0 1 0 -1 0 0 central-foot-opposite-step34.ldr
+1 16 480 0 -160 0 0 -1 0 1 0 1 0 0 central-foot-opposite-step34.ldr
 0 STEP
 0 Instruction step 35 / book1 page46. Opposite-foot outer rock surface; grid-derived candidate.
-1 71 300 -8 -160 0 0 -1 0 1 0 1 0 0 15068.dat
-1 72 280 -16 -200 1 0 0 0 1 0 0 0 1 22385.dat
-1 288 310 -16 -170 1 0 0 0 1 0 0 0 1 24866.dat
+1 71 460 -8 -160 0 0 1 0 1 0 -1 0 0 15068.dat
+1 72 480 -16 -200 1 0 0 0 1 0 0 0 1 22385.dat
+1 288 450 -16 -170 1 0 0 0 1 0 0 0 1 24866.dat
 0 STEP
 0 Instruction step 36 / book1 page47. Curved bridge rests on two plate levels Y -32/-40.
-1 71 340 -32 -160 0 0 1 0 1 0 -1 0 0 15068.dat
+1 71 420 -32 -160 0 0 -1 0 1 0 1 0 0 15068.dat
 0 STEP
 0 Instruction step 37 / book1 page48. Two additional bridge curves; other four plates awaiting stud-grid review.
-1 71 340 -32 -120 0 0 1 0 1 0 -1 0 0 15068.dat
-1 71 340 -32 -200 0 0 1 0 1 0 -1 0 0 15068.dat
+1 71 420 -32 -120 0 0 -1 0 1 0 1 0 0 15068.dat
+1 71 420 -32 -200 0 0 -1 0 1 0 1 0 0 15068.dat
 0 STEP
 0 Instruction step37 remaining plates / book1 page48. Paired cap plates bridge gray bricks and green axle-brick top studs without covering the green corner bricks.
-1 72 430 -32 -220 1 0 0 0 1 0 0 0 1 3021.dat
-1 72 430 -32 -100 1 0 0 0 1 0 0 0 1 3021.dat
-1 72 430 -32 -50 -1 0 0 0 1 0 0 0 -1 2420.dat
+1 72 330 -32 -220 1 0 0 0 1 0 0 0 1 3021.dat
+1 72 330 -32 -100 1 0 0 0 1 0 0 0 1 3021.dat
 1 72 330 -32 -50 0 0 1 0 1 0 -1 0 0 2420.dat
+1 72 430 -32 -50 -1 0 0 0 1 0 0 0 -1 2420.dat
 0 STEP
 0 Instruction step38 / book1 page49. Paired triangular roof rests on step37 corner plates and the central bridge; outside trim preserves green foot mounts.
-1 72 350 -40 -90 0 0 1 0 1 0 -1 0 0 2450.dat
 1 72 410 -40 -90 1 0 0 0 1 0 0 0 1 2450.dat
-1 288 430 -40 -230 1 0 0 0 1 0 0 0 1 24866.dat
-1 288 430 -40 -90 1 0 0 0 1 0 0 0 1 24866.dat
-1 330 440 -24 -230 0 0 1 0 1 0 -1 0 0 11477.dat
-1 330 330 -16 -120 1 0 0 0 1 0 0 0 1 11477.dat
+1 72 350 -40 -90 0 0 1 0 1 0 -1 0 0 2450.dat
+1 288 330 -40 -230 1 0 0 0 1 0 0 0 1 24866.dat
+1 288 330 -40 -90 1 0 0 0 1 0 0 0 1 24866.dat
+1 330 320 -24 -230 0 0 -1 0 1 0 1 0 0 11477.dat
+1 330 430 -16 -120 1 0 0 0 1 0 0 0 1 11477.dat
 0 STEP
 0 Instruction step39 / book1 page50. Roof surface candidates with separate front chamfered tile and slope strip.
-1 72 370 -64 -70 -1 0 0 0 1 0 0 0 -1 43711.dat
-1 72 380 -48 -90 0 0 1 0 1 0 -1 0 0 15672.dat
+1 72 390 -64 -70 -1 0 0 0 1 0 0 0 -1 43711.dat
+1 72 380 -48 -90 0 0 -1 0 1 0 1 0 0 15672.dat
 1 72 380 -48 -110 1 0 0 0 1 0 0 0 1 96910.dat
 0 STEP
 0 Instruction step40 / book1 page51. Corner rock and two exposed plant mounts.
-1 71 410 -64 -70 0 0 -1 0 1 0 1 0 0 13548.dat
-1 288 350 -48 -90 -1 0 0 0 1 0 0 0 -1 32607.dat
-1 288 410 -48 -90 1 0 0 0 1 0 0 0 1 32607.dat
+1 71 350 -64 -70 -1 0 0 0 1 0 0 0 -1 13548.dat
+1 288 410 -48 -90 -1 0 0 0 1 0 0 0 -1 32607.dat
+1 288 350 -48 -90 1 0 0 0 1 0 0 0 1 32607.dat
 0 STEP
 0 Instruction step41 / book1 page52. Caps use native curved-slope rear mounting plane Y-8.
-1 330 410 -64 -70 0 0 -1 0 1 0 1 0 0 54200.dat
-1 330 370 -56 -80 1 0 0 0 1 0 0 0 1 11477.dat
-1 330 390 -40 -100 1 0 0 0 1 0 0 0 1 11477.dat
+1 330 350 -64 -70 0 0 1 0 1 0 -1 0 0 54200.dat
+1 330 390 -56 -80 1 0 0 0 1 0 0 0 1 11477.dat
+1 330 370 -40 -100 1 0 0 0 1 0 0 0 1 11477.dat
 0 STEP
 0 Instruction step42 / book1 page53. Opposite-end wedge mates deck Y-40; mirrored finish of step29.
 1 16 570 -64 -10 0 0 1 0 1 0 -1 0 0 high-end-trim-step42.ldr
@@ -85,7 +86,7 @@
 0 Instruction step48 remaining pieces / book1 page60. Olive roof substrate and down-facing bracket; candidate grid awaiting combined render.
 1 330 730 -32 70 1 0 0 0 1 0 0 0 1 77844.dat
 1 330 750 -32 110 0 0 1 0 1 0 -1 0 0 3623.dat
-1 71 740 -40 70 1 0 0 0 1 0 0 0 1 99207.dat
+1 71 730 -40 80 0 0 1 0 1 0 -1 0 0 44728.dat
 0 STEP
 0 Instruction step49 / book1 page61. Roof bearing plates and outside trim; candidate grid.
 1 72 750 -40 100 1 0 0 0 1 0 0 0 1 3021.dat
@@ -178,4 +179,5 @@
 0 Step53 one physical geode. Existing official split mesh: translucent-orange crystal interior and dark-bluish-gray matrix. No new asset files.
 1 57 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s01.dat
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 parts/subparts/49656s02.dat
+
 0 NOFILE

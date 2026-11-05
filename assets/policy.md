@@ -27,7 +27,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
 
 ## 출처와 라이선스
 
-기본 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 직접 제작한 형상으로 표시하지 않는다. 개별 저자는 원본 형상 헤더와 이 문서 하단의 에셋 목록에 기록되어 있다.
+기본 형상은 [LDraw 공식 라이브러리](https://library.ldraw.org/)의 [전체 아카이브](https://library.ldraw.org/library/updates/complete.zip)에서 필요한 부분만 가져왔다. 출처별 저자와 조건을 보존한다. 목록에 `original_project_geometry`로 표시한 누락 부품은 프로젝트에서 만든 시각 참고 형상이며 제조사 CAD와 동일하거나 실물 결합이 검증된 것으로 표시하지 않는다.
 
 현재 형상에는 **CC BY 4.0** 또는 **CC BY 2.0과 CC BY 4.0** 병기 자료가 포함된다. 파일별 고지는 아래 목록에 보존한다. [이용 조건 요약](https://creativecommons.org/licenses/by/4.0/)과 [라이선스 전문](https://creativecommons.org/licenses/by/4.0/legalcode)을 기준으로, 공유할 때 저자·출처와 라이선스 링크를 제공하고 변경했다면 그 사실을 표시한다. 저자가 이 프로젝트를 보증하는 것처럼 표현하지 않는다. 색상 설정 등 다른 자료의 조건을 이 확인 결과로 일괄 단정하지 않고 원본 고지를 따른다.
 
@@ -203,6 +203,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3702",
     "3703",
     "3705",
+    "3707",
     "3709",
     "3710",
     "37352",
@@ -267,6 +268,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "59443",
     "59900",
     "60470b",
+    "60474",
     "60477",
     "60478",
     "60479",
@@ -1126,6 +1128,16 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "bytes": 551,
       "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
       "author": "Magnus Forsberg [MagFors]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/3707.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/3707.dat",
+      "source_sha256": "e7843fe0f96ce7c6c99cd79bff5ee5d5493e438bfb822f00a739f900bf3374ae",
+      "sha256": "293a92b433cf6d6a4ebe1bc2a578d90c19f6c6c67797e6fcdbdab58fe0e5cf71",
+      "bytes": 687,
+      "modification": "Dependency paths renamed for readable folders; geometry coordinates unchanged.",
+      "author": "James Jessiman",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     },
     "parts/3709.dat": {
@@ -8287,6 +8299,14 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "sha256": "6965a5a063fdde924c346c503a6f7840ca58c39ed5fedaa168b5884327998f77",
       "bytes": 331,
       "modification": "Normalized references, original author/license headers retained."
+    },
+    "parts/60474.dat": {
+      "source": "original_project_geometry",
+      "sha256": "9d0d80416163041535a7c5ac5b4540cd9cfa48a136522f75a27d77f3a0ce87c8",
+      "bytes": 17222,
+      "modification": "Created as an approximate 4x4 round plate with central vertical pinhole from instruction illustration; not copied from manufacturer CAD or LDraw mesh.",
+      "author": "BRICK project",
+      "license": "Original project reference geometry; no third-party mesh license asserted."
     }
   }
 }

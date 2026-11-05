@@ -1,0 +1,37 @@
+0 FILE triceratops.ldr
+0 BRICK Triceratops 77985 version 0 reconstruction draft
+0 Name: triceratops-v0.mpd
+0 Author: BRICK project
+0 !BRICK_STATE {"schema_version":3,"status":"instruction_reconstruction_in_progress","model":"Triceratops fossil reconstruction","reference_set":"LEGO 77985","reference_url":"https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6649862.pdf","manual_files":["6649862-1.pdf","6649862-2.pdf"],"progress_note":"Manual page 10 steps 1–2 and page 11 step 3 represented. Page 11 step 3 placements are diagram-derived provisional; step 4 onward not yet added. GoBricks mold equivalence and physical fit remain unverified.","piece_count":10,"unique_sale_skus":6,"listed_retail_parts_cost_cny":"2.76","cost_scope":"Draft catalog candidate pricing only; GoBricks-to-LDraw mold equivalence and physical fit are unverified.","target_dimensions_cm":{"length":13.52,"height":1.44,"width":3.2},"reference_geometry_bounds_cm":{"length":13.52,"height":1.44,"width":3.2},"support_count":0,"support_verification":"Only the first manual base-rail subassembly is represented; no stability claim.","validation":{"instruction_scope":"manual page 10 steps 1–2 plus page 11 step 3 provisional placements","orthonormal_piece_transforms":"not_yet_checked","catalog_and_asset_references":"candidate mappings; mold equivalence unverified","full_connection_graph":"not_validated","exact_mesh_collision":"not_tested","physical_build":"not_tested"},"nodes":{},"joints":[],"instances":[{"id":"part-0001","group":"stand","part":"4282.dat","gobricks_id":"517","sku":"GDS-517-031","color":19,"position":[0,0,0],"matrix":[1,0,0,0,1,0,0,0,1],"catalog_mapping_status":"candidate_unverified"},{"id":"part-0002","group":"stand","part":"36840.dat","gobricks_id":"1567","sku":"GDS-1567-072","color":72,"position":[-150,0,10],"matrix":[0,0,1,0,1,0,-1,0,0],"catalog_mapping_status":"candidate_unverified"},{"id":"part-0003","group":"stand","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-081","color":70,"position":[-120,-8,-10],"matrix":[1,0,0,0,1,0,0,0,1],"catalog_mapping_status":"candidate_unverified"},{"id":"part-0004","group":"stand","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-081","color":70,"position":[-120,-8,10],"matrix":[1,0,0,0,1,0,0,0,1],"catalog_mapping_status":"candidate_unverified"},{"id":"part-0005","group":"stand","part":"54200.dat","gobricks_id":"833","sku":"GDS-833-081","color":70,"position":[-90,-8,10],"matrix":[1,0,0,0,1,0,0,0,1],"catalog_mapping_status":"candidate_unverified","placement_note":"Step 3 brown 1x1 30-degree slope; position inferred from diagram."},{"id":"part-0006","group":"stand","part":"36840.dat","gobricks_id":"1567","sku":"GDS-1567-072","color":72,"position":[0,0,10],"matrix":[0,0,1,0,1,0,-1,0,0],"catalog_mapping_status":"candidate_unverified","placement_note":"Step 3 second gray 1x1 bracket; position inferred from diagram."},{"id":"part-0007","group":"stand","part":"3023b.dat","gobricks_id":"502","sku":"GDS-502-081","color":70,"position":[40,-8,10],"matrix":[1,0,0,0,1,0,0,0,1],"catalog_mapping_status":"candidate_unverified","placement_note":"Step 3 reddish-brown 1x2 plate; position inferred from diagram."},{"id":"part-0008","group":"stand","part":"3700.dat","gobricks_id":"623","sku":"GDS-623-081","color":70,"position":[-40,-24,0],"matrix":[0,0,1,0,1,0,-1,0,0],"catalog_mapping_status":"candidate_unverified","placement_note":"Step 3 first 1x2 Technic brick; hole faces along the rail."},{"id":"part-0009","group":"stand","part":"3700.dat","gobricks_id":"623","sku":"GDS-623-081","color":70,"position":[60,-24,0],"matrix":[0,0,1,0,1,0,-1,0,0],"catalog_mapping_status":"candidate_unverified","placement_note":"Step 3 second 1x2 Technic brick; hole faces along the rail."},{"id":"part-0010","group":"stand","part":"60474.dat","gobricks_id":"841","sku":"GDS-841-040","color":2,"position":[130,-8,0],"matrix":[1,0,0,0,1,0,0,0,1],"catalog_mapping_status":"candidate_unverified","placement_note":"Step 3 green 4x4 round plate; custom reference mesh, location inferred from diagram."}]}
+0 Step 1 / manual page 10: long tan plate and upright corner bracket.
+0 !BRICK_INSTANCE part-0001
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 4282.dat
+0 !BRICK_INSTANCE part-0002
+1 72 -150 0 10 0 0 1 0 1 0 -1 0 0 36840.dat
+0 STEP
+0 Step 2 / manual page 10: two reddish-brown 1 x 2 plates form the marked 2 x 2 patch. Placement is a diagram-derived draft.
+0 !BRICK_INSTANCE part-0003
+1 70 -120 -8 -10 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE part-0004
+1 70 -120 -8 10 1 0 0 0 1 0 0 0 1 3023b.dat
+0 STEP
+0 Step 3 / manual page 11: Step 3 brown 1x1 30-degree slope; position inferred from diagram.
+0 !BRICK_INSTANCE part-0005
+1 70 -90 -8 10 1 0 0 0 1 0 0 0 1 54200.dat
+0 Step 3 / manual page 11: Step 3 second gray 1x1 bracket; position inferred from diagram.
+0 !BRICK_INSTANCE part-0006
+1 72 0 0 10 0 0 1 0 1 0 -1 0 0 36840.dat
+0 STEP
+0 Step 3 / manual page 11: Step 3 reddish-brown 1x2 plate; position inferred from diagram.
+0 !BRICK_INSTANCE part-0007
+1 70 40 -8 10 1 0 0 0 1 0 0 0 1 3023b.dat
+0 Step 3 / manual page 11: Step 3 first 1x2 Technic brick; hole faces along the rail.
+0 !BRICK_INSTANCE part-0008
+1 70 -40 -24 0 0 0 1 0 1 0 -1 0 0 3700.dat
+0 Step 3 / manual page 11: Step 3 second 1x2 Technic brick; hole faces along the rail.
+0 !BRICK_INSTANCE part-0009
+1 70 60 -24 0 0 0 1 0 1 0 -1 0 0 3700.dat
+0 Step 3 / manual page 11: Step 3 green 4x4 round plate; custom reference mesh, location inferred from diagram.
+0 !BRICK_INSTANCE part-0010
+1 2 130 -8 0 1 0 0 0 1 0 0 0 1 60474.dat
+0 NOFILE

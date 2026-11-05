@@ -1,0 +1,118 @@
+0 FILE body-mounted-pubis-step213-review.ldr
+0 Instruction213 / book1page211. Geometry-derived bar/clip fit; collision andfullsilhouette review pending.
+0 Splayangle +/-10.6306740436deg;5066barcenters body(-280,82,+/-30),axisX;clipsatX-290/-270.
+1 16 -250 252.4645868923 0 0 0 1 0 1 0 -1 0 0 pubis-step212-review.ldr
+0 NOFILE
+0 FILE pubis-step212-review.ldr
+0 Book1 steps202-212 paired pelvis.213hinge splay computed from body60470clipspacing60LDU.
+0 Both207and209panels areidentical.6541cube liesoutside3172:localX-30 vs-10;pincenterX-20.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 pelvic-lower-bar-step202.ldr
+1 16 -4.7776324908 -126.1191668545 -30 0 0.9828367275 0.1844775515 0 0.1844775515 -0.9828367275 -1 0 0 pelvic-panel-front-review.ldr
+1 16 4.7776324908 -126.1191668545 -30 0 -0.9828367275 -0.1844775515 0 0.1844775515 -0.9828367275 1 0 0 pelvic-panel-back-review.ldr
+1 19 0 -64 0 1 0 0 0 1 0 0 0 1 6541.dat
+1 19 0 -64 -60 1 0 0 0 1 0 0 0 1 6541.dat
+0 Step208 adjacent bar stud, smooth cap28192.
+1 19 0 -64 20 -1 0 0 0 1 0 0 0 -1 28192.dat
+0 Step210 barthreads6541/3172holes atZ0,-20,-40,-60.
+1 27 0 -54 -70 1 0 0 0 0 -1 0 1 0 30374.dat
+0 Step211 fullbaseonbarstudZ-80, thinfrontprojectsforward.
+1 19 0 -64 -80 1 0 0 0 1 0 0 0 1 4287c.dat
+0 Step212 capplateattaches211topthree-studrow.
+1 16 0 -72 -100 -1 0 0 0 1 0 0 0 -1 pelvic-end-cap-step212.ldr
+0 NOFILE
+0 FILE pelvic-panel-front-review.ldr
+0 Instruction step207 / book1 pages206-207. Local construction; placement into lower bar not yet final.
+0 Inset1-3: the wide end is +Z. Corner cuts form a four-stud wide far row.
+1 84 0 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+1 28 -20 -16 40 0 0 1 0 1 0 -1 0 0 26601.dat
+1 28 20 -16 40 1 0 0 0 1 0 0 0 1 26601.dat
+1 19 -20 -16 40 1 0 0 0 1 0 0 0 1 15068.dat
+1 19 20 -16 40 1 0 0 0 1 0 0 0 1 15068.dat
+0 Inset4-5: wing faces and staggered cap; narrow-end tile overhang needs final image review.
+1 28 -20 0 0 1 0 0 0 1 0 0 0 1 78444.dat
+1 28 20 0 0 1 0 0 0 1 0 0 0 1 78443.dat
+1 19 0 -8 -40 0 0 1 0 1 0 -1 0 0 87079.dat
+1 19 0 0 0 -1 0 0 0 1 0 0 0 -1 15068.dat
+0 Inset6: long axis of pin plate and round plate is Z, not X.
+1 71 -10 8 -50 0 0 1 0 1 0 -1 0 0 3172.dat
+1 28 10 8 -40 0 0 1 0 1 0 -1 0 0 35480.dat
+1 19 0 8 40 1 0 0 0 1 0 0 0 1 5066.dat
+0 Inset7: inverse curved32803pair; low rows atZ-10/+10,Y8 underwings, highrowsZ-30/+30,Y16 underplates.
+1 28 0 8 -10 -1 0 0 0 1 0 0 0 -1 32803.dat
+1 28 0 8 10 1 0 0 0 1 0 0 0 1 32803.dat
+0 Inset8: pin axisX atY18 Z-70;6541studfacesunderside +Y. Rotate6541relativepanel aboutthisaxiswhenmountingstep207.
+1 0 -20 18 -70 1 0 0 0 1 0 0 0 1 61332.dat
+0 NOFILE
+0 FILE pelvic-panel-back-review.ldr
+0 Instruction step207 / book1 pages206-207. Local construction; placement into lower bar not yet final.
+0 Inset1-3: the wide end is +Z. Corner cuts form a four-stud wide far row.
+1 84 0 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+1 28 -20 -16 40 0 0 1 0 1 0 -1 0 0 26601.dat
+1 28 20 -16 40 1 0 0 0 1 0 0 0 1 26601.dat
+1 19 -20 -16 40 1 0 0 0 1 0 0 0 1 15068.dat
+1 19 20 -16 40 1 0 0 0 1 0 0 0 1 15068.dat
+0 Inset4-5: wing faces and staggered cap; narrow-end tile overhang needs final image review.
+1 28 -20 0 0 1 0 0 0 1 0 0 0 1 78444.dat
+1 28 20 0 0 1 0 0 0 1 0 0 0 1 78443.dat
+1 19 0 -8 -40 0 0 1 0 1 0 -1 0 0 87079.dat
+1 19 0 0 0 -1 0 0 0 1 0 0 0 -1 15068.dat
+0 Inset6: long axis of pin plate and round plate is Z, not X.
+1 71 -10 8 -50 0 0 1 0 1 0 -1 0 0 3172.dat
+1 28 10 8 -40 0 0 1 0 1 0 -1 0 0 35480.dat
+1 19 0 8 40 1 0 0 0 1 0 0 0 1 5066.dat
+0 Inset7: inverse curved32803pair; low rows atZ-10/+10,Y8 underwings, highrowsZ-30/+30,Y16 underplates.
+1 28 0 8 -10 -1 0 0 0 1 0 0 0 -1 32803.dat
+1 28 0 8 10 1 0 0 0 1 0 0 0 1 32803.dat
+0 Inset8: pin axisX atY18 Z-70;6541studfacesunderside +Y. Rotate6541relativepanel aboutthisaxiswhenmountingstep207.
+1 0 -20 18 -70 1 0 0 0 1 0 0 0 1 61332.dat
+0 NOFILE
+0 FILE pelvic-lower-bar-step202.ldr
+0 Instruction step202 / book1 page205. Stepped underside support planes require review.
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 24201.dat
+1 28 0 -16 0 -1 0 0 0 1 0 0 0 -1 13547.dat
+0 STEP
+0 Instruction step203 / book1 page205
+1 19 0 -16 0 0 0 1 0 1 0 -1 0 0 3623.dat
+0 STEP
+0 Instruction step204 / book1 page205
+1 28 0 -24 30 0 0 1 0 1 0 -1 0 0 3710.dat
+1 28 0 -32 -20 1 0 0 0 1 0 0 0 1 13547.dat
+0 STEP
+0 Instruction step205 / book1 page205
+1 28 0 -32 -10 0 0 1 0 1 0 -1 0 0 3710.dat
+0 STEP
+0 Instruction step206 / book1 page205. Long curved end underside still under review.
+1 19 0 -40 -40 0 0 1 0 1 0 -1 0 0 78329.dat
+1 19 0 -40 20 -1 0 0 0 1 0 0 0 -1 70681.dat
+0 NOFILE
+0 FILE pelvic-end-cap-step212.ldr
+0 Instruction step212 / book1 page210 inset. Curve bottom planes24/16/8 align plate/oneplate/cheese height.
+1 19 0 0 0 0 0 1 0 1 0 -1 0 0 3623.dat
+1 19 0 0 -20 -1 0 0 0 1 0 0 0 -1 54200.dat
+1 19 0 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
+1 28 0 -24 10 -1 0 0 0 1 0 0 0 -1 61678.dat
+0 NOFILE
+0 FILE pelvic-panel-review.ldr
+0 Instruction step207 / book1 pages206-207. Local construction; placement into lower bar not yet final.
+0 Inset1-3: the wide end is +Z. Corner cuts form a four-stud wide far row.
+1 84 0 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+1 28 -20 -16 40 0 0 1 0 1 0 -1 0 0 26601.dat
+1 28 20 -16 40 1 0 0 0 1 0 0 0 1 26601.dat
+1 19 -20 -16 40 1 0 0 0 1 0 0 0 1 15068.dat
+1 19 20 -16 40 1 0 0 0 1 0 0 0 1 15068.dat
+0 Inset4-5: wing faces and staggered cap; narrow-end tile overhang needs final image review.
+1 28 -20 0 0 1 0 0 0 1 0 0 0 1 78444.dat
+1 28 20 0 0 1 0 0 0 1 0 0 0 1 78443.dat
+1 19 0 -8 -40 0 0 1 0 1 0 -1 0 0 87079.dat
+1 19 0 0 0 -1 0 0 0 1 0 0 0 -1 15068.dat
+0 Inset6: long axis of pin plate and round plate is Z, not X.
+1 71 -10 8 -50 0 0 1 0 1 0 -1 0 0 3172.dat
+1 28 10 8 -40 0 0 1 0 1 0 -1 0 0 35480.dat
+1 19 0 8 40 1 0 0 0 1 0 0 0 1 5066.dat
+0 Inset7: inverse curved32803pair; low rows atZ-10/+10,Y8 underwings, highrowsZ-30/+30,Y16 underplates.
+1 28 0 8 -10 -1 0 0 0 1 0 0 0 -1 32803.dat
+1 28 0 8 10 1 0 0 0 1 0 0 0 1 32803.dat
+0 Inset8: pin axisX atY18 Z-70;6541studfacesunderside +Y. Rotate6541relativepanel aboutthisaxiswhenmountingstep207.
+1 0 -20 18 -70 1 0 0 0 1 0 0 0 1 61332.dat
+1 19 -30 28 -70 0 0 1 0 -1 0 1 0 0 6541.dat
+0 NOFILE

@@ -1,0 +1,9 @@
+0 FILE notre-dame-v0.ldr
+0 !BRICK_STATE {"schema_version":3,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","reference_set":"LEGO Notre-Dame de Paris (6634573)","source_manual_segments":["6634573-66.pdf","6634573-125.pdf","6634573-163.pdf","6634573-202.pdf","6634573-239.pdf","6634573-290.pdf"],"coverage":"Booklet printed pages 6-7, step 1 only","piece_count":2,"placement_status":"diagram-derived draft; offsets and connection fit unverified","validation":{"part_files":"present in shared assets","physical_fit":"not_tested","full_manual_coverage":"not_started"},"instances":[{"id":"part-0001","part":"4282.dat","color":0,"position":[0,0,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate"},{"id":"part-0002","part":"4162.dat","color":0,"position":[0,-8,0],"matrix":[1,0,0,0,1,0,0,0,1],"status":"shape_candidate; length to confirm"}]}
+0 Step 1 / booklet printed page 7. Two long black base pieces, approximate part identities and placement pending closer comparison.
+0 !BRICK_INSTANCE part-0001
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 4282.dat
+0 !BRICK_INSTANCE part-0002
+1 0 0 -8 0 1 0 0 0 1 0 0 0 1 4162.dat
+0 STEP
+0 NOFILE
