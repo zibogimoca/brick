@@ -67,3 +67,14 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 ## Integration metadata consistency
 
 The existing part-0440 state transform disagreed with its MPD placement. State position and rotation were synchronized to the unchanged MPD placement (0, -240, 670 LDU; identity rotation). This corrects the duplicate state record only; the placement remains a diagram-derived draft and was not certified as connected or geometrically correct.
+
+
+## 메인 에이전트의 제품 부품표 대조 — 2026-11-05
+
+공식 제품21061의6634577.pdf 및 이전 공식6634573.pdf 부품표289–290쪽을 대조했다. 두 판본의 요소 번호·수량은 동일하게254항목·4383개다. 담당 브랜치29d28cf의 기존 사전242항목·4300개와 비교하면 누락12항목·83개가 모두6자리 요소 번호다. 원본 페이지·좌표·수량, 커뮤니티 부품·색상 교차표와 누락 항목 목록을 기존 공용 사전 `instruction_sets["21061"]`에 등록했다. 분할 첨부 PDF 자체의 바이트 동일성과 모든 도해의 판본 동등성까지 확인한 것은 아니다.
+
+도해 재대조가 필요한 곳은 사전의 `reviewed_step_candidates`에 기록했다. 20단계는5091/5092 절단타일과35787 삼각타일로 된 평평한 바닥 모자이크이며 기존 쐐기판·반원 배치를 재검토한다. 23–24단계의2스터드 판3023과 중앙1스터드15573을 구분한다. 26단계 갈색 반원조각은24246 후보다. 41단계는32952·38583·41740·99563, 44단계는38585·99563 후보이며, 46단계는37762 48개를두개씩24기둥으로 쌓는 도해다. 2453a 24개로 대신한 기존 수량·높이·상하 접점을 검토해야 한다.
+
+공식 장미창 패턴35394p00과 건축 사도상90398 및 관련 건축 형상을 공용에 확보했다. 35394p00은헤더에Notre Dame Window Pattern·Set21061·Rebrickable35394pr9970를 직접 명시한다. 사도상 요소6335936의커뮤니티 매핑과GoBricks ID90398은 별개다. 명판은 사용자 지시대로 제외하되 사도상을 미니피겨로 간주해 제거하지 않는다.
+
+번호가 달라도 같은 형상인 별칭을 구분한다. 공식99563은96910의identity alias이며1927은73983을거쳐2429/2430 완성힌지로 구성된다. 이 둘은 번호 차이만으로 기존 배치를 잘못됐다고 판단하지 않는다. 모델의 실제 사용 부품과 부품표 수량 단위를 맞춘다. 이번 메인 작업은부품표·공용 형상·검토 근거 등록이며MPD 배치는 수정하지 않았다. 담당 에이전트가 자기브랜치의 최신 실제 배치에 적용하고 검산한다.
