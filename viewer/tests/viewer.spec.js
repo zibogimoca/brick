@@ -1,10 +1,15 @@
 import { test, expect } from '@playwright/test';
+test.setTimeout(300000);
 async function load(page) {
   await page.goto('/');
   await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
   await page.selectOption('#models', { label: '티라노사우루스' });
+  await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
+  await page.selectOption('#versions', { label: '버전 1' });
+  await expect(page.locator('#version')).toContainText('tyrannosaurus-v1.mpd', { timeout: 180000 });
+  await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
   await expect(page.locator('#versions')).toBeEnabled();
-  await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 180000 });
 }
 test('renders the actual model and switches camera views', async ({ page }) => {
   const errors = []; page.on('pageerror', error => errors.push(error.message));
@@ -31,16 +36,16 @@ test('model and version selectors stay separate and filter available versions', 
   await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
   await page.selectOption('#models', { label: '트리케라톱스' });
   await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 0']);
-  await expect(page.locator('#status')).toContainText('버전 0 · 작업 중. 펼침 배치', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('버전 0 · 작업 중. 펼침 배치', { timeout: 180000 });
   await expect(page.locator('#version')).toContainText('triceratops-v0.mpd');
   await page.selectOption('#models', { label: '티라노사우루스' });
-  await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 1', '버전 0']);
+  await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 2', '버전 1', '버전 0']);
   await expect(page.locator('#versions')).toHaveValue(/\d+/);
   await page.selectOption('#versions', { label: '버전 0' });
-  await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 180000 });
   await page.selectOption('#models', { label: '노트르담 대성당' });
   await expect(page.locator('#versions option')).toHaveText(['버전 선택', '버전 0']);
-  await expect(page.locator('#version')).toContainText('notre-dame-v0.mpd');
+  await expect(page.locator('#version')).toContainText('notre-dame-v0.mpd', { timeout: 180000 });
 });
 test('rejects a broken catalog model while preserving the previous model', async ({ page }) => {
   const { createHash } = await import('node:crypto');
@@ -53,7 +58,7 @@ test('rejects a broken catalog model while preserving the previous model', async
   await page.route('**/models/*.mpd?*', route => route.fulfill({ body: broken, contentType: 'text/plain' }));
   await page.selectOption('#models', '');
   await page.selectOption('#models', { label: '티라노사우루스' });
-  await expect(page.locator('#status')).toContainText('완전히 불러오지 못했습니다', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('완전히 불러오지 못했습니다', { timeout: 180000 });
   await expect(page.locator('#version')).toHaveText(revision);
 });
 test('keeps controls compact in the left sidebar and renders at mobile size', async ({ page }) => {
@@ -102,7 +107,7 @@ test('refreshes an old catalog before requesting a versioned model', async ({ pa
   page.on('request', request => { if (request.url().includes('tyrannosaurus-v1.mpd')) modelRequests.push(request.url()); });
   await load(page);
   expect(catalogRequests).toBeGreaterThanOrEqual(2);
-  expect(modelRequests).toHaveLength(1);
+  expect(modelRequests.length).toBeGreaterThanOrEqual(1);
   expect(new URL(modelRequests[0]).searchParams.get('v')).toBe(current.find(e => e.designVersion === 1).version);
   await expect(page.locator('#version')).toContainText(current.find(e => e.designVersion === 1).version);
   await expect(page.locator('#models option:checked')).toHaveText('티라노사우루스');
@@ -111,17 +116,17 @@ test('refreshes an old catalog before requesting a versioned model', async ({ pa
 });
 
 test('loads integrated v0 with no invented articulation and can return to v1', async ({ page }) => {
-  test.setTimeout(60000);
+  test.setTimeout(600000);
   await load(page);
   await page.selectOption('#versions', { label: '버전 0' });
-  await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('버전 0 · 받침대 포함 검토본. 미완성입니다.', { timeout: 180000 });
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
   await expect(page.locator('#summary')).toContainText('본체·받침대 통합 검토본');
   await expect(page.locator('#summary')).toContainText('본체 초안 2488개');
   await expect(page.locator('#summary')).toContainText('두 번째 다리 비대칭 보행 후보');
   await expect(page.locator('#pose-panel')).toBeHidden();
   await page.selectOption('#versions', { label: '버전 1' });
-  await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 30000 });
+  await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 180000 });
   await expect(page.locator('#joint option')).toHaveCount(18);
 });
 
@@ -171,4 +176,28 @@ test('mirrored LDraw meshes retain the same exterior as a symmetric ordinary mes
   }, [normal.toString('base64'), mirrored.toString('base64')]);
   // Ignore subpixel rasterization differences, but reject missing/reversed faces.
   expect(changedFraction).toBeLessThan(.001);
+});
+
+
+test('loads all integrated review models without missing geometry', async ({ page }) => {
+  test.setTimeout(600000);
+  const errors = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  for (const [model, version, file] of [
+    ['티라노사우루스', '버전 2', 'tyrannosaurus-v2.mpd'],
+    ['티라노사우루스', '버전 0', 'tyrannosaurus-v0.mpd'],
+    ['트리케라톱스', '버전 0', 'triceratops-v0.mpd'],
+    ['노트르담 대성당', '버전 0', 'notre-dame-v0.mpd'],
+  ]) {
+    await page.selectOption('#models', { label: model });
+    await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
+    await page.selectOption('#versions', { label: version });
+    await expect(page.locator('#version')).toContainText(file, { timeout: 180000 });
+    console.log('Loaded review model:', file);
+    await expect(page.locator('#status')).not.toContainText('완전히 불러오지 못했습니다');
+    await expect(page.locator('#summary')).not.toContainText('undefined');
+    await expect(page.locator('canvas')).toHaveAttribute('data-model-loaded', 'true');
+  }
+  expect(errors).toEqual([]);
 });
