@@ -18476,10 +18476,16 @@
         "39726",
         "54578"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/27263.dat",
+        "sha256": "7d0a51f05a690d926f5fe9f305868bf19f9fd3068ce037ef0b82fba308dbc65a",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 27263; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-1044-010",
@@ -186265,10 +186271,16 @@
       "ldraw_candidates": [
         "69729"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/69729.dat",
+        "sha256": "456dbb1964bf0fd36ca2bdcf9f1ac8addadd10ddc55679a1fb9abe0beed878a2",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 69729; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-2187-010",
@@ -207729,10 +207741,16 @@
       "ldraw_candidates": [
         "3021"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/3021.dat",
+        "sha256": "4417aac018236736fd7d41a87241ec550737c114cdcddd0bcb4dc373398ffb3d",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 3021; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-510-010",
@@ -244006,10 +244024,16 @@
       "ldraw_candidates": [
         "54383"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/54383.dat",
+        "sha256": "5584040238200f82edfcf74a4749d249541a79d53c8a8f994ba9e0be9569bb94",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 54383; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-550-010",
@@ -244558,10 +244582,16 @@
       "ldraw_candidates": [
         "54384"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/54384.dat",
+        "sha256": "e7444cff68d4559788f715e9cf74a0933e4e957b2c9aa47c37ca472add1d5f0b",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 54384; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-551-010",
@@ -246623,10 +246653,16 @@
       "ldraw_candidates": [
         "51739"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/51739.dat",
+        "sha256": "ad8b3758945b9f8a3bdf50e8b7643acff1218ae4dae2a1b58a8f5fd7ab148fa4",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 51739; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-555-010",
@@ -282001,10 +282037,16 @@
         "28558",
         "93791"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/2654.dat",
+        "sha256": "a399887fa22098b0fc786388e3dd36d8f1769035e2ef638f29c8a7e7841a59a8",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 2654; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-608-010",
@@ -444782,10 +444824,16 @@
       "ldraw_candidates": [
         "18980"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/18980.dat",
+        "sha256": "3e379ce57bb3e0ef0eafb381bf58c4fa551263ff695db7c9da0b7306bbb592be",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 18980; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-899-010",
@@ -451422,10 +451470,16 @@
       "ldraw_candidates": [
         "35044"
       ],
-      "geometry": null,
+      "geometry": {
+        "file": "assets/parts/35044.dat",
+        "sha256": "f8431f84433d78acfd5d764a153aaeaf4e62397152a7b5528ac546918f6a1fc9",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Official LDraw part 35044; GoBricks mold equivalence not measured. Catalog candidate and sale SKU are present; physical fit and clutch unverified.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
       "dimensions": null,
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_ldraw_geometry_added_gobricks_match_unverified",
       "offers": [
         {
           "sku": "GDS-90033-014",
