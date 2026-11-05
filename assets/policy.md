@@ -309,9 +309,11 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "65429",
     "65509",
     "66956",
+    "67142",
     "67329",
     "67695",
     "67696",
+    "68196",
     "68297",
     "68568",
     "69729",
@@ -8769,6 +8771,66 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Official part reference converted to shared assets/parts/subparts layout; geometry coordinates unchanged.",
       "author": "John Van Zwieten [jvan]",
       "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/68196.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/68196.dat",
+      "source_sha256": "46aab59bd3a67c868ac87fb6c0fe7aebf8f1fb4eac8829d8af88a6987ea56233",
+      "sha256": "46aab59bd3a67c868ac87fb6c0fe7aebf8f1fb4eac8829d8af88a6987ea56233",
+      "bytes": 323,
+      "modification": "Official geometry copied without modification.",
+      "author": "Gerald Lasser [GeraldLasser]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/67142.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/67142.dat",
+      "source_sha256": "8abf444068922ae3592a4a1c08d8bb6798315487901580af146faa649862fb62",
+      "sha256": "70f9a05f7b8cd42a21d81f298e53b4747a15b9abbb5fcf8393453c240bb69313",
+      "bytes": 32058,
+      "modification": "Official part references converted to shared assets/parts/subparts paths; geometry coordinates unchanged.",
+      "author": "Gerald Lasser [GeraldLasser]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/4-4con5.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/4-4con5.dat",
+      "source_sha256": "b2d6eb9f4a94b4440d5bbe4793a9f8f1b06a9d5e3bd0df8ea04260e808ae8798",
+      "sha256": "b2d6eb9f4a94b4440d5bbe4793a9f8f1b06a9d5e3bd0df8ea04260e808ae8798",
+      "bytes": 2424,
+      "modification": "Official geometry copied without modification.",
+      "author": "Niels Karsdorp [nielsk]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "parts/subparts/67142s01.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/parts/s/67142s01.dat",
+      "source_sha256": "89cfe910ed48e5ef326915cea67539d8b8f6ff6cdc5426d2603ca21f0aabea2c",
+      "sha256": "36b9a78bc5fdcdb0eb6c056d7b554bac9cca347249180842277254e082d5fd8c",
+      "bytes": 10674,
+      "modification": "Official part references converted to shared assets/parts/subparts paths; geometry coordinates unchanged.",
+      "author": "Gerald Lasser [GeraldLasser]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/11-16cyli.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/11-16cyli.dat",
+      "source_sha256": "6763716ab47ebf0a16e8b40e6f1a74a32633ea22489bfc07f0e235c0bbf691bc",
+      "sha256": "6763716ab47ebf0a16e8b40e6f1a74a32633ea22489bfc07f0e235c0bbf691bc",
+      "bytes": 1924,
+      "modification": "Official geometry copied without modification.",
+      "author": "Willy Tschager [Holly-Wood]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
+    },
+    "primitives/11-16edge.dat": {
+      "source_archive": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_member": "ldraw/p/11-16edge.dat",
+      "source_sha256": "1bf8fadea1634856d2ff42b4029da1a23f8bfadacdc332e745ffa783ec0ef4d4",
+      "sha256": "1bf8fadea1634856d2ff42b4029da1a23f8bfadacdc332e745ffa783ec0ef4d4",
+      "bytes": 818,
+      "modification": "Official geometry copied without modification.",
+      "author": "Willy Tschager [Holly-Wood]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt"
     }
   }
 }
