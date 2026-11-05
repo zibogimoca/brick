@@ -2,7 +2,7 @@
 
 ## Reconstruction status
 
-The v0 model is in progress in [`notre-dame-v0.mpd`](notre-dame-v0.mpd). First-booklet steps 1–46 and 54–74 are represented through printed page 52 as dimensioned base work and diagram-derived drafts. Steps47–53 are inventoried but their portal subassembly placement awaits later alignment views. Steps75–88 and five other booklets remain.
+The v0 model is in progress in [`notre-dame-v0.mpd`](notre-dame-v0.mpd). The first booklet is represented through printed page 66 / step 88 as dimensioned base work and diagram-derived drafts. Steps47–53 were backward-placed from their final portal view; step54 details were shifted onto the paired nave side walls using later views. Five other booklets remain.
 
 Current project policy excludes minifigures, signs and nameplates from modeling and manual-reconstruction scope. No such items have been included in the current MPD. This exclusion does not apply to the building, base, structural connections or other ornament.
 
@@ -21,7 +21,7 @@ GoBricks product correspondence and sales status remain unverified. No product I
 
 ## Asset and verification record
 
-Official LDraw parts 2429, 2430, 3005, 3021, 3023b, 3024, 35480, 4073, 43710, 43711, 42862, 48165, 5907, 87087, 87544, 98138 and 18674 are shared under the licenses retained in `assets/policy.md`; 87544 and 18674 dependencies were resolved from the official 2026-09 `complete.zip` archive (SHA-256 `023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f`). Existing assets 3021, 3023b and 15573 were reused. Asset manifest file hashes were verified after registration. No GoBricks dictionary mapping was added because no product correspondence was verified.
+Official LDraw parts 1745, 92593, 2453a, 49307, 4733, 2429, 2430, 3005, 3021, 3023b, 3024, 35480, 4073, 43710, 43711, 42862, 48165, 5907, 87087, 87544, 98138 and 18674 are shared under the licenses retained in `assets/policy.md`; 87544 and 18674 dependencies were resolved from the official 2026-09 `complete.zip` archive (SHA-256 `023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f`). Existing assets 3021, 3023b and 15573 were reused. Asset manifest file hashes were verified after registration. No GoBricks dictionary mapping was added because no product correspondence was verified.
 
 Independent model checks cover instance/reference count and ID uniqueness, referenced part presence, finite coordinates, right-handed orthonormal rotations, per-step piece counts, and the step-20 arc radii/chord pitches. Step 21 panel/cap heights and stud-row spacing, step 22 stack order, and the step 23–40 hinge chord pitch, five-pad symmetry, radial panel orientation, repeated 8-LDU layer stack and per-step counts were checked separately. The full contact graph, physical fit and full-manual coverage remain in progress.
 
@@ -34,7 +34,7 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 - Step45 (printed page 38) callouts show six plain 1x2 plates, 13 one-centre-stud jumpers and six 1x1 bricks. LDraw 3023b/15573/3005 fit the count and silhouette. The 13 jumpers follow the 15° crown stations from steps41/44; six plate/brick pairs occupy alternating stations. Vertical stacking over the crown is provisional.
 - Step46 (printed page 39) shows 24 identical tall round columns. The silhouette and height support LDraw 2453a (1x1x5 brick with hollow stud). A 4-by-6 provisional grid sits within the R200 choir interior at x=10/50/90/130 and z=320/360/400/440/480/520; each lies within 200 LDU of the choir centre. Exact floor stations and the part mapping remain provisional pending later assembly views.
 
-- Step54 (printed page 40) shows seven repeated lower-arc details. Candidate inventory is 7 each of tan 3023b/15573, grey 6141, black 87087 and black 49307, based on callout silhouettes and the assembly inset. The seven modules are provisionally distributed at 30° intervals along R250. Later views are still needed to confirm exact support alignment and the side-stud/curved-cap contact.
+- Step54 (printed page 42) shows seven repeated lower-arc details. Candidate inventory is 7 each of tan 3023b/15573, grey 6141, black 87087 and black 49307, based on callout silhouettes and the assembly inset. The seven modules are provisionally distributed at 30° intervals along R250. Later views are still needed to confirm exact support alignment and the side-stud/curved-cap contact.
 
 - Step58 (printed page 46) calls for two round plates, two mirrored 2x2 corner plates, a 2x3 base, a long plate and one four-side-stud brick. Candidates 6141/2420/3021/3710/4733 match the profiles. One raised interior module is placed over the column field; exact stud mapping remains provisional.
 - Step59 (printed page 47) builds two mirrored interior assemblies from four 1x1 tiles, two 1x4 tiles, two rounded-end open-stud plates and two round plates. Candidates 3070b/2431/35480/6141 match the callout; they follow the two red-highlighted locations, while precise elevations and offsets remain provisional.
@@ -44,3 +44,12 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 - Steps67–71 (printed page 50) form an interior curved base: 3021 plate, three dark 3021 supports, one 15573 link, then two plus four 15573 jumpers. The six links are placed at R120 with 20° centers; their 41.7-LDU chord approximates the 40-LDU jumper length. The curve is a diagram-derived draft; integration with the preceding furnishings remains provisional.
 
 - Steps72–74 (printed pages 51–52) add four 6141 round supports and two 15573 links to the curved interior assemblies; step73 places them without adding parts. Step74 adds two dark 3021 plates, one 87087 side-stud brick and one 6141 round detail at the highlighted interior position. Counts match the callouts; exact seating remains provisional.
+
+- Steps75–80 (printed pages 53–58) add two dark paired modules, one detail module, six repeated tan/black choir details and seven tan side-stud caps. Candidate profiles use 3022/3023b/15573/3040b/11211/6636/3005/3062b/49307/87087 from the callouts. The paired interior locations and repeated R230 arc follow highlighted views; exact part registration and stack height remain provisional.
+
+- Steps81–88 (printed pages 59–66) add raised front supports, two roof-bearing plates, edge rails, 12 dark slopes, 12 tan ridge bricks, 40 roof details and three framed portal panels. Candidate parts are 3021/3005/6141/3024/3028/3710/3460/3040b/3039/15573/3023b/3004/3062b/49307/87544/11211. The visible bilaterality and callout counts are reflected; exact roof pitch, part identity for several silhouettes and contacts remain provisional.
+
+
+- Steps47–53 (printed pages 40–41) build one red/tan portal unit: 3622/49307 footing, 3623 cap, 6141/87087 accent, paired 11211 side-stud bricks with black 49307/3062b details, two 92593 upright plates and two 3023b plus 15573 upper ties. Step53 fixes the assembly at the front end of the left nave wall; depth and exact clutch remain provisional.
+- Step54 was initially placed on the choir arc, then moved to seven stations along the two straight nave walls after pages 42–45 showed the bilateral continuation. The seven 5-piece sets are at x=±160,z=260/420/580, plus the front-end station (0,220). This is a backward diagram constraint; exact facade offsets remain provisional.
+- Steps81–88 complete the first booklet's nave roofs and portal details. Two 3028 6x12 plates provide broad roof candidates, with symmetric rails and dark slope courses. The roof pitch and surface contacts remain unverified.
