@@ -1,5 +1,5 @@
 0 FILE tyrannosaurus-v0.ldr
-0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3003,"body_draft_piece_count":2488,"stand_draft_piece_count":515,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다. 1권 63쪽(인쇄 51쪽) 받침 바위 소조립은 부품표 7개와 현재 6개가 불일치합니다. 빠진 부품의 형상·장착 위치를 확인하기 전에는 임의 부품을 추가하지 않습니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
+0 !BRICK_STATE {"schema_version":4,"status":"instruction_reconstruction_in_progress","version_label":"버전 0","piece_count":3003,"body_draft_piece_count":2488,"stand_draft_piece_count":515,"layout":"integrated_instruction_model","layout_note":"본체·받침대 통합 검토본 · 두 번째 다리 비대칭 보행 후보와 발판 고정축 반영","unresolved":"발판의 3707 8L 축 중심을 3700 Technic 구멍 중심에 맞췄습니다. 1권 19–20쪽과 79–80쪽에서 대조한 받침대 12/72/73 스터드 격자 위치와 3707 8L 발 고정축 중심선은 모델 좌표에 반영했습니다. 축 삽입 여유·빠짐 방지, 전수 간섭·실물 결합·가동·하중과 안정성은 추가 검증이 필요합니다.","support_note":"기둥 결합축과 발판 고정축을 반영한 CAD 초안입니다. 부품 접촉·전수 간섭·실물 결합·하중은 미검증입니다.","assembly_verified":false,"joints":[]}
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-spine-start.ldr
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 body-display-stand-review.ldr
 0 NOFILE
@@ -4245,7 +4245,7 @@
 1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 15068.dat
 0 NOFILE
 0 FILE stand-foot-review-high-foot-rock-step51.ldr
-0 Step51 rock-panel draft currently has six part references; book1 page63 BOM lists seven. One part and its placement remain to be identified.
+0 Step51 seven physical parts: 3298, 99780, 3623 x2, 3040b, 32607 and 11477 match the page63 BOM by count and appearance. 99780 is the up-bracket with side studs; those studs support the leaf and curved cap in steps4–5. The module is instantiated once; physical fit and load remain unverified.
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 3298.dat
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 99780.dat
 1 330 -10 -16 0 1 0 0 0 1 0 0 0 1 3623.dat
