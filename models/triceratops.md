@@ -2,18 +2,19 @@
 
 ## 재구성 근거와 진행
 
-`models/triceratops-v0.mpd` is a manual-based reconstruction. Earlier layouts are not used as evidence when part identity changes; affected transforms are recalculated from the current official LDraw DAT geometry. Latest policy and shared know-how from `origin/main` commit `8ca6bf3` were incorporated, including the 77985 reviewed-step candidates.
+`models/triceratops-v0.mpd` is a manual-based reconstruction. Earlier layouts are not used as evidence when part identity changes; affected transforms are recalculated from the current official LDraw DAT geometry. Latest policy and the shared 77985 reviewed-step crosswalk from `origin/main` bbf9251 are incorporated.
 
 - Printed steps 4–6 are a display-base rock formation, separate from the fossil skull built much later. Step 4 uses the called 18980 rounded 2×6 plate. Its DAT stud grid projects onto three perimeter positions in the 60474 project platform proxy; because that proxy omits the underside locking geometry, only grid and layer registration are established.
 - Step 5 uses 24316 stop axles, 32064a cross-axlehole bricks and 3713 bushes. The replaced 4519/3700 coordinate assumptions are not carried forward; see the instance notes for the DAT-based refit and remaining insertion uncertainty.
 - Step 10 is the display plant branch (68211 stem, 4367 white flower, 22667 dark-azure fruit candidate). It is not fossil-skull material. Its local ornament module remains separate from the skull.
 - Step 249 is a local sandwich core: two 6541 bricks between the 3023b layers. The 6141 underside tubes enter the parallel +Z side ports and their top studs point outward. The 25264 anti-stud intervals register over those studs, with mold fit and cap azimuth still provisional.
-- Step 278 is rebuilt from 32056, 92907 and two 61332 parts. Their internal axes and pin spans are recalculated below. Step 278’s two pin tips have a candidate fit into the parallel 6541 pair on the skull support; the step279 torso receiver remains unlocated.
+- Step 278 is rebuilt from 32056, 92907 and two 61332 parts. Both pin tips are placed into the parallel 6541 ports on the step249 support, with centerline, pitch and 10-LDU projection registration. This is a locally connected skull-link joint; its molded fit and the separate step279 body interface remain unverified.
 - Independent later body, skull and base fragments continue as local candidate assemblies. Their unconnected definitions are not counted as pieces attached to the final root.
+- Printed steps 237–238 now form a local rail: one tan 3023b plate supports two of the ten-stud positions of the tan 4477 plate; step238 adds two tan 6141 round plates at x=20/40 and another 3023b at x=80. These stud centers register to the 4477 pattern. The rail is a partial skull-side branch; the later 239–246 connection into the head core remains to be restored.
 
 ## 검사 결과와 한계
 
-Current state records 161 physical instance IDs across the MPD hierarchy. Structural checks compare every ID, part, color, composed transform and quantity with embedded state. SKU mapping remains separate from source-part identity. LDraw DAT axis/center tests are distinct from closed-solid Boolean or open-surface collision tests; neither collision method is treated as valid when its mesh assumptions fail.
+Current state records 166 physical instance IDs across the MPD hierarchy. Structural checks compare every ID, part, color, composed transform and quantity with embedded state. SKU mapping remains separate from source-part identity. LDraw DAT axis/center tests are distinct from closed-solid Boolean or open-surface collision tests; neither collision method is treated as valid when its mesh assumptions fail.
 
 ## 장식·범위 확인 항목
 
