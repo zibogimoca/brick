@@ -202,3 +202,28 @@ test('loads all integrated review models without missing geometry', async ({ pag
   }
   expect(errors).toEqual([]);
 });
+
+
+test('keeps the latest version when an earlier model download finishes late', async ({ page }) => {
+  const { createHash } = await import('node:crypto');
+  const body = color => `0 FILE race.ldr\n1 ${color} 0 0 0 1 0 0 0 1 0 0 0 1 cube.dat\n0 NOFILE\n0 FILE cube.dat\n0 BFC CERTIFY CCW\n3 16 0 0 0 20 0 0 0 20 0\n0 NOFILE\n`;
+  const files = { 1: body(4), 2: body(14) };
+  const entries = [1, 2].map(v => ({ modelId: 'tyrannosaurus', modelName: '티라노사우루스', name: '티라노사우루스', versionLabel: `버전 ${v}`, designVersion: v, url: `./models/tyrannosaurus-v${v}.mpd`, version: createHash('sha256').update(files[v]).digest('hex').slice(0, 12) }));
+  let releaseOld, markRequested;
+  const held = new Promise(resolve => { releaseOld = resolve; });
+  const requested = new Promise(resolve => { markRequested = resolve; });
+  await page.route('**/models/index.json?*', route => route.fulfill({ json: entries }));
+  await page.route('**/models/tyrannosaurus-v1.mpd?*', route => route.fulfill({ body: files[1], contentType: 'text/plain' }));
+  await page.route('**/models/tyrannosaurus-v2.mpd?*', async route => { markRequested(); await held; await route.fulfill({ body: files[2], contentType: 'text/plain' }); });
+  await page.goto('/');
+  await page.selectOption('#models', { label: '티라노사우루스' });
+  await requested;
+  await page.selectOption('#versions', { label: '버전 1' });
+  await expect(page.locator('#version')).toContainText('tyrannosaurus-v1.mpd', { timeout: 30000 });
+  const oldFinished = page.waitForEvent('requestfinished', request => request.url().includes('tyrannosaurus-v2.mpd'));
+  releaseOld();
+  await oldFinished;
+  await page.waitForLoadState('networkidle');
+  await expect(page.locator('#version')).toContainText('tyrannosaurus-v1.mpd');
+  await expect(page.locator('#versions option:checked')).toHaveText('버전 1');
+});
