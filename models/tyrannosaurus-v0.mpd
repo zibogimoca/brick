@@ -4246,13 +4246,23 @@
 0 NOFILE
 0 FILE stand-foot-review-high-foot-rock-step51.ldr
 0 Step51 seven physical parts: 3298, 99780, 3623 x2, 3040b, 32607 and 11477 match the page63 BOM by count and appearance. 99780 is the up-bracket with side studs; those studs support the leaf and curved cap in steps4–5. The module is instantiated once; physical fit and load remain unverified.
+0 Instruction step1 / printed page51. Build the wedge and its up-bracket.
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 3298.dat
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 99780.dat
+0 STEP
+0 Instruction step2 / printed page51. Add the first olive 1x3 plate to the upper studs.
 1 330 -10 -16 0 1 0 0 0 1 0 0 0 1 3623.dat
+0 STEP
+0 Instruction step3 / printed page51. Add the second olive 1x3 plate and light-gray slope to the shown lower positions.
 1 330 -30 16 -20 0 0 1 0 1 0 -1 0 0 3623.dat
 1 71 -30 -8 0 1 0 0 0 1 0 0 0 1 3040b.dat
+0 STEP
+0 Instruction step4 / printed page51. Attach the three-leaf part to the bracket side stud.
 1 288 -10 -10 -22 -1 0 0 0 0 1 0 1 0 32607.dat
+0 STEP
+0 Instruction step5 / printed page51. Attach the curved slope to the other bracket side stud.
 1 330 20 -10 -6 0 0 -1 -1 0 0 0 1 0 11477.dat
+0 STEP
 0 NOFILE
 0 FILE stand-foot-review-high-foot-amber-step52.ldr
 0 Step52 four-part amber stack. The lower plate bottom isY8; global mount is in the root model.
