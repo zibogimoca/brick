@@ -63,3 +63,10 @@ Independent model checks cover instance/reference count and ID uniqueness, refer
 - Second-booklet steps102–107 (printed pages82–87) extend the raised arcade with 4+4 X-lattice 19121 fences, tan slopes, 13 side-stud blocks, cap plates, 15 gallery links and round end details. Official LDraw 19121 matches the visible 1x4x2 X-lattice silhouette. Callout counts and upper-arc stations are represented; roof pitch, exact small-part colors and contact remain provisional.
 
 - Second-booklet steps108–116 (printed pages88–91) build a separate roof cap around an 8x16 92438 blank, reinforced with rails, plates and dark slopes; step116 installs it above the arcade. The successive roof layers are staged at the final central station. Exact roof pitch and some slope identities remain provisional.
+
+- Second-booklet steps117–119 (printed pages92,94,96) add 14 flying-buttress assemblies (8+4+2), built from 11211/87087 blocks, paired 43888 shafts, 3705 axle connectors and cap plates. Candidate shapes and callout quantities are represented; brace angles and exact wall/roof contacts remain provisional.
+
+- Second-booklet steps120–130 (printed pages99–107) begin the final black foundation: long 60479 perimeter rails, 3035/92438/41539 plate fields and 6636 edge tiles. The repeated 8x16 plate grid is provisionally centered under the earlier model at (0,420), with outer bounds near x=±400 and z=20–820 LDU. Step136 will constrain the join; exact seams and offsets remain provisional.
+
+
+- Second-booklet steps131–135 (printed pages108–112) extend the 40x40 foundation into a tiled courtyard. The callouts specify 20, 11, 16, 36 and 28 parts respectively; tan/dark-tan pad candidates and grey/olive border pieces are assigned by silhouette. Steps136–138 (printed pages113–115) attach the earlier cathedral to the rear-right of the board, continue the entrance apron, and add 20 black/white wedge pairs as a 4x5 mosaic. The image establishes the courtyard-forward orientation and keeps the existing (0,420) centerline. Exact tile identities, edge seams, and mosaic contact with the portal remain provisional; callout counts and 60-LDU wedge-cell pitch are checked.
