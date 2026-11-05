@@ -123,7 +123,7 @@ test('loads integrated v0 with no invented articulation and can return to v1', a
   await expect(page.locator('#version')).toContainText('tyrannosaurus-v0.mpd');
   await expect(page.locator('#summary')).toContainText('본체·받침대 검토본');
   await expect(page.locator('#summary')).toContainText('본체 초안 2496개');
-  await expect(page.locator('#summary')).toContainText('어깨띠 전방 기울기·원판 접힘 수정');
+  await expect(page.locator('#summary')).toContainText('왼쪽 284개 물리 금형 대응 미러');
   await expect(page.locator('#pose-panel')).toBeHidden();
   await page.selectOption('#versions', { label: '버전 1' });
   await expect(page.locator('#status')).toContainText('모델을 불러왔습니다', { timeout: 180000 });
@@ -179,7 +179,7 @@ test('mirrored LDraw meshes retain the same exterior as a symmetric ordinary mes
 });
 
 
-test('loads all integrated review models without missing geometry', async ({ page }) => {
+test('loads all integrated review models without missing geometry', async ({ page }, testInfo) => {
   test.setTimeout(600000);
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -199,6 +199,13 @@ test('loads all integrated review models without missing geometry', async ({ pag
     await expect(page.locator('#status')).not.toContainText('완전히 불러오지 못했습니다');
     await expect(page.locator('#summary')).not.toContainText('undefined');
     await expect(page.locator('canvas')).toHaveAttribute('data-model-loaded', 'true');
+    await page.screenshot({ path: testInfo.outputPath(file + '.png') });
+    if (file === 'tyrannosaurus-v0.mpd') {
+      await page.click('#side-view');
+      await page.screenshot({ path: testInfo.outputPath('tyrannosaurus-v0-side.png') });
+      await page.click('#front-view');
+      await page.screenshot({ path: testInfo.outputPath('tyrannosaurus-v0-front.png') });
+    }
   }
   expect(errors).toEqual([]);
 });
