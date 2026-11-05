@@ -440690,10 +440690,37 @@
       "ldraw_candidates": [
         "6558"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/6558.dat",
+        "sha256": "d762284c67ec6c4e96bfe4f2b3d4aead9ba7750f26c337aedefdc6e12e2e0978",
+        "source": "https://github.com/ldraw-linux/ldraw-library/blob/master/ldraw/parts/6558.dat",
+        "mapping_basis": "GoBricks candidate 6558 matches manufacturer-listed Technic Pin Long with Friction Ridges and Slot. Reference LDraw geometry is mirrored from public ldraw-linux library; exact GoBricks mold/tolerance and physical fit unverified."
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -30.0,
+            -7.801,
+            -8.0005308
+          ],
+          "max": [
+            30.0,
+            7.801,
+            8.0005308
+          ]
+        },
+        "size_mm": [
+          24.0,
+          6.2408,
+          6.400425
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of normalized LDraw reference geometry; physical measurement not performed."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "reference_mesh_resolved; dimensions measured from mirrored LDraw triangles; GoBricks mold and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-888-010",
@@ -441189,7 +441216,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/888.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-888-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Long friction pin, 3L reference length; tested as an axial through-pin in three aligned 32524 beam holes. Not a physical compatibility or load rating."
     },
     {
       "gobricks_id": "889",
