@@ -159,6 +159,7 @@ def stud_connectivity(state,prefix=''):
   '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),'87087':(1,1,24),
   '98283':(2,1,24), # Native 1x2 embossed brick: standard top/bottom seats.
   '3700':(2,1,24), # Native 1x2 Technic brick: top studs and underside seats only; side bore excluded.
+  '4032a':(2,2,8),'18838':(12,1,72), # Explicit raised-arch seating levels below.
   '3007':(8,2,24),'3008':(8,1,24),'3010':(4,1,24),'3622':(3,1,24),
   '3020':(4,2,8),'3021':(3,2,8),'3022':(2,2,8),'3023b':(2,1,8),
   '3024':(1,1,8),'3031':(4,4,8),'3032':(6,4,8),'3033':(10,6,8),
@@ -194,7 +195,10 @@ def stud_connectivity(state,prefix=''):
   if n=='87087' and upper:
    return [(plus(o['position'],mv(o['matrix'],p)),mv(o['matrix'],normal))
            for p,normal in [([0,0,0],[0,-1,0]),([0,10,-10],[0,0,-1])]]
-  if n=='34103': # Centre-holder mode only; no invented extra underside seats.
+  if n=='18838':
+   # Native stug-1x8 atY=0, two stepped stud pairs, and only two bottom end sockets.
+   local=([[x,0,0] for x in range(-70,71,20)]+[[x,24,0] for x in (-90,90)]+[[x,48,0] for x in (-110,110)]) if upper else [[x,72,0] for x in (-110,110)]
+  elif n=='34103': # Centre-holder mode only; no invented extra underside seats.
    local=[[x,0,0] for x in (-10,10)] if upper else [[0,8,0]]
   elif n in {'3039','30363'}:
    zs=[0] if upper else ([-20,0] if n=='3039' else [-60,-40,-20,0])
