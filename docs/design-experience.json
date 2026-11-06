@@ -341,6 +341,20 @@
       "evidence": "D 네 기둥 비교 베이에 이 밑받침과34103 중앙 기둥머리를 배치했다. 56개 단일 명목 연결과 비결합 메시 교차 후보0쌍을 확인했다.",
       "verification_level": "native_geometry_and_nominal_seats_recomputed",
       "limitations": "두 번째 점퍼는 한 스터드로 지지된다. 기하 연결이 실물 유지력·비틀림 강성·하중 안정성을 증명하지 않는다."
+    },
+    {
+      "id": "staggered-cap-around-projecting-tie",
+      "category": "architectural_connections",
+      "problem": "모서리 기둥 연결판과 벽 위의 통판을 같은 층에 겹치면 접점은 맞아도 몸체가 교차한다.",
+      "application_conditions": "곡면·다각 벽의 돌출 연결판을 유지하면서 위쪽에 일정 높이의 접속판을 만들 때.",
+      "method": [
+        "연결판이 이미 차지한 같은 층 공간을 빼고 나머지를 작은 판으로 분할한다. 각 조각 밑면이 실제 벽 위 스터드에 맞는지 대조한다.",
+        "다음 층의 통판 밑면 좌석을 분할판과 기존 연결판의 윗 스터드에 함께 맞춘다. 단순 경계 접촉과 체결을 구분한다.",
+        "각 면·모서리에 반복한 뒤 전체 명목 연결망과 주변 비결합 메시를 다시 검사한다."
+      ],
+      "evidence": "16면 드럼의 상부 층을3020·3022·회전3023b와 기존 모서리3022로 분할하고3031을 덮었다.16개 접속판을Y=-202로 맞췄으며 전체768개 단일 연결·메시 횡단 후보0쌍을 확인했다.",
+      "verification_level": "transformed_nominal_seats_and_native_surface_candidates_checked",
+      "limitations": "스터드 연결망과 표면 후보의 확인이다. 강성·클러치 유지력·돔 하중 지지 능력을 증명하지 않는다."
     }
   ]
 }
