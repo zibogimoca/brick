@@ -23,7 +23,7 @@ def plus(a,b):return [x+y for x,y in zip(a,b)]
 def near(a,b):return all(abs(x-y)<1e-4 for x,y in zip(a,b))
 def body_overlaps(state, parts):
  # Nominal solid rectangular bodies only; studs, cavities and curved/Technic parts excluded.
- names={x+'.dat' for x in ['3001','3003','3005','3004','3010','3622','3020','3024','3023b','3022','3710','3623','3666','3460','3034','3832','3031','3032','3033','3035','3036','41539','3007','3008','2431','3068b','3069b','3070b','63864','60479']}
+ names={x+'.dat' for x in ['3001','3003','3005','3004','3010','3622','3020','3024','3023b','3022','3710','3623','3666','3460','3034','3832','3795','15573','3031','3032','3033','3035','3036','41539','3007','3008','2431','3068b','3069b','3070b','63864','60479']}
  def dot(a,b):return sum(x*y for x,y in zip(a,b))
  def cross(a,b):return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]
  boxes=[]
@@ -134,10 +134,10 @@ def stud_connectivity(state,prefix=''):
   '3020':(4,2,8),'3021':(3,2,8),'3022':(2,2,8),'3023b':(2,1,8),
   '3024':(1,1,8),'3031':(4,4,8),'3032':(6,4,8),'3033':(10,6,8),
   '3034':(8,2,8),'3035':(8,4,8),'3036':(8,6,8),'3710':(4,1,8),
-  '3623':(3,1,8),'3666':(6,1,8),'3460':(8,1,8),'3832':(10,2,8),
+  '3795':(6,2,8),'15573':(2,1,8),'3623':(3,1,8),'3666':(6,1,8),'3460':(8,1,8),'3832':(10,2,8),
   '41539':(8,8,8),'3062b':(1,1,24),'3941':(2,2,24),'6141':(1,1,8),
   '2431':(4,1,8),'3068b':(2,2,8),'3069b':(2,1,8),'3070b':(1,1,8),
-  '63864':(3,1,8),'60592':(2,1,48),'3659':(4,1,24),
+  '63864':(3,1,8),'60592':(2,1,48),'3659':(4,1,24),'3307':(6,1,48),
   '4275b':(2,1,8),'4276b':(2,1,8),'44301':(2,1,8),'44302':(2,1,8)}
  tiles={'2431','3068b','3069b','3070b','63864','15068'}
  hinges={'2429':('vertical','male',[0,4,0],[0,1,0]),
@@ -162,7 +162,8 @@ def stud_connectivity(state,prefix=''):
   n=Path(o['part']).stem
   if n not in shapes and n not in {'2429','2430','43722','43723','60477','15068'}:return None
   if upper and n in tiles:return []
-  if n in {'2429','2430'}:
+  if n=='15573' and upper:local=[[0,0,0]]
+  elif n in {'2429','2430'}:
    xs=(-30,-10) if n=='2429' else (10,30)
    local=[[x,0 if upper else 8,10] for x in xs]
   elif n in {'43722','43723'}:
@@ -173,7 +174,7 @@ def stud_connectivity(state,prefix=''):
    w,d,h=shapes[n]
    local=[[(x-(w-1)/2)*20,0 if upper else h,(z-(d-1)/2)*20]
           for x in range(w) for z in range(d)
-          if not (n=='3659' and not upper and x not in (0,w-1))]
+          if not (n in {'3659','3307'} and not upper and x not in (0,w-1))]
   normal=mv(o['matrix'],[0,-1 if upper else 1,0])
   return [(plus(o['position'],mv(o['matrix'],v)),normal) for v in local]
  for o in rows:
