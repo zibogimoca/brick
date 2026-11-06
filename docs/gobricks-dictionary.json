@@ -640730,7 +640730,8 @@
     },
     "59": {
       "geometry": "assets/parts/59.dat",
-      "gobricks_status": "not_verified"
+      "gobricks_status": "not_verified",
+      "verification": "Existing registered LDraw minifigure greatsword geometry compared against 93550 rapier; chosen as broader Arthurian sword. No GoBricks catalog mapping verified."
     },
     "48310": {
       "geometry": "assets/parts/48310.dat",
@@ -641837,6 +641838,27 @@
       "source": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
       "gobricks_status": "not_applicable_LEGO_model_no_GoBricks_SKU",
       "verification": "Official LDraw shape and source header verified; minifigure/horse placement is a CAD reference only; physical fit/clutch not verified. Author: Chris Dee [cwdee]\r. License: Redistributable under CCAL version 2.0 : see CAreadme.txt\r"
+    },
+    "3818": {
+      "geometry": "assets/parts/3818.dat",
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3818.dat",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw minifigure right arm; shoulder datum and rotation follow source HELP comments. GoBricks sale mapping not verified.",
+      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9"
+    },
+    "3819": {
+      "geometry": "assets/parts/3819.dat",
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3819.dat",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw minifigure left arm; shoulder datum and rotation follow source HELP comments. GoBricks sale mapping not verified.",
+      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9"
+    },
+    "3820": {
+      "geometry": "assets/parts/3820.dat",
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3820.dat",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw minifigure hand; wrist post/grip geometry from pinned source. GoBricks sale mapping not verified.",
+      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9"
     }
   },
   "instruction_sets": {
