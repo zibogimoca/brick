@@ -209770,10 +209770,33 @@
       "ldraw_candidates": [
         "3795"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3795.dat",
+        "sha256": "2cd41b03b3606b1259a33847127e79f5c4714a0e66b328516e8c4bf5eab48c86"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -60.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            60.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          4.800000000000001,
+          16.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native reference checked; nominal seating only, mold fit and clutch not measured",
       "offers": [
         {
           "sku": "GDS-512-010",
@@ -221044,10 +221067,33 @@
         "3036",
         "3036a"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3036.dat",
+        "sha256": "7c108504e6823f46eecab58f22931e13acd9cf6a355e849f11556bba88a6e71c"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            60.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          4.800000000000001,
+          48.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native bounds checked; connector inventory and physical fit not verified",
       "offers": [
         {
           "sku": "GDS-524-010",
@@ -232969,10 +233015,33 @@
         "3008",
         "63322"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3008.dat",
+        "sha256": "b79ba5ddcd7ccd3d3612907467161f0e087dbf3918fb340b48dad93186e6b443"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            80.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          11.200000000000001,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native bounds checked; connector inventory and physical fit not verified",
       "offers": [
         {
           "sku": "GDS-536-010",
@@ -330140,10 +330209,33 @@
         "12939",
         "3307"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3307.dat",
+        "sha256": "1f8a35123063dec41f8668b45b733cf2eeb639ab08b47a58f4daf399e7df50d0"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -60.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            60.0,
+            48.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          20.8,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native arch reference checked; nominal end supports, physical fit not measured",
       "offers": [
         {
           "sku": "GDS-678-010",
@@ -390299,10 +390391,33 @@
         "3794",
         "3794b"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/15573.dat",
+        "sha256": "53985b42a65537853c8d8a5f9a655e73be1d1c35026ec8e94ac4501764cc0c80"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.800000000000001,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native reference checked; nominal seating only, mold fit and clutch not measured",
       "offers": [
         {
           "sku": "GDS-803-010",
