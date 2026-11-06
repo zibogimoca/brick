@@ -1,7 +1,9 @@
 """
 기능: 지정한 MPD의 실제 배치와 상태 기록, 부품 사전·가격·형상 무결성을 검사한다.
 입력: models/<모델>.mpd 위치 인자, docs/gobricks-dictionary.json, assets/policy.md.
-선택: --check-body-overlaps로 직육면체 몸체 겹침을 검사한다. 곡선·관절은 제외한다.
+선택: --check-body-overlaps로 직육면체 몸체 겹침을 검사한다.
+      --check-mesh-crossings는 Blender로 실제 DAT 표면 횡단 후보를 보고한다.
+      --instance-prefix B-로 담당 범위를 고르며 이미지는 만들지 않는다. 곡선·관절은 제외한다.
       --check-stud-connectivity --instance-prefix A- --expect-stud-components 2는
       본문에서 지원 부품의 명목 스터드·힌지 연결망을 계산한다. 실물 체결 판정이 아니다.
 출력: 기본은 읽기 전용. --sync-state는 schema 3의 ID·수량·좌표 상태만 본문에서 갱신한다.
@@ -137,7 +139,7 @@ def stud_connectivity(state,prefix=''):
   '3795':(6,2,8),'15573':(2,1,8),'3623':(3,1,8),'3666':(6,1,8),'3460':(8,1,8),'3832':(10,2,8),
   '41539':(8,8,8),'3062b':(1,1,24),'3941':(2,2,24),'4032':(2,2,8),'6141':(1,1,8),
   '2431':(4,1,8),'3068b':(2,2,8),'3069b':(2,1,8),'3070b':(1,1,8),
-  '63864':(3,1,8),'60592':(2,1,48),'3659':(4,1,24),'3307':(6,1,48),
+  '63864':(3,1,8),'60592':(2,1,48),'3659':(4,1,24),'3307':(6,1,48),'3039':(2,2,24),'30363':(2,4,24),'34103':(3,1,8),
   '4275b':(2,1,8),'4276b':(2,1,8),'44301':(2,1,8),'44302':(2,1,8)}
  tiles={'2431','3068b','3069b','3070b','63864','15068'}
  hinges={'2429':('vertical','male',[0,4,0],[0,1,0]),
@@ -165,7 +167,12 @@ def stud_connectivity(state,prefix=''):
   if n=='87087' and upper:
    return [(plus(o['position'],mv(o['matrix'],p)),mv(o['matrix'],normal))
            for p,normal in [([0,0,0],[0,-1,0]),([0,10,-10],[0,0,-1])]]
-  if n=='15573' and upper:local=[[0,0,0]]
+  if n=='34103': # Centre-holder mode only; no invented extra underside seats.
+   local=[[x,0,0] for x in (-10,10)] if upper else [[0,8,0]]
+  elif n in {'3039','30363'}:
+   zs=[0] if upper else ([-20,0] if n=='3039' else [-60,-40,-20,0])
+   local=[[x,0 if upper else 24,z] for x in (-10,10) for z in zs]
+  elif n=='15573' and upper:local=[[0,0,0]]
   elif n in {'2429','2430'}:
    xs=(-30,-10) if n=='2429' else (10,30)
    local=[[x,0 if upper else 8,10] for x in xs]
@@ -325,16 +332,86 @@ def run(model, check_body=False):
  else:
   print('LEGO GEOMETRY PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'verified GoBricks SKUs; GoBricks product mapping is not required for v0.')
  print('NOT VERIFIED: physical assembly/clutch, exact mesh collision, joint range/strength, load stability, superiority to reference product.')
+def _native_mesh_worker(model,prefix,output):
+ """Blender worker: native surfaces only, without rendering images."""
+ from mathutils import Matrix,Vector
+ from mathutils.bvhtree import BVHTree
+ root=Path(__file__).resolve().parents[1]/'assets';cache={}
+ def geometry(name,stack=()):
+  name=name.replace('\\','/').lower()
+  if name in cache:return cache[name]
+  if name in stack:raise ValueError('Cyclic geometry reference '+name)
+  path=next((root/d/name for d in ('','parts','primitives') if (root/d/name).is_file()),None)
+  if path is None:raise FileNotFoundError(name)
+  vertices=[];faces=[]
+  for line in path.read_text(encoding='utf-8-sig').splitlines():
+   f=line.split(maxsplit=14)
+   if not f:continue
+   if f[0]=='1' and len(f)==15:
+    vs,fs=geometry(f[14],stack+(name,));m=Matrix([list(map(float,f[k:k+3])) for k in (5,8,11)]);t=Vector(list(map(float,f[2:5])));start=len(vertices)
+    vertices.extend(m@v+t for v in vs);faces.extend(tuple(start+i for i in face) for face in fs)
+   elif f[0] in ('3','4'):
+    nums=list(map(float,line.split()[2:]));start=len(vertices)
+    vertices.extend(Vector(nums[k:k+3]) for k in range(0,len(nums),3));faces.append(tuple(range(start,len(vertices))))
+  cache[name]=(vertices,faces);return vertices,faces
+ state=sync_state(Path(model),write=False);state['instances']=[o for o in state['instances'] if o['id'].startswith(prefix)]
+ graph=stud_connectivity(state);intended={tuple(sorted(p)) for p in list(graph['stud_pairs'])+graph['hinge_pairs']};objects={}
+ for o in state['instances']:
+  vs,faces=geometry(o['part']);m=Matrix([o['matrix'][k:k+3] for k in (0,3,6)]);t=Vector(o['position']);verts=[(m@v+t)*.0004 for v in vs]
+  objects[o['id']]={'item':o,'verts':verts,'faces':faces,'axes':[m.col[k].normalized() for k in range(3)],'tree':BVHTree.FromPolygons(verts,faces,all_triangles=False),'lo':[min(v[k] for v in verts) for k in range(3)],'hi':[max(v[k] for v in verts) for k in range(3)]}
+ candidates=[];ids=sorted(objects,key=lambda id:objects[id]['lo'][0])
+ for idx,a in enumerate(ids):
+  aa=objects[a]
+  for b in ids[idx+1:]:
+   bb=objects[b]
+   if bb['lo'][0]>=aa['hi'][0]-.00002:break
+   if tuple(sorted((a,b))) in intended:continue
+   if any(min(aa['hi'][k],bb['hi'][k])-max(aa['lo'][k],bb['lo'][k])<.00002 for k in range(3)):continue
+   separated=False
+   for axis in aa['axes']+bb['axes']:
+    av=[axis.dot(v) for v in aa['verts']];bv=[axis.dot(v) for v in bb['verts']]
+    if min(max(av),max(bv))-max(min(av),min(bv))<.00002:separated=True;break
+   if separated:continue
+   hits=aa['tree'].overlap(bb['tree']);crossings=0
+   for ia,ib in hits:
+    av=[aa['verts'][i] for i in aa['faces'][ia]];bv=[bb['verts'][i] for i in bb['faces'][ib]]
+    na=(av[1]-av[0]).cross(av[2]-av[0]);nb=(bv[1]-bv[0]).cross(bv[2]-bv[0])
+    if na.length<1e-18 or nb.length<1e-18:continue
+    na.normalize();nb.normalize();da=[nb.dot(v-bv[0]) for v in av];db=[na.dot(v-av[0]) for v in bv]
+    if min(da)<-1e-7 and max(da)>1e-7 and min(db)<-1e-7 and max(db)>1e-7:crossings+=1
+   if hits:candidates.append({'a':a,'part_a':aa['item']['part'],'b':b,'part_b':bb['item']['part'],'surface_pairs':len(hits),'proper_surface_crossings':crossings})
+ Path(output).write_text(json.dumps({'instances':len(ids),'contact_candidates':candidates,'crossing_candidates':[p for p in candidates if p['proper_surface_crossings']],'unsupported_nominal_parts':graph['unsupported_parts'],'scope':'Native BVH surface candidates; named nominal stud/hinge pairs excluded. Not solid containment, penetration volume, physical fit or load verification.'}),encoding='utf-8')
+
+def native_mesh_crossings(model,prefix=''):
+ """Run the same image-free native surface review across a selected owner."""
+ import shutil,subprocess,tempfile
+ blender=shutil.which('blender')
+ if not blender:raise RuntimeError('--check-mesh-crossings requires Blender; no mesh result was produced')
+ with tempfile.TemporaryDirectory(prefix='brick-mesh-') as directory:
+  output=Path(directory)/'result.json';script=Path(__file__).resolve()
+  expression=f"import runpy; m=runpy.run_path({str(script)!r}); m['_native_mesh_worker']({str(Path(model).resolve())!r},{prefix!r},{str(output)!r})"
+  process=subprocess.run([blender,'-b','-t','4','--python-expr',expression],cwd=script.parents[1],capture_output=True,text=True,timeout=600)
+  if process.returncode or not output.is_file():raise RuntimeError('Native mesh worker failed: '+(process.stdout+process.stderr)[-1800:])
+  return json.loads(output.read_text())
+
 if __name__=='__main__':
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('model',type=Path);parser.add_argument('--check-body-overlaps',action='store_true',help='직육면체 브릭 몸체의 명목 간섭 검사; 실패 시 0이 아닌 코드 반환');parser.add_argument('--sync-state',action='store_true',help='schema 3 본문 기준 상태 갱신; 반복 호출의 ID가 모호하면 저장 없이 실패');parser.add_argument('--sync-only',action='store_true',help='--sync-state와 함께 상태 갱신만 실행')
  parser.add_argument('--check-stud-connectivity',action='store_true',help='본문에서 명목 스터드·힌지 연결망 보고; 실물 체결 검사가 아님')
- parser.add_argument('--instance-prefix',default='',help='연결망을 검사할 물리 ID 접두어, 예: A-')
+ parser.add_argument('--instance-prefix',default='',help='연결망·메시를 검사할 물리 ID 접두어, 예: A-')
+ parser.add_argument('--check-mesh-crossings',action='store_true',help='Blender로 실제 DAT 표면 교차 후보 검사; 이미지 생성 없음, 실물·솔리드 검사가 아님')
  parser.add_argument('--expect-stud-components',type=int,help='지원 부품으로만 구성된 범위의 예상 연결 성분 수; 다르면 실패')
  args=parser.parse_args()
  if args.sync_only and not args.sync_state:parser.error('--sync-only requires --sync-state')
- if args.instance_prefix and not args.check_stud_connectivity:parser.error('--instance-prefix requires --check-stud-connectivity')
+ if args.instance_prefix and not (args.check_stud_connectivity or args.check_mesh_crossings):parser.error('--instance-prefix requires --check-stud-connectivity or --check-mesh-crossings')
  if args.expect_stud_components is not None and args.expect_stud_components<1:parser.error('--expect-stud-components must be positive')
  if args.expect_stud_components is not None and not args.check_stud_connectivity:parser.error('--expect-stud-components requires --check-stud-connectivity')
  if args.sync_state:sync_state(args.model)
  if args.check_stud_connectivity:report_stud_connectivity(args.model,args.instance_prefix,args.expect_stud_components)
  if not args.sync_only:run(args.model,args.check_body_overlaps)
+ if args.check_mesh_crossings and not args.sync_only:
+  result=native_mesh_crossings(args.model,args.instance_prefix)
+  print('NATIVE MESH REVIEW:',result['instances'],'parts;',len(result['contact_candidates']),'contact candidate pairs;',len(result['crossing_candidates']),'proper surface crossing candidate pairs')
+  for pair in result['crossing_candidates'][:40]:print(pair)
+  if result['unsupported_nominal_parts']:print('Unmodeled nominal contact parts:',result['unsupported_nominal_parts'])
+  print('SCOPE:',result['scope'])
+  assert not result['crossing_candidates'],'Native surfaces cross; review these pairs before accepting the geometry'

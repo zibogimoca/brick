@@ -270612,8 +270612,7 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/589.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-589-180"
         }
-      ],
-      "connection_inventory_scope": "Reference top studs only; underside receptacles and other legal attachment modes are not fully cataloged."
+      ]
     },
     {
       "gobricks_id": "590",
@@ -375271,10 +375270,33 @@
       "ldraw_candidates": [
         "30363"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/30363.dat",
+        "sha256": "7987d153c3c47b2573b73aef64c4683b889e93bd86ae3fb3b14af6e1b926744d"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -70.0
+          ],
+          "max": [
+            20.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          11.200000000000001,
+          32.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "GoBricks775 tan product image and catalog name match the long low 18-degree 4x2 LDraw30363 slope layout. Native reference geometry, manufacturer mold tolerance and clutch unmeasured.",
       "offers": [
         {
           "sku": "GDS-775-010",
