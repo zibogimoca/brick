@@ -45,6 +45,9 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
 - 참조되는 형상을 임의로 삭제하거나 이름을 바꾸지 않는다. 변경 후 누락된 참조와 뷰어 표시를 확인한다.
 - 직접 만든 형상과 가져온 형상을 구분하고, 수정한 자료는 변경 사실을 기록한다.
 
+
+말·미니피겨 참조 형상에는 원본 헤더에 CCAL version 2.0으로 표시된 자료가 포함된다. 해당 자료의 CC BY 2.0 고지를 유지하며, 제품 배치와 실물 체결 검증은 별개다.
+
 ## 에셋 목록
 
 출처·저자·라이선스·파일 검증 정보를 이 문서에 함께 보관한다. 아래 JSON 블록은 뷰어와 검증·수집 도구가 읽고 갱신하므로 형식과 구분자를 유지한다. 별도 목록 파일은 만들지 않는다.
@@ -136,6 +139,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "22888",
     "22961",
     "2310",
+    "2335",
     "2339",
     "2343",
     "23443",
@@ -375,6 +379,13 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "37775",
     "3794b",
     "3795",
+    "3815",
+    "3815c01",
+    "3816",
+    "3817",
+    "3818",
+    "3819",
+    "3820",
     "3829c01",
     "3830",
     "3831",
@@ -384,6 +395,9 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3835",
     "3836",
     "3837",
+    "3844",
+    "3846",
+    "3849",
     "38583",
     "38585",
     "3894",
@@ -458,6 +472,11 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "4477",
     "44861",
     "4490",
+    "4492p01",
+    "4493",
+    "4493c01",
+    "4494",
+    "4494c01",
     "4510",
     "4519",
     "4522",
@@ -691,6 +710,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "95344",
     "95820",
     "96874",
+    "973",
     "98100",
     "98138",
     "98138p85",
@@ -13702,6 +13722,409 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Santeri Piippo [arezey]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
       "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "parts/3815.dat": {
+      "sha256": "bcf700ebb40722d43b3e39433b1c3f98a94f63d3e59cf2939487b45139da717c",
+      "bytes": 927,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/3815.dat",
+      "source_sha256": "e0a87d45e69cfc0bb9dae9347dc36accedb90f85faf2c6fb33c86b8781342318",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/3815c01.dat": {
+      "sha256": "6f2005d952f10e9d2de98e2f9e4eba8e14343a731ed04a04f607ffe00d36c930",
+      "bytes": 641,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/3815c01.dat",
+      "source_sha256": "746fef2bf7620205af0876c705d81cd3bebfa2d48a5d04c91357ce16cd0294e7",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/3816.dat": {
+      "sha256": "57e0668531cd0ed25953ad18d67bdf79f83fa26a2f0b2c4dfce0bf4b7dc7eb0d",
+      "bytes": 1503,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/3816.dat",
+      "source_sha256": "cc74c509e8e9383635ceed958e7f143f962a7ac8346ee9ca61f69dc0dde72e72",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/3817.dat": {
+      "sha256": "d0f1ff53b4f5032a1419f1884334b9b52877c64c20d3db9a6a1fbe09626dd042",
+      "bytes": 1408,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/3817.dat",
+      "source_sha256": "a19f89545e5072af9ded2c42d658ded9e90022f4596b81fe39c2b0332fd46985",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/3818.dat": {
+      "sha256": "8346584f1bd7b98e58c04ffdd16727ad8afbc13b3349056ff66b07637c3727c4",
+      "bytes": 23324,
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3818.dat",
+      "source_git_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9",
+      "source_git_blob_sha1": "61d64558fd7f145caa2f28dec8ccbb68a346cafa",
+      "source_sha256": "bc4e75cdcad2a8da079d2165f10d5db5b049d5bcb78ac083bb2a334dbdaf7899",
+      "modification": "Pinned official LDraw part; dependency paths normalized into repository folders, source geometry coordinates unchanged.",
+      "author": "Chris Dee [cwdee]",
+      "license": "Redistributable under CCAL version 2.0 (CAreadme.txt)."
+    },
+    "parts/3819.dat": {
+      "sha256": "dbbe021814d9038908d68c711030ffe01542ba8b5cdd201e6379843a63c5b91d",
+      "bytes": 870,
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3819.dat",
+      "source_git_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9",
+      "source_git_blob_sha1": "7857faa47abbb028b82bb7a700440659a438c9bf",
+      "source_sha256": "22845784d3fc52f331f4b54b658b6cdf9cc50305cc78b26568b31e10010b1f3c",
+      "modification": "Pinned official LDraw part; dependency paths normalized into repository folders, source geometry coordinates unchanged.",
+      "author": "Chris Dee [cwdee]",
+      "license": "Redistributable under CCAL version 2.0 (CAreadme.txt)."
+    },
+    "parts/3820.dat": {
+      "sha256": "e116248335ae6771daa06186d1df879aa2fc543ddf4de4eae3101ae842a918c0",
+      "bytes": 20705,
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3820.dat",
+      "source_git_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9",
+      "source_git_blob_sha1": "29f88bbb78ffad4a18c19efc22113b3ab0e35fb7",
+      "source_sha256": "be91ad65b9562cef276f78250d0f4134af748ec6c8ec5a980048ba675878f922",
+      "modification": "Pinned official LDraw part; dependency paths normalized into repository folders, source geometry coordinates unchanged.",
+      "author": "Orion Pobursky [OrionP]",
+      "license": "Redistributable under CCAL version 2.0 (CAreadme.txt)."
+    },
+    "parts/3844.dat": {
+      "sha256": "f0bfb49a922d7bb6ead202c607db754a343c7c50b7efc06a96ee03b838bd33d7",
+      "bytes": 32152,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/3844.dat",
+      "source_sha256": "b4e67043d02d29a4d7590edf09cb7e581435c08da72eb26ead5baf8e5986cf9e",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Chris Dee [cwdee]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/3849.dat": {
+      "sha256": "9184e7881101ea18fb980b71b76402c1ced39346a123b4b9b6f2e9db9ba4f323",
+      "bytes": 1743,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/3849.dat",
+      "source_sha256": "1d880773968ae6fb19e19a134adbcf412b35667243434005d03b842a15f4e0a1",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "James Jessiman",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/4492p01.dat": {
+      "sha256": "9a1030de3290b8fc96c23e5a5805588af3a5a3ac0e77c6790ca3ddf037f021fc",
+      "bytes": 1365,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/4492p01.dat",
+      "source_sha256": "67bd5d3558e417dd0b13afcbbcf09efa65e72a0dd1010b42b78709c14b115765",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/4493.dat": {
+      "sha256": "82facab6be2fdbe967ef80a74d6cb816984ca5487401b03780ce29432015ea78",
+      "bytes": 687,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/4493.dat",
+      "source_sha256": "25aef6795d8b8db7023f42e7efdf6168466ccc02bab2c1a52259c2cbc8039703",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/4493c01.dat": {
+      "sha256": "b711ad6517a3258f482b84287e9ff0695ef67cf9cf6db972e049c2e89c30ffd3",
+      "bytes": 684,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/4493c01.dat",
+      "source_sha256": "e5e431cf22387f826c2ace73342f9e2ae8a9aeb97bcda7203cbf46e5b795789f",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/4494.dat": {
+      "sha256": "d70e05424adc0b043257c90147381d9412daa07d1b54f69a648afe57ee051147",
+      "bytes": 688,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/4494.dat",
+      "source_sha256": "7def1ddf76589b471013828c052b16a0e37401634fbbab5c16e067182c12ce08",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/4494c01.dat": {
+      "sha256": "170b2d00cdb4e81f0d532cedb805b59098450e1d0db966e5b30aa84f8c868dd3",
+      "bytes": 489,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/4494c01.dat",
+      "source_sha256": "196914464744aefa545602381a2e23fe30aa2bf265a20faf52cf331df720d5fa",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/973.dat": {
+      "sha256": "36142b6b412a4bda7d6d169810a50d19ad0aa026d9ef6d0a780c29f1eb92b564",
+      "bytes": 1209,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/973.dat",
+      "source_sha256": "901f2c4d1e5add8b4400c3470664d6bc9b7651ed4578b26dabdc6938be6dbcef",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/3815s01.dat": {
+      "sha256": "72441aab74747b799cc00c0aed19757bed5f92f6a6c644bf0c51ae93c5d34887",
+      "bytes": 8394,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/3815s01.dat",
+      "source_sha256": "fc082b2cb28a169052078b5ac6f788bbbabece666c8f953331f384486d325167",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/3816s01.dat": {
+      "sha256": "3596d67544a9aee48c7e4b02b1d90dc36ca9f2c19912efb18e84c51d16616390",
+      "bytes": 1529,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/3816s01.dat",
+      "source_sha256": "497c823e98611631ab886390dc19a8b778beb05aad2bd634fee77e038dd09cda",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/3816s02.dat": {
+      "sha256": "0690eb0b58340b664de699ad091b8fdb40d3f7d583d8056b29c25d3469959fef",
+      "bytes": 13506,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/3816s02.dat",
+      "source_sha256": "e113ebec77c73e302042965a659a72e7a67cb1dd9ec3f22956cbb89dd5881644",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/3817s01.dat": {
+      "sha256": "74bdebe7c482a76a65b77b2b0c73b2608d711fcc27dbf2d94b17fd7993dfe7e9",
+      "bytes": 1463,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/3817s01.dat",
+      "source_sha256": "5da12eff76621cf6e0b9eb1640078a72b450d179ca3ea4dd2da56f839d9880fe",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492b1.dat": {
+      "sha256": "7720c0d4602a93d12be792db3def960b106a5957f8d80b50a7ebe71a8da82dfc",
+      "bytes": 3927,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492b1.dat",
+      "source_sha256": "7720c0d4602a93d12be792db3def960b106a5957f8d80b50a7ebe71a8da82dfc",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492b2.dat": {
+      "sha256": "c0dafef088056a8b3870daeaf2b802c883675efc8b63dd5ed6329db997dfc8ab",
+      "bytes": 21173,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492b2.dat",
+      "source_sha256": "c0dafef088056a8b3870daeaf2b802c883675efc8b63dd5ed6329db997dfc8ab",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492e1.dat": {
+      "sha256": "8bb387f6106747ba9a8864187102984a1117a652dbc0f5fb15792c9a04abfd46",
+      "bytes": 2674,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492e1.dat",
+      "source_sha256": "8bb387f6106747ba9a8864187102984a1117a652dbc0f5fb15792c9a04abfd46",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492e2.dat": {
+      "sha256": "3e2e30107b56c2c5e9ad6a54fb50540de53fb288c7039aa62bbade510c4e0228",
+      "bytes": 4290,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492e2.dat",
+      "source_sha256": "3e2e30107b56c2c5e9ad6a54fb50540de53fb288c7039aa62bbade510c4e0228",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492e3.dat": {
+      "sha256": "637879d4ab3c42c71249f1d7f31b65483d0f9801e1cb80095e3faf67dcf37ed5",
+      "bytes": 5893,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492e3.dat",
+      "source_sha256": "637879d4ab3c42c71249f1d7f31b65483d0f9801e1cb80095e3faf67dcf37ed5",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492h.dat": {
+      "sha256": "91a6ba9efd7e4ae1a963b1839aec86c75d3564a1840f3716d87f64d4a4b720de",
+      "bytes": 2534,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492h.dat",
+      "source_sha256": "7cb485449fb27ce9d19c04874cc30f9937760ec61ff4e810b46bc76d710a29e7",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492m.dat": {
+      "sha256": "86d330b1e4dc01a22d9d5fc4466098d64a219b985e71ed3ac1d0417fb9d008f1",
+      "bytes": 2905,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492m.dat",
+      "source_sha256": "86d330b1e4dc01a22d9d5fc4466098d64a219b985e71ed3ac1d0417fb9d008f1",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492s.dat": {
+      "sha256": "bcc657889c0b998feedfe8a4b1bdc6522c87116048f5e6db30eb4e491dee1c95",
+      "bytes": 53762,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492s.dat",
+      "source_sha256": "01b020b911040c2da4c3c3810d929877283704142a97cbe0b40c94da81aec6dc",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4492s01.dat": {
+      "sha256": "d2b1839bef968815adc2bd1b0ba7cc30f1a1f5d83cd4829dccf38be6402fc621",
+      "bytes": 47150,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4492s01.dat",
+      "source_sha256": "b7595f2a4ab8ec3de2785994ba44f488e3010116d9de8aa70c77bf9d49f0134d",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4493s.dat": {
+      "sha256": "e9d27b15ec36005f7a010be30a10276709879e23c7a13f39d8a987da70d4b040",
+      "bytes": 25923,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4493s.dat",
+      "source_sha256": "11310a03fb52b05d45768a99a1b87a43c5021eafb860264de0d6ddc17c07d087",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4493s00.dat": {
+      "sha256": "043ff3df6bc389d415401be0eba83b13a7dcc8298b4abb9a9a449dc5547f6b11",
+      "bytes": 61128,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4493s00.dat",
+      "source_sha256": "043ff3df6bc389d415401be0eba83b13a7dcc8298b4abb9a9a449dc5547f6b11",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4493s01.dat": {
+      "sha256": "3b59861d253ecf7847c690c47e273c633b9b23534981ce6a97a6ffcaf01a2e70",
+      "bytes": 64551,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4493s01.dat",
+      "source_sha256": "ef6eab1108dc1747b14888507dd012ebf396e13a3d48f631157cf536164e205b",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4493s1.dat": {
+      "sha256": "94268e5fc8319e20521e723bd9206d5b0780aabaa0868b7a8bf0ca8959a533bb",
+      "bytes": 2256,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4493s1.dat",
+      "source_sha256": "da4fe63d7b34b05a34e57cbb3b1311c4a2e9710c5266ff5110c3d71285a4dc63",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Bernd Broich [bbroich]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4494s.dat": {
+      "sha256": "67fe5a4c0a85b265e59d5ff40460ded63c0ed4d269b2761c1e29afe3bc29fa19",
+      "bytes": 1815,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4494s.dat",
+      "source_sha256": "c25243488bd089ee1f782b8e70360d33263130f80076b89eac4c2c18c009c014",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Bernd Broich [bbroich]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4494s00.dat": {
+      "sha256": "2fc0f48e60139bc683df03ef1f45ef525129438dd8331f74761590d65a6dcf1d",
+      "bytes": 58285,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4494s00.dat",
+      "source_sha256": "2fc0f48e60139bc683df03ef1f45ef525129438dd8331f74761590d65a6dcf1d",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4494s01.dat": {
+      "sha256": "54fa204450feb01f92bcad1126955dc62b3bbb547c28d03fbb9ddb830b302bc1",
+      "bytes": 45216,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4494s01.dat",
+      "source_sha256": "cb5770efd10fa993efc9d39978b9ec4aafdedc03cfde0d451019d4d9167df54d",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Magnus Forsberg [MagFors]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/4494t.dat": {
+      "sha256": "0c6d5541142b6e0a9e817a75e68c3323af462ea8ad663a7915fd793fc3c8ccc0",
+      "bytes": 137165,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/4494t.dat",
+      "source_sha256": "0c6d5541142b6e0a9e817a75e68c3323af462ea8ad663a7915fd793fc3c8ccc0",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Sascha Broich",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/subparts/973s01.dat": {
+      "sha256": "e8593d7a11310ca07e460eed2ebdfcd8d1fd2a482bbcad3036eb8506e16137d3",
+      "bytes": 11356,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/parts/s/973s01.dat",
+      "source_sha256": "4d0dbcf4629d46303949a72a4850c4c67e6ccc5ce0e08ec46fa6fe4f77b2aa3a",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "primitives/1-4con4.dat": {
+      "sha256": "504327502c0741e0459dee9fb3f0e800734a397be1aa0ea8467b351c8edd973a",
+      "bytes": 1377,
+      "source_archive": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "archive_member": "ldraw/p/1-4con4.dat",
+      "source_sha256": "504327502c0741e0459dee9fb3f0e800734a397be1aa0ea8467b351c8edd973a",
+      "modification": "Dependency paths normalized for repository folders; geometry coordinates and source header retained.",
+      "author": "Steve Bliss [sbliss]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    "parts/2335.dat": {
+      "sha256": "cab2b83b80f71c23561e0afc8f31d10c3c6843967617f5fff6ad77b1a4dfbc1e",
+      "bytes": 693
+    },
+    "parts/subparts/2335s01.dat": {
+      "sha256": "f1748e85a3a9564ebf5fbdedb45da10f8262f6425ee6211c8a779915d6923f3c",
+      "bytes": 1120
+    },
+    "primitives/clip1.dat": {
+      "sha256": "47f67f9afc18724ae867e5d1f3d57583e286a1bede8023c1d040ead059cf6491",
+      "bytes": 1987
+    },
+    "parts/3846.dat": {
+      "sha256": "eba48c2582b62ccf893499ada19700b114cc62d3cbd9a439ee5165b504ef1b68",
+      "bytes": 943
+    },
+    "parts/subparts/3846s01.dat": {
+      "sha256": "bb5875c70c24ad03418536b0ace97f3cf563a71edfe0cfa5674d8efe4fcd910b",
+      "bytes": 3295
     }
   }
 }
