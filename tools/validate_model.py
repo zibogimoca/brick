@@ -159,7 +159,8 @@ def stud_connectivity(state,prefix=''):
   '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),'87087':(1,1,24),
   '98283':(2,1,24), # Native 1x2 embossed brick: standard top/bottom seats.
   '3700':(2,1,24), # Native 1x2 Technic brick: top studs and underside seats only; side bore excluded.
-  '4032a':(2,2,8),'18838':(12,1,72), # Explicit raised-arch seating levels below.
+  '4032a':(2,2,8),'18838':(12,1,72),'16577':(8,1,48),
+  '3040b':(1,2,24),'3678b':(2,2,48), # Slope studs and underside seats are specified below.
   '3007':(8,2,24),'3008':(8,1,24),'3010':(4,1,24),'3622':(3,1,24),
   '3020':(4,2,8),'3021':(3,2,8),'3022':(2,2,8),'3023b':(2,1,8),
   '3024':(1,1,8),'3031':(4,4,8),'3032':(6,4,8),'3033':(10,6,8),
@@ -200,9 +201,9 @@ def stud_connectivity(state,prefix=''):
    local=([[x,0,0] for x in range(-70,71,20)]+[[x,24,0] for x in (-90,90)]+[[x,48,0] for x in (-110,110)]) if upper else [[x,72,0] for x in (-110,110)]
   elif n=='34103': # Centre-holder mode only; no invented extra underside seats.
    local=[[x,0,0] for x in (-10,10)] if upper else [[0,8,0]]
-  elif n in {'3039','30363'}:
-   zs=[0] if upper else ([-20,0] if n=='3039' else [-60,-40,-20,0])
-   local=[[x,0 if upper else 24,z] for x in (-10,10) for z in zs]
+  elif n in {'3039','30363','3040b','3678b'}:
+   zs=[0] if upper else ([-60,-40,-20,0] if n=='30363' else [-20,0])
+   local=[[x,0 if upper else (48 if n=='3678b' else 24),z] for x in ([0] if n=='3040b' else [-10,10]) for z in zs]
   elif n=='15573' and upper:local=[[0,0,0]]
   elif n in {'2429','2430'}:
    xs=(-30,-10) if n=='2429' else (10,30)
@@ -215,7 +216,7 @@ def stud_connectivity(state,prefix=''):
    w,d,h=shapes[n]
    local=[[(x-(w-1)/2)*20,0 if upper else h,(z-(d-1)/2)*20]
           for x in range(w) for z in range(d)
-          if not (n in {'3659','3307'} and not upper and x not in (0,w-1))]
+          if not (n in {'3659','3307','16577'} and not upper and x not in (0,w-1))]
   normal=mv(o['matrix'],[0,-1 if upper else 1,0])
   return [(plus(o['position'],mv(o['matrix'],v)),normal) for v in local]
  for o in rows:

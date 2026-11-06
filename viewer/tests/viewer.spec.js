@@ -313,7 +313,43 @@ test('loads the native LEGO Camelot prototype without a commercial price claim',
   await expect(page.locator('#summary')).toContainText('LEGO 창작 설계 중');
   await expect(page.locator('#summary')).toContainText('전체 성 아님');
   await expect(page.locator('#summary')).not.toContainText('CNY');
-  await expect(page.locator('#study-panel')).toBeHidden();
+  await expect(page.locator('#study-panel')).toBeVisible();
   await page.click('#front-view'); await page.click('#side-view'); await page.click('#fit');
+  expect(errors).toEqual([]);
+});
+
+
+test('Camelot sections support solo, multiple visibility, empty state and full restore', async ({ page }) => {
+  await page.setViewportSize({ width: 640, height: 480 });
+  const errors = []; page.on('pageerror', error => errors.push(error.message));
+  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  await page.goto('/');
+  await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
+  await page.selectOption('#models', 'camelot');
+  await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
+  await expect(page.locator('#version')).toContainText('camelot-v1.mpd', { timeout: 180000 });
+  const boxes = page.locator('#component-options input');
+  await expect(boxes).toHaveCount(8);
+  await expect(page.locator('#study-view')).toHaveValue('all');
+  await page.selectOption('#study-view', 'palace');
+  await expect(page.locator('#component-options input:checked')).toHaveCount(1);
+  await expect(page.locator('#summary')).toContainText('왕궁 본관');
+  const occupied = await page.locator('canvas').screenshot();
+  await page.locator('#component-options input[value="palace"]').uncheck();
+  await expect(page.locator('#status')).toContainText('모든 구역이 숨겨져');
+  const empty = await page.locator('canvas').screenshot();
+  expect(occupied.equals(empty)).toBe(false);
+  await page.locator('#component-options input[value="joust"]').check();
+  await page.locator('#component-options input[value="sword"]').check();
+  await expect(page.locator('#study-view')).toHaveValue('custom');
+  await expect(page.locator('#component-options input:checked')).toHaveCount(2);
+  await page.click('#reset');
+  await expect(page.locator('#component-options input:checked')).toHaveCount(2);
+  await page.click('#components-all');
+  await expect(page.locator('#study-view')).toHaveValue('all');
+  await expect(page.locator('#component-options input:checked')).toHaveCount(8);
+  await page.selectOption('#models', 'dinosaur-7219');
+  await expect(page.locator('#version')).toContainText('dinosaur-7219-v0.mpd', { timeout: 180000 });
+  await expect(page.locator('#study-panel')).toBeHidden();
   expect(errors).toEqual([]);
 });
