@@ -390259,10 +390259,84 @@
         "3794",
         "3794b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/15573.dat",
+        "sha256": "53985b42a65537853c8d8a5f9a655e73be1d1c35026ec8e94ac4501764cc0c80",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "GDS-803 official product image visibly matches the LDraw 15573 single-centre-stud jumper; manufacturer LDraw candidate. Mold equivalence and physical clutch not measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.8,
+          8.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+      },
+      "connectors": [
+        {
+          "id": "centre-stud",
+          "kind": "stud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "15573.dat single centred stud primitive; product image https://image.gobricks.cn/newproducts/090/803.png visually compared."
+        },
+        {
+          "id": "nominal-underseat-a",
+          "kind": "stud_receptacle",
+          "position": [
+            -10.0,
+            8.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "evidence": "Nominal underside grid inferred from 1x2 base footprint; 15573 has no underside tubes in reference mesh, clutch unverified."
+        },
+        {
+          "id": "nominal-underseat-b",
+          "kind": "stud_receptacle",
+          "position": [
+            10.0,
+            8.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "evidence": "Nominal underside grid inferred from 1x2 base footprint; 15573 has no underside tubes in reference mesh, clutch unverified."
+        }
+      ],
+      "geometry_verification": "reference mesh resolved; GDS-803 product image matches centre-stud silhouette; underside clutch and physical mold/tolerance unverified",
       "offers": [
         {
           "sku": "GDS-803-010",
@@ -391083,7 +391157,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/243/803.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-803-243"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Centre stud visible; nominal base seating is an inference. Not a complete connector inventory or physical clutch verification."
     },
     {
       "gobricks_id": "804",
@@ -639051,10 +639126,10 @@
     }
   ],
   "geometry_enrichment": {
-    "reference_parts_prepared": 83,
+    "reference_parts_prepared": 84,
     "reference_assets": "assets/policy.md#에셋-목록",
     "physical_tests": false,
-    "remaining_parts_geometry_pending": 1739
+    "remaining_parts_geometry_pending": 1738
   },
   "reference_only_parts": {
     "3707": {
