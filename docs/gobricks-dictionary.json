@@ -393681,7 +393681,7 @@
         "file": "assets/parts/2429.dat",
         "sha256": "cea93d87fa4156da1221053d4e311d6b75b59760c081ac31141da1707adf28df",
         "source": "LDraw official complete.zip",
-        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "mapping_basis": "GoBricks listed LDraw candidate; official geometry is registered. Exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
       },
       "dimensions": {
@@ -393705,41 +393705,86 @@
           4.8,
           11.2
         ],
-        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+        "basis": "Recursive official LDraw vertex envelope, not a physical measurement."
       },
       "connectors": [
         {
           "kind": "stud",
           "position": [
-            -30.0,
-            0.0,
-            10.0
+            -30,
+            0,
+            10
           ],
           "axis": [
-            0.0,
-            -1.0,
-            0.0
+            0,
+            -1,
+            0
           ],
-          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
+          "evidence": "validator named nominal seating grid",
           "id": "stud-0"
         },
         {
           "kind": "stud",
           "position": [
-            -10.0,
-            0.0,
-            10.0
+            -10,
+            0,
+            10
           ],
           "axis": [
-            0.0,
-            -1.0,
-            0.0
+            0,
+            -1,
+            0
           ],
-          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
+          "evidence": "validator named nominal seating grid",
           "id": "stud-1"
+        },
+        {
+          "kind": "stud_receptacle",
+          "position": [
+            -30,
+            8,
+            10
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "validator named nominal seating grid",
+          "id": "socket-0"
+        },
+        {
+          "kind": "stud_receptacle",
+          "position": [
+            -10,
+            8,
+            10
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "validator named nominal seating grid",
+          "id": "socket-1"
+        },
+        {
+          "kind": "hinge_axis",
+          "position": [
+            0,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "LDraw pair 2429/2430; validator models the coincident vertical pivot",
+          "id": "pivot"
         }
       ],
-      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
+      "geometry_verification": "official_ldraw_reference_registered; GoBricks physical mold fit untested",
       "offers": [
         {
           "sku": "GDS-807-010",
@@ -394436,7 +394481,7 @@
         "file": "assets/parts/2430.dat",
         "sha256": "c37f760a8b47afd6bcf8b87baf3094bb48419037edb0d65591c3e755b1916ba7",
         "source": "LDraw official complete.zip",
-        "mapping_basis": "Manufacturer-listed LDraw candidate and source name checked; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "mapping_basis": "GoBricks listed LDraw candidate; official geometry is registered. Exact GoBricks mold equivalence and physical tolerance NOT measured.",
         "asset_manifest": "assets/policy.md#에셋-목록"
       },
       "dimensions": {
@@ -394460,41 +394505,86 @@
           4.8,
           11.2
         ],
-        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes protrusions, not a physical measurement."
+        "basis": "Recursive official LDraw vertex envelope, not a physical measurement."
       },
       "connectors": [
         {
           "kind": "stud",
           "position": [
-            10.0,
-            0.0,
-            10.0
+            10,
+            0,
+            10
           ],
           "axis": [
-            0.0,
-            -1.0,
-            0.0
+            0,
+            -1,
+            0
           ],
-          "evidence": "assets/parts/2430.dat -> primitives/stud.dat",
+          "evidence": "validator named nominal seating grid",
           "id": "stud-0"
         },
         {
           "kind": "stud",
           "position": [
-            30.0,
-            0.0,
-            10.0
+            30,
+            0,
+            10
           ],
           "axis": [
-            0.0,
-            -1.0,
-            0.0
+            0,
+            -1,
+            0
           ],
-          "evidence": "assets/parts/2430.dat -> primitives/stud.dat",
+          "evidence": "validator named nominal seating grid",
           "id": "stud-1"
+        },
+        {
+          "kind": "stud_receptacle",
+          "position": [
+            10,
+            8,
+            10
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "validator named nominal seating grid",
+          "id": "socket-0"
+        },
+        {
+          "kind": "stud_receptacle",
+          "position": [
+            30,
+            8,
+            10
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "validator named nominal seating grid",
+          "id": "socket-1"
+        },
+        {
+          "kind": "hinge_axis",
+          "position": [
+            0,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "LDraw pair 2429/2430; validator models the coincident vertical pivot",
+          "id": "pivot"
         }
       ],
-      "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
+      "geometry_verification": "official_ldraw_reference_registered; GoBricks physical mold fit untested",
       "offers": [
         {
           "sku": "GDS-808-010",
