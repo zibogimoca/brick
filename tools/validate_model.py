@@ -10,7 +10,7 @@
       --sync-only와 함께 쓰면 상태 갱신만 수행한다. 형상·목표 치수·검증 판정은 바꾸지 않는다.
 실행: python3 tools/validate_model.py models/tyrannosaurus-v1.mpd
 범위: BRICK schema_version 3; 계층·회전·수량·중복 배치 검사.
-      v0는 LEGO 형상을 검사하며, 다른 버전은 GoBricks SKU·색상·가격도 검사한다.
+      v0와 parts_system="LEGO" 창작은 LEGO 형상을 검사한다. 다른 모델은 GoBricks SKU·색상·가격도 검사한다. BDP 적합성 검사는 아니다.
 한계: 기계적으로 조립 가능한지, 접촉·간섭·결합력·하중·실제 가동 범위는 검증하지 않는다.
       예전 티라노 전용 격자·160개·특정부위 조건으로 새 모델을 통과시키지 않는다.
 """
@@ -18,12 +18,37 @@ import argparse,hashlib,json,math
 from pathlib import Path
 from collections import Counter,defaultdict
 from decimal import Decimal
+from functools import lru_cache
 
 def mm(a,b):return [sum(a[r*3+k]*b[k*3+c] for k in range(3)) for r in range(3) for c in range(3)]
 def mv(a,b):return [sum(a[r*3+k]*b[k] for k in range(3)) for r in range(3)]
 def plus(a,b):return [x+y for x,y in zip(a,b)]
 def near(a,b):return all(abs(x-y)<1e-4 for x,y in zip(a,b))
-def body_overlaps(state, parts):
+@lru_cache(maxsize=None)
+def reference_vertices(name):
+ # Native geometry, independent of commercial product IDs or color offers.
+ root=Path(__file__).resolve().parents[1]/'assets'
+ name=name.replace(chr(92),'/').lower()
+ path=next((root/d/name for d in ('','parts','primitives') if (root/d/name).is_file()),None)
+ if path is None:raise FileNotFoundError(name)
+ vertices=[]
+ for line in path.read_text(encoding='utf-8-sig').splitlines():
+  f=line.split(maxsplit=14)
+  if not f:continue
+  if f[0]=='1' and len(f)==15:
+   t=list(map(float,f[2:5]));m=list(map(float,f[5:14]))
+   vertices.extend(tuple(plus(t,mv(m,v))) for v in reference_vertices(f[14]))
+  elif f[0] in ('3','4'):
+   nums=list(map(float,line.split()[2:]));vertices.extend(tuple(nums[k:k+3]) for k in range(0,len(nums),3))
+ return tuple(vertices)
+
+@lru_cache(maxsize=None)
+def reference_bounds(name):
+ vertices=reference_vertices(name)
+ if not vertices:raise ValueError('No surface geometry for '+name)
+ return {'min':[min(v[k] for v in vertices) for k in range(3)],'max':[max(v[k] for v in vertices) for k in range(3)]}
+
+def body_overlaps(state, parts, native_geometry=False):
  # Nominal solid rectangular bodies only; studs, cavities and curved/Technic parts excluded.
  names={x+'.dat' for x in ['3001','3003','3005','3004','3010','3622','3020','3024','3023b','3022','3710','3623','3666','3460','3034','3832','3795','15573','3031','3032','3033','3035','3036','41539','3007','3008','2431','3068b','3069b','3070b','63864','60479']}
  def dot(a,b):return sum(x*y for x,y in zip(a,b))
@@ -31,7 +56,7 @@ def body_overlaps(state, parts):
  boxes=[]
  for o in state['instances']:
   if o['part'] not in names:continue
-  bounds=parts[o['gobricks_id']]['dimensions']['bounds'];low=list(bounds['min']);low[1]=0;high=bounds['max'];m=o['matrix'];center=plus(o['position'],mv(m,[(a+b)/2 for a,b in zip(low,high)]));h=[(b-a)/2 for a,b in zip(low,high)];axes=[[m[r*3+c] for r in range(3)] for c in range(3)];ext=[sum(abs(m[r*3+c])*h[c] for c in range(3)) for r in range(3)];boxes.append((o,center,axes,h,[a-b for a,b in zip(center,ext)],[a+b for a,b in zip(center,ext)]))
+  bounds=reference_bounds(o['part']) if native_geometry else parts[o['gobricks_id']]['dimensions']['bounds'];low=list(bounds['min']);low[1]=0;high=bounds['max'];m=o['matrix'];center=plus(o['position'],mv(m,[(a+b)/2 for a,b in zip(low,high)]));h=[(b-a)/2 for a,b in zip(low,high)];axes=[[m[r*3+c] for r in range(3)] for c in range(3)];ext=[sum(abs(m[r*3+c])*h[c] for c in range(3)) for r in range(3)];boxes.append((o,center,axes,h,[a-b for a,b in zip(center,ext)],[a+b for a,b in zip(center,ext)]))
  boxes.sort(key=lambda b:b[4][0]);errors=[]
  for idx,(o,c,axes,h,low,high) in enumerate(boxes):
   for other,c2,axes2,h2,low2,high2 in boxes[idx+1:]:
@@ -271,13 +296,14 @@ def run(model, check_body=False):
  items={i['id']:i for i in state['instances']};assert len(items)==len(state['instances'])
  assert set(items)==set(exported) and len(items)==state['piece_count']
  lego_v0=model.stem.endswith('-v0')
+ lego_geometry=lego_v0 or state.get('parts_system')=='LEGO'
  cad_import=lego_v0 and state.get('status')=='cad_import'
  for o in items.values():
   assert ('gobricks_id' in o)==('sku' in o),'Partial GoBricks metadata; record both a verified product ID and SKU, or neither'
-  assert lego_v0 or (o.get('gobricks_id') and o.get('sku')),'GoBricks mapping is required outside v0'
+  assert lego_geometry or (o.get('gobricks_id') and o.get('sku')),'GoBricks mapping is required outside v0 or explicit LEGO-parts designs'
  # v0 reconstructs LEGO originals. Legacy candidate/empty commercial fields
  # are not verified sales mappings and must not gate its geometry checks.
- has_catalog=not lego_v0 and any('gobricks_id' in o for o in items.values())
+ has_catalog=not lego_geometry and any('gobricks_id' in o for o in items.values())
  d=json.loads(Path('docs/gobricks-dictionary.json').read_text()) if has_catalog else {'parts':[],'colors':{}}
  parts={p['gobricks_id']:p for p in d['parts']};counts=Counter();total=Decimal(0);seen={};duplicates=[];lo=[float('inf')]*3;hi=[-float('inf')]*3
  for ident,o in items.items():
@@ -291,11 +317,11 @@ def run(model, check_body=False):
   key=(part,tuple(round(x,4) for x in t+m))
   if key in seen:duplicates.append((seen[key],ident,part,t))
   else:seen[key]=ident
-  if not lego_v0 and 'gobricks_id' in o:
+  if not lego_geometry and 'gobricks_id' in o:
    p=parts[o['gobricks_id']];offer=next(v for v in p['offers'] if v['sku']==o['sku']);assert str(d['colors'][offer['color_id']]['ldraw_color_id'])==str(color)
    assert Path(p['geometry']['file']).name==part and hashlib.sha256(Path(p['geometry']['file']).read_bytes()).hexdigest()==p['geometry']['sha256']
    counts[o['sku']]+=1;total+=Decimal(offer['unit_price_cny'])
-  if not lego_v0 and 'gobricks_id' in o and o.get('group')!='support':
+  if not lego_geometry and 'gobricks_id' in o and o.get('group')!='support':
    bounds=p['dimensions']['bounds']
    for x in [bounds['min'][0],bounds['max'][0]]:
     for y in [bounds['min'][1],bounds['max'][1]]:
@@ -318,8 +344,8 @@ def run(model, check_body=False):
  if all_mapped:
   measured=dict(zip(['length','height','width'],[round((b-a)*.04,2) for a,b in zip(lo,hi)]));assert measured==state['reference_geometry_bounds_cm'],measured
  if check_body:
-  assert all_mapped,'--check-body-overlaps requires verified catalog dimensions for every part'
-  errors=body_overlaps(state,parts)
+  assert lego_geometry or all_mapped,'--check-body-overlaps requires native LEGO geometry or verified catalog dimensions for every part'
+  errors=body_overlaps(state,parts,native_geometry=lego_geometry)
   print('Nominal rectangular body intersections:',len(errors))
   print('Groups:',dict(Counter(tuple(sorted([a['group'],b['group']])) for a,b in errors)))
   for a,b in errors[:20]:print(a['id'],a['part'],a['group'],a['position'],'<>',b['id'],b['part'],b['group'],b['position'])
@@ -330,7 +356,7 @@ def run(model, check_body=False):
  elif cad_import:
   print('CAD DATA PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes; imported rounded matrices retained.')
  else:
-  print('LEGO GEOMETRY PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'verified GoBricks SKUs; GoBricks product mapping is not required for v0.')
+  print('LEGO GEOMETRY PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'verified GoBricks SKUs; GoBricks mapping is not required for v0 or explicit LEGO-parts designs. This does not verify BDP palette eligibility.')
  print('NOT VERIFIED: physical assembly/clutch, exact mesh collision, joint range/strength, load stability, superiority to reference product.')
 def _native_mesh_worker(model,prefix,output):
  """Blender worker: native surfaces only, without rendering images."""
