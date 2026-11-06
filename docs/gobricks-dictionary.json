@@ -269694,10 +269694,69 @@
         "35277",
         "63341"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3039.dat",
+        "sha256": "75207045bac5e8dfb53d3ce837be6edb34ffb00a786f8c1f9becdc5bc269c3f3",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "GoBricks catalog name and official LDraw 3039 name both identify a 2x2 45-degree slope; exact GoBricks mold equivalence and physical tolerance NOT measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -30.0
+          ],
+          "max": [
+            20.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          11.2,
+          16.0
+        ],
+        "basis": "Recursive triangle/quad vertex envelope of LDraw reference geometry; includes studs/protrusions, not physical measurement."
+      },
+      "connectors": [
+        {
+          "id": "stud-0",
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "3039 official LDraw reference resolves stug-1x2 to studs at x=-10 and +10 on y=0 plane."
+        },
+        {
+          "id": "stud-1",
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "3039 official LDraw reference resolves stug-1x2 to studs at x=-10 and +10 on y=0 plane."
+        }
+      ],
+      "geometry_verification": "reference_mesh_resolved; official part dimensions computed; selected top studs annotated; GoBricks mold equivalence, clutch, strength and physical fit unverified",
       "offers": [
         {
           "sku": "GDS-589-010",
@@ -270466,7 +270525,8 @@
           "image_url": "https://image.gobricks.cn/newproducts/180/589.png",
           "source_url": "https://gobricks.cn/part_detail/GDS-589-180"
         }
-      ]
+      ],
+      "connection_inventory_scope": "Reference top studs only; underside receptacles and other legal attachment modes are not fully cataloged."
     },
     {
       "gobricks_id": "590",
