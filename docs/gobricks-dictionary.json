@@ -221044,10 +221044,33 @@
         "3036",
         "3036a"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3036.dat",
+        "sha256": "7c108504e6823f46eecab58f22931e13acd9cf6a355e849f11556bba88a6e71c"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            60.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          4.800000000000001,
+          48.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native bounds checked; connector inventory and physical fit not verified",
       "offers": [
         {
           "sku": "GDS-524-010",
@@ -232969,10 +232992,33 @@
         "3008",
         "63322"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3008.dat",
+        "sha256": "b79ba5ddcd7ccd3d3612907467161f0e087dbf3918fb340b48dad93186e6b443"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            80.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          11.200000000000001,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native bounds checked; connector inventory and physical fit not verified",
       "offers": [
         {
           "sku": "GDS-536-010",
