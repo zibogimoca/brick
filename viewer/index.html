@@ -21,14 +21,19 @@
       <div class="buttons three">
         <button id="side-view" disabled>옆모습</button>
         <button id="front-view" disabled>정면</button>
-        <button id="fit" disabled>전체 보기</button>
+        <button id="fit" disabled>화면 맞춤</button>
       </div>
       <p class="hint">드래그 회전 · 스크롤 확대</p>
     </section>
     <section id="study-panel" class="control-section" hidden>
       <label for="study-view">구간</label>
       <select id="study-view"></select>
-      <p class="hint">부위별 설계 표본 · 전체 성당 조립 전</p>
+      <p id="study-hint" class="hint">부위별 설계 표본 · 전체 성당 조립 전</p>
+      <fieldset id="component-visibility" hidden>
+        <legend>표시할 구역</legend>
+        <div id="component-options"></div>
+        <button id="components-all" type="button">전체 모델 복원</button>
+      </fieldset>
     </section>
     <section id="pose-panel" class="control-section" hidden>
       <h2>자세</h2>
