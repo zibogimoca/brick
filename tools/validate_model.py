@@ -125,11 +125,11 @@ def stud_connectivity(state,prefix=''):
  """Nominal named seating grids, not a general clutch or solid-interference solver.
 
  Unknown parts remain unresolved nodes. Named hinge pairs add edges only when
- their reference centers and axes coincide. Side attachments, tubes, clips,
+ their reference centers and axes coincide. The named 87087 side stud is included; other side attachments, tubes, clips,
  load, detent torque and physical mold tolerance are outside this inventory.
  """
  shapes={
-  '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),
+  '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),'87087':(1,1,24),
   '3007':(8,2,24),'3008':(8,1,24),'3010':(4,1,24),'3622':(3,1,24),
   '3020':(4,2,8),'3021':(3,2,8),'3022':(2,2,8),'3023b':(2,1,8),
   '3024':(1,1,8),'3031':(4,4,8),'3032':(6,4,8),'3033':(10,6,8),
@@ -162,6 +162,9 @@ def stud_connectivity(state,prefix=''):
   n=Path(o['part']).stem
   if n not in shapes and n not in {'2429','2430','43722','43723','60477','15068'}:return None
   if upper and n in tiles:return []
+  if n=='87087' and upper:
+   return [(plus(o['position'],mv(o['matrix'],p)),mv(o['matrix'],normal))
+           for p,normal in [([0,0,0],[0,-1,0]),([0,10,-10],[0,0,-1])]]
   if n=='15573' and upper:local=[[0,0,0]]
   elif n in {'2429','2430'}:
    xs=(-30,-10) if n=='2429' else (10,30)

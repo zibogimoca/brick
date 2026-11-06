@@ -301876,10 +301876,33 @@
       "ldraw_candidates": [
         "87087"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/87087.dat",
+        "sha256": "3468d0dfcf43a37cc1fd58da7af2fbfdfe6be8295f77fbc4f2c08431fd388572"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -14.0
+          ],
+          "max": [
+            10.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          11.200000000000001,
+          9.600000000000001
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "GoBricks 635 product name and white product image match the single side stud layout of LDraw 87087. Native reference seats: top (0,0,0), side (0,10,-10), underside (0,24,0). Manufacturer mold tolerance and clutch not measured.",
       "offers": [
         {
           "sku": "GDS-635-010",
