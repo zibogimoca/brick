@@ -125,17 +125,17 @@ def stud_connectivity(state,prefix=''):
  """Nominal named seating grids, not a general clutch or solid-interference solver.
 
  Unknown parts remain unresolved nodes. Named hinge pairs add edges only when
- their reference centers and axes coincide. Side attachments, tubes, clips,
+ their reference centers and axes coincide. The named 87087 side stud is included; other side attachments, tubes, clips,
  load, detent torque and physical mold tolerance are outside this inventory.
  """
  shapes={
-  '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),
+  '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),'87087':(1,1,24),
   '3007':(8,2,24),'3008':(8,1,24),'3010':(4,1,24),'3622':(3,1,24),
   '3020':(4,2,8),'3021':(3,2,8),'3022':(2,2,8),'3023b':(2,1,8),
   '3024':(1,1,8),'3031':(4,4,8),'3032':(6,4,8),'3033':(10,6,8),
   '3034':(8,2,8),'3035':(8,4,8),'3036':(8,6,8),'3710':(4,1,8),
   '3795':(6,2,8),'15573':(2,1,8),'3623':(3,1,8),'3666':(6,1,8),'3460':(8,1,8),'3832':(10,2,8),
-  '41539':(8,8,8),'3062b':(1,1,24),'3941':(2,2,24),'6141':(1,1,8),
+  '41539':(8,8,8),'3062b':(1,1,24),'3941':(2,2,24),'4032':(2,2,8),'6141':(1,1,8),
   '2431':(4,1,8),'3068b':(2,2,8),'3069b':(2,1,8),'3070b':(1,1,8),
   '63864':(3,1,8),'60592':(2,1,48),'3659':(4,1,24),'3307':(6,1,48),
   '4275b':(2,1,8),'4276b':(2,1,8),'44301':(2,1,8),'44302':(2,1,8)}
@@ -162,6 +162,9 @@ def stud_connectivity(state,prefix=''):
   n=Path(o['part']).stem
   if n not in shapes and n not in {'2429','2430','43722','43723','60477','15068'}:return None
   if upper and n in tiles:return []
+  if n=='87087' and upper:
+   return [(plus(o['position'],mv(o['matrix'],p)),mv(o['matrix'],normal))
+           for p,normal in [([0,0,0],[0,-1,0]),([0,10,-10],[0,0,-1])]]
   if n=='15573' and upper:local=[[0,0,0]]
   elif n in {'2429','2430'}:
    xs=(-30,-10) if n=='2429' else (10,30)
