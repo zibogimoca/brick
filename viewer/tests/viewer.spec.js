@@ -264,3 +264,37 @@ for (const [slug, title, pieces] of [
     expect(errors).toEqual([]);
   });
 }
+
+test('architectural study selector focuses components and stays separate from part reset', async ({ page }) => {
+  const errors = []; page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(9);
+  await page.selectOption('#models', 'st-peters-basilica');
+  await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
+  await expect(page.locator('#version')).toContainText('st-peters-basilica-v1.mpd', { timeout: 180000 });
+  await expect(page.locator('#study-panel')).toBeVisible();
+  await expect(page.locator('#study-view option')).toHaveText(['전체 표본', '돔·드럼', '정면 비교', '본당', '교차부·후진', '직선 회랑', '곡선 회랑']);
+  await expect(page.locator('#study-view')).toHaveValue('dome');
+  await expect(page.locator('#summary')).toContainText('돔·드럼 설계 표본');
+  await expect(page.locator('#summary')).not.toContainText('CNY');
+  await page.selectOption('#study-view', 'front');
+  await page.click('#fit'); await page.click('#reset');
+  await expect(page.locator('#study-view')).toHaveValue('front');
+  await expect(page.locator('#summary')).toContainText('정면 비교');
+  const box = await page.locator('canvas').boundingBox();
+  for (let y = .3; y <= .7; y += .1) {
+    for (let x = .2; x <= .8; x += .05) {
+      await page.mouse.click(box.x + box.width*x, box.y + box.height*y);
+      if (await page.locator('#hide').isEnabled()) break;
+    }
+    if (await page.locator('#hide').isEnabled()) break;
+  }
+  await expect(page.locator('#hide')).toBeEnabled();
+  await page.click('#hide'); await page.click('#reset');
+  await page.selectOption('#study-view', 'all');
+  await expect(page.locator('#summary')).toContainText('독립 설계 표본 모음');
+  await page.selectOption('#models', 'dinosaur-7219');
+  await expect(page.locator('#version')).toContainText('dinosaur-7219-v0.mpd', { timeout: 180000 });
+  await expect(page.locator('#study-panel')).toBeHidden();
+  expect(errors).toEqual([]);
+});
