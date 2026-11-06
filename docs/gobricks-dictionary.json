@@ -640730,8 +640730,7 @@
     },
     "59": {
       "geometry": "assets/parts/59.dat",
-      "gobricks_status": "not_verified",
-      "verification": "Existing registered LDraw minifigure greatsword geometry compared against 93550 rapier; chosen as broader Arthurian sword. No GoBricks catalog mapping verified."
+      "gobricks_status": "not_verified"
     },
     "48310": {
       "geometry": "assets/parts/48310.dat",
@@ -641859,20 +641858,6 @@
       "gobricks_status": "not_verified",
       "verification": "Official LDraw minifigure hand; wrist post/grip geometry from pinned source. GoBricks sale mapping not verified.",
       "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9"
-    },
-    "2335": {
-      "geometry": "assets/parts/2335.dat",
-      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/2335.dat",
-      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9",
-      "gobricks_status": "not_verified",
-      "verification": "Official LDraw part by James Jessiman; clip fit is native-geometry only. GoBricks SKU/color mapping and physical clutch retention are not verified."
-    },
-    "3846": {
-      "geometry": "assets/parts/3846.dat",
-      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3846.dat",
-      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9",
-      "gobricks_status": "not_verified",
-      "verification": "Official LDraw part by James Jessiman, with Tore Eriksson shield subpart; display support is native-geometry only. GoBricks SKU/color mapping and physical clutch retention are not verified."
     }
   },
   "instruction_sets": {
