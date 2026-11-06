@@ -1,0 +1,1136 @@
+0 FILE camelot-v1.mpd
+0 !BRICK_STATE {"schema_version":3,"parts_system":"LEGO","status":"A_gate_functional_study","version_label":"Camelot A gate","display_name":"카멜롯 성문","model":"Camelot gate","piece_count":556,"placed_piece_count":556,"unplaced_piece_count":0,"unique_sale_skus":0,"listed_retail_parts_cost_cny":"0.00","layout":"single_root_reachable_gate_assembly","assembly_verified":false,"clear_opening_ldu":{"width":160,"height":240},"moat_span_ldu":160,"motion_checks":{"drawbridge":[{"pose":"closed","angle_degrees":0,"anchor_yz_ldu":[-20.0,-140.0],"line_to_drum_contact_ldu":372.344},{"pose":"mid","angle_degrees":-45,"anchor_yz_ldu":[-113.137,-84.853],"line_to_drum_contact_ldu":281.597},{"pose":"open","angle_degrees":-90,"anchor_yz_ldu":[-140.0,20.0],"line_to_drum_contact_ldu":290.241}],"portcullis":[{"pose":"closed","travel_ldu":0,"chain_line_to_rim_ldu":300.666},{"pose":"mid","travel_ldu":-120,"chain_line_to_rim_ldu":181.108},{"pose":"open","travel_ldu":-240,"chain_line_to_rim_ldu":63.246}],"interpretation":"Endpoint distances are analytic pose checks, not physical clutch/load tests. Winch payout is taken up by the rotating axle; articulated link-chain joints permit the path to reconfigure."},"joints":[{"id":"A-drawbridge","type":"hinged_8x8_deck_with_twin_articulated_chains_and_ratchet","submodel":"cm-gate-bridge.ldr","axis":"x","pivot":[0,0,0],"axes":{"x":[-90,0]},"limits_degrees":[-90,0],"stops_degrees":[-90,0]},{"id":"A-portcullis","type":"vertically_guided_10-brick_grille_with_independent_chain_winch_and_ratchet","submodel":"cm-gate-portcullis.ldr","axis":"y","pivot":[0,-240,60],"axes":{"y":[-240,0]},"travel_ldu":[-240,0],"stops_ldu":[-240,0]}],"instances":[{"id":"A-00001","part":"3001.dat","color":72,"position":[-160.0,0.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00002","part":"3003.dat","color":72,"position":[-100.0,0.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00003","part":"3001.dat","color":72,"position":[-160.0,0.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00004","part":"3003.dat","color":72,"position":[-100.0,0.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00005","part":"3001.dat","color":72,"position":[-160.0,0.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00006","part":"3003.dat","color":72,"position":[-100.0,0.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00007","part":"3001.dat","color":72,"position":[-160.0,0.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00008","part":"3003.dat","color":72,"position":[-100.0,0.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00009","part":"3001.dat","color":72,"position":[-180.0,-24.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00010","part":"3001.dat","color":72,"position":[-180.0,-24.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00011","part":"3001.dat","color":72,"position":[-140.0,-24.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00012","part":"3001.dat","color":72,"position":[-140.0,-24.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00013","part":"3001.dat","color":72,"position":[-100.0,-24.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00014","part":"3001.dat","color":72,"position":[-100.0,-24.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00015","part":"3001.dat","color":71,"position":[-160.0,-48.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00016","part":"3003.dat","color":71,"position":[-100.0,-48.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00017","part":"3001.dat","color":71,"position":[-160.0,-48.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00018","part":"3003.dat","color":71,"position":[-100.0,-48.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00019","part":"3001.dat","color":71,"position":[-160.0,-48.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00020","part":"3003.dat","color":71,"position":[-100.0,-48.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00021","part":"3001.dat","color":71,"position":[-160.0,-48.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00022","part":"3003.dat","color":71,"position":[-100.0,-48.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00023","part":"3001.dat","color":71,"position":[-180.0,-72.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00024","part":"3001.dat","color":71,"position":[-180.0,-72.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00025","part":"3001.dat","color":71,"position":[-140.0,-72.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00026","part":"3001.dat","color":71,"position":[-140.0,-72.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00027","part":"3001.dat","color":71,"position":[-100.0,-72.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00028","part":"3001.dat","color":71,"position":[-100.0,-72.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00029","part":"3001.dat","color":71,"position":[-160.0,-96.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00030","part":"3003.dat","color":71,"position":[-100.0,-96.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00031","part":"3001.dat","color":71,"position":[-160.0,-96.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00032","part":"3003.dat","color":71,"position":[-100.0,-96.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00033","part":"3001.dat","color":71,"position":[-160.0,-96.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00034","part":"3003.dat","color":71,"position":[-100.0,-96.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00035","part":"3001.dat","color":71,"position":[-160.0,-96.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00036","part":"3003.dat","color":71,"position":[-100.0,-96.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00037","part":"3001.dat","color":71,"position":[-180.0,-120.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00038","part":"3001.dat","color":71,"position":[-180.0,-120.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00039","part":"3001.dat","color":71,"position":[-140.0,-120.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00040","part":"3001.dat","color":71,"position":[-140.0,-120.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00041","part":"3001.dat","color":71,"position":[-100.0,-120.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00042","part":"3001.dat","color":71,"position":[-100.0,-120.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00043","part":"3001.dat","color":72,"position":[-160.0,-144.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00044","part":"3003.dat","color":72,"position":[-100.0,-144.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00045","part":"3001.dat","color":72,"position":[-160.0,-144.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00046","part":"3003.dat","color":72,"position":[-100.0,-144.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00047","part":"3001.dat","color":72,"position":[-160.0,-144.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00048","part":"3003.dat","color":72,"position":[-100.0,-144.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00049","part":"3001.dat","color":72,"position":[-160.0,-144.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00050","part":"3003.dat","color":72,"position":[-100.0,-144.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00051","part":"3001.dat","color":72,"position":[-180.0,-168.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00052","part":"3001.dat","color":72,"position":[-180.0,-168.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00053","part":"3001.dat","color":72,"position":[-140.0,-168.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00054","part":"3001.dat","color":72,"position":[-140.0,-168.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00055","part":"3001.dat","color":72,"position":[-100.0,-168.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00056","part":"3001.dat","color":72,"position":[-100.0,-168.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00057","part":"3001.dat","color":71,"position":[-160.0,-192.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00058","part":"3003.dat","color":71,"position":[-100.0,-192.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00059","part":"3001.dat","color":71,"position":[-160.0,-192.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00060","part":"3003.dat","color":71,"position":[-100.0,-192.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00061","part":"3001.dat","color":71,"position":[-160.0,-192.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00062","part":"3003.dat","color":71,"position":[-100.0,-192.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00063","part":"3001.dat","color":71,"position":[-160.0,-192.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00064","part":"3003.dat","color":71,"position":[-100.0,-192.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00065","part":"3001.dat","color":71,"position":[-180.0,-216.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00066","part":"3001.dat","color":71,"position":[-180.0,-216.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00067","part":"3001.dat","color":71,"position":[-140.0,-216.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00068","part":"3001.dat","color":71,"position":[-140.0,-216.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00069","part":"3001.dat","color":71,"position":[-100.0,-216.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00070","part":"3001.dat","color":71,"position":[-100.0,-216.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00071","part":"3001.dat","color":71,"position":[-160.0,-240.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00072","part":"3003.dat","color":71,"position":[-100.0,-240.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00073","part":"3001.dat","color":71,"position":[-160.0,-240.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00074","part":"3003.dat","color":71,"position":[-100.0,-240.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00075","part":"3001.dat","color":71,"position":[-160.0,-240.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00076","part":"3003.dat","color":71,"position":[-100.0,-240.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00077","part":"3001.dat","color":71,"position":[-160.0,-240.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00078","part":"3003.dat","color":71,"position":[-100.0,-240.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00079","part":"3001.dat","color":71,"position":[-180.0,-264.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00080","part":"3001.dat","color":71,"position":[-180.0,-264.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00081","part":"3001.dat","color":71,"position":[-140.0,-264.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00082","part":"3001.dat","color":71,"position":[-140.0,-264.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00083","part":"3001.dat","color":71,"position":[-100.0,-264.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00084","part":"3001.dat","color":71,"position":[-100.0,-264.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00085","part":"3001.dat","color":72,"position":[-160.0,-288.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00086","part":"3003.dat","color":72,"position":[-100.0,-288.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00087","part":"3001.dat","color":72,"position":[-160.0,-288.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00088","part":"3003.dat","color":72,"position":[-100.0,-288.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00089","part":"3001.dat","color":72,"position":[-160.0,-288.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00090","part":"3003.dat","color":72,"position":[-100.0,-288.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00091","part":"3001.dat","color":72,"position":[-160.0,-288.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00092","part":"3003.dat","color":72,"position":[-100.0,-288.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00093","part":"3001.dat","color":72,"position":[-180.0,-312.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00094","part":"3001.dat","color":72,"position":[-180.0,-312.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00095","part":"3001.dat","color":72,"position":[-140.0,-312.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00096","part":"3001.dat","color":72,"position":[-140.0,-312.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00097","part":"3001.dat","color":72,"position":[-100.0,-312.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00098","part":"3001.dat","color":72,"position":[-100.0,-312.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00099","part":"3001.dat","color":71,"position":[-160.0,-336.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00100","part":"3003.dat","color":71,"position":[-100.0,-336.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00101","part":"3001.dat","color":71,"position":[-160.0,-336.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00102","part":"3003.dat","color":71,"position":[-100.0,-336.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00103","part":"3001.dat","color":71,"position":[-160.0,-336.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00104","part":"3003.dat","color":71,"position":[-100.0,-336.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00105","part":"3001.dat","color":71,"position":[-160.0,-336.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00106","part":"3003.dat","color":71,"position":[-100.0,-336.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00107","part":"3001.dat","color":71,"position":[-180.0,-360.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00108","part":"3001.dat","color":71,"position":[-180.0,-360.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00109","part":"3001.dat","color":71,"position":[-140.0,-360.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00110","part":"3001.dat","color":71,"position":[-140.0,-360.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00111","part":"3001.dat","color":71,"position":[-100.0,-360.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00112","part":"3001.dat","color":71,"position":[-100.0,-360.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00113","part":"3001.dat","color":71,"position":[-160.0,-384.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00114","part":"3003.dat","color":71,"position":[-100.0,-384.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00115","part":"3001.dat","color":71,"position":[-160.0,-384.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00116","part":"3003.dat","color":71,"position":[-100.0,-384.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00117","part":"3001.dat","color":71,"position":[-160.0,-384.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00118","part":"3003.dat","color":71,"position":[-100.0,-384.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00119","part":"3001.dat","color":71,"position":[-160.0,-384.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00120","part":"3003.dat","color":71,"position":[-100.0,-384.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00121","part":"3001.dat","color":71,"position":[-180.0,-408.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00122","part":"3001.dat","color":71,"position":[-180.0,-408.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00123","part":"3001.dat","color":71,"position":[-140.0,-408.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00124","part":"3001.dat","color":71,"position":[-140.0,-408.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00125","part":"3001.dat","color":71,"position":[-100.0,-408.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00126","part":"3001.dat","color":71,"position":[-100.0,-408.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00127","part":"3001.dat","color":72,"position":[-160.0,-432.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00128","part":"3003.dat","color":72,"position":[-100.0,-432.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00129","part":"3001.dat","color":72,"position":[-160.0,-432.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00130","part":"3003.dat","color":72,"position":[-100.0,-432.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00131","part":"3001.dat","color":72,"position":[-160.0,-432.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00132","part":"3003.dat","color":72,"position":[-100.0,-432.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00133","part":"3001.dat","color":72,"position":[-160.0,-432.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00134","part":"3003.dat","color":72,"position":[-100.0,-432.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00135","part":"3001.dat","color":72,"position":[-180.0,-456.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00136","part":"3001.dat","color":72,"position":[-180.0,-456.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00137","part":"3001.dat","color":72,"position":[-140.0,-456.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00138","part":"3001.dat","color":72,"position":[-140.0,-456.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00139","part":"3001.dat","color":72,"position":[-100.0,-456.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00140","part":"3001.dat","color":72,"position":[-100.0,-456.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00141","part":"3001.dat","color":71,"position":[-160.0,-480.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00142","part":"3003.dat","color":71,"position":[-100.0,-480.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00143","part":"3001.dat","color":71,"position":[-160.0,-480.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00144","part":"3003.dat","color":71,"position":[-100.0,-480.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00145","part":"3001.dat","color":71,"position":[-160.0,-480.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00146","part":"3003.dat","color":71,"position":[-100.0,-480.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00147","part":"3001.dat","color":71,"position":[-160.0,-480.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00148","part":"3003.dat","color":71,"position":[-100.0,-480.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00149","part":"3001.dat","color":71,"position":[-180.0,-504.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00150","part":"3001.dat","color":71,"position":[-180.0,-504.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00151","part":"3001.dat","color":71,"position":[-140.0,-504.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00152","part":"3001.dat","color":71,"position":[-140.0,-504.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00153","part":"3001.dat","color":71,"position":[-100.0,-504.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00154","part":"3001.dat","color":71,"position":[-100.0,-504.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00155","part":"3036.dat","color":72,"position":[-140.0,-512.0,0.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00156","part":"3005.dat","color":72,"position":[-180.0,-520.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00157","part":"3005.dat","color":72,"position":[-140.0,-520.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00158","part":"3005.dat","color":72,"position":[-100.0,-520.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00159","part":"3001.dat","color":72,"position":[120.0,0.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00160","part":"3003.dat","color":72,"position":[180.0,0.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00161","part":"3001.dat","color":72,"position":[120.0,0.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00162","part":"3003.dat","color":72,"position":[180.0,0.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00163","part":"3001.dat","color":72,"position":[120.0,0.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00164","part":"3003.dat","color":72,"position":[180.0,0.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00165","part":"3001.dat","color":72,"position":[120.0,0.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00166","part":"3003.dat","color":72,"position":[180.0,0.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00167","part":"3001.dat","color":72,"position":[100.0,-24.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00168","part":"3001.dat","color":72,"position":[100.0,-24.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00169","part":"3001.dat","color":72,"position":[140.0,-24.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00170","part":"3001.dat","color":72,"position":[140.0,-24.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00171","part":"3001.dat","color":72,"position":[180.0,-24.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00172","part":"3001.dat","color":72,"position":[180.0,-24.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00173","part":"3001.dat","color":71,"position":[120.0,-48.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00174","part":"3003.dat","color":71,"position":[180.0,-48.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00175","part":"3001.dat","color":71,"position":[120.0,-48.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00176","part":"3003.dat","color":71,"position":[180.0,-48.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00177","part":"3001.dat","color":71,"position":[120.0,-48.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00178","part":"3003.dat","color":71,"position":[180.0,-48.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00179","part":"3001.dat","color":71,"position":[120.0,-48.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00180","part":"3003.dat","color":71,"position":[180.0,-48.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00181","part":"3001.dat","color":71,"position":[100.0,-72.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00182","part":"3001.dat","color":71,"position":[100.0,-72.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00183","part":"3001.dat","color":71,"position":[140.0,-72.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00184","part":"3001.dat","color":71,"position":[140.0,-72.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00185","part":"3001.dat","color":71,"position":[180.0,-72.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00186","part":"3001.dat","color":71,"position":[180.0,-72.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00187","part":"3001.dat","color":71,"position":[120.0,-96.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00188","part":"3003.dat","color":71,"position":[180.0,-96.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00189","part":"3001.dat","color":71,"position":[120.0,-96.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00190","part":"3003.dat","color":71,"position":[180.0,-96.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00191","part":"3001.dat","color":71,"position":[120.0,-96.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00192","part":"3003.dat","color":71,"position":[180.0,-96.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00193","part":"3001.dat","color":71,"position":[120.0,-96.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00194","part":"3003.dat","color":71,"position":[180.0,-96.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00195","part":"3001.dat","color":71,"position":[100.0,-120.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00196","part":"3001.dat","color":71,"position":[100.0,-120.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00197","part":"3001.dat","color":71,"position":[140.0,-120.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00198","part":"3001.dat","color":71,"position":[140.0,-120.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00199","part":"3001.dat","color":71,"position":[180.0,-120.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00200","part":"3001.dat","color":71,"position":[180.0,-120.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00201","part":"3001.dat","color":72,"position":[120.0,-144.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00202","part":"3003.dat","color":72,"position":[180.0,-144.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00203","part":"3001.dat","color":72,"position":[120.0,-144.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00204","part":"3003.dat","color":72,"position":[180.0,-144.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00205","part":"3001.dat","color":72,"position":[120.0,-144.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00206","part":"3003.dat","color":72,"position":[180.0,-144.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00207","part":"3001.dat","color":72,"position":[120.0,-144.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00208","part":"3003.dat","color":72,"position":[180.0,-144.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00209","part":"3001.dat","color":72,"position":[100.0,-168.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00210","part":"3001.dat","color":72,"position":[100.0,-168.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00211","part":"3001.dat","color":72,"position":[140.0,-168.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00212","part":"3001.dat","color":72,"position":[140.0,-168.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00213","part":"3001.dat","color":72,"position":[180.0,-168.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00214","part":"3001.dat","color":72,"position":[180.0,-168.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00215","part":"3001.dat","color":71,"position":[120.0,-192.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00216","part":"3003.dat","color":71,"position":[180.0,-192.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00217","part":"3001.dat","color":71,"position":[120.0,-192.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00218","part":"3003.dat","color":71,"position":[180.0,-192.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00219","part":"3001.dat","color":71,"position":[120.0,-192.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00220","part":"3003.dat","color":71,"position":[180.0,-192.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00221","part":"3001.dat","color":71,"position":[120.0,-192.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00222","part":"3003.dat","color":71,"position":[180.0,-192.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00223","part":"3001.dat","color":71,"position":[100.0,-216.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00224","part":"3001.dat","color":71,"position":[100.0,-216.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00225","part":"3001.dat","color":71,"position":[140.0,-216.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00226","part":"3001.dat","color":71,"position":[140.0,-216.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00227","part":"3001.dat","color":71,"position":[180.0,-216.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00228","part":"3001.dat","color":71,"position":[180.0,-216.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00229","part":"3001.dat","color":71,"position":[120.0,-240.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00230","part":"3003.dat","color":71,"position":[180.0,-240.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00231","part":"3001.dat","color":71,"position":[120.0,-240.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00232","part":"3003.dat","color":71,"position":[180.0,-240.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00233","part":"3001.dat","color":71,"position":[120.0,-240.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00234","part":"3003.dat","color":71,"position":[180.0,-240.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00235","part":"3001.dat","color":71,"position":[120.0,-240.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00236","part":"3003.dat","color":71,"position":[180.0,-240.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00237","part":"3001.dat","color":71,"position":[100.0,-264.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00238","part":"3001.dat","color":71,"position":[100.0,-264.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00239","part":"3001.dat","color":71,"position":[140.0,-264.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00240","part":"3001.dat","color":71,"position":[140.0,-264.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00241","part":"3001.dat","color":71,"position":[180.0,-264.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00242","part":"3001.dat","color":71,"position":[180.0,-264.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00243","part":"3001.dat","color":72,"position":[120.0,-288.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00244","part":"3003.dat","color":72,"position":[180.0,-288.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00245","part":"3001.dat","color":72,"position":[120.0,-288.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00246","part":"3003.dat","color":72,"position":[180.0,-288.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00247","part":"3001.dat","color":72,"position":[120.0,-288.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00248","part":"3003.dat","color":72,"position":[180.0,-288.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00249","part":"3001.dat","color":72,"position":[120.0,-288.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00250","part":"3003.dat","color":72,"position":[180.0,-288.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00251","part":"3001.dat","color":72,"position":[100.0,-312.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00252","part":"3001.dat","color":72,"position":[100.0,-312.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00253","part":"3001.dat","color":72,"position":[140.0,-312.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00254","part":"3001.dat","color":72,"position":[140.0,-312.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00255","part":"3001.dat","color":72,"position":[180.0,-312.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00256","part":"3001.dat","color":72,"position":[180.0,-312.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00257","part":"3001.dat","color":71,"position":[120.0,-336.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00258","part":"3003.dat","color":71,"position":[180.0,-336.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00259","part":"3001.dat","color":71,"position":[120.0,-336.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00260","part":"3003.dat","color":71,"position":[180.0,-336.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00261","part":"3001.dat","color":71,"position":[120.0,-336.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00262","part":"3003.dat","color":71,"position":[180.0,-336.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00263","part":"3001.dat","color":71,"position":[120.0,-336.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00264","part":"3003.dat","color":71,"position":[180.0,-336.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00265","part":"3001.dat","color":71,"position":[100.0,-360.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00266","part":"3001.dat","color":71,"position":[100.0,-360.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00267","part":"3001.dat","color":71,"position":[140.0,-360.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00268","part":"3001.dat","color":71,"position":[140.0,-360.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00269","part":"3001.dat","color":71,"position":[180.0,-360.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00270","part":"3001.dat","color":71,"position":[180.0,-360.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00271","part":"3001.dat","color":71,"position":[120.0,-384.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00272","part":"3003.dat","color":71,"position":[180.0,-384.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00273","part":"3001.dat","color":71,"position":[120.0,-384.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00274","part":"3003.dat","color":71,"position":[180.0,-384.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00275","part":"3001.dat","color":71,"position":[120.0,-384.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00276","part":"3003.dat","color":71,"position":[180.0,-384.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00277","part":"3001.dat","color":71,"position":[120.0,-384.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00278","part":"3003.dat","color":71,"position":[180.0,-384.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00279","part":"3001.dat","color":71,"position":[100.0,-408.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00280","part":"3001.dat","color":71,"position":[100.0,-408.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00281","part":"3001.dat","color":71,"position":[140.0,-408.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00282","part":"3001.dat","color":71,"position":[140.0,-408.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00283","part":"3001.dat","color":71,"position":[180.0,-408.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00284","part":"3001.dat","color":71,"position":[180.0,-408.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00285","part":"3001.dat","color":72,"position":[120.0,-432.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00286","part":"3003.dat","color":72,"position":[180.0,-432.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00287","part":"3001.dat","color":72,"position":[120.0,-432.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00288","part":"3003.dat","color":72,"position":[180.0,-432.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00289","part":"3001.dat","color":72,"position":[120.0,-432.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00290","part":"3003.dat","color":72,"position":[180.0,-432.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00291","part":"3001.dat","color":72,"position":[120.0,-432.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00292","part":"3003.dat","color":72,"position":[180.0,-432.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00293","part":"3001.dat","color":72,"position":[100.0,-456.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00294","part":"3001.dat","color":72,"position":[100.0,-456.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00295","part":"3001.dat","color":72,"position":[140.0,-456.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00296","part":"3001.dat","color":72,"position":[140.0,-456.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00297","part":"3001.dat","color":72,"position":[180.0,-456.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00298","part":"3001.dat","color":72,"position":[180.0,-456.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00299","part":"3001.dat","color":71,"position":[120.0,-480.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00300","part":"3003.dat","color":71,"position":[180.0,-480.0,-60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00301","part":"3001.dat","color":71,"position":[120.0,-480.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00302","part":"3003.dat","color":71,"position":[180.0,-480.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00303","part":"3001.dat","color":71,"position":[120.0,-480.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00304","part":"3003.dat","color":71,"position":[180.0,-480.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00305","part":"3001.dat","color":71,"position":[120.0,-480.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00306","part":"3003.dat","color":71,"position":[180.0,-480.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00307","part":"3001.dat","color":71,"position":[100.0,-504.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00308","part":"3001.dat","color":71,"position":[100.0,-504.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00309","part":"3001.dat","color":71,"position":[140.0,-504.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00310","part":"3001.dat","color":71,"position":[140.0,-504.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00311","part":"3001.dat","color":71,"position":[180.0,-504.0,-40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00312","part":"3001.dat","color":71,"position":[180.0,-504.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00313","part":"3036.dat","color":72,"position":[140.0,-512.0,0.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00314","part":"3005.dat","color":72,"position":[100.0,-520.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00315","part":"3005.dat","color":72,"position":[140.0,-520.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00316","part":"3005.dat","color":72,"position":[180.0,-520.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00317","part":"3001.dat","color":71,"position":[-60.0,-264.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00318","part":"3001.dat","color":71,"position":[60.0,-264.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00319","part":"3034.dat","color":71,"position":[0.0,-248.0,-20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00320","part":"3034.dat","color":71,"position":[0.0,-248.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00321","part":"3034.dat","color":71,"position":[0.0,-248.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00322","part":"3034.dat","color":71,"position":[-60.0,-256.0,20.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00323","part":"3034.dat","color":71,"position":[-20.0,-256.0,20.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00324","part":"3034.dat","color":71,"position":[20.0,-256.0,20.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00325","part":"3034.dat","color":71,"position":[60.0,-256.0,20.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00326","part":"3034.dat","color":72,"position":[0.0,-8.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00327","part":"3034.dat","color":72,"position":[0.0,-8.0,60.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00328","part":"3034.dat","color":72,"position":[-60.0,-16.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00329","part":"3034.dat","color":72,"position":[-20.0,-16.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00330","part":"3034.dat","color":72,"position":[20.0,-16.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00331","part":"3034.dat","color":72,"position":[60.0,-16.0,40.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00332","part":"3004.dat","color":72,"position":[-70.0,0.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00333","part":"3004.dat","color":72,"position":[70.0,0.0,20.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00340","part":"44301.dat","color":72,"position":[-50.0,-2.0,30.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00342","part":"44301.dat","color":72,"position":[50.0,-2.0,30.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-frame.ldr"},{"id":"A-00391","part":"32000.dat","color":72,"position":[-100.0,-392.0,-100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00392","part":"32000.dat","color":72,"position":[100.0,-392.0,-100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00393","part":"32000.dat","color":72,"position":[-100.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00394","part":"32000.dat","color":72,"position":[100.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-frame.ldr"},{"id":"A-00334","part":"3035.dat","color":19,"position":[-40.0,0.0,-80.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00335","part":"3035.dat","color":19,"position":[40.0,0.0,-80.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00336","part":"3034.dat","color":19,"position":[-60.0,-8.0,-80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00337","part":"3034.dat","color":19,"position":[-20.0,-8.0,-80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00338","part":"3034.dat","color":19,"position":[20.0,-8.0,-80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00339","part":"3034.dat","color":19,"position":[60.0,-8.0,-80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00341","part":"44302.dat","color":72,"position":[-50.0,-2.0,30.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00343","part":"44302.dat","color":72,"position":[50.0,-2.0,30.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00344","part":"32524.dat","color":72,"position":[-70.0,18.0,-80.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00345","part":"32524.dat","color":72,"position":[70.0,18.0,-80.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-bridge.ldr"},{"id":"A-00346","part":"3062b.dat","color":72,"position":[-70.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00347","part":"3062b.dat","color":72,"position":[-70.0,-216.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00348","part":"3062b.dat","color":72,"position":[-70.0,-192.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00349","part":"3062b.dat","color":72,"position":[-70.0,-168.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00350","part":"3062b.dat","color":72,"position":[-70.0,-144.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00351","part":"3062b.dat","color":72,"position":[-70.0,-120.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00352","part":"3062b.dat","color":72,"position":[-70.0,-96.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00353","part":"3062b.dat","color":72,"position":[-70.0,-72.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00354","part":"3062b.dat","color":72,"position":[-70.0,-48.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00355","part":"3062b.dat","color":72,"position":[-70.0,-24.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00356","part":"3062b.dat","color":72,"position":[-30.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00357","part":"3062b.dat","color":72,"position":[-30.0,-216.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00358","part":"3062b.dat","color":72,"position":[-30.0,-192.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00359","part":"3062b.dat","color":72,"position":[-30.0,-168.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00360","part":"3062b.dat","color":72,"position":[-30.0,-144.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00361","part":"3062b.dat","color":72,"position":[-30.0,-120.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00362","part":"3062b.dat","color":72,"position":[-30.0,-96.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00363","part":"3062b.dat","color":72,"position":[-30.0,-72.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00364","part":"3062b.dat","color":72,"position":[-30.0,-48.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00365","part":"3062b.dat","color":72,"position":[-30.0,-24.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00366","part":"3062b.dat","color":72,"position":[30.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00367","part":"3062b.dat","color":72,"position":[30.0,-216.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00368","part":"3062b.dat","color":72,"position":[30.0,-192.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00369","part":"3062b.dat","color":72,"position":[30.0,-168.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00370","part":"3062b.dat","color":72,"position":[30.0,-144.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00371","part":"3062b.dat","color":72,"position":[30.0,-120.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00372","part":"3062b.dat","color":72,"position":[30.0,-96.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00373","part":"3062b.dat","color":72,"position":[30.0,-72.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00374","part":"3062b.dat","color":72,"position":[30.0,-48.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00375","part":"3062b.dat","color":72,"position":[30.0,-24.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00376","part":"3062b.dat","color":72,"position":[70.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00377","part":"3062b.dat","color":72,"position":[70.0,-216.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00378","part":"3062b.dat","color":72,"position":[70.0,-192.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00379","part":"3062b.dat","color":72,"position":[70.0,-168.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00380","part":"3062b.dat","color":72,"position":[70.0,-144.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00381","part":"3062b.dat","color":72,"position":[70.0,-120.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00382","part":"3062b.dat","color":72,"position":[70.0,-96.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00383","part":"3062b.dat","color":72,"position":[70.0,-72.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00384","part":"3062b.dat","color":72,"position":[70.0,-48.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00385","part":"3062b.dat","color":72,"position":[70.0,-24.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00386","part":"3034.dat","color":72,"position":[0.0,-248.0,110.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00387","part":"3034.dat","color":72,"position":[0.0,-128.0,110.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00388","part":"3034.dat","color":72,"position":[0.0,-32.0,110.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00389","part":"32000.dat","color":72,"position":[-80.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00390","part":"32000.dat","color":72,"position":[80.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-portcullis.ldr"},{"id":"A-00395","part":"3708.dat","color":72,"position":[0.0,-392.0,-100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00396","part":"3707.dat","color":72,"position":[160.0,-392.0,-100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00397","part":"59443.dat","color":72,"position":[120.0,-392.0,-100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00398","part":"32270.dat","color":72,"position":[-70.0,-392.0,-100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00399","part":"32270.dat","color":72,"position":[70.0,-392.0,-100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00400","part":"32498.dat","color":72,"position":[140.0,-392.0,-100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00401","part":"4032a.dat","color":72,"position":[240.0,-392.0,-100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00402","part":"60483.dat","color":72,"position":[170.0,-392.0,-130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00403","part":"6558.dat","color":72,"position":[170.0,-392.0,-130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00404","part":"3708.dat","color":72,"position":[0.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00405","part":"3707.dat","color":72,"position":[160.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00406","part":"59443.dat","color":72,"position":[120.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00407","part":"32270.dat","color":72,"position":[-70.0,-540.0,100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00408","part":"32270.dat","color":72,"position":[70.0,-540.0,100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00409","part":"32498.dat","color":72,"position":[140.0,-540.0,100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00410","part":"4032a.dat","color":72,"position":[240.0,-540.0,100.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00411","part":"60483.dat","color":72,"position":[170.0,-540.0,70.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00412","part":"6558.dat","color":72,"position":[170.0,-540.0,70.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00413","part":"60483.dat","color":72,"position":[-70.0,-20.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00414","part":"60483.dat","color":72,"position":[-70.0,-40.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00415","part":"60483.dat","color":72,"position":[-70.0,-60.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00416","part":"60483.dat","color":72,"position":[-70.0,-80.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00417","part":"60483.dat","color":72,"position":[-70.0,-100.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00418","part":"60483.dat","color":72,"position":[-70.0,-120.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00419","part":"60483.dat","color":72,"position":[-70.0,-140.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00420","part":"60483.dat","color":72,"position":[-70.0,-160.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00421","part":"60483.dat","color":72,"position":[-70.0,-180.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00422","part":"60483.dat","color":72,"position":[-70.0,-200.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00423","part":"60483.dat","color":72,"position":[-70.0,-220.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00424","part":"60483.dat","color":72,"position":[-70.0,-240.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00425","part":"60483.dat","color":72,"position":[-70.0,-260.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00426","part":"60483.dat","color":72,"position":[-70.0,-280.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00427","part":"60483.dat","color":72,"position":[-70.0,-300.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00428","part":"60483.dat","color":72,"position":[-70.0,-320.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00429","part":"60483.dat","color":72,"position":[-70.0,-340.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00430","part":"60483.dat","color":72,"position":[-70.0,-360.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00431","part":"60483.dat","color":72,"position":[-70.0,-380.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.8,-0.6,0.0,0.6,0.8],"group":"cm-gate-hoist.ldr"},{"id":"A-00432","part":"6558.dat","color":72,"position":[-70.0,-20.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00433","part":"6558.dat","color":72,"position":[-70.0,-40.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00434","part":"6558.dat","color":72,"position":[-70.0,-60.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00435","part":"6558.dat","color":72,"position":[-70.0,-80.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00436","part":"6558.dat","color":72,"position":[-70.0,-100.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00437","part":"6558.dat","color":72,"position":[-70.0,-120.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00438","part":"6558.dat","color":72,"position":[-70.0,-140.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00439","part":"6558.dat","color":72,"position":[-70.0,-160.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00440","part":"6558.dat","color":72,"position":[-70.0,-180.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00441","part":"6558.dat","color":72,"position":[-70.0,-200.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00442","part":"6558.dat","color":72,"position":[-70.0,-220.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00443","part":"6558.dat","color":72,"position":[-70.0,-240.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00444","part":"6558.dat","color":72,"position":[-70.0,-260.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00445","part":"6558.dat","color":72,"position":[-70.0,-280.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00446","part":"6558.dat","color":72,"position":[-70.0,-300.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00447","part":"6558.dat","color":72,"position":[-70.0,-320.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00448","part":"6558.dat","color":72,"position":[-70.0,-340.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00449","part":"6558.dat","color":72,"position":[-70.0,-360.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00450","part":"6558.dat","color":72,"position":[-70.0,-380.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00451","part":"6558.dat","color":72,"position":[-70.0,-392.0,-124.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00452","part":"60483.dat","color":72,"position":[70.0,-20.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00453","part":"60483.dat","color":72,"position":[70.0,-40.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00454","part":"60483.dat","color":72,"position":[70.0,-60.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00455","part":"60483.dat","color":72,"position":[70.0,-80.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00456","part":"60483.dat","color":72,"position":[70.0,-100.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00457","part":"60483.dat","color":72,"position":[70.0,-120.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00458","part":"60483.dat","color":72,"position":[70.0,-140.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00459","part":"60483.dat","color":72,"position":[70.0,-160.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00460","part":"60483.dat","color":72,"position":[70.0,-180.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00461","part":"60483.dat","color":72,"position":[70.0,-200.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00462","part":"60483.dat","color":72,"position":[70.0,-220.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00463","part":"60483.dat","color":72,"position":[70.0,-240.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00464","part":"60483.dat","color":72,"position":[70.0,-260.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00465","part":"60483.dat","color":72,"position":[70.0,-280.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00466","part":"60483.dat","color":72,"position":[70.0,-300.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00467","part":"60483.dat","color":72,"position":[70.0,-320.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00468","part":"60483.dat","color":72,"position":[70.0,-340.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00469","part":"60483.dat","color":72,"position":[70.0,-360.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00470","part":"60483.dat","color":72,"position":[70.0,-380.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,0.8,-0.6,0.0,0.6,0.8],"group":"cm-gate-hoist.ldr"},{"id":"A-00471","part":"6558.dat","color":72,"position":[70.0,-20.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00472","part":"6558.dat","color":72,"position":[70.0,-40.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00473","part":"6558.dat","color":72,"position":[70.0,-60.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00474","part":"6558.dat","color":72,"position":[70.0,-80.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00475","part":"6558.dat","color":72,"position":[70.0,-100.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00476","part":"6558.dat","color":72,"position":[70.0,-120.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00477","part":"6558.dat","color":72,"position":[70.0,-140.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00478","part":"6558.dat","color":72,"position":[70.0,-160.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00479","part":"6558.dat","color":72,"position":[70.0,-180.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00480","part":"6558.dat","color":72,"position":[70.0,-200.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00481","part":"6558.dat","color":72,"position":[70.0,-220.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00482","part":"6558.dat","color":72,"position":[70.0,-240.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00483","part":"6558.dat","color":72,"position":[70.0,-260.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00484","part":"6558.dat","color":72,"position":[70.0,-280.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00485","part":"6558.dat","color":72,"position":[70.0,-300.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00486","part":"6558.dat","color":72,"position":[70.0,-320.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00487","part":"6558.dat","color":72,"position":[70.0,-340.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00488","part":"6558.dat","color":72,"position":[70.0,-360.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00489","part":"6558.dat","color":72,"position":[70.0,-380.0,-140.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00490","part":"6558.dat","color":72,"position":[70.0,-392.0,-124.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00491","part":"60483.dat","color":72,"position":[-80.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00492","part":"60483.dat","color":72,"position":[-80.0,-260.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00493","part":"60483.dat","color":72,"position":[-80.0,-280.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00494","part":"60483.dat","color":72,"position":[-80.0,-300.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00495","part":"60483.dat","color":72,"position":[-80.0,-320.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00496","part":"60483.dat","color":72,"position":[-80.0,-340.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00497","part":"60483.dat","color":72,"position":[-80.0,-360.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00498","part":"60483.dat","color":72,"position":[-80.0,-380.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00499","part":"60483.dat","color":72,"position":[-80.0,-400.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00500","part":"60483.dat","color":72,"position":[-80.0,-420.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00501","part":"60483.dat","color":72,"position":[-80.0,-440.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00502","part":"60483.dat","color":72,"position":[-80.0,-460.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00503","part":"60483.dat","color":72,"position":[-80.0,-480.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00504","part":"60483.dat","color":72,"position":[-80.0,-500.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00505","part":"60483.dat","color":72,"position":[-80.0,-520.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00506","part":"60483.dat","color":72,"position":[-80.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00507","part":"6558.dat","color":72,"position":[-80.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00508","part":"6558.dat","color":72,"position":[-80.0,-260.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00509","part":"6558.dat","color":72,"position":[-80.0,-280.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00510","part":"6558.dat","color":72,"position":[-80.0,-300.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00511","part":"6558.dat","color":72,"position":[-80.0,-320.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00512","part":"6558.dat","color":72,"position":[-80.0,-340.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00513","part":"6558.dat","color":72,"position":[-80.0,-360.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00514","part":"6558.dat","color":72,"position":[-80.0,-380.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00515","part":"6558.dat","color":72,"position":[-80.0,-400.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00516","part":"6558.dat","color":72,"position":[-80.0,-420.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00517","part":"6558.dat","color":72,"position":[-80.0,-440.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00518","part":"6558.dat","color":72,"position":[-80.0,-460.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00519","part":"6558.dat","color":72,"position":[-80.0,-480.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00520","part":"6558.dat","color":72,"position":[-80.0,-500.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00521","part":"6558.dat","color":72,"position":[-80.0,-520.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00522","part":"6558.dat","color":72,"position":[-80.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00523","part":"6558.dat","color":72,"position":[-80.0,-540.0,80.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00524","part":"60483.dat","color":72,"position":[80.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00525","part":"60483.dat","color":72,"position":[80.0,-260.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00526","part":"60483.dat","color":72,"position":[80.0,-280.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00527","part":"60483.dat","color":72,"position":[80.0,-300.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00528","part":"60483.dat","color":72,"position":[80.0,-320.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00529","part":"60483.dat","color":72,"position":[80.0,-340.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00530","part":"60483.dat","color":72,"position":[80.0,-360.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00531","part":"60483.dat","color":72,"position":[80.0,-380.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00532","part":"60483.dat","color":72,"position":[80.0,-400.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00533","part":"60483.dat","color":72,"position":[80.0,-420.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00534","part":"60483.dat","color":72,"position":[80.0,-440.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00535","part":"60483.dat","color":72,"position":[80.0,-460.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00536","part":"60483.dat","color":72,"position":[80.0,-480.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00537","part":"60483.dat","color":72,"position":[80.0,-500.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00538","part":"60483.dat","color":72,"position":[80.0,-520.0,100.0],"matrix":[1.0,0.0,0.0,0.0,0.0,-1.0,0.0,1.0,0.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00539","part":"60483.dat","color":72,"position":[80.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00540","part":"6558.dat","color":72,"position":[80.0,-240.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00541","part":"6558.dat","color":72,"position":[80.0,-260.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00542","part":"6558.dat","color":72,"position":[80.0,-280.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00543","part":"6558.dat","color":72,"position":[80.0,-300.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00544","part":"6558.dat","color":72,"position":[80.0,-320.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00545","part":"6558.dat","color":72,"position":[80.0,-340.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00546","part":"6558.dat","color":72,"position":[80.0,-360.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00547","part":"6558.dat","color":72,"position":[80.0,-380.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00548","part":"6558.dat","color":72,"position":[80.0,-400.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00549","part":"6558.dat","color":72,"position":[80.0,-420.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00550","part":"6558.dat","color":72,"position":[80.0,-440.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00551","part":"6558.dat","color":72,"position":[80.0,-460.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00552","part":"6558.dat","color":72,"position":[80.0,-480.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00553","part":"6558.dat","color":72,"position":[80.0,-500.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00554","part":"6558.dat","color":72,"position":[80.0,-520.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00555","part":"6558.dat","color":72,"position":[80.0,-540.0,100.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"},{"id":"A-00556","part":"6558.dat","color":72,"position":[80.0,-540.0,80.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-gate-hoist.ldr"}],"unplaced_submodels":[]}
+0 // The root calls only the assigned gate assembly; no other regions are present.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-gate.ldr
+0 NOFILE
+0 FILE cm-gate.ldr
+0 Two independent mechanisms: hinged drawbridge and guided vertical portcullis.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-gate-frame.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-gate-bridge.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-gate-portcullis.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-gate-hoist.ldr
+0 NOFILE
+0 FILE cm-gate-frame.ldr
+0 A: assigned cm-gate-frame assembly; genuine LEGO/LDraw parts, unique A- IDs.
+0 !BRICK_INSTANCE A-00001
+1 72 -160 0 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00002
+1 72 -100 0 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00003
+1 72 -160 0 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00004
+1 72 -100 0 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00005
+1 72 -160 0 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00006
+1 72 -100 0 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00007
+1 72 -160 0 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00008
+1 72 -100 0 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00009
+1 72 -180 -24 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00010
+1 72 -180 -24 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00011
+1 72 -140 -24 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00012
+1 72 -140 -24 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00013
+1 72 -100 -24 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00014
+1 72 -100 -24 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00015
+1 71 -160 -48 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00016
+1 71 -100 -48 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00017
+1 71 -160 -48 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00018
+1 71 -100 -48 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00019
+1 71 -160 -48 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00020
+1 71 -100 -48 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00021
+1 71 -160 -48 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00022
+1 71 -100 -48 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00023
+1 71 -180 -72 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00024
+1 71 -180 -72 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00025
+1 71 -140 -72 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00026
+1 71 -140 -72 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00027
+1 71 -100 -72 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00028
+1 71 -100 -72 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00029
+1 71 -160 -96 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00030
+1 71 -100 -96 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00031
+1 71 -160 -96 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00032
+1 71 -100 -96 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00033
+1 71 -160 -96 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00034
+1 71 -100 -96 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00035
+1 71 -160 -96 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00036
+1 71 -100 -96 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00037
+1 71 -180 -120 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00038
+1 71 -180 -120 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00039
+1 71 -140 -120 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00040
+1 71 -140 -120 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00041
+1 71 -100 -120 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00042
+1 71 -100 -120 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00043
+1 72 -160 -144 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00044
+1 72 -100 -144 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00045
+1 72 -160 -144 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00046
+1 72 -100 -144 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00047
+1 72 -160 -144 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00048
+1 72 -100 -144 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00049
+1 72 -160 -144 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00050
+1 72 -100 -144 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00051
+1 72 -180 -168 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00052
+1 72 -180 -168 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00053
+1 72 -140 -168 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00054
+1 72 -140 -168 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00055
+1 72 -100 -168 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00056
+1 72 -100 -168 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00057
+1 71 -160 -192 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00058
+1 71 -100 -192 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00059
+1 71 -160 -192 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00060
+1 71 -100 -192 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00061
+1 71 -160 -192 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00062
+1 71 -100 -192 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00063
+1 71 -160 -192 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00064
+1 71 -100 -192 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00065
+1 71 -180 -216 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00066
+1 71 -180 -216 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00067
+1 71 -140 -216 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00068
+1 71 -140 -216 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00069
+1 71 -100 -216 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00070
+1 71 -100 -216 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00071
+1 71 -160 -240 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00072
+1 71 -100 -240 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00073
+1 71 -160 -240 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00074
+1 71 -100 -240 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00075
+1 71 -160 -240 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00076
+1 71 -100 -240 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00077
+1 71 -160 -240 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00078
+1 71 -100 -240 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00079
+1 71 -180 -264 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00080
+1 71 -180 -264 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00081
+1 71 -140 -264 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00082
+1 71 -140 -264 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00083
+1 71 -100 -264 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00084
+1 71 -100 -264 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00085
+1 72 -160 -288 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00086
+1 72 -100 -288 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00087
+1 72 -160 -288 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00088
+1 72 -100 -288 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00089
+1 72 -160 -288 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00090
+1 72 -100 -288 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00091
+1 72 -160 -288 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00092
+1 72 -100 -288 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00093
+1 72 -180 -312 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00094
+1 72 -180 -312 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00095
+1 72 -140 -312 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00096
+1 72 -140 -312 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00097
+1 72 -100 -312 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00098
+1 72 -100 -312 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00099
+1 71 -160 -336 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00100
+1 71 -100 -336 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00101
+1 71 -160 -336 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00102
+1 71 -100 -336 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00103
+1 71 -160 -336 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00104
+1 71 -100 -336 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00105
+1 71 -160 -336 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00106
+1 71 -100 -336 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00107
+1 71 -180 -360 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00108
+1 71 -180 -360 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00109
+1 71 -140 -360 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00110
+1 71 -140 -360 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00111
+1 71 -100 -360 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00112
+1 71 -100 -360 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00113
+1 71 -160 -384 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00114
+1 71 -100 -384 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00115
+1 71 -160 -384 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00116
+1 71 -100 -384 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00117
+1 71 -160 -384 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00118
+1 71 -100 -384 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00119
+1 71 -160 -384 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00120
+1 71 -100 -384 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00121
+1 71 -180 -408 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00122
+1 71 -180 -408 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00123
+1 71 -140 -408 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00124
+1 71 -140 -408 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00125
+1 71 -100 -408 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00126
+1 71 -100 -408 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00127
+1 72 -160 -432 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00128
+1 72 -100 -432 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00129
+1 72 -160 -432 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00130
+1 72 -100 -432 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00131
+1 72 -160 -432 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00132
+1 72 -100 -432 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00133
+1 72 -160 -432 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00134
+1 72 -100 -432 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00135
+1 72 -180 -456 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00136
+1 72 -180 -456 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00137
+1 72 -140 -456 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00138
+1 72 -140 -456 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00139
+1 72 -100 -456 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00140
+1 72 -100 -456 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00141
+1 71 -160 -480 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00142
+1 71 -100 -480 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00143
+1 71 -160 -480 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00144
+1 71 -100 -480 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00145
+1 71 -160 -480 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00146
+1 71 -100 -480 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00147
+1 71 -160 -480 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00148
+1 71 -100 -480 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00149
+1 71 -180 -504 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00150
+1 71 -180 -504 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00151
+1 71 -140 -504 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00152
+1 71 -140 -504 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00153
+1 71 -100 -504 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00154
+1 71 -100 -504 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00155
+1 72 -140 -512 0 0 0 1 0 1 0 -1 0 0 3036.dat
+0 !BRICK_INSTANCE A-00156
+1 72 -180 -520 60 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE A-00157
+1 72 -140 -520 60 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE A-00158
+1 72 -100 -520 60 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE A-00159
+1 72 120 0 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00160
+1 72 180 0 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00161
+1 72 120 0 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00162
+1 72 180 0 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00163
+1 72 120 0 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00164
+1 72 180 0 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00165
+1 72 120 0 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00166
+1 72 180 0 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00167
+1 72 100 -24 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00168
+1 72 100 -24 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00169
+1 72 140 -24 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00170
+1 72 140 -24 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00171
+1 72 180 -24 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00172
+1 72 180 -24 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00173
+1 71 120 -48 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00174
+1 71 180 -48 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00175
+1 71 120 -48 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00176
+1 71 180 -48 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00177
+1 71 120 -48 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00178
+1 71 180 -48 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00179
+1 71 120 -48 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00180
+1 71 180 -48 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00181
+1 71 100 -72 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00182
+1 71 100 -72 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00183
+1 71 140 -72 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00184
+1 71 140 -72 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00185
+1 71 180 -72 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00186
+1 71 180 -72 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00187
+1 71 120 -96 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00188
+1 71 180 -96 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00189
+1 71 120 -96 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00190
+1 71 180 -96 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00191
+1 71 120 -96 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00192
+1 71 180 -96 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00193
+1 71 120 -96 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00194
+1 71 180 -96 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00195
+1 71 100 -120 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00196
+1 71 100 -120 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00197
+1 71 140 -120 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00198
+1 71 140 -120 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00199
+1 71 180 -120 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00200
+1 71 180 -120 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00201
+1 72 120 -144 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00202
+1 72 180 -144 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00203
+1 72 120 -144 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00204
+1 72 180 -144 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00205
+1 72 120 -144 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00206
+1 72 180 -144 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00207
+1 72 120 -144 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00208
+1 72 180 -144 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00209
+1 72 100 -168 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00210
+1 72 100 -168 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00211
+1 72 140 -168 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00212
+1 72 140 -168 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00213
+1 72 180 -168 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00214
+1 72 180 -168 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00215
+1 71 120 -192 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00216
+1 71 180 -192 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00217
+1 71 120 -192 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00218
+1 71 180 -192 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00219
+1 71 120 -192 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00220
+1 71 180 -192 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00221
+1 71 120 -192 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00222
+1 71 180 -192 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00223
+1 71 100 -216 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00224
+1 71 100 -216 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00225
+1 71 140 -216 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00226
+1 71 140 -216 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00227
+1 71 180 -216 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00228
+1 71 180 -216 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00229
+1 71 120 -240 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00230
+1 71 180 -240 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00231
+1 71 120 -240 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00232
+1 71 180 -240 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00233
+1 71 120 -240 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00234
+1 71 180 -240 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00235
+1 71 120 -240 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00236
+1 71 180 -240 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00237
+1 71 100 -264 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00238
+1 71 100 -264 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00239
+1 71 140 -264 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00240
+1 71 140 -264 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00241
+1 71 180 -264 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00242
+1 71 180 -264 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00243
+1 72 120 -288 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00244
+1 72 180 -288 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00245
+1 72 120 -288 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00246
+1 72 180 -288 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00247
+1 72 120 -288 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00248
+1 72 180 -288 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00249
+1 72 120 -288 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00250
+1 72 180 -288 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00251
+1 72 100 -312 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00252
+1 72 100 -312 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00253
+1 72 140 -312 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00254
+1 72 140 -312 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00255
+1 72 180 -312 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00256
+1 72 180 -312 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00257
+1 71 120 -336 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00258
+1 71 180 -336 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00259
+1 71 120 -336 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00260
+1 71 180 -336 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00261
+1 71 120 -336 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00262
+1 71 180 -336 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00263
+1 71 120 -336 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00264
+1 71 180 -336 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00265
+1 71 100 -360 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00266
+1 71 100 -360 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00267
+1 71 140 -360 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00268
+1 71 140 -360 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00269
+1 71 180 -360 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00270
+1 71 180 -360 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00271
+1 71 120 -384 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00272
+1 71 180 -384 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00273
+1 71 120 -384 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00274
+1 71 180 -384 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00275
+1 71 120 -384 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00276
+1 71 180 -384 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00277
+1 71 120 -384 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00278
+1 71 180 -384 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00279
+1 71 100 -408 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00280
+1 71 100 -408 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00281
+1 71 140 -408 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00282
+1 71 140 -408 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00283
+1 71 180 -408 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00284
+1 71 180 -408 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00285
+1 72 120 -432 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00286
+1 72 180 -432 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00287
+1 72 120 -432 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00288
+1 72 180 -432 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00289
+1 72 120 -432 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00290
+1 72 180 -432 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00291
+1 72 120 -432 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00292
+1 72 180 -432 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00293
+1 72 100 -456 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00294
+1 72 100 -456 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00295
+1 72 140 -456 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00296
+1 72 140 -456 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00297
+1 72 180 -456 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00298
+1 72 180 -456 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00299
+1 71 120 -480 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00300
+1 71 180 -480 -60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00301
+1 71 120 -480 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00302
+1 71 180 -480 -20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00303
+1 71 120 -480 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00304
+1 71 180 -480 20 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00305
+1 71 120 -480 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00306
+1 71 180 -480 60 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE A-00307
+1 71 100 -504 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00308
+1 71 100 -504 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00309
+1 71 140 -504 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00310
+1 71 140 -504 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00311
+1 71 180 -504 -40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00312
+1 71 180 -504 40 0 0 1 0 1 0 -1 0 0 3001.dat
+0 !BRICK_INSTANCE A-00313
+1 72 140 -512 0 0 0 1 0 1 0 -1 0 0 3036.dat
+0 !BRICK_INSTANCE A-00314
+1 72 100 -520 60 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE A-00315
+1 72 140 -520 60 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE A-00316
+1 72 180 -520 60 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE A-00317
+1 71 -60 -264 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00318
+1 71 60 -264 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 !BRICK_INSTANCE A-00319
+1 71 0 -248 -20 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00320
+1 71 0 -248 20 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00321
+1 71 0 -248 60 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00322
+1 71 -60 -256 20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00323
+1 71 -20 -256 20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00324
+1 71 20 -256 20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00325
+1 71 60 -256 20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00326
+1 72 0 -8 20 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00327
+1 72 0 -8 60 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00328
+1 72 -60 -16 40 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00329
+1 72 -20 -16 40 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00330
+1 72 20 -16 40 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00331
+1 72 60 -16 40 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00332
+1 72 -70 0 20 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE A-00333
+1 72 70 0 20 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE A-00340
+1 72 -50 -2 30 0 0 1 0 1 0 -1 0 0 44301.dat
+0 !BRICK_INSTANCE A-00342
+1 72 50 -2 30 0 0 1 0 1 0 -1 0 0 44301.dat
+0 !BRICK_INSTANCE A-00391
+1 72 -100 -392 -100 1 0 0 0 1 0 0 0 1 32000.dat
+0 !BRICK_INSTANCE A-00392
+1 72 100 -392 -100 1 0 0 0 1 0 0 0 1 32000.dat
+0 !BRICK_INSTANCE A-00393
+1 72 -100 -540 100 1 0 0 0 1 0 0 0 1 32000.dat
+0 !BRICK_INSTANCE A-00394
+1 72 100 -540 100 1 0 0 0 1 0 0 0 1 32000.dat
+0 NOFILE
+0 FILE cm-gate-bridge.ldr
+0 A: assigned cm-gate-bridge assembly; genuine LEGO/LDraw parts, unique A- IDs.
+0 !BRICK_INSTANCE A-00334
+1 19 -40 0 -80 1 0 0 0 1 0 0 0 1 3035.dat
+0 !BRICK_INSTANCE A-00335
+1 19 40 0 -80 1 0 0 0 1 0 0 0 1 3035.dat
+0 !BRICK_INSTANCE A-00336
+1 19 -60 -8 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00337
+1 19 -20 -8 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00338
+1 19 20 -8 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00339
+1 19 60 -8 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE A-00341
+1 72 -50 -2 30 0 0 1 0 1 0 -1 0 0 44302.dat
+0 !BRICK_INSTANCE A-00343
+1 72 50 -2 30 0 0 1 0 1 0 -1 0 0 44302.dat
+0 !BRICK_INSTANCE A-00344
+1 72 -70 18 -80 1 0 0 0 1 0 0 0 1 32524.dat
+0 !BRICK_INSTANCE A-00345
+1 72 70 18 -80 1 0 0 0 1 0 0 0 1 32524.dat
+0 NOFILE
+0 FILE cm-gate-portcullis.ldr
+0 A: assigned cm-gate-portcullis assembly; genuine LEGO/LDraw parts, unique A- IDs.
+0 !BRICK_INSTANCE A-00346
+1 72 -70 -240 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00347
+1 72 -70 -216 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00348
+1 72 -70 -192 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00349
+1 72 -70 -168 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00350
+1 72 -70 -144 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00351
+1 72 -70 -120 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00352
+1 72 -70 -96 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00353
+1 72 -70 -72 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00354
+1 72 -70 -48 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00355
+1 72 -70 -24 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00356
+1 72 -30 -240 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00357
+1 72 -30 -216 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00358
+1 72 -30 -192 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00359
+1 72 -30 -168 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00360
+1 72 -30 -144 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00361
+1 72 -30 -120 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00362
+1 72 -30 -96 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00363
+1 72 -30 -72 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00364
+1 72 -30 -48 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00365
+1 72 -30 -24 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00366
+1 72 30 -240 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00367
+1 72 30 -216 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00368
+1 72 30 -192 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00369
+1 72 30 -168 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00370
+1 72 30 -144 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00371
+1 72 30 -120 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00372
+1 72 30 -96 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00373
+1 72 30 -72 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00374
+1 72 30 -48 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00375
+1 72 30 -24 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00376
+1 72 70 -240 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00377
+1 72 70 -216 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00378
+1 72 70 -192 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00379
+1 72 70 -168 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00380
+1 72 70 -144 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00381
+1 72 70 -120 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00382
+1 72 70 -96 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00383
+1 72 70 -72 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00384
+1 72 70 -48 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00385
+1 72 70 -24 100 1 0 0 0 1 0 0 0 1 3062b.dat
+0 !BRICK_INSTANCE A-00386
+1 72 0 -248 110 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00387
+1 72 0 -128 110 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00388
+1 72 0 -32 110 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE A-00389
+1 72 -80 -240 100 1 0 0 0 1 0 0 0 1 32000.dat
+0 !BRICK_INSTANCE A-00390
+1 72 80 -240 100 1 0 0 0 1 0 0 0 1 32000.dat
+0 NOFILE
+0 FILE cm-gate-hoist.ldr
+0 A: assigned cm-gate-hoist assembly; genuine LEGO/LDraw parts, unique A- IDs.
+0 !BRICK_INSTANCE A-00395
+1 72 0 -392 -100 1 0 0 0 1 0 0 0 1 3708.dat
+0 !BRICK_INSTANCE A-00396
+1 72 160 -392 -100 1 0 0 0 1 0 0 0 1 3707.dat
+0 !BRICK_INSTANCE A-00397
+1 72 120 -392 -100 1 0 0 0 1 0 0 0 1 59443.dat
+0 !BRICK_INSTANCE A-00398
+1 72 -70 -392 -100 0 0 1 0 1 0 -1 0 0 32270.dat
+0 !BRICK_INSTANCE A-00399
+1 72 70 -392 -100 0 0 1 0 1 0 -1 0 0 32270.dat
+0 !BRICK_INSTANCE A-00400
+1 72 140 -392 -100 0 0 1 0 1 0 -1 0 0 32498.dat
+0 !BRICK_INSTANCE A-00401
+1 72 240 -392 -100 0 0 1 0 1 0 -1 0 0 4032a.dat
+0 !BRICK_INSTANCE A-00402
+1 72 170 -392 -130 1 0 0 0 1 0 0 0 1 60483.dat
+0 !BRICK_INSTANCE A-00403
+1 72 170 -392 -130 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00404
+1 72 0 -540 100 1 0 0 0 1 0 0 0 1 3708.dat
+0 !BRICK_INSTANCE A-00405
+1 72 160 -540 100 1 0 0 0 1 0 0 0 1 3707.dat
+0 !BRICK_INSTANCE A-00406
+1 72 120 -540 100 1 0 0 0 1 0 0 0 1 59443.dat
+0 !BRICK_INSTANCE A-00407
+1 72 -70 -540 100 0 0 1 0 1 0 -1 0 0 32270.dat
+0 !BRICK_INSTANCE A-00408
+1 72 70 -540 100 0 0 1 0 1 0 -1 0 0 32270.dat
+0 !BRICK_INSTANCE A-00409
+1 72 140 -540 100 0 0 1 0 1 0 -1 0 0 32498.dat
+0 !BRICK_INSTANCE A-00410
+1 72 240 -540 100 0 0 1 0 1 0 -1 0 0 4032a.dat
+0 !BRICK_INSTANCE A-00411
+1 72 170 -540 70 1 0 0 0 1 0 0 0 1 60483.dat
+0 !BRICK_INSTANCE A-00412
+1 72 170 -540 70 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00413
+1 72 -70 -20 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00414
+1 72 -70 -40 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00415
+1 72 -70 -60 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00416
+1 72 -70 -80 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00417
+1 72 -70 -100 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00418
+1 72 -70 -120 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00419
+1 72 -70 -140 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00420
+1 72 -70 -160 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00421
+1 72 -70 -180 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00422
+1 72 -70 -200 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00423
+1 72 -70 -220 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00424
+1 72 -70 -240 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00425
+1 72 -70 -260 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00426
+1 72 -70 -280 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00427
+1 72 -70 -300 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00428
+1 72 -70 -320 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00429
+1 72 -70 -340 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00430
+1 72 -70 -360 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00431
+1 72 -70 -380 -140 1 0 0 0 0.8 -0.6 0 0.6 0.8 60483.dat
+0 !BRICK_INSTANCE A-00432
+1 72 -70 -20 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00433
+1 72 -70 -40 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00434
+1 72 -70 -60 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00435
+1 72 -70 -80 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00436
+1 72 -70 -100 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00437
+1 72 -70 -120 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00438
+1 72 -70 -140 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00439
+1 72 -70 -160 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00440
+1 72 -70 -180 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00441
+1 72 -70 -200 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00442
+1 72 -70 -220 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00443
+1 72 -70 -240 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00444
+1 72 -70 -260 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00445
+1 72 -70 -280 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00446
+1 72 -70 -300 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00447
+1 72 -70 -320 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00448
+1 72 -70 -340 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00449
+1 72 -70 -360 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00450
+1 72 -70 -380 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00451
+1 72 -70 -392 -124 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00452
+1 72 70 -20 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00453
+1 72 70 -40 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00454
+1 72 70 -60 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00455
+1 72 70 -80 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00456
+1 72 70 -100 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00457
+1 72 70 -120 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00458
+1 72 70 -140 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00459
+1 72 70 -160 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00460
+1 72 70 -180 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00461
+1 72 70 -200 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00462
+1 72 70 -220 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00463
+1 72 70 -240 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00464
+1 72 70 -260 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00465
+1 72 70 -280 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00466
+1 72 70 -300 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00467
+1 72 70 -320 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00468
+1 72 70 -340 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00469
+1 72 70 -360 -140 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00470
+1 72 70 -380 -140 1 0 0 0 0.8 -0.6 0 0.6 0.8 60483.dat
+0 !BRICK_INSTANCE A-00471
+1 72 70 -20 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00472
+1 72 70 -40 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00473
+1 72 70 -60 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00474
+1 72 70 -80 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00475
+1 72 70 -100 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00476
+1 72 70 -120 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00477
+1 72 70 -140 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00478
+1 72 70 -160 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00479
+1 72 70 -180 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00480
+1 72 70 -200 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00481
+1 72 70 -220 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00482
+1 72 70 -240 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00483
+1 72 70 -260 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00484
+1 72 70 -280 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00485
+1 72 70 -300 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00486
+1 72 70 -320 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00487
+1 72 70 -340 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00488
+1 72 70 -360 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00489
+1 72 70 -380 -140 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00490
+1 72 70 -392 -124 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00491
+1 72 -80 -240 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00492
+1 72 -80 -260 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00493
+1 72 -80 -280 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00494
+1 72 -80 -300 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00495
+1 72 -80 -320 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00496
+1 72 -80 -340 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00497
+1 72 -80 -360 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00498
+1 72 -80 -380 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00499
+1 72 -80 -400 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00500
+1 72 -80 -420 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00501
+1 72 -80 -440 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00502
+1 72 -80 -460 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00503
+1 72 -80 -480 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00504
+1 72 -80 -500 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00505
+1 72 -80 -520 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00506
+1 72 -80 -540 100 1 0 0 0 -1 0 0 0 -1 60483.dat
+0 !BRICK_INSTANCE A-00507
+1 72 -80 -240 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00508
+1 72 -80 -260 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00509
+1 72 -80 -280 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00510
+1 72 -80 -300 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00511
+1 72 -80 -320 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00512
+1 72 -80 -340 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00513
+1 72 -80 -360 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00514
+1 72 -80 -380 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00515
+1 72 -80 -400 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00516
+1 72 -80 -420 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00517
+1 72 -80 -440 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00518
+1 72 -80 -460 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00519
+1 72 -80 -480 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00520
+1 72 -80 -500 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00521
+1 72 -80 -520 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00522
+1 72 -80 -540 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00523
+1 72 -80 -540 80 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00524
+1 72 80 -240 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00525
+1 72 80 -260 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00526
+1 72 80 -280 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00527
+1 72 80 -300 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00528
+1 72 80 -320 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00529
+1 72 80 -340 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00530
+1 72 80 -360 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00531
+1 72 80 -380 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00532
+1 72 80 -400 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00533
+1 72 80 -420 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00534
+1 72 80 -440 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00535
+1 72 80 -460 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00536
+1 72 80 -480 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00537
+1 72 80 -500 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00538
+1 72 80 -520 100 1 0 0 0 0 -1 0 1 0 60483.dat
+0 !BRICK_INSTANCE A-00539
+1 72 80 -540 100 1 0 0 0 -1 0 0 0 -1 60483.dat
+0 !BRICK_INSTANCE A-00540
+1 72 80 -240 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00541
+1 72 80 -260 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00542
+1 72 80 -280 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00543
+1 72 80 -300 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00544
+1 72 80 -320 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00545
+1 72 80 -340 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00546
+1 72 80 -360 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00547
+1 72 80 -380 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00548
+1 72 80 -400 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00549
+1 72 80 -420 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00550
+1 72 80 -440 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00551
+1 72 80 -460 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00552
+1 72 80 -480 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00553
+1 72 80 -500 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00554
+1 72 80 -520 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00555
+1 72 80 -540 100 1 0 0 0 1 0 0 0 1 6558.dat
+0 !BRICK_INSTANCE A-00556
+1 72 80 -540 80 1 0 0 0 1 0 0 0 1 6558.dat
+0 NOFILE
