@@ -273,12 +273,12 @@ test('architectural study selector focuses components and stays separate from pa
   await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
   await expect(page.locator('#version')).toContainText('st-peters-basilica-v1.mpd', { timeout: 180000 });
   await expect(page.locator('#study-panel')).toBeVisible();
-  await expect(page.locator('#study-view option')).toHaveText(['전체 표본', '돔·드럼', '정면 비교', '본당', '교차부·후진', '직선 회랑', '곡선 회랑', '16면 드럼·받침 시험']);
+  await expect(page.locator('#study-view option')).toHaveText(['전체 표본', '돔·드럼', '정면 비교', '본당', '교차부·후진', '직선 회랑', '곡선 회랑', '16면 돔·드럼 시험']);
   await expect(page.locator('#study-view')).toHaveValue('dome');
   await expect(page.locator('#summary')).toContainText('돔·드럼 설계 표본');
   await expect(page.locator('#summary')).not.toContainText('CNY');
   await page.selectOption('#study-view', 'base-ring');
-  await expect(page.locator('#summary')).toContainText('16면 드럼·받침 시험');
+  await expect(page.locator('#summary')).toContainText('16면 돔·드럼 시험');
   await page.selectOption('#study-view', 'front');
   await page.click('#fit'); await page.click('#reset');
   await expect(page.locator('#study-view')).toHaveValue('front');
