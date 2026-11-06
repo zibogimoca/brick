@@ -314,6 +314,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "32952",
     "3298",
     "33057",
+    "3307",
     "33183",
     "33291",
     "33299a-5a3cb0bc24",
@@ -417,6 +418,8 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "42205-97cfe4dbdc",
     "42446",
     "4274",
+    "4275b",
+    "4276b",
     "4282",
     "4286",
     "42862",
@@ -441,7 +444,9 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "44224",
     "44225",
     "44294",
+    "44301",
     "44301b",
+    "44302",
     "44375b",
     "44375bp04",
     "44375bp04-ccb1d3a60b",
@@ -13583,6 +13588,42 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "primitives/48/tm08q1125.dat": {
       "sha256": "434bfd27bbad673f788ff14c629f1e7475d73a931289f867f32f2c28f6c90f15",
       "bytes": 26829
+    },
+    "parts/4275b.dat": {
+      "sha256": "74a8135bac411fa7b44ecf2c53e0f6e3fa3d922a530ebdbc475eb2a577039351",
+      "bytes": 1272
+    },
+    "primitives/h2.dat": {
+      "sha256": "6153d92d82234c7637ec360b597a00795efc959f0626f9607b15c2d890fb2c69",
+      "bytes": 1911
+    },
+    "parts/4276b.dat": {
+      "sha256": "464fdd6f97840b72e0434c74bf2df955adb06fdfa9a0ee2e0144ccba90d399ea",
+      "bytes": 1276
+    },
+    "primitives/h1.dat": {
+      "sha256": "1da74f714b5fc460815134709f53fb17aaa25bb6a5d05eacf3fe7ca3d8279258",
+      "bytes": 1933
+    },
+    "parts/44301.dat": {
+      "sha256": "7242d6b7ea790093cd883fb360f94c0ba4b57e2cd1dd1033b4483bc8750e2057",
+      "bytes": 348
+    },
+    "parts/44301a.dat": {
+      "sha256": "df8f351d6b6fea3f9a561762e8bb5dd3a06ff0f9e64043def349a3931c04f28b",
+      "bytes": 1154
+    },
+    "parts/44302.dat": {
+      "sha256": "fd2fc41a83b0e690becb7ff09bf5e531936cbda960d1a7c2c8b7459b9a1f380b",
+      "bytes": 374
+    },
+    "parts/44302a.dat": {
+      "sha256": "c52afef4fefeee48f1b55d62eb90092093e152f5f3ac74a791edda8e2ac0198a",
+      "bytes": 2428
+    },
+    "parts/3307.dat": {
+      "sha256": "1f8a35123063dec41f8668b45b733cf2eeb639ab08b47a58f4daf399e7df50d0",
+      "bytes": 2552
     }
   }
 }

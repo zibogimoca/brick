@@ -20,7 +20,14 @@ let viewDirection = new THREE.Vector3(-.35, .25, 1);
 function status(text) { $('status').textContent = text; }
 function fit() {
   if (!model) return;
-  const box = new THREE.Box3().setFromObject(model); if (box.isEmpty()) return;
+  model.updateMatrixWorld(true);
+  const box = new THREE.Box3();
+  model.traverseVisible(object => {
+    if (!object.isMesh || object.isInstancedMesh) return;
+    object.geometry.computeBoundingBox();
+    box.union(object.geometry.boundingBox.clone().applyMatrix4(object.matrixWorld));
+  });
+  if (box.isEmpty()) return;
   const size = box.getSize(new THREE.Vector3()); const center = box.getCenter(new THREE.Vector3());
   const radius = Math.max(size.x, size.y, size.z, 1) * .6;
   const direction = viewDirection.clone().normalize();
@@ -82,6 +89,7 @@ async function open(buffer, name, revision) {
     if (metadata?.status === 'reference_visual_approximation') $('summary').textContent = `${metadata.piece_count}개 부품 · 재구성 전 초안. 내부 구조와 부품 구성은 미확인.`;
     if (metadata?.reference_geometry_bounds_cm) { const d = metadata.reference_geometry_bounds_cm; $('summary').textContent += ` · 약 ${d.length} × ${d.width} × ${d.height}cm`; }
     $('version').textContent = `${metadata?.version_label ? metadata.version_label + ' · ' : ''}${name} · ${revision}`; status(metadata?.status === 'cad_import' ? '버전 0 · CAD 모델. 실제 조립성은 미검증입니다.' : metadata?.status === 'instruction_reconstruction_in_progress' ? (metadata.layout === 'integrated_instruction_model' ? (metadata.stand_draft_piece_count ? '버전 0 · 받침대 포함 검토본. 미완성입니다.' : '버전 0 · 본체 연결본. 자세·결합 검증 중입니다.') : '버전 0 · 작업 중. 펼침 배치이며 조립 완료 상태가 아닙니다.') : metadata?.status === 'reference_visual_approximation' ? '버전 0 · 재구성 진행 전 초안. 조립 미검증.' : ['articulated_geometry_prototype', 'gobricks_only_redesign_in_progress'].includes(metadata?.status) ? '모델을 불러왔습니다 · 검토안. 연결·강도 미검증.' : '모델을 불러왔습니다. 조립 가능 여부를 검증한 결과는 아닙니다.');
+    configureStudyViews(metadata);
   } catch (error) { console.error('Model loading failed', error); if (current === generation) status('모델을 완전히 불러오지 못했습니다. 이전 모델이 있다면 그대로 표시됩니다.'); }
   finally { if (current === generation) $('models').disabled = false; }
 }
@@ -204,4 +212,39 @@ function refreshInstanceBatches() {
     batch.instanceMatrix.needsUpdate = true;
     batch.computeBoundingBox(); batch.computeBoundingSphere();
   }
+}
+
+// Study roots remain independent of part hiding and pose controls.
+function configureStudyViews(metadata) {
+  const views = metadata?.study_views || [];
+  const select = $('study-view');
+  select.replaceChildren();
+  $('study-panel').hidden = !views.length;
+  select.onchange = null;
+  if (!views.length) return;
+  const roots = new Map();
+  // A root group has no .ldr ancestor inside the loaded MPD.
+  model.traverse(object => {
+    if (!object.userData.fileName?.endsWith('.ldr')) return;
+    for (let p = object.parent; p && p !== model; p = p.parent) {
+      if (p.userData.fileName?.endsWith('.ldr')) return;
+    }
+    roots.set(object.userData.fileName, object);
+  });
+  const available = views.filter(view => view.files?.length && view.files.every(file => roots.has(file)));
+  if (!available.length) { $('study-panel').hidden = true; return; }
+  select.add(new Option('전체 표본', 'all'));
+  for (const view of available) select.add(new Option(view.label, view.id));
+  const apply = () => {
+    const view = available.find(view => view.id === select.value);
+    for (const [file, object] of roots) object.visible = !view || view.files.includes(file);
+    selected = null; $('hide').disabled = true;
+    $('selection').textContent = '부품을 클릭하면 선택됩니다.';
+    refreshInstanceBatches(); fit();
+    $('summary').textContent = view ? `${view.label} 설계 표본 · 전체 성당 아님 · 연결·외형 검토 중` : `${metadata.piece_count}개 부품 · 독립 설계 표본 모음 · 전체 성당 아님`;
+    status('부위별 설계 표본입니다. 최종 비례·외피·구조를 검토 중입니다.');
+  };
+  select.onchange = apply;
+  select.value = available.some(view => view.id === metadata.default_study_view) ? metadata.default_study_view : 'all';
+  apply();
 }
