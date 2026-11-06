@@ -209770,10 +209770,33 @@
       "ldraw_candidates": [
         "3795"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3795.dat",
+        "sha256": "2cd41b03b3606b1259a33847127e79f5c4714a0e66b328516e8c4bf5eab48c86"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -60.0,
+            -4.0,
+            -20.0
+          ],
+          "max": [
+            60.0,
+            8.0,
+            20.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          4.800000000000001,
+          16.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native reference checked; nominal seating only, mold fit and clutch not measured",
       "offers": [
         {
           "sku": "GDS-512-010",
@@ -221046,15 +221069,11 @@
       ],
       "geometry": {
         "file": "assets/parts/3036.dat",
-        "sha256": "7c108504e6823f46eecab58f22931e13acd9cf6a355e849f11556bba88a6e71c",
-        "source": "LDraw official complete.zip",
-        "mapping_basis": "Manufacturer-listed LDraw candidate; exact physical mold/tolerance not measured.",
-        "asset_manifest": "assets/policy.md#에셋-목록"
+        "sha256": "7c108504e6823f46eecab58f22931e13acd9cf6a355e849f11556bba88a6e71c"
       },
       "dimensions": {
         "units": "LDU",
         "mm_per_ldu": 0.4,
-        "frame": "right-handed, up=-Y, original LDraw origin",
         "bounds": {
           "min": [
             -80.0,
@@ -221069,13 +221088,12 @@
         },
         "size_mm": [
           64.0,
-          4.8,
+          4.800000000000001,
           48.0
-        ],
-        "basis": "Recursive envelope of official LDraw triangles/quads and referenced primitives; not a physical measurement."
+        ]
       },
       "connectors": null,
-      "geometry_verification": "official_reference_shape_imported; physical_mold_unverified",
+      "geometry_verification": "catalog candidate and native bounds checked; connector inventory and physical fit not verified",
       "offers": [
         {
           "sku": "GDS-524-010",
@@ -232997,10 +233015,33 @@
         "3008",
         "63322"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3008.dat",
+        "sha256": "b79ba5ddcd7ccd3d3612907467161f0e087dbf3918fb340b48dad93186e6b443"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            80.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          11.200000000000001,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native bounds checked; connector inventory and physical fit not verified",
       "offers": [
         {
           "sku": "GDS-536-010",
@@ -251797,10 +251838,33 @@
         "63864",
         "37294"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/63864.dat",
+        "sha256": "53296079ff6a68fdcb8b94bfa930c027d4f49ac227cc14446067c4b82c6621ba"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -30.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            30.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          24.0,
+          3.2,
+          8.0
+        ]
+      },
+      "connectors": [],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; flat tile underside grid inferred, physical fit unmeasured",
       "offers": [
         {
           "sku": "GDS-562-010",
@@ -255213,10 +255277,33 @@
         "59489",
         "63286"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3069b.dat",
+        "sha256": "ddfd95b62a2234ffc483c78f6ee52c6e6eb570285634b49e25aa648f4893a523"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          3.2,
+          8.0
+        ]
+      },
+      "connectors": [],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; flat tile underside grid inferred, physical fit unmeasured",
       "offers": [
         {
           "sku": "GDS-566-010",
@@ -286599,10 +286686,33 @@
         "39727",
         "53836"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/3070b.dat",
+        "sha256": "c1c118e795562ef6388e5d50773469feb92ef7448404524b8cece05466d8969e"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -10.0,
+            0.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          3.2,
+          8.0
+        ]
+      },
+      "connectors": [],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; flat tile underside grid inferred, physical fit unmeasured",
       "offers": [
         {
           "sku": "GDS-613-010",
@@ -301826,10 +301936,33 @@
       "ldraw_candidates": [
         "87087"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/87087.dat",
+        "sha256": "3468d0dfcf43a37cc1fd58da7af2fbfdfe6be8295f77fbc4f2c08431fd388572"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -10.0,
+            -4.0,
+            -14.0
+          ],
+          "max": [
+            10.0,
+            24.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          8.0,
+          11.200000000000001,
+          9.600000000000001
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "GoBricks 635 product name and white product image match the single side stud layout of LDraw 87087. Native reference seats: top (0,0,0), side (0,10,-10), underside (0,24,0). Manufacturer mold tolerance and clutch not measured.",
       "offers": [
         {
           "sku": "GDS-635-010",
@@ -330161,15 +330294,11 @@
       ],
       "geometry": {
         "file": "assets/parts/3307.dat",
-        "sha256": "1f8a35123063dec41f8668b45b733cf2eeb639ab08b47a58f4daf399e7df50d0",
-        "source": "LDraw official complete.zip",
-        "mapping_basis": "Manufacturer-listed LDraw candidate; exact physical mold/tolerance not measured.",
-        "asset_manifest": "assets/policy.md#에셋-목록"
+        "sha256": "1f8a35123063dec41f8668b45b733cf2eeb639ab08b47a58f4daf399e7df50d0"
       },
       "dimensions": {
         "units": "LDU",
         "mm_per_ldu": 0.4,
-        "frame": "right-handed, up=-Y, original LDraw origin",
         "bounds": {
           "min": [
             -60.0,
@@ -330178,19 +330307,18 @@
           ],
           "max": [
             60.0,
-            52.7412,
+            48.0,
             10.0
           ]
         },
         "size_mm": [
           48.0,
-          22.6965,
+          20.8,
           8.0
-        ],
-        "basis": "Recursive envelope of official LDraw triangles/quads and referenced primitives; not a physical measurement."
+        ]
       },
       "connectors": null,
-      "geometry_verification": "official_reference_shape_imported; physical_mold_unverified",
+      "geometry_verification": "catalog candidate and native arch reference checked; nominal end supports, physical fit not measured",
       "offers": [
         {
           "sku": "GDS-678-010",
@@ -390346,10 +390474,33 @@
         "3794",
         "3794b"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/15573.dat",
+        "sha256": "53985b42a65537853c8d8a5f9a655e73be1d1c35026ec8e94ac4501764cc0c80"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            20.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          16.0,
+          4.800000000000001,
+          8.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "catalog candidate and native reference checked; nominal seating only, mold fit and clutch not measured",
       "offers": [
         {
           "sku": "GDS-803-010",
@@ -402912,10 +403063,78 @@
         "44301a",
         "49715"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/44301.dat",
+        "sha256": "7242d6b7ea790093cd883fb360f94c0ba4b57e2cd1dd1033b4483bc8750e2057"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -5.380000000000001,
+            -10.0
+          ],
+          "max": [
+            35.35,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          22.14,
+          5.352,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/subparts/44301s01.dat -> primitives/stud.dat"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/parts/subparts/44301s01.dat -> primitives/stud.dat"
+        },
+        {
+          "id": "locking-pivot",
+          "kind": "click_hinge_single",
+          "position": [
+            30,
+            2,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "angular_pitch_degrees": 22.5,
+          "verification": "Native clh6/clh4 cylinder transforms and clh-finger repetitions; physical holding torque unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_detent_torque_not_measured",
       "offers": [
         {
           "sku": "GDS-820-010",
@@ -403389,10 +403608,78 @@
         "44302b",
         "54657"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/44302.dat",
+        "sha256": "fd2fc41a83b0e690becb7ff09bf5e531936cbda960d1a7c2c8b7459b9a1f380b"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            36.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          22.400000000000002,
+          4.800000000000001,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "kind": "stud",
+          "position": [
+            10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat"
+        },
+        {
+          "kind": "stud",
+          "position": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat"
+        },
+        {
+          "id": "locking-pivot",
+          "kind": "click_hinge_dual",
+          "position": [
+            30,
+            2,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "angular_pitch_degrees": 22.5,
+          "verification": "Native clh6/clh4 cylinder transforms and clh-finger repetitions; physical holding torque unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_detent_torque_not_measured",
       "offers": [
         {
           "sku": "GDS-821-010",
@@ -613078,10 +613365,49 @@
         "4275",
         "4275b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/4275b.dat",
+        "sha256": "74a8135bac411fa7b44ecf2c53e0f6e3fa3d922a530ebdbc475eb2a577039351"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            34.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          21.6,
+          4.800000000000001,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "id": "finger-hinge",
+          "kind": "hinge_plate_three_fingers",
+          "position": [
+            30,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "verification": "Reference primitive transform: h1/h2 at (20,4,0), cylinder axis at primitive (0,10,z). Physical friction and angular stops unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-M173-010",
@@ -613553,10 +613879,49 @@
         "4276",
         "4276b"
       ],
-      "geometry": null,
-      "dimensions": null,
-      "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry": {
+        "file": "assets/parts/4276b.dat",
+        "sha256": "464fdd6f97840b72e0434c74bf2df955adb06fdfa9a0ee2e0144ccba90d399ea"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -20.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            34.0,
+            8.0,
+            10.0
+          ]
+        },
+        "size_mm": [
+          21.6,
+          4.800000000000001,
+          8.0
+        ]
+      },
+      "connectors": [
+        {
+          "id": "finger-hinge",
+          "kind": "hinge_plate_two_fingers",
+          "position": [
+            30,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "verification": "Reference primitive transform: h1/h2 at (20,4,0), cylinder axis at primitive (0,10,z). Physical friction and angular stops unmeasured."
+        }
+      ],
+      "geometry_verification": "catalog_candidate_and_native_reference_shape_checked; physical_mold_and_clutch_not_measured",
       "offers": [
         {
           "sku": "GDS-M174-010",
