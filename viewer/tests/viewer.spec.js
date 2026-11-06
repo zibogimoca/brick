@@ -300,3 +300,20 @@ test('architectural study selector focuses components and stays separate from pa
   await expect(page.locator('#study-panel')).toBeHidden();
   expect(errors).toEqual([]);
 });
+
+
+test('loads the native LEGO Camelot prototype without a commercial price claim', async ({ page }) => {
+  const errors = []; page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
+  await page.selectOption('#models', 'camelot');
+  await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
+  await expect(page.locator('#version')).toContainText('camelot-v1.mpd', { timeout: 180000 });
+  await expect(page.locator('canvas')).toHaveAttribute('data-model-loaded', 'true');
+  await expect(page.locator('#summary')).toContainText('LEGO 창작 설계 중');
+  await expect(page.locator('#summary')).toContainText('전체 성 아님');
+  await expect(page.locator('#summary')).not.toContainText('CNY');
+  await expect(page.locator('#study-panel')).toBeHidden();
+  await page.click('#front-view'); await page.click('#side-view'); await page.click('#fit');
+  expect(errors).toEqual([]);
+});
