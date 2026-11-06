@@ -136,6 +136,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "22888",
     "22961",
     "2310",
+    "2335",
     "2339",
     "2343",
     "23443",
@@ -387,6 +388,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "3835",
     "3836",
     "3837",
+    "3846",
     "38583",
     "38585",
     "3894",
@@ -13738,6 +13740,26 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "modification": "Pinned official LDraw part; dependency paths normalized into repository folders, source geometry coordinates unchanged.",
       "author": "Orion Pobursky [OrionP]",
       "license": "Redistributable under CCAL version 2.0 (CAreadme.txt)."
+    },
+    "parts/2335.dat": {
+      "sha256": "cab2b83b80f71c23561e0afc8f31d10c3c6843967617f5fff6ad77b1a4dfbc1e",
+      "bytes": 693
+    },
+    "parts/subparts/2335s01.dat": {
+      "sha256": "f1748e85a3a9564ebf5fbdedb45da10f8262f6425ee6211c8a779915d6923f3c",
+      "bytes": 1120
+    },
+    "primitives/clip1.dat": {
+      "sha256": "47f67f9afc18724ae867e5d1f3d57583e286a1bede8023c1d040ead059cf6491",
+      "bytes": 1987
+    },
+    "parts/3846.dat": {
+      "sha256": "eba48c2582b62ccf893499ada19700b114cc62d3cbd9a439ee5165b504ef1b68",
+      "bytes": 943
+    },
+    "parts/subparts/3846s01.dat": {
+      "sha256": "bb5875c70c24ad03418536b0ace97f3cf563a71edfe0cfa5674d8efe4fcd910b",
+      "bytes": 3295
     }
   }
 }
