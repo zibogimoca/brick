@@ -13702,6 +13702,10 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
       "author": "Santeri Piippo [arezey]",
       "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
       "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "primitives/1-4edgh.dat": {
+      "sha256": "1d0a7643112af160f50e345181cbf5bfffed30bdd5281a216faf86e4be7741dd",
+      "bytes": 414
     }
   }
 }
