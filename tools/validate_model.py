@@ -159,7 +159,7 @@ def stud_connectivity(state,prefix=''):
   '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),'87087':(1,1,24),
   '98283':(2,1,24), # Native 1x2 embossed brick: standard top/bottom seats.
   '3700':(2,1,24), # Native 1x2 Technic brick: top studs and underside seats only; side bore excluded.
-  '4032a':(2,2,8),'18838':(12,1,72), # Explicit raised-arch seating levels below.
+  '4032a':(2,2,8),'18838':(12,1,72),'16577':(8,1,48), # Explicit raised-arch seating levels below.
   '3007':(8,2,24),'3008':(8,1,24),'3010':(4,1,24),'3622':(3,1,24),
   '3020':(4,2,8),'3021':(3,2,8),'3022':(2,2,8),'3023b':(2,1,8),
   '3024':(1,1,8),'3031':(4,4,8),'3032':(6,4,8),'3033':(10,6,8),
@@ -215,7 +215,7 @@ def stud_connectivity(state,prefix=''):
    w,d,h=shapes[n]
    local=[[(x-(w-1)/2)*20,0 if upper else h,(z-(d-1)/2)*20]
           for x in range(w) for z in range(d)
-          if not (n in {'3659','3307'} and not upper and x not in (0,w-1))]
+          if not (n in {'3659','3307','16577'} and not upper and x not in (0,w-1))]
   normal=mv(o['matrix'],[0,-1 if upper else 1,0])
   return [(plus(o['position'],mv(o['matrix'],v)),normal) for v in local]
  for o in rows:
