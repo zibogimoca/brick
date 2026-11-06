@@ -1,0 +1,733 @@
+0 FILE camelot-v1.ldr
+0 !BRICK_STATE {"schema_version":3,"parts_system":"LEGO","status":"architectural_component_study","version_label":"Camelot · C terrain sections","display_name":"Camelot","model":"Camelot original design","layout":"two_local_terrain_cross_sections","layout_note":"Front land/moat/gate-threshold sample and adjoining right-side sea/cliff/wall-footing sample; not the full island or castle.","piece_count":359,"placed_piece_count":359,"unplaced_piece_count":0,"assembly_verified":false,"coverage":"C terrain only; no bridge, gate mechanism, full moat or full coastline","instances":[{"id":"C-00001","part":"3032.dat","color":2,"position":[60.0,-96.0,40.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00002","part":"3032.dat","color":2,"position":[60.0,-96.0,120.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00003","part":"3032.dat","color":2,"position":[180.0,-96.0,40.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00004","part":"3032.dat","color":2,"position":[180.0,-96.0,120.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00005","part":"3008.dat","color":72,"position":[10.0,-88.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00006","part":"3008.dat","color":72,"position":[50.0,-88.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00007","part":"3008.dat","color":72,"position":[90.0,-88.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00008","part":"3008.dat","color":72,"position":[130.0,-88.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00009","part":"3008.dat","color":72,"position":[170.0,-88.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00010","part":"3008.dat","color":72,"position":[210.0,-88.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00011","part":"3020.dat","color":72,"position":[40.0,-64.0,40.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00012","part":"3020.dat","color":72,"position":[40.0,-64.0,120.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00013","part":"3020.dat","color":72,"position":[120.0,-64.0,40.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00014","part":"3020.dat","color":72,"position":[120.0,-64.0,120.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00015","part":"3020.dat","color":72,"position":[200.0,-64.0,40.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00016","part":"3020.dat","color":72,"position":[200.0,-64.0,120.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00017","part":"3005.dat","color":72,"position":[10.0,-56.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00018","part":"3005.dat","color":72,"position":[10.0,-32.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00019","part":"3005.dat","color":72,"position":[10.0,-8.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00020","part":"3005.dat","color":72,"position":[10.0,16.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00021","part":"3024.dat","color":72,"position":[10.0,40.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00022","part":"3005.dat","color":72,"position":[210.0,-56.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00023","part":"3005.dat","color":72,"position":[210.0,-32.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00024","part":"3005.dat","color":72,"position":[210.0,-8.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00025","part":"3005.dat","color":72,"position":[210.0,16.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00026","part":"3024.dat","color":72,"position":[210.0,40.0,30.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00027","part":"3005.dat","color":72,"position":[10.0,-56.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00028","part":"3005.dat","color":72,"position":[10.0,-32.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00029","part":"3005.dat","color":72,"position":[10.0,-8.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00030","part":"3005.dat","color":72,"position":[10.0,16.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00031","part":"3024.dat","color":72,"position":[10.0,40.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00032","part":"3005.dat","color":72,"position":[210.0,-56.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00033","part":"3005.dat","color":72,"position":[210.0,-32.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00034","part":"3005.dat","color":72,"position":[210.0,-8.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00035","part":"3005.dat","color":72,"position":[210.0,16.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00036","part":"3024.dat","color":72,"position":[210.0,40.0,130.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00037","part":"3032.dat","color":1,"position":[60.0,8.0,200.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00038","part":"3032.dat","color":1,"position":[60.0,8.0,280.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00039","part":"3032.dat","color":1,"position":[180.0,8.0,200.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00040","part":"3032.dat","color":1,"position":[180.0,8.0,280.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00041","part":"2431.dat","color":1,"position":[10.0,0.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00042","part":"2431.dat","color":1,"position":[10.0,0.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00043","part":"2431.dat","color":1,"position":[30.0,0.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00044","part":"2431.dat","color":1,"position":[30.0,0.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00045","part":"2431.dat","color":1,"position":[50.0,0.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00046","part":"2431.dat","color":1,"position":[50.0,0.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00047","part":"2431.dat","color":1,"position":[70.0,0.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00048","part":"2431.dat","color":1,"position":[70.0,0.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00049","part":"2431.dat","color":1,"position":[90.0,0.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00050","part":"2431.dat","color":1,"position":[90.0,0.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00051","part":"2431.dat","color":1,"position":[110.0,0.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00052","part":"2431.dat","color":1,"position":[110.0,0.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00053","part":"3008.dat","color":72,"position":[10.0,16.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00054","part":"3008.dat","color":72,"position":[50.0,16.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00055","part":"3008.dat","color":72,"position":[90.0,16.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00056","part":"3008.dat","color":72,"position":[130.0,16.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00057","part":"3008.dat","color":72,"position":[170.0,16.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00058","part":"3008.dat","color":72,"position":[210.0,16.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00059","part":"3020.dat","color":72,"position":[40.0,40.0,180.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00060","part":"3020.dat","color":72,"position":[40.0,40.0,300.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00061","part":"3020.dat","color":72,"position":[120.0,40.0,180.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00062","part":"3020.dat","color":72,"position":[120.0,40.0,300.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00063","part":"3020.dat","color":72,"position":[200.0,40.0,180.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00064","part":"3020.dat","color":72,"position":[200.0,40.0,300.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00065","part":"3008.dat","color":72,"position":[10.0,48.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00066","part":"3008.dat","color":72,"position":[10.0,48.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00067","part":"3008.dat","color":72,"position":[10.0,48.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00070","part":"3008.dat","color":72,"position":[50.0,48.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00071","part":"3008.dat","color":72,"position":[50.0,48.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00072","part":"3008.dat","color":72,"position":[50.0,48.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00075","part":"3008.dat","color":72,"position":[90.0,48.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00076","part":"3008.dat","color":72,"position":[90.0,48.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00077","part":"3008.dat","color":72,"position":[90.0,48.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00080","part":"3008.dat","color":72,"position":[130.0,48.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00081","part":"3008.dat","color":72,"position":[130.0,48.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00082","part":"3008.dat","color":72,"position":[130.0,48.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00085","part":"3008.dat","color":72,"position":[170.0,48.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00086","part":"3008.dat","color":72,"position":[170.0,48.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00087","part":"3008.dat","color":72,"position":[170.0,48.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00090","part":"3008.dat","color":72,"position":[210.0,48.0,80.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00091","part":"3008.dat","color":72,"position":[210.0,48.0,240.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00092","part":"3008.dat","color":72,"position":[210.0,48.0,400.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00095","part":"3034.dat","color":71,"position":[120.0,-96.0,360.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00096","part":"3008.dat","color":72,"position":[120.0,-88.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00097","part":"3008.dat","color":72,"position":[120.0,-88.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00098","part":"3020.dat","color":72,"position":[80.0,-64.0,360.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00099","part":"3020.dat","color":72,"position":[160.0,-64.0,360.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00100","part":"3005.dat","color":72,"position":[50.0,-56.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00101","part":"3005.dat","color":72,"position":[50.0,-32.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00102","part":"3005.dat","color":72,"position":[50.0,-8.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00103","part":"3005.dat","color":72,"position":[50.0,16.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00104","part":"3024.dat","color":72,"position":[50.0,40.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00105","part":"3005.dat","color":72,"position":[170.0,-56.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00106","part":"3005.dat","color":72,"position":[170.0,-32.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00107","part":"3005.dat","color":72,"position":[170.0,-8.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00108","part":"3005.dat","color":72,"position":[170.0,16.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00109","part":"3024.dat","color":72,"position":[170.0,40.0,350.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00110","part":"3005.dat","color":72,"position":[50.0,-56.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00111","part":"3005.dat","color":72,"position":[50.0,-32.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00112","part":"3005.dat","color":72,"position":[50.0,-8.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00113","part":"3005.dat","color":72,"position":[50.0,16.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00114","part":"3024.dat","color":72,"position":[50.0,40.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00115","part":"3005.dat","color":72,"position":[170.0,-56.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00116","part":"3005.dat","color":72,"position":[170.0,-32.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00117","part":"3005.dat","color":72,"position":[170.0,-8.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00118","part":"3005.dat","color":72,"position":[170.0,16.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00119","part":"3024.dat","color":72,"position":[170.0,40.0,370.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-front.ldr"},{"id":"C-00068","part":"3023b.dat","color":72,"position":[10.0,40.0,160.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00069","part":"3023b.dat","color":72,"position":[10.0,40.0,320.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00073","part":"3023b.dat","color":72,"position":[50.0,40.0,160.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00074","part":"3023b.dat","color":72,"position":[50.0,40.0,320.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00078","part":"3023b.dat","color":72,"position":[90.0,40.0,160.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00079","part":"3023b.dat","color":72,"position":[90.0,40.0,320.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00083","part":"3023b.dat","color":72,"position":[130.0,40.0,160.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00084","part":"3023b.dat","color":72,"position":[130.0,40.0,320.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00088","part":"3023b.dat","color":72,"position":[170.0,40.0,160.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00089","part":"3023b.dat","color":72,"position":[170.0,40.0,320.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00093","part":"3023b.dat","color":72,"position":[210.0,40.0,160.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00094","part":"3023b.dat","color":72,"position":[210.0,40.0,320.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-front.ldr"},{"id":"C-00120","part":"3020.dat","color":1,"position":[280.0,8.0,180.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00122","part":"3032.dat","color":1,"position":[300.0,8.0,260.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00123","part":"3032.dat","color":1,"position":[300.0,8.0,300.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00124","part":"2431.dat","color":1,"position":[280.0,0.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00125","part":"2431.dat","color":1,"position":[280.0,0.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00126","part":"2431.dat","color":1,"position":[280.0,0.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00127","part":"2431.dat","color":1,"position":[280.0,0.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00128","part":"2431.dat","color":1,"position":[280.0,0.0,250.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00129","part":"3069b.dat","color":1,"position":[340.0,0.0,250.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00130","part":"2431.dat","color":1,"position":[280.0,0.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00131","part":"3069b.dat","color":1,"position":[340.0,0.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00132","part":"2431.dat","color":1,"position":[280.0,0.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00133","part":"3069b.dat","color":1,"position":[340.0,0.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00134","part":"2431.dat","color":1,"position":[280.0,0.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00135","part":"3069b.dat","color":1,"position":[340.0,0.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00136","part":"3004.dat","color":72,"position":[260.0,16.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00137","part":"3004.dat","color":72,"position":[300.0,16.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00138","part":"3004.dat","color":72,"position":[260.0,16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00139","part":"3004.dat","color":72,"position":[300.0,16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00140","part":"3004.dat","color":72,"position":[260.0,16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00141","part":"3004.dat","color":72,"position":[300.0,16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00142","part":"3004.dat","color":72,"position":[260.0,16.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00143","part":"3004.dat","color":72,"position":[300.0,16.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00144","part":"3004.dat","color":72,"position":[260.0,16.0,250.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00145","part":"3004.dat","color":72,"position":[300.0,16.0,250.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00146","part":"3004.dat","color":72,"position":[340.0,16.0,250.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00147","part":"3004.dat","color":72,"position":[260.0,16.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00148","part":"3004.dat","color":72,"position":[300.0,16.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00149","part":"3004.dat","color":72,"position":[340.0,16.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00150","part":"3004.dat","color":72,"position":[260.0,16.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00151","part":"3004.dat","color":72,"position":[300.0,16.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00152","part":"3004.dat","color":72,"position":[340.0,16.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00153","part":"3004.dat","color":72,"position":[260.0,16.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00154","part":"3004.dat","color":72,"position":[300.0,16.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00155","part":"3004.dat","color":72,"position":[340.0,16.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00156","part":"3020.dat","color":72,"position":[280.0,40.0,180.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00157","part":"3020.dat","color":72,"position":[280.0,40.0,220.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00162","part":"3008.dat","color":72,"position":[320.0,48.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00163","part":"3008.dat","color":72,"position":[480.0,48.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00164","part":"3008.dat","color":72,"position":[640.0,48.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00165","part":"3023b.dat","color":72,"position":[400.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00166","part":"3023b.dat","color":72,"position":[560.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00167","part":"3008.dat","color":72,"position":[320.0,48.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00168","part":"3008.dat","color":72,"position":[480.0,48.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00169","part":"3008.dat","color":72,"position":[640.0,48.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00170","part":"3023b.dat","color":72,"position":[400.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00171","part":"3023b.dat","color":72,"position":[560.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00172","part":"3008.dat","color":72,"position":[320.0,48.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00173","part":"3008.dat","color":72,"position":[480.0,48.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00174","part":"3008.dat","color":72,"position":[640.0,48.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00175","part":"3023b.dat","color":72,"position":[400.0,40.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00176","part":"3023b.dat","color":72,"position":[560.0,40.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00177","part":"3008.dat","color":72,"position":[320.0,48.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00178","part":"3008.dat","color":72,"position":[480.0,48.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00179","part":"3008.dat","color":72,"position":[640.0,48.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00180","part":"3023b.dat","color":72,"position":[400.0,40.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00181","part":"3023b.dat","color":72,"position":[560.0,40.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00187","part":"3024.dat","color":72,"position":[370.0,8.0,250.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00188","part":"3024.dat","color":72,"position":[370.0,8.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00189","part":"3024.dat","color":72,"position":[370.0,8.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00190","part":"3024.dat","color":72,"position":[370.0,8.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00191","part":"3008.dat","color":72,"position":[370.0,16.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00192","part":"3024.dat","color":72,"position":[390.0,8.0,250.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00193","part":"3024.dat","color":72,"position":[390.0,8.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00194","part":"3024.dat","color":72,"position":[390.0,8.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00195","part":"3024.dat","color":72,"position":[390.0,8.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00196","part":"3008.dat","color":72,"position":[390.0,16.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00197","part":"3035.dat","color":71,"position":[620.0,-96.0,200.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00198","part":"3035.dat","color":71,"position":[620.0,-96.0,280.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00199","part":"3008.dat","color":72,"position":[620.0,-88.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00200","part":"3008.dat","color":72,"position":[620.0,-88.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00201","part":"3008.dat","color":72,"position":[620.0,-88.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00202","part":"3008.dat","color":72,"position":[620.0,-88.0,310.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00203","part":"3020.dat","color":72,"position":[580.0,-64.0,200.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00204","part":"3020.dat","color":72,"position":[580.0,-64.0,280.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00205","part":"3020.dat","color":72,"position":[660.0,-64.0,200.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00206","part":"3020.dat","color":72,"position":[660.0,-64.0,280.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00207","part":"3005.dat","color":72,"position":[570.0,-56.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00208","part":"3005.dat","color":72,"position":[570.0,-32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00209","part":"3005.dat","color":72,"position":[570.0,-8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00210","part":"3005.dat","color":72,"position":[570.0,16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00211","part":"3024.dat","color":72,"position":[570.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00212","part":"3005.dat","color":72,"position":[570.0,-56.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00213","part":"3005.dat","color":72,"position":[570.0,-32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00214","part":"3005.dat","color":72,"position":[570.0,-8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00215","part":"3005.dat","color":72,"position":[570.0,16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00216","part":"3024.dat","color":72,"position":[570.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00217","part":"3005.dat","color":72,"position":[570.0,-56.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00218","part":"3005.dat","color":72,"position":[570.0,-32.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00219","part":"3005.dat","color":72,"position":[570.0,-8.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00220","part":"3005.dat","color":72,"position":[570.0,16.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00221","part":"3024.dat","color":72,"position":[570.0,40.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00222","part":"3005.dat","color":72,"position":[570.0,-56.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00223","part":"3005.dat","color":72,"position":[570.0,-32.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00224","part":"3005.dat","color":72,"position":[570.0,-8.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00225","part":"3005.dat","color":72,"position":[570.0,16.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00226","part":"3024.dat","color":72,"position":[570.0,40.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00227","part":"3005.dat","color":72,"position":[590.0,-56.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00228","part":"3005.dat","color":72,"position":[590.0,-32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00229","part":"3005.dat","color":72,"position":[590.0,-8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00230","part":"3005.dat","color":72,"position":[590.0,16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00231","part":"3024.dat","color":72,"position":[590.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00232","part":"3005.dat","color":72,"position":[590.0,-56.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00233","part":"3005.dat","color":72,"position":[590.0,-32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00234","part":"3005.dat","color":72,"position":[590.0,-8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00235","part":"3005.dat","color":72,"position":[590.0,16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00236","part":"3024.dat","color":72,"position":[590.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00237","part":"3005.dat","color":72,"position":[590.0,-56.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00238","part":"3005.dat","color":72,"position":[590.0,-32.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00239","part":"3005.dat","color":72,"position":[590.0,-8.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00240","part":"3005.dat","color":72,"position":[590.0,16.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00241","part":"3024.dat","color":72,"position":[590.0,40.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00242","part":"3005.dat","color":72,"position":[590.0,-56.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00243","part":"3005.dat","color":72,"position":[590.0,-32.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00244","part":"3005.dat","color":72,"position":[590.0,-8.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00245","part":"3005.dat","color":72,"position":[590.0,16.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00246","part":"3024.dat","color":72,"position":[590.0,40.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00247","part":"3005.dat","color":72,"position":[650.0,-56.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00248","part":"3005.dat","color":72,"position":[650.0,-32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00249","part":"3005.dat","color":72,"position":[650.0,-8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00250","part":"3005.dat","color":72,"position":[650.0,16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00251","part":"3024.dat","color":72,"position":[650.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00252","part":"3005.dat","color":72,"position":[650.0,-56.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00253","part":"3005.dat","color":72,"position":[650.0,-32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00254","part":"3005.dat","color":72,"position":[650.0,-8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00255","part":"3005.dat","color":72,"position":[650.0,16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00256","part":"3024.dat","color":72,"position":[650.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00257","part":"3005.dat","color":72,"position":[650.0,-56.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00258","part":"3005.dat","color":72,"position":[650.0,-32.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00259","part":"3005.dat","color":72,"position":[650.0,-8.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00260","part":"3005.dat","color":72,"position":[650.0,16.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00261","part":"3024.dat","color":72,"position":[650.0,40.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00262","part":"3005.dat","color":72,"position":[650.0,-56.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00263","part":"3005.dat","color":72,"position":[650.0,-32.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00264","part":"3005.dat","color":72,"position":[650.0,-8.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00265","part":"3005.dat","color":72,"position":[650.0,16.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00266","part":"3024.dat","color":72,"position":[650.0,40.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00267","part":"3005.dat","color":72,"position":[670.0,-56.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00268","part":"3005.dat","color":72,"position":[670.0,-32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00269","part":"3005.dat","color":72,"position":[670.0,-8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00270","part":"3005.dat","color":72,"position":[670.0,16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00271","part":"3024.dat","color":72,"position":[670.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00272","part":"3005.dat","color":72,"position":[670.0,-56.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00273","part":"3005.dat","color":72,"position":[670.0,-32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00274","part":"3005.dat","color":72,"position":[670.0,-8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00275","part":"3005.dat","color":72,"position":[670.0,16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00276","part":"3024.dat","color":72,"position":[670.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00277","part":"3005.dat","color":72,"position":[670.0,-56.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00278","part":"3005.dat","color":72,"position":[670.0,-32.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00279","part":"3005.dat","color":72,"position":[670.0,-8.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00280","part":"3005.dat","color":72,"position":[670.0,16.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00281","part":"3024.dat","color":72,"position":[670.0,40.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00282","part":"3005.dat","color":72,"position":[670.0,-56.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00283","part":"3005.dat","color":72,"position":[670.0,-32.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00284","part":"3005.dat","color":72,"position":[670.0,-8.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00285","part":"3005.dat","color":72,"position":[670.0,16.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00286","part":"3024.dat","color":72,"position":[670.0,40.0,290.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00287","part":"3020.dat","color":72,"position":[340.0,0.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00288","part":"3005.dat","color":72,"position":[350.0,8.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00289","part":"3005.dat","color":72,"position":[350.0,8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00290","part":"3005.dat","color":72,"position":[350.0,8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00291","part":"3005.dat","color":72,"position":[350.0,8.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00292","part":"3024.dat","color":72,"position":[350.0,32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00293","part":"3024.dat","color":72,"position":[350.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00294","part":"3024.dat","color":72,"position":[350.0,32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00295","part":"3024.dat","color":72,"position":[350.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00296","part":"3020.dat","color":72,"position":[400.0,-24.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00297","part":"3005.dat","color":72,"position":[410.0,-16.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00298","part":"3005.dat","color":72,"position":[410.0,-16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00299","part":"3005.dat","color":72,"position":[410.0,-16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00300","part":"3005.dat","color":72,"position":[410.0,-16.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00301","part":"3005.dat","color":72,"position":[410.0,8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00302","part":"3005.dat","color":72,"position":[410.0,32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00303","part":"3024.dat","color":72,"position":[410.0,32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00304","part":"3024.dat","color":72,"position":[410.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00305","part":"3005.dat","color":72,"position":[410.0,8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00306","part":"3005.dat","color":72,"position":[410.0,32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00307","part":"3024.dat","color":72,"position":[410.0,32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00308","part":"3024.dat","color":72,"position":[410.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00309","part":"3020.dat","color":72,"position":[460.0,-48.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00310","part":"3005.dat","color":72,"position":[470.0,-40.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00311","part":"3005.dat","color":72,"position":[470.0,-40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00312","part":"3005.dat","color":72,"position":[470.0,-40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00313","part":"3005.dat","color":72,"position":[470.0,-40.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00314","part":"3005.dat","color":72,"position":[470.0,-16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00315","part":"3005.dat","color":72,"position":[470.0,8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00316","part":"3005.dat","color":72,"position":[470.0,32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00317","part":"3024.dat","color":72,"position":[470.0,32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00318","part":"3024.dat","color":72,"position":[470.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00319","part":"3005.dat","color":72,"position":[470.0,-16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00320","part":"3005.dat","color":72,"position":[470.0,8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00321","part":"3005.dat","color":72,"position":[470.0,32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00322","part":"3024.dat","color":72,"position":[470.0,32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00323","part":"3024.dat","color":72,"position":[470.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00324","part":"3020.dat","color":72,"position":[520.0,-72.0,200.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00325","part":"3005.dat","color":72,"position":[530.0,-64.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00326","part":"3005.dat","color":72,"position":[530.0,-64.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00327","part":"3005.dat","color":72,"position":[530.0,-64.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00328","part":"3005.dat","color":72,"position":[530.0,-64.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00329","part":"3005.dat","color":72,"position":[530.0,-40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00330","part":"3005.dat","color":72,"position":[530.0,-16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00331","part":"3005.dat","color":72,"position":[530.0,8.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00332","part":"3005.dat","color":72,"position":[530.0,32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00333","part":"3024.dat","color":72,"position":[530.0,32.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00334","part":"3024.dat","color":72,"position":[530.0,40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00335","part":"3005.dat","color":72,"position":[530.0,-40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00336","part":"3005.dat","color":72,"position":[530.0,-16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00337","part":"3005.dat","color":72,"position":[530.0,8.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00338","part":"3005.dat","color":72,"position":[530.0,32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00339","part":"3024.dat","color":72,"position":[530.0,32.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00340","part":"3024.dat","color":72,"position":[530.0,40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00341","part":"3004.dat","color":72,"position":[380.0,-16.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00342","part":"3004.dat","color":72,"position":[380.0,-16.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00343","part":"3004.dat","color":72,"position":[380.0,-16.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00345","part":"3004.dat","color":72,"position":[440.0,-40.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00346","part":"3004.dat","color":72,"position":[440.0,-40.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00347","part":"3004.dat","color":72,"position":[440.0,-40.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00348","part":"3004.dat","color":72,"position":[440.0,-40.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00349","part":"3004.dat","color":72,"position":[500.0,-64.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00350","part":"3004.dat","color":72,"position":[500.0,-64.0,190.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00351","part":"3004.dat","color":72,"position":[500.0,-64.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00352","part":"3004.dat","color":72,"position":[500.0,-64.0,230.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00353","part":"3004.dat","color":72,"position":[560.0,-88.0,170.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00354","part":"3004.dat","color":72,"position":[560.0,-88.0,210.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00355","part":"3023b.dat","color":72,"position":[380.0,40.0,270.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00358","part":"3008.dat","color":71,"position":[370.0,-96.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00359","part":"3008.dat","color":71,"position":[370.0,-72.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00360","part":"3008.dat","color":71,"position":[370.0,-48.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00361","part":"3008.dat","color":71,"position":[370.0,-24.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00362","part":"3008.dat","color":71,"position":[390.0,-96.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00363","part":"3008.dat","color":71,"position":[390.0,-72.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00364","part":"3008.dat","color":71,"position":[390.0,-48.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00365","part":"3008.dat","color":71,"position":[390.0,-24.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00366","part":"3034.dat","color":72,"position":[380.0,-32.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00367","part":"3034.dat","color":72,"position":[380.0,0.0,280.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00121","part":"3020.dat","color":1,"position":[280.0,8.0,220.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"group":"cm-terrain-coast.ldr"},{"id":"C-00158","part":"3020.dat","color":72,"position":[280.0,40.0,260.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00159","part":"3020.dat","color":72,"position":[320.0,40.0,260.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00160","part":"3020.dat","color":72,"position":[280.0,40.0,300.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"},{"id":"C-00161","part":"3020.dat","color":72,"position":[320.0,40.0,300.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"group":"cm-terrain-coast.ldr","catalog_mapping_status":"not_verified"}],"unplaced_submodels":[]}
+0 Name: Camelot terrain datum and C-owned cross sections
+0 // C owns only cm-terrain- FILEs and C- physical IDs; gate machinery and the drawbridge belong to A.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-terrain-front.ldr
+1 16 240 0 160 1 0 0 0 1 0 0 0 1 cm-terrain-coast.ldr
+0 FILE cm-terrain-front.ldr
+0 Name: cm-terrain-front.ldr
+0 // Local terrain datum: water top Y=0; land/wall-footing top Y=-96. Sparse beam-and-plate support; no solid-filled foundation.
+0 // Outer land: 12 studs wide and 8 deep; 8-stud moat; centered 8x2 threshold. Moat gap remains open above its submerged support frame.
+0 !BRICK_INSTANCE C-00001
+1 2 60.000 -96.000 40.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00002
+1 2 60.000 -96.000 120.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00003
+1 2 180.000 -96.000 40.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00004
+1 2 180.000 -96.000 120.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00005
+1 72 10.000 -88.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00006
+1 72 50.000 -88.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00007
+1 72 90.000 -88.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00008
+1 72 130.000 -88.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00009
+1 72 170.000 -88.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00010
+1 72 210.000 -88.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00011
+1 72 40.000 -64.000 40.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00012
+1 72 40.000 -64.000 120.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00013
+1 72 120.000 -64.000 40.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00014
+1 72 120.000 -64.000 120.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00015
+1 72 200.000 -64.000 40.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00016
+1 72 200.000 -64.000 120.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00017
+1 72 10.000 -56.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00018
+1 72 10.000 -32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00019
+1 72 10.000 -8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00020
+1 72 10.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00021
+1 72 10.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00022
+1 72 210.000 -56.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00023
+1 72 210.000 -32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00024
+1 72 210.000 -8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00025
+1 72 210.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00026
+1 72 210.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00027
+1 72 10.000 -56.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00028
+1 72 10.000 -32.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00029
+1 72 10.000 -8.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00030
+1 72 10.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00031
+1 72 10.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00032
+1 72 210.000 -56.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00033
+1 72 210.000 -32.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00034
+1 72 210.000 -8.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00035
+1 72 210.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00036
+1 72 210.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00037
+1 1 60.000 8.000 200.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00038
+1 1 60.000 8.000 280.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00039
+1 1 180.000 8.000 200.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00040
+1 1 180.000 8.000 280.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00041
+1 1 10.000 0.000 200.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00042
+1 1 10.000 0.000 280.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00043
+1 1 30.000 0.000 200.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00044
+1 1 30.000 0.000 280.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00045
+1 1 50.000 0.000 200.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00046
+1 1 50.000 0.000 280.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00047
+1 1 70.000 0.000 200.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00048
+1 1 70.000 0.000 280.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00049
+1 1 90.000 0.000 200.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00050
+1 1 90.000 0.000 280.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00051
+1 1 110.000 0.000 200.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00052
+1 1 110.000 0.000 280.000 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE C-00053
+1 72 10.000 16.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00054
+1 72 50.000 16.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00055
+1 72 90.000 16.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00056
+1 72 130.000 16.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00057
+1 72 170.000 16.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00058
+1 72 210.000 16.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00059
+1 72 40.000 40.000 180.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00060
+1 72 40.000 40.000 300.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00061
+1 72 120.000 40.000 180.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00062
+1 72 120.000 40.000 300.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00063
+1 72 200.000 40.000 180.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00064
+1 72 200.000 40.000 300.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00065
+1 72 10.000 48.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00066
+1 72 10.000 48.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00067
+1 72 10.000 48.000 400.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00070
+1 72 50.000 48.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00071
+1 72 50.000 48.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00072
+1 72 50.000 48.000 400.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00075
+1 72 90.000 48.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00076
+1 72 90.000 48.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00077
+1 72 90.000 48.000 400.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00080
+1 72 130.000 48.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00081
+1 72 130.000 48.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00082
+1 72 130.000 48.000 400.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00085
+1 72 170.000 48.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00086
+1 72 170.000 48.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00087
+1 72 170.000 48.000 400.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00090
+1 72 210.000 48.000 80.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00091
+1 72 210.000 48.000 240.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00092
+1 72 210.000 48.000 400.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00095
+1 71 120.000 -96.000 360.000 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE C-00096
+1 72 120.000 -88.000 350.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00097
+1 72 120.000 -88.000 370.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00098
+1 72 80.000 -64.000 360.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00099
+1 72 160.000 -64.000 360.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00100
+1 72 50.000 -56.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00101
+1 72 50.000 -32.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00102
+1 72 50.000 -8.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00103
+1 72 50.000 16.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00104
+1 72 50.000 40.000 350.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00105
+1 72 170.000 -56.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00106
+1 72 170.000 -32.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00107
+1 72 170.000 -8.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00108
+1 72 170.000 16.000 350.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00109
+1 72 170.000 40.000 350.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00110
+1 72 50.000 -56.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00111
+1 72 50.000 -32.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00112
+1 72 50.000 -8.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00113
+1 72 50.000 16.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00114
+1 72 50.000 40.000 370.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00115
+1 72 170.000 -56.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00116
+1 72 170.000 -32.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00117
+1 72 170.000 -8.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00118
+1 72 170.000 16.000 370.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00119
+1 72 170.000 40.000 370.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00068
+1 72 10.000 40.000 160.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00069
+1 72 10.000 40.000 320.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00073
+1 72 50.000 40.000 160.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00074
+1 72 50.000 40.000 320.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00078
+1 72 90.000 40.000 160.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00079
+1 72 90.000 40.000 320.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00083
+1 72 130.000 40.000 160.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00084
+1 72 130.000 40.000 320.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00088
+1 72 170.000 40.000 160.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00089
+1 72 170.000 40.000 320.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00093
+1 72 210.000 40.000 160.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE C-00094
+1 72 210.000 40.000 320.000 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 FILE cm-terrain-coast.ldr
+0 Name: cm-terrain-coast.ldr
+0 // Local terrain datum: water top Y=0; land/wall-footing top Y=-96. Sparse beam-and-plate support; no solid-filled foundation.
+0 // Coast water meets the front moat along the module edge at Y=0. Cliff and 4-stud stair flight stay local; 8x8 footing face is reserved for the wall.
+0 !BRICK_INSTANCE C-00120
+1 1 40.000 8.000 20.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00122
+1 1 60.000 8.000 100.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00123
+1 1 60.000 8.000 140.000 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE C-00124
+1 1 40.000 0.000 10.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00125
+1 1 40.000 0.000 30.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00126
+1 1 40.000 0.000 50.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00127
+1 1 40.000 0.000 70.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00128
+1 1 40.000 0.000 90.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00129
+1 1 100.000 0.000 90.000 1 0 0 0 1 0 0 0 1 3069b.dat
+0 !BRICK_INSTANCE C-00130
+1 1 40.000 0.000 110.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00131
+1 1 100.000 0.000 110.000 1 0 0 0 1 0 0 0 1 3069b.dat
+0 !BRICK_INSTANCE C-00132
+1 1 40.000 0.000 130.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00133
+1 1 100.000 0.000 130.000 1 0 0 0 1 0 0 0 1 3069b.dat
+0 !BRICK_INSTANCE C-00134
+1 1 40.000 0.000 150.000 1 0 0 0 1 0 0 0 1 2431.dat
+0 !BRICK_INSTANCE C-00135
+1 1 100.000 0.000 150.000 1 0 0 0 1 0 0 0 1 3069b.dat
+0 !BRICK_INSTANCE C-00136
+1 72 20.000 16.000 10.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00137
+1 72 60.000 16.000 10.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00138
+1 72 20.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00139
+1 72 60.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00140
+1 72 20.000 16.000 50.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00141
+1 72 60.000 16.000 50.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00142
+1 72 20.000 16.000 70.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00143
+1 72 60.000 16.000 70.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00144
+1 72 20.000 16.000 90.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00145
+1 72 60.000 16.000 90.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00146
+1 72 100.000 16.000 90.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00147
+1 72 20.000 16.000 110.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00148
+1 72 60.000 16.000 110.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00149
+1 72 100.000 16.000 110.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00150
+1 72 20.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00151
+1 72 60.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00152
+1 72 100.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00153
+1 72 20.000 16.000 150.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00154
+1 72 60.000 16.000 150.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00155
+1 72 100.000 16.000 150.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00156
+1 72 40.000 40.000 20.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00157
+1 72 40.000 40.000 60.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00162
+1 72 80.000 48.000 30.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00163
+1 72 240.000 48.000 30.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00164
+1 72 400.000 48.000 30.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00165
+1 72 160.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00166
+1 72 320.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00167
+1 72 80.000 48.000 50.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00168
+1 72 240.000 48.000 50.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00169
+1 72 400.000 48.000 50.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00170
+1 72 160.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00171
+1 72 320.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00172
+1 72 80.000 48.000 110.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00173
+1 72 240.000 48.000 110.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00174
+1 72 400.000 48.000 110.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00175
+1 72 160.000 40.000 110.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00176
+1 72 320.000 40.000 110.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00177
+1 72 80.000 48.000 130.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00178
+1 72 240.000 48.000 130.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00179
+1 72 400.000 48.000 130.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00180
+1 72 160.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00181
+1 72 320.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00187
+1 72 130.000 8.000 90.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00188
+1 72 130.000 8.000 110.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00189
+1 72 130.000 8.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00190
+1 72 130.000 8.000 150.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00191
+1 72 130.000 16.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00192
+1 72 150.000 8.000 90.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00193
+1 72 150.000 8.000 110.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00194
+1 72 150.000 8.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00195
+1 72 150.000 8.000 150.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00196
+1 72 150.000 16.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00197
+1 71 380.000 -96.000 40.000 1 0 0 0 1 0 0 0 1 3035.dat
+0 !BRICK_INSTANCE C-00198
+1 71 380.000 -96.000 120.000 1 0 0 0 1 0 0 0 1 3035.dat
+0 !BRICK_INSTANCE C-00199
+1 72 380.000 -88.000 30.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00200
+1 72 380.000 -88.000 70.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00201
+1 72 380.000 -88.000 110.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00202
+1 72 380.000 -88.000 150.000 1 0 0 0 1 0 0 0 1 3008.dat
+0 !BRICK_INSTANCE C-00203
+1 72 340.000 -64.000 40.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00204
+1 72 340.000 -64.000 120.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00205
+1 72 420.000 -64.000 40.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00206
+1 72 420.000 -64.000 120.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00207
+1 72 330.000 -56.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00208
+1 72 330.000 -32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00209
+1 72 330.000 -8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00210
+1 72 330.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00211
+1 72 330.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00212
+1 72 330.000 -56.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00213
+1 72 330.000 -32.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00214
+1 72 330.000 -8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00215
+1 72 330.000 16.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00216
+1 72 330.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00217
+1 72 330.000 -56.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00218
+1 72 330.000 -32.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00219
+1 72 330.000 -8.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00220
+1 72 330.000 16.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00221
+1 72 330.000 40.000 110.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00222
+1 72 330.000 -56.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00223
+1 72 330.000 -32.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00224
+1 72 330.000 -8.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00225
+1 72 330.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00226
+1 72 330.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00227
+1 72 350.000 -56.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00228
+1 72 350.000 -32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00229
+1 72 350.000 -8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00230
+1 72 350.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00231
+1 72 350.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00232
+1 72 350.000 -56.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00233
+1 72 350.000 -32.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00234
+1 72 350.000 -8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00235
+1 72 350.000 16.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00236
+1 72 350.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00237
+1 72 350.000 -56.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00238
+1 72 350.000 -32.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00239
+1 72 350.000 -8.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00240
+1 72 350.000 16.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00241
+1 72 350.000 40.000 110.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00242
+1 72 350.000 -56.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00243
+1 72 350.000 -32.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00244
+1 72 350.000 -8.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00245
+1 72 350.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00246
+1 72 350.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00247
+1 72 410.000 -56.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00248
+1 72 410.000 -32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00249
+1 72 410.000 -8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00250
+1 72 410.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00251
+1 72 410.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00252
+1 72 410.000 -56.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00253
+1 72 410.000 -32.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00254
+1 72 410.000 -8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00255
+1 72 410.000 16.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00256
+1 72 410.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00257
+1 72 410.000 -56.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00258
+1 72 410.000 -32.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00259
+1 72 410.000 -8.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00260
+1 72 410.000 16.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00261
+1 72 410.000 40.000 110.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00262
+1 72 410.000 -56.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00263
+1 72 410.000 -32.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00264
+1 72 410.000 -8.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00265
+1 72 410.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00266
+1 72 410.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00267
+1 72 430.000 -56.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00268
+1 72 430.000 -32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00269
+1 72 430.000 -8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00270
+1 72 430.000 16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00271
+1 72 430.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00272
+1 72 430.000 -56.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00273
+1 72 430.000 -32.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00274
+1 72 430.000 -8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00275
+1 72 430.000 16.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00276
+1 72 430.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00277
+1 72 430.000 -56.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00278
+1 72 430.000 -32.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00279
+1 72 430.000 -8.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00280
+1 72 430.000 16.000 110.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00281
+1 72 430.000 40.000 110.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00282
+1 72 430.000 -56.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00283
+1 72 430.000 -32.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00284
+1 72 430.000 -8.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00285
+1 72 430.000 16.000 130.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00286
+1 72 430.000 40.000 130.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00287
+1 72 100.000 0.000 40.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 !BRICK_INSTANCE C-00288
+1 72 110.000 8.000 10.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00289
+1 72 110.000 8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00290
+1 72 110.000 8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00291
+1 72 110.000 8.000 70.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00292
+1 72 110.000 32.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00293
+1 72 110.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00294
+1 72 110.000 32.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00295
+1 72 110.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00296
+1 72 160.000 -24.000 40.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 !BRICK_INSTANCE C-00297
+1 72 170.000 -16.000 10.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00298
+1 72 170.000 -16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00299
+1 72 170.000 -16.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00300
+1 72 170.000 -16.000 70.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00301
+1 72 170.000 8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00302
+1 72 170.000 32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00303
+1 72 170.000 32.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00304
+1 72 170.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00305
+1 72 170.000 8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00306
+1 72 170.000 32.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00307
+1 72 170.000 32.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00308
+1 72 170.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00309
+1 72 220.000 -48.000 40.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 !BRICK_INSTANCE C-00310
+1 72 230.000 -40.000 10.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00311
+1 72 230.000 -40.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00312
+1 72 230.000 -40.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00313
+1 72 230.000 -40.000 70.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00314
+1 72 230.000 -16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00315
+1 72 230.000 8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00316
+1 72 230.000 32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00317
+1 72 230.000 32.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00318
+1 72 230.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00319
+1 72 230.000 -16.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00320
+1 72 230.000 8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00321
+1 72 230.000 32.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00322
+1 72 230.000 32.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00323
+1 72 230.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00324
+1 72 280.000 -72.000 40.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 !BRICK_INSTANCE C-00325
+1 72 290.000 -64.000 10.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00326
+1 72 290.000 -64.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00327
+1 72 290.000 -64.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00328
+1 72 290.000 -64.000 70.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00329
+1 72 290.000 -40.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00330
+1 72 290.000 -16.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00331
+1 72 290.000 8.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00332
+1 72 290.000 32.000 30.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00333
+1 72 290.000 32.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00334
+1 72 290.000 40.000 30.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00335
+1 72 290.000 -40.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00336
+1 72 290.000 -16.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00337
+1 72 290.000 8.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00338
+1 72 290.000 32.000 50.000 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE C-00339
+1 72 290.000 32.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00340
+1 72 290.000 40.000 50.000 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE C-00341
+1 72 140.000 -16.000 10.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00342
+1 72 140.000 -16.000 30.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00343
+1 72 140.000 -16.000 50.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00345
+1 72 200.000 -40.000 10.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00346
+1 72 200.000 -40.000 30.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00347
+1 72 200.000 -40.000 50.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00348
+1 72 200.000 -40.000 70.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00349
+1 72 260.000 -64.000 10.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00350
+1 72 260.000 -64.000 30.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00351
+1 72 260.000 -64.000 50.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00352
+1 72 260.000 -64.000 70.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00353
+1 72 320.000 -88.000 10.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00354
+1 72 320.000 -88.000 50.000 1 0 0 0 1 0 0 0 1 3004.dat
+0 !BRICK_INSTANCE C-00355
+1 72 140.000 40.000 110.000 1 0 0 0 1 0 0 0 1 3023b.dat
+0 !BRICK_INSTANCE C-00358
+1 71 130.000 -96.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00359
+1 71 130.000 -72.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00360
+1 71 130.000 -48.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00361
+1 71 130.000 -24.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00362
+1 71 150.000 -96.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00363
+1 71 150.000 -72.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00364
+1 71 150.000 -48.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00365
+1 71 150.000 -24.000 120.000 0 0 1 0 1 0 -1 0 0 3008.dat
+0 !BRICK_INSTANCE C-00366
+1 72 140.000 -32.000 120.000 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE C-00367
+1 72 140.000 0.000 120.000 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE C-00121
+1 1 40.000 8.000 60.000 1 0 0 0 1 0 0 0 1 3020.dat
+0 !BRICK_INSTANCE C-00158
+1 72 40.000 40.000 100.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 !BRICK_INSTANCE C-00159
+1 72 80.000 40.000 100.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 !BRICK_INSTANCE C-00160
+1 72 40.000 40.000 140.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 !BRICK_INSTANCE C-00161
+1 72 80.000 40.000 140.000 0 0 1 0 1 0 -1 0 0 3020.dat
+0 NOFILE
