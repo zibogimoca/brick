@@ -2,6 +2,8 @@
 기능: 지정한 MPD의 실제 배치와 상태 기록, 부품 사전·가격·형상 무결성을 검사한다.
 입력: models/<모델>.mpd 위치 인자, docs/gobricks-dictionary.json, assets/policy.md.
 선택: --check-body-overlaps로 직육면체 몸체 겹침을 검사한다. 곡선·관절은 제외한다.
+      --check-stud-connectivity --instance-prefix A- --expect-stud-components 2는
+      본문에서 지원 부품의 명목 스터드·힌지 연결망을 계산한다. 실물 체결 판정이 아니다.
 출력: 기본은 읽기 전용. --sync-state는 schema 3의 ID·수량·좌표 상태만 본문에서 갱신한다.
       --sync-only와 함께 쓰면 상태 갱신만 수행한다. 형상·목표 치수·검증 판정은 바꾸지 않는다.
 실행: python3 tools/validate_model.py models/tyrannosaurus-v1.mpd
@@ -12,7 +14,7 @@
 """
 import argparse,hashlib,json,math
 from pathlib import Path
-from collections import Counter
+from collections import Counter,defaultdict
 from decimal import Decimal
 
 def mm(a,b):return [sum(a[r*3+k]*b[k*3+c] for k in range(3)) for r in range(3) for c in range(3)]
@@ -21,7 +23,7 @@ def plus(a,b):return [x+y for x,y in zip(a,b)]
 def near(a,b):return all(abs(x-y)<1e-4 for x,y in zip(a,b))
 def body_overlaps(state, parts):
  # Nominal solid rectangular bodies only; studs, cavities and curved/Technic parts excluded.
- names={x+'.dat' for x in ['3001','3003','3005','3004','3010','3622','3020','3024','3023b','3022','3710','3623','3666','3460','3034','3832','3031','3032','60479']}
+ names={x+'.dat' for x in ['3001','3003','3005','3004','3010','3622','3020','3024','3023b','3022','3710','3623','3666','3460','3034','3832','3795','15573','3031','3032','3033','3035','3036','41539','3007','3008','2431','3068b','3069b','3070b','63864','60479']}
  def dot(a,b):return sum(x*y for x,y in zip(a,b))
  def cross(a,b):return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]
  boxes=[]
@@ -42,7 +44,7 @@ def body_overlaps(state, parts):
    if not separated:errors.append((o,other))
  return errors
 
-def sync_state(model):
+def sync_state(model,write=True):
  """Derive schema-3 metadata without changing any type-1 geometry or verification claims."""
  text=model.read_text();lines=text.splitlines(keepends=True)
  state_line=next(i for i,l in enumerate(lines) if l.startswith('0 !BRICK_STATE '))
@@ -114,8 +116,115 @@ def sync_state(model):
  edits[state_line]='0 !BRICK_STATE '+json.dumps(state,ensure_ascii=False,separators=(',',':'))+'\n'
  result=''.join(insertions.get(i,'')+edits.get(i,l) for i,l in enumerate(lines))
  # Type-1 rows, local coordinates and all connection/coverage claims stay unchanged.
- model.write_text(result)
- print('STATE SYNC:',len(placed),'root parts;',state['unplaced_piece_count'],'unplaced parts. Geometry and verification claims unchanged.')
+ if write:
+  model.write_text(result)
+  print('STATE SYNC:',len(placed),'root parts;',state['unplaced_piece_count'],'unplaced parts. Geometry and verification claims unchanged.')
+ return state
+
+def stud_connectivity(state,prefix=''):
+ """Nominal named seating grids, not a general clutch or solid-interference solver.
+
+ Unknown parts remain unresolved nodes. Named hinge pairs add edges only when
+ their reference centers and axes coincide. Side attachments, tubes, clips,
+ load, detent torque and physical mold tolerance are outside this inventory.
+ """
+ shapes={
+  '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),
+  '3007':(8,2,24),'3008':(8,1,24),'3010':(4,1,24),'3622':(3,1,24),
+  '3020':(4,2,8),'3021':(3,2,8),'3022':(2,2,8),'3023b':(2,1,8),
+  '3024':(1,1,8),'3031':(4,4,8),'3032':(6,4,8),'3033':(10,6,8),
+  '3034':(8,2,8),'3035':(8,4,8),'3036':(8,6,8),'3710':(4,1,8),
+  '3795':(6,2,8),'15573':(2,1,8),'3623':(3,1,8),'3666':(6,1,8),'3460':(8,1,8),'3832':(10,2,8),
+  '41539':(8,8,8),'3062b':(1,1,24),'3941':(2,2,24),'6141':(1,1,8),
+  '2431':(4,1,8),'3068b':(2,2,8),'3069b':(2,1,8),'3070b':(1,1,8),
+  '63864':(3,1,8),'60592':(2,1,48),'3659':(4,1,24),'3307':(6,1,48),
+  '4275b':(2,1,8),'4276b':(2,1,8),'44301':(2,1,8),'44302':(2,1,8)}
+ tiles={'2431','3068b','3069b','3070b','63864','15068'}
+ hinges={'2429':('vertical','male',[0,4,0],[0,1,0]),
+         '2430':('vertical','female',[0,4,0],[0,1,0]),
+         '4275b':('finger','male',[30,4,0],[0,0,1]),
+         '4276b':('finger','female',[30,4,0],[0,0,1]),
+         '44301':('click','male',[30,2,0],[0,0,1]),
+         '44302':('click','female',[30,2,0],[0,0,1])}
+ rows=[o for o in state['instances'] if o['id'].startswith(prefix)]
+ if not rows:raise ValueError('No physical instances match prefix '+repr(prefix))
+ ids={o['id'] for o in rows}
+ if len(ids)!=len(rows):raise ValueError('Connectivity requires unique physical IDs')
+ adj={id:set() for id in ids};tops=defaultdict(list);pivots=defaultdict(list)
+ unknown=Counter();contact_pairs=Counter();hinge_pairs=set();epsilon=1e-4
+ def key(p):return tuple(math.floor(x/epsilon) for x in p)
+ def neighbors(p):
+  k=key(p)
+  return [(k[0]+x,k[1]+y,k[2]+z) for x in (-1,0,1) for y in (-1,0,1) for z in (-1,0,1)]
+ def close(a,b):return sum((x-y)**2 for x,y in zip(a,b))<=epsilon**2
+ def dot(a,b):return sum(x*y for x,y in zip(a,b))
+ def seats(o,upper):
+  n=Path(o['part']).stem
+  if n not in shapes and n not in {'2429','2430','43722','43723','60477','15068'}:return None
+  if upper and n in tiles:return []
+  if n=='15573' and upper:local=[[0,0,0]]
+  elif n in {'2429','2430'}:
+   xs=(-30,-10) if n=='2429' else (10,30)
+   local=[[x,0 if upper else 8,10] for x in xs]
+  elif n in {'43722','43723'}:
+   local=[[10 if n=='43722' else -10,0 if upper else 8,z] for z in (-20,0,20)]
+  elif n=='60477':local=[[0,0,0]] if upper else [[0,24,z] for z in (-60,-40,-20,0)]
+  elif n=='15068':local=[[x,0,z] for x in (-10,10) for z in (-10,10)]
+  else:
+   w,d,h=shapes[n]
+   local=[[(x-(w-1)/2)*20,0 if upper else h,(z-(d-1)/2)*20]
+          for x in range(w) for z in range(d)
+          if not (n in {'3659','3307'} and not upper and x not in (0,w-1))]
+  normal=mv(o['matrix'],[0,-1 if upper else 1,0])
+  return [(plus(o['position'],mv(o['matrix'],v)),normal) for v in local]
+ for o in rows:
+  points=seats(o,True)
+  if points is None:unknown[o['part']]+=1;continue
+  for p,n in points:tops[key(p)].append((o['id'],p,n))
+ for o in rows:
+  for p,n in seats(o,False) or []:
+   for k in neighbors(p):
+    for other,q,normal in tops[k]:
+     if other!=o['id'] and close(p,q) and abs(dot(n,normal)+1)<1e-5:
+      adj[other].add(o['id']);adj[o['id']].add(other)
+      contact_pairs[tuple(sorted((other,o['id'])))]+=1
+  n=Path(o['part']).stem
+  if n in hinges:
+   family,sex,pivot,axis=hinges[n];p=plus(o['position'],mv(o['matrix'],pivot));axis=mv(o['matrix'],axis)
+   for k in neighbors(p):
+    for other,f,s,q,a in pivots[k]:
+     if family==f and sex!=s and close(p,q) and abs(abs(dot(axis,a))-1)<1e-5:
+      adj[other].add(o['id']);adj[o['id']].add(other);hinge_pairs.add(tuple(sorted((other,o['id']))))
+   pivots[key(p)].append((o['id'],family,sex,p,axis))
+ remaining=set(ids);components=[]
+ while remaining:
+  seen=set();todo=[min(remaining)]
+  while todo:
+   id=todo.pop()
+   if id in seen:continue
+   seen.add(id);todo.extend(adj[id]-seen)
+  remaining-=seen;components.append(sorted(seen))
+ components.sort(key=lambda c:(-len(c),c[0]))
+ return {'components':components,'unsupported_parts':dict(unknown),
+         'stud_matches':sum(contact_pairs.values()),'hinge_pairs':sorted(hinge_pairs),
+         'stud_pairs':dict(contact_pairs),'instances':len(rows)}
+
+def report_stud_connectivity(model,prefix='',expected=None):
+ # Derive from actual FILE references, not potentially stale !BRICK_STATE positions.
+ result=stud_connectivity(sync_state(model,write=False),prefix)
+ print('NOMINAL CONNECTIVITY:',prefix or '(all)',result['instances'],'instances;',
+       result['stud_matches'],'stud-grid matches;',len(result['hinge_pairs']),'hinge pairs')
+ print('Component sizes:',[len(c) for c in result['components']])
+ for c in result['components']:
+  print(' COMPONENT',len(c),'parts; sample IDs:',','.join(c[:8]))
+ print('Unsupported part instances:',result['unsupported_parts'])
+ print('SCOPE: named nominal seating grids and hinge center/axis coincidence only; '
+       'unsupported or unmodeled side connections remain unresolved. Not clutch, mesh, torque or load verification.')
+ if expected is not None:
+  if result['unsupported_parts']:raise ValueError('Cannot assert component count with unsupported parts')
+  if len(result['components'])!=expected:
+   raise ValueError('Expected '+str(expected)+' nominal components; found '+str(len(result['components'])))
+ return result
 
 def run(model, check_body=False):
  root=Path('assets');manifest=json.loads((root/'policy.md').read_text().split('<!-- asset-manifest:start -->\n```json\n',1)[1].split('\n```\n<!-- asset-manifest:end -->',1)[0])
@@ -212,9 +321,17 @@ def run(model, check_body=False):
   print('CAD DATA PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes; imported rounded matrices retained.')
  else:
   print('LEGO GEOMETRY PASS:',model,len(items),'physical part references;',len(manifest['files']),'asset hashes;',len(counts),'verified GoBricks SKUs; GoBricks product mapping is not required for v0.')
- print('NOT VERIFIED: assembly connectivity, exact mesh collision, joint range/strength, load stability, superiority to reference product.')
+ print('NOT VERIFIED: physical assembly/clutch, exact mesh collision, joint range/strength, load stability, superiority to reference product.')
 if __name__=='__main__':
- parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('model',type=Path);parser.add_argument('--check-body-overlaps',action='store_true',help='직육면체 브릭 몸체의 명목 간섭 검사; 실패 시 0이 아닌 코드 반환');parser.add_argument('--sync-state',action='store_true',help='schema 3 본문 기준 상태 갱신; 반복 호출의 ID가 모호하면 저장 없이 실패');parser.add_argument('--sync-only',action='store_true',help='--sync-state와 함께 상태 갱신만 실행');args=parser.parse_args()
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('model',type=Path);parser.add_argument('--check-body-overlaps',action='store_true',help='직육면체 브릭 몸체의 명목 간섭 검사; 실패 시 0이 아닌 코드 반환');parser.add_argument('--sync-state',action='store_true',help='schema 3 본문 기준 상태 갱신; 반복 호출의 ID가 모호하면 저장 없이 실패');parser.add_argument('--sync-only',action='store_true',help='--sync-state와 함께 상태 갱신만 실행')
+ parser.add_argument('--check-stud-connectivity',action='store_true',help='본문에서 명목 스터드·힌지 연결망 보고; 실물 체결 검사가 아님')
+ parser.add_argument('--instance-prefix',default='',help='연결망을 검사할 물리 ID 접두어, 예: A-')
+ parser.add_argument('--expect-stud-components',type=int,help='지원 부품으로만 구성된 범위의 예상 연결 성분 수; 다르면 실패')
+ args=parser.parse_args()
  if args.sync_only and not args.sync_state:parser.error('--sync-only requires --sync-state')
+ if args.instance_prefix and not args.check_stud_connectivity:parser.error('--instance-prefix requires --check-stud-connectivity')
+ if args.expect_stud_components is not None and args.expect_stud_components<1:parser.error('--expect-stud-components must be positive')
+ if args.expect_stud_components is not None and not args.check_stud_connectivity:parser.error('--expect-stud-components requires --check-stud-connectivity')
  if args.sync_state:sync_state(args.model)
+ if args.check_stud_connectivity:report_stud_connectivity(args.model,args.instance_prefix,args.expect_stud_components)
  if not args.sync_only:run(args.model,args.check_body_overlaps)
