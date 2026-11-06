@@ -555,6 +555,7 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "6143",
     "61482",
     "61485",
+    "61510",
     "61678",
     "6179",
     "6182",
@@ -13624,6 +13625,83 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "parts/3307.dat": {
       "sha256": "1f8a35123063dec41f8668b45b733cf2eeb639ab08b47a58f4daf399e7df50d0",
       "bytes": 2552
+    },
+    "parts/61510.dat": {
+      "sha256": "9c15b52a7da3df6c95acc7aedd2d38376b95280bff81049a075d2ad28d48f3f1",
+      "bytes": 523,
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+      "archive_member": "ldraw/parts/61510.dat",
+      "source_sha256": "f6fe0ccffa2ef45a954145f3fc3b76700419d1a8ee63d9f72cae8d60d34933c2",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "parts/subparts/61510s01.dat": {
+      "sha256": "abeb1cb720fd8d6f6f77459a250a1de4075f616fdab9e2161753f19f4fb4a0be",
+      "bytes": 14830,
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+      "archive_member": "ldraw/parts/s/61510s01.dat",
+      "source_sha256": "8d44a935ddf25b39d81ba51ad692c07c25462f125f2540518a16f85d2c40ead5",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "primitives/2-4ring5.dat": {
+      "sha256": "2d4ec24b3b5da12202307ab0a6f1615d16c3ae6a411a5b17b5a431d3880344ed",
+      "bytes": 1163,
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+      "archive_member": "ldraw/p/2-4ring5.dat",
+      "source_sha256": "2d4ec24b3b5da12202307ab0a6f1615d16c3ae6a411a5b17b5a431d3880344ed",
+      "author": "Willy Tschager [Holly-Wood]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "primitives/1-4ring16.dat": {
+      "sha256": "0d14f1a7b1894d771c50cc7af151c585992d419e33a0e853eb77ffe9f3b568cc",
+      "bytes": 859,
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+      "archive_member": "ldraw/p/1-4ring16.dat",
+      "source_sha256": "0d14f1a7b1894d771c50cc7af151c585992d419e33a0e853eb77ffe9f3b568cc",
+      "author": "Franklin W. Cain [fwcain]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "primitives/1-4ring34.dat": {
+      "sha256": "9261fb9669e9ee28a8890a641b58deaf0ff2b528927965490b443b515672b1e1",
+      "bytes": 639,
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+      "archive_member": "ldraw/p/1-4ring34.dat",
+      "source_sha256": "9261fb9669e9ee28a8890a641b58deaf0ff2b528927965490b443b515672b1e1",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "primitives/t02o1111.dat": {
+      "sha256": "6d616f346d88fd97615756a0c2f9b9cee79308cf5c9f08727e22fc2a30157248",
+      "bytes": 9556,
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+      "archive_member": "ldraw/p/t02o1111.dat",
+      "source_sha256": "6d616f346d88fd97615756a0c2f9b9cee79308cf5c9f08727e22fc2a30157248",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
+    },
+    "primitives/t02i1111.dat": {
+      "sha256": "827358bfc070521d4cfafac88fb7f74c41bd75e4ca712e13e28afc34c3533e40",
+      "bytes": 9543,
+      "source": "https://library.ldraw.org/library/updates/complete.zip",
+      "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+      "archive_member": "ldraw/p/t02i1111.dat",
+      "source_sha256": "827358bfc070521d4cfafac88fb7f74c41bd75e4ca712e13e28afc34c3533e40",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+      "modification": "Dependency paths normalized; original geometry coordinates and headers preserved."
     }
   }
 }
