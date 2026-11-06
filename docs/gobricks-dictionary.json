@@ -393779,6 +393779,21 @@
           ],
           "evidence": "assets/primitives/stug-1x2.dat -> primitives/stud.dat",
           "id": "stud-1"
+        },
+        {
+          "kind": "hinge_axis",
+          "position": [
+            0,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "LDraw pair 2429/2430; validator models the coincident vertical pivot",
+          "id": "pivot"
         }
       ],
       "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
@@ -394534,6 +394549,21 @@
           ],
           "evidence": "assets/parts/2430.dat -> primitives/stud.dat",
           "id": "stud-1"
+        },
+        {
+          "kind": "hinge_axis",
+          "position": [
+            0,
+            4,
+            0
+          ],
+          "axis": [
+            0,
+            1,
+            0
+          ],
+          "evidence": "LDraw pair 2429/2430; validator models the coincident vertical pivot",
+          "id": "pivot"
         }
       ],
       "geometry_verification": "reference_mesh_resolved; reference bounds computed; selected connector annotations; physical fit unverified",
