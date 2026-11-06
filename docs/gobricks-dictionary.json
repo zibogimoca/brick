@@ -221044,10 +221044,38 @@
         "3036",
         "3036a"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3036.dat",
+        "sha256": "7c108504e6823f46eecab58f22931e13acd9cf6a355e849f11556bba88a6e71c",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate; exact physical mold/tolerance not measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            60.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          4.8,
+          48.0
+        ],
+        "basis": "Recursive envelope of official LDraw triangles/quads and referenced primitives; not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_reference_shape_imported; physical_mold_unverified",
       "offers": [
         {
           "sku": "GDS-524-010",
@@ -330071,10 +330099,38 @@
         "12939",
         "3307"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/3307.dat",
+        "sha256": "1f8a35123063dec41f8668b45b733cf2eeb639ab08b47a58f4daf399e7df50d0",
+        "source": "LDraw official complete.zip",
+        "mapping_basis": "Manufacturer-listed LDraw candidate; exact physical mold/tolerance not measured.",
+        "asset_manifest": "assets/policy.md#에셋-목록"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "frame": "right-handed, up=-Y, original LDraw origin",
+        "bounds": {
+          "min": [
+            -60.0,
+            -4.0,
+            -10.0
+          ],
+          "max": [
+            60.0,
+            52.7412,
+            10.0
+          ]
+        },
+        "size_mm": [
+          48.0,
+          22.6965,
+          8.0
+        ],
+        "basis": "Recursive envelope of official LDraw triangles/quads and referenced primitives; not a physical measurement."
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "official_reference_shape_imported; physical_mold_unverified",
       "offers": [
         {
           "sku": "GDS-678-010",

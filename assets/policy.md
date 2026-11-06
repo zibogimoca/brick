@@ -13583,6 +13583,10 @@ LDraw 형상을 사용하되 폴더 이름과 내부 참조를 읽기 쉬운 이
     "primitives/48/tm08q1125.dat": {
       "sha256": "434bfd27bbad673f788ff14c629f1e7475d73a931289f867f32f2c28f6c90f15",
       "bytes": 26829
+    },
+    "parts/3307.dat": {
+      "sha256": "1f8a35123063dec41f8668b45b733cf2eeb639ab08b47a58f4daf399e7df50d0",
+      "bytes": 2552
     }
   }
 }
