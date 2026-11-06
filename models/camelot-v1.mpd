@@ -1,0 +1,488 @@
+0 FILE camelot-v1.ldr
+0 !BRICK_STATE {"schema_version":3,"parts_system":"LEGO","status":"original_lego_design_in_progress","display_name":"카멜롯","version_label":"버전 1 · 공통 기초·성벽 회랑","piece_count":234,"instances":[{"id":"M-00001","group":"cm-main-foundation.ldr","part":"41539.dat","color":72,"position":[560.0,0.0,640.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"base plate"},{"id":"M-00002","group":"cm-main-foundation.ldr","part":"41539.dat","color":72,"position":[560.0,0.0,800.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"base plate"},{"id":"M-00003","group":"cm-main-foundation.ldr","part":"41539.dat","color":72,"position":[720.0,0.0,640.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"base plate"},{"id":"M-00004","group":"cm-main-foundation.ldr","part":"41539.dat","color":72,"position":[720.0,0.0,800.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"base plate"},{"id":"M-00005","group":"cm-main-foundation.ldr","part":"41539.dat","color":72,"position":[880.0,0.0,640.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"base plate"},{"id":"M-00006","group":"cm-main-foundation.ldr","part":"41539.dat","color":72,"position":[880.0,0.0,800.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"base plate"},{"id":"M-00007","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-24.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00008","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-48.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00009","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-72.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00010","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-24.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00011","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-48.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00012","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-72.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00013","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-24.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00014","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-48.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00015","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-72.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00016","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-24.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00017","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-48.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00018","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[520.0,-72.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00019","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-24.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00020","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-48.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00021","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-72.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00022","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-24.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00023","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-48.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00024","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-72.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00025","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-24.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00026","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-48.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00027","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-72.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00028","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-24.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00029","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-48.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00030","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[600.0,-72.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00031","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-24.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00032","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-48.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00033","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-72.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00034","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-24.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00035","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-48.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00036","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-72.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00037","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-24.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00038","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-48.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00039","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-72.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00040","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-24.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00041","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-48.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00042","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[680.0,-72.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00043","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-24.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00044","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-48.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00045","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-72.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00046","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-24.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00047","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-48.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00048","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-72.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00049","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-24.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00050","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-48.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00051","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-72.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00052","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-24.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00053","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-48.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00054","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[760.0,-72.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00055","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-24.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00056","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-48.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00057","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-72.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00058","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-24.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00059","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-48.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00060","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-72.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00061","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-24.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00062","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-48.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00063","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-72.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00064","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-24.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00065","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-48.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00066","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[840.0,-72.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00067","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-24.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00068","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-48.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00069","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-72.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00070","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-24.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00071","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-48.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00072","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-72.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00073","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-24.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00074","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-48.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00075","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-72.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00076","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-24.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00077","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-48.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00078","group":"cm-main-foundation.ldr","part":"3003.dat","color":72,"position":[920.0,-72.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"structural pier"},{"id":"M-00079","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[640.0,-80.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00080","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[800.0,-80.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00081","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[640.0,-80.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00082","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[800.0,-80.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00083","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[640.0,-80.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00084","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[800.0,-80.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00085","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[640.0,-80.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00086","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[800.0,-80.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"cross-module tie"},{"id":"M-00087","group":"cm-main-foundation.ldr","part":"3022.dat","color":72,"position":[520.0,-80.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"edge pier cap"},{"id":"M-00088","group":"cm-main-foundation.ldr","part":"3022.dat","color":72,"position":[520.0,-80.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"edge pier cap"},{"id":"M-00089","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[520.0,-80.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"longitudinal seam tie"},{"id":"M-00090","group":"cm-main-foundation.ldr","part":"3022.dat","color":72,"position":[920.0,-80.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"edge pier cap"},{"id":"M-00091","group":"cm-main-foundation.ldr","part":"3022.dat","color":72,"position":[920.0,-80.0,840.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"edge pier cap"},{"id":"M-00092","group":"cm-main-foundation.ldr","part":"3034.dat","color":72,"position":[920.0,-80.0,720.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"longitudinal seam tie"},{"id":"M-00093","group":"cm-main-foundation.ldr","part":"41539.dat","color":71,"position":[560.0,-88.0,640.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"shared underside mounting deck"},{"id":"M-00094","group":"cm-main-foundation.ldr","part":"41539.dat","color":71,"position":[560.0,-88.0,800.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"shared underside mounting deck"},{"id":"M-00095","group":"cm-main-foundation.ldr","part":"41539.dat","color":71,"position":[720.0,-88.0,640.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"shared underside mounting deck"},{"id":"M-00096","group":"cm-main-foundation.ldr","part":"41539.dat","color":71,"position":[720.0,-88.0,800.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"shared underside mounting deck"},{"id":"M-00097","group":"cm-main-foundation.ldr","part":"41539.dat","color":71,"position":[880.0,-88.0,640.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"shared underside mounting deck"},{"id":"M-00098","group":"cm-main-foundation.ldr","part":"41539.dat","color":71,"position":[880.0,-88.0,800.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"shared underside mounting deck"},{"id":"M-00099","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[660.0,-96.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00100","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[660.0,-96.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00101","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[660.0,-96.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00102","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[660.0,-96.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00103","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[660.0,-96.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00104","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[660.0,-96.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00105","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[700.0,-96.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00106","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[700.0,-96.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00107","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[700.0,-96.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00108","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[700.0,-96.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00109","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[700.0,-96.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00110","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[700.0,-96.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00111","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[740.0,-96.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00112","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[740.0,-96.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00113","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[740.0,-96.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00114","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[740.0,-96.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00115","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[740.0,-96.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00116","group":"cm-main-paving.ldr","part":"3068b.dat","color":19,"position":[740.0,-96.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00117","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[780.0,-96.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00118","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[780.0,-96.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00119","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[780.0,-96.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00120","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[780.0,-96.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00121","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[780.0,-96.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00122","group":"cm-main-paving.ldr","part":"3068b.dat","color":71,"position":[780.0,-96.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"finished access path"},{"id":"M-00123","group":"cm-main-arcade.ldr","part":"3024.dat","color":71,"position":[530.0,-96.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"column foot"},{"id":"M-00124","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-120.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00125","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-144.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00126","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-168.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00127","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-192.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00128","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-216.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00129","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-240.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00130","group":"cm-main-arcade.ldr","part":"3024.dat","color":71,"position":[530.0,-96.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"column foot"},{"id":"M-00131","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-120.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00132","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-144.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00133","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-168.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00134","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-192.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00135","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-216.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00136","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[530.0,-240.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00137","group":"cm-main-arcade.ldr","part":"3023b.dat","color":71,"position":[530.0,-96.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier foot"},{"id":"M-00138","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[530.0,-120.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00139","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[530.0,-144.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00140","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[530.0,-168.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00141","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[530.0,-192.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00142","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[530.0,-216.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00143","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[530.0,-240.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00144","group":"cm-main-arcade.ldr","part":"3307.dat","color":19,"position":[530.0,-288.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"arch with distinct adjacent seats"},{"id":"M-00145","group":"cm-main-arcade.ldr","part":"3307.dat","color":19,"position":[530.0,-288.0,740.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"arch with distinct adjacent seats"},{"id":"M-00146","group":"cm-main-arcade.ldr","part":"3024.dat","color":71,"position":[630.0,-96.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"column foot"},{"id":"M-00147","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-120.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00148","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-144.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00149","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-168.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00150","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-192.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00151","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-216.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00152","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-240.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00153","group":"cm-main-arcade.ldr","part":"3024.dat","color":71,"position":[630.0,-96.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"column foot"},{"id":"M-00154","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-120.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00155","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-144.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00156","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-168.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00157","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-192.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00158","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-216.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00159","group":"cm-main-arcade.ldr","part":"3005.dat","color":71,"position":[630.0,-240.0,790.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"end pier"},{"id":"M-00160","group":"cm-main-arcade.ldr","part":"3023b.dat","color":71,"position":[630.0,-96.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier foot"},{"id":"M-00161","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[630.0,-120.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00162","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[630.0,-144.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00163","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[630.0,-168.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00164","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[630.0,-192.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00165","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[630.0,-216.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00166","group":"cm-main-arcade.ldr","part":"3004.dat","color":71,"position":[630.0,-240.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"shared double pier"},{"id":"M-00167","group":"cm-main-arcade.ldr","part":"3307.dat","color":19,"position":[630.0,-288.0,620.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"arch with distinct adjacent seats"},{"id":"M-00168","group":"cm-main-arcade.ldr","part":"3307.dat","color":19,"position":[630.0,-288.0,740.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"arch with distinct adjacent seats"},{"id":"M-00169","group":"cm-main-roof.ldr","part":"3032.dat","color":71,"position":[580.0,-296.0,600.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"roof seating plate"},{"id":"M-00170","group":"cm-main-roof.ldr","part":"3032.dat","color":71,"position":[580.0,-296.0,680.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"roof seating plate"},{"id":"M-00171","group":"cm-main-roof.ldr","part":"3032.dat","color":71,"position":[580.0,-296.0,760.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"roof seating plate"},{"id":"M-00172","group":"cm-main-roof.ldr","part":"3036.dat","color":71,"position":[580.0,-304.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0],"role":"roof spine joining three lower plates"},{"id":"M-00173","group":"cm-main-roof.ldr","part":"3795.dat","color":71,"position":[580.0,-304.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"roof end closure"},{"id":"M-00174","group":"cm-main-roof.ldr","part":"3795.dat","color":71,"position":[580.0,-304.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0],"role":"roof end closure"},{"id":"M-00175","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[540.0,-312.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00176","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[540.0,-312.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00177","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[540.0,-312.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00178","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[540.0,-312.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00179","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[540.0,-312.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00180","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[540.0,-312.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00181","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[580.0,-312.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00182","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[580.0,-312.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00183","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[580.0,-312.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00184","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[580.0,-312.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00185","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[580.0,-312.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00186","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[580.0,-312.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00187","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[620.0,-312.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00188","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[620.0,-312.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00189","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[620.0,-312.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00190","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[620.0,-312.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00191","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[620.0,-312.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00192","group":"cm-main-roof.ldr","part":"3022.dat","color":71,"position":[620.0,-312.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00193","group":"cm-main-roof.ldr","part":"3068b.dat","color":272,"position":[580.0,-320.0,580.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00194","group":"cm-main-roof.ldr","part":"3068b.dat","color":272,"position":[580.0,-320.0,620.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00195","group":"cm-main-roof.ldr","part":"3068b.dat","color":272,"position":[580.0,-320.0,660.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00196","group":"cm-main-roof.ldr","part":"3068b.dat","color":272,"position":[580.0,-320.0,700.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00197","group":"cm-main-roof.ldr","part":"3068b.dat","color":272,"position":[580.0,-320.0,740.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00198","group":"cm-main-roof.ldr","part":"3068b.dat","color":272,"position":[580.0,-320.0,780.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00199","group":"cm-main-roof.ldr","part":"2431.dat","color":72,"position":[550.0,-320.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00200","group":"cm-main-roof.ldr","part":"2431.dat","color":72,"position":[550.0,-320.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00201","group":"cm-main-roof.ldr","part":"2431.dat","color":72,"position":[550.0,-320.0,760.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00202","group":"cm-main-roof.ldr","part":"2431.dat","color":72,"position":[610.0,-320.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00203","group":"cm-main-roof.ldr","part":"2431.dat","color":72,"position":[610.0,-320.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00204","group":"cm-main-roof.ldr","part":"2431.dat","color":72,"position":[610.0,-320.0,760.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00205","group":"cm-main-roof.ldr","part":"3010.dat","color":71,"position":[530.0,-336.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00206","group":"cm-main-roof.ldr","part":"3010.dat","color":71,"position":[530.0,-336.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00207","group":"cm-main-roof.ldr","part":"3010.dat","color":71,"position":[530.0,-336.0,760.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00208","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[530.0,-360.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00209","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[530.0,-368.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00210","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[530.0,-360.0,610.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00211","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[530.0,-368.0,610.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00212","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[530.0,-360.0,650.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00213","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[530.0,-368.0,650.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00214","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[530.0,-360.0,690.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00215","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[530.0,-368.0,690.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00216","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[530.0,-360.0,730.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00217","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[530.0,-368.0,730.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00218","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[530.0,-360.0,770.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00219","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[530.0,-368.0,770.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00220","group":"cm-main-roof.ldr","part":"3010.dat","color":71,"position":[630.0,-336.0,600.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00221","group":"cm-main-roof.ldr","part":"3010.dat","color":71,"position":[630.0,-336.0,680.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00222","group":"cm-main-roof.ldr","part":"3010.dat","color":71,"position":[630.0,-336.0,760.0],"matrix":[0.0,0.0,1.0,0.0,1.0,0.0,-1.0,0.0,0.0]},{"id":"M-00223","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[630.0,-360.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00224","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[630.0,-368.0,570.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00225","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[630.0,-360.0,610.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00226","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[630.0,-368.0,610.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00227","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[630.0,-360.0,650.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00228","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[630.0,-368.0,650.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00229","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[630.0,-360.0,690.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00230","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[630.0,-368.0,690.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00231","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[630.0,-360.0,730.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00232","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[630.0,-368.0,730.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00233","group":"cm-main-roof.ldr","part":"3005.dat","color":71,"position":[630.0,-360.0,770.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]},{"id":"M-00234","group":"cm-main-roof.ldr","part":"3070b.dat","color":72,"position":[630.0,-368.0,770.0],"matrix":[1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]}],"joints":[],"assembly_verified":false,"layout":"shared_courtyard_foundation_and_covered_walkway","layout_note":"공통 기초·진입로·성벽 회랑 첫 조립체 · 전체 성 아님","target_program":"BrickLink Designer Program later variant","submission_palette_status":"not_checked","shared_interfaces":{"foundation_footprint_studs":{"x":[24,48],"z":[28,44]},"bearing_deck_y":-88,"finished_floor_y":-96,"finished_path_studs":{"x":[32,40],"z":[28,40]},"covered_walkway_studs":{"x":[26,32],"z":[28,40]},"building_floor_rule":"Local floor plate originY=0 maps to worldY=-96; underside seats atY=-88 on shared deck. Do not duplicate deck or main paving.","upper_walkway_y":-320},"verification":{"scope":"nominal support seats, rectangular bodies and native DAT surfaces","connected_components":[234],"stud_grid_matches":984,"unsupported_stud_parts":0,"rectangular_body_overlaps":0,"native_surface_contacts":0,"native_surface_crossings":0,"roof_removed_components":[168,66],"physical_clutch_and_load":"not_verified"},"reference_geometry_bounds_cm":{"length":19.2,"height":15.04,"width":12.8},"placed_piece_count":234,"unplaced_submodels":[],"unplaced_piece_count":0}
+1 16 480 0 560 1 0 0 0 1 0 0 0 1 cm-main-shared-court.ldr
+0 NOFILE
+0 FILE cm-main-shared-court.ldr
+0 Common bearing deck and side passage, not a complete castle.
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-main-foundation.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-main-paving.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-main-arcade.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 cm-main-roof.ldr
+0 NOFILE
+0 FILE cm-main-foundation.ldr
+0 !BRICK_INSTANCE M-00001
+1 72 80 0 80 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00002
+1 72 80 0 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00003
+1 72 240 0 80 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00004
+1 72 240 0 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00005
+1 72 400 0 80 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00006
+1 72 400 0 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00007
+1 72 40 -24 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00008
+1 72 40 -48 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00009
+1 72 40 -72 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00010
+1 72 40 -24 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00011
+1 72 40 -48 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00012
+1 72 40 -72 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00013
+1 72 40 -24 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00014
+1 72 40 -48 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00015
+1 72 40 -72 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00016
+1 72 40 -24 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00017
+1 72 40 -48 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00018
+1 72 40 -72 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00019
+1 72 120 -24 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00020
+1 72 120 -48 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00021
+1 72 120 -72 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00022
+1 72 120 -24 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00023
+1 72 120 -48 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00024
+1 72 120 -72 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00025
+1 72 120 -24 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00026
+1 72 120 -48 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00027
+1 72 120 -72 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00028
+1 72 120 -24 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00029
+1 72 120 -48 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00030
+1 72 120 -72 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00031
+1 72 200 -24 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00032
+1 72 200 -48 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00033
+1 72 200 -72 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00034
+1 72 200 -24 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00035
+1 72 200 -48 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00036
+1 72 200 -72 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00037
+1 72 200 -24 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00038
+1 72 200 -48 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00039
+1 72 200 -72 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00040
+1 72 200 -24 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00041
+1 72 200 -48 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00042
+1 72 200 -72 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00043
+1 72 280 -24 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00044
+1 72 280 -48 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00045
+1 72 280 -72 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00046
+1 72 280 -24 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00047
+1 72 280 -48 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00048
+1 72 280 -72 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00049
+1 72 280 -24 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00050
+1 72 280 -48 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00051
+1 72 280 -72 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00052
+1 72 280 -24 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00053
+1 72 280 -48 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00054
+1 72 280 -72 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00055
+1 72 360 -24 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00056
+1 72 360 -48 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00057
+1 72 360 -72 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00058
+1 72 360 -24 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00059
+1 72 360 -48 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00060
+1 72 360 -72 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00061
+1 72 360 -24 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00062
+1 72 360 -48 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00063
+1 72 360 -72 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00064
+1 72 360 -24 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00065
+1 72 360 -48 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00066
+1 72 360 -72 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00067
+1 72 440 -24 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00068
+1 72 440 -48 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00069
+1 72 440 -72 40 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00070
+1 72 440 -24 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00071
+1 72 440 -48 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00072
+1 72 440 -72 120 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00073
+1 72 440 -24 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00074
+1 72 440 -48 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00075
+1 72 440 -72 200 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00076
+1 72 440 -24 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00077
+1 72 440 -48 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00078
+1 72 440 -72 280 1 0 0 0 1 0 0 0 1 3003.dat
+0 !BRICK_INSTANCE M-00079
+1 72 160 -80 40 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00080
+1 72 320 -80 40 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00081
+1 72 160 -80 120 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00082
+1 72 320 -80 120 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00083
+1 72 160 -80 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00084
+1 72 320 -80 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00085
+1 72 160 -80 280 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00086
+1 72 320 -80 280 1 0 0 0 1 0 0 0 1 3034.dat
+0 !BRICK_INSTANCE M-00087
+1 72 40 -80 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00088
+1 72 40 -80 280 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00089
+1 72 40 -80 160 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE M-00090
+1 72 440 -80 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00091
+1 72 440 -80 280 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00092
+1 72 440 -80 160 0 0 1 0 1 0 -1 0 0 3034.dat
+0 !BRICK_INSTANCE M-00093
+1 71 80 -88 80 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00094
+1 71 80 -88 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00095
+1 71 240 -88 80 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00096
+1 71 240 -88 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00097
+1 71 400 -88 80 1 0 0 0 1 0 0 0 1 41539.dat
+0 !BRICK_INSTANCE M-00098
+1 71 400 -88 240 1 0 0 0 1 0 0 0 1 41539.dat
+0 NOFILE
+0 FILE cm-main-paving.ldr
+0 !BRICK_INSTANCE M-00099
+1 71 180 -96 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00100
+1 71 180 -96 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00101
+1 71 180 -96 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00102
+1 71 180 -96 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00103
+1 71 180 -96 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00104
+1 71 180 -96 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00105
+1 19 220 -96 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00106
+1 19 220 -96 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00107
+1 19 220 -96 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00108
+1 19 220 -96 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00109
+1 19 220 -96 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00110
+1 19 220 -96 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00111
+1 19 260 -96 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00112
+1 19 260 -96 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00113
+1 19 260 -96 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00114
+1 19 260 -96 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00115
+1 19 260 -96 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00116
+1 19 260 -96 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00117
+1 71 300 -96 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00118
+1 71 300 -96 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00119
+1 71 300 -96 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00120
+1 71 300 -96 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00121
+1 71 300 -96 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00122
+1 71 300 -96 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 NOFILE
+0 FILE cm-main-arcade.ldr
+0 !BRICK_INSTANCE M-00123
+1 71 50.0 -96 10.0 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE M-00124
+1 71 50.0 -120 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00125
+1 71 50.0 -144 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00126
+1 71 50.0 -168 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00127
+1 71 50.0 -192 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00128
+1 71 50.0 -216 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00129
+1 71 50.0 -240 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00130
+1 71 50.0 -96 230.0 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE M-00131
+1 71 50.0 -120 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00132
+1 71 50.0 -144 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00133
+1 71 50.0 -168 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00134
+1 71 50.0 -192 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00135
+1 71 50.0 -216 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00136
+1 71 50.0 -240 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00137
+1 71 50.0 -96 120 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE M-00138
+1 71 50.0 -120 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00139
+1 71 50.0 -144 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00140
+1 71 50.0 -168 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00141
+1 71 50.0 -192 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00142
+1 71 50.0 -216 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00143
+1 71 50.0 -240 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00144
+1 19 50.0 -288 60 0 0 1 0 1 0 -1 0 0 3307.dat
+0 !BRICK_INSTANCE M-00145
+1 19 50.0 -288 180 0 0 1 0 1 0 -1 0 0 3307.dat
+0 !BRICK_INSTANCE M-00146
+1 71 150.0 -96 10.0 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE M-00147
+1 71 150.0 -120 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00148
+1 71 150.0 -144 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00149
+1 71 150.0 -168 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00150
+1 71 150.0 -192 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00151
+1 71 150.0 -216 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00152
+1 71 150.0 -240 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00153
+1 71 150.0 -96 230.0 1 0 0 0 1 0 0 0 1 3024.dat
+0 !BRICK_INSTANCE M-00154
+1 71 150.0 -120 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00155
+1 71 150.0 -144 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00156
+1 71 150.0 -168 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00157
+1 71 150.0 -192 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00158
+1 71 150.0 -216 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00159
+1 71 150.0 -240 230.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00160
+1 71 150.0 -96 120 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 !BRICK_INSTANCE M-00161
+1 71 150.0 -120 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00162
+1 71 150.0 -144 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00163
+1 71 150.0 -168 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00164
+1 71 150.0 -192 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00165
+1 71 150.0 -216 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00166
+1 71 150.0 -240 120 0 0 1 0 1 0 -1 0 0 3004.dat
+0 !BRICK_INSTANCE M-00167
+1 19 150.0 -288 60 0 0 1 0 1 0 -1 0 0 3307.dat
+0 !BRICK_INSTANCE M-00168
+1 19 150.0 -288 180 0 0 1 0 1 0 -1 0 0 3307.dat
+0 NOFILE
+0 FILE cm-main-roof.ldr
+0 Lift-off roof and four-stud-clear crenellated upper passage.
+0 !BRICK_INSTANCE M-00169
+1 71 100 -296 40 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE M-00170
+1 71 100 -296 120 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE M-00171
+1 71 100 -296 200 1 0 0 0 1 0 0 0 1 3032.dat
+0 !BRICK_INSTANCE M-00172
+1 71 100 -304 120 0 0 1 0 1 0 -1 0 0 3036.dat
+0 !BRICK_INSTANCE M-00173
+1 71 100 -304 20 1 0 0 0 1 0 0 0 1 3795.dat
+0 !BRICK_INSTANCE M-00174
+1 71 100 -304 220 1 0 0 0 1 0 0 0 1 3795.dat
+0 !BRICK_INSTANCE M-00175
+1 71 60 -312 20 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00176
+1 71 60 -312 60 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00177
+1 71 60 -312 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00178
+1 71 60 -312 140 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00179
+1 71 60 -312 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00180
+1 71 60 -312 220 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00181
+1 71 100 -312 20 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00182
+1 71 100 -312 60 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00183
+1 71 100 -312 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00184
+1 71 100 -312 140 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00185
+1 71 100 -312 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00186
+1 71 100 -312 220 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00187
+1 71 140 -312 20 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00188
+1 71 140 -312 60 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00189
+1 71 140 -312 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00190
+1 71 140 -312 140 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00191
+1 71 140 -312 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00192
+1 71 140 -312 220 1 0 0 0 1 0 0 0 1 3022.dat
+0 !BRICK_INSTANCE M-00193
+1 272 100 -320 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00194
+1 272 100 -320 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00195
+1 272 100 -320 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00196
+1 272 100 -320 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00197
+1 272 100 -320 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00198
+1 272 100 -320 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 !BRICK_INSTANCE M-00199
+1 72 70.0 -320 40 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE M-00200
+1 72 70.0 -320 120 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE M-00201
+1 72 70.0 -320 200 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE M-00202
+1 72 130.0 -320 40 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE M-00203
+1 72 130.0 -320 120 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE M-00204
+1 72 130.0 -320 200 0 0 1 0 1 0 -1 0 0 2431.dat
+0 !BRICK_INSTANCE M-00205
+1 71 50.0 -336 40 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE M-00206
+1 71 50.0 -336 120 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE M-00207
+1 71 50.0 -336 200 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE M-00208
+1 71 50.0 -360 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00209
+1 72 50.0 -368 10.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00210
+1 71 50.0 -360 50.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00211
+1 72 50.0 -368 50.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00212
+1 71 50.0 -360 90.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00213
+1 72 50.0 -368 90.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00214
+1 71 50.0 -360 130.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00215
+1 72 50.0 -368 130.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00216
+1 71 50.0 -360 170.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00217
+1 72 50.0 -368 170.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00218
+1 71 50.0 -360 210.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00219
+1 72 50.0 -368 210.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00220
+1 71 150.0 -336 40 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE M-00221
+1 71 150.0 -336 120 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE M-00222
+1 71 150.0 -336 200 0 0 1 0 1 0 -1 0 0 3010.dat
+0 !BRICK_INSTANCE M-00223
+1 71 150.0 -360 10.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00224
+1 72 150.0 -368 10.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00225
+1 71 150.0 -360 50.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00226
+1 72 150.0 -368 50.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00227
+1 71 150.0 -360 90.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00228
+1 72 150.0 -368 90.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00229
+1 71 150.0 -360 130.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00230
+1 72 150.0 -368 130.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00231
+1 71 150.0 -360 170.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00232
+1 72 150.0 -368 170.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 !BRICK_INSTANCE M-00233
+1 71 150.0 -360 210.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 !BRICK_INSTANCE M-00234
+1 72 150.0 -368 210.0 1 0 0 0 1 0 0 0 1 3070b.dat
+0 NOFILE
