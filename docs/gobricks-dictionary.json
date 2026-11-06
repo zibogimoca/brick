@@ -224684,10 +224684,33 @@
         "41539",
         "42534"
       ],
-      "geometry": null,
-      "dimensions": null,
+      "geometry": {
+        "file": "assets/parts/41539.dat",
+        "sha256": "2f01cbe3e4239b745973cfc7f580f43afe0846e429de03c5943cbcdb05e8e9c8"
+      },
+      "dimensions": {
+        "units": "LDU",
+        "mm_per_ldu": 0.4,
+        "bounds": {
+          "min": [
+            -80.0,
+            -4.0,
+            -80.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            80.0
+          ]
+        },
+        "size_mm": [
+          64.0,
+          4.8,
+          64.0
+        ]
+      },
       "connectors": null,
-      "geometry_verification": "not_verified",
+      "geometry_verification": "Official GoBricks catalog image GDS-528-072 visually shows an 8x8 studded plate; mapped to LDraw 41539 (8x8 flat plate) candidate and its DAT bounds. Exact GoBricks mold and fit are untested.",
       "offers": [
         {
           "sku": "GDS-528-010",
