@@ -641807,6 +641807,57 @@
     "30504": {
       "geometry": "assets/parts/30504.dat",
       "gobricks_status": "not_verified"
+    },
+    "4493c01": {
+      "geometry": "assets/parts/4493c01.dat",
+      "source": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "gobricks_status": "not_applicable_LEGO_model_no_GoBricks_SKU",
+      "verification": "Official LDraw shape and source header verified; minifigure/horse placement is a CAD reference only; physical fit/clutch not verified. Author: Sascha Broich\r. License: Redistributable under CCAL version 2.0 : see CAreadme.txt\r"
+    },
+    "3849": {
+      "geometry": "assets/parts/3849.dat",
+      "source": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "gobricks_status": "not_applicable_LEGO_model_no_GoBricks_SKU",
+      "verification": "Official LDraw shape and source header verified; minifigure/horse placement is a CAD reference only; physical fit/clutch not verified. Author: James Jessiman\r. License: Redistributable under CCAL version 2.0 : see CAreadme.txt\r"
+    },
+    "973": {
+      "geometry": "assets/parts/973.dat",
+      "source": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "gobricks_status": "not_applicable_LEGO_model_no_GoBricks_SKU",
+      "verification": "Official LDraw shape and source header verified; minifigure/horse placement is a CAD reference only; physical fit/clutch not verified. Author: Steve Bliss [sbliss]\r. License: Redistributable under CCAL version 2.0 : see CAreadme.txt\r"
+    },
+    "3815c01": {
+      "geometry": "assets/parts/3815c01.dat",
+      "source": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "gobricks_status": "not_applicable_LEGO_model_no_GoBricks_SKU",
+      "verification": "Official LDraw shape and source header verified; minifigure/horse placement is a CAD reference only; physical fit/clutch not verified. Author: Steve Bliss [sbliss]\r. License: Redistributable under CCAL version 2.0 : see CAreadme.txt\r"
+    },
+    "3844": {
+      "geometry": "assets/parts/3844.dat",
+      "source": "https://github.com/ldraw-linux/ldraw-library/tree/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw",
+      "gobricks_status": "not_applicable_LEGO_model_no_GoBricks_SKU",
+      "verification": "Official LDraw shape and source header verified; minifigure/horse placement is a CAD reference only; physical fit/clutch not verified. Author: Chris Dee [cwdee]\r. License: Redistributable under CCAL version 2.0 : see CAreadme.txt\r"
+    },
+    "3818": {
+      "geometry": "assets/parts/3818.dat",
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3818.dat",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw minifigure right arm; shoulder datum and rotation follow source HELP comments. GoBricks sale mapping not verified.",
+      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9"
+    },
+    "3819": {
+      "geometry": "assets/parts/3819.dat",
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3819.dat",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw minifigure left arm; shoulder datum and rotation follow source HELP comments. GoBricks sale mapping not verified.",
+      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9"
+    },
+    "3820": {
+      "geometry": "assets/parts/3820.dat",
+      "source": "https://raw.githubusercontent.com/ldraw-linux/ldraw-library/e74a0f8fdbd6444316492a315d24e8bd0dfec6f9/ldraw/parts/3820.dat",
+      "gobricks_status": "not_verified",
+      "verification": "Official LDraw minifigure hand; wrist post/grip geometry from pinned source. GoBricks sale mapping not verified.",
+      "source_commit": "e74a0f8fdbd6444316492a315d24e8bd0dfec6f9"
     }
   },
   "instruction_sets": {

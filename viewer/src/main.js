@@ -43,7 +43,21 @@ function fit() {
   camera.near = Math.max(radius / 100, .1); camera.far = (distance + radius) * 10; camera.updateProjectionMatrix();
   controls.target.copy(center); controls.update();
 }
-function dispose(object) { const materials = new Set(); object.traverse(o => { o.geometry?.dispose(); if (o.material) for (const m of [].concat(o.material)) materials.add(m); }); for (const m of materials) { for (const v of Object.values(m)) if (v?.isTexture) v.dispose(); m.dispose(); } }
+function dispose(object) {
+  const geometries = new Set(), materials = new Set(), textures = new Set();
+  object.traverse(o => {
+    if (o.geometry) geometries.add(o.geometry);
+    // LDraw material arrays can be sparse. Instanced batches also share their
+    // original meshes' geometry and materials; dispose each resource once.
+    for (const material of [].concat(o.material || [])) if (material?.isMaterial) materials.add(material);
+  });
+  for (const geometry of geometries) geometry.dispose();
+  for (const material of materials) {
+    for (const value of Object.values(material)) if (value?.isTexture) textures.add(value);
+    material.dispose();
+  }
+  for (const texture of textures) texture.dispose();
+}
 async function open(buffer, name, revision) {
   const current = ++generation; let failed = false; status('모델을 읽는 중…'); $('models').disabled = true;
   const manager = new THREE.LoadingManager(); manager.onError = () => { failed = true; };
@@ -217,6 +231,11 @@ function refreshInstanceBatches() {
 
 // Study roots remain independent of part hiding and pose controls.
 function configureStudyViews(metadata) {
+  $('component-visibility').hidden = true;
+  $('component-options').replaceChildren();
+  $('components-all').onclick = null;
+  $('study-hint').textContent = '부위별 설계 표본 · 전체 성당 조립 전';
+  if (metadata?.component_views?.length) { configureComponentViews(metadata); return; }
   const views = metadata?.study_views || [];
   const select = $('study-view');
   select.replaceChildren();
@@ -247,5 +266,61 @@ function configureStudyViews(metadata) {
   };
   select.onchange = apply;
   select.value = available.some(view => view.id === metadata.default_study_view) ? metadata.default_study_view : 'all';
+  apply();
+}
+
+// Architectural sections can include nested assemblies (for example, the arena
+// and sword courtyard under a shared container). Toggle only named sections,
+// leaving their containers visible and individual part hiding independent.
+function configureComponentViews(metadata) {
+  const select = $('study-view'), groups = new Map();
+  select.replaceChildren(); select.onchange = null;
+  model.traverse(object => {
+    const file = object.userData.fileName;
+    if (!file?.endsWith('.ldr')) return;
+    if (!groups.has(file)) groups.set(file, []);
+    groups.get(file).push(object);
+  });
+  const available = metadata.component_views.filter(view => view.files?.length && view.files.every(file => groups.has(file)));
+  $('study-panel').hidden = !available.length;
+  if (!available.length) return;
+  $('component-visibility').hidden = false;
+  $('study-hint').textContent = '한 구역만 보거나 체크박스로 여러 구역을 함께 표시하세요.';
+  select.add(new Option('전체 모델', 'all'));
+  const boxes = new Map();
+  for (const view of available) {
+    select.add(new Option(view.label, view.id));
+    const label = document.createElement('label'), input = document.createElement('input');
+    input.type = 'checkbox'; input.checked = true; input.value = view.id;
+    label.append(input, document.createTextNode(view.label));
+    $('component-options').append(label); boxes.set(view.id, input);
+  }
+  const custom = new Option('직접 선택', 'custom'); custom.disabled = true;
+  select.add(custom);
+  const baseSummary = $('summary').textContent;
+  const apply = () => {
+    const enabled = available.filter(view => boxes.get(view.id).checked);
+    for (const view of available) for (const file of view.files) {
+      for (const group of groups.get(file)) group.visible = boxes.get(view.id).checked;
+    }
+    select.value = enabled.length === available.length ? 'all' : enabled.length === 1 ? enabled[0].id : 'custom';
+    selected = null; $('hide').disabled = true;
+    $('selection').textContent = '부품을 클릭하면 선택됩니다.';
+    refreshInstanceBatches(); fit();
+    $('summary').textContent = select.value === 'all' ? baseSummary : `${enabled.length === 1 ? enabled[0].label : `${enabled.length}개 구역 선택`} · ${baseSummary}`;
+    status(enabled.length ? `${enabled.length}/${available.length}개 구역 표시 · LEGO 창작 설계 중` : '모든 구역이 숨겨져 있습니다. 체크박스나 전체 모델 복원으로 다시 표시하세요.');
+  };
+  for (const input of boxes.values()) input.onchange = apply;
+  select.onchange = () => {
+    if (select.value === 'custom') return;
+    for (const [id, input] of boxes) input.checked = select.value === 'all' || select.value === id;
+    apply();
+  };
+  $('components-all').onclick = () => {
+    for (const item of hidden) item.visible = true;
+    hidden.length = 0;
+    for (const input of boxes.values()) input.checked = true;
+    apply();
+  };
   apply();
 }
