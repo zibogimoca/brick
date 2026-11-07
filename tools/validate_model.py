@@ -50,7 +50,7 @@ def reference_bounds(name):
 
 def body_overlaps(state, parts, native_geometry=False):
  # Nominal solid rectangular bodies only; studs, cavities and curved/Technic parts excluded.
- names={x+'.dat' for x in ['3001','3003','3005','3004','3010','3622','3020','3024','3023b','3022','3710','3623','3666','3460','3034','3832','3795','15573','3031','3032','3033','3035','3036','41539','3007','3008','2431','3068b','3069b','3070b','63864','60479']}
+ names={x+'.dat' for x in ['3001','3003','3005','3004','3010','3622','3020','3021','3024','3023b','3022','3710','3623','3666','3460','3034','3832','3795','15573','3031','3032','3033','3035','3036','41539','3007','3008','2431','3068b','3069b','3070b','63864','60479']}
  def dot(a,b):return sum(x*y for x,y in zip(a,b))
  def cross(a,b):return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]
  boxes=[]
@@ -158,7 +158,7 @@ def stud_connectivity(state,prefix=''):
  shapes={
   '3001':(4,2,24),'3003':(2,2,24),'3004':(2,1,24),'3005':(1,1,24),'87087':(1,1,24),
   '98283':(2,1,24), # Native 1x2 embossed brick: standard top/bottom seats.
-  '3700':(2,1,24), # Native 1x2 Technic brick: top studs and underside seats only; side bore excluded.
+  '3700':(2,1,24),'32000':(2,1,24), # Native top/bottom seats only; side bores excluded.
   '4032a':(2,2,8),'18838':(12,1,72),'16577':(8,1,48),
   '3040b':(1,2,24),'3678b':(2,2,48),'3037':(4,2,24), # Native slope seating below.
   '3007':(8,2,24),'3008':(8,1,24),'3010':(4,1,24),'3622':(3,1,24),
