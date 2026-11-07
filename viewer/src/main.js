@@ -167,25 +167,36 @@ function configurePose(metadata) {
     if (object.userData.fileName?.endsWith('.ldr')) {
       poseGroups.set(object.userData.fileName, object);
       object.userData.baseQuaternion = object.quaternion.clone();
+      object.userData.basePosition = object.position.clone();
       object.userData.poseAngles = { x: 0, y: 0, z: 0 };
     }
   });
   $('pose-panel').hidden = !poseJoints.length; $('joint').replaceChildren();
   for (const j of poseJoints) { const o = document.createElement('option'); o.value = j.id; o.textContent = j.label; $('joint').append(o); }
   $('joint').onchange = showJoint;
-  $('pose-reset').onclick = () => { for (const o of poseGroups.values()) { o.quaternion.copy(o.userData.baseQuaternion); o.userData.poseAngles = { x: 0, y: 0, z: 0 }; } showJoint(); refreshInstanceBatches(); fit(); };
+  $('pose-reset').onclick = () => { for (const o of poseGroups.values()) { o.quaternion.copy(o.userData.baseQuaternion); o.position.copy(o.userData.basePosition); o.userData.poseAngles = { x: 0, y: 0, z: 0 }; } showJoint(); refreshInstanceBatches(); fit(); };
   $('support-toggle').textContent = '지지대 숨기기';
+  $('support-toggle').hidden = !poseGroups.has('support.ldr');
+  $('support-toggle').parentElement.classList.toggle('two', poseGroups.has('support.ldr'));
   $('support-toggle').onclick = () => { const o = poseGroups.get('support.ldr'); if (o) { o.visible = !o.visible; $('support-toggle').textContent = o.visible ? '지지대 숨기기' : '지지대 보기'; refreshInstanceBatches(); } };
   showJoint();
 }
 function showJoint() {
   $('joint-axes').replaceChildren(); const j = poseJoints.find(j => j.id === $('joint').value); if (!j) return;
   const o = poseGroups.get(j.submodel); if (!o) return;
+  $('pose-hint').textContent = j.note || '화면상 가동 검토 · 실물 범위 미검증';
   for (const [axis, limits] of Object.entries(j.axes)) {
     const label = document.createElement('label'), text = document.createElement('span'), input = document.createElement('input');
     const names = { x: '좌우 기울임', y: '좌우 회전', z: '상하 회전' };
     input.type = 'range'; input.min = limits[0]; input.max = limits[1]; input.step = 1; input.value = o.userData.poseAngles[axis]; input.dataset.axis = axis;
-    const update = () => { text.textContent = `${names[axis]} ${input.value}°`; o.userData.poseAngles[axis] = Number(input.value); const a = o.userData.poseAngles; o.quaternion.copy(o.userData.baseQuaternion).multiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(...['x','y','z'].map(k => THREE.MathUtils.degToRad(a[k]))))); refreshInstanceBatches(); };
+    const update = () => {
+      text.textContent = `${j.axis_labels?.[axis] || names[axis]} ${input.value}${j.motion === 'linear' ? (j.unit || '%') : '°'}`;
+      o.userData.poseAngles[axis] = Number(input.value);
+      const a = o.userData.poseAngles, value = k => a[k] * (j.axis_scale?.[k] ?? 1);
+      if (j.motion === 'linear') o.position.copy(o.userData.basePosition).add(new THREE.Vector3(...['x','y','z'].map(value)));
+      else o.quaternion.copy(o.userData.baseQuaternion).multiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(...['x','y','z'].map(k => THREE.MathUtils.degToRad(value(k))))));
+      refreshInstanceBatches();
+    };
     input.oninput = update; update(); label.append(text, input); $('joint-axes').append(label);
   }
 }

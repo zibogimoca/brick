@@ -329,7 +329,7 @@ test('Camelot sections support solo, multiple visibility, empty state and full r
   await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
   await expect(page.locator('#version')).toContainText('camelot-v1.mpd', { timeout: 180000 });
   const boxes = page.locator('#component-options input');
-  await expect(boxes).toHaveCount(8);
+  await expect(boxes).toHaveCount(9);
   await expect(page.locator('#study-view')).toHaveValue('all');
   await page.selectOption('#study-view', 'palace');
   await expect(page.locator('#component-options input:checked')).toHaveCount(1);
@@ -347,9 +347,43 @@ test('Camelot sections support solo, multiple visibility, empty state and full r
   await expect(page.locator('#component-options input:checked')).toHaveCount(2);
   await page.click('#components-all');
   await expect(page.locator('#study-view')).toHaveValue('all');
-  await expect(page.locator('#component-options input:checked')).toHaveCount(8);
+  await expect(page.locator('#component-options input:checked')).toHaveCount(9);
   await page.selectOption('#models', 'dinosaur-7219');
   await expect(page.locator('#version')).toContainText('dinosaur-7219-v0.mpd', { timeout: 180000 });
   await expect(page.locator('#study-panel')).toBeHidden();
+  expect(errors).toEqual([]);
+});
+
+
+test('Camelot gate supports independent hinge and slide motion and resets both', async ({ page }) => {
+  await page.setViewportSize({ width: 640, height: 480 });
+  const errors = []; page.on('pageerror', e => errors.push(e.message));
+  page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
+  await page.goto('/');
+  await expect.poll(() => page.locator('#models option').count()).toBeGreaterThan(1);
+  await page.selectOption('#models', 'camelot');
+  await expect(page.locator('#models')).toBeEnabled({ timeout: 180000 });
+  await expect(page.locator('#version')).toContainText('camelot-v1.mpd', { timeout: 180000 });
+  await page.selectOption('#study-view', 'gate');
+  await expect(page.locator('#pose-panel')).toBeVisible();
+  await expect(page.locator('#support-toggle')).toBeHidden();
+  await expect(page.locator('#joint option')).toHaveText(['성문 · 도개교', '성문 · 낙하문']);
+  await expect(page.locator('#pose-hint')).toContainText('권양부');
+  const canvas = page.locator('canvas');
+  const before = await canvas.screenshot();
+  await page.locator('#joint-axes input').evaluate(el => { el.value = '60'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+  await expect(page.locator('#joint-axes')).toContainText('도개교 올림 60°');
+  const hinged = await canvas.screenshot(); expect(hinged.equals(before)).toBe(false);
+  await page.selectOption('#joint', 'gate-portcullis');
+  await page.locator('#joint-axes input').evaluate(el => { el.value = '100'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+  await expect(page.locator('#joint-axes')).toContainText('낙하문 열림 100%');
+  const raised = await canvas.screenshot(); expect(raised.equals(hinged)).toBe(false);
+  await page.selectOption('#joint', 'gate-drawbridge');
+  await expect(page.locator('#joint-axes input')).toHaveValue('60');
+  await page.click('#pose-reset');
+  await expect(page.locator('#joint-axes input')).toHaveValue('0');
+  await page.selectOption('#joint', 'gate-portcullis');
+  await expect(page.locator('#joint-axes input')).toHaveValue('0');
+  await expect(page.locator('#study-view')).toHaveValue('gate');
   expect(errors).toEqual([]);
 });
